@@ -6,7 +6,7 @@ excerpt: "Passion for conceptualization."
 date: 2015-06-30 19:40:00
 ---
 
->Please note this is an old post from my [fancylittlerobots website](fancylittlerobots.blogspot.com)
+>Please note this is an old post from my [fancylittlerobots website](https://fancylittlerobots.blogspot.com)
 <div style="text-align:center;"></div>
 
 **Recently, I've been questioning my plans for the future and after a certain amount of reflection, I came up with the following (seeming worthwhile?) reasons why a grad school education would be worth the shot.**
