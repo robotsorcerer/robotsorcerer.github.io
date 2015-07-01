@@ -3,9 +3,10 @@ layout: post
 comments: true
 title: Why a PhD?
 excerpt: "Passion for conceptualization."
-date: 2014-07-30 13:00:00
+date: 2015-06-30 19:40:00
 ---
 
+>Please note this is an old post from my [fancylittlerobots website](fancylittlerobots.blogspot.com)
 <div style="text-align:center;"></div>
 
 **Recently, I've been questioning my plans for the future and after a certain amount of reflection, I came up with the following (seeming worthwhile?) reasons why a grad school education would be worth the shot.**

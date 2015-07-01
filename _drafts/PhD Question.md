@@ -1,6 +1,16 @@
+---
+layout: post
+comments: true
+title: Why a PhD?
+excerpt: "Passion for conceptualization."
+date: 2015-06-30 19:40:00
+---
+
+>Please note this is an old post from my [fancylittlerobots website](fancylittlerobots.blogspot.com)
+<div style="text-align:center;"></div>
+
 **Recently, I've been questioning my plans for the future and after a certain amount of reflection, I came up with the following (seeming worthwhile?) reasons why a grad school education would be worth the shot.**
 
-###WHY PURSUE A PHD?
 
 **Passion for conceptualization.** I fancy conceptualizing, finding issues and directions, definitions, exposition and critical insight. In developing a new model or notion, I love making definitions and then developing algorithms and analyses which ultimately lead to the solution. The opportunity to feed (no, feast!) on ideas -- to investigate the physics behind machines and to understand the interconnectedness of components, hearing people's opinions, seeing the flaws in their ideas and improvising upon them to achieve some sort of epic grandeur has always been an intrinsic component of my thought-actions.
 
