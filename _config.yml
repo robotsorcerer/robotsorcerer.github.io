@@ -1,0 +1,13 @@
+# Site settings
+title: Olalekan Ogunmolu's blog
+email: 
+description: "Towards an autonomous future."
+baseurl: ""
+url: "http://lakehanne.github.io"
+twitter_username: patmeansnoble
+github_username:  lakehanne
+blogspot:         fancylittlerobots
+
+# Build settings
+markdown: redcarpet
+permalink: pretty
