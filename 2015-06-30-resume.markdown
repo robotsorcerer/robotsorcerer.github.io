@@ -1,9 +1,0 @@
----
-layout: post
-comments: true
-title: Resume_Work
-excerpt: "Rock-star researcher"
-date: 2015-06-30 19:40:00
-tags: Olalekan Soft-Robots Vision Control Bad-ass-scholar Sheffield UT-Dallas, Research-Assistant, Teaching-Assistant, RoboTec-Lab.
----
-… you can [get the PDF]({{ site.url }}/downloads/Resume_Work.pdf) directly.
