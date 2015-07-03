@@ -9,6 +9,8 @@ tags: PhD Thoughts Plans Purposes
 
 <div style="text-align:center;"></div>
 
+>**Note**: This is a post from my old blog. I am reposting this here to get catch a drift of jekyll et cetera. 
+
 **Recently, I've been questioning my plans for the future and after a certain amount of reflection, I came up with the following (seeming worthwhile?) reasons why a grad school education would be worth the shot.**
 
 
