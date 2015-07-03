@@ -1,13 +1,19 @@
 # Site settings
-title: Olalekan Ogunmolu's blog
+title: 			  	Olalekan Ogunmolu's blog
 email: 
-description: "Towards an autonomous future."
+description: 	  	"Towards an autonomous future."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: patmeansnoble
-github_username:  lakehanne
-blogspot:         fancylittlerobots
+url: 			  	"http://yourdomain.com"
+twitter_username: 	patmeansnoble
+github_username:  	lakehanne
+blogspot:         	fancylittlerobots
+timezone: 		  	America/Chicago
+#encoding: 			utf-10
+
+#collections: conferences journal articles computer vision natural robotics
 
 # Build settings
-markdown: redcarpet
-permalink: pretty
+markdown: 			redcarpet
+permalink: 			pretty
+#markdown: rdiscount
+#highlighter: pygments
