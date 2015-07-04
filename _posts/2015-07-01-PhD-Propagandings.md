@@ -2,14 +2,15 @@
 layout: post
 comments: true
 title: Why a PhD?
-excerpt: "Passion for conceptualization."
+excerpt: "I like to try things that other people find difficult.  Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy. Also, I’m a pretty thoughtful person and I have a great respect for people who know a lot of stuff about an esoteric subject."
 date: 2015-07-01 19:53:00
 tags: PhD Thoughts Plans Purposes
+permalink: pretty
 ---
 
 <div style="text-align:center;"></div>
 
->**Note**: This is a post from my old blog. I am reposting this here to get catch a drift of jekyll et cetera. 
+>**Note**: This is a post from my old [blog](http://fancylittlerobots.blogspot.com/2014/07/so-why-bother-with-phd.html). I am reposting this here to get catch a drift of jekyll et cetera. 
 
 **Recently, I've been questioning my plans for the future and after a certain amount of reflection, I came up with the following (seeming worthwhile?) reasons why a grad school education would be worth the shot.**
 
