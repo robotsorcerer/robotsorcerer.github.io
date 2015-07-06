@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://lakehanne.github.io"
 twitter_username: patmeansnoble
 github_username: lakehanne
-blogspot: fancylittlerobots
+blogspot_username: fancylittlerobots
 timezone: America/Chicago
 #collections: conferences journal articles computer vision natural robotics
 # Build settings
