@@ -8,6 +8,6 @@ permalink: /about/
 
 I am **Olalekan Ogunmolu**, a PhD student at University of Texas, studying Control Systems (mostly nonlinear dynamical systems), with applications in Computer Vision. 
 
-My CV is [here]({{ site.url }}/downloads/Resume_Work.pdf)..
+My [blog](http://lakehanne.github.io) has much more details.
 
-My [mostly academic blog](http://lakehanne.github.io) has much more details.
+[Curriculum Vitae]({{ site.url }}/downloads/Resume_Work.pdf).
