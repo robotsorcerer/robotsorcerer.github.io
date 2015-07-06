@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Olalekan Ogunmolu
+title: Questioning the Sanity of Reason.
 ---
 
 <div id="home">
   <h1><b>Blog Posts</b></h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date: "%b %-d, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      <li><span class = "post-date">{{ post.date | date: "%b %-d, %Y" }}</span> 
+        <!--&raquo;-->
+        <a class= "post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <br>
         {{  post.excerpt  }}
       </li>
@@ -16,8 +18,12 @@ title: Olalekan Ogunmolu
 
   <h1><b>Journal Publications, Conference Papers and Abstracts</b></h1>
   <ul class="posts">
-    <li><span>12 Jul 2015</span> &raquo; <a [An Image-Guided Soft Robotic Patient Positioning System for Maskless Head and Neck Cancer radiotherapy: A Proof-of-Concept Study]({{ site.url }}/downloads/AAPM_Abstract.pdf)> An Image-Guided Soft Robotic Patient Positioning System for Maskless Head and Neck Cancer radiotherapy: A Proof-of-Concept Study. <i>American Association of Physicists in Medicine</i>, <b>Annaheim, CA. USA.<b></a> Jul. 2015</li>
-    <li><span>24 Aug 2015</span> &raquo; <a href="http://arxiv.org/pdf/1506.04787v1">A Real-Time, Soft Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy: An Initial Investigation.<i> IEEE Conference on Automation Science and Engineering.</i><b> Gothenburg, Sweden.</b></a> Aug. 2015</li>
+    <li><span class = "post-date">Jul 12, 2015</span> 
+      
+      <a href="http://www.aapm.org/meetings/2015AM/PRAbs.asp?mid=99&aid=29621"> An Image-Guided Soft Robotic Patient Positioning System for Maskless Head and Neck Cancer radiotherapy: A Proof-of-Concept Study. <i>American Association of Physicists in Medicine</i>, Annaheim, CA. USA. </a> Jul. 2015</li>
+      <li><span class = "post-date">Aug 24, 2015</span> 
+
+      <a href="http://arxiv.org/pdf/1506.04787v1">A Real-Time, Soft Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy: An Initial Investigation.<i> IEEE Conference on Automation Science and Engineering.</i> Gothenburg, Sweden.</a> Aug. 2015</li>
 
 
 </div>
