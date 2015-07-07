@@ -5,10 +5,6 @@ tags: Soft-Robots, Vision, Control, Bad-ass-scholar, Sheffield, UT-Dallas, Resea
 permalink: /about/
 ---
 
-
-![Dallas](/downloads/Sheffield.jpg)
-<img style="float: right" src="/downloads/Sheffield.jpg">
-
 I am an interdisciplinary engineer who combines experience in telecommunications and organizational management with academic training in physics and control systems. I am currently a PhD student at the **University of Texas**, studying **control systems** (mostly nonlinear dynamical systems), with a pinch in computer vision being advised by [Nick Gans](http://www.utdallas.edu/~ngans/). 
 
 Prior to this, I had my *Master of Science in Engineering* at the **University of Sheffield** in England where I majored in **control systems** under the advisement of [Tony J. Dodd](https://www.sheffield.ac.uk/acse/staff/tjd).
