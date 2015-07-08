@@ -8,7 +8,7 @@ twitter_username: patmeansnoble
 github_username: lakehanne
 blogspot_username: fancylittlerobots
 timezone: America/Chicago
-  gems:
+gems:
     - jekyll-redirect-from
 markdown: redcarpet
 highlighter: pygments
