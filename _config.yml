@@ -8,8 +8,8 @@ twitter_username: patmeansnoble
 github_username: lakehanne
 blogspot_username: fancylittlerobots
 timezone: America/Chicago
-#collections: conferences journal articles computer vision natural robotics
-# Build settings
+  gems:
+    - jekyll-redirect-from
 markdown: redcarpet
 highlighter: pygments
 permalink: pretty

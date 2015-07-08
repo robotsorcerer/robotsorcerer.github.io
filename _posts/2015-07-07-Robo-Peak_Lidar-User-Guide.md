@@ -5,7 +5,7 @@ title: Robo Peak Lidar User Guide
 excerpt: "The rplidar is a 360 degree laser scanning device equipped with a rotary motor that spins when connected to any USB 2.0/3.0 device. It spins at 5.5 Hz and I uderstand it can be configured at a 	user-specified scan-rate ..."
 date: 2015-07-07 16:00:00
 tags: Lidars, Sensing, Robots
-permalink: pretty
+permalink: robopeak
 ---
 
 <div style="text-align:center;"></div>

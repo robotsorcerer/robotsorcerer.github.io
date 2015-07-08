@@ -4,7 +4,7 @@ title: Dynamic Fusion: Reconstruction and Tracking of Non-rigid scenes in Real-T
 comments: true
 date: 2015-07-07 21:20:25
 excerpt: "Dynamic Fusion is an approach for solving a volumetric flow field that transforms the state of the scene at each time instant into a fixed, canonical frame."
-permalink: pretty
+permalink: dynamic-fusion
 ---
 
 ###Review of Richard Newcombe's CVPR 2015 Dynamic Fusion Best Paper
