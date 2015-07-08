@@ -4,7 +4,7 @@ title: About
 tags: Soft-Robots, Vision, Control, Bad-ass-scholar, Sheffield, UT-Dallas, Research-Assistant, Teaching-Assistant, RoboTec-Lab.
 permalink: /about/
 ---
-<div class="align-right">href="/downloads/Resume_Work.pdf"</div>
+<!--<a href="/downloads/Resume_Work.pdf" title="Curriculum Vitae"> </a>-->
 [Curriculum Vitae]({{ site.url }}/downloads/Resume_Work.pdf).
 
 I am an interdisciplinary engineer who combines experience in telecommunications and organizational management with academic training in physics and control systems. I am currently a PhD student at the **University of Texas**, studying **control systems** (mostly nonlinear dynamical systems), with a pinch in computer vision being advised by [Nick Gans](http://www.utdallas.edu/~ngans/). 
@@ -16,7 +16,7 @@ My [academic blog](http://lakehanne.github.io) has much more details on my resea
 
 
 
-Hobbies: iCycle, iSkate, & iSwim.
+Hobbies: iCycle, iSwim & iSkate --in that order.
 
 
 `Gentle Bloke`. `Somewhere on the border of introverted and extroverted`. `Lover of Pun`. `Seeker of Truth`. `Science Guy`. `Teacher to some`. `Student of many`.
