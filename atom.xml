@@ -4,19 +4,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 <title>Olalekan Ogunmolu</title>
- <link href="http://pat.olalekan-ogunmolu.com/atom.xml" rel="self"/>
- <link href="http://pat.olalekan-ogunmolu.com/"/>
+ <link href="http://www.scriptedonchips.com/atom.xml" rel="self"/>
+ <link href="http://www.scriptedonchips.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://pat.olalekan-ogunmolu.com/</id>
+ <id>http://www.scriptedonchips.com/</id>
  <author>
    <name>Olalekan Ogunmolu</name>
-   <email>lexilighty@gmail.com</email>
+   <email>patlekano@gmail@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://pat.olalekan-ogunmolu.com{{ post.url }}"/>
+   <link href="www.scriptedonchips.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://pat.olalekan-ogunmolu.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
