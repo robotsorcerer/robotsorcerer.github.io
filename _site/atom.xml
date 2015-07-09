@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 <title>Olalekan Ogunmolu</title>
- <link href="http://www.scriptedonchips.com/atom.xml" rel="self"/>
- <link href="http://www.scriptedonchips.com/"/>
- <updated>2015-07-08T20:26:29-05:00</updated>
+ <link href="http://www.scriptedonachip.com/atom.xml" rel="self"/>
+ <link href="http://www.scriptedonachip.com/"/>
+ <updated>2015-07-08T21:02:28-05:00</updated>
  <id>http://www.scriptedonchips.com/</id>
  <author>
    <name>Olalekan Ogunmolu</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>Robo Peak Lidar User Guide</title>
-   <link href="www.scriptedonchips.com/Robo Peak Lidar"/>
+   <link href="www.scriptedonachip.com/Robo Peak Lidar"/>
    <updated>2015-07-07T11:00:00-05:00</updated>
    <id>http://pat.olalekan-ogunmolu.com/Robo-Peak_Lidar-User-Guide</id>
    <content type="html">&lt;div style=&quot;text-align:center;&quot;&gt;&lt;/div&gt;
@@ -118,7 +118,7 @@
  
  <entry>
    <title>ROS Notes</title>
-   <link href="www.scriptedonchips.com/2015/07/06/ROS-Notes/"/>
+   <link href="www.scriptedonachip.com/2015/07/06/ROS-Notes/"/>
    <updated>2015-07-06T00:00:00-05:00</updated>
    <id>http://pat.olalekan-ogunmolu.com/2015/07/06/ROS-Notes</id>
    <content type="html">&lt;blockquote&gt;
@@ -419,7 +419,7 @@ information sensor_msgs/Image does, so we can convert either representation to t
  
  <entry>
    <title>Why bother with a PhD?</title>
-   <link href="www.scriptedonchips.com/gradlife"/>
+   <link href="www.scriptedonachip.com/gradlife"/>
    <updated>2014-07-01T14:53:00-05:00</updated>
    <id>http://pat.olalekan-ogunmolu.com/PhD-Propagandings</id>
    <content type="html">&lt;div style=&quot;text-align:center;&quot;&gt;&lt;/div&gt;

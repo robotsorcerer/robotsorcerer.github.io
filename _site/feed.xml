@@ -3,10 +3,10 @@
   <channel>
     <title>Olalekan Ogunmolu</title>
     <description>Towards an autonomous future.</description>
-    <link>/</link>
-    <atom:link href="www.scriptedonchips.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Jul 2015 20:26:29 -0500</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2015 20:26:29 -0500</lastBuildDate>
+    <link>www.scriptedonachip.com/</link>
+    <atom:link href="www.scriptedonachip.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 08 Jul 2015 21:02:28 -0500</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2015 21:02:28 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -109,8 +109,8 @@
 &lt;p&gt;Your geotiff maps are saved in the &lt;code&gt;map_file_path&lt;/code&gt; that you specified in the &lt;code&gt;hector_mapping.launch&lt;/code&gt; file.&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Jul 2015 11:00:00 -0500</pubDate>
-        <link>www.scriptedonchips.com/Robo Peak Lidar</link>
-        <guid isPermaLink="true">www.scriptedonchips.com/Robo Peak Lidar</guid>
+        <link>www.scriptedonachip.com/Robo Peak Lidar</link>
+        <guid isPermaLink="true">www.scriptedonachip.com/Robo Peak Lidar</guid>
         
         <category>Lidars,</category>
         
@@ -418,8 +418,8 @@ information sensor_msgs/Image does, so we can convert either representation to t
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;`rosrun rqt_reconfigure rqt_reconfigure`
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         <pubDate>Mon, 06 Jul 2015 00:00:00 -0500</pubDate>
-        <link>www.scriptedonchips.com/2015/07/06/ROS-Notes/</link>
-        <guid isPermaLink="true">www.scriptedonchips.com/2015/07/06/ROS-Notes/</guid>
+        <link>www.scriptedonachip.com/2015/07/06/ROS-Notes/</link>
+        <guid isPermaLink="true">www.scriptedonachip.com/2015/07/06/ROS-Notes/</guid>
         
         
       </item>
@@ -461,8 +461,8 @@ Also, by speaking with university authorities, we gained scrap metals which we m
 Essentially, in a high-level sense, my research goal is to use visual-servoing and computer vision techniques, with minimal computational costs, to improve reliability and accuracy in robotic control and target tracking applications&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Jul 2014 14:53:00 -0500</pubDate>
-        <link>www.scriptedonchips.com/gradlife</link>
-        <guid isPermaLink="true">www.scriptedonchips.com/gradlife</guid>
+        <link>www.scriptedonachip.com/gradlife</link>
+        <guid isPermaLink="true">www.scriptedonachip.com/gradlife</guid>
         
         <category>PhD;</category>
         
