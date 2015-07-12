@@ -1,0 +1,9 @@
+<nav class="nav-primary" role="navigation" >
+    <ul>
+        {% for p in site.posts %}
+        <li>
+        	 <a class= "post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
