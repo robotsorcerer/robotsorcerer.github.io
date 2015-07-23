@@ -27,7 +27,7 @@ Next, head over to your linux terminal and install `hector_slam` as follows:
 
 That should get you up fired and running by installing [hector-slam](http://wiki.ros.org/hector_slam/Tutorials/SettingUpForYourRobot) for the rplidar robot.
 
-Now, navigate to your `catkin_ws` and eidt the file `hector_mapping.launch` as in 
+Now, navigate to your `catkin_ws` and edit the file `hector_mapping.launch` as in 
 
 ```xml
     <launch>

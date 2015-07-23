@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: How to safely upgrade your linux kernel
+title: Safely upgrading your linux kernel.
 date: 2015-07-22 23:39:00
 excerpt: "We are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.02"
 permalink: Upgrading-Linux-Kernel
@@ -61,9 +61,11 @@ Therefore, we will configure GRUB to  automatically check out our new kernel, an
 
 Fire up /etc/default/grub in your favorite editor and set the following configurations:
 
+```
 -GRUB_DEFAULT=saved
 -GRUB_TIMEOUT=5
 -GRUB_CMDLINE_LINUX_DEFAULT=”panic=10″
+```
 
 Basically, we are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.02; so if your grub version is greater than version 2.0, you can discount line 2 above. 
 
