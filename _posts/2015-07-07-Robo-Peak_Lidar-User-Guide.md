@@ -89,7 +89,7 @@ Then, you want to download one of the [following](https://code.google.com/p/tu-d
 
 for example. 
 
-We are all set to go. Open a terminal window, and launchthe hector_slam system
+We are all set to go. Open a terminal window, and launch the hector_slam system
 
 <pre class="terminal"><code>$ roslaunch hector_slam_launch tutorial.launch</code></pre>
 
@@ -99,10 +99,8 @@ In another terminal, do
 
 <pre class="terminal"><code>$ rosbag play Team_Hector_MappingBox_RoboCup_2011_Rescue_Arena.bag  --clock</code></pre>
 
-You should see the mapping process in realtime in rviz.
+You should see a pre-recorded mapping process in rviz. You could do your own slam mapping by recording your own bag file. Afterwards, feel free to record your geotiff map at any time by doing,
 
-Feel free to record your geotiff map at any time by doing
+<pre class="terminal"><code>$ rostopic pub syscommand std_msgs/String "savegeotiff"</code></pre> 
 
-<pre class="terminal"><code>$ rostopic pub syscommand std_msgs/String "savegeotiff"</code></pre>
-
-Your geotiff maps are saved in the `map_file_path` that you specified in the `hector_mapping.launch` file.
+in terminal. Your geotiff maps are saved in the `map_file_path` that you specified in the `hector_mapping.launch` file.
