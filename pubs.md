@@ -29,7 +29,7 @@ permalink: /Pubs/
   <h1><b>Dissertations</b></h1>
   <ul class="posts">
       <li><span class = "post-date">Jul 23, 2015</span>       
-      <a href="downloads/MS_Thesis.pdf"> Autonomous Navigation of a Rotor-craft Unmanned Aerial Vehicle.</a> <i>MS Thesis, The University of Sheffield</i>, Sheffield. United Kingdom.  Sep. 2012.</li>
+      <a href="https://github.com/lakehanne/lakehanne.github.io/tree/master/downloads/MS_Thesis.pdf"> Autonomous Navigation of a Rotor-craft Unmanned Aerial Vehicle.</a> <i>MS Thesis, The University of Sheffield</i>, Sheffield. United Kingdom.  Sep. 2012.</li>
   <li><span class = "post-date">Jul 23, 2015</span>       
       <a href="https://github.com/lakehanne/lakehanne.github.io/tree/master/downloads/BS_Thesis.pdf"> Single-fractional parentage coefficients in the sd-shell nuclei.</a> <i>Senior Thesis, Adekunle Ajasin University</i>, Akungba, OD. Nigeria.  Feb. 2005.</li>
     </ul>
