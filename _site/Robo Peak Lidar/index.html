@@ -99,7 +99,7 @@
 
 <p>That should get you up fired and running by installing <a href="http://wiki.ros.org/hector_slam/Tutorials/SettingUpForYourRobot">hector-slam</a> for the rplidar robot.</p>
 
-<p>Now, navigate to your <code>catkin_ws</code> and eidt the file <code>hector_mapping.launch</code> as in </p>
+<p>Now, navigate to your <code>catkin_ws</code> and edit the file <code>hector_mapping.launch</code> as in </p>
 <div class="highlight"><pre><code class="language-xml" data-lang="xml">    <span class="nt">&lt;launch&gt;</span>
   <span class="nt">&lt;node</span> <span class="na">pkg=</span><span class="s">&quot;hector_mapping&quot;</span> <span class="na">type=</span><span class="s">&quot;hector_mapping&quot;</span> <span class="na">name=</span><span class="s">&quot;hector_height_mapping&quot;</span> <span class="na">output=</span><span class="s">&quot;screen&quot;</span><span class="nt">&gt;</span>
     <span class="c">&lt;!--Source here: http://wiki.ros.org/hector_slam/Tutorials/SettingUpForYourRobot--&gt;</span>
@@ -158,7 +158,7 @@
 
 <p>for example. </p>
 
-<p>We are all set to go. Open a terminal window, and launchthe hector_slam system</p>
+<p>We are all set to go. Open a terminal window, and launch the hector_slam system</p>
 
 <pre class="terminal"><code>$ roslaunch hector_slam_launch tutorial.launch</code></pre>
 
@@ -168,13 +168,11 @@
 
 <pre class="terminal"><code>$ rosbag play Team_Hector_MappingBox_RoboCup_2011_Rescue_Arena.bag  --clock</code></pre>
 
-<p>You should see the mapping process in realtime in rviz.</p>
+<p>You should see a pre-recorded mapping process in rviz. You could do your own slam mapping by recording your own bag file. Afterwards, feel free to record your geotiff map at any time by doing,</p>
 
-<p>Feel free to record your geotiff map at any time by doing</p>
+<pre class="terminal"><code>$ rostopic pub syscommand std_msgs/String "savegeotiff"</code></pre> 
 
-<pre class="terminal"><code>$ rostopic pub syscommand std_msgs/String "savegeotiff"</code></pre>
-
-<p>Your geotiff maps are saved in the <code>map_file_path</code> that you specified in the <code>hector_mapping.launch</code> file.</p>
+<p>in terminal. Your geotiff maps are saved in the <code>map_file_path</code> that you specified in the <code>hector_mapping.launch</code> file.</p>
 
   </article>
 
@@ -203,6 +201,10 @@
 
      <!--<nav class="nav-primary" role="navigation" >
     <ul>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
         
         <li>
         	 <a class= "post-link" href=""></a>
