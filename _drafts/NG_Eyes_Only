@@ -1,0 +1,109 @@
+---
+layout: post
+date: 2015-07-27 10:21:00
+title: Evaluating the Kinect for Windows v2 Sensor's Depth Map
+Excerpt: 
+permalink: Kinect4w-Depth-map
+comments: true
+---
+
+In this post, we are going to analyze thoroughly the recent [Kinect for Windows v2](https://www.microsoft.com/en-us/kinectforwindows/) camera that was released to Developers by Microsoft in the fall of 2013. We will be using the open-source drivers from the team at [Openkinect](https://github.com/OpenKinect/libfreenect2/). If you have not already installed it, go grab the drivers from [Openkinect](https://github.com/OpenKinect/libfreenect2/) and install according to instructions on the readme file.
+
+You might find it needful to want to calibrate your camera depending on your needs. [Thiemo Wiedemeyer](https://ai.uni-bremen.de/team/thiemo_wiedemeyer) from the [Institute for Artificial Intelligence](http://ai.uni-bremen.de/), at the University of Bremen, has a nice calibration [tool](https://github.com/code-iai/iai_kinect2) for calibrating the kinect for windows in ROS. I must mention that the openkinect drivers are super-hacky and the depthmeasurements we are going to retrieve will be off ground truth by a couple of millimeters depending on whether you have calibrated your camera or not. For an uncalibrated camera using the openkinect driver, I found a [steady offset](###Raw Measurements) 
+of approximately 37mm from true measurements (see section . Thiemo has a somewhat better result [post-calibration](https://camo.githubusercontent.com/08c29f19f9c105efcdbd329a538366339513e0d0/687474703a2f2f61692e756e692d6272656d656e2e64652f77696b692f5f6d656469612f736f6674776172652f706c6f742e706e67) with a steady offset of about 24mm. This is currently under [investigation](https://github.com/OpenKinect/libfreenect2/issues/41)
+
+###Raw Measurements
+For the purpose of raw measurements, we would need to modify the Protonect code a bit and suit it to our needs. We will be employing OpenCV libraries for the purpose of this experiment. To avoid compatibility issues with libfreenct2, we will use any version other than 3.0.0 and certainly above 2.0.x version. I used the 2.4.8 version which comes with [ROS Indigo installation](http://wiki.ros.org/indigo/Installation/Ubuntu). If you are not planning to run the code in ROS, you could grab OpenCV 2.4.8 from this [github account](https://github.com/Itseez/opencv/tree/2.4.8) and compile it. 
+
+Next, grab the Haar cascades from your downloaded opencv data directory (`/path/to/opencv-download/data/haarcascade/`) and copy relevant files described below to the directory where `Protonect.cpp` is located (this should be `/../libfreenect2/examples/protonect`). It is enough to grab the `eye cascades` and `profile face cascades` as those are the only ones we'll be using in this tutorial. Since we'll be compiling the code in c++, you would need to declare the function prototypes and global variables  after declaring your include directories in the protonect code
+
+```c++
+/*Funtion Prototypes*/
+void detectAndDisplay( Mat frame, Mat und_depth);				//detecting and displaying faces and eyes
+void reconstruct( int right_x, int right_y, Mat und_depth );	//3D Reconstruction
+
+```
+Immediately after this, we will load the cascades according to [opencv api](http://docs.opencv.org/modules/objdetect/doc/cascade_classification.html?highlight=cascadeclassifier#cascadeclassifier)
+
+```c++
+String face_cascade_name = "haarcascade_frontalface_alt.xml";
+String eyes_cascade_name = "haarcascade_eye_tree_eyeglasses.xml";
+CascadeClassifier face_cascade;
+CascadeClassifier eyes_cascade;
+string window_name = "Detect Faces and Features";
+RNG rng(12345);
+```
+
+First name the [depth map](https://github.com/OpenKinect/libfreenect2/blob/master/examples/protonect/Protonect.cpp#L147) into an opencv Mat container such as 
+
+```cv::Mat depth = cv::Mat(depth->height, depth->width, CV_32FC1, depth->data) / 4500.0f);
+```
+
+We are diving every depth intensity by 4,500, the maximum float value in the depth map, in order to be able to fit it into the opencv window. Next, in the section of the Protonect code where the registration frame is [applied](https://github.com/OpenKinect/libfreenect2/blob/master/examples/protonect/Protonect.cpp#L149-152), we will be cloning a copy of the registered image which we will employ for our detection. With opencv, we can clone the the registration as 
+
+```
+cv::Mat registration = cv::Mat(registered.height, registered.width, CV_8UC4, registered.data);
+cv::detframe		 = registration.clone();
+detectAndDisplay(detframe, depth);
+```
+
+The following functions will detect the faces, and draw circles around the eyes:
+
+[Detect Faces and Eyes](https://github.com/lakehanne/libfreenect2/blob/master/examples/protonect/Protonect.cpp#L234-L287);
+
+For the reconstruction of the depth intensities to world coordinates, we will be employing [Zisserman & Hartley's](http://www.robots.ox.ac.uk/~vgg/hzbook/) backprojection method (_chapter 6_). Here, I am using camera matrices and parameters obtained post calibration. If you have not calibrated your camera, feel free to use the default camera parameters that comes with your kinect machine.
+
+[3D Reconstruction](https://github.com/lakehanne/libfreenect2/blob/master/examples/protonect/Protonect.cpp#L289-L361)
+
+Fire up your terminal, and compile the code within `/../libfreenect2/examples/protonect/` with 
+<pre class=terminal><code> $rm -rf bin build && mkdir build && cd build && cmake ../ && make && sudo make install && cd ../ && cp Haar/*.xml bin/ && cd bin && ./Protonect
+</pre></code>
+
+For my raw measurements, here is an example output from the canesta depth sensor of the Kinect ToF camera:
+
+<div class="imgcap">
+<img src="/downloads/ACC-Paper/Kinect.jpg">
+<div class="thecap">
+</div>
+</div>
+
+###Filter Experiments
+Here is an example on a cosmetology manikin head while tracking its eye center. Here the manikin ground truth position was 960mm from the camera center. 
+
+<div class="imgcap">
+<img src="/downloads/ACC-Paper/Gaussian_filtered.bmp">
+<div class="thecap">
+</div>
+</div>
+
+
+Using the [Savitzky-Golay smoothing filter](https://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter), I was able to smooth the signal and eliminate the noise inherent in the map output.
+
+<div class="imgcap">
+<img src="/downloads/ACC-Paper/Savitzky-Golay_smoothing_filter.jpg">
+<div class="thecap">
+  </div>
+</div>
+
+We see that there is a static offset of about 37mm-ish from the mean position of the manikin head. The inaccuracy of the kinect for windows using the libfreenect2 driver used for this analysis is a known issue and is currently being discussed [here](https://github.com/OpenKinect/libfreenect2/issues/223) as of the time of this post.
+
+###Under investigation
+I noticed the protonect code, void calibration seems to give a better depth precision than the ROS code. Please see the following figures and compare the values to Xbox one sensor.
+
+<div class="imgcap">
+<img src="/downloads/ACC-Paper/Protonect_Uncalibrated.jpg">
+<div class="thecap">
+  </div>
+</div>
+
+<div class="imgcap">
+<img src="/downloads/ACC-Paper/ROS_Calibrated.jpg">
+<div class="thecap">
+  </div>
+</div>
+
+<div class="imgcap">
+<img src="/downloads/ACC-Paper/XBox_One.jpg">
+<div class="thecap">
+  </div>
+</div>
