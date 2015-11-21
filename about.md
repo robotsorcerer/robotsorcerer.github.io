@@ -14,10 +14,9 @@ I am an interdisciplinary engineer who combines experience in telecommunications
 Prior to this, I had my _**Master of Science in Engineering**_ at the **University of Sheffield, Sheffield, England** where I majored in **control systems** under the advisement of [**Tony J. Dodd**](https://www.sheffield.ac.uk/acse/staff/tjd). 
 I had my bachelors with a double major in **Physics** and **Electronics** from **Adekunle Ajasin University**  in Nigeria. My senior thesis (_Single-Fractional Parentage Coefficients in the sd-Shell Nuclei_) was advised by [**Ademola Amusa**](http://prabook.org/web/person-view.html?profileId=473412). 
 
-My research interests include _`computer vision`_, _`stability in switched systems and controls`_, _`networked multi-agent systems`_, _`machine learning`_, and _`fault diagnosis/fault-tolerant control`_. 
+My research interests include  _`adaptive system identification for control`_, _`computer vision`_, _`stability in switched systems and controls`_,  and _`machine learning`_. 
 
-<br></br>
-My [academic blog](http://lakehanne.github.io) has much more details on my research. More details on my background here on my [**Academic CV**](/downloads/resume/Resume_Work.pdf). A shorter version of my CV is distilled [**here**](/downloads/resume/Resume_ORD.pdf).
+My [academic blog](http://lakehanne.github.io) has much more details on my research. More details on my background here on my [**Academic CV**](/downloads/resume/Resume_Work.pdf). A shorter version is distilled in my [**Short Resume**](/downloads/resume/Resume_ORD.pdf).
 
 <br></br>
 <b><u><center>Relevant Coursework</center></u></b>
@@ -105,7 +104,7 @@ My [academic blog](http://lakehanne.github.io) has much more details on my resea
 
 
 <br></br>
-`Gentle Bloke`. `Juxtaposed between introverted and extroverted`. `Lover of Pun`. `Seeker of Truth`. `Science Guy`. `Teacher to some`. `Student of many`. 
+_`Gentle Bloke`_. _`Juxtaposed between introverted and extroverted`_. _`Lover of Pun`_. _`Seeker of Truth`_. _`Science Guy`_. _`Teacher to some`_. _`Student of many`_. 
 
 _iCycle, iSwim & iSkate -- in that order._
 
