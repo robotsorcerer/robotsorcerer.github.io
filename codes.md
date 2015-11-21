@@ -7,7 +7,9 @@ permalink: /codes/
 
 ###<center>[Savitzky-Golay Filter (C++)](https://github.com/lakehanne/Savitzky-Golay)</center>
 
-Nicely computes the Vandermonde matrix, Savitzky-Golay differentiation filters and smoothing coefficients for any noisy, and sequential signal. It is a textbook implementation of the Savitzky-Golay Filter following Sophocles and Orfanidis treatment. It can be run offline with collected data but needs slight tweaking if it must be run with on-line data in real time. Initial testing of this code was done using a Ubuntu 14.04.02 Trusty OS running Linux 4.4 but will work on any other Linux/Windows/Mac OS machine with little effort, I presume. Please submit all feedbacks via my [github repo issues page](https://github.com/lakehanne/Savitzky-Golay/issues).
+Nicely computes the Vandermonde matrix, Savitzky-Golay differentiation filters and smoothing coefficients for any noisy, and sequential signal. It is a textbook implementation of the Savitzky-Golay filter algorithm following Sophocles and Orfanidis treatment in their book. 
+
+It can be run offline with collected data but needs slight tweaking if it must be run with on-line data in real time. Initial testing of this code was done using a Ubuntu 14.04.02 Trusty OS running Linux 4.4 but will work on any other Linux/Windows/Mac OS machine with little effort, I presume. Please submit all feedbacks via my [github repo issues page](https://github.com/lakehanne/Savitzky-Golay/issues).
 
 ###<center>[Faults Detection/PCA/Machine Learning Classification for Control (Matlab)](https://github.com/lakehanne/Sheaf-M-Files/blob/master/Lab_bI_whole.m)</center>
 
