@@ -9,9 +9,9 @@ permalink: /codes/
 
 Based on a finite-dimensional data that was acquired during an identification for a SISO control system experiment, this code demonstrates how to go about the determination of structure in chaotic data and reconstructs generative linear system identification models typically used in control systems design. Feedbacks are welcome.
 
-###<center>[Vicon Listener (ROScpp)](https://github.com/lakehanne/vicon_listener)</center>
+###<center>[Vicon Listener (ROScpp)](https://github.com/lakehanne/Vicon)</center>
 
-Based on [Markus Achtelik's](https://github.com/markusachtelik) [ROS bridge](https://github.com/ethz-asl/vicon_bridge) to the Vicon [Data Stream SDK](http://www.vicon.com/products/software/datastream-sdk), we provide a ROS Metapackage  system that computes the rotation and translation coordinates of markers (using the numerically stable Gram-Schmidt orthonormalization procedure) on a manikin head after subscribing to the published topic "vicon/markers" from the Vicon Motion Capture Camera System. It's been tested and verified on ROS_Indigo. If you can verify that it works on Jade or Hydro, kindly leave a feedback on the [project's issues page](https://github.com/lakehanne/vicon/issues). Certainly welcome improvement.
+Based on [Markus Achtelik's](https://github.com/markusachtelik) [ROS bridge](https://github.com/ethz-asl/vicon_bridge) to the Vicon [Data Stream SDK](http://www.vicon.com/products/software/datastream-sdk), I have provided a ROS Metapackage system that computes the rotation and translation coordinates of Vicon **mocap** segment markers (using the numerically stable Gram-Schmidt orthonormalization procedure). I have provided an example for markers on a manikin head after subscribing to the published topic "vicon/markers" from the ros bridge to vicon sdk. It's been tested and verified on ROS_Indigo running Ubuntu Trusty. If you can verify that it works on Jade or Hydro, kindly leave a feedback on the [project's issues page](https://github.com/lakehanne/vicon/issues). 
 
 
 ###<center>[Faults Detection/PCA/Machine Learning Classification for Control (Matlab)](https://github.com/lakehanne/Sheaf-M-Files/blob/master/Lab_bI_whole.m)</center>
@@ -22,7 +22,7 @@ Based on acquired data from a gas turbine bearing, and gearmesh rigs in Sheffiel
 
 Nicely computes the [Vandermonde matrix](http://www.math.umn.edu/~garrett/m/algebra/notes/17.pdf), Savitzky-Golay [differentiation filters](http://www.wire.tu-bs.de/OLDWEB/mameyer/cmr/savgol.pdf) and smoothing coefficients for any noisy, and sequential signal. It is a textbook implementation of the Savitzky-Golay filter algorithm following Sophocles and Orfanidis treatment in their book. 
 
-It can be run offline with collected data but needs slight tweaking if it must be run with on-line data in real time. Initial testing of this code was done using a Ubuntu 14.04.02 Trusty OS running Linux 4.4 but will work on any other Linux/Windows/Mac OS machine with little effort, I presume. Please submit all feedbacks via my [github repo issues page](https://github.com/lakehanne/Savitzky-Golay/issues).
+It can be run offline with collected data but needs slight tweaking if it must be run with on-line data in real time. Initial testing of this code was done using a Ubuntu 14.04.02 Trusty OS running Linux 4.4 but will work on any other Linux/Windows/Mac OS machine with little effort. Please submit all feedbacks via my [github repo issues page](https://github.com/lakehanne/Savitzky-Golay/issues).
 
 Reference: Sophocles J. Orfanidis, INTRODUCTION TO SIGNAL PROCESSING, Prentice-Hall, 1995, Chapter 8.
 
