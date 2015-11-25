@@ -1,12 +1,10 @@
 ---
 layout: page
-title: "About Me"
+title: "About"
 tags: Soft-Robots, Vision, Control, Bad-ass-scholar, Sheffield, UT-Dallas, Research-Assistant, Teaching-Assistant, RoboTec-Lab.
 permalink: /about/
 ---
-<!--
-<img src="/downloads/Sheffield.jpg" alt="Me" align="right" style="width:100px;height:50px;">
--->
+
 <br></br>
 <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;">
 I am an interdisciplinary engineer who combines experience in telecommunications and organizational management with academic training in physics and control systems. I am currently a PhD student at the **University of Texas at Dallas**, studying **control systems** (mostly nonlinear dynamical systems), with a dab into computer vision. My advisor is [**Nick Gans**](http://www.utdallas.edu/~ngans/). 
@@ -17,6 +15,12 @@ I had my bachelors with a double major in **Physics** and **Electronics** from *
 My research interests include  _`adaptive system identification for control`_, _`computer vision`_, _`stability in switched systems and controls`_,  and _`machine learning`_. 
 
 My [academic blog](http://lakehanne.github.io) has much more details on my research. More details on my background here on my [**Academic CV**](/downloads/resume/Resume_Work.pdf). A shorter version is distilled in my [**Short Resume**](/downloads/resume/Resume_ORD.pdf).
+
+<br></br>
+_`Gentle Bloke`_. _`Juxtaposed between introverted and extroverted`_. _`Lover of Pun`_. _`Seeker of Truth`_. _`Science Guy`_. _`Teacher to some`_. _`Student of many`_. 
+
+<br></br>
+_`iCycle`_, _`iSwim`_ & _`iSkate`_ -- _`in that order`_.
 
 <br></br>
 <b><u><center>Relevant Coursework</center></u></b>
@@ -37,74 +41,74 @@ My [academic blog](http://lakehanne.github.io) has much more details on my resea
 
 
     <TR ALIGN="CENTER">
-      <TD>University of Sheffield</TD>
-      <TD><!--ACS6118:--> Robotics and Multi-Sensor Systems</TD>  
-      <TD>Mathematical Modeling of Robots, Data Fusion, Bayesian Learning, Kalman Filters</TD>
+      <TD>UoS*</TD>
+      <TD><!--ACS6118:--> Robotics and multi-sensor systems</TD>  
+      <TD>Mathematical modeling of robots, data fusion, bayesian learning, kalman filters.</TD>
       <TD>A</TD>    
     </TR>   
 
     <TR ALIGN="CENTER">
-      <TD>University of Sheffield</TD>
-      <TD><!--ACS6116:--> Advanced Industrial Control</TD> 
-      <TD>Active Control of Noise and Vibration, Predictive Control, Neuro-Fuzzy Systems</TD>
+      <TD>UoS</TD>
+      <TD><!--ACS6116:--> Advanced industrial control</TD> 
+      <TD>Active control of noise and vibration, predictive control, neuro-fuzzy systems.</TD>
       <TD>A</TD>     
     </TR>  
 
     <TR ALIGN="CENTER">
-      <TD>University of Sheffield</TD>
-      <TD><!--ACS6115:--> Fault Diagnosis<!--, Systems Reliability,--> and Embedded Systems</TD>  
-      <TD>Fault prognosis, diagnosis, and systems reliability. Computer Architecture and embedded systems programming</TD>
+      <TD>UoS</TD>
+      <TD><!--ACS6115:--> Fault diagnosis<!--, systems reliability,--> and embedded systems</TD>  
+      <TD>Fault prognosis, diagnosis, and systems reliability. computer architecture and embedded systems programming.</TD>
       <TD>A</TD>  
     </TR>  
 
     <TR ALIGN="CENTER">
-      <TD>University of Sheffield</TD>
-      <TD><!--ACS6101:--> Foundation of Control Systems</TD>   
-      <TD>Number theory, nonlinear and Laplace differential equations, Linear Systems, and systems modeling</TD>
+      <TD>UoS</TD>
+      <TD><!--ACS6101:--> Foundation of control systems</TD>   
+      <TD>Number theory, nonlinear and laplace differential equations, linear systems, and systems modeling.</TD>
       <TD>A</TD>
     </TR>  
 
     <TR ALIGN="CENTER">
-      <TD>University of Sheffield</TD>
-      <TD><!--ACS6117:--> Intelligent Systems</TD>  
-      <TD>Neural Nets in Control Theory, Data Modeling and Machine Intelligence, Optimization</TD>
+      <TD>UoS</TD>
+      <TD><!--ACS6117:--> Intelligent systems</TD>  
+      <TD>Neural Nets in control theory, data modeling and machine intelligence, optimization.</TD>
       <TD>A-</TD>   
     </TR>
 
     <TR ALIGN="CENTER">
-      <TD>UT Dallas</TD>
-      <TD><!--SYSM6302:--> Introduction to Optimization</TD>    
-      <TD>Linear Programming, Simplex method, (Un)Constrained optimization, 1-D search methods, Gradient Descent methods, Levenberg-Marquart, Newton methods, conjugate direction methods</TD>
+      <TD>UTD**</TD>
+      <TD><!--SYSM6302:--> Introduction to optimization</TD>    
+      <TD>Linear Programming, simplex method, (un)constrained optimization, 1-d search methods, gradient descent methods, levenberg-marquart, newton methods, conjugate direction methods.</TD>
       <TD>A</TD>
     </TR> 
 
     <TR ALIGN="CENTER">
-      <TD>UT Dallas</TD>
-      <TD>Nonlinear Systems</TD>  
-      <TD>Nonlinear ODE & linearization, Lyapunov stability, input-output stability, analysis of bifurcation, feedback and integral control etc. </TD>
+      <TD>UTD</TD>
+      <TD>Nonlinear systems</TD>  
+      <TD>Nonlinear ode & linearization, lyapunov stability, input-output stability, analysis of bifurcation, feedback and integral control etc. </TD>
       <TD>A</TD>
     </TR>   
 
     <TR ALIGN="CENTER">
-      <TD>UT Dallas</TD>
-      <TD>Stability of Switched Systems</TD>
-      <TD>Stability analysis of switched systems(finite-time, asymptotic, global and structural stability); stability of limity cycles, dimension reduction and perturbation methods in nonlinear switched systems</TD>
+      <TD>UTD</TD>
+      <TD>Stability of switched systems</TD>
+      <TD>Finite-time, asymptotic, global and structural stability; stability of limit cycles, dimension reduction and perturbation methods in nonlinear switched systems.</TD>
       <TD>A-</TD>
     </TR>    
 
     <TR ALIGN="CENTER">
-      <TD>UT Dallas</TD>
-      <TD>Convex Optimization</TD> 
-      <TD>We basically went through Boyd's book chapter after chapter and reviewed a couple of convex optimization papers :)</TD>
+      <TD>UTD</TD>
+      <TD>Convex optimization</TD> 
+      <TD>We basically went through Boyd's book chapter after chapter and reviewed a couple of convex optimization papers. :)</TD>
       <TD>NA</TD>
     </TR> 
-  
+ 
 </TABLE>
-
-
-
 <br></br>
-_`Gentle Bloke`_. _`Juxtaposed between introverted and extroverted`_. _`Lover of Pun`_. _`Seeker of Truth`_. _`Science Guy`_. _`Teacher to some`_. _`Student of many`_. 
+<b>*UoS</b> - University of Sheffield.
 
-_iCycle, iSwim & iSkate -- in that order._
+<b>**UTD</b> - University of Texas at Dallas.    
+
+
+
 
