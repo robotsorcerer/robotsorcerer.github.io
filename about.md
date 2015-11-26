@@ -20,7 +20,7 @@ My [academic blog](http://lakehanne.github.io) has much more details on my resea
 _`Gentle Bloke`_. _`Juxtaposed between introverted and extroverted`_. _`Lover of Pun`_. _`Seeker of Truth`_. _`Science Guy`_. _`Teacher to some`_. _`Student of many`_. 
 
 <br></br>
-_`iCycle`_, _`iSwim`_ & _`iSkate`_ -- _`in that order`_.
+_`iCycle`_, _`iSwim`_ & _`iSkate`_ -- _`in that order`_. _`Pop`_, _`soft rock`_, _`and`_ _`light metal`_ _`make the world go round`_.
 
 <br></br>
 <b><u><center>Relevant Coursework</center></u></b>
