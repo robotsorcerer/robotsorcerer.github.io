@@ -35,35 +35,35 @@ My [academic blog](http://lakehanne.github.io) has much more details on my resea
 
 
     <TR ALIGN="CENTER">
-      <TD>UoS*</TD>
+      <TD>TUoS*</TD>
       <TD><!--ACS6118:--> Robotics and multi-sensor systems</TD>  
       <TD>Mathematical modeling of robots, data fusion, bayesian learning, kalman filters.</TD>
       <TD>A</TD>    
     </TR>   
 
     <TR ALIGN="CENTER">
-      <TD>UoS</TD>
+      <TD>TUoS</TD>
       <TD><!--ACS6116:--> Advanced industrial control</TD> 
       <TD>Active control of noise and vibration, predictive control, neuro-fuzzy systems.</TD>
       <TD>A</TD>     
     </TR>  
 
     <TR ALIGN="CENTER">
-      <TD>UoS</TD>
+      <TD>TUoS</TD>
       <TD><!--ACS6115:--> Fault diagnosis<!--, systems reliability,--> and embedded systems</TD>  
       <TD>Fault prognosis, diagnosis, and systems reliability. computer architecture and embedded systems programming.</TD>
       <TD>A</TD>  
     </TR>  
 
     <TR ALIGN="CENTER">
-      <TD>UoS</TD>
+      <TD>TUoS</TD>
       <TD><!--ACS6101:--> Foundation of control systems</TD>   
       <TD>Number theory, nonlinear and laplace differential equations, linear systems, and systems modeling.</TD>
       <TD>A</TD>
     </TR>  
 
     <TR ALIGN="CENTER">
-      <TD>UoS</TD>
+      <TD>TUoS</TD>
       <TD><!--ACS6117:--> Intelligent systems</TD>  
       <TD>Neural Nets in control theory, data modeling and machine intelligence, optimization.</TD>
       <TD>A-</TD>   
@@ -99,7 +99,7 @@ My [academic blog](http://lakehanne.github.io) has much more details on my resea
  
 </TABLE>
 <br></br>
-<b>*UoS</b> - University of Sheffield.
+<b>*TUoS</b> - The University of Sheffield.
 
 <b>**UTD</b> - University of Texas at Dallas.    
 
