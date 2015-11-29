@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title: Neural Nets Talk
+title: Neural Nets Talk.
 date: 2015-11-22 23:39:00
-excerpt: "Amazing captioning of images with Andrej Karpathy's Neural Talk2"
+excerpt: "Amazing captioning of images with Andrej Karpathy's Neural Talk2."
 permalink: neuraltalk
 ---
 

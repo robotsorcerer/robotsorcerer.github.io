@@ -1,5 +1,5 @@
 ---
-title: Mathematical Modeling of Robots (Introduction)
+title: Mathematical Modeling of Robots (Introduction).
 layout: page
 permalink: /eecs4342-lec1/
 mathjax: true
