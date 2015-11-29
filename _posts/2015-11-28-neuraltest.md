@@ -13,9 +13,9 @@ Since the release, people have tried out the codes with interesting results such
 
 Using a mobile laptop running an NVIDIA `K1100M GPU`, I updated my [torch7](http://torch.ch/docs/getting-started.html) installation and the accompanying [luarocks](https://luarocks.org/) dependencies (which include `cudnn`, `cunn`, `cutorch`, `image`, `nn`, and `nngraph`), before I fired up the `eval.lua` file on a bunch of images I had on my old camera. 
 
-While it's far from perfect in prediction (such as saying I was in a suit and tie in front of a kitchen counter when I was actually in front of an hotel in London), I was nonetheless amazed at the power of `RNN's` efficiency. The pictures below demonstrate the automatic captioning on random images I evaluated the code on.
+While it's far from perfect in prediction (such as saying I was in a suit and tie in front of a kitchen counter when I was actually in front of an hotel in London), I was nonetheless amazed at the power and efficiency of `RNN's`. The pictures below demonstrate the automatic captioning on random images I evaluated the code on.
 
-If after looking through the goodness of the predictions and your 'nerdgasms' are not fired up, I would strongly recommend you seeing a psychiatrist. :)! Can you imagine the possibilities of this in suppy-chain robotics? Or some sort of pick and place tasks for autonomous robots? Neural nets are really interesting and quite efficient real-world approximations phenomena. I'll be posting more results on other interesting phenomena in the coming few days.
+If after looking through the goodness of the predictions and your 'nerdgasms' are not fired up, I would strongly recommend you seeing a psychiatrist. :)! Can you imagine the possibilities of this in suppy-chain robotics? Or some sort of pick and place tasks for autonomous robots? Neural nets are really interesting and quite efficient at real-world approximations and recontruction. I'll be posting more results on other interesting work I intend to use this for in the coming few days.
 
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
