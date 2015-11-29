@@ -13,7 +13,7 @@ He's recently released the [neural talk 2](https://github.com/karpathy/neuraltal
 
 Using a mobile laptop running an `NVIDIA K1100M GPU`, I updated my [torch7](http://torch.ch/docs/getting-started.html) installation and the accompanying [luarocks](https://luarocks.org/) dependencies (which include `cudnn`, `cunn`, `cutorch`, `image`, `nn`, and `nngraph`), fired up the lua `eval` file on a bunch of test images I had on my old camera. 
 
-While it's far from perfect in prediction (such as saying I was in a suit and tie in front of a kitchen counter when I was in front of an hotel in London), I was nonetheless amazed the power of `RNN's`. The pictures below demonstrate the automatic captioning that [Andrej's](https://github.com/karpathy) library provides. 
+While it's far from perfect in prediction (such as saying I was in a suit and tie in front of a kitchen counter when I was in front of an hotel in London), I was nonetheless amazed the power of `RNN's` efficiency. The pictures below demonstrate the automatic captioning on random images I evaluated the code on.
 
 If after looking through the efficacy of the predictions and your 'nerdgasms' are not fired up, I would strongly recommend you see a psychiatrist :)! Can you imagine the possibilities of this in suppy-chain robotics? Or some sort of pick and place tasks for autonomous robots? One day! One day! I shall try this on a robot. :)
 
