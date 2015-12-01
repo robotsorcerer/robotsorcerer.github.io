@@ -14,7 +14,7 @@ I had my bachelors with a double major in **Physics** and **Electronics** from *
 
 My research interests include  _`adaptive system identification for control`_, _`computer vision`_, _`stability in switched systems and controls`_,  and _`machine learning`_. 
 
-My [academic blog](http://lakehanne.github.io) has much more details on my research. More details on my background here on my [**Academic CV**](/downloads/resume/Resume_Work.pdf). A shorter (and seldomly updated) version is distilled here in my [**Short Resume**](/downloads/resume/Resume_ORD.pdf).
+My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more details on my research. More details on my background are here on my [**Academic CV**](/downloads/resume/Resume_Work.pdf). A shorter (and seldomly updated) resume is distilled here in my [**Short Resume**](/downloads/resume/Resume_ORD.pdf).
 
 <br></br>
 <b><u><center>Relevant Coursework</center></u></b>
