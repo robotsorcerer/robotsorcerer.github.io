@@ -10,8 +10,8 @@ github_username: lakehanne
 blogspot_username: fancylittlerobots
 timezone: America/Chicago
 quora_username: Olalekan-Ogunmolu
-gems:
-  - jekyll-feed
+# gems:
+#   - jekyll-feed
 markdown: redcarpet
 highlighter: pygments
 permalink: pretty
