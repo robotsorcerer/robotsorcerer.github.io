@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Why bother with a PhD?
 comments: true
-excerpt: "... to try things that other people find difficult.  Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy. Also, I’m a pretty thoughtful person and I have a great respect for people who know a lot of stuff about an esoteric subject."
+excerpt: "Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy."
 date: 2014-07-01 19:53:00
 tags: PhD; Thoughts; Plans; Purposes
 permalink: gradlife
