@@ -7,25 +7,20 @@ permalink: /about/
 
 <br></br>
 <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;">
-I am currently a PhD student at the **University of Texas at Dallas**, studying **control systems** (mostly nonlinear dynamical systems), with a dab into computer vision. My advisor is [**Nick Gans**](http://www.utdallas.edu/~ngans/). 
+I am currently a PhD student at the **University of Texas at Dallas**, studying **control systems** (mostly nonlinear dynamical systems). My advisor is [**Nick Gans**](http://www.utdallas.edu/~ngans/). 
 
 Prior to this, I had my _**Master of Science in Engineering**_ at the **University of Sheffield, Sheffield, England** where I majored in **control systems** under the advisement of [**Tony J. Dodd**](https://www.sheffield.ac.uk/acse/staff/tjd). 
 I had my bachelors with a double major in **Physics** and **Electronics** from **Adekunle Ajasin University**  in Nigeria. My senior thesis (_Single-Fractional Parentage Coefficients in the sd-Shell Nuclei_) was advised by [**Ademola Amusa**](http://prabook.org/web/person-view.html?profileId=473412). 
 
 My research interests include  _`adaptive system identification for control`_, _`computer vision`_, _`stability in switched systems and controls`_,  and _`machine learning`_. 
 
-My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more details on my research. <!-- More details on my background are here on my [**Academic CV**](/downloads/resume/Resume_Work.pdf). A shorter (and seldomly updated) resume is distilled here in my [**Short Resume**](/downloads/resume/Resume_ORD.pdf). -->
+My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more details on my research. 
 
 <br></br>
 <b><u><center>Relevant Coursework</center></u></b>
 
 <TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="12" CELLSPACING="2">
-<!--
-    <TR>
-      <TH COLSPAN="4"><BR><H3>Relevant Coursework</H3>
-      </TH>
-    </TR>
--->
+
     <TR>      
       <TH>University</TH>
       <TH>Course Name</TH>
