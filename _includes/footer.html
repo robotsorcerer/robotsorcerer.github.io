@@ -10,45 +10,51 @@
     <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
 
     <div class="footer-col-1 column">
-
       <ul>
         {% if site.github_username %}<li>
-          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" data-count-api="/users/lakehanne#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @lakehanne on GitHub">Github</a>
+          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" aria-label="Follow @lakehanne on GitHub"></a>
         </li>{% endif %}
       </ul>
 
         <ul><li>
-          <a href="https://twitter.com/patmeansnoble" class="twitter-follow-button" data-show-count="false">Follow @patmeansnoble</a>
+
+          <a href="https://twitter.com/patmeansnoble" class="twitter-follow-button" data-show-count="false">@patmeansnoble</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
+        </li></ul>
 
     </div>
 
     <div class="footer-col-2 column">
-      {% if site.email %}
-      <ul>
-        <li>
-          <a href="mailto:{{ site.email }}">
-           <i class="fa fa-fw fa-envelope"></i><b>mail</b>
-          </a>
-        </li>
-      {% endif %}
-      <ul>
-        
+    
+      <ul>        
         {% if site.quora_username %}
         <li>
-          <span class="fa fa-fw"><strong>Q</strong></span>
-          <!--
-          <span class="fa-stack fa-lg">
+          <!-- <img src="/downloads/quora_icon.png" width="12%", height="10%"> -->
+        <img src="/downloads/quora_icon.png" width="12%", height="7%"><a href="https://www.quora.com/{{ site.quora_username }}"> Quora</a>
+          <!--<span class="fa fa-fw">href="https://www.quora.com/{{ site.quora_username }}" 
+          <span class="fa-stack fa-lg"><span class="fa-stack fa-lg"></span>
           <span class="fa fa-square-o fa-stack-2x"></span>
           <span class="fa fa-fw fa-stack-1x"><strong>Q</strong></span>
           </span>
         -->
-          <a href="https://www.quora.com/{{ site.quora_username }}"><b>quora</b>
+          <!-- <a href="https://www.quora.com/{{ site.quora_username }}"><b>quora</b> -->
           </a>
         </li>
         {% endif %}
       </ul>
+
+      
+      <ul>
+        {% if site.email %}
+        <li>
+          <!-- <a href="mailto:{{ site.email }}"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
+          <a href="mailto:{{ site.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+
+        </li>
+      </ul>
+      {% endif %}
+
+    
 
 {% if site.theme.google_plus %}
 <li>
