@@ -6,6 +6,17 @@ date: 2015-07-22 23:39:00
 excerpt: "We are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.02"
 permalink: Upgrading-Linux-Kernel
 ---
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64680332-1', 'auto');
+  ga('send', 'pageview');
+  ga('send', 'pageview' '/Upgrading-Linux-Kernel');
+
+</script>
 
 It's a bit difficult safely upgrading your linux kernel from an older kernel without glitches losing your unity desktop or lightdm environement or being able to correctly log into your newly installed kernel after all has been said and done. So I decided to write this blog post after previous efforts at unsuccessfully upgrading my kernel from a Linux 3.16 version. For simplicity, we'll assume you are running a debian distro such as ubuntu or cent-os. If you have a different distro, you could download the kernel straight from [Linux Kernel](https://www.kernel.org/), untar the downloaded file and follow the instructions in the README in order to compile with cmake. After compiling your kernel, go to [setting up your new kernel](#setting-up-your-new-kernel) to be able to log on to your new kernel when next you reboot.
 
