@@ -17,9 +17,9 @@
       </ul>
 
         <ul><li>
-
-          <a href="https://twitter.com/patmeansnoble" class="twitter-follow-button" data-show-count="false">@patmeansnoble</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <a href="https://twitter.com/patmeansnoble" target="_blank" ><img src = "/downloads/TwitterLogo_blue.png" width="16%", height="17%"></a>
+          <!--a href="https://twitter.com/patmeansnoble" target="_blank" class="twitter-follow-button" data-show-count="false">@patmeansnoble</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script -->
         </li></ul>
 
     </div>
@@ -28,11 +28,9 @@
     
       <ul>        
         {% if site.quora_username %}
-        <li>
-          <!-- <img src="/downloads/quora_icon.png" width="12%", height="10%"> -->
-        <img src="/downloads/quora_icon.png" width="12%", height="7%"><a href="https://www.quora.com/{{ site.quora_username }}"> Quora</a>
-
-          </a>
+        <li>          
+          <a href="https://www.quora.com/{{ site.quora_username }}" target="_blank"><img src="/downloads/quora.svg" width="12%", height="5%"></a>
+          
         </li>
         {% endif %}
       </ul>
@@ -42,111 +40,12 @@
         {% if site.email %}
         <li>
           <!-- <a href="mailto:{{ site.email }}"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
-          <a href="mailto:{{ site.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+          <a href="mailto:{{ site.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
 
         </li>
       </ul>
       {% endif %}
 
-    
-
-{% if site.theme.google_plus %}
-<li>
-  <a href="https://plus.google.com/{{ site.theme.google_plus }}" title="{{ site.theme.str_follow_on }} Google+">
-    <i class="fa fa-fw fa-google-plus"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.instagram %}
-<li>
-  <a href="http://instagram.com/{{ site.theme.instagram }}" title="{{ site.theme.str_follow_on }} Instagram">
-    <i class="fa fa-fw fa-instagram"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.linkedin %}
-<li>
-  <a href="{{ site.theme.linkedin }}" title="{{ site.theme.str_follow_on }} LinkedIn">
-    <i class="fa fa-fw fa-linkedin"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.pinterest %}
-<li>
-  <a href="http://www.pinterest.com/{{ site.theme.pinterest }}" title="{{ site.theme.str_follow_on }} Pinterest">
-    <i class="fa fa-fw fa-pinterest"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.reddit %}
-<li>
-  <a href="https://www.reddit.com/user/{{ site.theme.reddit }}" title="{{ site.theme.str_follow_on }} Reddit">
-    <i class="fa fa-fw fa-reddit"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.soundcloud %}
-<li>
-  <a href="https://soundcloud.com/{{ site.theme.soundcloud }}" title="{{ site.theme.str_follow_on }} SoundCloud">
-    <i class="fa fa-fw fa-soundcloud"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.stack_exchange %}
-<li>
-  <a href="{{ site.theme.stack_exchange }}" title="{{ site.theme.str_follow_on }} Stack Exchange">
-    <i class="fa fa-fw fa-stack-exchange"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.steam %}
-<li>
-  <a href="http://steamcommunity.com/id/{{ site.theme.steam }}" title="{{ site.theme.str_follow_on }} Steam">
-    <i class="fa fa-fw fa-steam"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.tumblr %}
-<li>
-  <a href="https://{{ site.theme.tumblr }}.tumblr.com/" title="{{ site.theme.str_follow_on }} Tumblr">
-    <i class="fa fa-fw fa-tumblr"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.twitter %}
-<li>
-  <a href="https://twitter.com/{{ site.theme.twitter }}" title="{{ site.theme.str_follow_on }} Twitter">
-    <i class="fa fa-fw fa-twitter"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.wordpress %}
-<li>
-  <a href="https://{{ site.theme.wordpress }}.wordpress.com/" title="{{ site.theme.str_follow_on }} WordPress">
-    <i class="fa fa-fw fa-wordpress"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if site.theme.youtube %}
-<li>
-  <a href="https://www.youtube.com/user/{{ site.theme.youtube }}" title="{{ site.theme.str_follow_on }} YouTube">
-    <i class="fa fa-fw fa-youtube"></i>
-  </a>
-</li>
-{% endif %}
-
-      </ul>
     </div>
 
     <div class="footer-col-3 column">
