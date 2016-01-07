@@ -3,21 +3,9 @@ layout: post
 comments: true
 title: Neural Nets Talk.
 date: 2015-11-22 23:39:00
-excerpt: "Automatic captioning of images with Recurrent Neural Nets (Neural Talk2)."
+excerpt: "Amazing captioning of images with Andrej Karpathy's Neural Talk2."
 permalink: neuraltalk
 ---
-<!-- Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-64680332-1', 'auto');
-  ga('send', 'pageview');
-  ga('send', 'pageview' '/neuraltalk');
-
-</script>
 
 So I have a lot of free time on my hands this long Thanksgiving weekend. Beside spending time with family and friends, I've had to catch up with a few papers on my `mendeley database` which I had been postponing to read all along and try out some new `deep learning` stuff. Having long wanted to try out Andrej Karpathy's [Neural Talk](https://github.com/karpathy/neuraltalk) `recurrent nets` but being unable to due to time constraints, I decided to try out the 0.1 Torch 7 version released nine days ago ([neural talk 2](https://github.com/karpathy/neuraltalk2)) based on the [Torch](http://torch.ch/) library which is faster and more efficient than the original neural talk. 
 
