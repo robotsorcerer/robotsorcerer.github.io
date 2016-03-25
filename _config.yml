@@ -13,6 +13,7 @@ quora_username: Olalekan-Ogunmolu
 # gems:
 #   - jekyll-feed
 markdown: redcarpet
-highlighter: pygments
+#highlighter: pygments
+highlighter: rouge
 permalink: pretty
 #markdown: rdiscount
