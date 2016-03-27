@@ -12,8 +12,9 @@ timezone: America/Chicago
 quora_username: Olalekan-Ogunmolu
 # gems:
 #   - jekyll-feed
-markdown: redcarpet
+#markdown: redcarpet
 #highlighter: pygments
+markdown: kramdown
 highlighter: rouge
 permalink: pretty
 #markdown: rdiscount
