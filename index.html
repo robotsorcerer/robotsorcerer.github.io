@@ -2,6 +2,19 @@
 layout: default
 ---
 
+<div id="head">
+
+  <meta charset="utf-8">
+  <meta name="author" content="Olalekan Ogunmolu">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+</div>
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,14 +32,13 @@ layout: default
   <h1><!--b>Blog Posts</b--></h1>
   <ul class="posts">
 
-<!-- Float Twitter-timeline to the right-->
-  <div id="posts">
+<!--   <div id="posts">
     <div class="sidebar">
       <a class="twitter-timeline" href="https://twitter.com/patmeansnoble" data-widget-id="624815591749083136">Tweets by @patmeansnoble</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
         </script>
     </div>
-  </div>
+  </div> -->
 
 <!-- Display the posts -->
     {% for post in site.posts %}
