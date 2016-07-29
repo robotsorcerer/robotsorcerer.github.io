@@ -1,0 +1,85 @@
+Just a little missive here about PCL compatibility with boost math libraries when compiuling with C++ 11 or greater.
+
+The trick? Dereference your executable from the --std11 library.
+
+lex@lex:~/catkin_ws/devel/lib/gocator_video$ ls
+gocator_video  govideo_segmenter
+lex@lex:~/catkin_ws/devel/lib/gocator_video$ gdb ./govideo_segmenter 
+GNU gdb (Ubuntu 7.7.1-0ubuntu5~14.04.2) 7.7.1
+Copyright (C) 2014 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./govideo_segmenter...(no debugging symbols found)...done.
+(gdb) run
+Starting program: /home/lex/catkin_ws/devel/lib/gocator_video/govideo_segmenter 
+Traceback (most recent call last):
+  File "/usr/share/gdb/auto-load/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19-gdb.py", line 63, in <module>
+    from libstdcxx.v6.printers import register_libstdcxx_printers
+ImportError: No module named 'libstdcxx'
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007fffeb113a8c in boost::math::lanczos::lanczos_initializer<boost::math::lanczos::lanczos17m64, long double>::init::init() ()
+   from /usr/lib/libpcl_io.so.1.7
+(gdb) bt
+#0  0x00007fffeb113a8c in boost::math::lanczos::lanczos_initializer<boost::math::lanczos::lanczos17m64, long double>::init::init() ()
+   from /usr/lib/libpcl_io.so.1.7
+#1  0x00007fffeb09e186 in ?? () from /usr/lib/libpcl_io.so.1.7
+#2  0x00007ffff7dea13a in call_init (l=<optimized out>, argc=argc@entry=1, 
+    argv=argv@entry=0x7fffffffd668, env=env@entry=0x7fffffffd678)
+    at dl-init.c:78
+#3  0x00007ffff7dea223 in call_init (env=<optimized out>, 
+    argv=<optimized out>, argc=<optimized out>, l=<optimized out>)
+    at dl-init.c:36
+#4  _dl_init (main_map=0x7ffff7ffe1c8, argc=1, argv=0x7fffffffd668, 
+    env=0x7fffffffd678) at dl-init.c:126
+#5  0x00007ffff7ddb30a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#6  0x0000000000000001 in ?? ()
+#7  0x00007fffffffda49 in ?? ()
+#8  0x0000000000000000 in ?? ()
+(gdb) 
+#0  0x00007fffeb113a8c in boost::math::lanczos::lanczos_initializer<boost::math::lanczos::lanczos17m64, long double>::init::init() ()
+   from /usr/lib/libpcl_io.so.1.7
+#1  0x00007fffeb09e186 in ?? () from /usr/lib/libpcl_io.so.1.7
+#2  0x00007ffff7dea13a in call_init (l=<optimized out>, argc=argc@entry=1, 
+    argv=argv@entry=0x7fffffffd668, env=env@entry=0x7fffffffd678)
+    at dl-init.c:78
+#3  0x00007ffff7dea223 in call_init (env=<optimized out>, 
+    argv=<optimized out>, argc=<optimized out>, l=<optimized out>)
+    at dl-init.c:36
+#4  _dl_init (main_map=0x7ffff7ffe1c8, argc=1, argv=0x7fffffffd668, 
+    env=0x7fffffffd678) at dl-init.c:126
+#5  0x00007ffff7ddb30a in _dl_start_user () from /lib64/ld-linux-x86-64.so.2
+#6  0x0000000000000001 in ?? ()
+#7  0x00007fffffffda49 in ?? ()
+#8  0x0000000000000000 in ?? ()
+(gdb) y
+Undefined command: "y".  Try "help".
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+`/home/lex/catkin_ws/devel/lib/gocator_video/govideo_segmenter' has changed; re-reading symbols.
+(no debugging symbols found)
+
+Starting program: /home/lex/catkin_ws/devel/lib/gocator_video/govideo_segmenter 
+Traceback (most recent call last):
+  File "/usr/share/gdb/auto-load/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19-gdb.py", line 63, in <module>
+    from libstdcxx.v6.printers import register_libstdcxx_printers
+ImportError: No module named 'libstdcxx'
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007fffeb113a8c in boost::math::lanczos::lanczos_initializer<boost::math::lanczos::lanczos17m64, long double>::init::init() ()
+   from /usr/lib/libpcl_io.so.1.7
