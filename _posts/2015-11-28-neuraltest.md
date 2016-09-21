@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title: Neural Nets Talk.
+title: <center>Neural Nets Talk</center>.
 date: 2015-11-22 23:39:00
-excerpt: "Automatic captioning of images with Recurrent Neural Nets (Neural Talk2)."
+excerpt: "<center>Automatic captioning of images with Recurrent Neural Nets (Neural Talk2).</center>"
 permalink: neuraltalk
 ---
 <!-- Analytics -->

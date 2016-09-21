@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title: Safely upgrading your linux kernel.
+title: <center>Safely upgrading your linux kernel.</center>
 date: 2015-07-22 23:39:00
-excerpt: "We are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.02"
+excerpt: "<center>We are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.02</center>"
 permalink: Upgrading-Linux-Kernel
 ---
 

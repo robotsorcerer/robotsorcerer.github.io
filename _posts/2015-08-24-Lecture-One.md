@@ -1,9 +1,9 @@
 ---
-title: Mathematical Modeling of Robots (Introduction).
+title: <center>Mathematical Modeling of Robots (Introduction).</center>
 layout: page
 permalink: robots-modeling
 mathjax: true
-excerpt: "A robot may not injure a human being or, through inaction, allow a human being to come to harm."
+excerpt: "<center>A robot may not injure a human being or, through inaction, allow a human being to come to harm.</center>"
 comments: true
 ---
 

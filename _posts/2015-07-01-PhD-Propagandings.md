@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-title: Why bother with a PhD?
+title: <center>Why bother with a PhD?</center>
 comments: true
-excerpt: "Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy."
+excerpt: "<center>Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy.</center>"
 date: 2014-07-01 19:53:00
 tags: PhD; Thoughts; Plans; Purposes
 permalink: gradlife
