@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><center>Neural Nets Talk</center>.</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="To Discover and Understand.">
+    <link rel="canonical" href="lakehanne.github.ioneuraltalk">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-3698471-23', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <div style="float:left; margin-top:10px; margin-right:10px;">
+    <a href="/feed.xml">
+      <img src="/downloads/rssicon.svg" width="40">
+    </a>
+    </div>
+
+    <a class="site-title" href="/">Olalekan Ogunmolu</a>
+    
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          
+        
+          <a class="page-link" href="/about/">About</a>
+        
+          
+        
+          
+        
+          <a class="page-link" href="/lakehanne.github.io/about/">About</a>
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+
+      <div class="post">
+
+  <header class="post-header">
+    <h1><center>Neural Nets Talk</center>.</h1>
+    <p class="meta">Nov 22, 2015</p>
+  </header>
+
+  <article class="post-content">
+  <!-- Analytics -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64680332-1', 'auto');
+  ga('send', 'pageview');
+  ga('send', 'pageview' '/neuraltalk');
+
+</script>
+
+<p>So I have a lot of free time on my hands this long Thanksgiving weekend. Beside spending time with family and friends, I&#39;ve had to catch up with a few papers on my <code>mendeley database</code> which I had been postponing to read all along and try out some new <code>deep learning</code> stuff. Having long wanted to try out Andrej Karpathy&#39;s <a href="https://github.com/karpathy/neuraltalk">Neural Talk</a> <code>recurrent nets</code> but being unable to due to time constraints, I decided to try out the 0.1 Torch 7 version released nine days ago (<a href="https://github.com/karpathy/neuraltalk2">neural talk 2</a>) based on the <a href="http://torch.ch/">Torch</a> library which is faster and more efficient than the original neural talk. </p>
+
+<p>Since the release, people have tried out the codes with interesting results such as this funny <a href="https://vimeo.com/146492001">neural talk and walk video</a> by <a href="https://twitter.com/kcimc">@kcimc</a>. Well, what better time to fool around with &quot;automagic&quot; image captioning on my old camera&#39;s sd-card images than when on a holiday at a friend&#39;s?</p>
+
+<p>Using a mobile laptop running an NVIDIA <code>K1100M GPU</code>, I updated my <a href="http://torch.ch/docs/getting-started.html">torch7</a> installation and the accompanying <a href="https://luarocks.org/">luarocks</a> dependencies (which include <code>cudnn</code>, <code>cunn</code>, <code>cutorch</code>, <code>image</code>, <code>nn</code>, and <code>nngraph</code>), before I fired up the <code>eval.lua</code> file on a bunch of images I had on my old camera. </p>
+
+<p>While it&#39;s far from perfect in prediction (such as saying I was in a suit and tie in front of a kitchen counter when I was actually in front of an hotel in London), I was nonetheless amazed at the power and efficiency of <code>RNN&#39;s</code>. The pictures below demonstrate the automatic captioning on random images I evaluated the code on.</p>
+
+<p>If after looking through the goodness of the predictions and your &#39;nerdgasms&#39; are not fired up, I would strongly recommend you seeing a psychiatrist. :)! Can you imagine the possibilities of this in suppy-chain robotics? Or some sort of pick and place tasks for autonomous robots? Neural nets are really interesting and quite efficient at real-world approximations and recontruction. I&#39;ll be posting more results on other interesting work I intend to use this for in the coming few days.</p>
+
+<p><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>neuraltest</title>
+    <script src="/downloads/neuraltest_files/jquery-1.8.3.min.js"></script>
+    <script src="/downloads/neuraltest_files/d3.min.js" charset="utf-8"></script>
+    <style>
+    body {
+      color: #333;
+      margin: 0;
+      padding: 0;
+      font-family: &quot;HelveticaNeue-Light&quot;, &quot;Helvetica Neue Light&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif; 
+      font-weight: 300;
+    }
+    #wrap {
+      margin: 10px;
+    }
+    .result {
+      width:300px;
+      margin:10px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .result img {
+      width: 100%;
+    }
+    </style></p>
+
+<p></script>
+  </head>
+  <body onload="start()">
+    <div id="wrap"><div class="result"><img src="/downloads/neuraltest_files/img1.jpg"><div>a close up of a person holding a red apple</div></div><div class="result"><img src="/downloads/neuraltest_files/img2.jpg"><div>a street sign on the side of the road</div></div><div class="result"><img src="/downloads/neuraltest_files/img3.jpg"><div>a man standing in front of a train station</div></div><div class="result"><img src="/downloads/neuraltest_files/img4.jpg"><div>a group of people standing in a room</div></div><div class="result"><img src="/downloads/neuraltest_files/img5.jpg"><div>a man standing in front of a kitchen counter</div></div><div class="result"><img src="/downloads/neuraltest_files/img6.jpg"><div>a man in a suit and tie standing in a room</div></div><div class="result"><img src="/downloads/neuraltest_files/img7.jpg"><div>a television is on a desk with a computer</div></div><div class="result"><img src="/downloads/neuraltest_files/img8.jpg"><div>a group of people standing around a large room</div></div><div class="result"><img src="/downloads/neuraltest_files/img9.jpg"><div>a bedroom with a bed and a desk</div></div><div class="result"><img src="/downloads/neuraltest_files/img10.jpg"><div>a car is driving down a road with a traffic light</div></div><div class="result"><img src="/downloads/neuraltest_files/img11.jpg"><div>a man is standing in front of a tv</div></div><div class="result"><img src="/downloads/neuraltest_files/img12.jpg"><div>a man riding a skateboard down a street</div></div><div class="result"><img src="/downloads/neuraltest_files/img13.jpg"><div>a group of people walking down a street</div></div>
+    <div class="result"><img src="/downloads/neuraltest_files/img14.jpg"><div>a large body of water with a boat on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img15.jpg"><div>a large building with a clock on the side of it</div></div><div class="result"><img src="/downloads/neuraltest_files/img16.jpg"><div>a person standing in a kitchen with a refrigerator</div></div><div class="result"><img src="/downloads/neuraltest_files/img17.jpg"><div>a man is flying a kite in a field</div></div><div class="result"><img src="/downloads/neuraltest_files/img18.jpg"><div>a group of people sitting around a table eating food</div></div><div class="result"><img src="/downloads/neuraltest_files/img19.jpg"><div>a dog is laying on the floor next to a window</div></div><div class="result"><img src="/downloads/neuraltest_files/img20.jpg"><div>a person is taking a picture of a boat in the water</div></div><div class="result"><img src="/downloads/neuraltest_files/img21.jpg"><div>a sign that says UNK UNK UNK on the side</div></div><div class="result"><img src="/downloads/neuraltest_files/img22.jpg"><div>a view of a building with a window in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img23.jpg"><div>a plate of food with a fork on a table</div></div><div class="result"><img src="/downloads/neuraltest_files/img24.jpg"><div>a woman is walking down the street with a suitcase</div></div><div class="result"><img src="/downloads/neuraltest_files/img25.jpg"><div>a man standing in front of a subway train</div></div><div class="result"><img src="/downloads/neuraltest_files/img26.jpg"><div>a man in a suit and tie standing in a room</div></div><div class="result"><img src="/downloads/neuraltest_files/img27.jpg"><div>a crowd of people standing around a large group of people</div></div><div class="result"><img src="/downloads/neuraltest_files/img28.jpg"><div>a view of a city street with a traffic light</div></div><div class="result"><img src="/downloads/neuraltest_files/img29.jpg"><div>a group of people in a field with a kite</div></div><div class="result"><img src="/downloads/neuraltest_files/img30.jpg"><div>a man standing in front of a mirror with a toothbrush</div></div><div class="result"><img src="/downloads/neuraltest_files/img31.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img32.jpg"><div>a man in a suit and tie standing in a store</div></div><div class="result"><img src="/downloads/neuraltest_files/img33.jpg"><div>a group of people walking down a street</div></div><div class="result"><img src="/downloads/neuraltest_files/img34.jpg"><div>a person standing in a room with a suitcase</div></div><div class="result"><img src="/downloads/neuraltest_files/img35.jpg"><div>a crowd of people standing around a large plane</div></div><div class="result"><img src="/downloads/neuraltest_files/img36.jpg"><div>a man and a woman standing in front of a wine glass</div></div><div class="result"><img src="/downloads/neuraltest_files/img37.jpg"><div>a group of people sitting in a living room</div></div><div class="result"><img src="/downloads/neuraltest_files/img38.jpg"><div>a view of a park with a bench and a tree</div></div><div class="result"><img src="/downloads/neuraltest_files/img39.jpg"><div>a group of people playing a game of frisbee</div></div><div class="result"><img src="/downloads/neuraltest_files/img40.jpg"><div>a refrigerator with a lot of magnets on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img41.jpg"><div>a group of people standing on a sidewalk</div></div><div class="result"><img src="/downloads/neuraltest_files/img42.jpg"><div>a person standing in front of a window</div></div><div class="result"><img src="/downloads/neuraltest_files/img43.jpg"><div>a view of a river with a boat in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img44.jpg"><div>a cat is sitting on a bathroom sink</div></div><div class="result"><img src="/downloads/neuraltest_files/img45.jpg"><div>a man standing in front of a crowd of people</div></div><div class="result"><img src="/downloads/neuraltest_files/img46.jpg"><div>a view of a park with a bench in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img47.jpg"><div>a group of people sitting around a table</div></div><div class="result"><img src="/downloads/neuraltest_files/img48.jpg"><div>a car is parked on the side of the street</div></div><div class="result"><img src="/downloads/neuraltest_files/img49.jpg"><div>a view of a bathroom with a sink and a mirror</div></div><div class="result"><img src="/downloads/neuraltest_files/img50.jpg"><div>a man standing in front of a group of people</div></div><div class="result"><img src="/downloads/neuraltest_files/img51.jpg"><div>a young boy wearing a tie and a tie</div></div><div class="result"><img src="/downloads/neuraltest_files/img52.jpg"><div>a view of a traffic light and a building in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img53.jpg"><div>a traffic light with a red light on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img54.jpg"><div>a crowd of people standing around a large building</div></div><div class="result"><img src="/downloads/neuraltest_files/img55.jpg"><div>a car parked on the side of the road</div></div><div class="result"><img src="/downloads/neuraltest_files/img56.jpg"><div>a living room with a tv and a tv</div></div><div class="result"><img src="/downloads/neuraltest_files/img57.jpg"><div>a view of a city bus at a stop light</div></div><div class="result"><img src="/downloads/neuraltest_files/img58.jpg"><div>a woman is standing in front of a mirror</div></div><div class="result"><img src="/downloads/neuraltest_files/img59.jpg"><div>a group of people standing on a street</div></div><div class="result"><img src="/downloads/neuraltest_files/img60.jpg"><div>a room filled with lots of furniture and a tv</div></div><div class="result"><img src="/downloads/neuraltest_files/img61.jpg"><div>a view of a train station with a train station</div></div><div class="result"><img src="/downloads/neuraltest_files/img62.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img63.jpg"><div>a large building with a clock tower on top of it</div></div><div class="result"><img src="/downloads/neuraltest_files/img64.jpg"><div>a man is standing in front of a large mirror</div></div><div class="result"><img src="/downloads/neuraltest_files/img65.jpg"><div>a man is holding a frisbee in his hand</div></div><div class="result"><img src="/downloads/neuraltest_files/img66.jpg"><div>a city street with a clock tower in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img67.jpg"><div>a kitchen with a sink and a refrigerator</div></div><div class="result"><img src="/downloads/neuraltest_files/img68.jpg"><div>a woman holding a pair of scissors in front of a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img69.jpg"><div>a clock on a tree in a park</div></div><div class="result"><img src="/downloads/neuraltest_files/img70.jpg"><div>a cat sitting on a table next to a pair of scissors</div></div><div class="result"><img src="/downloads/neuraltest_files/img71.jpg"><div>a man is holding a cell phone in his hand</div></div><div class="result"><img src="/downloads/neuraltest_files/img72.jpg"><div>a man and a woman sitting on a couch playing a video game</div></div><div class="result"><img src="/downloads/neuraltest_files/img73.jpg"><div>a tree in the middle of a city street</div></div><div class="result"><img src="/downloads/neuraltest_files/img74.jpg"><div>a man is holding a glass of wine</div></div><div class="result"><img src="/downloads/neuraltest_files/img75.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img76.jpg"><div>a man and a woman sitting at a table with laptops</div></div><div class="result"><img src="/downloads/neuraltest_files/img77.jpg"><div>a train station with a train on the tracks</div></div><div class="result"><img src="/downloads/neuraltest_files/img78.jpg"><div>a view of a kitchen with a window in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img79.jpg"><div>a large jetliner sitting on top of an airport tarmac</div></div><div class="result"><img src="/downloads/neuraltest_files/img80.jpg"><div>a view of a boat in the water</div></div><div class="result"><img src="/downloads/neuraltest_files/img81.jpg"><div>a street with a lot of cars on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img82.jpg"><div>a woman standing in a room with a remote</div></div><div class="result"><img src="/downloads/neuraltest_files/img83.jpg"><div>a group of people standing in front of a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img84.jpg"><div>a woman is standing in a bathroom with a toilet</div></div><div class="result"><img src="/downloads/neuraltest_files/img85.jpg"><div>a person is walking on a dirt road</div></div><div class="result"><img src="/downloads/neuraltest_files/img86.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img87.jpg"><div>a city street filled with lots of traffic</div></div><div class="result"><img src="/downloads/neuraltest_files/img88.jpg"><div>a person standing in front of a window with a clock on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img89.jpg"><div>a close up of a keyboard on a table</div></div><div class="result"><img src="/downloads/neuraltest_files/img90.jpg"><div>a view of a city street at night time</div></div><div class="result"><img src="/downloads/neuraltest_files/img91.jpg"><div>a man flying through the air while riding a snowboard</div></div><div class="result"><img src="/downloads/neuraltest_files/img92.jpg"><div>a man holding a cell phone in his hand</div></div><div class="result"><img src="/downloads/neuraltest_files/img93.jpg"><div>a man sitting on a toilet in a bathroom</div></div><div class="result"><img src="/downloads/neuraltest_files/img94.jpg"><div>a group of people sitting around a table eating food</div></div><div class="result"><img src="/downloads/neuraltest_files/img95.jpg"><div>a view of a kitchen with a refrigerator and a stove</div></div><div class="result"><img src="/downloads/neuraltest_files/img96.jpg"><div>a car driving down a street next to a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img97.jpg"><div>a person standing in front of a refrigerator</div></div><div class="result"><img src="/downloads/neuraltest_files/img98.jpg"><div>a man standing in front of a train station</div></div><div class="result"><img src="/downloads/neuraltest_files/img99.jpg"><div>a boat that is sitting in the water</div></div><div class="result"><img src="/downloads/neuraltest_files/img100.jpg"><div>a cat is sitting on the floor in a bathroom</div></div><div class="result"><img src="/downloads/neuraltest_files/img101.jpg"><div>a man is holding a wii remote in his hand</div></div><div class="result"><img src="/downloads/neuraltest_files/img102.jpg"><div>a group of people standing on top of a lush green field</div></div><div class="result"><img src="/downloads/neuraltest_files/img103.jpg"><div>a view of a city street at night time</div></div><div class="result"><img src="/downloads/neuraltest_files/img104.jpg"><div>a traffic light on a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img105.jpg"><div>a group of people standing on a platform</div></div><div class="result"><img src="/downloads/neuraltest_files/img106.jpg"><div>a red and yellow train on the tracks</div></div><div class="result"><img src="/downloads/neuraltest_files/img107.jpg"><div>a picture of a person in a mirror</div></div><div class="result"><img src="/downloads/neuraltest_files/img108.jpg"><div>a view of a city street at night time</div></div><div class="result"><img src="/downloads/neuraltest_files/img109.jpg"><div>a traffic light on a pole on a city street</div></div><div class="result"><img src="/downloads/neuraltest_files/img110.jpg"><div>a traffic light on a pole on a city street</div></div><div class="result"><img src="/downloads/neuraltest_files/img111.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img112.jpg"><div>a kitchen with a stove and a sink</div></div><div class="result"><img src="/downloads/neuraltest_files/img113.jpg"><div>a person standing in front of a window with a clock on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img114.jpg"><div>a car parked on the side of the road</div></div><div class="result"><img src="/downloads/neuraltest_files/img115.jpg"><div>a picture of a man in a suit and tie</div></div><div class="result"><img src="/downloads/neuraltest_files/img116.jpg"><div>a large jetliner sitting on top of an airport runway</div></div><div class="result"><img src="/downloads/neuraltest_files/img117.jpg"><div>a city street at night with a traffic light</div></div><div class="result"><img src="/downloads/neuraltest_files/img118.jpg"><div>a red and white car parked in a parking lot</div></div><div class="result"><img src="/downloads/neuraltest_files/img119.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img120.jpg"><div>a young boy is sitting on a bench</div></div><div class="result"><img src="/downloads/neuraltest_files/img121.jpg"><div>a city street with a large building in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img122.jpg"><div>a building with a clock on the side of it</div></div><div class="result"><img src="/downloads/neuraltest_files/img123.jpg"><div>a woman holding a cell phone in her hand</div></div><div class="result"><img src="/downloads/neuraltest_files/img124.jpg"><div>a table with a vase of flowers on it</div></div><div class="result"><img src="/downloads/neuraltest_files/img125.jpg"><div>a group of people standing in front of a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img126.jpg"><div>a man is standing in front of a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img127.jpg"><div>a view of a city street at night time</div></div><div class="result"><img src="/downloads/neuraltest_files/img128.jpg"><div>a cat is sitting on the floor in front of a tv</div></div><div class="result"><img src="/downloads/neuraltest_files/img129.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img130.jpg"><div>a bathroom with a sink and a toilet</div></div><div class="result"><img src="/downloads/neuraltest_files/img131.jpg"><div>a view of a city street from a window</div></div><div class="result"><img src="/downloads/neuraltest_files/img132.jpg"><div>a sign that says UNK UNK UNK and UNK</div></div><div class="result"><img src="/downloads/neuraltest_files/img133.jpg"><div>a group of people standing around a group of sheep</div></div><div class="result"><img src="/downloads/neuraltest_files/img134.jpg"><div>a street sign in front of a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img135.jpg"><div>a view of a traffic light and a building in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img136.jpg"><div>a view of a city street at night</div></div><div class="result"><img src="/downloads/neuraltest_files/img137.jpg"><div>a large building with a clock on the side of it</div></div><div class="result"><img src="/downloads/neuraltest_files/img138.jpg"><div>a white and black sheep in a field</div></div><div class="result"><img src="/downloads/neuraltest_files/img139.jpg"><div>a train traveling down a train track next to a building</div></div><div class="result"><img src="/downloads/neuraltest_files/img140.jpg"><div>a view of a traffic light and a building in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img141.jpg"><div>a city street with a traffic light on the side of it</div></div><div class="result"><img src="/downloads/neuraltest_files/img142.jpg"><div>a view of a city street at night time</div></div><div class="result"><img src="/downloads/neuraltest_files/img143.jpg"><div>a group of people standing on a sidewalk</div></div><div class="result"><img src="/downloads/neuraltest_files/img144.jpg"><div>a view of a field with a mountain in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img145.jpg"><div>a person standing in front of a window in a room</div></div><div class="result"><img src="/downloads/neuraltest_files/img146.jpg"><div>a large building with a clock on the front</div></div><div class="result"><img src="/downloads/neuraltest_files/img147.jpg"><div>a view of a traffic light and a building in the background</div></div><div class="result"><img src="/downloads/neuraltest_files/img148.jpg"><div>a city street filled with lots of traffic</div></div><div class="result"><img src="/downloads/neuraltest_files/img149.jpg"><div>a man standing in front of a mirror in a room</div></div><div class="result"><img src="/downloads/neuraltest_files/img150.jpg"><div>a view of a lake with a boat in the distance</div></div><div class="result"><img src="/downloads/neuraltest_files/img151.jpg"><div>a view of a mountain range from a plane</div></div><div class="result"><img src="/downloads/neuraltest_files/img152.jpg"><div>a hotel room with a bed and a table</div></div><div class="result"><img src="/downloads/neuraltest_files/img153.jpg"><div>a man holding a cell phone in his hand</div></div><div class="result"><img src="/downloads/neuraltest_files/img154.jpg"><div>a person is standing in front of a building</div></div></div></p>
+
+<p></body></html></p>
+
+  </article>
+
+  <!-- mathjax -->
+  
+  
+  
+  <!-- disqus comments -->
+ 
+ <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'patmeansnoble'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</div>
+
+     <!--<nav class="nav-primary" role="navigation" >
+    <ul>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+    </ul>
+</nav>-->
+      </div>
+    </div>
+
+    <head>
+
+ <!--Font Awesome -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!-- <h2 class="footer-heading">Olalekan Ogunmolu</h2> -->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>
+          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" aria-label="Follow @lakehanne on GitHub"></a>
+        </li>
+      </ul>
+
+        <ul><li>
+          <a href="https://twitter.com/patmeansnoble" target="_blank" ><img src = "/downloads/TwitterLogo_blue.png" width="16%", height="17%"></a>
+        </li></ul>
+
+    </div>
+
+    <div class="footer-col-2 column">
+    
+      <ul>        
+        
+        <li>          
+          <a href="https://www.quora.com/Olalekan-Ogunmolu" target="_blank"><img src="/downloads/quora.svg" width="12%", height="5%"></a>
+          
+        </li>
+        
+      </ul>
+
+      
+      <ul>
+        
+        <li>
+          <!-- <a href="mailto:lexilighty@gmail.com"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
+          <a href="mailto:lexilighty@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
+
+        </li>
+      </ul>
+      
+
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"><b>To Discover and Understand.</b></p>
+    </div>
+
+  </div>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</footer>
+
+</head>
+
+
+    </body>
+</html>
