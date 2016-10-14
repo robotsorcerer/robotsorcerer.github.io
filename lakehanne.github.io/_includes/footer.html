@@ -1,0 +1,57 @@
+<head>
+
+ <!--Font Awesome -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
+
+    <div class="footer-col-1 column">
+      <ul>
+        {% if site.github_username %}<li>
+          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" aria-label="Follow @lakehanne on GitHub"></a>
+        </li>{% endif %}
+      </ul>
+
+        <ul><li>
+          <a href="https://twitter.com/patmeansnoble" target="_blank" ><img src = "/downloads/TwitterLogo_blue.png" width="16%", height="17%"></a>
+        </li></ul>
+
+    </div>
+
+    <div class="footer-col-2 column">
+    
+      <ul>        
+        {% if site.quora_username %}
+        <li>          
+          <a href="https://www.quora.com/{{ site.quora_username }}" target="_blank"><img src="/downloads/quora.svg" width="12%", height="5%"></a>
+          
+        </li>
+        {% endif %}
+      </ul>
+
+      
+      <ul>
+        {% if site.email %}
+        <li>
+          <!-- <a href="mailto:{{ site.email }}"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
+          <a href="mailto:{{ site.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
+
+        </li>
+      </ul>
+      {% endif %}
+
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"><b>{{ site.description }}</b></p>
+    </div>
+
+  </div>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</footer>
+
+</head>

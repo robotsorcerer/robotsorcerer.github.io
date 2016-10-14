@@ -1,0 +1,19 @@
+# Site settings
+title: Olalekan Ogunmolu
+email: lexilighty@gmail.com
+description: "To Discover and Understand."
+#  "Towards an autonomous future."
+baseurl: ""
+url: "lakehanne.github.io"
+twitter_username: patmeansnoble
+github_username: lakehanne
+blogspot_username: fancylittlerobots
+timezone: America/Boston
+quora_username: Olalekan-Ogunmolu
+#gems: jekyll-feed
+markdown: redcarpet
+highlighter: pygments
+#markdown: kramdown
+#highlighter: rouge
+permalink: pretty
+future: true
