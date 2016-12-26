@@ -4,18 +4,20 @@ title: "About"
 tags: Soft-Robots, Vision, Control, Bad-ass-scholar, Sheffield, UT-Dallas, Research-Assistant, Teaching-Assistant, RoboTec-Lab.
 permalink: /about/
 ---
-<br></br>
-<img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;">
-I am currently a PhD student at the **University of Texas at Dallas**, studying **control systems** (mostly nonlinear dynamical systems). My advisor is [**Nick Gans**](http://www.utdallas.edu/~ngans/). 
 
+<br></br>
+
+<img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;">
+I am currently a PhD student at the **University of Texas at Dallas**, studying **control systems**. My advisor is [**Nick Gans**](http://www.utdallas.edu/~ngans/). 
+<!-- 
 Prior to this, I had my _**Master of Science in Engineering**_ at the **University of Sheffield, Sheffield, England** where I majored in **control systems** under the advisement of [**Tony J. Dodd**](https://www.sheffield.ac.uk/acse/staff/tjd). 
 I had my bachelors with a double major in **Physics** and **Electronics** from **Adekunle Ajasin University**  in Nigeria. My senior thesis (_Single-Fractional Parentage Coefficients in the sd-Shell Nuclei_) was advised by [**Ademola Amusa**](http://prabook.org/web/person-view.html?profileId=473412). 
 
-My research interests include  _`adaptive system identification for control`_, _`computer vision`_, _`stability in switched systems and controls`_,  and _`machine learning`_. 
+My research interests include  _`adaptive system identification for control`_, _`computer vision`_, _`stability in switched systems and controls`_,  and _`machine learning`_.  -->
 
 My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more details on my research. 
 
-<br></br>
+<!-- <br></br>
 <b><u><center>Relevant Coursework</center></u></b>
 
 <TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="12" CELLSPACING="2">
@@ -30,42 +32,42 @@ My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more det
 
     <TR ALIGN="CENTER">
       <TD>TUoS*</TD>
-      <TD><!--ACS6118:--> Robotics and multi-sensor systems</TD>  
+      <TD> Robotics and multi-sensor systems</TD>  
       <TD>Mathematical modeling of robots, data fusion, bayesian learning, kalman filters.</TD>
       <TD>A</TD>    
     </TR>   
 
     <TR ALIGN="CENTER">
       <TD>TUoS</TD>
-      <TD><!--ACS6116:--> Advanced industrial control</TD> 
+      <TD> Advanced industrial control</TD> 
       <TD>Active control of noise and vibration, predictive control, neuro-fuzzy systems.</TD>
       <TD>A</TD>     
     </TR>  
 
     <TR ALIGN="CENTER">
       <TD>TUoS</TD>
-      <TD><!--ACS6115:--> Fault diagnosis<!--, systems reliability,--> and embedded systems</TD>  
+      <TD> Fault diagnosisand embedded systems</TD>  
       <TD>Fault prognosis, diagnosis, and systems reliability. computer architecture and embedded systems programming.</TD>
       <TD>A</TD>  
     </TR>  
 
     <TR ALIGN="CENTER">
       <TD>TUoS</TD>
-      <TD><!--ACS6101:--> Foundation of control systems</TD>   
+      <TD> Foundation of control systems</TD>   
       <TD>Number theory, nonlinear and laplace differential equations, linear systems, and systems modeling.</TD>
       <TD>A</TD>
     </TR>  
 
     <TR ALIGN="CENTER">
       <TD>TUoS</TD>
-      <TD><!--ACS6117:--> Intelligent systems</TD>  
+      <TD>Intelligent systems</TD>  
       <TD>Neural Nets in control theory, data modeling and machine intelligence, optimization.</TD>
       <TD>A-</TD>   
     </TR>
 
     <TR ALIGN="CENTER">
       <TD>UTD**</TD>
-      <TD><!--SYSM6302:--> Introduction to optimization</TD>    
+      <TD> Introduction to optimization</TD>    
       <TD>Linear Programming, simplex method, (un)constrained optimization, 1-d search methods, gradient descent methods, levenberg-marquart, newton methods, conjugate direction methods.</TD>
       <TD>A</TD>
     </TR> 
@@ -107,3 +109,4 @@ _`iCycle`_, _`iSwim`_ & _`iSkate`_ -- _`in that order`_. _`Pop`_, _`soft rock`_,
 
 
 
+ -->
