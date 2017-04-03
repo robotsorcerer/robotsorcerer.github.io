@@ -55,7 +55,7 @@ MathJax.Hub.Config({
     - [Doubly-Linked List](#doubly-linked-list) 
     - [Binary Search Tree](#binary-tree)    -->
 
-## Notes updated sporadically. Bear my typos. Bite the meat not the language.
+## Notes updated sporadically at best. Bear my typos. Bite the meat not the language.
 
 <a name='introduction'></a>
 ## `Introduction`
