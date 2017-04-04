@@ -13,7 +13,5 @@ quora_username: Olalekan-Ogunmolu
 #gems: jekyll-feed
 markdown: kramdown
 highlighter: rouge
-#markdown: kramdown
-#highlighter: rouge
 permalink: pretty
 future: true
