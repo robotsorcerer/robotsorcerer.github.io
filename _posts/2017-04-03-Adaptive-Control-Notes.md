@@ -100,3 +100,47 @@ More generally,
 \begin{align}
 L\_f^i h = \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial}{\partial{x}} \left(\cdot \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right) \cdot f \cdots \right) \cdot f \right) \cdot f.
 \end{align}
+
+Defining
+
+\begin{align}
+L\_g L\_fh \triangleeq \frac{\partial(L\_fh)}{\partial x}\cdot g,
+\end{align}
+
+then the SISO nonlinear system \eqref{eq:nlnr1} has a relative degree \\(\rho = n\\) at a point \\(x\_0\\) if
+
+(i)  \\(L\_g L\_f^i h(x) = 0 \forall x \in B\_x\_0, \\) where \\(B\_x\_0\\) is some neighborhood of \\(x\_0\\) \\(\forall i  = 1, 2, 3, \ldots, \rho - 2. \\)
+
+(ii) \\(L\_g L\_f^{\rho -1} h(x\_0) \neq 0. \\)
+
+if \eqref{eq:nlnr1} has relative degree \\(\rho = n\\) at \\(x\\), where \\(n\\) is the order of \eqref{eq:nlnr1}, then given the transfoirmation 
+
+\begin{align}
+z\_1 = y = h(x), \qquad z\_2 = \dot{y} = L\_f h(x), \qquad z\_3 = \ddot{y} = L\_f^2 h(x), \qquad  \\
+z\_i = y^{(i-1)} = L\_f^{(i-1)} h(x) , \ldots, z\_n = y^{(n-1)} = L\_f^{n-1} h(x).
+\end{align}
+
+we find that 
+
+\begin{align}
+\dot{z}\_1 = z\_2, \\
+\dot{z}\_1 = z\_2, \\
+\qquad \vdots  \\
+\dot{z}\_{n-1} = z\_n,
+\dot{z}\_n = L\_f^nh(x) + (L\_gL\_f^{n-1}h(x))u,
+y = z\_1
+\label{eq:canon}
+\end{align}
+
+which is the <i>canonical form</i> of the system with **no zero dynamics**.  From feedback linearization, we find that 
+
+\begin{align}
+u = \dfrac{1}{L\_g L\_f^{n-1}h(x)}[\nu - L\_f^n h(x)],
+\end{align}
+
+where \\(\nu \in \mathbb{R} \\) is the new input, leading to the LTI system
+
+\begin{align}
+\dot{z}_1 = z_2, \\
+\dot{z}_2 = z_3,
+\end{align}
