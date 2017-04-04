@@ -168,7 +168,7 @@ A =
 \vdots &        & \ddots & \ddots &    0   \\
 \vdots &        &        & \ddots &    1   \\
 0      & \ldots & \ldots  & \ldots &    0   \\
-\end{bmatrix}
+\end{bmatrix},
 
 \qquad 
 B = 
@@ -177,10 +177,10 @@ B =
 \vdots \\
 \vdots \\
 0
-\end{bmatrix}
+\end{bmatrix},
 
 \quad 
 C = \begin{bmatrix}
-1 \\ 0 \vdots \\ \vdots \\ 0
+1 \\ 0 \\ \vdots \\ \vdots \\ 0
 \end{bmatrix}
 $$
