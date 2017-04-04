@@ -160,7 +160,6 @@ Vectorizing the two equations, we have
 
 where 
 
-<!-- \begin{align} -->
 $$
 A = 
 \begin{bmatrix}
@@ -170,9 +169,8 @@ A =
 \vdots &        &        & \ddots &    1   \\
 0      & \ldots & \ldots  & \ldots &    0   \\
 \end{bmatrix}
-$$
 
-$$
+\qquad 
 B = 
 \begin{bmatrix}
 0 \\
@@ -180,5 +178,9 @@ B =
 \vdots \\
 0
 \end{bmatrix}
+
+\quad 
+C = \begin{bmatrix}
+1 \\ 0 \vdots \\ \vdots \\ 0
+\end{bmatrix}
 $$
-<!-- \end{align} -->
