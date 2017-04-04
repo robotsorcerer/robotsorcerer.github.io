@@ -198,7 +198,7 @@ C = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-\eqref{eq:linear} is an observable and controllable LTI system, and thus the input \\(\nu\\) can be carefully chosen to meet regulation or tracking objectives for the plant output \\(y\\). The \autoref{eq:control} cancels all nonlinearities and turns the closed-loop system to an LTI one. If \eqref{eq:nlnr1} has relative degree \\(\rho < n \\), the change of coordinates become
+\eqref{eq:linear} is an observable and controllable LTI system, and thus the input \\(\nu\\) can be carefully chosen to meet regulation or tracking objectives for the plant output \\(y\\). The \eqref{eq:control} cancels all nonlinearities and turns the closed-loop system to an LTI one. If \eqref{eq:nlnr1} has relative degree \\(\rho < n \\), the change of coordinates become
 
 \begin{align}
 z\_1 = y, \quad z\_2 = \dot{y}, \ldots \quad z\_\rho = y^{(\rho-1)} = L\_f^{(\rho -1)h(x) }
