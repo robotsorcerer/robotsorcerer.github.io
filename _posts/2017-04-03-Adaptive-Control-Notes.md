@@ -109,7 +109,7 @@ L\_g L\_fh \triangleq \frac{\partial(L\_fh)}{\partial x}\cdot g,
 
 then the SISO nonlinear system \eqref{eq:nlnr1} has a relative degree \\(\rho = n\\) at a point \\(x\_0\\) if
 
-(i)  \\(L\_g L\_f^i h(x) = 0 \forall x \in B\_x\_0, \\) where \\(B\_x\_0\\) is some neighborhood of \\(x\_0\\) \\(\forall i  = 1, 2, 3, \ldots, \rho - 2. \\)
+(i)  \\(L\_g L\_f^i h(x) = 0 \forall x \in {B\_x}\_0, \\) where \\({B\_x}\_0\\) is some neighborhood of \\(x\_0\\) \\(\forall i  = 1, 2, 3, \ldots, \rho - 2. \\)
 
 (ii) \\(L\_g L\_f^{\rho -1} h(x\_0) \neq 0. \\)
 
@@ -122,7 +122,7 @@ z\_i = y^{(i-1)} = L\_f^{(i-1)} h(x) , \ldots, z\_n = y^{(n-1)} = L\_f^{n-1} h(x
 
 we find that 
 
-\begin{align}
+$$
 \dot{z}\_1 = z\_2, \nonumber \\
 \dot{z}\_1 = z\_2, \nonumber \\
 \qquad \vdots  \nonumber \\
@@ -130,7 +130,7 @@ we find that
 \dot{z}\_n = L\_f^nh(x) + (L\_gL\_f^{n-1}h(x))u, \nonumber \\
 y = z\_1
 \label{eq:canon}
-\end{align}
+$$
 
 which is the <i>canonical form</i> of the system with **no zero dynamics**.  From feedback linearization, we find that 
 
