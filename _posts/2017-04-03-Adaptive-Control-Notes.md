@@ -123,12 +123,12 @@ z\_i = y^{(i-1)} = L\_f^{(i-1)} h(x) , \ldots, z\_n = y^{(n-1)} = L\_f^{n-1} h(x
 we find that 
 
 $$
-\dot{z}\_1 = z\_2, \nonumber \\
-\dot{z}\_1 = z\_2, \nonumber \\
+\dot{z}_1 = z_2, \nonumber \\
+\dot{z}_1 = z_2, \nonumber \\
 \qquad \vdots  \nonumber \\
-\dot{z}\_{n-1} = z\_n,   \nonumber \\
-\dot{z}\_n = L\_f^nh(x) + (L\_gL\_f^{n-1}h(x))u, \nonumber \\
-y = z\_1
+\dot{z}_{n-1} = z_n,   \nonumber \\
+\dot{z}\_n = L_f^nh(x) + (L_gL_f^{n-1}h(x))u,  \\
+y = z_1
 \label{eq:canon}
 $$
 
@@ -140,9 +140,9 @@ u = \dfrac{1}{L\_g L\_f^{n-1}h(x)}[\nu - L\_f^n h(x)],
 
 where \\(\nu \in \mathbb{R} \\) is the new input, leading to the LTI system
 
-\begin{align}
-\dot{z}\_1 = z\_2, \\
-\dot{z}\_2 = z\_3, \\
+$$
+\dot{z}_1 = z_2, \\
+\dot{z}_2 = z_3, \\
 \qquad \vdots  \\
-\dot{z}\_{n-1} = z\_n, \\
-\end{align}
+\dot{z}_{n-1} = z_n, \\
+$$
