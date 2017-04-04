@@ -93,7 +93,7 @@ where
 
 where \\(L\_f f\\) is the <i>Lie derivative</i>. If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x\_0) \neq 0\\) at some point \\(x\_0\\), then the system of \eqref{eq:nlnr1} is said to be of relative degree 1 at \\(x\_0\\). For an LTI system, this means the output is different from the input by one integrator only. This would be a strictly proper tranfer function. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression. 
 
-If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in {B\_x}\_0 \text{ of } x\_0 \\), then one can take the second derivatiove of \\(y\\) to obtain (abusing notation and dropping the terms in parentheses, we have
+If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in {B\_x}\_0 \text{ of } x\_0 \\), then one can take the second derivative of \\(y\\) to obtain (abusing notation and dropping the terms in parentheses), 
 
 \begin{align}
 \ddot{y} = \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right)f + \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial{h}}{\partial{x}}f\right) g \, u.
@@ -138,11 +138,11 @@ $$
 \quad \vdots  \nonumber \\
 \dot{z}_{n-1} = z_n,   \nonumber \\
 \dot{z}\_n = L_f^nh(x) + (L_gL_f^{n-1}h(x))u,  \\
-y = z_1
+y = z\_1
 \label{eq:canon}
 $$
 
-which is the <i>canonical form</i> of the system with **no zero dynamics**.  From feedback linearization, we find that 
+which is the **<i>canonical form</i>** of the system with **no zero dynamics**.  From feedback linearization, we find that 
 
 \begin{align}
 u = \dfrac{1}{L\_g L\_f^{n-1}h(x)}[\nu - L\_f^n h(x)],
