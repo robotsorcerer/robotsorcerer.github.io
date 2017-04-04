@@ -167,6 +167,6 @@ where
 \vdots & \ddots & \ddots & \ddots & \vdots \\
 \vdots &        & \ddots & \ddots &    0   \\
 \vdots &        &        & \ddots &    1   \\
-0      & \ldots & ldots  & \ldots &    0   \\
+0      & \ldots & \ldots  & \ldots &    0   \\
 \end{bmatrix}
 <!-- \end{align} -->
