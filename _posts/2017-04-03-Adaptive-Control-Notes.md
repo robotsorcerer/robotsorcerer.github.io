@@ -160,8 +160,8 @@ Vectorizing the two equations, we have
 
 where 
 
-\begin{align}
-A = 
+<!-- \begin{align} -->
+\\(A = \\)
 \begin{bmatrix}
 0      &    1   &    0   & \ldots &    0   \\
 \vdots & \ddots & \ddots & \ddots & \vdots \\
@@ -169,4 +169,4 @@ A =
 \vdots &        &        & \ddots &    1   \\
 0      & \ldots & ldots  & \ldots &    0   \\
 \end{bmatrix}
-\end{align}
+<!-- \end{align} -->
