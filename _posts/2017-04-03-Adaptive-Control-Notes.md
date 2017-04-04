@@ -29,30 +29,6 @@ MathJax.Hub.Config({
 
   - [Introduction](#introduction)
   - [Feedback Linearization](#feedback-linearization)    
-<!--    - [Array decays to a pointer](#array-decays-to-a-pointer)    
-    - [Atoi Implementation](#atoi-implementation)
-    - [Reversing a string](#reverse-a-string)
-    - [Const Iterator on a vector dynamic set](#const-iterator)
-    - [Unordered Map](#unordered-map)
-    - [Matrix Multiply](#matrix-multiply)
-  - [Sorting](#sorting)
-    - [Insert-Sort (2.1-1)](#insert-sort)
-    - [Insert-Sort in Descending Order (2.1-2)](#insert-sort-in-descending-order)
-    - [LineSearch (2.1-3)](#lineSearch)
-    - [Merge-Sort (2.3-1)](#merge-sort)
-    - [HeapSort](#heapsort)
-    - [QuickSort](#quicksort)
-    - [Randomized-QuickSort](#randomized-quicksort)
-  - [Data Structures](#data-structures)
-    - [Queues](#queue)
-    - [Stack](#stack)
-    - [Minimum/Maximum value in an array](#min)
-    - [Simulatneous minimum and maximum in an array](#Simulatneous-min-and-max)
-    - [Deque](#Deque)
-    - [Array-based List](#list-array)
-    - [Singly-Linked List](#singly-linked-list)
-    - [Doubly-Linked List](#doubly-linked-list) 
-    - [Binary Search Tree](#binary-tree)    -->
 
 ## Notes updated sporadically at best. Bear my typos. Bite the meat not the language.
 
