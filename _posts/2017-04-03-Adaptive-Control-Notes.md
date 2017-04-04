@@ -161,7 +161,8 @@ Vectorizing the two equations, we have
 where 
 
 <!-- \begin{align} -->
-\\(A = \\)
+$$
+A = 
 \begin{bmatrix}
 0      &    1   &    0   & \ldots &    0   \\
 \vdots & \ddots & \ddots & \ddots & \vdots \\
@@ -169,4 +170,15 @@ where
 \vdots &        &        & \ddots &    1   \\
 0      & \ldots & \ldots  & \ldots &    0   \\
 \end{bmatrix}
+$$
+
+$$
+B = 
+\begin{bmatrix}
+0 \\
+\vdots \\
+\vdots \\
+0
+\end{bmatrix}
+$$
 <!-- \end{align} -->
