@@ -51,9 +51,11 @@ Note:
 
 - LTI methods can be used in understanding the dynamics of robust modification laws to adaptive systems e.g. dynamic normalizing signal that limits the rate of adaptation to be finite and small relative to level of dynamic uncertainty.
 
-- The limitating of estimated controller parameters to assume large values eliminates the possibility of high gain control
+- The limitation of estimated controller parameters to assume large values eliminates the possibility of high gain control
 
 - High gain or high speed control can increase instability due to high bandwidth that the controller is subjected to.
+
+So you see, adaptive control are royally complex to tune and get right. A bit of a background below.
 
 The extension of adaptive control to linear time-varying parameters was a major obstacle until the 80s when basic robustness questions were answered. Tactics such as dead-zone modification, dynamic normalizing signal together with leakage or parameter projection were used to deal with a great deal of parameter variations. This class included slowly-varying parameters as well as infrequent jumps in parameter values. In several cases, the error from time-varying signals can be reduced through proper parameterizations of the time-varying plant model used in the control design. In the linear time-varying case, stability margins, bandwidth margins, bandwidth, frequency domain characteristics, poles, zeros do not make much sense even for time-varying parameters unless approximations are made using the assumption of slowly varying parameters, etc.
 
