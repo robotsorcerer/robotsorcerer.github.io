@@ -3,7 +3,7 @@ layout: post
 date: 2017-04-03 12:25:00
 title: "Adaptive Control Notes"
 excerpt: "<center>Adaptive systems are inherently nonlinear. Their behavior therefore is quite complex, which makes them difficult to analyze. Progress in theory has been slow, and much work remains before a reasonably complete, coherent theory is available. <br>
-      <i>-- Karl Astrom, in Adaptive Control</i></center>
+      <i>-- Karl Astrom</i></center>
 permalink: Adaptive-Control-Notes
 comments: true
 mathjax: true
