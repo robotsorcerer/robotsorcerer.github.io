@@ -34,20 +34,20 @@ MathJax.Hub.Config({
 <a name="preamble"></a>
 ## Preamble
 
-Over the past five-some months, my research has come full circle at the intersection of neural networks and nonlinear adaptive systems. The notes below are jottings I made during my learning process. I hope it helps folks just immersing themselves into nonlinear adaptive control at the intersection of neural networks and function approximators. My notes were sporadically written and may contain some minor typos and shenanigans. I implore the humble inquirer after knowledge to bite the meat, and not my silly typographical errors. Please leave comments if you find errors.
+Over the past five-some months, my research has come full circle at the intersection of neural networks and nonlinear adaptive systems. The notes below are jottings I made during my learning process. I hope it helps folks just immersing themselves into nonlinear adaptive control using neural networks and function approximators. These notes were sporadically written and may contain some minor typos and shenanigans. I implore the humble inquirer after knowledge to bite the meat, and not my silly typographical errors. Please leave comments if you find errors.
 
 <a name='introduction'></a>
 ## Introduction
 
-The motivation for adaptive control was from systems whose parameters varied with time. Adaptive control can deal with any size of parametric uncertainty as well as dynamic uncertainites arising from neglected dynamics if the correct robust algorithms are used. The bounds for the allowable dynamic uncertainites cannot be calculated as easily as in the nonadaptive case because of the nonlinear nature of the adaptive system coupled with the fact that the plant parameters are deemed unknown. 
+The motivation for adaptive control was from systems whose parameters varied with time. Adaptive control can deal with any size of parametric uncertainty as well as dynamic uncertainties arising from neglected dynamics if correct robust algorithms are used. The bounds for the allowable dynamic uncertainites cannot be calculated as easily as in the nonadaptive case because of the nonlinear nature of the adaptive system coupled with the fact that the plant parameters are deemed unknown. 
 
 Note:
 
 - Adaptive Control designed for LTI plants give rise to a closed-loop system that is nonlinear. 
 
-- As a result, poles, zeros, gain and phase margins make little sense.
+- As a result poles, zeros, gain and phase margins make little sense for system analysis.
 
-- Nonlinear techniques based on Lyapunov analysis and passivity arguments plus linear systems theory are used in establishing the stability/robustness and margins that are not so easy to compute as in the LTI case.
+- Nonlinear techniques based on Lyapunov analysis and passivity arguments plus linear systems theory can be used in establishing the stability/robustness and margins that are not so easy to compute as in the LTI case.
 
 - LTI methods can be used in understanding the dynamics of robust modification laws to adaptive systems e.g. dynamic normalizing signal that limits the rate of adaptation to be finite and small relative to level of dynamic uncertainty.
 
@@ -55,14 +55,20 @@ Note:
 
 - High gain or high speed control can increase instability due to high bandwidth that the controller is subjected to.
 
-So you see, adaptive control are royally complex to tune and get right. A bit of a background below.
+So you see, adaptive control are really complex to tune and get right. A bit of a background below.
+
+Adaptive control research was motivated in the 50s by the problem of designing autopilots whose parameters changed over a wide operating range in speeds and altitudes. Fixed-gain controllers could not solve the frequent parameter variations in such systems. Therefore, people developed gain scheduling techniques using auxiliary measurements of airspeed. With gain scheduling came rudimentary methods of adjusting the adaptation mechanism in model reference systems -- the idea was to develop a self-tuning controller that adapted for parameter variations in a closed-loop reference model scheme. Adjustment mechnisms developed included sensitivity rules such as M.I.T. rule, which performed reasonably well under some conditions. Rudolf Kalman in 1958 rigorously analyzed the self-tuning controller and established the explicit identification of the controller parameters of a linear SISO plant so that these could be used to tune an optimal linear quadratic controller. 
+
+In the 60's, Parks [1966], demonstrated use of Lyapunov analysis in establishing the stability and convergence of adaptive systems. Advances in system identification enhanced the way update laws were determined for model reference schemes. Stochastic control and dynamic programming (from the work of Bellman) coupled with Lyapunov stability placed a firm footing on proving convergence for adaptive control systems. The 70s era witnessed a resurgence in the complete proofs of stability for model reference adaptive schemes e.g. Liapunov state space proofs from Narendra, Lin & Valavani and Morse. In the discrete time deterministic and stochastic domains, stability proofs also appeared about this time. Then came Rohr's example whereby the assumptions of stability were forund to be very sensitive to the presence of unmodeled dynamics (e.g. ignored high-frequency parasitic modes in order not to complicate controller design). Researchers started working on the robustness of adaptive schemes and their sensitivity to transient behaviors. 
 
 The extension of adaptive control to linear time-varying parameters was a major obstacle until the 80s when basic robustness questions were answered. Tactics such as dead-zone modification, dynamic normalizing signal together with leakage or parameter projection were used to deal with a great deal of parameter variations. This class included slowly-varying parameters as well as infrequent jumps in parameter values. In several cases, the error from time-varying signals can be reduced through proper parameterizations of the time-varying plant model used in the control design. In the linear time-varying case, stability margins, bandwidth margins, bandwidth, frequency domain characteristics, poles, zeros do not make much sense even for time-varying parameters unless approximations are made using the assumption of slowly varying parameters, etc.
 
 Adaptive control applied to nonlinear systems is in its infancy. Why is this so?
 In nonlinear systems, it is not only the parameters that are nonlinear, but also the functions. Adaptive control was designed to stabilize system parameters by adapting for nonlinear parameters  and **NOT** nonlinear functions. The extension of adaptive controllers to nonlinear systems from LTI and LTV systems is therefore a complicated one. There are two general cases of adopting adaptive control to nonlinear systems: (i) nonlinear systems whose nonlinear functions are known but unknown parameters appear linearly. (ii) the nonlinear functions are assumed known by multiplying nonlinear basis functions with unknown parameters to be determined. The second option falls under categories where the basis functions are typically deduced neural networks and they are assumed to appear linearly e.g. in a single layer (so far, this is what has been analytically proven). This property is fundamental to developing analytical stability results with large regions of attraction.
 
-I am motivated by the on-going bloom in neural networks commonly used in deep learning nowadays to check how other neural network architectures guarantee stability and robustness in the presence of dynamic uncertainties in complex systems. Some control background below.
+<!-- I am motivated by the on-going bloom in neural networks commonly used in deep learning nowadays to check how other neural network architectures guarantee stability and robustness in the presence of dynamic uncertainties in complex systems.  -->
+
+Some control background below.
 
 <a name='feedback-linearization'></a>
 ### Feedback Linearization
