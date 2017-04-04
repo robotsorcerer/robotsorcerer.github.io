@@ -142,10 +142,11 @@ y = z\_1
 \label{eq:canon}
 $$
 
-which is the **<i>canonical form</i>** of the system with **no zero dynamics**.  From feedback linearization, we find that 
+which is the **<i>canonical form</i>** of the system with _**no zero dynamics**_.  From feedback linearization, we find that 
 
 \begin{align}
 u = \dfrac{1}{L\_g L\_f^{n-1}h(x)}[\nu - L\_f^n h(x)],
+\label{eq:control}
 \end{align}
 
 where \\(\nu \in \mathbb{R} \\) is the new input, leading to the LTI system
@@ -163,6 +164,7 @@ Vectorizing the two equations, we have
 
 \begin{align}
 \dot{z} = A z + B \nu, \qquad y = C^T z, 
+\label{eq:linear}
 \end{align}
 
 where 
@@ -183,11 +185,27 @@ B =
 0 \\
 \vdots \\
 \vdots \\
-0
+1
 \end{bmatrix},
 
 \quad 
 C = \begin{bmatrix}
 1 \\ 0 \\ \vdots \\ \vdots \\ 0
 \end{bmatrix}
+$$
+
+\eqref{eq:linear} is an observable and controllable LTI system, and thus the input \\(\nu\\) can be carefully chosen to meet regulation or tracking objectives for the plant output \\(y\\). The \autoref{eq:control} cancels all nonlinearities and turns the closed-loop system to an LTI one. If \eqref{eq:nlnr1} has relative degree \\(\rho < n \\), the change of coordinates become
+
+\begin{align}
+z\_1 = y, \quad z\_2 = \dot{y}, \ldots \quad z\_\rho = y^{(\rho-1)} = L\_f^{(\rho -1)h(x) }
+\end{align}
+
+thus resulting in 
+
+$$
+\dot{z}\_1 = z\_2 \\
+\dot{z}\_1 = z\_2 \\
+\vdots \\
+\dot{z}\_{\rho-1} = z\_\rho \\
+\dot{z}\_\rho = L\_f^\rho h(x) + \left(L\_gL\_f^{\rho-1}h(x)\right) u
 $$
