@@ -63,7 +63,7 @@ In nonlinear systems, it is not only the parameters that are nonlinear, but also
 Feedback linearization consists in changing the coordinates of a system so as to cancel all or most of the unknown nonlinear terms so that the system behaves as a linear or partly linear system. Consider the following system
 
 \begin{align}
-  \dot{x} = f(x) + g(x)u, \nonumber \\
+  \dot{x} = f(x) + g(x)u,  \\
   y = h(x)
   \label{eq:nlnr1}
 \end{align}
