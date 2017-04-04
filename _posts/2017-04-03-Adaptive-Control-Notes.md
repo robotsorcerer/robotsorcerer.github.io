@@ -34,7 +34,7 @@ MathJax.Hub.Config({
 ## Notes updated sporadically at best. Bear my typos. Bite the meat not the language.
 
 <a name='introduction'></a>
-## `Introduction`
+## Introduction
 
 The motivation for adaptive control was from systems whose parameters varied with time. Adaptive control can deal with any size of parametric uncertainty as well as dynamic uncertainites arising from neglected dynamics if the correct robust algorithms are used. The bounds for the allowable dynamic uncertainites cannot be calculated as easily as in the nonadaptive case because of the nonlinear nature of the adaptive system coupled with the fact that the plant parameters are deemed unknown. 
 
