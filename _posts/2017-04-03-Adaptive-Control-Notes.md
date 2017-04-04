@@ -1,10 +1,8 @@
 ---
 layout: post
-date: 2017-04-03 12:25:00
+date: 2017-04-03 19:25:00
 title: "<center>Adaptive Control Notes</center>"
-excerpt: 
-<!-- "<center>Adaptive systems are inherently nonlinear. Their behavior therefore is quite complex, which makes them difficult to analyze. Progress in theory has been slow, and much work remains before a reasonably complete, coherent theory is available. <br>
-      <i>-- Karl Astrom</i></center>" -->
+excerpt: "<center>Adaptive systems are inherently nonlinear. Their behavior therefore is quite complex, which makes them difficult to analyze. Progress in theory has been slow, and much work remains before a reasonably complete, coherent theory is available. <br><i>-- Karl Astrom</i></center>"
 permalink: Adaptive-Control-Notes
 comments: true
 mathjax: true
@@ -89,8 +87,29 @@ Feedback linearization consists in changing the coordinates of a system so as to
 \begin{align}
   \dot{x} = f(x) + g(x)u,
   y = h(x)
+  \label{eq:nlnr1}
 \end{align}
 
 where \\(x \in \mathbb{R}^n, u,y \in \mathbb{R} \text{ and } f,g,h, \\) are smooth nonlinear functions.
 
+Differentiating \\(y\\) in \eqref{eq:nlnr1} with respect to time, we find that
 
+\begin{align}
+\dot{y} = \dfrac{\partial{h}}{\partial{x}}(x) f(x) +     \dfrac{\partial{h}}{\partial{x}}(x) g(x) u,
+\label{eq:ydot}
+\end{align}
+
+where
+
+\begin{align}
+\dfrac{\partial{h}}{\partial{x}}(x) f = \dfrac{\partial{h}}{\partial{x}_1}(x) f_1 + \cdots + \dfrac{\partial{h}}{\partial{x}_n}(x) f_n \trieq L_f \, f
+\label{eq:Lie}
+\end{align}
+
+where \\(L_f\,f\\) is the <i>Lie derivative</i>. If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x_0) \neq 0\\) at some point \\(x_0\\), then the system of \eqref{eq:nlnr1} is said to be of relative degree 1 at \\(x_0\\). For an LTI system, thius means the output is different from the input by one integrator only. This would be a strictly proper tranfer function system1 1. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree until the input appears in the output expression. 
+
+If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in B_{x}_0 of x_0\\), then one can take the second derivatiove of \\(y\\) to obtain 
+
+\begin{align}
+\ddot{y} = \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right)f + \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial{h}}{\partial{x}}f\right) gu.
+\end{align}
