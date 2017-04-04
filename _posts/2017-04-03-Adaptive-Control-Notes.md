@@ -116,7 +116,10 @@ then the SISO nonlinear system \eqref{eq:nlnr1} has a relative degree \\(\rho = 
 if \eqref{eq:nlnr1} has relative degree \\(\rho = n\\) at \\(x\\), where \\(n\\) is the order of \eqref{eq:nlnr1}, then given the transfoirmation 
 
 \begin{align}
-z\_1 = y = h(x), \qquad z\_2 = \dot{y} = L\_f h(x), \qquad z\_3 = \ddot{y} = L\_f^2 h(x), \qquad  \\
+z\_1 = y = h(x), \qquad z\_2 = \dot{y} = L\_f h(x), \qquad z\_3 = \ddot{y} = L\_f^2 h(x), 
+\end{align}
+
+\begin{align}
 z\_i = y^{(i-1)} = L\_f^{(i-1)} h(x) , \ldots, z\_n = y^{(n-1)} = L\_f^{n-1} h(x).
 \end{align}
 
@@ -125,7 +128,7 @@ we find that
 $$
 \dot{z}_1 = z_2, \nonumber \\
 \dot{z}_1 = z_2, \nonumber \\
-\qquad \vdots  \nonumber \\
+\quad \vdots  \nonumber \\
 \dot{z}_{n-1} = z_n,   \nonumber \\
 \dot{z}\_n = L_f^nh(x) + (L_gL_f^{n-1}h(x))u,  \\
 y = z_1
@@ -143,6 +146,27 @@ where \\(\nu \in \mathbb{R} \\) is the new input, leading to the LTI system
 $$
 \dot{z}_1 = z_2, \\
 \dot{z}_2 = z_3, \\
-\qquad \vdots  \\
+\quad \vdots  \\
 \dot{z}_{n-1} = z_n, \\
+\dot{z}_n = \nu, \\
+y = z_1
 $$
+
+Vectorizing the two equations, we have
+
+\begin{align}
+\dot{z} = A z + B \nu, \qquad y = C^T z, 
+\end{align}
+
+where 
+
+\begin{align}
+A = 
+\begin{bmatrix}
+0      &    1   &    0   & \ldots &    0   \\
+\vdots & \ddots & \ddots & \ddots & \vdots \\
+\vdots &        & \ddots & \ddots &    0   \\
+\vdots &        &        & \ddots &    1   \\
+0      & \ldots & ldots  & \ldots &    0   \\
+\end{bmatrix}
+\end{align}
