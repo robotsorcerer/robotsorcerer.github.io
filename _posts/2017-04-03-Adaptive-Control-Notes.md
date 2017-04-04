@@ -26,12 +26,15 @@ MathJax.Hub.Config({
 </script>
 
 ### [Table of Contents](#table-of-contents):
-
+   
+  - [Preamble](#preamble)
   - [Introduction](#introduction)
   - [Feedback Linearization](#feedback-linearization)    
 
+<a name="preamble"></a>
+## Preamble
 
-## Notes updated sporadically at best. Bear my typos. Bite the meat not the language.
+Over the past five-some months, my research has come full circle at the intersection of neural networks and nonlinear adaptive systems. The notes below are jottings I made during my learning process. I hope it helps someone just immersing themself into nonlinear adaptive control. My notes were sporadically written and may contain some minor typos and shenanigans. I implore the humble inquirer after knowledge to bite the meat, and not my typographical errors.
 
 <a name='introduction'></a>
 ## Introduction
