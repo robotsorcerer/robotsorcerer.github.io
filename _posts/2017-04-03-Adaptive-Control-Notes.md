@@ -34,7 +34,7 @@ MathJax.Hub.Config({
 <a name="preamble"></a>
 ## Preamble
 
-Over the past five-some months, my research has come full circle at the intersection of neural networks and nonlinear adaptive systems. The notes below are jottings I made during my learning process. I hope it helps someone just immersing themself into nonlinear adaptive control. My notes were sporadically written and may contain some minor typos and shenanigans. I implore the humble inquirer after knowledge to bite the meat, and not my typographical errors.
+Over the past five-some months, my research has come full circle at the intersection of neural networks and nonlinear adaptive systems. The notes below are jottings I made during my learning process. I hope it helps folks just immersing themselves into nonlinear adaptive control at the intersection of neural networks and function approximators. My notes were sporadically written and may contain some minor typos and shenanigans. I implore the humble inquirer after knowledge to bite the meat, and not my silly typographical errors. Please leave comments if you find errors.
 
 <a name='introduction'></a>
 ## Introduction
