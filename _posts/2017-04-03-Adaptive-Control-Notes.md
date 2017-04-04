@@ -204,7 +204,6 @@ thus resulting in
 
 $$
 \dot{z}_1 = z_2 \\
-\dot{z}_1 = z_2 \\
 \vdots \\
 \dot{z}_{\rho-1} = z_\rho \\
 \dot{z}_\rho = L_f^\rho h(x) + \left(L_gL_f^{\rho-1}h(x)\right) u
@@ -217,10 +216,32 @@ Since the order of the system is \\(n\\), we are gonna need \\(n - \rho \\) stat
 arising in the additional states
 
 $$
-\dot{z}\_{\rho+1} = \dfrac{\partial{h}\_{\rho+1}(x)}{\partial{x}}\cdot f(x) \triangleq \phi\_{\rho +1}(z), \\
+\dot{z}_{\rho+1} = \dfrac{\partial{h}_{\rho+1}(x)}{\partial{x}}\cdot f(x) \triangleq \phi\_{\rho +1}(z), \\
 \quad \vdots \\
-\dot{z}\_{n} = \dfrac{\partial{h}\_{n}(x)}{\partial{x}}\cdot f(x) \triangleq \phi_{n}(z), \\
-y = z\_1
+\dot{z}_{n} = \dfrac{\partial{h}_{n}(x)}{\partial{x}}\cdot f(x) \triangleq \phi_{n}(z), \\
+y = z_1
 $$
 
-where \\(z = [z\_1, z\_2, \ldots, z\_n]^T\\) is the new state
+where \\(z = [z\_1, z\_2, \ldots, z\_n]^T\\) is the new state. With feedback linearization, we have 
+
+\begin{align}
+u = \dfrac{1}{L\_g L\_f^{\rho-1}h(x)}[\nu - L\_f^\rho h(x)],
+\label{eq:control2}
+\end{align}
+
+so that we have the system
+
+$$
+\dot{z}_1 = z_2 \\
+\vdots \\
+\dot{z}_{\rho-1} = z_\rho \\
+\dot{z}_\rho = \nu, \\
+\dot{\rho + 1} = \phi_{\rho +1}(z), \\
+\quad \vdots \\
+\dot{z}_n = \phi_n(z), \\
+y = z_1.
+$$
+
+We see that the input \\(\nu \\) may be utilized to drive the output \\(y\\) and states \\(z_1, \ldots, z_\rho\\) to zero or meet some regulation goal for \\(y\\). When the choisce of controller \\(\nu\\) does not guarantee that the states \\(z_{\rho+1}, \ldots, z_n \\) are bounded despite z_1, \ldots, z_\rho being  driven to zero, we say the states \\([\dot{z}_{\rho+1}, \ldots, \dot{z}_n]\\) are the zero dynamics of \eqref{eq:nlnr1}. These are the dynamics of \eqref{eq:nlnr1} when \\(y\\) and its first \\(\rho\\) derivatives are set to zero. When the equilibrium states of the \\(z_{\rho+1}\\) are asymptotically stable, the system is said to be <i>minimum-phase</i>.
+
+The process illustrated above is called I/O feedback linearization. When there are no zero dynamics involved, the process is called <i> full-state feedback linearization</i>
