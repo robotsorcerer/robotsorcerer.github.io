@@ -203,9 +203,24 @@ z\_1 = y, \quad z\_2 = \dot{y}, \ldots \quad z\_\rho = y^{(\rho-1)} = L\_f^{(\rh
 thus resulting in 
 
 $$
-\dot{z}\_1 = z\_2 \\
-\dot{z}\_1 = z\_2 \\
+\dot{z}_1 = z_2 \\
+\dot{z}_1 = z_2 \\
 \vdots \\
-\dot{z}\_{\rho-1} = z\_\rho \\
-\dot{z}\_\rho = L\_f^\rho h(x) + \left(L\_gL\_f^{\rho-1}h(x)\right) u
+\dot{z}_{\rho-1} = z_\rho \\
+\dot{z}_\rho = L_f^\rho h(x) + \left(L_gL_f^{\rho-1}h(x)\right) u
 $$
+
+Since the order of the system is \\(n\\), we are gonna need \\(n - \rho \\) states; we can define functions \\(h\_{\rho+1}(x), \ldots, h\_n(x)\\) with \\(\frac{\partial{h}\_i(x)}{\partial{x}g(x)} = 0, \, i = \rho +1, \ldots, n\\) and define the \\(n - \rho\\)  states as 
+
+\\(z\_{\rho+1} = h\_{\rho + 1}, \ldots, z\_n = h\_n(x)\\)
+
+arising in the additional states
+
+$$
+\dot{z}\_{\rho+1} = \dfrac{\partial{h}\_{\rho+1}(x)}{\partial{x}}\cdot f(x) \triangleq \phi\_{\rho +1}(z), \\
+\quad \vdots \\
+\dot{z}\_{n} = \dfrac{\partial{h}\_{n}(x)}{\partial{x}}\cdot f(x) \triangleq \phi_{n}(z), \\
+y = z\_1
+$$
+
+where \\(z = [z\_1, z\_2, \ldots, z\_n]^T\\) is the new state
