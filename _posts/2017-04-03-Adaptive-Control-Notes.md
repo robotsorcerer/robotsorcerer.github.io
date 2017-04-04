@@ -242,6 +242,6 @@ $$
 y = z_1.
 $$
 
-We see that the input \\(\nu \\) may be utilized to drive the output \\(y\\) and states \\(z_1, \ldots, z_\rho\\) to zero or meet some regulation goal for \\(y\\). When the choisce of controller \\(\nu\\) does not guarantee that the states \\(z_{\rho+1}, \ldots, z_n \\) are bounded despite z_1, \ldots, z_\rho being  driven to zero, we say the states \\([\dot{z}_{\rho+1}, \ldots, \dot{z}_n]\\) are the zero dynamics of \eqref{eq:nlnr1}. These are the dynamics of \eqref{eq:nlnr1} when \\(y\\) and its first \\(\rho\\) derivatives are set to zero. When the equilibrium states of the \\(z_{\rho+1}\\) are asymptotically stable, the system is said to be <i>minimum-phase</i>.
+We see that the input \\(\nu\\) may be utilized to drive the output \\(y\\) and states \\(z_1, \ldots, z_\rho\\) to zero or meet some regulation goal for \\(y\\). When the choisce of controller \\(\nu\\) does not guarantee that the states \\(z_{\rho+1}, \ldots, z_n \\) are bounded despite \\(z\_1, \ldots, z\_\rho\\) being  driven to zero, we say the states \\([\dot{z}_{\rho+1}, \ldots, \dot{z}_n]\\) are the zero dynamics of \eqref{eq:nlnr1}. These are the dynamics of \eqref{eq:nlnr1} when \\(y\\) and its first \\(\rho\\) derivatives are set to zero. When the equilibrium states of the \\(z_{\rho+1}\\) are asymptotically stable, the system is said to be <i>minimum-phase</i>.
 
-The process illustrated above is called I/O feedback linearization. When there are no zero dynamics involved, the process is called <i> full-state feedback linearization</i>
+The process illustrated above is called I/O feedback linearization. When there are no zero dynamics involved, the process is called <i> full-state feedback linearization</i>.
