@@ -143,8 +143,8 @@ $$
 \dot{z}_1 = z_2, \nonumber \\
 \quad \vdots  \nonumber \\
 \dot{z}_{n-1} = z_n,   \nonumber \\
-\dot{z}\_n = L_f^nh(x) + (L_gL_f^{n-1}h(x))u,  \\
-y = z\_1
+\dot{z}_n = L_f^nh(x) + (L_gL_f^{n-1}h(x))u,  \\
+y = z_1
 \label{eq:canon}
 $$
 
