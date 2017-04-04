@@ -107,18 +107,18 @@ where
 \label{eq:Lie}
 \end{align}
 
-where \\(L_f f\\) is the <i>Lie derivative</i>. If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x_0) \neq 0\\) at some point \\(x_0\\), then the system of \eqref{eq:nlnr1} is said to be of relative degree 1 at \\(x_0\\). For an LTI system, this means the output is different from the input by one integrator only. This would be a strictly proper tranfer function. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression. 
+where \\(L_f f\\) is the <i>Lie derivative</i>. If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x\_0) \neq 0\\) at some point \\(x_0\\), then the system of \eqref{eq:nlnr1} is said to be of relative degree 1 at \\(x_0\\). For an LTI system, this means the output is different from the input by one integrator only. This would be a strictly proper tranfer function. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression. 
 
-If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in B_x_0 \text{ of } x_0 \\), then one can take the second derivatiove of \\(y\\) to obtain (abusing notation an d dropping the parentheses terms,
+If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in {B\_x}_0 \text{ of } x\_0 \\), then one can take the second derivatiove of \\(y\\) to obtain (abusing notation an d dropping the parentheses terms,
 
 \begin{align}
 \ddot{y} = \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right)f + \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial{h}}{\partial{x}}f\right) g \, u.
 \end{align}
 
-If \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right)g(x) \, |_{x = x_0} \neq 0\\) then \eqref{eq:nlnr1} is said to have a relative degree 2 at \\(x_0\\). We can continue the differentiation in a neighborhood of \\(x_0\\) if \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right)g(x) = 0\\) in the neighborhood of \\(x_0\\). 
+If \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right)g(x) \, |\_{x = x\_0} \neq 0 \\) then \eqref{eq:nlnr1} is said to have a relative degree 2 at \\(x\_0\\). We can continue the differentiation in a neighborhood of \\(x_0\\) if \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right)g(x) = 0 \\) in the neighborhood of \\(x_0\\). 
 
 More generally, 
 
 \begin{align}
-L_f^i h = \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial}{\partial{x}} \cdot \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right) \Cdot f \cdots \right) \Cdot f \right) \Cdot f.
+L_f^i h = \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial}{\partial{x}} \left(\cdot \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right) \cdot f \cdots \right) \cdot f \right) \cdot f.
 \end{align}
