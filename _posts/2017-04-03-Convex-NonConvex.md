@@ -77,7 +77,7 @@ subject to 	\\(\quad G x \le h\\)
 
 where \\(Q \succeq \mathbb{S}^n_+ \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
 
-Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are btw the state-of-the-art in solving such problems currently, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
+Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are btw the state-of-the-art in solving such problems currently, see [Boyd and Mattingley, 2012](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
 
 <a name="slack-variables"></a>
 ### Introducing Slack Variables
@@ -251,7 +251,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_p = inf \{\alpha | -z + \alpha \textbf{e} \succeq 0\} \\).
+for \\(\alpha\_p = inf \{\alpha \| -z + \alpha \textbf{e} \succeq 0\}\\).
 
 Similarly, \\(z\\) at the first iteration is computed as follows
 
@@ -262,8 +262,30 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_d = inf \{\alpha | z + \alpha \textbf{e} \succeq 0\}\\).
+for \\(\alpha\_d = inf \{\alpha \| z + \alpha \textbf{e} \succeq 0\}\\).
 
 Note \\(\textbf{e}\\) is identity.
 
+Following Boyd and Mattingley's convention, we can compute the afiine scaling directions buy solving the system, 
+
+
+$$
+\begin{bmatrix}
+G    &I &0\\
+0   &K(z) & K(s) \\
+Q 	&0 	&G^T 
+\end{bmatrix}
+
+\begin{bmatrix}
+\Delta z^{aff} \\
+\Delta s^{aff} \\
+\Delta x^{aff}
+\end{bmatrix}
+= 
+\begin{bmatrix}
+-Gx - s + h \\
+-K(s)z \\
+-G^Tz + Qx + q 
+\end{bmatrix}
+$$
 
