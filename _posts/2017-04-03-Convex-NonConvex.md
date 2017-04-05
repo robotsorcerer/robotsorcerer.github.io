@@ -136,7 +136,7 @@ Vectorizing the above equation, we find that
 $$
 \begin{bmatrix}
 Q & G^T   \\
-K(\lambda^*) G & K(dGx^* - h)  \\
+K(\lambda^\ast) G & K(dGx^\ast - h)  \\
 \end{bmatrix}
 
 \begin{bmatrix}
@@ -169,7 +169,7 @@ $$
 
 The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(5\\). However, the ordered derivative of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(29\\) (because of the indirect effect by way of \\(x\_2\\)).
 
-So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x*} \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^*} \cdots \frac{\partial x^*}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
+So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x^\ast \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^\ast} \cdots \frac{\partial x^\ast}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
 
 $$
 \begin{bmatrix}
