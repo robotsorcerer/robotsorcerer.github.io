@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-04-05 11:15:00
-title: "<center>Backpropagation and convex programming</center>"
+title: "<center>Backpropagation and convex programming in MRAS systems</center>"
 excerpt: "<center>A contraint-based approach to solving the backpropagation optimization problem in nonlinear model reference adaptive systems.</center>"
 permalink: QP-Layer-MRAS
 comments: true
