@@ -134,7 +134,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_p = inf {\alpha | -z + \alpha \textbf{e} \succeq 0 \\).
+for \\(\alpha\_p = inf \{\alpha | -z + \alpha \textbf{e} \succeq 0\} \\).
 
 Similarly, \\(z\\) at the first iteration is computed as follows
 
@@ -145,5 +145,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_d = inf {\alpha | z + \alpha \textbf{e} \succeq 0 \\).
+for \\(\alpha\_d = inf \{\alpha | z + \alpha \textbf{e} \succeq 0\}\\).
+
+Note \\(\textbf{e}\\) is identity.
 
