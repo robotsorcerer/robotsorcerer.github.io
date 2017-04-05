@@ -87,16 +87,21 @@ $$
 
 For the primal and dual problems:
 
+
 \begin{align}
+\begin{breqn}
  \text{minimize} \quad \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2) \\
  \text{ subject to } \quad Gx + s = h \\
+\end{breqn}
 \end{align}
 
  \text{with \\(x\\) and \\(s\\) as variables to be optimized and} 
 
 \begin{align}
+\begin{breqn}
   \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
  \text{ subject to } \quad Qw + G^T z +  q = 0 \\
+\end{breqn}
 \end{align}
 
  \text{ with variables w and z to be optimized},
@@ -137,4 +142,13 @@ $$
 for \\(\alpha\_p = inf {\alpha | -z + \alpha \textbf{e} \succeq 0 \\).
 
 Similarly, \\(z\\) at the first iteration is computed as follows
+
+$$
+\hat{z} = \begin{cases}
+	z \qquad  \text{ if } \alpha_d < 0  \qquad else \\
+	z + (1+\alpha_d)\textbf{e} 
+\end{cases}
+$$
+
+for \\(\alpha\_d = inf {\alpha | z + \alpha \textbf{e} \succeq 0 \\).
 
