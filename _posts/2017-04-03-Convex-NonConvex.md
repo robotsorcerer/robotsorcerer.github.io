@@ -289,3 +289,5 @@ Q 	&0 	&G^T
 \end{bmatrix}
 $$
 
+with \\( K(s) as \textbf{diag}(s) and K(z) as \textbf{diag(z)} \\)
+
