@@ -173,7 +173,7 @@ So with the backprop algorithm, we would form the left matrix-vector product wit
 
 $$
 \begin{bmatrix}
-dx, d\lambda
+dx \\ d\lambda
 \end{bmatrix}
 = 
 \begin{bmatrix}
@@ -182,7 +182,7 @@ G & K(Gx^* - h)
 \end{bmatrix}^{-1}
 = 
 \begin{bmatrix}
-{\dfrac{dJ}{dx^*}}^T, 0
+{\dfrac{dJ}{dx^*}}^T \\ 0
 \end{bmatrix}
 $$
 
