@@ -133,7 +133,7 @@ $$
 ### Limitation of forward pass gradients computation in backpropagation
 Vectorizing the above equation, we find that 
 
-$$
+\begin{align}
 \begin{bmatrix}
 Q & G^T   \\
 K(\lambda^*) G & K(dGx^* - h)  \\
@@ -148,9 +148,10 @@ d\lambda \\
 -dQ x^* - dq - dG^T \lambda^* \\
 -K(\lambda^*) dG x^* + DK(\lambda^*) dh \\
 \end{bmatrix}
-$$
+\label{eq:KKTDiff}
+\end{align}
 
-so that the Jacobians of the variables to be optimized can be formed (i.e. \\({x}^*, {\lambda}^* \\)) with respect to the states of the system. Finiding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
+so that the Jacobians of the variables to be optimized can be formed (i.e. \\(x^*\\), \\(\lambda^* \\) ) with respect to the states of the system. Finiding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
 
 Except that there is a catch. With backpropagation, the explicit Jacobian are useless in and of themselves. The gradients of the network parameters are computed as a chain rule for <i>ordered derivatives</i> 
 
@@ -167,6 +168,16 @@ x_3 = 5  x_1 + 8  x_2
 $$
 
 The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(5\\). However, the ordered derivative of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(29\\) (because of the indirect effect by way of \\(x\_2\\)).
+
+So in \eqref{eq:KKTDiff}, with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{ \partial x^*} \in \mathbb{R}^n \\); this is mathematically equivalent to  (\\(\frac{\partial J}{ \partial x^*} \cdots \frac{\partial x^*}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dz, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
+
+\begin{align}
+\begin{bmatrix}
+dx, d\lambda
+\end{bmatrix}
+= 
+\end{align}
+
 
 <a name="initialization"></a>
 ### Initialization
