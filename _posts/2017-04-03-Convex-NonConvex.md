@@ -85,6 +85,30 @@ Qx + q + G^T = 0 \\ \\
 z_i s_i = 0, i = 1, \ldots, p.
 $$
 
+More formally, if we write the Lagrangian of the system in \eqref{eq:orig} as 
+
+\begin{align}
+L(z, \lambda) = \frac{1}{2}x^TQx + p^Tx +\lambda^T(Gz -h)
+\label{eq:Lagrangian}
+\end{align}
+
+then it follows that the KKT for stationarity, primal feasibility and complementary slackness are thus defined
+
+\begin{align}
+Qx^* + p + G^T \lambda^* = 0   
+\label{eq:KKTLagrangian}
+\end{align}
+
+\begin{align}
+K(\lambda^*)(Gz* - h) = 0 \nonumber 
+\end{align}
+
+where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix of diagonal of the entries of vector \\(k\\). Computingthe time-derivative of \eqref{eq:KKTLagrangian}, we find that 
+
+$$
+dQ x^*
+$$
+
 <a name="initialization"></a>
 ### Initialization
 
