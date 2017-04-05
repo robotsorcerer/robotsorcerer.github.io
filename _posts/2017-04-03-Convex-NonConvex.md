@@ -28,7 +28,9 @@ MathJax.Hub.Config({
 ### [Table of Contents](#table-of-contents):
    
   - [Introduction](#introduction)
-  - [Feedback Linearization](#feedback-linearization)    
+  - [Problem formulation: Solving the standard-form QP in a Backprop setting](#problem-formulation)  
+  	- [Slack Variables](#slack-variables)
+  	- [Initialization](#initialization)  
 
 
 <a name='introduction'></a>
@@ -42,41 +44,50 @@ Note that the comparator block in an MRAS system does use the difference from th
 
 With nonlinear (possibly multivariable systems), it is typical to approximate the unknown function \\(f(.)\\) with a function approximator such as simple neural networks. To date, the state-of-the-art method in optimizingh the weights of a neural networkis the [backpropagation algorithm](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/).  But the optimizationin classical backprop is unrolled end-to-end so that the complexity of the network increases supposingthat we want to add as <i>argmin layer</i>. When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent. This is because in the backpropagation algorithm, the explicit Jacobians of the gradients of the system's energy function with respect to system parameters is not exactly formulated. But in control applications, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part. 
 
+<a name="problem-formulation"></a>
 ### Problem formulation: Solving the standard-form QP in a Backprop setting
 
 We define the standard QP canonical form problem with inequality contraints thus:
 
-$$
-\text{minimize}  \frac{1}{2}x^TQx + q^Tx \\
-\text{ subject to }  \quad G x \le h
+\begin{align}
+\text{minimize} \quad  \frac{1}{2}x^TQx + q^Tx \\
+\text{ subject to }  	\quad G x \le h
 \label{eq:orig}
-$$
+\end{align}
 
-where \\(Q\\) is symmetric, positive definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, h \in \mathbb{R}^p \\).
+where \\(Q\\) is a symmetric, positive definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
 
 Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are the state-of-the-art in solving such problems currently, for example, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
 
+<a name="slack-variables"></a>
 #### Introduce Slack Variables
 Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) like so,
 
 $$
-\text{minimize}  \frac{1}{2}x^TQx + q^Tx \\
+\text{minimize}  \quad \frac{1}{2}x^TQx + q^Tx \\
 \text{ subject to }  \quad G x + s =  h, \qquad s \ge 0,
 \label{eq:orig1}
 $$
 
-where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). Let a dual cvariable \\(z \in R^p) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
+where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). Let a dual cvariable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
 
 $$
 Gx + s = h, \quad s \ge 0 \\
 z \ge 0 \\
-Qx + q + G^T = 0 \\
+Qx + q + G^T = 0 \\ \\
 z_i s_i = 0, i = 1, \ldots, p.
 $$
 
+<a name="initialization"></a>
 #### Initialization
 
-When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, to solve the set of linear equations
+For the primal and dual problems:
+
+$$
+ \text{minimize} \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2)
+$$
+
+When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
 \begin{align}
 \begin{bmatrix}
@@ -93,7 +104,9 @@ x \\
 =
 \begin{bmatrix}
 h \\
-b \\
+p \\
 -q \\
 \end{bmatrix}
 \end{align}
+
+and assume that \\(\hat{x} = x,\hat{y} = y\\). 
