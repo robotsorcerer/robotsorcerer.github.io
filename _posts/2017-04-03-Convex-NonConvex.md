@@ -53,7 +53,7 @@ This is because in the backpropagation algorithm, the explicit Jacobians of the 
 <a name="problem-formulation"></a>
 ### Problem formulation: Solving the standard-form QP in a Backprop setting
 
-When trying to construct a controller for a regulator, or MRAS system, we may imagine that the way to deribve the controller would be a search process for a control scheme that takes an arbitrary nonzero initial state to the zero state, hopefully as fast as possible. If the system is controllable, then we may require our controller taking the syste, from state \\(x(t\_0)\\) to the zero state at time \\(T\\). If \\(T\\) is closer to \\(t\_0), more control effort would be required to bear states to \\(t\_0\\ to ensure the state transfer.) In most engineering systems, an upper bound is set on the magnitudes of the variables for pragmatic purposes. It therefore becomes impossible to take \\(T\\) to \\(0\\) without exceeding the control bounds. Unless we are ready to bear high gain terms in our controller parameters, the control is not feasible for finite T. So what to do? To meet the practical bounds manufacturers place on physical actuators, it suffices to manually formulate these bounds as constrainst into our control design objectives. An example of such measures is in the linear quadratic regulator problem e.g.
+When trying to construct a controller for a regulator, or MRAS system, we may imagine that the way to deribve the controller would be a search process for a control scheme that takes an arbitrary nonzero initial state to the zero state, hopefully as fast as possible. If the system is controllable, then we may require our controller taking the syste, from state \\(x(t\_0)\\) to the zero state at time \\(T\\). If \\(T\\) is closer to \\(t\_0\\), more control effort would be required to bear states to \\(t\_0\\ to ensure the state transfer.) In most engineering systems, an upper bound is set on the magnitudes of the variables for pragmatic purposes. It therefore becomes impossible to take \\(T\\) to \\(0\\) without exceeding the control bounds. Unless we are ready to bear high gain terms in our controller parameters, the control is not feasible for finite T. So what to do? To meet the practical bounds manufacturers place on physical actuators, it suffices to manually formulate these bounds as constrainst into our control design objectives. An example of such measures is in the linear quadratic regulator problem e.g.
 
 \begin{align}
 \int_{t_0}^{T} u'(t)u(t)dt \quad \int_{t_0}^{T} [u'(t)u(t)]^{\frac{1}{2}} 
@@ -75,8 +75,6 @@ We define the standard QP canonical form problem with inequality contraints thus
 subject to 	\\(\quad G x \le h\\)
 
 where \\(Q \succeq \mathbb{S}^+_0 \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
-
-
 
 Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are btw the state-of-the-art in solving such problems currently, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
 
