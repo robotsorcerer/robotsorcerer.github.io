@@ -28,6 +28,7 @@ MathJax.Hub.Config({
 ### [Table of Contents](#table-of-contents):
    
   - [Introduction](#introduction)
+  - [Nonlinear (Multivariable) Model Reference Adaptive Systems](#nonlinear)
   - [Problem formulation: Solving the standard-form QP in a Backprop setting](#problem-formulation)  
   - [Slack Variables](#slack-variables)
   - [Initialization](#initialization)  
@@ -40,18 +41,19 @@ The backpropagation algorithm is very useful for general optimization tasks. Par
 
 Note that the comparator block in an MRAS system does use the difference from the comparator block to either modify the parameters of the adjustable system or to generate auxiliary input signals which modify the difference between the two IP's expressed as a functional of the difference between the IPs of the reference model and the adjustable system.
 
+<a name="nonlinear"></a>
 ## Nonlinear (Multivariable) Model Reference Adaptive Systems
 
-With nonlinear (possibly multivariable systems), it is typical to approximate the unknown function \\(f(.)\\) with a function approximator such as simple neural networks. To date, the state-of-the-art method in optimizingh the weights of a neural networkis the [backpropagation algorithm](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/).  But the optimizationin classical backprop is unrolled end-to-end so that the complexity of the network increases supposingthat we want to add as <i>argmin layer</i>. When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent. 
+With nonlinear (possibly multivariable systems), it is typical to approximate the unknown function \\(f(.)\\) with a function approximator such as simple neural networks. To date, the state-of-the-art used in optimizing the weights of a neural network is the [backpropagation algorithm](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/).  But the optimization in classical backprop is unrolled end-to-end so that the complexity of the network increases supposing that we want to add an <i>argmin layer</i> before the final neural network layer that generates control laws. When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent. 
 
 > "When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent."
 
-This is because in the backpropagation algorithm, the explicit Jacobians of the gradients of the system's energy function with respect to system parameters is not exactly formulated. But in control applications, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part. 
+This is because in the backpropagation algorithm, the explicit Jacobians of the gradients of the system's energy function with respect to system parameters is not exactly formulated (but rather are ordered derivatives which fluctuate about the global/local minimum when the weights of the network converge). To generate control laws such as torques to control a motor arm in a multi-dof robot-arm for example, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part. 
 
 <a name="problem-formulation"></a>
 ### Problem formulation: Solving the standard-form QP in a Backprop setting
 
-We define the standard QP canonical form problem with inequality contraints thus:
+We define the standard QP canonical form problem with inequality contraints (for accompanying equality constraints, I implore the reader to read Brandon Amos' ICML submission available [here](https://arxiv.org/pdf/1703.00443.pdf)) thus:
 
 \begin{align}
 \text{minimize} \quad  \frac{1}{2}x^TQx + q^Tx 
@@ -60,12 +62,12 @@ We define the standard QP canonical form problem with inequality contraints thus
 
 subject to 	\\(\quad G x \le h\\)
 
-where \\(Q\\) is a symmetric, positive definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
+where \\(Q \succeq \mathbb{S}^+_0 \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
 
-Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are the state-of-the-art in solving such problems currently, for example, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
+Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are btw the state-of-the-art in solving such problems currently, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
 
 <a name="slack-variables"></a>
-### Introduce Slack Variables
+### Introducing Slack Variables
 Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) like so,
 
 \begin{align}
@@ -100,7 +102,7 @@ K(\lambda^*) (Gz* - h) = 0
 \label{eq:KKTLagrangian}
 \end{align}
 
-where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix of diagonal of the entries of vector \\(k\\). Computingthe time-derivative of \eqref{eq:KKTLagrangian}, we find that 
+where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
 $$
 dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0 \\
@@ -124,7 +126,7 @@ $$
  \text{ subject to } \quad Qw + G^T z +  q = 0 \\
 $$
 
- with variables w and z to be optimized,
+ with variables \\(w\\) and \\(z\\) to be optimized,
 	
 when the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
