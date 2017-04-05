@@ -142,13 +142,14 @@ K(\lambda^*) G & K(dGx^* - h)  \\
 \begin{bmatrix}
 dx \\
 d\lambda \\
-\end{bmatrix}
 =
+\end{bmatrix}
+\end{align}
+$$
 \begin{bmatrix}
 -dQ x^* - dq - dG^T \lambda^* \\
 -K(\lambda^*) dG x^* + DK(\lambda^*) dh \\
 \end{bmatrix}
-\label{eq:KKTDiff}
 $$
 
 so that the Jacobians of the variables to be optimized can be formed with respect to the states of the system. Finiding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
