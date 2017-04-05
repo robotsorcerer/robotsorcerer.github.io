@@ -75,7 +75,11 @@ We define the standard QP canonical form problem with inequality contraints thus
 \label{eq:orig}
 \end{align}
 
-subject to 	\\(\quad G x \le h\\)
+subject to 	
+
+\begin{align}
+\quad G x \le h\\)
+\end{align}
 
 where \\(Q \succeq \mathbb{S}^n_+ \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
 
