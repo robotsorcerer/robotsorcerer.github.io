@@ -146,8 +146,8 @@ d\lambda \\
 \end{bmatrix}
 
 \begin{bmatrix}
--dQ x^* - dq - dG^T \lambda^* \\
--K(\lambda^*) dG x^* + DK(\lambda^*) dh \\
+-dQ x^\ast - dq - dG^T \lambda^\ast \\
+-K(\lambda^\ast) dG x^\ast + DK(\lambda^\ast) dh \\
 \end{bmatrix}
 $$
 
