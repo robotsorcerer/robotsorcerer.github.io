@@ -142,8 +142,9 @@ K(\lambda^\ast) G & K(dGx^\ast - h)  \\
 \begin{bmatrix}
 dx \\
 d\lambda \\
-=
 \end{bmatrix}
+
+= 
 
 \begin{bmatrix}
 -dQ x^\ast - dq - dG^T \lambda^\ast \\
