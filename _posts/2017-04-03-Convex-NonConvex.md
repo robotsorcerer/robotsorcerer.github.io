@@ -42,7 +42,7 @@ MathJax.Hub.Config({
 
 The backpropagation algorithm is very useful for general optimization tasks. Particularly, in deep learning applications, great progress has been made due to the effectiveness of the backprop algorithm. Whereas in traditional control applications, we typically use feedback regulation to stabilize the states of the system, in model reference adaptive control systems, we typically want to specify an index of performance to determine the "goodness" of our adaptation. An auxiliary dynamic system called the __reference model__ is used in generating this index of performance (IP). The reference model specifies in terms of the input and states of the model a given index of performance. A comparison check is used to determine appropriate  control laws  by comparing the given IP and measured IP based on the outputs of the adjustable system to that of the reference model system. 
 
-Note that the comparator block in an MRAS system does use the difference from the comparator block to either modify the parameters of the adjustable system or to generate auxiliary input signals which modify the difference between the two IP's expressed as a functional of the difference between the IPs of the reference model and the adjustable system.
+The comparator block in an MRAS system uses the difference between the comparator block to either modify the parameters of the adjustable system or to generate auxiliary input signals which modify the difference between the two IP's expressed as a functional of the difference between the IPs of the reference model and the adjustable system.
 
 <a name="nonlinear"></a>
 ## Nonlinear (Multivariable) Model Reference Adaptive Systems
