@@ -95,14 +95,14 @@ $$
  \text{ subject to } \quad Gx + s = h \\
 $$
 
- \text{with \\(x\\) and \\(s\\) as variables to be optimized and} 
+ with \\(x\\) and \\(s\\) as variables to be optimized and
 
 $$
   \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
  \text{ subject to } \quad Qw + G^T z +  q = 0 \\
 $$
 
- \text{ with variables w and z to be optimized},
+ with variables w and z to be optimized,
 	
 when the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
