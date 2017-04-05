@@ -2,7 +2,7 @@
 layout: post
 date: 2017-04-05 11:15:00
 title: "<center>Backpropagation and convex programming</center>"
-excerpt: "<center></center>"
+excerpt: "<center>A contraint-based approach to solving the backpropagation optimization problem in nonlinear model reference adaptive systems.</center>"
 permalink: Adaptive-Control-Notes
 comments: true
 mathjax: true
@@ -42,7 +42,11 @@ Note that the comparator block in an MRAS system does use the difference from th
 
 ## Nonlinear (Multivariable) Model Reference Adaptive Systems
 
-With nonlinear (possibly multivariable systems), it is typical to approximate the unknown function \\(f(.)\\) with a function approximator such as simple neural networks. To date, the state-of-the-art method in optimizingh the weights of a neural networkis the [backpropagation algorithm](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/).  But the optimizationin classical backprop is unrolled end-to-end so that the complexity of the network increases supposingthat we want to add as <i>argmin layer</i>. When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent. This is because in the backpropagation algorithm, the explicit Jacobians of the gradients of the system's energy function with respect to system parameters is not exactly formulated. But in control applications, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part. 
+With nonlinear (possibly multivariable systems), it is typical to approximate the unknown function \\(f(.)\\) with a function approximator such as simple neural networks. To date, the state-of-the-art method in optimizingh the weights of a neural networkis the [backpropagation algorithm](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/).  But the optimizationin classical backprop is unrolled end-to-end so that the complexity of the network increases supposingthat we want to add as <i>argmin layer</i>. When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent. 
+
+> "When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent."
+
+This is because in the backpropagation algorithm, the explicit Jacobians of the gradients of the system's energy function with respect to system parameters is not exactly formulated. But in control applications, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part. 
 
 <a name="problem-formulation"></a>
 ### Problem formulation: Solving the standard-form QP in a Backprop setting
