@@ -147,8 +147,23 @@ d\lambda \\
 \end{bmatrix}
 $$
 
-so that the Jacobians of the variables to be optimized can be formed (i.e. \\({x}^*, {\lambda}^* \\)) with respect to the states of the system. Finidng \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
+so that the Jacobians of the variables to be optimized can be formed (i.e. \\({x}^*, {\lambda}^* \\)) with respect to the states of the system. Finiding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
 
+Except there is a catch. With backpropagation, the explicit Jacobian are useless in and of themselves. The gradients of the network parameters are computed as a chain rule for <i>ordered derivatives</i> 
+
+\begin{align}
+\dfrac{\partial^+ J}{ \partial h_j} = \dfrac{\partial J}{ \partial h_j} + \sum_{j > i} \dfrac{\partial^+ J}{ \partial h^_j}\times \dfrac{\partial^h_j}{ \partial h_i}
+\end{align}
+
+
+where the derivatives with superscripts denote <i>ordered derivatives</i> and those with subscripts denote ordinary partial derivatives. The simple partial derivatives denote the direct effect of \\(h\_i\\) on \\(h\_j\\) through the <i>linear set of equations </i> that determine \\(h\_j). To illustrate further, suppose that we have a system of equations given by 
+
+$$
+x_2 = 3 \times x_1 \\
+x_3 = 5 \times x_1 + 8 \times x_2
+$$
+
+The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(5\\). However, the ordered derivative of \\(x\_3\\) with respect to \\(x\_1) would be 29 (because of the indirect effect by way of \\(x\_2\\)).
 
 <a name="initialization"></a>
 ### Initialization
