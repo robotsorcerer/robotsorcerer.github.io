@@ -87,8 +87,11 @@ Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\
 \label{eq:orig1}
 \end{align}
 
+subject to 
 
-subject to \\( \quad G x + s =  h, \qquad s \ge 0\\),
+\begin{align}
+\quad G x + s =  h, \qquad s \ge 0 \nonumber
+\end{align}
 
 where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). Let a dual variable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
 
@@ -115,7 +118,7 @@ Q x^* + q + G^T \lambda^* = 0 ,
 \end{align}
 
 \begin{align}
-K (left\lambda^{*}\right) (G x^* - h) = 0 
+K (left\lambda^{*}\right) (G x^* - h) = 0 \nonumber
 \end{align}
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
