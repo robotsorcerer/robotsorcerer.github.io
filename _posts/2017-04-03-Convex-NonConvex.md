@@ -266,28 +266,50 @@ for \\(\alpha\_d = inf \{\alpha \| z + \alpha \textbf{e} \succeq 0\}\\).
 
 Note \\(\textbf{e}\\) is identity.
 
-Following Boyd and Mattingley's convention, we can compute the afiine scaling directions buy solving the system, 
+
+-	Following Boyd and Mattingley's convention, we can compute the afiine scaling directions buy solving the system, 
 
 
-$$
-\begin{bmatrix}
-G    &I &0\\
-0   &K(z) & K(s) \\
-Q 	&0 	&G^T 
-\end{bmatrix}
+	$$
+	\begin{bmatrix}
+	G    &I &0\\
+	0   &K(z) & K(s) \\
+	Q 	&0 	&G^T 
+	\end{bmatrix}
 
-\begin{bmatrix}
-\Delta z^{aff} \\
-\Delta s^{aff} \\
-\Delta x^{aff}
-\end{bmatrix}
-= 
-\begin{bmatrix}
--Gx - s + h \\
--K(s)z \\
--G^Tz + Qx + q 
-\end{bmatrix}
-$$
+	\begin{bmatrix}
+	\Delta z^{aff} \\
+	\Delta s^{aff} \\
+	\Delta x^{aff}
+	\end{bmatrix}
+	= 
+	\begin{bmatrix}
+	-Gx - s + h \\
+	-K(s)z \\
+	-G^Tz + Qx + q 
+	\end{bmatrix}
+	$$
 
-with \\( K(s) as \textbf{diag}(s) and K(z) as \textbf{diag(z)} \\)
+	with \\( K(s) as \textbf{diag}(s) and K(z) as \textbf{diag(z)} \\)
 
+-	We can efficiently comnpute the primal and dual variables by determining the centering-plus-corrector directions by solving
+
+	$$
+	\begin{bmatrix}
+	G    &I &0\\
+	0   &K(z) & K(s) \\
+	Q 	&0 	&G^T 
+	\end{bmatrix}
+
+	\begin{bmatrix}
+	\Delta z^{cc} \\
+	\Delta s^{cc} \\
+	\Delta x^{cc}
+	\end{bmatrix}
+	= 
+	\begin{bmatrix}
+	0 \\
+	\sigma \mu \textbf{e} - K(\Delta s^{aff}) \Delta z^{aff} \\
+	0 
+	\end{bmatrix}
+	$$
