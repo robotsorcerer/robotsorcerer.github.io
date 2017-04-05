@@ -32,7 +32,9 @@ MathJax.Hub.Config({
   - [Problem formulation: Solving the standard-form QP in a Backprop setting](#problem-formulation)  
   - [Slack Variables](#slack-variables)
   - [Limitation of forward pass gradients computation in backpropagation](#limitation-backprop)
-  - [Initialization](#initialization)  
+  - [QP Algorithm](#initialization) 
+  - [Example Codes](#example-codes)
+  - [Acknowlegments](#acknowledgements) 
 
 
 <a name='introduction'></a>
@@ -251,7 +253,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_p = \text{ inf } {\alpha \| -z + \alpha \textbf{e} \succeq 0}\\).
+for \\(\alpha\_p = \text{ inf } \textbraceleft \alpha \| -z + \alpha \textbf{e} \succeq 0 \textbraceright \\).
 
 Similarly, \\(z\\) at the first iteration is computed as follows
 
@@ -262,7 +264,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_d = \text{ inf } \{{ \alpha \| z + \alpha \textbf{e} \succeq 0 \}}\\).
+for \\(\alpha\_d = \text{ inf } \textbraceleft \alpha \| z + \alpha \textbf{e} \succeq 0 \textbraceright \\).
 
 Note \\(\textbf{e}\\) is identity.
 
@@ -330,10 +332,12 @@ Note \\(\textbf{e}\\) is identity.
 	z \leftarrow z + \alpha \Delta z.
 	$$
 
+<a name="example-codes"></a>
 ### Example codes
 
 An example implementation of this algorithm in the PyTorch Library is available on my [github page](https://github.com/lakehanne/RAL2017/blob/master/pyrnn/src/model.py). 
 
+<a name="acknowledgements"></a>
 ### Acknowledgments
 I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my implementation questions while using his [qpth code](https://locuslab.github.io/qpth/).
 +
