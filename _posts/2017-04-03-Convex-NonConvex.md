@@ -156,7 +156,7 @@ so that the Jacobians of the variables to be optimized can be formed with respec
 Except that there is a catch. With backpropagation, the explicit Jacobian are useless in and of themselves. The gradients of the network parameters are computed using chain rule for <i>ordered derivatives</i> 
 
 $$
-\dfrac{\partial ^+ J}{ \partial h\_i} = \dfrac{\partial J}{ \partial h\_i} + \sum\_{j > i} \dfrac{\partial ^+ J}{\partial h\_j} \dfrac{ {\partial} h\_j}{ \partial h\_i}
+\dfrac{\partial ^+ J}{ \partial h_i} = \dfrac{\partial J}{ \partial h_i} + \sum_{j > i} \dfrac{\partial ^+ J}{\partial h_j} \dfrac{ {\partial} h_j}{ \partial h_i}
 $$
 
 where the derivatives with superscripts denote <i>ordered derivatives</i> and those with subscripts denote ordinary partial derivatives. The simple partial derivatives denote the direct effect of \\(h\_i\\) on \\(h\_j\\) through the <i>linear set of equations </i> that determine \\(h\_j\\). To illustrate further, suppose that we have a system of equations given by 
@@ -168,7 +168,7 @@ $$
 
 The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(5\\). However, the ordered derivative of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(29\\) (because of the indirect effect by way of \\(x\_2\\)).
 
-So in \eqref{eq:KKTDiff}, with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{ \partial x^*} \in \mathbb{R}^n \\); this is mathematically equivalent to  (\\(\frac{\partial J}{ \partial x^*} \cdots \frac{\partial x^*}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
+So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x*} \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^*} \cdots \frac{\partial x^*}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
 
 \begin{align}
 \begin{bmatrix}
