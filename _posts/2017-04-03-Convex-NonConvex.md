@@ -87,14 +87,19 @@ $$
 
 For the primal and dual problems:
 
-$$
+\begin{align}
  \text{minimize} \quad \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2) \\
  \text{ subject to } \quad Gx + s = h \\
- \text{with \\(x\\) and \\(s\\) as variables to be optimized and} \\
+\end{align}
+
+ \text{with \\(x\\) and \\(s\\) as variables to be optimized and} 
+
+\begin{align}
   \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
  \text{ subject to } \quad Qw + G^T z +  q = 0 \\
+\end{align}
+
  \text{ with variables w and z to be optimized},
-$$
 	
 when the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
@@ -124,8 +129,12 @@ The initial value of \\(\hat{s}\\) is computed from the residual \\(h - Gx = -z\
 
 $$
 \hat{s} = \begin{cases}
-	-z \qquad  \text{ if } \alpha_p < 0  else \\
-	-z + (1+\alpha_p)\textbf{e} \\quad 
+	-z \qquad  \text{ if } \alpha_p < 0  \qquad else \\
+	-z + (1+\alpha_p)\textbf{e} 
 \end{cases}
 $$
+
+for \\(\alpha\_p = inf {\alpha | -z + \alpha \textbf{e} \succeq 0 \\).
+
+Similarly, \\(z\\) at the first iteration is computed as follows
 
