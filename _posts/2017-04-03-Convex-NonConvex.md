@@ -262,7 +262,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_d = \text{inf} {\alpha \| z + \alpha \textbf{e} \succeq 0}\\).
+for \\(\alpha\_d = \text{ inf } \{{ \alpha \| z + \alpha \textbf{e} \succeq 0 \}}\\).
 
 Note \\(\textbf{e}\\) is identity.
 
@@ -320,4 +320,4 @@ Note \\(\textbf{e}\\) is identity.
 	\alpha = \left(\dfrac{(s+ \alpha \Delta s^{aff})^T(z + \alpha \Delta z^{aff})}{s^Tz}\right)^3 \nonumber 
 	\end{align}
 
-	and the step size \\(\alpha = sup \{\alpha \in [0, 1] | s + \alpha \Delta s^{aff} \ge 0, z + \alpha \Delta z^{aff} \ge 0\}. \\)
+	and the step size \\(\alpha = \text{sup} {\alpha \in [0, 1] \| s + \alpha \Delta s^{aff} \ge 0, \, z + \alpha \Delta z^{aff} \ge 0}. \\)
