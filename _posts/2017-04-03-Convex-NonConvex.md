@@ -62,7 +62,7 @@ etc.
 
 Model predictive controllers have explicit ways of cformulating these constraints into the controller design as well. To the best of my knowledge, there are no rules for tuning the parameters of an MRAC system so that the control laws generated in our adjustment mechanism are scaled into the bounds of the underlying actuator. 
 
-Because, we mostly deal with lower and upper bounds in such scenarios, the QP problem I formulate below are limited to inequality constraints only. For  equality constraints QP problems, I implore the reader to read [Mattingley and Boyd's formulation](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf), [Vanderberghe's CVX Optimization paper](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf), or  Brandon Amos' ICML submission available [here](https://arxiv.org/pdf/1703.00443.pdf)
+Because, we mostly deal with lower and upper bounds in such scenarios, the QP problem I formulate below are limited to inequality constraints only. For  equality constraints QP problems, I implore the reader to read [Mattingley and Boyd's formulation](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf), [Vanderberghe's CVX Optimization paper](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf), or  Brandon Amos' ICML submission available [here](https://arxiv.org/pdf/1703.00443.pdf).
 
 
 We define the standard QP canonical form problem with inequality contraints thus:
@@ -108,11 +108,13 @@ L(z, \lambda) = \frac{1}{2}x^TQx + q^Tx +\lambda^T(Gz -h)
 
 then it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are thus defined
 
+
 \begin{align}
-Q x^* + q + G^T \lambda^* = 0 , \\
-K (\lambda^*) (Gz* - h) = 0  
+Q x^* + q + G^T \lambda^* = 0 , 
 \label{eq:KKTLagrangian}
 \end{align}
+
+\\(K (\lambda^*) (Gz* - h) = 0  \\)
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
@@ -136,9 +138,11 @@ d\lambda \\
 =
 \begin{bmatrix}
 -dQ x^* - dq - dG^T \lambda^* \\
--K(\lambda^*) dG x^* + D(\lambda^*) dh \\
+-K(\lambda^*) dG x^* + DK(\lambda^*) dh \\
 \end{bmatrix}
 $$
+
+so that the Jacobians of the variables to be optimized can be formed (i.e. \\(x^*, \lambda^*\\))
 
 
 <a name="initialization"></a>
