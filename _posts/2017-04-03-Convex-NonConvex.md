@@ -59,7 +59,7 @@ This is because in the backpropagation algorithm, the explicit Jacobians of the 
 When trying to construct a controller for a regulator, or MRAS system, we may imagine that the way to deribve the controller would be a search process for a control scheme that takes an arbitrary nonzero initial state to the zero state, hopefully as fast as possible. If the system is controllable, then we may require our controller taking the syste, from state \\(x(t\_0)\\) to the zero state at time \\(T\\). If \\(T\\) is closer to \\(t\_0\\), more control effort would be required to bear states to \\(t\_0\\) to ensure the states transfer. In most engineering systems, an upper bound is set on the magnitudes of the variables for pragmatic purposes. It therefore becomes impossible to take \\(T\\) to \\(0\\) without exceeding the control bounds. Unless we are ready to bear high gain terms in our controller parameters, the control is not feasible for finite T. So what to do? To meet the practical bounds manufacturers place on physical actuators, it suffices to manually formulate these bounds as constrainst into our control design objectives. An example of such measures is in the linear quadratic regulator problem e.g.
 
 \begin{align}
-\int_{t_0}^{T} u'(t)u(t)dt, or  \qquad \int_{t_0}^{T} [u'(t)u(t)]^{\frac{1}{2}} 
+\int_{t_0}^{T} u'(t)u(t)dt, \text{ or }  \qquad \int_{t_0}^{T} [u'(t)u(t)]^{\frac{1}{2}} 
 \end{align}
 etc. 
 
@@ -253,7 +253,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_p = \text{ inf } \textbraceleft \alpha \| -z + \alpha \textbf{e} \succeq 0 \textbraceright \\).
+for \\(\alpha\_p = \text{ inf } \textbraceleft{ \alpha \| -z + \alpha \textbf{e} \succeq 0 \textbraceright} \\).
 
 Similarly, \\(z\\) at the first iteration is computed as follows
 
@@ -264,7 +264,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_d = \text{ inf } \textbraceleft \alpha \| z + \alpha \textbf{e} \succeq 0 \textbraceright \\).
+for \\(\alpha\_d = \text{ inf } \textbraceleft{ \alpha \| z + \alpha \textbf{e} \succeq 0 \textbraceright} \\).
 
 Note \\(\textbf{e}\\) is identity.
 
