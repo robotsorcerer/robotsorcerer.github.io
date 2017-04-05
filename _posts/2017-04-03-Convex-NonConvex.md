@@ -190,9 +190,9 @@ so that the relevant gradients with respect to every QP paramter is given by
 
 
 $$
-\dfrac{\partial J}{\partial q} = d_x \qquad \dfrac{\partial J}{ \partial h} = -K(\lambda^\ast) d_\lambda \\
+\dfrac{\partial J}{\partial q} = d_x, \qquad \dfrac{\partial J}{ \partial h} = -K(\lambda^\ast) d_\lambda \\
 
-\dfrac{\partial J}{\partial G} = K(\lambda^\ast)(d_\lambda z^T + \lambda d_z^T
+\dfrac{\partial J}{\partial Q} = \frac{1}{2}(d_x x^T + x d_x^T),  \qquad \dfrac{\partial J}{\partial G} = K(\lambda^\ast)(d_\lambda z^T + \lambda d_z^T
 )
 $$
 
