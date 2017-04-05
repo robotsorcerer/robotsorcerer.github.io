@@ -29,8 +29,8 @@ MathJax.Hub.Config({
    
   - [Introduction](#introduction)
   - [Problem formulation: Solving the standard-form QP in a Backprop setting](#problem-formulation)  
-  	- [Slack Variables](#slack-variables)
-  	- [Initialization](#initialization)  
+  - [Slack Variables](#slack-variables)
+  - [Initialization](#initialization)  
 
 
 <a name='introduction'></a>
@@ -64,7 +64,7 @@ where \\(Q\\) is a symmetric, positive definite matrix \\(\in \mathbb{R}^n, q \i
 Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are the state-of-the-art in solving such problems currently, for example, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
 
 <a name="slack-variables"></a>
-#### Introduce Slack Variables
+### Introduce Slack Variables
 Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) like so,
 
 $$
@@ -83,17 +83,22 @@ z_i s_i = 0, i = 1, \ldots, p.
 $$
 
 <a name="initialization"></a>
-#### Initialization
+### Initialization
 
 For the primal and dual problems:
 
 $$
- \text{minimize} \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2)
+ \text{minimize} \quad \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2) \\
+ \text{ subject to } \quad Gx + s = h \\
+ \text{with \\(x\\) and \\(s\\) as variables to be optimized and} \\
+  \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
+ \text{ subject to } \quad Qw + G^T z +  q = 0 \\
+ \text{ with variables w and z to be optimized},
 $$
+	
+when the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
-When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
-
-\begin{align}
+$$
 \begin{bmatrix}
 G & 0 & -I  \\
 A & 0 & 0 \\
@@ -111,6 +116,6 @@ h \\
 p \\
 -q \\
 \end{bmatrix}
-\end{align}
+$$
 
 and assume that \\(\hat{x} = x,\hat{y} = y\\). 
