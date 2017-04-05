@@ -106,8 +106,28 @@ where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of th
 
 $$
 dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0 \\
-K(\lambda^*)\left(G z^* - h\right) = 0
+K(\lambda^*)\left(G x^* - h\right) = 0
 $$
+
+Vectorizing, we find that 
+
+$$
+\begin{bmatrix}
+Q & G^T   \\
+K(\lambda^*) G & K(dGx^* - h)  \\
+\end{bmatrix}
+
+\begin{bmatrix}
+dx \\
+d\lambda \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+-dQ x^* - dq - dG^T \lambda^* \\
+-K(\lambda^*) dG x^* + D(\lambda^*) dh \\
+\end{bmatrix}
+$$
+
 
 <a name="initialization"></a>
 ### Initialization
