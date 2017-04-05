@@ -74,7 +74,7 @@ We define the standard QP canonical form problem with inequality contraints thus
 
 subject to 	\\(\quad G x \le h\\)
 
-where \\(Q \succeq \mathbb{S}^+_0 \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
+where \\(Q \succeq \mathbb{S}^n_+ \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
 
 Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are btw the state-of-the-art in solving such problems currently, see [Boyd and Mattingley](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
 
@@ -118,7 +118,7 @@ Q x^* + q + G^T \lambda^* = 0 ,
 \end{align}
 
 \begin{align}
-K (left\lambda^{*}\right) (G x^* - h) = 0 \nonumber
+K \left(\lambda^*\right) (G x^* - h) = 0 \nonumber
 \end{align}
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
