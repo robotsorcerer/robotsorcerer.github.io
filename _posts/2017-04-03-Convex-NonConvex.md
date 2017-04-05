@@ -114,13 +114,13 @@ then it follows that the KKT for [stationarity, primal feasibility and complemen
 
 
 \begin{align}
-Q x^* + q + G^T \lambda^* = 0 , 
+Q x^\ast + q + G^T \lambda^\ast = 0 , 
 \label{eq:KKTLagrangian}
 \end{align}
 
-\begin{align}
-K \left(\lambda^*\right) (G x^* - h) = 0 \nonumber
-\end{align}
+$$
+K \left(\lambda^\ast\right) \left(G x^\ast - h\right) = 0 
+$$
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
@@ -197,9 +197,9 @@ $$
 $$
 
 <a name="initialization"></a>
-### Initialization
+### QP Initialization
 
-For the primal and dual problems:
+For the primal problem, we have,
 
 $$
  \text{minimize} \quad \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2) \\
@@ -208,14 +208,16 @@ $$
 
  with \\(x\\) and \\(s\\) as variables to be optimized and
 
+for the corresponding dual problem, we have 
+
 $$
   \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
  \text{ subject to } \quad Qw + G^T z +  q = 0 \\
 $$
 
- with variables \\(w\\) and \\(z\\) to be optimized,
-	
-when the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initiated as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
+ with variables \\(w\\) and \\(z\\) to be optimized. 
+
+ When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initialized as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
 $$
 \begin{bmatrix}
