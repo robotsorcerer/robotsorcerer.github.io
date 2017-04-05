@@ -321,3 +321,20 @@ Note \\(\textbf{e}\\) is identity.
 	\end{align}
 
 	and the step size \\(\alpha = \text{sup} {\alpha \in [0, 1] \| s + \alpha \Delta s^{aff} \ge 0, \, z + \alpha \Delta z^{aff} \ge 0}. \\)
+
+- Finding the primal and dual variables is then a question of composing the two updates in the foregoing to yield
+
+	$$
+	x \leftarrow x + \alpha \Delta x, \\
+	s \leftarrow s + \alpha \Delta s, \\
+	z \leftarrow z + \alpha \Delta z.
+	$$
+
+### Example codes
+
+An example implementation of this algorithm in the PyTorch Library is available on my [github page](https://github.com/lakehanne/RAL2017/blob/master/pyrnn/src/model.py). 
+
+### Acknowledgments
+I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my implementation questions while using his [qpth code](https://locuslab.github.io/qpth/).
++
+Thanks to @bamos for doing the heavy-lifting with his [qpth framework](https://github.com/locuslab/optnet/issues/1#issuecomment-291623064).
