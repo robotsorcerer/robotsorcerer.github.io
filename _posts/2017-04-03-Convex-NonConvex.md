@@ -109,8 +109,8 @@ L(z, \lambda) = \frac{1}{2}x^TQx + q^Tx +\lambda^T(Gz -h)
 then it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are thus defined
 
 \begin{align}
-Qx^* + q + G^T \lambda^* = 0 , \quad 
-K(\lambda^*) (Gz* - h) = 0  
+Q x^* + q + G^T \lambda^* = 0 , \\
+K (\lambda^*) (Gz* - h) = 0  
 \label{eq:KKTLagrangian}
 \end{align}
 
