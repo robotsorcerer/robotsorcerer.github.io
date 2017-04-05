@@ -119,3 +119,13 @@ p \\
 $$
 
 and assume that \\(\hat{x} = x,\hat{y} = y\\). 
+
+The initial value of \\(\hat{s}\\) is computed from the residual \\(h - Gx = -z\\), as 
+
+$$
+\hat{s} = \begin{cases}
+	-z \qquad  \text{ if } \alpha_p < 0  else \\
+	-z + (1+\alpha_p)\textbf{e} \\quad 
+\end{cases}
+$$
+
