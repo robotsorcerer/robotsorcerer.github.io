@@ -290,9 +290,9 @@ Note \\(\textbf{e}\\) is identity.
 	\end{bmatrix}
 	$$
 
-	with \\( K(s) as \textbf{diag}(s) and K(z) as \textbf{diag(z)} \\)
+	with \\( K(s) \text{ as } \textbf{diag}(s) \text{ and } K(z) \text{ as } \textbf{diag(z)} \\)
 
--	We can efficiently comnpute the primal and dual variables by determining the centering-plus-corrector directions by solving
+-	We can efficiently compute the primal and dual variables by determining the centering-plus-corrector directions by solving
 
 	$$
 	\begin{bmatrix}
@@ -313,3 +313,11 @@ Note \\(\textbf{e}\\) is identity.
 	0 
 	\end{bmatrix}
 	$$
+
+	with 
+
+	\begin{align}
+	\alpha = \left(\dfrac{(s+ \alpha \Delta s^{aff})^T(z + \alpha \Delta z^{aff})}{s^Tz}\right)^3 \nonumber 
+	\end{align}
+
+	and the step size \\(\alpha = sup \{\alpha \in [0, 1] | s + \alpha \Delta s^{aff} \ge 0, z + \alpha \Delta z^{aff} \ge 0\}. \\)
