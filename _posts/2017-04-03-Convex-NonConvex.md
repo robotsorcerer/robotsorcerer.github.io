@@ -124,8 +124,12 @@ $$
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
+\begin{align}
+dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0 
+\label{eq:KKTDiff}
+\end{align}
+
 $$
-dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0 \\
 K(\lambda^*)\left(G x^* - h\right) = 0
 $$
 
