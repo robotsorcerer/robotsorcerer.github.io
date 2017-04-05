@@ -54,10 +54,11 @@ This is because in the backpropagation algorithm, the explicit Jacobians of the 
 We define the standard QP canonical form problem with inequality contraints thus:
 
 \begin{align}
-\text{minimize} \quad  \frac{1}{2}x^TQx + q^Tx \\
-\text{ subject to }  	\quad G x \le h
+\text{minimize} \quad  \frac{1}{2}x^TQx + q^Tx 
 \label{eq:orig}
 \end{align}
+
+subject to 	\\(\quad G x \le h\\)
 
 where \\(Q\\) is a symmetric, positive definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
 
@@ -67,13 +68,15 @@ Suppose we have our convex quadratic optimization problem in canonical form, we 
 ### Introduce Slack Variables
 Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) like so,
 
-$$
-\text{minimize}  \quad \frac{1}{2}x^TQx + q^Tx \\
-\text{ subject to }  \quad G x + s =  h, \qquad s \ge 0,
+\begin{align}
+\text{minimize}  \quad \frac{1}{2}x^TQx + q^Tx 
 \label{eq:orig1}
-$$
+\end{align}
 
-where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). Let a dual cvariable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
+
+subject to \\( \quad G x + s =  h, \qquad s \ge 0\\),
+
+where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). Let a dual variable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
 
 $$
 Gx + s = h, \quad s \ge 0 \\
