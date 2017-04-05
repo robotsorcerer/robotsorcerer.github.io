@@ -3,7 +3,7 @@ layout: post
 date: 2017-04-05 11:15:00
 title: "<center>Backpropagation and convex programming</center>"
 excerpt: "<center>A contraint-based approach to solving the backpropagation optimization problem in nonlinear model reference adaptive systems.</center>"
-permalink: Adaptive-Control-Notes
+permalink: QP-Layer-MRAS
 comments: true
 mathjax: true
 ---
