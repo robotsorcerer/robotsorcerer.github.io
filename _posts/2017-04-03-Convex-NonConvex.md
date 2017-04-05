@@ -133,7 +133,7 @@ $$
 ### Limitation of forward pass gradients computation in backpropagation
 Vectorizing the above equation, we find that 
 
-\begin{align}
+$$
 \begin{bmatrix}
 Q & G^T   \\
 K(\lambda^*) G & K(dGx^* - h)  \\
@@ -149,7 +149,7 @@ d\lambda \\
 -K(\lambda^*) dG x^* + DK(\lambda^*) dh \\
 \end{bmatrix}
 \label{eq:KKTDiff}
-\end{align}
+$$
 
 so that the Jacobians of the variables to be optimized can be formed (i.e. \\(x^*\\), \\(\lambda^* \\) ) with respect to the states of the system. Finiding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
 
