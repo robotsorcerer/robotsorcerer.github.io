@@ -170,7 +170,7 @@ The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would 
 
 So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x*} \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^*} \cdots \frac{\partial x^*}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
 
-\begin{align}
+$$
 \begin{bmatrix}
 dx, d\lambda
 \end{bmatrix}
@@ -183,7 +183,7 @@ G & K(Gx^* - h)
 \begin{bmatrix}
 {\dfrac{dJ}{dx^*}}^T, 0
 \end{bmatrix}
-\end{align}
+$$
 
 so that the relevant gradients with respect to every QP paramter is given by 
 
