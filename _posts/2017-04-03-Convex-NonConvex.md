@@ -144,8 +144,7 @@ dx \\
 d\lambda \\
 =
 \end{bmatrix}
-\end{align}
-$$
+
 \begin{bmatrix}
 -dQ x^* - dq - dG^T \lambda^* \\
 -K(\lambda^*) dG x^* + DK(\lambda^*) dh \\
@@ -169,7 +168,7 @@ $$
 
 The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(5\\). However, the ordered derivative of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(29\\) (because of the indirect effect by way of \\(x\_2\\)).
 
-So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x^\ast \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^\ast} \cdots \frac{\partial x^\ast}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
+So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x^\ast} \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^\ast} \cdot \frac{\partial x^\ast}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
 
 $$
 \begin{bmatrix}
@@ -177,19 +176,24 @@ dx \\ d\lambda
 \end{bmatrix}
 = 
 \begin{bmatrix}
-Q & G^T K(\lambda^*) \\
-G & K(Gx^* - h)
+Q & G^T K(\lambda^\ast) \\
+G & K(Gx^\ast - h)
 \end{bmatrix}^{-1}
 = 
 \begin{bmatrix}
-{\dfrac{dJ}{dx^*}}^T \\ 0
+{\dfrac{dJ}{dx^\ast}}^T \\ 0
 \end{bmatrix}
 $$
 
 so that the relevant gradients with respect to every QP paramter is given by 
 
 
+$$
+\dfrac{\partial J}{\partial q} = d_x \qquad \dfrac{\partial J}{ \partial h} = -K(\lambda^\ast) d_\lambda \\
 
+\dfrac{\partial J}{\partial G} = K(\lambda^\ast)(d_\lambda z^T + \lambda d_z^T
+)
+$$
 
 <a name="initialization"></a>
 ### Initialization
