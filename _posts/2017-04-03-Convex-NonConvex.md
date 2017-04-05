@@ -106,7 +106,8 @@ K(\lambda^*)(Gz* - h) = 0 \nonumber
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix of diagonal of the entries of vector \\(k\\). Computingthe time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
 $$
-dQ x^*
+dQ x^* + Q dx + dp + dG^T \lambda^* + G^T d|lambda = 0 \\
+K(\lambda^*)\left(G z^* - h\right) = 0
 $$
 
 <a name="initialization"></a>
