@@ -92,15 +92,12 @@ L(z, \lambda) = \frac{1}{2}x^TQx + q^Tx +\lambda^T(Gz -h)
 \label{eq:Lagrangian}
 \end{align}
 
-then it follows that the KKT for stationarity, primal feasibility and complementary slackness are thus defined
+then it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are thus defined
 
 \begin{align}
-Qx^* + q + G^T \lambda^* = 0   
+Qx^* + q + G^T \lambda^* = 0 , \quad 
+K(\lambda^*) (Gz* - h) = 0  
 \label{eq:KKTLagrangian}
-\end{align}
-
-\begin{align}
-K(\lambda^*)(Gz* - h) = 0 
 \end{align}
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix of diagonal of the entries of vector \\(k\\). Computingthe time-derivative of \eqref{eq:KKTLagrangian}, we find that 
