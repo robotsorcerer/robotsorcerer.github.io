@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><center>Backpropagation and convex programming</center></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="To Discover and Understand.">
+    <link rel="canonical" href="lakehanne.github.ioAdaptive-Control-Notes">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-3698471-23', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <div style="float:left; margin-top:10px; margin-right:10px;">
+    <a href="/feed.xml">
+      <img src="/downloads/rssicon.svg" width="40">
+    </a>
+    </div>
+
+    <a class="site-title" href="/">Olalekan Ogunmolu</a>
+    
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          
+        
+          <a class="page-link" href="/about/">About</a>
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+
+      <div class="post">
+
+  <header class="post-header">
+    <h1><center>Backpropagation and convex programming</center></h1>
+    <p class="meta">Apr 5, 2017</p>
+  </header>
+
+  <article class="post-content">
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<!--Mathjax Parser -->
+<script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<h3 id="table-of-contentstable-of-contents"><a href="#table-of-contents">Table of Contents</a>:</h3>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#feedback-linearization">Feedback Linearization</a>    </li>
+</ul>
+
+<p><a name="introduction"></a>
+## Introduction</p>
+
+<p>The backpropagation algorithm is very useful for general optimization tasks. Particularly, in deep learning applications, great progress has been made due to the effectiveness of the backprop algorithm. Whereas in traditional control applications, we typically use feedback regulation to stabilize the states of the system, in model reference adaptive control systems, we typically want to specify an index of performance to determine the “goodness” of our adaptation. An auxiliary dynamic system called the <strong>reference model</strong> is used in generating this index of performance (IP). The reference model specifies in terms of the input and states of the model a given index of performance. A comparison check is used to determine appropriate  control laws  by comparing the given IP and measured IP based on the outputs of the adjustable system to that of the reference model system. </p>
+
+<p>Note that the comparator block in an MRAS system does use the difference from the comparator block to either modify the parameters of the adjustable system or to generate auxiliary input signals which modify the difference between the two IP’s expressed as a functional of the difference between the IPs of the reference model and the adjustable system.</p>
+
+<h2 id="nonlinear-multivariable-model-reference-adaptive-systems">Nonlinear (Multivariable) Model Reference Adaptive Systems</h2>
+
+<p>With nonlinear (possibly multivariable systems), it is typical to approximate the unknown function \(f(.)\) with a function approximator such as simple neural networks. To date, the state-of-the-art method in optimizingh the weights of a neural networkis the <a href="https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/">backpropagation algorithm</a>.  But the optimizationin classical backprop is unrolled end-to-end so that the complexity of the network increases supposingthat we want to add as <i>argmin layer</i>. When we want the backpropagation algorithm to generate control laws that fit into our actuator constraints such as model predictive control schemes allow, we cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent. This is because in the backpropagation algorithm, the explicit Jacobians of the gradients of the system’s energy function with respect to system parameters is not exactly formulated. But in control applications, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part. </p>
+
+<h3 id="problem-formulation-solving-the-standard-form-qp-in-a-backprop-setting">Problem formulation: Solving the standard-form QP in a Backprop setting</h3>
+
+<p>We define the standard QP canonical form problem thus (without equality constraints):</p>
+
+<script type="math/tex; mode=display">
+\text{minimize}  \frac{1}{2}x^TQx + q^Tx \\
+\text{ subject to }  \quad G x \le h
+</script>
+
+<p>where \(Q\) is symmetric, positive definite matrix \(\in \mathbb{R}^n, q \un \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, h \in \mathbb{R}^p, A \in \)
+Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are the state-of-the-art in solving such problems currently, for example, see <a href="https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf">Boyd and Mattingley</a>). primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.</p>
+
+
+  </article>
+
+  <!-- mathjax -->
+  
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+  
+  
+  <!-- disqus comments -->
+ 
+ <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'patmeansnoble'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</div>
+
+     <!--<nav class="nav-primary" role="navigation" >
+    <ul>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+    </ul>
+</nav>-->
+      </div>
+    </div>
+
+    <head>
+
+ <!--Font Awesome -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!-- <h2 class="footer-heading">Olalekan Ogunmolu</h2> -->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>
+          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" aria-label="Follow @lakehanne on GitHub"></a>
+        </li>
+      </ul>
+
+        <ul><li>
+          <a href="https://twitter.com/patmeansnoble" target="_blank" ><img src = "/downloads/TwitterLogo_blue.png" width="16%", height="17%"></a>
+        </li></ul>
+
+    </div>
+
+    <div class="footer-col-2 column">
+    
+      <ul>        
+        
+        <li>          
+          <a href="https://www.quora.com/Olalekan-Ogunmolu" target="_blank"><img src="/downloads/quora.svg" width="12%", height="5%"></a>
+          
+        </li>
+        
+      </ul>
+
+      
+      <ul>
+        
+        <li>
+          <!-- <a href="mailto:lexilighty@gmail.com"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
+          <a href="mailto:lexilighty@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
+
+        </li>
+      </ul>
+      
+
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"><b>To Discover and Understand.</b></p>
+    </div>
+
+  </div>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</footer>
+
+</head>
+
+
+    </body>
+</html>
