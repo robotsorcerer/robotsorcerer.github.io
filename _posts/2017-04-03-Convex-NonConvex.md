@@ -225,20 +225,17 @@ $$
 
 $$
 \begin{bmatrix}
-G & 0 & -I  \\
-A & 0 & 0 \\
-Q & A^T & G^T
+G &  -I  \\
+Q & G^T
 \end{bmatrix}
 
 \begin{bmatrix}
 z \\
-y \\
 x \\
 \end{bmatrix}
 =
 \begin{bmatrix}
 h \\
-p \\
 -q \\
 \end{bmatrix}
 $$
