@@ -87,7 +87,7 @@ Suppose we have our convex quadratic optimization problem in canonical form, we 
 
 <a name="slack-variables"></a>
 ### Introducing Slack Variables
-Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) like so,
+Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) as follows,
 
 \begin{align}
 \text{minimize}  \quad \frac{1}{2}x^TQx + q^Tx 
@@ -109,14 +109,14 @@ Qx + q + G^T = 0 \\ \\
 z_i s_i = 0, i = 1, \ldots, p.
 $$
 
-More formally, if we write the Lagrangian of the system in \eqref{eq:orig} as 
+More formally, if we write the Lagrangian of system \eqref{eq:orig} as 
 
 \begin{align}
 L(z, \lambda) = \frac{1}{2}x^TQx + q^Tx +\lambda^T(Gz -h)
 \label{eq:Lagrangian}
 \end{align}
 
-then it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are thus defined
+then it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are,
 
 
 \begin{align}
@@ -128,7 +128,7 @@ $$
 K \left(\lambda^\ast\right) \left(G x^\ast - h\right) = 0 
 $$
 
-where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
+where \\(K(\cdot) = \textbf{diag}(k) \\) creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
 \begin{align}
 dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0 
@@ -162,7 +162,7 @@ d\lambda \\
 \end{bmatrix}
 $$
 
-so that the Jacobians of the variables to be optimized can be formed with respect to the states of the system. Finiding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
+so that the Jacobians of the variables to be optimized can be formed with respect to the states of the system. Finding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
 
 Except that there is a catch. With backpropagation, the explicit Jacobian are useless in and of themselves. The gradients of the network parameters are computed using chain rule for <i>ordered derivatives</i> 
 
@@ -209,16 +209,14 @@ $$
 <a name="initialization"></a>
 ### QP Initialization
 
-For the primal problem, we have,
+For the primal problem,
 
 $$
  \text{minimize} \quad \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2) \\
  \text{ subject to } \quad Gx + s = h \\
 $$
 
- with \\(x\\) and \\(s\\) as variables to be optimized and
-
-for the corresponding dual problem, we have 
+ with \\(x\\) and \\(s\\) as variables to be optimized, the corresponding dual problem is,
 
 $$
   \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
@@ -227,7 +225,10 @@ $$
 
  with variables \\(w\\) and \\(z\\) to be optimized. 
 
- When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are not given, they can be initialized as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
+<a name="optimization-steps"></a>
+### Optimization Steps
+
+-	When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are unknown, they can be initialized as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
 
 $$
 \begin{bmatrix}
