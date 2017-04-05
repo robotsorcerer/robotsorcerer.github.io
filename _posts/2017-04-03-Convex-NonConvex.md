@@ -114,7 +114,9 @@ Q x^* + q + G^T \lambda^* = 0 ,
 \label{eq:KKTLagrangian}
 \end{align}
 
-\\(K (\lambda^*) (Gz* - h) = 0  \\)
+\begin{align}
+K (left\lambda^{*}\right) (G x^* - h) = 0 
+\end{align}
 
 where \\(K(\cdot) = \textbf{diag}(k) \\) i.e. it creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
