@@ -147,7 +147,7 @@ d\lambda \\
 \end{bmatrix}
 $$
 
-so that the Jacobians of the variables to be optimized can be formed (i.e. \\(x^*, \lambda^*\\)) with respect to the states of the system. Finidng \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
+so that the Jacobians of the variables to be optimized can be formed (i.e. \\({x}^*, {\lambda}^* \\)) with respect to the states of the system. Finidng \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
 
 
 <a name="initialization"></a>
