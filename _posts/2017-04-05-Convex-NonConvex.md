@@ -40,11 +40,11 @@ MathJax.Hub.Config({
 <a name='introduction'></a>
 ## Introduction
 
-The backpropagation algorithm is very useful for general optimization tasks, particularly in deep learning applications. Great progress in nonlinear function approximation has been made due to the effectiveness of the backprop algorithm. Whereas in traditional control applications, we typically use feedback regulation to stabilize the states of the system, in model reference adaptive control systems, we want to specify an index of performance to determine the "goodness" of our adaptation. An auxiliary dynamic system called the __reference model__ is used in generating this index of performance (IP). The reference model specifies in terms of the input and states of the model a given index of performance and a comparison check determines appropriate  control laws  by comparing the given IP and measured IP based on the outputs of the adjustable system to that of the reference model system. This is called the **error state space**.
+The backpropagation algorithm is very useful for general optimization tasks, particularly in neural network function approximators and deep learning applications. Great progress in nonlinear function approximation has been made due to the effectiveness of the backprop algorithm. Whereas in traditional control applications, we typically use feedback regulation to stabilize the states of the system, in model reference adaptive control systems, we want to specify an index of performance to determine the "goodness" of our adaptation. An auxiliary dynamic system called the __reference model__ is used in generating this index of performance (IP). The reference model specifies in terms of the input and states of the model a given index of performance and a comparison check determines appropriate  control laws  by comparing the given IP and measured IP based on the outputs of the adjustable system to that of the reference model system. This is called the **error state space**.
 
 <div class="fig figcenter fighighlight">
   <img src="/imgs/adaptive/amfc.jpg" width="60%" height="450" align="middle">  
-  <div class="figcaption" align="left">An Adaptive Model-Following Control System. <i>Source: Adaptive Control -- The Model Reference Approach, Yoan D. Landau </i>
+  <div class="figcaption" align="middle">An Adaptive Model-Following Control System. 
   </div>
 </div>
 
@@ -61,7 +61,7 @@ To generate control laws such as torques to control a motor arm in a multi-dof r
 <a name="problem-formulation"></a>
 ### Solving Quadratic Programming in a Backprop setting
 
-When trying to construct a controller for a regulator, or MRAS system, we may imagine that the way to derive the control law determination is a search process for a control scheme that takes an arbitrary nonzero initial state to a zero state, ideally in a short amount of time. If the system is controllable, then we may require the controller taking the system, from state \\(x(t\_0)\\) to the zero state at time \\(T\\). If \\(T\\) is closer to \\(t\_0\\) than not, more control effort would be required to bear states to \\(t\_0\\). This would  ensure the transfer of states. In most engineering systems, an upper bound is set on the magnitudes of the variables for pragmatic purposes. It therefore becomes impossible to take \\(T\\) to \\(0\\) without exceeding the control bounds. Unless we are ready to tolerate high gain terms in the controller parameters, the control is not feasible for finite T. So what do we do? To meet the practical bounds manufacturers place on physical actuators, it suffices to manually formulate these bounds as constraints into the control design objectives.  
+When trying to construct a controller for a regulator, or an MRAS system, we may imagine that the control law determination is a search process for a control scheme that takes an arbitrary nonzero initial state to a zero state, ideally in a short amount of time. If the system is controllable, then we may require the controller taking the system, from state \\(x(t\_0)\\) to the zero state at time \\(T\\). If \\(T\\) is closer to \\(t\_0\\) than not, more control effort would be required to bear states to \\(t\_0\\). This would  ensure the transfer of states. In most engineering systems, an upper bound is set on the magnitudes of the variables for pragmatic purposes. It therefore becomes impossible to take \\(T\\) to \\(0\\) without exceeding the control bounds. Unless we are ready to tolerate high gain terms in the controller parameters, the control is not feasible for finite T. So what do we do? To meet the practical bounds manufacturers place on physical actuators, it suffices to manually formulate these bounds as constraints into the control design objectives.  
 
 Model predictive controllers have explicit ways of incorporating these constraints into the control design. There are no rules for tuning the parameters of an MRAC system so that the control laws generated in our adjustment mechanism are scaled into the bounds of the underlying actuator. 
 
@@ -81,13 +81,11 @@ subject to
 \quad G x \le h\\)
 \end{align}
 
-where \\(Q \succeq \mathbb{S}^n_+ \\) i.e. it is a symmetric, positive semi-definite matrix \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\).
-
-Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem (PDIPMs are btw the state-of-the-art in solving such problems currently, see [Boyd and Mattingley, 2012](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)). Primal-dual methods with Mehrota predictor-corrector are effective and consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start.
+where \\(Q \succeq \mathbb{S}^n_+ \\) (i.e. a symmetric, positive semi-definite matrix) \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\). Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem. PDIPMs are the state-of-the-art in solving such problems. Primal-dual methods with Mehrota predictor-corrector are consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start ([Boyd and Mattingley, 2012](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)).
 
 <a name="slack-variables"></a>
-### Introducing Slack Variables
-Given \eqref{eq:orig}, we can introduce slack variables, \\(s \in \mathbb{R}^p\\) as follows,
+### Slack Variables
+Given \eqref{eq:orig}, one can introduce slack variables, \\(s \in \mathbb{R}^p\\) as follows,
 
 \begin{align}
 \text{minimize}  \quad \frac{1}{2}x^TQx + q^Tx 
@@ -100,7 +98,7 @@ subject to
 \quad G x + s =  h, \qquad s \ge 0 \nonumber
 \end{align}
 
-where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). Let a dual variable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
+where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). If we let a dual variable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
 
 $$
 Gx + s = h, \quad s \ge 0 \\
@@ -116,7 +114,7 @@ L(z, \lambda) = \frac{1}{2}x^TQx + q^Tx +\lambda^T(Gz -h)
 \label{eq:Lagrangian}
 \end{align}
 
-then it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are,
+it follows that the KKT for [stationarity, primal feasibility and complementary slackness](https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf) are,
 
 
 \begin{align}
@@ -128,7 +126,7 @@ $$
 K \left(\lambda^\ast\right) \left(G x^\ast - h\right) = 0 
 $$
 
-where \\(K(\cdot) = \textbf{diag}(k) \\) creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
+where \\(K(\cdot) = \textbf{diag}(k) \\) is an operator that creates a matrix diagonal of the entries of the vector \\(k\\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that 
 
 \begin{align}
 dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0 
@@ -140,8 +138,9 @@ K(\lambda^*)\left(G x^* - h\right) = 0
 $$
 
 <a name="limitation-backprop"></a>
-### Limitation of forward pass gradients computation in backpropagation
-Vectorizing the above equation, we find that 
+### QP Layer as the last layer in backpropagation
+
+Vectorizing \eqref{eq:KKTDiff}, we find  
 
 $$
 \begin{bmatrix}
@@ -162,9 +161,7 @@ d\lambda \\
 \end{bmatrix}
 $$
 
-so that the Jacobians of the variables to be optimized can be formed with respect to the states of the system. Finding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). 
-
-Except that there is a catch. With backpropagation, the explicit Jacobian are useless in and of themselves. The gradients of the network parameters are computed using chain rule for <i>ordered derivatives</i> 
+so that the Jacobians of the variables to be optimized can be formed with respect to the states of the system. Finding \\(\dfrac{\partial J}{\partial h^*}\\), for example, would involve  passing \\(dh\\) as identity and setting other terms on the rhs in the equation above to zero. After solving the equation, the desired Jacobian would be \\(dz\\). With backpropagation, however, the explicit Jacobians are useless  since the gradients of the network parameters are computed using chain rule for <i>ordered derivatives</i> i.e. 
 
 $$
 \dfrac{\partial ^+ J}{ \partial h_i} = \dfrac{\partial J}{ \partial h_i} + \sum_{j > i} \dfrac{\partial ^+ J}{\partial h_j} \dfrac{ {\partial} h_j}{ \partial h_i}
@@ -193,11 +190,10 @@ G & K(Gx^\ast - h)
 = 
 \begin{bmatrix}
 {\dfrac{dJ}{dx^\ast}}^T \\ 0
-\end{bmatrix}
+\end{bmatrix}.
 $$
 
-so that the relevant gradients with respect to every QP paramter is given by 
-
+The relevant gradients with respect to every QP paramter is given by 
 
 $$
 \dfrac{\partial J}{\partial q} = d_x, \qquad \dfrac{\partial J}{ \partial h} = -K(\lambda^\ast) d_\lambda \\
