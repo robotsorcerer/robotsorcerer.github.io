@@ -31,22 +31,22 @@ MathJax.Hub.Config({
   - [Nonlinear (Multivariable) Model Reference Adaptive Systems](#nonlinear)
   - [Solving Quadratic Programming in a Backprop setting](#problem-formulation)  
   - [Slack Variables](#slack-variables)
-  - [Limitation of forward pass gradients computation in backpropagation](#limitation-backprop)
+  - [QP Layer as the last layer in backpropagation](#limitation-backprop)
   - [QP Algorithm](#initialization) 
-  - [Example Codes](#example-codes)
-  - [Acknowlegments](#acknowledgements) 
+  - [Example Code](#example-codes)
+  - [Acknowlegment](#acknowledgements) 
 
 
 <a name='introduction'></a>
 ## Introduction
 
 The backpropagation algorithm is very useful for general optimization tasks, particularly in neural network function approximators and deep learning applications. Great progress in nonlinear function approximation has been made due to the effectiveness of the backprop algorithm. Whereas in traditional control applications, we typically use feedback regulation to stabilize the states of the system, in model reference adaptive control systems, we want to specify an index of performance to determine the "goodness" of our adaptation. An auxiliary dynamic system called the __reference model__ is used in generating this index of performance (IP). The reference model specifies in terms of the input and states of the model a given index of performance and a comparison check determines appropriate  control laws  by comparing the given IP and measured IP based on the outputs of the adjustable system to that of the reference model system. This is called the **error state space**.
-
+<!-- 
 <div class="fig figcenter fighighlight">
   <img src="/imgs/adaptive/amfc.jpg" width="60%" height="450" align="middle">  
   <div class="figcaption" align="middle">An Adaptive Model-Following Control System. 
   </div>
-</div>
+</div> -->
 
 <a name="nonlinear"></a>
 ### Nonlinear Model Reference Adaptive Systems
@@ -339,5 +339,6 @@ Note \\(\textbf{e}\\) is identity.
 An example implementation of this algorithm in the PyTorch Library is available on my [github page](https://github.com/lakehanne/RAL2017/blob/devel/pyrnn/src/model.py). 
 
 <a name="acknowledgements"></a>
-### Acknowledgments
+### Acknowledgment
+
 I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my questions while using his [qpth code](https://locuslab.github.io/qpth/).
