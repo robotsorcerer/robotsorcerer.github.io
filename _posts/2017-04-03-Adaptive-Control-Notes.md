@@ -260,4 +260,30 @@ The process illustrated above is called I/O feedback linearization. When there a
 <a name="clf"></a>
 ## Control Lyapunov Functions
 
-Lyapunov functions are useful not only inthe analysis of adaptive control systems but also as stabilizing feedback control design laws. The central concept is to make the Lyapunov function V and its time derivative obey Lyapunov stability conditions for a closed-loop system.
+Lyapunov functions are useful not only in the analysis of adaptive control systems but also as stabilizing feedback control design laws. The central concept is to make the Lyapunov function \\(V\\) and its time derivative obey Lyapunov stability conditions for a closed-loop system.
+
+### Lyapunov's Direct Method 
+
+Lyapunov stability means the sum of all the __energy__ of a system will be continuously dissipated when the system settles to an equilibrium position. This is a statement of the Lyapunov's Direct (or second) method. In other words, we can investigate the stability of an \\(n\\)-dimensional dynamical system by analyzing the change in the behavior of its energy function. Stability analyses are difficult to verify in nonlinear systems and Lyapunov analysis helps us in gaining an insight into system behavior. Take a mass-spring-damper system below, for example. 
+
+![Mass-Spring-Damper System](/imgs/adaptive/msd.jpg)
+
+Pulling and releasing the mass does not inform us of the system's stability whatsoever. The question of stability in the system is therefore difficult to verify:4, linearization is nearly impossible as it is only marginally stable. But if we can write out the closed-form equations of the system's mechanical energy, we can differentiate this to understand what happens if the mass settles to equilibrium. For observe, 
+
+\begin{align}
+V(x) &= \underbrace{\dfrac{1}{2}m \dot{x}^2}{\text{kinetic energy}} + \underbrace{\int\_{0}^{x}\left(k\_0x + k\_1x^3\right)dx}{\text{potential energy}}
+\end{align}
+
+\begin{align}
+ &= \frac{1}{2}m \dot{x}^2 + \dfrac{1}{2}k\_0x^2 + {1}{4}k\_1 x^4
+\end{align}
+
+The rate of change of the system's energy along the trajectories of the system's motion therefore becomes
+
+\begin{align}
+\dot{V}(x) &= m \dot{x} \ddot{x} + \left(k\_0 x + k\_1x^3\right) \dot{x}
+\end{align}
+
+\begin{align}
+&= \dot{x} \left(-b \dot{x} \|\dot{x}\|\right) = -b \|\dot{x}\|^3 \le 0
+\end{align}
