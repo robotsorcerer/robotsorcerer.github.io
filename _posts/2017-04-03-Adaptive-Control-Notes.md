@@ -251,3 +251,5 @@ We see that the input \\(\nu\\) may be utilized to drive the output \\(y\\) and 
 The process illustrated above is called I/O feedback linearization. When there are no zero dynamics involved, the process is called <i> full-state feedback linearization</i>.
 
 ## Control Lyapunov Functions
+
+### <i>Under development</i>
