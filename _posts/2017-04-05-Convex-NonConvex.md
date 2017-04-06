@@ -61,6 +61,8 @@ Model predictive controllers have explicit ways of incorporating these constrain
 
 Since most controller hardware constraints are specified in terms of lower and upper bounded saturation, the QP problem formulated below is limited to inequality constraints. For  equality-constrained QP problems, [Mattingley and Boyd](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf), [Vanderberghe's CVX Optimization](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf), or  Brandon Amos' [ICML submission](https://arxiv.org/pdf/1703.00443.pdf) offer good treatments.
 
+> There are no rules for tuning the parameters of an MRAC system so that the control laws generated in our adjustment mechanism are scaled into the bounds of the underlying actuator. 
+
 
 We define the standard QP canonical form problem with inequality contraints thus:
 
@@ -170,7 +172,7 @@ $$
 
 The ordinary partial derivatives of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(5\\). However, the ordered derivative of \\(x\_3\\) with respect to \\(x\_1\\) would be \\(29\\) (because of the indirect effect by way of \\(x\_2\\)).
 
-So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x^\ast} \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^\ast} \cdot \frac{\partial x^\ast}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inverse of \eqref{eq:KKTDiff}, 
+So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \\(\frac{\partial J}{\partial x^\ast} \in \mathbb{R}^n \\); this is mathematically equivalent to  \\(\frac{\partial J}{ \partial x^\ast} \cdot \frac{\partial x^\ast}{ \partial h} \\). Therefore, computing the solution for the derivatives of the optimization variables \\(dx, d\lambda\\), we have through the matrix inversion of \eqref{eq:KKTDiff}, 
 
 $$
 \begin{bmatrix}
