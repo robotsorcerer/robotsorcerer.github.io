@@ -74,7 +74,7 @@ We define the standard QP canonical form problem with inequality contraints thus
 subject to 	
 
 \begin{align}
-\quad G x \le h\\)
+G x \le h  \nonumber
 \end{align}
 
 where \\(Q \succeq \mathbb{S}^n_+ \\) (i.e. a symmetric, positive semi-definite matrix) \\(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \\). Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem. PDIPMs are the state-of-the-art in solving such problems. Primal-dual methods with Mehrota predictor-corrector are consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start ([Boyd and Mattingley, 2012](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf)).
