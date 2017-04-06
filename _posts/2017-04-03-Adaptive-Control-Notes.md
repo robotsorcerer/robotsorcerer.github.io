@@ -29,7 +29,8 @@ MathJax.Hub.Config({
    
   - [Preamble](#preamble)
   - [Introduction](#introduction)
-  - [Feedback Linearization](#feedback-linearization)    
+  - [Feedback Linearization](#feedback-linearization) 
+  - [Control Lyapunov Function](#clf)   
 
 <a name="preamble"></a>
 ## Preamble
@@ -256,6 +257,7 @@ We see that the input \\(\nu\\) may be utilized to drive the output \\(y\\) and 
 
 The process illustrated above is called I/O feedback linearization. When there are no zero dynamics involved, the process is called <i> full-state feedback linearization</i>.
 
+<a name="clf"></a>
 ## Control Lyapunov Functions
 
-### <i>Under development</i>
+Lyapunov functions are useful not only inthe analysis of adaptive control systems but also as stabilizing feedback control design laws. The central concept is to make the Lyapunov function V and its time derivative obey Lyapunov stability conditions for a closed-loop system.

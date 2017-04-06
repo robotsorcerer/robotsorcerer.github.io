@@ -94,7 +94,7 @@ subject to
 \quad G x + s =  h, \qquad s \ge 0 \nonumber
 \end{align}
 
-where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). If we let a dual variable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditiopns for \eqref{eq:orig1} as 
+where \\(x \in \mathbb{R}^n, s \in \mathbb{R}^p\\). If we let a dual variable \\(z \in \mathbb{R}^p \\) be associated with the inequality constraint, then we can define the KKT conditions for \eqref{eq:orig1} as 
 
 $$
 Gx + s = h, \quad s \ge 0 \\
