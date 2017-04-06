@@ -224,7 +224,7 @@ $$
 <a name="optimization-steps"></a>
 ### Optimization Steps
 
--	When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are unknown, they can be initialized as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, by solving the set of linear equations
+-	When the primal and dual starting points \\(\hat{x}, \hat{s}, \hat{y}, \hat{z} \\) are unknown, they can be initialized as proposed by Vanderberghe in [cvxopt](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf) namely, we solve the following linear equations
 
 $$
 \begin{bmatrix}
@@ -243,7 +243,7 @@ h \\
 \end{bmatrix}
 $$
 
-and assume that \\(\hat{x} = x,\hat{y} = y\\). 
+with the assumption that \\(\hat{x} = x,\hat{y} = y\\). 
 
 The initial value of \\(\hat{s}\\) is computed from the residual \\(h - Gx = -z\\), as 
 
@@ -254,7 +254,7 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_p = \text{ inf } \textbraceleft{ \alpha \| -z + \alpha \textbf{e} \succeq 0 \textbraceright} \\).
+for \\(\alpha\_p = \text{ inf } \{ \alpha \| -z + \alpha \textbf{e} \succeq 0 \} \\).
 
 Similarly, \\(z\\) at the first iteration is computed as follows
 
@@ -265,12 +265,12 @@ $$
 \end{cases}
 $$
 
-for \\(\alpha\_d = \text{ inf } \textbraceleft{ \alpha \| z + \alpha \textbf{e} \succeq 0 \textbraceright} \\).
+for \\(\alpha\_d = \text{ inf } \{ \alpha \| z + \alpha \textbf{e} \succeq 0 \} \\).
 
 Note \\(\textbf{e}\\) is identity.
 
 
--	Following Boyd and Mattingley's convention, we can compute the afiine scaling directions buy solving the system, 
+-	Following Boyd and Mattingley's convention, we can compute the afiine scaling directions by solving the system, 
 
 
 	$$
@@ -295,7 +295,7 @@ Note \\(\textbf{e}\\) is identity.
 
 	with \\( K(s) \text{ as } \textbf{diag}(s) \text{ and } K(z) \text{ as } \textbf{diag(z)} \\)
 
--	We can efficiently compute the primal and dual variables by determining the centering-plus-corrector directions by solving
+-	The centering-plus-corrector directions  can be used to efficiently compute the primal and sualvariables by solving
 
 	$$
 	\begin{bmatrix}
@@ -317,7 +317,7 @@ Note \\(\textbf{e}\\) is identity.
 	\end{bmatrix}
 	$$
 
-	with 
+	where 
 
 	\begin{align}
 	\alpha = \left(\dfrac{(s+ \alpha \Delta s^{aff})^T(z + \alpha \Delta z^{aff})}{s^Tz}\right)^3 \nonumber 
@@ -334,12 +334,10 @@ Note \\(\textbf{e}\\) is identity.
 	$$
 
 <a name="example-codes"></a>
-### Example codes
+### Example code
 
-An example implementation of this algorithm in the PyTorch Library is available on my [github page](https://github.com/lakehanne/RAL2017/blob/master/pyrnn/src/model.py). 
+An example implementation of this algorithm in the PyTorch Library is available on my [github page](https://github.com/lakehanne/RAL2017/blob/devel/pyrnn/src/model.py). 
 
 <a name="acknowledgements"></a>
 ### Acknowledgments
-I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my implementation questions while using his [qpth code](https://locuslab.github.io/qpth/).
-+
-Thanks to @bamos for doing the heavy-lifting with his [qpth framework](https://github.com/locuslab/optnet/issues/1#issuecomment-291623064).
+I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my questions while using his [qpth code](https://locuslab.github.io/qpth/).
