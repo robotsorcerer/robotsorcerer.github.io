@@ -65,7 +65,7 @@ When trying to construct a controller for a regulator, or MRAS system, we may im
 
 Model predictive controllers have explicit ways of incorporating these constraints into the control design. There are no rules for tuning the parameters of an MRAC system so that the control laws generated in our adjustment mechanism are scaled into the bounds of the underlying actuator. 
 
-Since we mostly deal with lower and upper bounds in hardware constraints, the QP problem formulated below are limited to inequality constraints. For  equality-constrained QP problems, [Mattingley and Boyd](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf), [Vanderberghe's CVX Optimization](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf), or  Brandon Amos' [ICML submission](https://arxiv.org/pdf/1703.00443.pdf) offer good treatments.
+Since most controller hardware constraints are specified in terms of lower and upper bounded saturation, the QP problem formulated below is limited to inequality constraints. For  equality-constrained QP problems, [Mattingley and Boyd](https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf), [Vanderberghe's CVX Optimization](http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf), or  Brandon Amos' [ICML submission](https://arxiv.org/pdf/1703.00443.pdf) offer good treatments.
 
 
 We define the standard QP canonical form problem with inequality contraints thus:
