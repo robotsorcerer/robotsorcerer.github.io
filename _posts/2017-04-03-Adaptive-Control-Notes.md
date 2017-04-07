@@ -275,7 +275,7 @@ Lyapunov stability means the sum of all the __energy__ of a system will be conti
 Pulling and releasing the mass does not inform us of the system's stability whatsoever. The question of stability in the system is therefore difficult to verify:4, linearization is nearly impossible as it is only marginally stable. But if we can write out the closed-form equations of the system's mechanical energy, we can differentiate this to understand what happens if the mass settles to equilibrium. For observe, 
 
 \begin{align}
-V(x) &= \underbrace{\dfrac{1}{2}m \dot{x}^2}{\text{kinetic energy}} + \underbrace{\int\_{0}^{x}\left(k\_0x + k\_1x^3\right)dx}{\text{potential energy}}
+V(x) &= \underbrace{\dfrac{1}{2}m \dot{x}^2}\_{\text{kinetic energy}} + \underbrace{\int\_{0}^{x}\left(k\_0x + k\_1x^3\right)dx}\_{\text{potential energy}}
 \end{align}
 
 \begin{align}
