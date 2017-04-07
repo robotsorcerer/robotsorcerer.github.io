@@ -266,7 +266,11 @@ Lyapunov functions are useful not only in the analysis of adaptive control syste
 
 Lyapunov stability means the sum of all the __energy__ of a system will be continuously dissipated when the system settles to an equilibrium position. This is a statement of the Lyapunov's Direct (or second) method. In other words, we can investigate the stability of an \\(n\\)-dimensional dynamical system by analyzing the change in the behavior of its energy function. Stability analyses are difficult to verify in nonlinear systems and Lyapunov analysis helps us in gaining an insight into system behavior. Take a mass-spring-damper system below, for example. 
 
-![Mass-Spring-Damper System](/imgs/adaptive/msd.jpg)
+<div class="fig figcenter fighighlight">
+  <img src="/imgs/adaptive/msd.jpg" width="80%" height="450" align="middle">  
+  <div class="figcaption" align="middle">Mass-Spring-Damper System.
+  </div>
+</div>
 
 Pulling and releasing the mass does not inform us of the system's stability whatsoever. The question of stability in the system is therefore difficult to verify:4, linearization is nearly impossible as it is only marginally stable. But if we can write out the closed-form equations of the system's mechanical energy, we can differentiate this to understand what happens if the mass settles to equilibrium. For observe, 
 
@@ -287,3 +291,5 @@ The rate of change of the system's energy along the trajectories of the system's
 \begin{align}
 &= \dot{x} \left(-b \dot{x} \|\dot{x}\|\right) = -b \|\dot{x}\|^3 \le 0
 \end{align}
+
+#### Being developed
