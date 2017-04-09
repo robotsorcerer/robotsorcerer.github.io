@@ -337,4 +337,4 @@ An example implementation of this algorithm in the PyTorch Library is available 
 <a name="acknowledgements"></a>
 ### Acknowledgment
 
-I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my questions while using his [qpth code](https://locuslab.github.io/qpth/).
+I would like to thank [Brandon Amos](https://bamos.github.io/) of the CMU Locus Lab for his generosity in answering my questions while using his [qpth OptNET framework](https://locuslab.github.io/qpth/).
