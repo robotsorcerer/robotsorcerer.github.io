@@ -13,7 +13,7 @@ The maintainers over at Ubuntu have compiled the kernel on their [ppa's](http://
 
 First of all, make sure you have all your files properly backed up in a safe place before attempting an upgrade of your kernel.
 
-##Downloads
+### Downloads
 
 For 32-bit systems, let's pull the following files from the ubuntu kernel repositories.
 
@@ -42,16 +42,16 @@ Next, install each of the files from your terminal window
 Hang in there. Let's set up **GRUB** to point to the new kernel installation. This is necessary so that when you restart your system, your bootloader gives you the option to choose which kernel to load (Grub 2.02 does this, I have not tried it on other grub versions)
 
 
-##Setting up your new kernel
+### Setting up your new kernel
 
 We'll assume your boot-loader is **GRUB**. The steps we carried out above will upgrade the linux installation which could also have been performed with the following (rather _unsafe_) commands:
 
-<pre class="terminal"><code>$ sudo aptitude update 
+<pre class="terminal"><code>$ sudo aptitude update
 $ sudo aptitude safe-upgrade </code></pre>
 
 I called those unsafe because you do not have control of what happens during the upgrade process and it is well documented that such methods have been known to tamper with graphic drivers and what-a-view after upgrades. I generally prefer going the old-fashioned way as I describe in this post.
 
-Depending on your system configuration settings, after the steps above, you may find that your kernel and GRUB bootloader configuration have already been updated. Matter-of-factly, GRUB may automatically select the right boot menu option when you next restart your system. But before you go ahead and restart, you want to ensure everything is correctly set or you might find (as I did) that Mr. Lightdm/Gdm/Unity Desktop doesn’t show up after your reboot. 
+Depending on your system configuration settings, after the steps above, you may find that your kernel and GRUB bootloader configuration have already been updated. Matter-of-factly, GRUB may automatically select the right boot menu option when you next restart your system. But before you go ahead and restart, you want to ensure everything is correctly set or you might find (as I did) that Mr. Lightdm/Gdm/Unity Desktop doesn’t show up after your reboot.
 
 Therefore, we will configure GRUB to  automatically check out our new kernel, and should it fail, we would like to be able to revert to the previous kernel. Since GRUB is configured by the file `/boot/grub/grub.cfg`, it makes sense to edit this brobdinagian file. But rather than work with the bugging lines of code in `/boot/grub/grub.cfg`, we will edit relevant lines in `/etc/default/grub`, then update grub to to have `/boot/grub/grub.cfg` see our latest grub edit.
 
@@ -63,7 +63,7 @@ GRUB_TIMEOUT=0
 GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash panic=10″
 ```
 
-Basically, we are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.0.2; so if your grub version is greater than version 2.0, you can discount line 2 above. 
+Basically, we are telling GRUB to use the last-saved selection, do an auto boot-up after 5 seconds if user does nothing, and inform all kernels to reboot after 10 seconds if they die completely. Note, the TIMEOUT option is disabled in GRUB 2.0.2; so if your grub version is greater than version 2.0, you can discount line 2 above.
 
 We need to set the kernel that is initially _saved_. We will set this to the known working configuration within the terminal as follows:
 
@@ -90,7 +90,7 @@ You should have an output that says something like this:
 	done
 ```
 
-Try rebooting. 
+Try rebooting.
 
 <pre class="terminal"><code>$ sudo reboot </code></pre>
 

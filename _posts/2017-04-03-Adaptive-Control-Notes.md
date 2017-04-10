@@ -26,10 +26,10 @@ MathJax.Hub.Config({
 </script>
 
 ### [Table of Contents](#table-of-contents):
-   
+
   - [Preamble](#preamble)
   - [Introduction](#introduction)
-  - [Feedback Linearization](#feedback-linearization) 
+  - [Feedback Linearization](#feedback-linearization)
   - [Control Lyapunov Function](#clf)   
 
 <a name="preamble"></a>
@@ -40,11 +40,11 @@ Over the past five-some months, my research has come full circle at the intersec
 <a name='introduction'></a>
 ## Introduction
 
-The motivation for adaptive control was from systems whose parameters varied with time. Adaptive control can deal with any size of parametric uncertainty as well as dynamic uncertainties arising from neglected dynamics if correct robust algorithms are used. The bounds for the allowable dynamic uncertainites cannot be calculated as easily as in the nonadaptive case because of the nonlinear nature of the adaptive system coupled with the fact that the plant parameters are deemed unknown. 
+The motivation for adaptive control was from systems whose parameters varied with time. Adaptive control can deal with any size of parametric uncertainty as well as dynamic uncertainties arising from neglected dynamics if correct robust algorithms are used. The bounds for the allowable dynamic uncertainites cannot be calculated as easily as in the nonadaptive case because of the nonlinear nature of the adaptive system coupled with the fact that the plant parameters are deemed unknown.
 
 Note:
 
-- Adaptive Control designed for LTI plants give rise to a closed-loop system that is nonlinear. 
+- Adaptive Control designed for LTI plants give rise to a closed-loop system that is nonlinear.
 
 - As a result poles, zeros, gain and phase margins make little sense for system analysis.
 
@@ -60,9 +60,9 @@ Note:
 
 So you see, adaptive control are really complex to tune and get right. A bit of a background below.
 
-Adaptive control research was motivated in the 50s by the problem of designing autopilots whose parameters changed over a wide operating range in speeds and altitudes. Fixed-gain controllers could not solve the frequent parameter variations in such systems. Therefore, people developed gain scheduling techniques using auxiliary measurements of airspeed. With gain scheduling came rudimentary methods of adjusting the adaptation mechanism in model reference systems -- the idea was to develop a self-tuning controller that adapted for parameter variations in a closed-loop reference model scheme. Adjustment mechnisms developed included sensitivity rules such as M.I.T. rule, which performed reasonably well under some conditions. Rudolf Kalman in 1958 rigorously analyzed the self-tuning controller and established the explicit identification of the controller parameters of a linear SISO plant so that these could be used to tune an optimal linear quadratic controller. 
+Adaptive control research was motivated in the 50s by the problem of designing autopilots whose parameters changed over a wide operating range in speeds and altitudes. Fixed-gain controllers could not solve the frequent parameter variations in such systems. Therefore, people developed gain scheduling techniques using auxiliary measurements of airspeed. With gain scheduling came rudimentary methods of adjusting the adaptation mechanism in model reference systems -- the idea was to develop a self-tuning controller that adapted for parameter variations in a closed-loop reference model scheme. Adjustment mechnisms developed included sensitivity rules such as M.I.T. rule, which performed reasonably well under some conditions. Rudolf Kalman in 1958 rigorously analyzed the self-tuning controller and established the explicit identification of the controller parameters of a linear SISO plant so that these could be used to tune an optimal linear quadratic controller.
 
-In the 60's, Parks [1966], demonstrated use of Lyapunov analysis in establishing the stability and convergence of adaptive systems. Advances in system identification enhanced the way update laws were determined for model reference schemes. Stochastic control and dynamic programming (from the work of Bellman) coupled with Lyapunov stability placed a firm footing on proving convergence for adaptive control systems. The 70s era witnessed a resurgence in the complete proofs of stability for model reference adaptive schemes e.g. Liapunov state space proofs from Narendra, Lin & Valavani and Morse. In the discrete time deterministic and stochastic domains, stability proofs also appeared about this time. Then came Rohr's example whereby the assumptions of stability were found to be very sensitive to the presence of unmodeled dynamics (e.g. ignored high-frequency parasitic modes in order not to complicate controller design). Researchers started working on the robustness of adaptive schemes and their sensitivity to transient behaviors. 
+In the 60's, Parks [1966], demonstrated use of Lyapunov analysis in establishing the stability and convergence of adaptive systems. Advances in system identification enhanced the way update laws were determined for model reference schemes. Stochastic control and dynamic programming (from the work of Bellman) coupled with Lyapunov stability placed a firm footing on proving convergence for adaptive control systems. The 70s era witnessed a resurgence in the complete proofs of stability for model reference adaptive schemes e.g. Liapunov state space proofs from Narendra, Lin & Valavani and Morse. In the discrete time deterministic and stochastic domains, stability proofs also appeared about this time. Then came Rohr's example whereby the assumptions of stability were found to be very sensitive to the presence of unmodeled dynamics (e.g. ignored high-frequency parasitic modes in order not to complicate controller design). Researchers started working on the robustness of adaptive schemes and their sensitivity to transient behaviors.
 
 > The 70s era witnessed a resurgence in the complete proofs of stability for model reference adaptive schemes e.g. Liapunov state space proofs from Narendra, Lin & Valavani and Morse. In the discrete time deterministic and stochastic domains, stability proofs also appeared about this time. Then came Rohr's example whereby the assumptions of stability were found to be very sensitive to the presence of unmodeled dynamics
 
@@ -100,20 +100,20 @@ where
 \label{eq:Lie}
 \end{align}
 
-where \\(L\_f f\\) is the <i>Lie derivative</i>. If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x\_0) \neq 0\\) at some point \\(x\_0\\), then the system of \eqref{eq:nlnr1} is said to be of relative degree 1 at \\(x\_0\\). For an LTI system, this means the output is different from the input by one integrator only. This would be a strictly proper tranfer function. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression. 
+where \\(L\_f f\\) is the <i>Lie derivative</i>. If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x\_0) \neq 0\\) at some point \\(x\_0\\), then the system of \eqref{eq:nlnr1} is said to be of relative degree 1 at \\(x\_0\\). For an LTI system, this means the output is different from the input by one integrator only. This would be a strictly proper tranfer function. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression.
 
-If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in {B\_x}\_0 \text{ of } x\_0 \\), then one can take the second derivative of \\(y\\) to obtain (abusing notation and dropping the terms in parentheses), 
+If \\(\frac{\partial{h}}{\partial{x}}(x) \, g(x) = 0 \forall x \in {B\_x}\_0 \text{ of } x\_0 \\), then one can take the second derivative of \\(y\\) to obtain (abusing notation and dropping the terms in parentheses),
 
 \begin{align}
 \ddot{y} = \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right)f + \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial{h}}{\partial{x}}f\right) g \, u.
 \end{align}
 
-If \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right) g(x) \, |\ \_{x = x\_0} \neq 0 \\) then \eqref{eq:nlnr1} is said to have a relative degree 2 at \\(x\_0\\). 
-We can continue the differentiation in a neighborhood of \\(x\_0\\) if \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right)g(x) = 0 \\) in the neighborhood of \\(x\_0\\). 
+If \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right) g(x) \, |\ \_{x = x\_0} \neq 0 \\) then \eqref{eq:nlnr1} is said to have a relative degree 2 at \\(x\_0\\).
+We can continue the differentiation in a neighborhood of \\(x\_0\\) if \\(\frac{\partial}{\partial{x}} \left(\frac{\partial{h}}{\partial{x}}(x)f(x)\right)g(x) = 0 \\) in the neighborhood of \\(x\_0\\).
 
 > There are two general cases of adopting adaptive control to nonlinear systems: (i) nonlinear systems whose nonlinear functions are known but unknown parameters appear linearly. (ii) the nonlinear functions are assumed known by multiplying nonlinear basis functions with unknown parameters to be determined.
 
-More generally, 
+More generally,
 
 \begin{align}
 L\_f^i h = \dfrac{\partial}{\partial{x}}\left(\dfrac{\partial}{\partial{x}} \left(\cdot \dfrac{\partial}{\partial{x}} \left(\dfrac{\partial{h}}{\partial{x}}f\right) \cdot f \cdots \right) \cdot f \right) \cdot f.
@@ -131,17 +131,17 @@ then the SISO nonlinear system \eqref{eq:nlnr1} has a relative degree \\(\rho = 
 
 (ii) \\(L\_g L\_f^{\rho -1} h(x\_0) \neq 0. \\)
 
-if \eqref{eq:nlnr1} has relative degree \\(\rho = n\\) at \\(x\\), where \\(n\\) is the order of \eqref{eq:nlnr1}, then given the transfoirmation 
+if \eqref{eq:nlnr1} has relative degree \\(\rho = n\\) at \\(x\\), where \\(n\\) is the order of \eqref{eq:nlnr1}, then given the transfoirmation
 
 \begin{align}
-z\_1 = y = h(x), \qquad z\_2 = \dot{y} = L\_f h(x), \qquad z\_3 = \ddot{y} = L\_f^2 h(x), 
+z\_1 = y = h(x), \qquad z\_2 = \dot{y} = L\_f h(x), \qquad z\_3 = \ddot{y} = L\_f^2 h(x),
 \end{align}
 
 \begin{align}
 z\_i = y^{(i-1)} = L\_f^{(i-1)} h(x) , \ldots, z\_n = y^{(n-1)} = L\_f^{n-1} h(x).
 \end{align}
 
-we find that 
+we find that
 
 $$
 \dot{z}_1 = z_2, \nonumber \\
@@ -153,7 +153,7 @@ y = z_1
 \label{eq:canon}
 $$
 
-which is the **<i>canonical form</i>** of the system with _**no zero dynamics**_.  From feedback linearization, we find that 
+which is the **<i>canonical form</i>** of the system with _**no zero dynamics**_.  From feedback linearization, we find that
 
 \begin{align}
 u = \dfrac{1}{L\_g L\_f^{n-1}h(x)}[\nu - L\_f^n h(x)],
@@ -174,14 +174,14 @@ $$
 Vectorizing the two equations, we have
 
 \begin{align}
-\dot{z} = A z + B \nu, \qquad y = C^T z, 
+\dot{z} = A z + B \nu, \qquad y = C^T z,
 \label{eq:linear}
 \end{align}
 
-where 
+where
 
 $$
-A = 
+A =
 \begin{bmatrix}
 0      &    1   &    0   & \ldots &    0   \\
 \vdots & \ddots & \ddots & \ddots & \vdots \\
@@ -190,8 +190,8 @@ A =
 0      & \ldots & \ldots  & \ldots &    0   \\
 \end{bmatrix},
 
-\qquad 
-B = 
+\qquad
+B =
 \begin{bmatrix}
 0 \\
 \vdots \\
@@ -199,7 +199,7 @@ B =
 1
 \end{bmatrix},
 
-\quad 
+\quad
 C = \begin{bmatrix}
 1 \\ 0 \\ \vdots \\ \vdots \\ 0
 \end{bmatrix}
@@ -211,7 +211,7 @@ $$
 z\_1 = y, \quad z\_2 = \dot{y}, \ldots \quad z\_\rho = y^{(\rho-1)} = L\_f^{(\rho -1)h(x) }
 \end{align}
 
-thus resulting in 
+thus resulting in
 
 $$
 \dot{z}_1 = z_2 \\
@@ -220,7 +220,7 @@ $$
 \dot{z}_\rho = L_f^\rho h(x) + \left(L_gL_f^{\rho-1}h(x)\right) u
 $$
 
-Since the order of the system is \\(n\\), we are gonna need \\(n - \rho \\) states; we can define functions \\(h\_{\rho+1}(x), \ldots, h\_n(x)\\) with \\(\frac{\partial{h}\_i(x)}{\partial{x}g(x)} = 0, \, i = \rho +1, \ldots, n\\) and define the \\(n - \rho\\)  states as 
+Since the order of the system is \\(n\\), we are gonna need \\(n - \rho \\) states; we can define functions \\(h\_{\rho+1}(x), \ldots, h\_n(x)\\) with \\(\frac{\partial{h}\_i(x)}{\partial{x}g(x)} = 0, \, i = \rho +1, \ldots, n\\) and define the \\(n - \rho\\)  states as
 
 \\(z\_{\rho+1} = h\_{\rho + 1}, \ldots, z\_n = h\_n(x)\\)
 
@@ -233,7 +233,7 @@ $$
 y = z_1
 $$
 
-where \\(z = [z\_1, z\_2, \ldots, z\_n]^T\\) is the new state. With feedback linearization, we have 
+where \\(z = [z\_1, z\_2, \ldots, z\_n]^T\\) is the new state. With feedback linearization, we have
 
 \begin{align}
 u = \dfrac{1}{L\_g L\_f^{\rho-1}h(x)}[\nu - L\_f^\rho h(x)],
@@ -262,13 +262,13 @@ The process illustrated above is called I/O feedback linearization. When there a
 
 Lyapunov functions are useful not only in the analysis of adaptive control systems but also as stabilizing feedback control design laws. The central concept is to make the Lyapunov function \\(V\\) and its time derivative obey Lyapunov stability conditions for a closed-loop system.
 
-### Lyapunov's Direct Method 
+### Lyapunov's Direct Method
 
-Lyapunov stability means the sum of all the __energy__ of a system will be continuously dissipated when the system settles to an equilibrium position. This is a statement of the Lyapunov's Direct (or second) method. In other words, we can investigate the stability of an \\(n\\)-dimensional dynamical system by analyzing the change in the behavior of its energy function. Stability analyses are difficult to verify in nonlinear systems and Lyapunov analysis helps us in gaining an insight into system behavior. Take a mass-spring-damper system below, for example. 
+Lyapunov stability means the sum of all the __energy__ of a system will be continuously dissipated when the system settles to an equilibrium position. This is a statement of the Lyapunov's Direct (or second) method. In other words, we can investigate the stability of an \\(n\\)-dimensional dynamical system by analyzing the change in the behavior of its energy function. Stability analyses are difficult to verify in nonlinear systems and Lyapunov analysis helps us in gaining an insight into system behavior. Take a mass-spring-damper system below, for example.
 
 ![Mass-Spring-Damper System](/imgs/adaptive/msd.jpg)
 
-Pulling and releasing the mass does not inform us of the system's stability whatsoever. The question of stability in the system is therefore difficult to verify:4, linearization is nearly impossible as it is only marginally stable. But if we can write out the closed-form equations of the system's mechanical energy, we can differentiate this to understand what happens if the mass settles to equilibrium. For observe, 
+Pulling and releasing the mass does not inform us of the system's stability whatsoever. The question of stability in the system is therefore difficult to verify:4, linearization is nearly impossible as it is only marginally stable. But if we can write out the closed-form equations of the system's mechanical energy, we can differentiate this to understand what happens if the mass settles to equilibrium. For observe,
 
 \begin{align}
 V(x) &= \underbrace{\dfrac{1}{2}m \dot{x}^2}\_{\text{kinetic energy}} + \underbrace{\int\_{0}^{x}\left(k\_0x + k\_1x^3\right)dx}\_{\text{potential energy}}
