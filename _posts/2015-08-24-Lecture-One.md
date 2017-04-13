@@ -1,5 +1,5 @@
 ---
-title: <center>Mathematical Modeling of Robots (Introduction).</center>
+title: <center>Mathematical Modeling of Robots.</center>
 layout: page
 permalink: robots-modeling
 mathjax: true
@@ -92,7 +92,7 @@ profiles; minimum time trajectories
 * Vision-based control: The geometry of image formation; feature extraction; feature
 tracking; the image Jacobian; visual servo control
 * Advanced Topics (one or more of the following depending on time and class interest):
-Lagrangian dynamics; path planning; mobile robots; force sensing and force control; 
+Lagrangian dynamics; path planning; mobile robots; force sensing and force control;
 
 <a name="policy"></a>
 ## 3. Grading Policy
@@ -122,7 +122,7 @@ absence (illness, job-related travel, holy day absence, etc.), students
 <u>**must**</u> inform the instructor ahead of time and provide proper documentation of
 the conflict. An accommodation will be attempted for verifiable problems.
 Homework assignments will be collected graded and discussed in class (as time
-permits). 
+permits).
 
 Homework will be collected at the beginning of the class period when
 it is due. Homework that is not reasonably neat and readable, or not bound,
@@ -158,9 +158,9 @@ An example of a revolute/ joint is depicted in the figure below:
   </div>
 </div>
 
-The angle \\(\Phi\\) in the left figure is defined as the joint angle and it connects links **LK1** and **LK2**. Similarly, the displacement \\(\Phi\\) in the right figure connects  links **LK1** and **LK2**. 
+The angle \\(\Phi\\) in the left figure is defined as the joint angle and it connects links **LK1** and **LK2**. Similarly, the displacement \\(\Phi\\) in the right figure connects  links **LK1** and **LK2**.
 
-<u>Rotations follow the right hand rule</u>. Essentially, this means if we have three orthonormal vectors \\(x\\), \\(y\\), and \\(z\\) \\(\in\\) \\(\mathcal{R}^3\\) which define a coordinate frame, they must satisfy the mathematical relation, 
+<u>Rotations follow the right hand rule</u>. Essentially, this means if we have three orthonormal vectors \\(x\\), \\(y\\), and \\(z\\) \\(\in\\) \\(\mathcal{R}^3\\) which define a coordinate frame, they must satisfy the mathematical relation,
 <center>\\(z\\) = \\(x\\) \\(\times\\) \\(y\\).</center>
 We will denote the axis of rotation of a revolute joint or the axis of displacement of a prismatic joint as \\(z\^i\\) if the joint connects links \\(i\\) and \\(i+1\\). \\(\Phi\\) is referred to as the **joint variable** for a revolute or prismatic joint as the case may be.
 
@@ -171,7 +171,7 @@ We will denote the axis of rotation of a revolute joint or the axis of displacem
 * A revolute joint will allow rotation between two links.
 * A prismatic joint will allow displacement between two links.
 * The axis of rotation for a typical joint, \\(j\_i\\) that connects links \\(i\\) and \\(i+1\\) is \\(z^i\\).
-* Angles are measured in a clockwise manner so that if an angle along a directed axis is positive if it represents a clockwise rotation about the direction from which we are viewing. 
+* Angles are measured in a clockwise manner so that if an angle along a directed axis is positive if it represents a clockwise rotation about the direction from which we are viewing.
 
 A three link arm with 2 revolute joints for example is referred to as an **RRP** arm, where the R's stand for _revolute_ and the P stands for _prismatic_. An example of an RRP robotic arm is the SCARA robot which we shall deal with shortly.
 
@@ -180,7 +180,7 @@ A three link arm with 2 revolute joints for example is referred to as an **RRP**
 #### 4.3.1. Configuration
 
 The configuration of a manipulator is a complete description of the location of every point on the robot manipulator.
-When we know the set of all possible configurations, we say we know the **configuration space** of the robot. The configuration space will correspond mathematically to knowing the set of all possible \\(\theta\_i\\) for a revolute joint or \\(d_i\\) for a prismatic robot where \\(\theta\_i\\) denotes the respective joint angles and \\(d\_i\\) denotes the respective displacements. The set of angles \\(\theta\_i\\) for a revolute joint is naturally associated with a unit circle in the plane denoted by \\(\mathcal{S}^1\\). It is typical for you to see revolute joints written as \\(\theta\_i\\) \\(\in\\)  \\(\mathcal{S}^1\\) in literature. 
+When we know the set of all possible configurations, we say we know the **configuration space** of the robot. The configuration space will correspond mathematically to knowing the set of all possible \\(\theta\_i\\) for a revolute joint or \\(d_i\\) for a prismatic robot where \\(\theta\_i\\) denotes the respective joint angles and \\(d\_i\\) denotes the respective displacements. The set of angles \\(\theta\_i\\) for a revolute joint is naturally associated with a unit circle in the plane denoted by \\(\mathcal{S}^1\\). It is typical for you to see revolute joints written as \\(\theta\_i\\) \\(\in\\)  \\(\mathcal{S}^1\\) in literature.
 
 **Example 1:** For a single revolute joint arm, the configuration space is \\(\mathcal{S}^1\\), which geometrically is a one-dimensional sphere (or 1-D sphere).
 
@@ -202,7 +202,7 @@ The state includes the geometry of all inputs, all disturbances, velocities, for
 
 ####  4.3.4.  The State Space
 
-The state space is the set of all possible states of a manipulator. 
+The state space is the set of all possible states of a manipulator.
 
 ####  4.3.5.  The Workspace
 
@@ -247,7 +247,7 @@ It is a bit different from the Spherical Manipulators in that its \\(z\_0\\), \\
 The cylindrical manipulator has two independent degrees of freedom and is typically a combination of a revolute and two prismatic joints such that their axes **intersect**. An example of the cylindrical joint is shown in fig 5.4.
 
 <div class="fig figcenter fighighlight">
-  <img src="http://icosym-nt.cvut.cz/odl/partners/fuh/EXAMPLES/eqs5/stan_FM.gif" width="60%" height="500" align="middle"> 
+  <img src="http://icosym-nt.cvut.cz/odl/partners/fuh/EXAMPLES/eqs5/stan_FM.gif" width="60%" height="500" align="middle">
   <div class="figcaption" align="middle">Fig.5.4.  Symbolic representation of the Cylindrical Robot. Photo Courtesy of [4]</a>.
   </div>
 </div>
@@ -261,7 +261,7 @@ We say a manipulator is cartesian of its first three joints are prismatic. The v
 
 <a name='summary'></a>
 ##Summary
-In this class, we have covered the mathematical basis of robotics and built a foundation upon which we shall build the next several modules. Please go through the material posted on elearning and chapter 1 of Dr. Spong's book [\\(^2\\)] to get familiarized all the more with the topics we have discussed so far. 
+In this class, we have covered the mathematical basis of robotics and built a foundation upon which we shall build the next several modules. Please go through the material posted on elearning and chapter 1 of Dr. Spong's book [\\(^2\\)] to get familiarized all the more with the topics we have discussed so far.
 
 We'll see you in the next class.
 

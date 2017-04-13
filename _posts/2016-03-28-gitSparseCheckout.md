@@ -27,17 +27,9 @@ Then it compares the new skip-worktree value with the previous one. If skip-work
 
 "While `$GIT_DIR/info/sparse-checkout` is usually used to specify what files are in, you can also specify what files are not in, using negate patterns. For example, to remove the file unwanted:
 
-```
-/*
-!unwanted
-```
 
 Another tricky thing is fully repopulating the working directory when you no longer want sparse checkout. You cannot just disable "sparse checkout" because skip-worktree bits are still in the index and your working directory is still sparsely populated. You should re-populate the working directory with the $GIT_DIR/info/sparse-checkout file content as follows:
 
-```
-/*
-```
-"
 
 So to check out the pcl examples directory for example, we could combine the `sparse checkout` and `shallow clone` features. By using the `shallow clone` feature, we cut off the history and the `sparse check out` only pulls files matching the pattern(s) we specify. 
 
@@ -46,26 +38,28 @@ Take a look at the following example:
 $ mkdir pcl-examples
 $ cd pcl-examples								#make a directory we want to copy folders to
 $ git init                            			#initialize the empty local repo
-$ git remote add origin -f https://github.com/PointCloudLibrary.git     #add the remote origin
+$ git remote add origin -f https://github.com/PointCloudLibrary/pcl.git     #add the remote origin
 $ git config core.sparsecheckout true			#very crucial. this is where we tell git we are checking out specifics
 $ echo "examples/*" >> .git/info/sparse-checkout #recursively checkout examples folder
 $ git pull --depth=2 origin master			#go only 2 depths down the examples directory
 </code></pre>
 
-<!--
+
 #### Explanation
 
 The line 
-                  <pre class="terminal"><code>$git remote add origin -f https://github.com/PointCloudLibrary.git </code></pre> 
+                  <pre class="terminal"><code>$git remote add origin -f https://github.com/PointCloudLibrary/pcl.git </code></pre> 
 
-creates an empty repository with the point cloud library github remote, fetches all objects but doesn't check them out.
+adds a remote named <name> e.g. a repository given by <url>.
 
-The files are checked out with the next line's command.
+It does not create nor update remote working branches by any chance. We do that by adding the "-f" or "--fetch" argument to update all remote tracking branches in our index. Note that this merely updates the git index. The files nor folders are as yet not populated.
 
-Since we are cloning everything in the examples directory --which, by the way, have a depth of 2-- we pull every darn subdirectory and file under the examples folder by doing:
+The files are updated in our `pcl-examples` directory with the next line's command.
+
+Since we are cloning everything in the examples directory --which, by the way, have a depth of 2 -- we pull every subdirectory and file under the examples folder by doing:
 
 <pre class="terminal"><code>$ git pull --depth=2 origin master</code></pre> 
--->
+
 
 ### SVN Checkout 
 
