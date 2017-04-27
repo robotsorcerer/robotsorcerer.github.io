@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2017-04-27 09:15:00
-title: "<center>PyTorch and ROSPY Interoperability</center>"
-excerpt: "<center>Using PyTorch Modules in ROSPY.</center>"
+title: "<center>PyTorch and rospy Interoperability</center>"
+excerpt: "<center>Avoiding pitfalls and landmines when installing and using a neural network framework in rospy.</center>"
 permalink: pytorch-ros
 comments: true
 mathjax: true
@@ -35,6 +35,8 @@ Anyways, so I trained a conv net model in pytorch, no big deal. I had a roscpp n
 ### Importing Torch into ROSPY
 
 When you install PYTORCH with conda, it typically places the installation relative to your `anaconda` install path. For me this was in `/home/$USER/anaconda3`. So to be able to import `Torch` and use `rospy's`  `CvBridge` simultaneously, I installed the following modules: `netifaces`, `catkin_pkgs` and `rospkg` via `pip` while in the python3 conda environment. Then I tried to import the convet model from a different module's class into a rospy module I had written.
+
+> to be able to import `Torch` and use `rospy's`  `CvBridge` simultaneously, I installed the following modules: `netifaces`, `catkin_pkgs` and `rospkg` via `pip`
 
 Say `convnet.py` model had entries like so:
 
@@ -89,5 +91,7 @@ At this moment, I stepped out for a walk, and caught a Euphemism. What if I do a
 It turns out that this is the most error-less prone way to import Pytorch models into a rospy file or indeed a python2 file. To do this, I temporarily moved my `anaconda3` folder out of bash's native path, pulled the latest pytorch commit from github and then installed with `python setup.py install`.
 
 Now when I try out the above commands, everything works well.
+
+> It turns out that this is the most error-less prone way to import Pytorch models into a rospy file or indeed a python2 file. To do this, I temporarily moved my `anaconda3` folder out of bash's native path, pulled the latest pytorch commit from github and then installed with `python setup.py install`.
 
 So my two cents to the robotics community running neural net models in `pytorch` or `tensorflow` and using such models in `rospy` or equivalent environments is to always go for the source installation whenever and if possible. You would save yourself a lot of headache and time-waste.
