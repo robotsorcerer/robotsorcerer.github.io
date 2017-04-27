@@ -84,7 +84,7 @@ Now when I import, it says stuff like `convnet module xx compiled with a differe
 
 
 <a name="solution"></a>
-### Solution
+#### Solution
 
   At this moment, I stepped out for a walk, and caught a brainchild. What if I do away with the `conda` build of `pytorch` and instead install `pytorch` from source or `PyPI`?
 
