@@ -2,7 +2,7 @@
 layout: post
 date: 2017-04-27 09:15:00
 title: "<center>PyTorch and rospy Interoperability</center>"
-excerpt: "<center>Avoiding pitfalls and landmines when installing and using a neural network framework in rospy.</center>"
+excerpt: "<center>Avoiding pitfalls and potential landmines when installing and using the pytorch neural network framework in rospy.</center>"
 permalink: pytorch-ros
 comments: true
 mathjax: true
