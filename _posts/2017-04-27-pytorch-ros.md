@@ -73,12 +73,12 @@ and `process_images.py` file had an import statement like so
   I got weird errors like
 
   ```python
-    Python 3.6.0 (default, Oct 26 2016, 20:30:19)
+    >> Python 3.6.0 (default, Oct 26 2016, 20:30:19)
     [GCC 4.8.4] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
-    No module named Torch
+    >> No module named Torch
   ```
-Huh? Country boy comes to town. But the `convnet.py` model imports Torch ok. I figured the problem must be because I installed `pytorch` with the `python3` version. And so I pulled the `python2` version of `pytorch` from Soumith's channel.
+Huh? Country boy comes to town. But the `convnet.py` model imports Torch okay. I figured the problem must be because I installed `pytorch` with the `python3` version. And so I pulled the `python2` version of `pytorch` from Soumith's channel.
 
 Now when I import, it says stuff like `convnet module xx compiled with a different Torch version`. What the heck `pytorch`?
 
