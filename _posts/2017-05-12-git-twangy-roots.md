@@ -13,12 +13,12 @@ permalink: git-twangs
 - [Pulling/Pushing git remotes from LAN/WAN repos](#pull-push)
 - [Cloning git remotes from LAN/WAN repos](#clone)
 
-<a id="pull/push"></a>
+<a name="pull/push"></a>
 ### Introduction
 
 Git is a useful tool mostly for work collaboration, social coding. It is useful to be able to share your work between different computers using the native git commands such as `merge`, `fetch`, `push`, `clone`, or `pull` without resolving to using ssh, scp or other such copying commands that copies whole directories or files without the benefit of `diff` and `merge` strategies of git. More so, not everyone enjoys exposing their incomplete work/code to a remote repo as a server where local git repos can fetch and merge from. This post is meant to show how to go about these git strategies without going through a remote e.g. master.
 
-<a id="pull/push"></a>
+<a name="pull/push"></a>
 #### Pulling/Pushing git remotes from a LAN/WAN repo
 
 We can update local git refs without pulling from a web-based remote. Suppose I have the same git repo on two computers in the same network, we can `git pull` or `git push` without resolving to going through the git repo hosted on a web server. As an example, suppose I have a repo named `sensors` on a computer with username and group name `drumpf@dissembler` and I have a few commits ahead of the repo on a computer named `robots@killem`, I can work across both repos as follows:
@@ -57,7 +57,7 @@ git assumes a remote url transport protocol if it does not know what the remote 
 where `address` is the path to the repo on the LAN/WAN.
 
 
-<a id="clone"></a>
+<a name="clone"></a>
 #### Cloning git remotes from a LAN/WAN repo
 
 The procedure is the same as above save we replace pull/push with clone, e.g
