@@ -2,7 +2,7 @@
 layout: post
 date: 2017-05-12 11:37:00
 title: "<center>Twanging git pull, push and clone</center>"
-excerpt: "<center>It is useful to be able to share your work between different computers using the native git commands such as merge, fetch, push, clone, or pull without resolving to using ssh, scp or other such copying commands that copies whole directories or files without the benefit of diff and merge strategies of git.</center>"
+excerpt: "<center>It is useful to be able to share your work between different computers using the native git commands such as merge, fetch, push, clone, or pull without resolving to using ssh, scp or other such copying commands that copy whole directories or files without the benefit of diff and merge strategies of git.</center>"
 comments: true
 mathjax: true
 permalink: git-twangs
@@ -29,15 +29,15 @@ We can update local git refs without pulling from a web-based remote. Suppose I 
 
     <pre class="robots@killem:~/Documents/sensors"><code>$ git pull ssh://drumpf@dissembler:/~/Documents/sensors.git</code></pre>
 
-    - via https:
+  - via https:
 
       <pre class="robots@killem:~/Documents/sensors"><code>$ git pull http[s]://drumpf@dissembler:/robots/killem/Documents/sensors.git</code></pre>
 
-    - via ftp
+  - via ftp
 
       <pre class="robots@killem:~/Documents/sensors"><code>$ git pull ftp[s]://drumpf@dissembler:/robots/killem/Documents/sensors.git</code></pre>
 
-    - via rsync
+  - via rsync
 
       <pre class="robots@killem:~/Documents/sensors"><code>$ git pull rsync://drumpf@dissembler:/~/Documents/sensors.git</code></pre>
 
@@ -55,7 +55,6 @@ git assumes a remote url transport protocol if it does not know what the remote 
 <pre class="robots@killem:~/Documents/sensors"><code>$ git push transport::address</code></pre>
 
 where `address` is the path to the repo on the LAN/WAN.
-
 
 <a name="clone"></a>
 #### Cloning git remotes from a LAN/WAN repo
