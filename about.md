@@ -26,9 +26,9 @@ My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more det
 
 > "Towering genius disdains a beaten path. It seeks regions hitherto unexplored."
                       -- Abraham Lincoln
-                      
+
 > "I again saw under the sun that the race is not to the swift and the battle is not to the strong, and neither is bread to the wise nor riches to those of intelligence and understanding nor favor to men of ability; but time and chance overtake them all."
                       -- Solomon
 
-> "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to do all which may achieve and cherish: a just and lasting peace among ourselves and with all nations"                      
+> "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to do all which may achieve and cherish: a just and lasting peace among ourselves and with all nations."                      
                       -- Abraham Lincoln
