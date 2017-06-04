@@ -1,17 +1,20 @@
-# Site settings
-title: Olalekan Ogunmolu
+
+title: Lekan's blog
 email: lexilighty@gmail.com
-description: "To Discover and Understand."
-#  "Towards an autonomous future."
-baseurl: ""
-url: "lakehanne.github.io"
+description: > # this means to ignore newlines until "baseurl:"
+  To discover and understand. Where theory meets practice.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lakehanne.gihub.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: patmeansnoble
-github_username: lakehanne
-blogspot_username: fancylittlerobots
-timezone: America/Chicago
-quora_username: Olalekan-Ogunmolu
-#gems: jekyll-feed
+github_username:  lakehanne
+timezone:         America/Chicago
+quora_username:   Olalekan-Ogunmolu
+
+# Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-future: true
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
