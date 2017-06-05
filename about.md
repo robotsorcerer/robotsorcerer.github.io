@@ -67,8 +67,7 @@ met.""
 >The questioner said, "Correct. But now I know, from the quickness of your response, that you are really a physicist, not a mathematician.  The mathematician would have calculated when each bee-train encounter takes place, calculated the position, taken the sum of those distances as an infinite series, and then summed the series.  But a physicist would have taken a short-cut; the physicists would have realized that the bee was flying for 5 seconds at 20 meters per second, so it would have traveled 100 meters total."
 
 >Von Neumann's purported response: "Oh, that's a clever way to solve it!  No, I summed the series."
-
->               -- [Richard Muller on "What does it mean to think       Mathematically?"](https://www.quora.com/What-does-it-mean-to-think-mathematically)
+              -- [Richard Muller on "What does it mean to think   Mathematically?"](https://www.quora.com/What-does-it-mean-to-think-mathematically)
 
 >"Far better it is to dare mighty things, to win glorious triumphs, even though chequered by failure, than to take rank with those poor spirits who neither suffer much nor enjoy much,  because they live in the gray twilight that knows neither victory nor defeat."
                       -- Theodore Roosevelt, 1910
