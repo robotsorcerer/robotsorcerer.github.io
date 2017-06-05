@@ -60,8 +60,6 @@ met.""
 > "He was very clear that entering a new field always meant discomfort. It was hard to raise money to do an experiment, and the existing experts would resent your entry. He told me that the only way to do it was with complete humility; you had to recognize that you didn't know much. You have to become a student again. No shortcuts. Before you talk to any of the experts, study hard so that they won't feel that you are wasting their time. If you can bring something new to an existing field, then you might make an important discovery."
 						-- [Richard Muller on Luis Alvarez](https://www.quora.com/What-has-enabled-Richard-Muller-to-live-such-an-interesting-life)
 
-What does it mean to think Mathematically?
-
 >"Johnny von Neumann was a great mathematician and a great physicist. So someone (I don't remember who) challenged him with this problem: Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee?
 
 >According to legend, von Neumann thought for a moment, and then said "100 meters".
@@ -70,7 +68,7 @@ What does it mean to think Mathematically?
 
 >Von Neumann's purported response: "Oh, that's a clever way to solve it!  No, I summed the series."
 
--- [Richard Muller on "What does it mean to think Mathematically?"](https://www.quora.com/What-does-it-mean-to-think-mathematically)
+>               -- [Richard Muller on "What does it mean to think       Mathematically?"](https://www.quora.com/What-does-it-mean-to-think-mathematically)
 
 >"Far better it is to dare mighty things, to win glorious triumphs, even though chequered by failure, than to take rank with those poor spirits who neither suffer much nor enjoy much,  because they live in the gray twilight that knows neither victory nor defeat."
                       -- Theodore Roosevelt, 1910
