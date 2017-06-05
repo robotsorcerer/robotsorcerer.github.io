@@ -23,14 +23,29 @@ My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more det
 > "What I cannot create, I do not understand."
                       -- Richard Feynman
 
-> "He was very clear that entering a new field always meant discomfort. It was hard to raise money to do an experiment, and the existing experts would resent your entry. He told me that the only way to do it was with complete humility; you had to recognize that you didn't know much. You have to become a student again. No shortcuts. Before you talk to any of the experts, study hard so that they won't feel that you are wasting their time. If you can bring something new to an existing field, then you might make an important discovery." 
+> “The trick that one learns over time, a basic part of mathematical methodology,
+is to sidestep the equation and focus instead on the structure of the underlying
+physical process. One learns to submit oneself to a catechism: ‘When I set up
+these equations originally, I made certain assumptions. How realistic were these
+assumptions? What state variables, and what effects did I ignore?'' ...In the real
+world, none of these assumptions are uniformly valid. Often people want to know
+why mathematics and computers cannot be used to handle the meaningful problems
+of society, as opposed, let us say, to the moon boondoggle and high energy–high
+cost physics. The answer lies in the fact that we don’t know how to describe the
+complex systems of society involving people, we don’t understand cause and effect,
+which is to say the consequences of decisions, and we don’t even know how to make our
+objectives reasonably precise. None of the requirements of classical science are
+met.""
+                  -- Richard Bellman
+
+> "He was very clear that entering a new field always meant discomfort. It was hard to raise money to do an experiment, and the existing experts would resent your entry. He told me that the only way to do it was with complete humility; you had to recognize that you didn't know much. You have to become a student again. No shortcuts. Before you talk to any of the experts, study hard so that they won't feel that you are wasting their time. If you can bring something new to an existing field, then you might make an important discovery."
 						-- [Richard Muller on Luis Alvarez](https://www.quora.com/What-has-enabled-Richard-Muller-to-live-such-an-interesting-life)
 
 What does it mean to think Mathematically?
 
 >"Johnny von Neumann was a great mathematician and a great physicist. So someone (I don't remember who) challenged him with this problem:
 
->Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee? 
+>Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee?
 
 >According to legend, von Neumann thought for a moment, and then said "100 meters".
 
