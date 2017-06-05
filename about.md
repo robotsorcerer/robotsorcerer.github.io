@@ -17,6 +17,25 @@ My [**academic webpage**](http://www.utdallas.edu/~opo140030/) has much more det
 
 #### Favorite Quotes
 
+> "There are several ways in which a mathematician can
+proceed to extend his research efforts, particularly one who
+is deeply interested in problems arising from the physical
+world. He can, on one hand, examine the equations he has
+been working with and modify them in a variety of ways.
+Or he can ask questions that have not been asked before
+concerning the nature of the solution of the original equations.
+This is basically a very difficult way to carry out
+research. It is very easy to change the form of an equation
+in a large number of ways. The great majority of the
+new equations are not meaningful, and, in consequence,
+lead to both difficult and unimportant problems. Similarly,
+there are many questions that are difficult to answer, but
+hardly worth asking. The well-trained mathematician does
+not measure the value of a problem solely by its intractability.
+The challenge is there, but even very small boys do not
+accept all dares."
+                -- Richard E. Bellman
+
 > "Math is not something boys are better at, it's not a spectator sport, it's not a system of arbitrary rules, it's not dependent on the laws of physics, it's not easier or better in base 12 or base π, it's not a young man's game, it's not useless in the real world, it's not beholden to the real world, it's not learnable in one year or from one book or one website, it is not particularly interested in the golden ratio or the digits of pi or trivial calculation tricks that aren't actually from the Vedas, it is not always explainable to a 6-year-old or in "layman's terms", it's not beyond your grasp if you recognize that it will take time and dedication and active effort, it is not dry, it is not cold, it is not boring, it is not the opposite of "human" or "people-oriented" or "spiritual" or "artistic", and for Pete's sake, it doesn't say that if you add 1 and 2 and 3 and 4 "and so on" you'll "in the end" get 1/12."
                       -- Alon Amit, What is Mathematics not?
 
@@ -43,9 +62,7 @@ met.""
 
 What does it mean to think Mathematically?
 
->"Johnny von Neumann was a great mathematician and a great physicist. So someone (I don't remember who) challenged him with this problem:
-
->Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee?
+>"Johnny von Neumann was a great mathematician and a great physicist. So someone (I don't remember who) challenged him with this problem: Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee?
 
 >According to legend, von Neumann thought for a moment, and then said "100 meters".
 
@@ -57,12 +74,6 @@ What does it mean to think Mathematically?
 
 >"Far better it is to dare mighty things, to win glorious triumphs, even though chequered by failure, than to take rank with those poor spirits who neither suffer much nor enjoy much,  because they live in the gray twilight that knows neither victory nor defeat."
                       -- Theodore Roosevelt, 1910
-
-> "It is an ancient Mariner,
-And he stoppeth one of three.
-'By thy long grey beard and glittering eye,
-Now wherefore stopp'st thou me? "
-                      -- Samuel Taylor Coleridge, The Rime of the Ancient Mariner
 
 > "In the midst of the word he was trying to say,
 In the midst of his laughter and glee,
