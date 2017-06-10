@@ -1,13 +1,14 @@
 ---
 layout: post
 comments: true
-title: <center>Why bother with a PhD?</center>
+title: Why bother with a PhD?
 comments: true
-excerpt: "<center>Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy.</center>"
+excerpt: "Yes, I might spend my free time differently than most, but I think synthesizing disparate sets of data and making robots fly, track objects and help humans live better is sexy."
 date: 2014-07-01 19:53:00
 tags: PhD; Thoughts; Plans; Purposes
 permalink: gradlife
 disqus: true
+category: [grad_school, phd]
 ---
 <!-- Analytics -->
 <script>
@@ -34,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div style="text-align:center;"></div>
 
->**Note**: This is a post from my old [blog](http://fancylittlerobots.blogspot.com/2014/07/so-why-bother-with-phd.html). I am reposting this here to get catch a drift of jekyll et cetera. 
+>**Note**: This is a post from my old [blog](http://fancylittlerobots.blogspot.com/2014/07/so-why-bother-with-phd.html). I am reposting this here to get catch a drift of jekyll et cetera.
 
 **Recently, I've been questioning my plans for the future and after a certain amount of reflection, I came up with the following (seeming worthwhile?) reasons why a grad school education would be worth the shot.**
 
@@ -62,7 +63,7 @@ Also, by speaking with university authorities, we gained scrap metals which we m
 
 #### What, if any, specific topics/problems in Robotics are you hoping to solve/investigate?
 
-My experience with vision algorithms in autonomous systems so far has confirmed the importance of finding efficient distributed vision sensing algorithms for multi-target tracking by a team of cooperative robots, dynamic map-building by cooperative agents in a leader-follower relationship, distributed formation of a group of mobile robots or synchronization and rendezvous as in consensus networks. I therefore want my graduate research focussed on developing better build systems (efficient control and estimation algorithms for energy-saving in nodes through embedded systems processing), error checking mechanisms (by exploring control algorithms for optimum error correction and data compression models in control unit applications) and embedded video processors capable of opportunistic sensing, efficient navigation and scene analysis by autonomous robots. As my research carries along in graduate school, I look forward to developing effective communication protocols for the efficient delivery of sensed information in energy-constrained environments. 
+My experience with vision algorithms in autonomous systems so far has confirmed the importance of finding efficient distributed vision sensing algorithms for multi-target tracking by a team of cooperative robots, dynamic map-building by cooperative agents in a leader-follower relationship, distributed formation of a group of mobile robots or synchronization and rendezvous as in consensus networks. I therefore want my graduate research focussed on developing better build systems (efficient control and estimation algorithms for energy-saving in nodes through embedded systems processing), error checking mechanisms (by exploring control algorithms for optimum error correction and data compression models in control unit applications) and embedded video processors capable of opportunistic sensing, efficient navigation and scene analysis by autonomous robots. As my research carries along in graduate school, I look forward to developing effective communication protocols for the efficient delivery of sensed information in energy-constrained environments.
 Essentially, in a high-level sense, my research goal is to use visual-servoing and computer vision techniques, with minimal computational costs, to improve reliability and accuracy in robotic control and target tracking applications
 
 <!--

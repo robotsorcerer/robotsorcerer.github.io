@@ -1,11 +1,12 @@
 ---
 layout: post
 date: 2016-03-28 12:23:00
-title: "<center>Cloning specific folders from git</center>"
-excerpt: "<center>...[sic] sparse checkoutallows us to sparsely populate the working directory by using skip-worktree bit to inform GIT if the file in the working directory deserves a look.</center>"
+title: "Cloning specific folders from git"
+excerpt: "...[sic] sparse checkoutallows us to sparsely populate the working directory by using skip-worktree bit to inform GIT if the file in the working directory deserves a look."
 comments: true
 mathjax: true
 permalink: git-sparse-checkout
+category: [git,git-sparse-checkout]
 ---
 <!--##Table of Contents
 ###[Sparse Checkout](#sparse-checkout)

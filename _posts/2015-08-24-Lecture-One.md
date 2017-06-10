@@ -1,10 +1,11 @@
 ---
-title: <center>Mathematical Modeling of Robots.</center>
+title: Mathematical Modeling of Robots.
 layout: page
 permalink: robots-modeling
 mathjax: true
-excerpt: "<center>A robot may not injure a human being or, through inaction, allow a human being to come to harm.</center>"
+excerpt: "A robot may not injure a human being or, through inaction, allow a human being to come to harm."
 comments: true
+category: [control,robotics,mathematics]
 ---
 
 <!-- Analytics -->

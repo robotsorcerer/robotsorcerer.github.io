@@ -29,30 +29,70 @@ layout: default
 <div id="home">
   <a href="https://github.com/lakehanne/lakehanne.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 
-  <h1><!--b>Blog Posts</b--></h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span class = "post-date">{{ post.date | date: "%b %-d, %Y" }}</span> 
-        <a class= "post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <br>
-        {{  post.excerpt  }}
-      </li>
+
+  <nav>
+    <a href="#allposts"><center><strong>Blog posts</strong></center></a><br>
+    {% for category in site.categories %}
+        <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a>
+        {% if forloop.last %}.{% else %}, {% endif %}
     {% endfor %}
-  </ul>
+  </nav>
+
+  <div class="mein_posts" id="allposts">
+
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span class = "post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></span>
+          <center><a class= "post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></center>
+          <br>
+          <center>{{  post.excerpt  }}</center>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+    <div class="mein_quotes" id="quotes">
+      <a href="quotes.html"><center><strong>Favorite Quotes</strong></center></a>
+      <center> A curated list of quotes that has guided me over the years </center>
+    </div>
+
+  <!-- list post that each category contains -->
+{% for category in site.categories %}
+    <div class="mein_posts" id="{{ category | first | remove:' ' }}">
+        <h2>{{ category | first }}</h2>
+
+        <ul>
+           {% for posts in category %}
+             {% for post in posts %}
+               {% if post.url %}
+                 <br>
+                 <li>
+                   <a href="{{ post.url }}">
+                     {{ post.date | date: "%-d %B %Y" }} &nbsp; &nbsp; &nbsp;
+                     {{ post.title }}
+                     <br>
+                   </a>
+                 </li>
+               {% endif %}
+             {% endfor %}
+           {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
 
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
-  
+
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i> 
+      <i class="fa fa-chevron-left"></i>
       {{ site.theme.str_prev }}
     </a>
     {% endif %}
 
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme.str_next }} 
+      {{ site.theme.str_next }}
       <i class="fa fa-chevron-right"></i>
     </a>
     {% endif %}
