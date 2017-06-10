@@ -39,6 +39,23 @@ accept all dares."
 > "Math is not something boys are better at, it's not a spectator sport, it's not a system of arbitrary rules, it's not dependent on the laws of physics, it's not easier or better in base 12 or base π, it's not a young man's game, it's not useless in the real world, it's not beholden to the real world, it's not learnable in one year or from one book or one website, it is not particularly interested in the golden ratio or the digits of pi or trivial calculation tricks that aren't actually from the Vedas, it is not always explainable to a 6-year-old or in "layman's terms", it's not beyond your grasp if you recognize that it will take time and dedication and active effort, it is not dry, it is not cold, it is not boring, it is not the opposite of "human" or "people-oriented" or "spiritual" or "artistic", and for Pete's sake, it doesn't say that if you add 1 and 2 and 3 and 4 "and so on" you'll "in the end" get 1/12."
                       -- Alon Amit, What is Mathematics not?
 
+> C++ leads to really really bad design choices. You invariably start using
+the "nice" library features of the language like STL and Boost and other
+total and utter crap, that may "help" you program, but causes:
+
+> - infinite amounts of pain when they don't work (and anybody who tells me
+   that STL and especially Boost are stable and portable is just so full
+   of BS that it's not even funny)
+
+> - inefficient abstracted programming models where two years down the road
+   you notice that some abstraction wasn't very efficient, but now all
+   your code depends on all the nice object models around it, and you
+   cannot fix it without rewriting your app.
+                    -- [Linus Torvalds](http://harmful.cat-v.org/software/c++/linus)
+
+> This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
+                    --[Doug McIlroy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
+
 > "What I cannot create, I do not understand."
                       -- Richard Feynman
 
@@ -57,16 +74,13 @@ objectives reasonably precise. None of the requirements of classical science are
 met.""
                   -- Richard Bellman
 
+> "Write simple parts connected by clean interfaces. Clarity is better than cleverness. Design programs to be connected to other programs. Separate policy from mechanism; separate interfaces from engines. Design for simplicity; add complexity only where you must. Write a big program only when it is clear by demonstration that nothing else will do. Design for visibility to make inspection and debugging easier. Robustness is the child of transparency and simplicity. Fold knowledge into data so program logic can be stupid and robust. In interface design, always do the least surprising thing. When a program has nothing surprising to say, it should say nothing. When you must fail, fail noisily and as soon as possible. Programmer time is expensive; conserve it in preference to machine time. Avoid hand-hacking; write programs to write programs when you can. Prototype before polishing. Get it working before you optimize it. Distrust all claims for 'one true way'. Design for the future, because it will be here sooner than you think."
+                           --[The Zen of Unix](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
+
 > "He was very clear that entering a new field always meant discomfort. It was hard to raise money to do an experiment, and the existing experts would resent your entry. He told me that the only way to do it was with complete humility; you had to recognize that you didn't know much. You have to become a student again. No shortcuts. Before you talk to any of the experts, study hard so that they won't feel that you are wasting their time. If you can bring something new to an existing field, then you might make an important discovery."
 						-- [Richard Muller on Luis Alvarez](https://www.quora.com/What-has-enabled-Richard-Muller-to-live-such-an-interesting-life)
 
->"Johnny von Neumann was a great mathematician and a great physicist. So someone (I don't remember who) challenged him with this problem: Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee?
-
->According to legend, von Neumann thought for a moment, and then said "100 meters".
-
->The questioner said, "Correct. But now I know, from the quickness of your response, that you are really a physicist, not a mathematician.  The mathematician would have calculated when each bee-train encounter takes place, calculated the position, taken the sum of those distances as an infinite series, and then summed the series.  But a physicist would have taken a short-cut; the physicists would have realized that the bee was flying for 5 seconds at 20 meters per second, so it would have traveled 100 meters total."
-
->Von Neumann's purported response: "Oh, that's a clever way to solve it!  No, I summed the series."
+>"Johnny von Neumann was a great mathematician and a great physicist. So someone (I don't remember who) challenged him with this problem: Two trains are 100 meters apart, moving towards each other. Each train is moving at 10 meters per second.  A bee is flying back and forth between those two trains at 20 meters per second. Eventually the bee will be squished when the two trains crash against each other. When they do, what will be the total distance flown by the bee? According to legend, von Neumann thought for a moment, and then said "100 meters". The questioner said, "Correct. But now I know, from the quickness of your response, that you are really a physicist, not a mathematician.  The mathematician would have calculated when each bee-train encounter takes place, calculated the position, taken the sum of those distances as an infinite series, and then summed the series.  But a physicist would have taken a short-cut; the physicists would have realized that the bee was flying for 5 seconds at 20 meters per second, so it would have traveled 100 meters total." Von Neumann's purported response: "Oh, that's a clever way to solve it!  No, I summed the series."
               -- [Richard Muller on "What does it mean to think   Mathematically?"](https://www.quora.com/What-does-it-mean-to-think-mathematically)
 
 >"Far better it is to dare mighty things, to win glorious triumphs, even though chequered by failure, than to take rank with those poor spirits who neither suffer much nor enjoy much,  because they live in the gray twilight that knows neither victory nor defeat."
