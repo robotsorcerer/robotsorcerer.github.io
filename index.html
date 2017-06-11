@@ -49,7 +49,7 @@ layout: default
     </ul>
   </div>
 
-  <ul class="quotes_sci">
+  <!-- <ul class="quotes_sci">
     {% for quotes in site.quotes %}
       <li><span class = "post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></span>
         <center>
@@ -59,7 +59,7 @@ layout: default
         <center>{{  post.excerpt  }}</center>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
 
   <div class="mein_quotes" id="quotes">
     <br></br>
@@ -90,57 +90,6 @@ layout: default
         </ul>
     </div>
 {% endfor %}
-
-<!--  add front matter to styatic files -->
-  <!-- {% assign image_files = site.static_files | where: "image", true %}
-  {% for myimage in image_files %}
-    {{ myimage.path }}
-  {% endfor %}
-
-  {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-          <i class="fa fa-chevron-left"></i>
-          {{ site.theme.str_prev }}
-        </a>
-      {% endif %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-          {{ site.theme.str_next }}
-          <i class="fa fa-chevron-right"></i>
-        </a>
-      {% endif %}
-    </div>
-    {% endif %}
-
-  {% for post in paginator.posts %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p class="author">
-          <span class="date">{{ post.date }}</span>
-        </p>
-      <div class="content">
-        {{ post.content }}
-      </div>
-  {% endfor %} -->
-
-
-  <!-- Pagination links -->
-  <!-- <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-</div> -->
-
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6X2WR"
