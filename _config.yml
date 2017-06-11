@@ -9,11 +9,11 @@ twitter_username: patmeansnoble
 github_username:  lakehanne
 timezone:         America/Chicago
 quora_username:   Olalekan-Ogunmolu
-defaults:
-  scope:
-    path: "assets/img"
-  values:
-    image: true
+# defaults:
+#   scope:
+#     path: "assets/img"
+#   values:
+#     image: true
 # Build settings
 markdown: kramdown
 theme: minima
