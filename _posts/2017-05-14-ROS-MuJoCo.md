@@ -10,7 +10,10 @@ category: [Q&A,ros,mujoco]
 ---
 
 This was my answer to a question posted in an email thread to our research group's email list at UTD. The question goes like this:
-<br></br>
+
+<br>
+<br>
+<br>
 ________________________________________
 From: XXX@utdallas.edu
 Sent: Sunday, May 14, 2017 9:29 AM
@@ -23,6 +26,7 @@ From the documentation, looks like MuJoCo is faster and therefore better to simu
 
 Thanks,
 XXX
+
 
 #### Answer
 
