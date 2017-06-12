@@ -6,7 +6,7 @@ excerpt: ""
 permalink: mujoco-ros
 comments: true
 mathjax: true
-category: [control,optimal-control]
+category: [Q&A,ros,mujoco]
 ---
 
 This was my answer to a question posted in an email thread to our research group email lists at UTD. The question goes like this:
