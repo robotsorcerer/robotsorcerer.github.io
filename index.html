@@ -40,16 +40,20 @@ layout: default
   <div class="mein_posts" id="allposts">
 
     <ul class="posts">
-      {% for quote in site.quotes %}
-        <li><span class = "quote-date">
-          <time>{{ quote.date | date: "%b %-d, %Y" }}</time></span>
-          <center><a class= "quote-link" href="{{ quote.url | prepend: site.baseurl }}">{{ quote.title }}</a></center>
+      {% for post in site.posts %}
+        <li><span class = "post-date">
+          <time>{{ post.date | date: "%b %-d, %Y" }}</time></span>
+          <center>
+            <a class= "post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </center>
+          <br>
+          <center>{{  post.excerpt  }}</center>
         </li>
       {% endfor %}
     </ul>
   </div>
 
-  <!-- <ul class="quotes_sci">
+  <!-- <ul class="posts">
     {% for quotes in site.quotes %}
       <li><span class = "post-date"><time>{{ post.date | date: "%b %-d, %Y" }}</time></span>
         <center>
