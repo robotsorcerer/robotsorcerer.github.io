@@ -9,5 +9,14 @@ read msg
 
 git commit -m "$msg"
 
-git push -u origin master
+echo "Hello "$USER". Please enter the name of the upstream remote followed by [ENTER]. Type Enter to push to \'master\' "
+
+read remote
+
+if [[$remote == "" ]]; then
+   remote=master
+fi
+
+git push -u origin $remote
+
 
