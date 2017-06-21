@@ -37,7 +37,7 @@ accept all dares._”
 
 “_C++ leads to really really bad design choices. You invariably start using
 the “nice” library features of the language like STL and Boost and other
-total and utter crap, that may “help” you program, but causes:
+total and utter crap, that may “help” you program, but causes:_
 
   - _infinite amounts of pain when they don’t work (and anybody who tells me
 that STL and especially Boost are stable and portable is just so full
