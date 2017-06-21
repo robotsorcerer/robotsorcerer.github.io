@@ -4,15 +4,13 @@ title: Lekan Ogunmolux
 ---
 
 <div class="col-md-2 vcenter idxHdr">
-  <!-- <a href="/downloads/me-style.jpg"> -->
-    <!-- <img src="/downloads/me-style.jpg" align="right"
-         style="border-radius: 20px; margin: 10px; max-width: none;
-         alt="Me."/>
-  <!-- </a> -->
-  <img src="/downloads/Pat.jpg" alt="Me" align="middle" style="width:100px;height:100px;">
+  <a href="/downloads/me-style.jpg">
+    <!-- <img src="/downloads/me-style.jpg" alt="Me" align="left" style="width:100px;height:100px;">  -->
+   </a>
+  <!-- -->
 </div>
 
-<br></br>
+<br>
 <br>
 <br>
 {% include cv.md %}
@@ -31,11 +29,12 @@ title: Lekan Ogunmolux
 </table>
 <h4><a href="/blog">View all</a></h4>
 
-## <i class="fa fa-chevron-right"></i> Fun Side Projects
+## <i class="fa fa-chevron-right"></i> Side Projects
 + [EE/ML conference tracker](https://github.com/lakehanne/conference-tracker).
 + [Awesome Neuro-Control](https://github.com/lakehanne/awesome-neurocontrol):
   A curated list of papers that apply neural dynamics to control systems.
-+ [Research Group Resources](https://github.com/lakehanne/research-group-resources).
++ [Research Group Resources](https://github.com/lakehanne/research-group-resources):
+  Borrowed from Jean Yang.
 + [My summer reading list](/readlist-summer17/):
   Hosted on GitHub pages.
 + [bash-scripts](https://github.com/lakehanne/bash):
