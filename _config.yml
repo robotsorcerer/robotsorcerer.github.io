@@ -1,6 +1,7 @@
 
-title: Lekan's blog
-email: patlekno@icloud.com
+title:            Lekan's blog
+locale:           en_US
+email:            patlekno@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
   To discover and understand.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,17 +10,15 @@ twitter_username: patmeansnoble
 github_username:  lakehanne
 timezone:         America/Chicago
 quora_username:   Olalekan-Ogunmolu
-# defaults:
-#   scope:
-#     path: "assets/img"
-#   values:
-#     image: true
-# Build settings
+sass:
+  sass_dir: _sass
+  style: compressed
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  # - jekyll-paginate
+  # - jekyll-sitemap
+include: ["_readlists", "_quotes"]
 exclude:
   - Gemfile
   - Gemfile.lock

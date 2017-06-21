@@ -2,7 +2,7 @@
 layout: post
 date: 2017-05-14 13:28:00
 title: "Should I use ROS or MuJoCo?"
-excerpt: ""
+excerpt: " Good controller algorithm formulations are based on numerical optimization ..."
 permalink: mujoco-ros
 comments: true
 mathjax: true
