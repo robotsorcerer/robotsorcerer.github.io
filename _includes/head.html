@@ -1,13 +1,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
+    <!-- <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> -->
+    <meta name="viewport" content="width=device-width,  initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/vendor/css/academicons.min.css" rel="stylesheet">
+    <link href="/vendor/pygments/default.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Google Analytics -->
     <script>
@@ -19,4 +26,44 @@
       ga('send', 'pageview');
     </script>
 
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">
+                    <div>
+                        <img src="/downloads/me-style.jpg" class="img-circle" alt="Me" style="width:20px;height:20px;" ></img>
+                        Lekan Ogunmolu
+                    </div>
+                </a>
+              <button class="navbar-toggle" type="button" data-toggle="collapse"
+                      data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="/about">About</a>
+                </li>
+                <li>
+                  <a href="/blog/">Blog</a>
+                </li>
+                <li>
+                  <a href="https://lakehanne.github.io/quotes.html">Fave. Quotes</a>
+                </li>
+                <li>
+                  <a href="/resume">CV</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
 </head>

@@ -1,7 +1,7 @@
 ---
-layout: quotes
+layout: page
 date: 2017-06-10 23:31:00
-title: Worst wrong predictions in science and technology
+title: Sci-Quotes
 permalink: worst-wrong-preds
 ---
 

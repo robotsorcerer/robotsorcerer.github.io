@@ -1,5 +1,5 @@
 
-title:            Lekan's blog
+title:            Lekan Ogunmolu
 locale:           en_US
 email:            patlekno@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -13,12 +13,15 @@ quora_username:   Olalekan-Ogunmolu
 sass:
   sass_dir: _sass
   style: compressed
+defaults:
+  - scope:
+      path: "_quotes/quote_files"
+    values:
+      static: "true"
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  # - jekyll-sitemap
-include: ["_readlists", "_quotes"]
 exclude:
   - Gemfile
   - Gemfile.lock
