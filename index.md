@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lekan Ogunmolux
+title: Lekan Ogunmolu
 ---
 
 <div class="col-md-2 vcenter idxHdr">
