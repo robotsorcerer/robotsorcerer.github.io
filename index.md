@@ -8,11 +8,13 @@ title: Lekan Ogunmolux
     <!-- <img src="/downloads/me-style.jpg" align="right"
          style="border-radius: 20px; margin: 10px; max-width: none;
          alt="Me."/>
-  <!-- </a> --> 
-  <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;">
+  <!-- </a> -->
+  <img src="/downloads/Pat.jpg" alt="Me" align="middle" style="width:100px;height:100px;">
 </div>
-<br>
 
+<br></br>
+<br>
+<br>
 {% include cv.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
