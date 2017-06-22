@@ -1,5 +1,5 @@
 
-Hi there. I am a third-year Electrical Engineering Ph.D. student currently focused on biomedical robotics and applied control systems.
+Hello there. I am a third-year Electrical Engineering Ph.D. student currently focused on biomedical robotics and applied control systems.
 
 #### Research Background
 
@@ -12,7 +12,7 @@ To prevent the patient from drifting from pre-calibrated pose on the 6-DOF robot
 The majority of such masks employed do not compensate for real-time patient deviation from planned targets. To compensate for such drifts, I have formulated a [neuro-adaptive controller][iros-paper] for a network of compliant soft-robot systems to automatically move the patient's head and neck to desired pose based on a learning based finite-state machine.
 
 {% include fig.html
-max-width="100px" file="/imgs/homepage/moveit.jpg" alt="igrt setup" 
+max-width="100px" file="/imgs/homepage/moveit.jpg" alt="igrt setup"
 float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
  %}
 
@@ -22,7 +22,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 ### Open Source (Almost) Everything
 
-I strongly believe in **open science/technology** and reproducible research. I believe popular algorithms and codebases will attract outside contributors. This would create force multipliers that help get more work done _**faster and cheaper**_. To keep killer algorithms and codes more productive, you have to make them more accessible to other users and potential developers. Therefore, I actively publish code on [my github page](https://github.com/lakehanne). I am the author of [savitzky-golay](https://github.com/lakehanne/Savitzky-Golay/), [farnn](https://github.com/lakehanne/farnn), [ensenso](https://github.com/lakehanne/ensenso) among others. Projects that I have contributed to include [moveIt!](https://github.com/ros-planning/moveit), [crazyswarm ros wrapper](https://github.com/USC-ACTLab/crazyswarm), [pcl library](https://github.com/PointCloudLibrary), [torch nn](https://github.com/torch/nn) among others.
+I am a strong believer in **open science/technology** and reproducible research. I believe solid algorithms and codebases will only get popular in the community in time, thereby attracting outside contributors. This would spur force multipliers that help get more work done _**faster and cheaper**_. To keep wicked algorithms and codes more productive, one has to make them more accessible to other users and potential developers. Therefore, I actively publish code of my works and that of others on [my github page](https://github.com/lakehanne). I am the author of [savitzky-golay](https://github.com/lakehanne/Savitzky-Golay/), [farnn](https://github.com/lakehanne/farnn), [ensenso](https://github.com/lakehanne/ensenso) among others. Projects that I have contributed to include [moveIt!](https://github.com/ros-planning/moveit), [crazyswarm ros wrapper](https://github.com/USC-ACTLab/crazyswarm), [pcl library](https://github.com/PointCloudLibrary), [torch nn](https://github.com/torch/nn) among others.
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">

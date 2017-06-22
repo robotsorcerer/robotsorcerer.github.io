@@ -21,6 +21,9 @@ The challenge is there, but even very small boys do not
 accept all dares._”
                 – Richard E. Bellman
 
+"_"Finally, I’d like to challenge you to think of a PhD as more than just a sequence of papers. You’re not a paper writer. You’re a member of a research community and your goal is to push the field forward. Papers are one common way of doing that but I would encourage you to look beyond the established academic game. Think for yourself and from first principles. Do things others don’t do but should. Step off the treadmill that has been put before you._"
+                -- Andrej Karpathy
+
 “_Math is not something boys are better at, it’s not a spectator sport,
   it’s not a system of arbitrary rules, it’s not dependent on the laws of physics,
    it’s not easier or better in base 12 or base π, it’s not a young man’s game,
