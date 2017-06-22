@@ -9,7 +9,7 @@ read msg
 
 git commit -m "$msg"
 
-echo "Hello "$USER". Please enter the name of the upstream remote followed by [ENTER]. Type Enter to push to master' "
+printf "\n\nHello "$USER". \n\nPlease enter the name of the upstream remote followed by [ENTER]. \n\n Type Enter to push to master' "
 
 read remote
 
