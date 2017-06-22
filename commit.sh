@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# commits a change
+# commits a change and pushes a change
 git add --all;
 
-echo "please enter the commit message followed by [enter]: "
+echo "\nHello "$USER". please enter the commit message: "
 
 read msg
 
 git commit -m "$msg"
 
 
-printf "\n\nHello "$USER". \n\nPlease enter the name of the upstream remote followed by [ENTER]. \n\n Or type Enter to push to master branch\n\n "
+printf "\nPlease enter the name of the upstream remote \n\n Or simply type Enter to push to master branch\n\n "
 
 read remote
 
@@ -20,4 +20,4 @@ fi
 
 git push -u origin $remote
 
-
+printf "\n\n"
