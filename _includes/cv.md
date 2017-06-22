@@ -3,7 +3,18 @@ Hi there. I am a third-year Electrical Engineering Ph.D. student currently focus
 
 #### Research Background
 
-In radiotherapy treatment of cancer of the head and neck (H&N) region, patients are typically positioned in a supine manner on a 6-DOF robotic couch for motion alignment with respect to an incident radiation which is used to target malignant tumors. As such, the precision of delivery of the radiation dose to target tumor is extremely important. Target miss in dosimetry angle or position arising from patient have been known to cause eczema, brain complications and the exposure of organs at risks. To prevent the patient from drifting from pre-calibrated pose on the 6-DOF robotic treatment couch, clinicians fixate metallic rings/frames or elastic plastic masks on the patient's head and neck region so that involuntary motion by the patient is greatly minimized. But the use of such rings or masks have undesirable effects such as attenuating the radiation beam (thus minimizing incident dose and treatment efficacy) or making the patient uncomfortable. The majority of such masks employed do not compensate for real-time patient deviation from planned targets. To compensate for such drifts, I have formulated a [neuro-adaptive controller][iros-paper] for a network of compliant soft-robot systems to automatically move the patient's head and neck to desired pose based on a learning based finite-state machine.
+In radiotherapy treatment of cancer of the head and neck (H&N) region, patients are typically positioned in a supine manner on a 6-DOF robotic couch for motion alignment correction with respect to an incident radiation, used to target malignant tumors. As such, the precision of delivery of the radiation dose to target tumor is extremely important. Target miss in dosimetry angle or positioning errors arising from patient positioning errors have been known to cause eczema, brain complications and the exposure of organs at risks.
+{% include fig.html
+max-width="200px" file="/imgs/homepage/igrt_setup.jpg" alt="igrt setup"
+float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
+ %}
+To prevent the patient from drifting from pre-calibrated pose on the 6-DOF robotic treatment couch, clinicians fixate metallic rings/frames or elastic plastic masks on the patient's head and neck region so that involuntary motion by the patient is greatly minimized. But the use of such rings or masks have undesirable effects such as attenuating the radiation beam (thus minimizing incident dose and treatment efficacy) or making the patient uncomfortable.
+The majority of such masks employed do not compensate for real-time patient deviation from planned targets. To compensate for such drifts, I have formulated a [neuro-adaptive controller][iros-paper] for a network of compliant soft-robot systems to automatically move the patient's head and neck to desired pose based on a learning based finite-state machine.
+
+{% include fig.html
+max-width="100px" file="/imgs/homepage/moveit.jpg" alt="igrt setup" 
+float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
+ %}
 
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as head or neck), we can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. This is a revolutionizing approach to the current way frameless radiotherapy is practiced.
 

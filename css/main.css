@@ -27,16 +27,28 @@ body {
   z-index: 1;
 }
 
-/*.mein_reads:not(:target){
-  display: none;
-  color: #333;
-  font-size: 12px;
-  letter-spacing: -1px;
-  float: center;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
-}*/
+
+.navbar-brand div {
+    height: 100%;
+}
+
+.navbar-brand img {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .idxHdr {
+        width: 100%;
+    }
+    .idxIcons {
+        width: 7em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 

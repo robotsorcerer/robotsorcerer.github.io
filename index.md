@@ -11,8 +11,6 @@ title: Lekan Ogunmolu
 </div>
 
 <br>
-<br>
-<br>
 {% include cv.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
@@ -35,9 +33,9 @@ title: Lekan Ogunmolu
   A curated list of papers that apply neural dynamics to control systems.
 + [Research Group Resources](https://github.com/lakehanne/research-group-resources):
   Borrowed from Jean Yang.
-+ [My summer reading list](/readlist/):
++ [My summer reading list]( {{ site.url }}/readlist/):
   Hosted on GitHub pages.
-+ [bash-scripts](https://github.com/lakehanne/bash):
++ [bash-scripts](https://github.com/lakehanne/shells.git):
   Short and fun bash scripts.
 + [This website](https://github.com/lakehanne/lakehanne.github.io):
   Built with Jekyll and hosted on GitHub pages.
