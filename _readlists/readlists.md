@@ -1,10 +1,13 @@
+---
+permalink: readlist
+---
 ### [Table of Contents](table-of-contents)
 - [IEEE RAS Journals](#IEEE-RAS)
 - [ML Papers](#ml-papers)
 - [Control Papers](#control-papers)
 
 <a name="IEEE-RAS"></a>
-#### IEEE Robotics and Automation Society 2016 Best Papers
+#### **IEEE Robotics and Automation Society 2016 Best Papers**
 
 These are the best papers from the Transactions on Robotics, Robotics and Automation Letters,
 and Robotics and Automation Magazine from 2016
@@ -27,7 +30,7 @@ and Robotics and Automation Magazine from 2016
 
 
 <a name="ml-papers"></a>
-#### ML Papers
+#### **ML Papers**
 
 [RRC-2016]: http://people.bu.edu/xlan/files/LanSchwagerRRCandRRCstar.pdf
 [RAM-2016]: http://web.tuat.ac.jp/~gvlab/ronbun/ReadingGroupControl/An%20Optimization-based%20Approach%20to%20Controlling%20Agile%20Motions%20for%20a%20Quadruped%20Robot.pdf

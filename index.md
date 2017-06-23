@@ -39,7 +39,7 @@ title: Lekan Ogunmolu
   Short and fun bash scripts.
 + [This website](https://github.com/lakehanne/lakehanne.github.io):
   Built with Jekyll and hosted on GitHub pages.
-+ [Applying to scholarships, internships, conference grants]( {{ site.url }}/scholternships)
++ [Applying to fellowships, internships, conference grants]( {{ site.url }}/scholternships)
 
 ---
 

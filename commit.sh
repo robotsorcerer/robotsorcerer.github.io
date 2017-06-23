@@ -10,7 +10,7 @@ read msg
 git commit -m "$msg"
 
 
-printf "\nPlease enter the name of the upstream remote \n\n Or simply type Enter to push to master branch\n\n "
+printf "\nPlease enter the name of the upstream remote\n\nOr type Enter to push to master\n\n "
 
 read remote
 
