@@ -1,6 +1,21 @@
+_"We have a habit in writing articles published in scientific journals to make the work as finished as possible, to cover all the tracks, to not worry about the blind alleys or to describe how you had the wrong idea first, and so on. So there isn't any place to publish, in a dignified manner, what you actually did in order to get to do the work._"
+-- Richard Feynman in "The Development of the Space-Time View of Quantum Electrodynamics," Nobel Lecture (11 December 1965)﻿
+
  _"Nature and nature's laws lay hid in the night. <br>
   God said, "Let Newton be!" and all was light._"<br>
   &nbsp; &nbsp; -- Alexander Pope, Epitaph on Sir Isaac Newton
+
+_"My father was a Stalinist and sent me to a private Christian school where we had to pray every morning. From a very young age I was convinced that many of the things that the teachers and other kids believed were just obvious nonsense. That's great training for a scientist and it transferred very well to artificial intelligence. But it was a nasty shock when I found out what Stalin actually did.﻿_"
+-- Geoff Hinton
+
+_"Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction._"   ~ Albert Einstein﻿
+
+_"You can't believe in math. You have to understand it.
+You can't understand religion. You have to believe in it."_
+-- Unattributed
+
+_"Science is but language well arranged._"
+ ~ Lavoiser﻿
 
   “_There are several ways in which a mathematician can
 proceed to extend his research efforts, particularly one who
