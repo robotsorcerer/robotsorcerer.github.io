@@ -3,7 +3,7 @@
 # commits a change and pushes a change
 git add --all;
 
-echo "\nHello "$USER". please enter the commit message: "
+printf "\nHello "$USER". please enter the commit message: "
 
 read msg
 
