@@ -33,7 +33,7 @@ title: Lekan Ogunmolu
   A curated list of papers that apply neural dynamics to control systems.
 + [Research Group Resources](https://github.com/lakehanne/research-group-resources):
   Borrowed from Jean Yang.
-+ [My summer reading list]( {{ site.url }}/readlist/):
++ [My summer reading list]( {{ site.url }}/readlist.html):
   Hosted on GitHub pages.
 + [bash-scripts](https://github.com/lakehanne/shells.git):
   Short and fun bash scripts.
