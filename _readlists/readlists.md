@@ -1,6 +1,3 @@
----
-permalink: readlist
----
 ### [Table of Contents](table-of-contents)
 - [IEEE RAS Journals](#IEEE-RAS)
 - [ML Papers](#ml-papers)
