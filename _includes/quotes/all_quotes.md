@@ -1,12 +1,21 @@
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
 
-"_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientisis into government contractors_" ~ PNA Report
+"_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientists into government contractors_" ~ PNA Report
 
 "_An academic career, in which a person is forced to produce scientific writings in great amounts, creates a danger of intellectual superficiality_" ~ Albert Einstein
 
+
+“_We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil._” ~ Knuth, Donald
+
+"_Good professors love smart students who delight in learning, even those who are smarter. But few delight in the presence of a self-centered and mean-spirited ass, even if they happen to be the brightest on the planet._" -- Tim Poston
+
+"_Look for the student who can learn the most, who can carry on a long term legacy of what the professor has to teach._"  ~ Richard Muller
+
 "_For a successful technology, reality must take precedence over public relations, for nature cannot be fooled._"
  ~  Richard Feynman. "Appendix F – Personal observations on the reliability of the Shuttle". Kennedy Space Center.
+
+"_So here is some useful advice: if you've won a Nobel Prize, and want to win a second one, work with a collaborator_" ~ Richard Muller
 
 "_Maybe this is why data mining has largely replaced traditional hypothesis-driven science. We are awash in small discoveries, most of which are essentially detections of “statistically significant” patterns in big data. Usually, there is no unifying model or theory that generates predictions, testable or not. That would take too much time and thought. Even the elite scientific journals seem too favorable to observations of patterns in new data, even if irreproducible, possibly explained by chance, or utterly lacking any supporting theory. Except in a few areas, such as string theory and climate studies, there are few incentives to search for unifying principles, let alone large-scale models_" ~ PNA report
 
@@ -33,6 +42,9 @@ You can't understand religion. You have to believe in it."_
 
 _"Science is but language well arranged._"
  ~ Lavoiser﻿
+
+
+ "_There has never been a monopoly on good ideas. If someone thinks they are the best, they probably have not seen people better than they are._" ~ Me, Dec. '12, 2012
 
   “_There are several ways in which a mathematician can
 proceed to extend his research efforts, particularly one who
@@ -87,6 +99,8 @@ cannot fix it without rewriting your app._”
 “_This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together.
   Write programs to handle text streams, because that is a universal interface._”
                     –[Doug McIlroy](http://www.catb.org/~esr/writings/taoup/html/ch01s06.html)
+
+"_Religion is a very useful tool to give meaning to the unknown; but science or philosophy gives more accurate explanations._" -  Cesar Diaz
 
 “_What I cannot create, I do not understand._”
                       – Richard Feynman
