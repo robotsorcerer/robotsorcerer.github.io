@@ -1,8 +1,16 @@
-language: ruby
-rvm:
-  - 2.1.0
+# language: ruby
+# rvm:
+#   - 2.1.0
+#
+# cache: bundler
+# script:
+#   - bundle exec jekyll build
+#   - bundle exec ./validate.rb
 
-cache: bundler
-script:
-  - bundle exec jekyll build
-  - bundle exec ./validate.rb
+language: generic # don't install any environment
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
+  - COMMIT_AUTHOR_EMAIL: "you@example.com"
