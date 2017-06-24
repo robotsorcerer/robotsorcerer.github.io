@@ -7,7 +7,7 @@ excerpt: "... our paper bridged the strong theory with relevant practice, and ma
 comments: true
 ---
 
-Through the looking-glass, tired of cranking my brain while familiarizing myself with a giant codebase I was reverse-engineering, I started asking myself why I was doing what I was doing? Just to get a paper out? Or to make a great contribution to science and my field? I googled something along the lines of "_How to write a best IEEE RAS conference paper_". What I found was very interesting as I came across this [IEEE Student Activities Committee Paper][ieee-sac]. It offers
+Through the looking-glass, tired of working my brain out while familiarizing myself with a giant codebase I was reverse-engineering to prove a theory for an upcoming conference, I started asking myself why I was doing what I was doing? Just to get a paper out? Or to make a great contribution to science and my field? I googled something along the lines of "_How to write a best IEEE RAS conference paper_". What I found was very interesting as I came across this [IEEE Student Activities Committee Paper][ieee-sac]. It offers
 great insight into what constitutes writing a paper that merits IEEE Robotics and Automation Society best conference awards.
 
 I hope you enjoy reading it as much as I did.
