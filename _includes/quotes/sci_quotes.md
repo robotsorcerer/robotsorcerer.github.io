@@ -1,6 +1,6 @@
 ### [Daniel Liberzon Quotes](http://liberzon.csl.illinois.edu/)
 
-#### [What are some of the worst wrong predictions ever made in history?](https://www.quora.com/What-are-some-of-the-worst-wrong-predictions-ever-made-in-history/answer/Walter-Johnson-51?share=c704e87b&srid=o45o)
+#### [Worst wrong predictions in history](https://www.quora.com/What-are-some-of-the-worst-wrong-predictions-ever-made-in-history/answer/Walter-Johnson-51?share=c704e87b&srid=o45o)
 
 "_I think there is a world market for maybe five computers._"
  -- Thomas Watson, chairman of IBM, 1943.
