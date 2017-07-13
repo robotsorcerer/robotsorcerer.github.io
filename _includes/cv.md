@@ -29,7 +29,7 @@ I am a strong believer in **open science/technology** and **groundbreaking, repr
 
 + I am a co-owner of the Linux, OpenStack and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
-+ I am a member of North Texas Drone Users Group. Come July 8, I will be a part of the Guinness World Record Fly-in in the Dallas metroplex. We are a community of 1600 drone users in the DFW area. This fly-in will be the largest RC-controlled swarm  of quads on the world in a single run. 
++ I am a member of North Texas Drone Users Group. ~~Come July 8, I will be a part of the Guinness World Record Fly-in in the Dallas metroplex. We are a community of 1600 drone users in the DFW area. This fly-in will be the largest RC-controlled swarm  of quads on the world in a single run~~. 
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry. 
 
