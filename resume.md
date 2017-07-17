@@ -4,7 +4,7 @@ layout: post
 ##  CV Versions
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>June 2017: Long CV</td>
+  <td class='col-md-3'>July 2017: Long CV</td>
   <td>My academic cv can be <a href="/downloads/cv/resume.pdf">downloaded here.</a></td>
 </tr>
 <tr>
