@@ -29,14 +29,18 @@ I am a strong believer in **open science/technology** and **groundbreaking, repr
 
 + I am a co-owner of the Linux, OpenStack and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
-+ I am a member of North Texas Drone Users Group. ~~Come July 8, I will be a part of the Guinness World Record Fly-in in the Dallas metroplex. We are a community of 1600 drone users in the DFW area. This fly-in will be the largest RC-controlled swarm  of quads on the world in a single run~~. 
++ I am a member of North Texas Drone Users Group.  
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry. 
 
-<!-- + I enjoy cycling with my little man in the shortly-before-dusk hours around my neighborhood. -->
++ I enjoy cycling with my little man in the shortly-before-dusk hours around my neighborhood.
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>July 2017</td>
+  <td>My <a href="{{ site.url }}/scholternships#roscon">ROSCon</a> scholarship application got positively reviewed. I will be attending the 2017 ROS Conference in Vancouver, BC on a full-ride!</td>
+</tr>	
 <tr>
   <td class='col-md-3'>June 2017</td>
   <td>Our <a href="https://arxiv.org/abs/1703.03821">3-DoF Neuro-Adaptive Controller</a> paper has been accepted to <a href="http://iros2017.org">IROS 2017</a> and the camera-ready version will soon be uploaded to arxiv.</td>

@@ -28,16 +28,12 @@ title: Lekan Ogunmolu
 <h4><a href="/blog">View all</a></h4>
 
 ## <i class="fa fa-chevron-right"></i> Side Projects
-+ [awesome neuro-control](https://github.com/lakehanne/awesome-neurocontrol):
-  A curated list of papers that apply neural dynamics to control systems.
-+ [summer'17 reading list]( {{ site.url }}/readlist):
-  Hosted on GitHub pages.
-+ [bash-scripts](https://github.com/lakehanne/shells.git):
-  Short and fun bash scripts.
++ [awesome neuro-control](https://github.com/lakehanne/awesome-neurocontrol): A curated list of papers that apply neural dynamics to control systems.
 + [advice for fellowships, internships, conference grants applications]( {{ site.url }}/scholternships)
++ [summer'17 reading list]( {{ site.url }}/readlist):  RAS Papers
++ [bash-scripts](https://github.com/lakehanne/shells.git):   Short and fun bash scripts.
 + [control/robotics/ai conference tracker](https://github.com/lakehanne/conference-tracker).
-+ [research group resources](https://github.com/lakehanne/research-group-resources):
-  Borrowed from Jean Yang.
++ [research group resources](https://github.com/lakehanne/research-group-resources):  Borrowed from Jean Yang.
 
 ---
 
