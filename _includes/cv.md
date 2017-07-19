@@ -25,16 +25,6 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 I am a strong believer in **open science/technology** and **groundbreaking, reproducible research**. If the problem is being avoided because it is difficult, then **you** should be the one solving it. I don't believe PhD students should be paper writers. You should study a problem well-enough, get familiar with it well-enough and propose clear, precise solutions that will stand the test of time. Sadly, this may mean you get to write less papers than your colleagues, but hey, no one wants to hire an ideas regurgitator anyway. I believe solid algorithms and codebases should be freely available to the humble inquirers after knowledge. Open-sourcing one's code spurs force multipliers, which help get more work done _**faster and cheaper**_. To keep wicked algorithms and codes more productive, one has to make them more accessible to other users and potential new developers. Therefore, I actively publish code of my works and that of others on [my github page](https://github.com/lakehanne). I am the author of [savitzky-golay](https://github.com/lakehanne/Savitzky-Golay/), [farnn](https://github.com/lakehanne/farnn), [ensenso](https://github.com/lakehanne/ensenso) among others. Projects that I have contributed to are pinned to my [github profile page](https://github.com/lakehanne.git).
 
 
-### Things I do for fun
-
-+ I am a co-owner of the Linux, OpenStack and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
-
-+ I am a member of North Texas Drone Users Group.  
-
-+ I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry. 
-
-+ I enjoy cycling with my little man in the shortly-before-dusk hours around my neighborhood.
-
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
