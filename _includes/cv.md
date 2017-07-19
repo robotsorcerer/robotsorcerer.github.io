@@ -29,7 +29,7 @@ I am a strong believer in **open science/technology** and **groundbreaking, repr
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td>My <a href="{{ site.url }}/scholternships#roscon">ROSCon</a> application got positively reviewed. I will be attending the 2017 ROS Conference in Vancouver, BC!</td>
+  <td>I got the  <a href="{{ site.url }}/scholternships#roscon">ROSCon</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
 </tr>	
 <tr>
   <td class='col-md-3'>June 2017</td>
