@@ -29,7 +29,11 @@ I am a strong believer in **open science/technology** and **groundbreaking, repr
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td>I got the  <a href="{{ site.url }}/scholternships#roscon">ROSCon</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
+  <td> A submission I co-authored on quantifying the sensitivity and building robustness to reinforcement-centric controllers got accepted to  <a href="https://iros2018.com">IROS</a> abstract only track. Codes are available <a href="https://github.com/lakehanne/gps/tree/corl">here</a> if you are interested in trying out the code. Videos <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s">here</a></td>
+</tr>	
+<tr>
+  <td class='col-md-3'>July 2017</td>
+  <td>I won the  <a href="{{ site.url }}/scholternships#roscon">ROSCon</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
 </tr>	
 <tr>
   <td class='col-md-3'>June 2017</td>
