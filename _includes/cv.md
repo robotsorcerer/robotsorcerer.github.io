@@ -37,7 +37,7 @@ I am a strong believer in **open science/technology** and **reproducible researc
 </tr>	
 <tr>
   <td class='col-md-3'>June 2017</td>
-  <td>Our <a href="https://arxiv.org/abs/1703.03821">3-DoF Neuro-Adaptive Controller</a> paper has been accepted to <a href="http://iros2017.org">IROS 2017</a> and the camera-ready version will soon be uploaded to arxiv.</td>
+  <td>Our <a href="https://arxiv.org/abs/1703.03821">3-DoF Neuro-Adaptive Controller</a> paper has been accepted to <a href="http://iros2017.org">IROS 2017</a>.</td>
 </tr>
 <tr>
   <td class='col-md-3'>June 2017</td>
