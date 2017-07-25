@@ -3,7 +3,7 @@ Hello there. I am a third-year Electrical Engineering Ph.D. student currently fo
 
 #### Research Background
 
-In radiotherapy treatment of cancer of the head and neck (H&N) region, patients are typically positioned in a supine manner on a 6-DOF robotic couch for motion alignment correction with respect to an incident radiation, used to target malignant tumors. As such, the precision of delivery of the radiation dose to target tumor is extremely important. Target miss in dosimetry angle or positioning errors arising from patient positioning errors have been known to cause eczema, brain complications and the exposure of organs at risks.
+In stereotactic radiosurgery of the head and neck region, patients are typically positioned in a supine manner on a 6-DOF robotic couch for motion alignment correction with respect to an incident radiation. As such, the precision of delivery of the radiation dose to target tumor is extremely important. Target miss in dosimetry angle or positioning errors arising from patient positioning errors have been known to cause eczema, brain complications and the exposure of organs at risks.
 {% include fig.html
 max-width="200px" file="/imgs/homepage/igrt_setup.jpg" alt="igrt setup"
 float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
@@ -22,14 +22,14 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 ### Research Philosophy
 
-I am a strong believer in **open science/technology** and **groundbreaking, reproducible research**. If the problem is being avoided because it is difficult, then **you** should be the one solving it. I don't believe PhD students should be paper writers. You should study a problem well-enough, get familiar with it well-enough and propose clear, precise solutions that will stand the test of time. Sadly, this may mean you get to write less papers than your colleagues, but hey, no one wants to hire an ideas regurgitator anyway. I believe solid algorithms and codebases should be freely available to the humble inquirers after knowledge. Open-sourcing one's code spurs force multipliers, which help get more work done _**faster and cheaper**_. To keep wicked algorithms and codes more productive, one has to make them more accessible to other users and potential new developers. Therefore, I actively publish code of my works and that of others on [my github page](https://github.com/lakehanne). I am the author of [savitzky-golay](https://github.com/lakehanne/Savitzky-Golay/), [farnn](https://github.com/lakehanne/farnn), [ensenso](https://github.com/lakehanne/ensenso) among others. Projects that I have contributed to are pinned to my [github profile page](https://github.com/lakehanne.git).
+I am a strong believer in **open science/technology** and **reproducible research**. If the problem is being avoided because it is difficult, then **you** should be the one solving it. I don't believe PhD students should be paper writers. I believe solid algorithms and codebases should be freely available to inquirers after knowledge. Open-sourcing one's code spurs force multipliers, which help get more work done _**faster and cheaper**_. To keep catastrophically good algorithms and codes more productive, one has to make them more accessible to other users and potential new developers. Therefore, I actively publish code of my works and that of others on [my github page](https://github.com/lakehanne). I am the author of [savitzky-golay](https://github.com/lakehanne/Savitzky-Golay/), [farnn](https://github.com/lakehanne/farnn), [ensenso](https://github.com/lakehanne/ensenso) among others. Some of the projects that I have contributed to are pinned to my [github profile page](https://github.com/lakehanne.git).
 
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td> A submission I co-authored on quantifying the sensitivity and building robustness into reinforcement-centric controllers got accepted to  <a href="https://iros2018.com">IROS</a> abstract only track. Codes are available <a href="https://github.com/lakehanne/gps/tree/corl">here</a> and <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s">here is the video.</a></td>
+  <td> A submission I co-authored on quantifying the sensitivity and building robustness into reinforcement-centric controllers got accepted to  <a href="https://iros2018.com">IROS</a> abstract only track. Codes <a href="https://github.com/lakehanne/gps/tree/corl">here</a>. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
 </tr>	
 <tr>
   <td class='col-md-3'>July 2017</td>
