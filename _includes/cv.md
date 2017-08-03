@@ -11,13 +11,13 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td>The camera-ready version of our <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> paper was accepted to IROS, and it is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
+  <td>The camera-ready version of my <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> paper (accepted to IROS), is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>July 2017</td>
   <td> A submission I co-authored on quantifying the sensitivity and building robustness into reinforcement-centric controllers got accepted to  <a href="https://iros2018.com">IROS</a> abstract only track. Codes <a href="https://github.com/lakehanne/gps/tree/corl">here</a>. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
-</tr> -->
+</tr>
 
 <tr>
   <td class='col-md-3'>July 2017</td>
