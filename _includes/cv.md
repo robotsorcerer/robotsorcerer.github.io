@@ -1,5 +1,5 @@
 
-I am a third-year Electrical Engineering Ph.D. student currently focused on biomedical robotics and applied control systems. I currently work with [Nick Gans](www.utdallas.edu/~ngans), [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html), and [Tyler Summers](http://me.utdallas.edu/people/summers.html). My research is at the intersection of a buzzing field of learning research and an interesting field of systems theory: machine learning and control systems. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense out of chaotic data in order to drive real-world control applications. I try to solve problems that are difficult to model with existing mechanical models and Newtonian methods. I research along the lines of optimal control, adaptive neural dynamics, stability and robustness of performance, mostly in dynamical systems.
+I am a third-year Electrical Engineering Ph.D. student currently focused on biomedical robot and applied control systems. I currently work with [Nick Gans](www.utdallas.edu/~ngans), [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html), and [Tyler Summers](http://me.utdallas.edu/people/summers.html). My research is at the intersection of a buzzing field of learning research and an interesting field of systems theory: machine learning and control systems. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense out of chaotic data in order to drive real-world control applications. I try to solve problems that are difficult to model with existing mechanical models and Newtonian methods. I research along the lines of optimal control, adaptive neural dynamics, stability and robustness of performance, mostly in dynamical systems.
 
 ### Research Philosophy
 
@@ -10,7 +10,7 @@ I am a strong believer in **open science/technology** and **reproducible researc
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td> I am humbled to receive the   <a href="{{ site.url }}/scholternships#iros">NSF Doctoral Consortium Travel Award</a> for my 2017 oral to be presented at IROS, Vancouver, BC in September.</td>
+  <td> I am honored to receive the   <a href="{{ site.url }}/scholternships#iros">NSF Doctoral Consortium Travel Award</a> for my oral to be presented at IROS 2017 in Vancouver, BC.</td>
 </tr>
 
 <tr>
