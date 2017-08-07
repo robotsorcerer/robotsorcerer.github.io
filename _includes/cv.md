@@ -8,6 +8,10 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>August 2017</td>
+  <td> I am humbled to receive the   <a href="{{ site.url }}/scholternships#iros">NSF Doctoral Consortium Award</a> for my 2017 IROS Oral to be presented in Vancouver, BC in September.</td>
+</tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
