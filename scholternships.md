@@ -9,7 +9,7 @@ comments: true
 - [Example Write-ups](#example)
   - [NASA FDL PhD/PostDocs Internship Application 2017](#nasa17)
   - [ROSCon Scholarship Application 2017](#roscon)
-  - [NSF Doctoral Consortium Award](#nsf-doctoral)
+  - [NSF Doctoral Consortium Award](#iros)
   - [Fellowship 2017](#utfellowship)
 
 <!-- http://forum.thegradcafe.com/topic/32920-advice-for-a-first-year-phd-student/ -->
@@ -58,7 +58,7 @@ And below is my application submission to ROSCon 2017
 <a name="iros"></a>
 #### US NSF Doctoral Consortium Application 2017
 
-Here is my travel award application to the NSF Doctoral Consortium 
+Here is my travel award application to the NSF Doctoral Consortium
 
 {% include_relative _includes/scholternships/iros.md %}
 
