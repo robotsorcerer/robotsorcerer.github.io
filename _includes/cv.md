@@ -10,17 +10,17 @@ I am a strong believer in **open science/technology** and **reproducible researc
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td> I am honored to be chosen as a recipient of the  <a href="{{ site.url }}/scholternships#iros">NSF Doctoral Consortium Award</a> for my oral to be presented at IROS 2017.</td>
+  <td> Got the  <a href="{{ site.url }}/scholternships#iros">NSF Doctoral Consortium Award</a> for my oral to be presented at IROS 2017.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td>The camera-ready version of my <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> paper (accepted to IROS), is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
+  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> paper (accepted to IROS), is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td> A submission I co-authored on quantifying the sensitivity and building robustness into reinforcement-centric controllers got accepted to  <a href="https://iros2018.com">IROS</a> abstract only track. Codes <a href="https://github.com/lakehanne/gps/tree/corl">here</a>. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
+  <td> Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> on quantifying the sensitivity of and building robustness into reinforcement-centric controllers got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
 </tr>
 
 <tr>
