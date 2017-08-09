@@ -15,7 +15,7 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> paper (accepted to IROS), is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
+  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> (accepted to IROS), is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
 </tr>
 
 <tr>
