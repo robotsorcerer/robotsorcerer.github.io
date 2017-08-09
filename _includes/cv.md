@@ -10,7 +10,7 @@ I am a strong believer in **open science/technology** and **reproducible researc
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td> Got awarded the  <a href="{{ site.url }}/scholternships#iros">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
+  <td> Got awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
 </tr>
 
 <tr>
