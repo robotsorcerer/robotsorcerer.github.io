@@ -4,13 +4,13 @@ permalink: scholternships
 comments: true
 ---
 
-<!-- [Table of Contents](#tableau)
+[Table of Contents](#tableau)
 - [Introduction](#intro)
 - [Example Write-ups](#example)
   - [NASA FDL PhD/PostDocs Internship Application 2017](#nasa17)
   - [ROSCon Scholarship Application 2017](#roscon)
   - [NSF Doctoral Consortium Award](#iros)
-  - [Fellowship 2017](#utfellowship) -->
+  - [Fellowship 2017](#utfellowship)
 
 <!-- http://forum.thegradcafe.com/topic/32920-advice-for-a-first-year-phd-student/ -->
 
@@ -37,9 +37,8 @@ Enough with my jibber-jabber already. I have some posts below that show example 
 Good luck, my badasses!
 
 <a name="example"></a>
-<!-- ### Example Write-ups -->
-
-<!-- <a name="nasa17"></a>
+### Example Write-ups
+ <a name="nasa17"></a>
 ### NASA Application 2017
 
 This was my application to the NASA frontier development lab last spring. The
@@ -65,4 +64,4 @@ Here is my travel award application to the NSF Doctoral Consortium
 <a name="utfellowship"></a>
 #### Fellowship Application 2017 Round
 
-{% include_relative _includes/scholternships/utfellow2k17.md %} -->
+{% include_relative _includes/scholternships/utfellow2k17.md %}
