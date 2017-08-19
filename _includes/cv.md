@@ -8,6 +8,12 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+
+<tr>
+  <td class='col-md-3'>August 2017</td>
+  <td> Shortlisted as a finalist  to the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Contest (2017).</a> I will be pitching my start-up idea at my booth in IROS. If you are coming, please visit my booth on September 26 in Vancouver.</td>
+</tr>
+
 <tr>
   <td class='col-md-3'>August 2017</td>
   <td> Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
