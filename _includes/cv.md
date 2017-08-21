@@ -14,10 +14,10 @@ I am a strong believer in **open science/technology** and **reproducible researc
   <td> Finalist  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a> If you are coming to IROS, please visit my booth on September 26.</td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>August 2017</td>
   <td> Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>August 2017</td>
@@ -29,10 +29,10 @@ I am a strong believer in **open science/technology** and **reproducible researc
   <td> Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> on quantifying the sensitivity of and building robustness into reinforcement-centric controllers got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>July 2017</td>
   <td>Awarded the  <a href="https://roscon.ros.org/2017/">ROSCon</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>June 2017</td>
