@@ -2,6 +2,9 @@
 layout: page
 permalink: about
 ---
+
+<?php include_once("analyticstracking.php") ?>
+
 <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;">
 Welcome to my blog, where theory meets practice, and where scientific elegance meets cool engineering impact. Fields that consume the bulk of my attention currently include control theory, deep learning, robotics and certainly reinforcement learning.
 

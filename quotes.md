@@ -2,6 +2,8 @@
 layout: post
 ---
 
+<?php include_once("analyticstracking.php") ?>
+
 ###### [Science Luminaries](#sci-lum)
 ###### [Curated quotes from Daniel Liberzon](#liberzon)
 ###### [Worst Predictions](#worst-preds)

@@ -4,6 +4,8 @@ permalink: scholternships
 comments: true
 ---
 
+<?php include_once("analyticstracking.php") ?>
+
 [Table of Contents](#tableau)
 - [Introduction](#intro)
 - [Example Write-ups](#example)
