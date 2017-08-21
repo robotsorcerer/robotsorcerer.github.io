@@ -1,7 +1,9 @@
 ---
 layout: post
 ---
-##  CV Versions
+
+<?php include_once("analyticstracking.php") ?>
+
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>July 2017: Long CV</td>
