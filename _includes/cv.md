@@ -11,7 +11,7 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 <tr>
   <td class='col-md-3'>September 2017</td>
-  <td>I will be presenting my work on Robust zero-sum deep reinforcement learning at the first <a href="http://ai.stanford.edu/~tgebru/blackAI"><i>Blacks in AI workshop</i></a> at this  year's NIPS in Long Beach, CA. Be sure to check out my session on December 8.</td>
+  <td>I will be presenting my work on Robust zero-sum deep reinforcement learning at the first <a href="http://ai.stanford.edu/~tgebru/blackAI"><i>Black in AI workshop</i></a> at this  year's NIPS in Long Beach, CA. Be sure to check out my session on December 8.</td>
 </tr>
 
 <tr>
