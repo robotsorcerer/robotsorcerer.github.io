@@ -11,17 +11,17 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 <tr>
   <td class='col-md-3'>September 2017</td>
-  <td>I will be presenting my work on Robust zero-sum deep reinforcement learning at the first <a href="http://ai.stanford.edu/~tgebru/blackAI"><i>Black in AI workshop</i></a> at this  year's NIPS in Long Beach, CA. Be sure to check out my session on December 8.</td>
+  <td>I will be presenting my work on Robust zero-sum deep reinforcement learning at the first <a href="http://ai.stanford.edu/~tgebru/blackAI"><i>Black in AI workshop</i></a> at NIPS 2017. Be sure to check out my session on December 8.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>September 2017</td>
-  <td> It's confirmed! I'm attending this year's GPU Technology Conference in Washington, D.C. Please shoot me an email if you would like to meet.</td>
+  <td> I will be attending the 2017 NVIDIA GPU Technology Conference in Washington, D.C.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td> Finalist  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a> If you are coming to IROS, please visit my booth on September 26.</td>
+  <td> I'm a <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">finalist</a>  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a></td>
 </tr>
 
 <!-- <tr>
@@ -31,12 +31,12 @@ I am a strong believer in **open science/technology** and **reproducible researc
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> (accepted to IROS), is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
+  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td> Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> on quantifying the sensitivity of and building robustness into reinforcement-centric controllers got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
+  <td> Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
 </tr>
 
 <!-- <tr>
