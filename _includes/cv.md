@@ -9,15 +9,15 @@ I am a strong believer in **open science/technology** and **reproducible researc
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>September 2017</td>
-  <td>I will be presenting my work on Robust zero-sum deep reinforcement learning at the first <a href="http://ai.stanford.edu/~tgebru/blackAI"><i>Black in AI workshop</i></a> at NIPS 2017. Be sure to check out my session on December 8.</td>
-</tr>
+  <td>I will be presenting Robust zero-sum deep reinforcement learning  at the first <a href="http://ai.stanford.edu/~tgebru/blackAI"><i>Black in AI workshop</i></a> at the NIPS 2017. Be sure to check out my session on December 8.</td>
+</tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>September 2017</td>
   <td> I will be attending the 2017 NVIDIA GPU Technology Conference in Washington, D.C.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>August 2017</td>
