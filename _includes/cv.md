@@ -18,6 +18,16 @@ My research is at the intersection of the buzzing field of machine learning, and
 </tr> -->
 
 <tr>
+  <td class='col-md-3'>October 2017</td>
+  <td> Reviewing for the proceedings of the <i>International Conference of Robotics and Automation (ICRA)</i> 2018, Brisbane, Australia!</a></td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>October 2017</td>
+  <td> Reviewing for the proceedings of the <i>American Control Conference (ACC) 2018</i>, Milwaukee, Wisconsin!</a></td>
+</tr>
+
+<tr>
   <td class='col-md-3'>August 2017</td>
   <td> I'm a <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">finalist</a>  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a></td>
 </tr>
