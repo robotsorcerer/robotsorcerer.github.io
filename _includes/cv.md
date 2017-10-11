@@ -19,12 +19,12 @@ My research is at the intersection of the buzzing field of machine learning, and
 
 <tr>
   <td class='col-md-3'>October 2017</td>
-  <td> Reviewing for the proceedings of the <i>International Conference of Robotics and Automation (ICRA)</i> 2018, Brisbane, Australia!</td>
+  <td> Honored to be peer reviewing for the proceedings of the <i>International Conference of Robotics and Automation (ICRA)</i> 2018, Brisbane, Australia!</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>October 2017</td>
-  <td> Reviewing for the proceedings of the <i>American Control Conference (ACC)</i>, 2018, Milwaukee, Wisconsin!</td>
+  <td> Honored to be peer reviewing for the proceedings of the <i>American Control Conference (ACC)</i>, 2018, Milwaukee, Wisconsin!</td>
 </tr>
 
 <tr>
