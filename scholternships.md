@@ -6,13 +6,13 @@ comments: true
 
 <?php include_once("analyticstracking.php") ?>
 
-[Table of Contents](#tableau)
+<!-- [Table of Contents](#tableau)
 - [Introduction](#intro)
 - [Example Write-ups](#example)
   - [NASA FDL PhD/PostDocs Internship Application 2017](#nasa17)
   - [ROSCon Scholarship Application 2017](#roscon)
   - [NSF Doctoral Consortium Award](#iros)
-  - [Fellowship 2017](#utfellowship)
+  - [Fellowship 2017](#utfellowship) -->
 
 <!-- http://forum.thegradcafe.com/topic/32920-advice-for-a-first-year-phd-student/ -->
 
@@ -34,7 +34,7 @@ Teaching experience is good if you intend to spend your career in academe. Apply
 Lastly, it does help to look out for money. Participate in intellectually stimulating competitions that reward winners with boatloads of money. Apply to scholarships: $50 scholarships, $100 scholarships, $1000 scholarships etcetera. With scholarships, grants and fellowships, here is the rule: less is more, and more is more -- money begets money. If you can fund yourself, you can do what you want within reason. Your university will be thrilled. You have nothing to lose. Look out for scholarships, and apply by drafting your fellowship essay well-ahead of time. Typically, I start out two weeks before deadline iterating over my write-up several times a day. I test various words to ensure they sustain the attention and interest of the reader. When the final day arrives, I give it a once-over, send it to my friends to give me honest opinions of my essay, and then do a final review before submitting. This is my winning-formula. Your mileage may vary.
 
 
-Enough with my jibber-jabber already. I have some posts below that show example applications I have written in the past that may guide you in writing a coherent essay for your grant/scholarship/fellowship applications.
+<!-- Enough with my jibber-jabber already. I have some posts below that show example applications I have written in the past that may guide you in writing a coherent essay for your grant/scholarship/fellowship applications.
 
 Good luck, my badasses!
 
@@ -66,4 +66,4 @@ Here is my travel award application to the NSF Doctoral Consortium
 <a name="utfellowship"></a>
 #### Fellowship Application 2017 Round
 
-{% include_relative _includes/scholternships/utfellow2k17.md %}
+{% include_relative _includes/scholternships/utfellow2k17.md %} -->
