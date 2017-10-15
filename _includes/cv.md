@@ -19,7 +19,7 @@ My research is at the intersection of the buzzing field of machine learning, and
 
 <tr>
   <td class='col-md-3'>October 2017</td>
-  <td> I am peer reviewing for the proceedings of the <i>International Conference of Robotics and Automation (ICRA)</i> 2018, Brisbane, Australia; and for the proceedings of the <i>American Control Conference (ACC)</i>, 2018, Milwaukee, Wisconsin!</td>
+  <td> I am peer reviewing for the 2018 proceedings of the <i>International Conference of Robotics and Automation (ICRA)</i> and the <i>American Control Conference (ACC)</i>.</td>
 </tr>
 
 <tr>
