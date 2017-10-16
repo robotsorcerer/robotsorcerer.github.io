@@ -10,4 +10,4 @@ downloads/ACC-Paper
 
 serve/
 
-downloads/cv/
+downloads/cv/{*.aux,*.blg,*.log,*.gz}
