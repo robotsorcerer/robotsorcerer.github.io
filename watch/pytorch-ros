@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PyTorch and rospy interoperability</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1, maximum-scale=1">
+    <meta name="description" content="To discover and understand.
+">
+    <link rel="canonical" href="pytorch-ros">
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Lekan Ogunmolu posts" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/vendor/css/academicons.min.css" rel="stylesheet">
+    <link href="/vendor/pygments/default.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-3698471-23', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">
+                    <div>
+                        <img src="/downloads/me-style.jpg" class="img-circle" alt="Me" style="width:20px;height:20px;" ></img>
+                        Lekan Ogunmolu &nbsp; &nbsp; &nbsp;
+                    </div>
+                </a>
+              <button class="navbar-toggle" type="button" data-toggle="collapse"
+                      data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="/blog">Blog &nbsp; &nbsp; &nbsp;</a>
+                </li>
+                <li>
+                  <a href="/quotes">Fave. Quotes &nbsp; &nbsp; &nbsp;</a>
+                </li>
+                <li> 
+                  <a href="/resume">CV &nbsp; &nbsp; &nbsp;</a>
+                </li> 
+                <li>
+                  <a href="/about">About&nbsp; &nbsp; &nbsp;</a>
+                </li>
+
+                <li>
+                  <div style="float:right; margin-top:20px; margin-right:40px;">
+                  <a href="/feed.xml">
+                    <img src="/downloads/rssicon.svg" width="20">
+                  </a>
+                  </div>
+                  </a>
+                </li>
+              </ul>
+              <nav class="site-nav">
+                <a href="#" class="menu-icon">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+                    <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+                      h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+                      h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+                      c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                  </svg>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</head>
+
+    <br>
+    <body>
+
+    <!-- <header class="site-header">
+
+  <div class="wrap">
+
+    <div style="float:left; margin-top:10px; margin-right:10px;">
+    <a href="/feed.xml">
+      <img src="/downloads/rssicon.svg" width="40">
+    </a>
+    </div>
+
+    <a class="site-title" href="/">Lekan Ogunmolu</a>
+    
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          
+        
+          
+        
+          <a class="page-link" href="/index.html">Lekan Ogunmolu</a>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+ -->
+
+    <div class="page-content">
+      <div class="wrap">
+
+      <div class="post">
+
+    
+
+  <header class="post-header">
+    <h1>PyTorch and rospy interoperability</h1>
+    <p class="meta">Apr 27, 2017</p>
+  </header>
+
+  <article class="post-content">
+  <h3 id="table-of-contentstable-of-contents"><a href="#table-of-contents">Table of Contents</a>:</h3>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#nonlinear">Background</a></li>
+  <li><a href="#problem-formulation">Importing Torch into ROSPY</a>  </li>
+  <li><a href="#solution">Solution</a></li>
+</ul>
+
+<p><a name="introduction"></a>
+#### Introduction</p>
+
+<p>Yesterday was mighty nightmarish in the life of this developer. I had trained a conv-net meant to classifer an object I was trying to recognize and later on manipulate using vision-based control. Since <code>PYTORCH</code> had tensor computation with strong GPU acceleration and differential backprop capabilities based on the <code>torch auto-grad</code> system, I took advantage of its python compatibility since it would mean I could easily write my control code in <code>rospy</code> or <code>roscpp</code> and publish vision/control topics that reduces interoperability issues when working with different Linux processes. Only that I didn’t anticipate <code>Python 2</code> and <code>Python 3</code> module import problems way ahead of time. I would give more background below.</p>
+
+<p><a name="nonlinear"></a>
+#### Background</p>
+
+<p>For the record, I run <code>ROS 1.x (indigo bare bones)</code> on a <code>ubuntu 14.04 machine</code> with a 32GB RAM. The <code>pytorch</code> developers encourage users to install <code>Torch</code> with <code>conda</code> and typically use <code>python3</code> since <code>python 2</code> will be phased out in the near future. So, I had been using <code>pytorch</code> in a <code>conda</code> environment that both had a <code>python 2</code> and <code>python 3</code> environment. I could easily switch environments by turning on or off whichever python version I wanted. For details on how to do this, see this <a href="https://conda.io/docs/py2or3.html">doc</a> from the folks at conda.</p>
+
+<p>So far, everything was working great. For <code>ros</code> applications that does not involve image processing classes such as <code>CvBridge</code>, I was able to get <code>ros</code> and <code>pytorch</code> to talk in <code>python3</code> despite <code>python3</code> being unofficially supported for <code>ROS 1.x</code> (see this <a href="https://github.com/ros2/ros2/wiki">github wiki</a>). Getting this to work involves pip installing the necessary <code>ros</code> dependencies in <code>python3</code> using this <a href="https://github.com/lakehanne/RAL2017/blob/master/requirements.txt">requirements.txt file</a>. This <a href="https://github.com/lakehanne/RAL2017/blob/master/pyrnn/src">github repo page</a> shows how I do this.</p>
+
+<p>Anyways, so I trained a conv net model in <code>pytorch</code>, no big deal. I had a <code>roscpp</code> node in running on a different workstation, but within the same <code>ros</code> network broadcasting <code>sensor_msgs/Image</code> <code>RGB</code> images on a designated topic. Given what I know, it should be easy subscribing to the image topic and forwarding the video stream through the pre-trained neural network model to obtain classification results. But boy was I wrong.</p>
+
+<p><a name="problem-formulation"></a>
+#### Importing <code>torch</code> into <code>rospy</code></p>
+
+<p>When you install <code>pytorch</code> with <code>conda</code>, it typically places the installation relative to your <code>anaconda</code> install path. For me this was in <code>/home/$USER/anaconda3</code>. So to be able to import <code>Torch</code> and use <code>rospy</code>’s’  <code>CvBridge</code> class simultaneously, I installed the following modules: <code>netifaces</code>, <code>catkin_pkgs</code> and <code>rospkg</code> via <code>pip</code> while in the <code>python3</code> <code>conda</code> environment. Then I tried to import the convnet model from a different module’s class into a <code>rospy</code> module I had written.</p>
+
+<blockquote>
+  <p>to be able to import <code>Torch</code> and use <code>rospy's</code>  <code>CvBridge</code> simultaneously, I installed the following modules: <code>netifaces</code>, <code>catkin_pkgs</code> and <code>rospkg</code> via <code>pip</code></p>
+</blockquote>
+
+<p>Say <code>convnet.py</code> model had entries like so:</p>
+
+<p>```python
+    import torch
+    import torch.nn as nn</p>
+
+<pre><code>class ResNet(object):
+  def __init__(self, args, **kwargs)
+
+  def convModel(self, arg1, arg2):
+    '''
+      define some conv models
+    '''
+
+  def forward(self, x):
+    '''
+     do stuff with conv layers
+    '''
+    return self.fc(prev_layer(x))
+</code></pre>
+
+<p>```</p>
+
+<p>and <code>process_images.py</code> file had an import statement like so</p>
+
+<p>```python
+  from convnet import ResNet</p>
+
+<p>’’’
+    do stuff with imported model
+  ‘’’</p>
+
+<p>```
+  I got weird errors like</p>
+
+<p><code>python
+    &gt;&gt; Python 3.6.0 (default, Oct 26 2016, 20:30:19)
+    [GCC 4.8.4] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    &gt;&gt; No module named Torch
+ </code>
+Huh? Country boy comes to town. But the <code>convnet.py</code> model imports Torch okay. I figured the problem must be because I installed <code>pytorch</code> with the <code>python3</code> version. And so I pulled the <code>python2</code> version of <code>pytorch</code> from Soumith’s channel.</p>
+
+<p>Now when I import, it says stuff like <code>convnet module xx compiled with a different Torch version</code>. What the heck <code>pytorch</code>?</p>
+
+<p><a name="solution"></a>
+#### Solution</p>
+
+<p>At this moment, I stepped out for a walk, and caught a brainchild. What if I do away with the <code>conda</code> build of <code>pytorch</code> and instead install <code>pytorch</code> from source or <code>PyPI</code>?</p>
+
+<p>It turns out that this is the most error-less prone way to import <code>pytorch</code> models into a <code>rospy</code> file or indeed a <code>python2</code> file. To do this, I temporarily moved my <code>anaconda3</code> folder out of <code>bash</code>’s native path, pulled the latest <code>pytorch</code> commit from github and then installed with <code>python setup.py install</code>.</p>
+
+<p>Now when I try out the above commands, everything works well.</p>
+
+<blockquote>
+  <p>It turns out that this is the most error-less prone way to import Pytorch models into a rospy file or indeed a python2 file. To do this, I temporarily moved my <code>anaconda3</code> folder out of bash’s native path, pulled the latest pytorch commit from github and then installed with <code>python setup.py install</code>.</p>
+</blockquote>
+
+<p>So my two cents to the robotics community running neural net models in <code>pytorch</code> or <code>tensorflow</code> and using such models in <code>rospy</code> or equivalent environments is to always go for the source installation whenever and if possible. You would save yourself a lot of headache and time-waste.</p>
+
+  </article>
+
+  <!-- mathjax -->
+  
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  <!-- disqus comments -->
+ 
+ <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'patmeansnoble'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</div>
+
+
+     <!--<nav class="nav-primary" role="navigation" >
+    <ul>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+    </ul>
+</nav>
+-->
+      </div>
+    </div>
+
+    <head>
+
+ <!--Font Awesome -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!-- <h2 class="footer-heading">Lekan Ogunmolu</h2> -->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>
+          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" aria-label="Follow @lakehanne on GitHub"></a>
+        </li>
+      </ul>
+
+        <ul><li>
+          <a href="https://twitter.com/patmeansnoble" target="_blank" ><img src = "/downloads/TwitterLogo_blue.png" width="16%", height="17%"></a>
+        </li></ul>
+    </div>
+
+    <div class="footer-col-2 column">
+
+      <ul>
+        
+        <li>
+          <a href="https://www.quora.com/Olalekan-Ogunmolu" target="_blank"><img src="/downloads/quora.svg" width="12%", height="5%"></a>
+
+        </li>
+        
+      </ul>
+
+
+      <ul>
+        
+        <li>
+          <!-- <a href="mailto:patlekno@icloud.com"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
+          <a href="mailto:patlekno@icloud.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
+
+        </li>
+      </ul>
+      
+
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"><b>To discover and understand.
+</b></p>
+    </div>
+
+  </div>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</footer>
+
+</head>
+
+
+    </body>
+</html>

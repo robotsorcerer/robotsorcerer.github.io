@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Optimal Control: Model Predictive Controllers.</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1, maximum-scale=1">
+    <meta name="description" content="To discover and understand.
+">
+    <link rel="canonical" href="Optimal-Controllers-MPC">
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Lekan Ogunmolu posts" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/vendor/css/academicons.min.css" rel="stylesheet">
+    <link href="/vendor/pygments/default.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-3698471-23', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">
+                    <div>
+                        <img src="/downloads/me-style.jpg" class="img-circle" alt="Me" style="width:20px;height:20px;" ></img>
+                        Lekan Ogunmolu &nbsp; &nbsp; &nbsp;
+                    </div>
+                </a>
+              <button class="navbar-toggle" type="button" data-toggle="collapse"
+                      data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="/blog">Blog &nbsp; &nbsp; &nbsp;</a>
+                </li>
+                <li>
+                  <a href="/quotes">Fave. Quotes &nbsp; &nbsp; &nbsp;</a>
+                </li>
+                <li> 
+                  <a href="/resume">CV &nbsp; &nbsp; &nbsp;</a>
+                </li> 
+                <li>
+                  <a href="/about">About&nbsp; &nbsp; &nbsp;</a>
+                </li>
+
+                <li>
+                  <div style="float:right; margin-top:20px; margin-right:40px;">
+                  <a href="/feed.xml">
+                    <img src="/downloads/rssicon.svg" width="20">
+                  </a>
+                  </div>
+                  </a>
+                </li>
+              </ul>
+              <nav class="site-nav">
+                <a href="#" class="menu-icon">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+                    <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+                      h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+                      h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+                      c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                  </svg>
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</head>
+
+    <br>
+    <body>
+
+    <!-- <header class="site-header">
+
+  <div class="wrap">
+
+    <div style="float:left; margin-top:10px; margin-right:10px;">
+    <a href="/feed.xml">
+      <img src="/downloads/rssicon.svg" width="40">
+    </a>
+    </div>
+
+    <a class="site-title" href="/">Lekan Ogunmolu</a>
+    
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          
+        
+          
+        
+          <a class="page-link" href="/index.html">Lekan Ogunmolu</a>
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+ -->
+
+    <div class="page-content">
+      <div class="wrap">
+
+      <div class="post">
+
+    
+
+  <header class="post-header">
+    <h1>Optimal Control: Model Predictive Controllers.</h1>
+    <p class="meta">Nov 3, 2015</p>
+  </header>
+
+  <article class="post-content">
+  
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<!--Mathjax Parser -->
+<script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<p>&lt;/div&gt;</p>
+
+<table border="5" width="100%" cellpadding="1" cellspacing="2">
+
+    <tr>
+      <th colspan="4"><br /><h3>Table of Notations and Abbreviations</h3>
+      </th>
+    </tr>
+
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+      <th>Abbreviation</th>
+      <th>Meaning</th>
+    </tr>
+
+    <tr align="CENTER">
+      <td>$z^{-1}$</td>
+      <td>Unit delay operator</td>  
+      <td>MFD</td>
+      <td>Matrix Fraction Description</td>   
+    </tr>
+
+    <tr align="CENTER">
+      <td>$x_{\rm \rightarrow}$</td>
+      <td>Future values of x</td>  
+      <td>LTI</td>
+      <td>Linear Time Invariant</td>    
+    </tr>   
+
+    <tr align="CENTER">
+      <td>$x_{\rm \leftarrow}$</td>
+      <td>Past values of x</td>
+      <td>FSR</td>
+      <td>Finite Step Response</td>     
+    </tr>  
+
+    <tr align="CENTER">
+      <td>$\Delta = 1 - z^{-1}$</td>
+      <td>Differencing Operator</td>  
+      <td>FIR</td>
+      <td>Finite Impulse Response</td>  
+    </tr>  
+
+    <tr align="CENTER">
+      <td>$z^{-1}$</td>
+      <td>Backward shift operator (z-transforms)</td>   
+      <td>TFM</td>
+      <td>Transfer Function Model</td>
+    </tr>  
+
+    <tr align="CENTER">
+      <td>$n_y$</td>
+      <td>Output Prediction Horizon</td>    
+      <td>SISO</td>
+      <td>Single-Input Single Output</td>
+    </tr>
+
+    <tr align="CENTER">
+      <td>$n_u$</td>
+      <td>Input Horizon</td>  
+      <td>MIMO</td>
+      <td>Multiple-Input Multiple Output</td>
+    </tr>   
+
+    <tr align="CENTER">
+      <td>$u(k-i)$</td>
+      <td>Past input</td>
+      <td>IMC</td>
+      <td>Internal Model Control</td>
+    </tr>
+
+    <tr align="CENTER">
+      <td>$y(k-i)$</td>
+      <td>Past output</td>
+      <td>IM</td>
+      <td>Independednt Model</td>
+    </tr>      
+</table>
+
+<h3 id="centeroptimal-controllers-an-overviewcenter"><center>**Optimal Controllers: An Overview**</center></h3>
+<blockquote>
+  <p>If you are already familiar with LQ methods, you can skip this section and go straight to <a href="#Model-Predictive-Controllers"><strong>Model Predictive Controllers</strong></a></p>
+</blockquote>
+
+<p>Optimal controllers belong to the class of controllers that minimize a cost function with respect to a <u><b>predicted&lt;/u&gt;</b> control law over a given <u><b>prediction horizon&lt;/u&gt;</b>. They generate a desired <u><b>output control&lt;/u&gt;</b> sequence from which the optimal <u><b>_control law_&lt;/u&gt;</b> may be determined.</u></u></u></u></p>
+
+<!-- <br></br> -->
+<p>Take your car cruise speed control for an example. The vehicle dynamics of the car is <em>_modeled_</em> into the cruise control system. The road curvature ahead of you gets <em>_predicted_</em> online as you drive and <u>_control sequences_</u> are generated based on an <em>*internal model*</em> <em>(*prediction*)</em> of the slope of the road/road curvature using past observations; other disturbances (such as rain, friction between tire and road) are modeled into the prediction ideally. At time \(k + 1\), only the first element (<b><em>control action</em></b>) within the generated control sequence is used as a <em>feedback</em> control mechanism for your car. At the next <b><em>sampling time instant</em></b>, new predictions are made based on the prediction horizon and a new control sequence is generated online. Again, the chosen control action is the first element in the control sequence such  that we are constantly choosing the best among a host of control actions using our anticipated <b><em>prediction</em></b> of the road curvature and other environmental variables to give the desired <b><em>performance</em></b>.</p>
+
+<p><br />&lt;/br&gt;
+Optimal controllers are mostly used in discrete processes (<a href="#Gawthrop">others</a> have postulated continuous time models for such controllers but the vast majority of commercial users of optimal controllers are in discrete time) and are very useful for processes where the setpoint is known ahead of time. Typically, a criterion function is used to determine how well the controller is tracking a desired trajectory. An example model predictive controller (MPC) criterion function, in its basic form, is given as  </p>
+
+<p>&lt;a name = eqn:cost-function&gt;&lt;/a&gt;
+\begin{equation}            \label{eqn:cost function}
+  J  = \sum\nolimits_{i=n_w}^{n_y} [\hat{y}(k+i) - r(k + i)]^2
+\end{equation}  </p>
+
+<p>where \(i\) is typically taken as 1, \(n_y\) is the prediction horizon, \(\hat{y}(k+i)\) is the prediction and \(r(k+i)\) is the desired trajectory (or setpoint).</p>
+
+<p>The controller output sequence, \(\Delta u \), is obtained by minimizing \(J\) over the prediction horizon, \(n_y\), with respect to \(\Delta u \), i.e.,</p>
+
+<p>\begin{equation}
+  \Delta u  = \text{arg} \min_{\rm \Delta u} J \label{eqn:min J}
+\end{equation}</p>
+
+<p>where \(\Delta u \) is the future control sequence.</p>
+
+<p><br />&lt;/br&gt;
+If equation \eqref{eqn:cost function} is <strong><em>well-posed</em></strong><a href="#footnote-1">\(^{1}\)</a>, then \(\Delta u \) would be optimal with respect to the criterion function and hence <a href="#eqn:carima">eliminate offset in trajectory tracking</a>.</p>
+
+<div class="fig figcenter fighighlight">
+  &lt;img src="/downloads/MPC/MPCConcept.jpg" width="50%" height="350", border="0" style="float:left;"&gt;
+  <img src="/downloads/MPC/LQG.jpg" width="50%" height="350" border="0" style="float:right;" />  
+  <div class="figcaption" align="left">Fig.1.0.0. Tracking by a Model Predictive Controller. <div class="figcaption" align="right">Fig. 1.0.1. Reference Tracking by an LQ Controller.
+  </div></div>
+</div>
+
+<!--![MPCControl.jpg](/downloads/MPC/MPCConcept.jpg){: .center-image }-->
+<p><br />&lt;/br&gt;
+It becomes obvious from equation \eqref{eqn:cost function} that minimizing the criterion function is an optimization problem. One useful approach in typical problems is to make \(J\) <b><em>quadratic</em></b> such that the model becomes linear; <u>if there are no contraints, the solution to the quadratic minimization problem is analytic</u>.</p>
+
+<h4 id="centerlinear-quadratic-lq-controllerscenter"><center>**Linear Quadratic (LQ) Controllers**</center></h4>
+<p>Linear Quadratic Controllers are indeed predictive controllers except for the infinite horizon which they employ in minimizing the criterion function. The criterion function is minimized only once resulting in an optimal controller output sequence from which the controller output is selected.
+Similar to model predictive controllers, they are in general discrete time controllers. For a linear problem such as</p>
+
+<p>&lt;a name=eqn:state-model&gt;&lt;/a&gt;
+\begin{gather} \label{eqn:state-model}
+  x(k+1) = A \, x(k) + B \, u(k)  \nonumber \newline
+  y(k) = C^T \, x(k)              \nonumber
+\end{gather}</p>
+
+<p>The cost function is typically constructed as</p>
+
+<p>&lt;a name=eqn:LQ-cost&gt;&lt;/a&gt;
+\begin{equation}  \label{eqn:LQ-cost}
+J = \sum_{k=0}^n x^T(k)\,Q\,x(k) + R \, u(k)^T \, u(k) + 2 x(k)^T \, N \, u(k)
+\end{equation}  </p>
+
+<p>where \(n\) is the terminal sampling instant, \(Q\) is a symmetric, positive semi-definite matrix that weights the \(n\)-states of the matrix. \(N\) specifies a matrix of appropriate dimensions that penalizes the cross-product between the input and state vectors, while \(R\) is a symmetric, positive defiite weighting matrix on the control vector , \(u\).</p>
+
+<p>Other variants of equation \eqref{eqn:LQ-cost} exist where instead of weighting the states of the system, we instead weight the output of the system by constructing the cost function as</p>
+
+<p>&lt;a name=eqn:LQ-costy&gt;&lt;/a&gt;
+\begin{equation}   \label{eqn:LQ-costy}
+  J = \sum_{k=0}^n y^T(k) \,Q \,y(k) + R\, u(k)^T \, u(k) +  2 x(k)^T \, N \, u(k)
+\end{equation}</p>
+
+<p>In practice, it is typical to set the eigen values of the \(Q\)-matrix to one while adjusting the eigenvalue(s) of the \(R\) matrix until one obtains the desired result. \(N\) is typically set to an appropriate matrix of zeros. This is no doubt not the only way of tuning the LQ controller as fine control would most likely require weighting the eigen-values of the Q-matrix differently (this is from my experience when tuning LQ controllers).</p>
+
+<p>If we model disturbances into the system’s states, the optimization problem becomes a stochastic optimization problem that must be solved. But the separation theorem applies such that we can construct a state estimator which asymptotically tracks the internal states from observed outputs using the <a href="https://en.wikipedia.org/wiki/Algebraic_Riccati_equation">algebraic Riccati equation</a> given as</p>
+
+<p>\begin{equation}    \label{eqn:Riccati}
+  A^T P A -(A^T P B + N)(R + B^T P B)^{-1}(B^T P A + N) + Q.
+\end{equation}</p>
+
+<p>\(P\) is an unknown \(n \times n\) symmetric matrix and \(A\), \(B\), \(Q\), and \(R\) are known coefficient matrices as in equations \eqref{eqn:LQ-cost} and \eqref{eqn:LQ-costy}. We find an optimal control law by solving the minimization of the deterministic LQ problem, equation \eqref{eqn:LQ-cost} which we then feed into the states.</p>
+
+<p>The optimal controller gains, \(K\), are determined from the equation</p>
+
+<p>\begin{equation}
+  K_{lqr} = R^{-1}(B^T \, P + N^T)
+\end{equation}</p>
+
+<p>where \(P\) is the solution to the algebraic Riccati equation \eqref{eqn:Riccati}.</p>
+
+<p>In classical control, we are accustomed to solving a control design problem by determining design parameters based on a given set of design specifications (e.g. desired overshoot, gain margin, settiling time, e.t.c). Discrete LQ controllers pose a significant difficulty with respect to solving such problems as it is challenging to solve the criterion function in terms of these design parameters since discrete state space matrices hardly translate to any physical meaning. If you use the <a href="http://www.tandfonline.com/doi/abs/10.1080/00207728808964057">orthogonal least squares algorithm</a> or <a href="http://www.tandfonline.com/doi/abs/10.1080/00207178908559767">forward regression orthogonal least squares</a> in identifying your physical system, you might be able to make some sense of your model though.</p>
+
+<p>It turns out that if the cost function is quadratic in the parameters and the state space matrices are in  <strong><em>continuous time</em></strong>, the weighting matrices would no longer correspond to the artificial, \(A\), \(B\), and \(C\) matrices (which is indeed what they are in the discrete state space).</p>
+
+<p>&lt;a name=Model-Predictive-Controllers&gt;&lt;/a&gt;
+####**<center>Model Predictive Controllers (MPC)**</center>
+A key thing about LQ closed loop problems is that we can pretty much guarantee closed loop stability if the prediction horizon, \(N \rightarrow \infty\). Model Predictive Controllers, on the other hand, employ a <a href="http://www.cds.caltech.edu/~murray/books/AM08/pdf/obc08-rhc_30Jan08.pdf">receding (which is a finite) horizon concept</a> in establishing the control sequence and closed-loop stability is generally not guaranteed.</p>
+
+<div class="fig figcenter fighighlight">
+  <img src="http://www.mdpi.com/energies/energies-08-01505/article_deploy/html/images/energies-08-01505-g005-1024.png" width="60%" height="450" align="middle" />  
+  <div class="figcaption" align="left">Fig. 1. Receding Horizon Concept. <i>Courtesy, <a href="http://www.mdpi.com/1996-1073/8/2/1505"> MDPI </a></i>
+  </div>
+</div>
+<!-- ![Receding Horizon Concept](http://www.mdpi.com/energies/energies-08-01505/article_deploy/html/images/energies-08-01505-g005-1024.png) -->
+
+<p>Basically, for inifinite horizon controllers such as LQ methods, this means there is no model mismatch between the predictor model and the plant. In practice, this is tough to achieve as disturbances play a large role in virtually all real-world systems. Typically in state-space or transfer function control model structures, we’ll add an integrator in the feedback loop to correct for offset errors at steady state. This would not be optimal in zeroing steady-state errors in an MPC approach. One way of avoiding mismatch is to include an integrator in the prediction model as an <strong><em>internal model</em></strong> of the disturbance. This could be a <strong>CARIMA</strong>  (<strong>C</strong>ontrolled <strong>A</strong>uto <strong>R</strong>egressive <strong>I</strong>ntegral <strong>M</strong>oving <strong>A</strong>verage) model, for example. A typical <strong>CARIMA</strong> model takes the polynomial form</p>
+
+<p>&lt;a name=eqn:carima&gt;&lt;/a&gt;
+\begin{equation}  \label{eqn:carima}
+  A(z^{-1})\,y(k) = B(z^{-1})\,u(k) + \dfrac{C(z^{-1})}{1-z^{-1}}\,e(k)
+\end{equation}</p>
+
+<p>where \(A\), \(B\), and \(C\) are polynomials in the backward shift operator \(z^{-1}\) given by</p>
+
+<p>\begin{equation} \label{eqn:poly}
+  A(z^{-1}) = 1 + a_1\,z^{-1} + a_2 + \, z^{-2} + \cdots + a_{n_a}z^-{n_a}  \nonumber
+\end{equation}</p>
+
+<p>\begin{equation}
+  B(z^{-1}) = b_1 + b_2\, z^{-1} + b_3 \, z^{-2} + \cdots + b_{n_b}z^-{n_b}  \nonumber
+\end{equation}</p>
+
+<p>\begin{equation}
+  C(z^{-1}) = c_0 + c_1\, z^{-1} + c_2 \, z^{-2} + \cdots + c_{n_b}z^-{n_c},
+\end{equation}</p>
+
+<p>and \(y(k)\), \(u(k)\) and \(e(k)\), for \(k = 1, 2\), \(\cdots \)  are respectively the plant output, input and integrated noise term in the model.</p>
+
+<p>MPC’s are generally good and better than traditional PID controllers if correctly implemented in that they handle disturbances typically well and can anticipate future disturbances thereby making the control action more effective as a result. This is because of an <i><strong>internal model</strong></i> of the plant that allows them to anticipate the future “behavior” of a plant’s output and mitigate such errors before the plant reaches the <i>“future time”</i>.</p>
+
+<p><a href="https://www.sheffield.ac.uk/acse/staff/jar">Rossiter</a> gives a classic analogy in the way human beings cross a road. It is not sufficient that a road is not busy with passing cars on it. As you cross, you constantly look at ahead (your prediction horizon) to anticipate oncoming vehicles and update your movement (=control action) based on your prediction (based on past observations).</p>
+
+<blockquote>
+  <p><strong>Accurate prediction over a selected horizon is critical to a successful MPC implementation</strong>.</p>
+</blockquote>
+
+<p>Below are a brief overview of common models employed in MPC algorithms. Readers are referred to System Identification texts e.g., <a href="#box-jenkins">Box and Jenkins</a>,  <a href="#billings">Billings</a>, or <a href="#Ljung">Ljung</a> where data modeling and system identification methods are elucidated in details.</p>
+
+<!-- <div class="fig figcenter fighighlight">
+  <img src="/downloads/MPC/lrpc.jpg" width="75%" height="450", border="0" style="float:center;">
+  <div class="figcaption" align="center">Fig.2.1. Receding Horizon Concept (Copyright: Mahdi Mahfouf, University of Sheffield, 2011 - 2012).
+</div>
+</div> -->
+
+<h4 id="centerlinear-models-in-predictive-controlcenter"><center>**Linear Models in Predictive Control**</center></h4>
+<p>An essential part of an MPC design is the internal model of the plant. If we want a high-fidelity control, we would want to develop a high fidelity model. For optimal control, our controller would only be as good as our model. If our understanding of the plant is faulty and this transfers to the model, we would typically have model mismatch between plant and predictor and our implementation of the MPC may be worse than using an infinite horizon control.</p>
+
+<p>We briefly discuss the common classical models that have been accepted as a standard by the control community in the past two-some decades. Linear models obey the superposition principle. Put differently, their internal structure can be approximated by a linear function in the proximity of the desired operating point. In general, linear system identification belong in two large categories: parametric and non-parametric methods. I will only touch upon parametric methods as these are the most commonly employed models in MPC approaches.</p>
+
+<h5 id="center-autoregressive-moving-average-with-exogenous-input-model-armax-center"><center> **Autoregressive Moving Average with Exogenous Input Model (ARMAX)** </center></h5>
+
+<p>The general structure of the linear finite-horizon system can be written as</p>
+
+<p>\begin{equation} \label{eqn:ARMAX}
+  A(z^{-1})\,y(k) = \dfrac{B(z^{-1})}{F(z^{-1})}\,u(k) + \dfrac{C(z^{-1})}{D(z^{-1})}\,e(k)
+\end{equation}</p>
+
+<p>with \(A(z^{-1}), \, B(z^{-1}), \, C(z^{-1}) \) defined as in equation <a href="#eqn:poly">\eqref{eqn:poly}</a> and the \(F(z^{-1}), \text{ and } D(z^{-1})\) polynomials defined as</p>
+
+<p>\begin{equation}
+  D(z^{-1}) = 1 + d_1\,z^{-1} + d_2 + \, z^{-2} + \cdots + d_{n_d}z^{-n_d}  \nonumber
+\end{equation}</p>
+
+<p>\begin{equation}
+  F(z^{-1}) = 1 + f_1\,z^{-1} + f_2 + \, z^{-2} + \cdots + f_{n_f}z^{-n_f}
+\end{equation}</p>
+
+<p>The autoregressive part is given by the component \(A(z^{-1}) \, y(k)\), while the noise term is modeled as a moving average regression model in \(\dfrac{C(z^{-1})}{D(z^{-1})}\,e(k)\); the exogenous component is given by \(\dfrac{B(z^{-1})}{F(z^{-1})}\,u(k)\).</p>
+
+<h5 id="center-autoregressive-model-ar-center"><center> **Autoregressive Model (AR)** </center></h5>
+
+<p>If in equation \eqref{eqn:ARMAX},  \(B(z^{-1}) = 0\) and \(C(z^{-1}) = D(z^{-1}) = 1\) then  we have an AR model,</p>
+
+<p>\begin{equation}
+  y(k) = -a_1 \, y(k-1) -  a_2 \,  y(k-2) - \cdots - a_{n_a} \, y(k-{n_a})
+\end{equation}</p>
+
+<p>Alternatively, if \(A(z^{-1}) = 1\) , \(B(z^{-1}) = 0, \,  \text{ and } \, C(z^{-1}) = 1 \) then we end up with the regression</p>
+
+<p>\begin{equation}
+  y(k) = - d_1 \, y(k-1) - d_2 \, y(k-2) - \cdots - d_{n_d} y(k - n_d) + e(k)
+\end{equation}</p>
+
+<h5 id="center-moving-average-model-ma-center"><center> **Moving Average Model (MA)** </center></h5>
+
+<p>If \(A(z^{-1}) = 1\), \(B(z^{-1}) = 0\) and \(D(z^{-1}) = 1\), then we have the following moving average noise model</p>
+
+<p>\begin{equation}
+  y(k) = e(k)+ c_1e(k-1) + \cdots + c_{n_c}e(k-n_c)
+\end{equation}</p>
+
+<h5 id="center-autoregressive--with-exogenous-input-model-arx-center"><center> **Autoregressive  with Exogenous Input Model (ARX)** </center></h5>
+
+<p>If \(F(z^{-1}) = 1\), and \(C(z^{-1}) = D(z^{-1}) =1\), we obtain the ARX structure
+\begin{equation}
+\begin{split}
+  y(k) &amp; = -a_1 \, y(k-1) - \cdots - a_{n_a} \, y(k-{n_a}) + b_1u(k-1) <br />
+       &amp;+\cdots + b_{n_b}u(k-n_b) + e(k)
+       \end{split}
+\end{equation}</p>
+
+<h5 id="center-autoregressive-moving-average-model-arma-center"><center> **Autoregressive Moving Average Model (ARMA)** </center></h5>
+
+<p>Setting \(B(z^{-1}) = 0\), and \(D(z^{-1}) = 1\), we obtain the ARMA model,
+\begin{equation}
+\begin{split}
+  y(k) &amp; = -a_1 \, y(k-1) - \cdots - a_{n_a} \, y(k-{n_a}) + c_1eu(k-1) <br />
+       &amp;+\cdots + c_{n_c}e(k-n_c)
+       \end{split}
+\end{equation}</p>
+
+<h5 id="center-finite-impulse-response-model-fir-center"><center> **Finite Impulse Response Model (FIR)** </center></h5>
+
+<p>If in equation \eqref{eqn:ARMAX}, \(A(z^{-1}) = F(z^{-1}) = 1 \text{ and } C(z^{-1}) = 0\), we have an FIR model. This can be rewritten as</p>
+
+<p>\begin{equation}
+  y(k+i) = \sum_{j=0}^{n_y - 1} \, h_j\, u(k-j+i-1)
+\end{equation}</p>
+
+<p>for predictions of the process output at \(t = k+i\) with \(i \geq 1\).</p>
+
+<p>The FIR model has the advantage of being simple to construct in that no complex calculations are required of the model and model assumptions are required. They are arguably the most commonly used in commercial MPC packages. However, it does come up short for unstable systems and it also requires a lot of parameters to estimate an FIR model.</p>
+
+<p>My <a href="https://github.com/SeRViCE-Lab/Matlab-Files/blob/master/ident_data/">Github repo</a> has various examples where typical <a href="https://github.com/SeRViCE-Lab/Matlab-Files/blob/master/ident_data/Filtered%20GWN/carimaFWGN.m">ARX, ARMAX, Impulse Response and AR models</a>, are identified from finite data.</p>
+
+<h5 id="center-box-jenkins-bj-model-center"><center> **Box-Jenkins (BJ) Model** </center></h5>
+<p>The BJ Model is obtained by setting
+\begin{equation} \label{eqn:BJ}
+  y(k) = \dfrac{B(z^{-1})}{F(z^{-1})}\,u(k) + \dfrac{C(z^{-1})}{D(z^{-1})}\,e(k)
+\end{equation}</p>
+
+<p>&lt;a name=fsr&gt;&lt;/a&gt;</p>
+
+<h5 id="center-finite-step-response-model-fsr-center"><center> **Finite Step Response Model (FSR)** </center></h5>
+
+<p>\begin{equation}
+  y(k) = \sum_{j=0}^{n_s - 1} \, s_j\, \Delta u(k-j-1)
+\end{equation}</p>
+
+<p>where \(\Delta\) is the differencing operator (\(\Delta = 1 - q^{-1}\)) and \(q^{-1}\) is the backward shift operator. \(n_s\) is the number of step response elements \(s_j\) used in predicting \(y\).</p>
+
+<h3 id="centerpredictions-in-system-modelscenter"><center>**Predictions in System Models**</center></h3>
+
+<h5 id="centerubackgrounducenter"><center>**<u>Background</u>**</center></h5>
+<p>In principle, MPCs are long-range predictive controllers(LRPC). Contrary to classical control laws, they are potent if there is a process dead-time or if the setpoint is well-known ahead of time. They were introduced by <a href="#richalet">Richalet</a> and <a href="#cutler">Cutler</a> in the 1970’s and ‘80’s. As mentioned previously, predictions constitute the bulwark of model predictive controllers. Matter-of-factly, the prediction that this family of controllers have in their structure explains their robust performance when correctly implemented in a typical process. The basic algorithm involves:</p>
+
+<ul>
+  <li>
+    <p>At a current time, \(k\), we predict an output, \(\hat{y}_k\), over a certain output horizon, \(n_y\), based on a mathematical model of the plant dynamics. The predicted output is a function of future possible control scenarios.</p>
+  </li>
+  <li>
+    <p>From the proposed scenarios, the strategy that delivers the best control action to bring the current process output to the setpoint is chosen.</p>
+  </li>
+  <li>
+    <p>The chosen control law is applied to the real process input only at the present time \(k\).</p>
+  </li>
+</ul>
+
+<p>The above procedure is repeated at the next sampling instant leading to an updated control action with correctness based on latest measurements. In literature, we refer to this as the <strong><em>receding horizon concept</em></strong></p>
+
+<p>Other model-based controllers include pole-placement methods and Linear Quadratic methods. When there are no contraints on the control law and the setpoint is not complex, LQ-, pole-placement and predictive controllers generally yield an equivalent result.</p>
+
+<p>We will assume the model of the plant has been correctly estimated as mentioned in the previous post. The model to be controlled (= <em>plant</em>) is used in predicting the process output over a defined prediction horizon, $n_y$. Typically, we would want to use an \(i\)-step ahead prediction based on our understanding of the system dynamics. The prediction horizon needs to be carefully selected such the computed optimal control law is not equivalent to a linear quadratic controller. Typically this happens when \(n_y - n_u\) is greater than the open-loop settling time and \(n_u\) is \(\geq\) 5. For large \(n_y - n_u\) and large \(n_u\), <a href="#GPCs">Generalized Predictive Controllers</a> give an almost equal control to an optimal controller with the same weights. With \(n_y - n_u\) and \(n_u\) small, the resulting control law may be severely <a href="#Rossiter">suboptimal</a>. Model predictive controllers are implemented in discrete time since control decisions are made discretely ( = instanteneously). Continuous time systems are sampled to obtain a discrete-time equivalent. The rule of thumb is that the sampling time should be \(10 - 20\) times faster than the dominant transient response of the system (e.g. rise time or settling time).</p>
+
+<blockquote>
+  <p>It is important not to sample at a faster rate than the dominant transient response of the system; otherwise, the high frequency gains within the system will not be picked up by the model. In other words, we should sample fast enough to pick up disturbances, but no faster.</p>
+</blockquote>
+
+<p>Model Predictive Controllers are easy to implement when the model is linear and discrete but they do find applications in nonlinear processes as well. It behooves that a nonlinear model of the process would then be employed to design the controller in such an instance. Nonlinear models will be treated in a future post. Nonlinear systems that use model predictive control tend to have a more rigorous underpinning.</p>
+
+<p>Within the framework of model predictive controllers, there are several variants in literature. Among these variants are &lt;a name=GPCs&gt;&lt;/a&gt;Clarke’s Generalized Predictive Controllers (GPCs), <a href="#cutler">Dynamic Matrix Control</a>, Extended Predictive Self-Adaptive Control (EPSAC), Predictive Functional Control (PFC), Ydstie’s Extended Horizon Adaptive Control (EHAC), and Unified Predictive Control (UPC) et cet’era. MPCs find applications in nonminimum phase systems, time-delay systems and unstable processes. I will briefly do a once-over on MAC, DMC and GPC with transfer function models and come back full circle to describe GPC with state-space models since these are generally straightforward to code and has less mathematical labyrinths.</p>
+
+<h4 id="centeruprediction-in-richalets-model-algorithm-control-macucenter"><center><u>**Prediction in Richalet's Model Algorithm Control (MAC)**</u></center></h4>
+
+<p>Generally, these make use of impulse response function models. Suppose we denote the output of a discrete LTI system by a discrete impulse response \(h(j)\) as in</p>
+
+<p>\begin{equation}
+  H(z^{-1}) = A^{-1}(z^{-1}) \, B^(z^{-1})
+\end{equation}</p>
+
+<p>it follows that the output can be written as a function of \(h(t)\) as follows</p>
+
+<p>\begin{equation}  \label{eqn:impulse}
+  y(t) = \sum_{j=1}^{n=\infty} \, h(j) \, u(t-j)
+\end{equation}</p>
+
+<p>where \(h(j)\) are the respective coefficients of the impulse response. If we assume a stable and causal system, for an \(n\) terminal sampling instant, equation \eqref{eqn:impulse} becomes</p>
+
+<p>\begin{equation}  \label{eqn:impulse-lim}
+  y(t) = \sum_{j=1}^{n} \, h(j) \, u(t-j)
+\end{equation}</p>
+
+<p>such that we can compute the recursive form of equation \eqref{eqn:impulse-lim} as</p>
+
+<p>\begin{equation}  \label{eqn:impulse-rec}
+  y_{mdl}(t + k) = \tilde{h}^T \, \tilde{u}(t + k) = \tilde{u}^T(t + k)\, \tilde{h}
+\end{equation}</p>
+
+<p>where, \[\tilde{h}^T = h(1), \, h(2), \, h(3), \, \ldots, \, h(n) \]
+and \[\tilde{u}^T(t + k) = u(t + k - 1), \, u(t + k - 2), \, u(t + k -3), \, \ldots, \, u(t + k - n) \].</p>
+
+<p>The cost function is given by</p>
+
+<p>\begin{gather}  \label{eqn:mac-cost}
+  J_{MAC} &amp;= e^T \, e + \beta^2 \Delta u^T \Delta u<br />
+\end{gather}</p>
+
+<p>where  \(e = y_r - y_{mdl}\), and \(\beta\) is a penalty function for the input variable \(u(t)\).</p>
+
+<div class="boxed">
+<u><b>MAC Algorithm Summary</b></u>
+<ul>
+  <li>Define a reference trajectory, $y_{r}$, that $y(k)$ should track.</li>
+  <li>Tune output predictions based on an $FIR$ model order to deal with model disturbances and uncertainties. </li>
+  <li>Use $\beta$ to penalize the control law.</li>
+  <li>Formulate the output predictions using equation \eqref{eqn:impulse-rec} with the assumption that the plant is stable and causal.</li>
+</ul>
+</div>
+
+<h4 id="centeruprediction-in-cutlers-dynamic-matrix-controlucenter"><center>**<u>Prediction in Cutler's Dynamic Matrix Control</u>**</center></h4>
+
+<p>Here, a <a href="http://lakehanne.github.io/Optimal-Controllers-MPC/#fsr">finite step response model</a> is employed in the prediction. It is essentially composed of three tuning factors viz., the prediction horizon, \(n_y\), control weighting factor, \(\beta\), and the control horizon, \(n_u\).</p>
+
+<div class="boxed">
+<u><b>DMC Assumption</b></u>
+<ul>
+  <li>The process is stable and causal process</li>
+</ul>
+</div>
+
+<h4 id="centerugpc-prediction-of-the-plant-output-described-by-a-transfer-functionucenter"><center><u>**GPC: Prediction of the plant output described by a transfer function**</u></center></h4>
+
+<p>It seems to me that most literature is filled with prediction of the output described by a transfer function model. I assume this is due to their relative easiness of computation compared against FIR and FSR models and their applicability to unstable processes. Most papers out of Europe tend to favor transfer function methods while US researchers typically prefer state-space methods. Typically, <a href="http://mathworld.wolfram.com/DiophantineEquation.html"><strong>Diophantine identity equations</strong></a> are used to form the regressor model. In my opinion, this is royally complex and more often than not obscures the detail of what is being solved. My advice is one should generally stay out of Diophantine models when possible and only use them when necessary. I will briefly expand on this treatment and focus on MPC treatments using recursive state space models when describing GPC algorithms.</p>
+
+<p>The transfer function model is of the form:</p>
+
+<p>\begin{equation}  \label{eqn:tf_model}
+  y(k) = \dfrac{z^{-d}B(z^{-1})}{A(z^{-1})}u(k-1)
+\end{equation}</p>
+
+<p>with \(A(z^{-1})\) and \(B(z^{-1})\) defined by the polynomial expansions. A close inspection of equation \eqref{eqn:tf_model} reveals that the transfer function model subsumes both the FIR (i.e. \(A\) = 1 and the coefficients of the \(B\) polynomial are the impulse response elements)  and FSR models (i.e. A = 1 and the coeeficients of the \(B\) polynomial are the step response coefficients \(b_0 = s_0; \, b_j = s_j - s_{j-1} \forall j \geq 1 \).  </p>
+
+<p>Transfer function models have the good properties of using greedy polynomial orders and variables in representing linear processes but an assumption about the model order has to be made.</p>
+
+<h5 id="centeruoutput-predictions-in-tfm-with-diophantine-identitiesucenter"><center><u>**Output predictions in TFM with Diophantine identities**</u></center></h5>
+
+<p>Another way of writing equation \eqref{eqn:tf_model} is by forming an \(i\)-step ahead predictor as follows:</p>
+
+<p>\begin{equation}  \label{eqn:tf_isa}
+  y(k + i) = \dfrac{z^{-d}B(z^{-1})}{A(z^{-1})}u(k + i -1)
+\end{equation}</p>
+
+<p>It follows from the <a href="https://en.wikipedia.org/wiki/Stochastic_control#Certainty_equivalence">certainty equivalence principle</a> that if we substitute the delay, \(d, \text{ and } B, \, A \) polynomials with their estimates (i.e. \(\hat{d}, \hat{B}, \, \text{and} \hat{A} \)), the optimal control solution obtained would be the same as the system’s delay, \(d, \text{ and } B, \text{ and } A \) polynomials. Let’s form the predicted output estimate as follows:</p>
+
+<p>\begin{equation}   \label{eqn:tf_pred}
+  \hat{y}(k + i) = \dfrac{z^{-\hat{d}}\hat{B}(z^{-1})}{\hat{A}(z^{-1})}u(k + i -1)
+\end{equation}</p>
+
+<p>We could rearrange the above equation as</p>
+
+<p>\begin{split} <br />
+  \hat{y}(k + i) = z^{-\hat{d}}\hat{B}(z^{-1})u(k + i -1) - \hat{y}(k + i)[\hat{A}(z^{-1}) -1] \nonumber
+\end{split}</p>
+
+<p>Since \(A(z^{-1}) = 1 + a_1\,z^{-1} + a_2 + \, z^{-2} + \cdots + a_{n_a}z^{-n_a} \), by definition, we can write</p>
+
+<p>\begin{align} <br />
+  \hat{y}(k + i) &amp;= z^{-\hat{d}}\hat{B}(z^{-1})u(k + i -1) - \hat{y}(k + i)(a_1\,z^{-1} + a_2 z^{-2} + \cdots + a_{n_a}z^{-n_a}) \nonumber <br />
+\end{align}</p>
+
+<p>\begin{align}
+    \qquad \qquad &amp;= z^{-\hat{d}}\hat{B}(z^{-1})u(k + i -1) - a_1 \hat{y}(k + i -1) - a_2 \hat{y}(k + i -2) - \cdots - a_{n_a} \hat{y}(k + i - n_a)    \nonumber
+\end{align}</p>
+
+<p>\begin{align}
+    &amp; = z^{-\hat{d}}\hat{B}(z^{-1})u(k + i -1) - (a_1 + a_2 z^{-1} + \cdots + a_{n_a}z^{-n_a + 1}) \hat{y}(k + i - 1) \nonumber
+\end{align}</p>
+
+<p>such that we can write</p>
+
+<p>\begin{align}  \label{eqn:tf_isa2}
+    \hat{y}(k + i) &amp; = z^{-\hat{d}}\hat{B}(z^{-1})u(k + i -1) - z(\hat{A} - 1) \hat{y}(k + i - 1)
+\end{align}</p>
+
+<p>from equation \eqref{eqn:tf_pred}, where \(z(\hat{A} - 1) = a_1 + a_2 z^{-1} + \, z^{-1} + \cdots + a_{n_a}z^{-n_a + 1}\).</p>
+
+<p>The equation above is the \(i\)-step ahead predictor using the estimates and runs independently of the process. However, it is a fact of life that disturbances and uncertainties get a vote in any prediction model of a physical/chemical process. Therefore equation \eqref{eqn:tf_isa2} is not well-posed. To avoid prediction errors, we could replace \(\hat{y}(k)\) with \(y(k) \) in the equation and rearrange the model a bit further. Let’s introduce the Diophantine identity equation</p>
+
+<p>&lt;a name=Dioph&gt;&lt;/a&gt;
+&lt;div class="boxed"&gt;
+<b><center>Diophantine Identity Equation</center></b></p>
+<ul>
+\begin{equation}  
+    \dfrac{1}{\hat{A}} = E\_i + z^{-i}\dfrac{F\_i}{\hat{A}}
+\end{equation}
+</ul>
+<p>&lt;/div&gt;</p>
+
+<p>where degree of \(E_i \leq i -1\) and \(F_i\) being of degree \(n_A -1\).</p>
+
+<p>Multiplying out equation \eqref{eqn:tf_pred} with \(E_i\) gives</p>
+
+<p>\begin{align}
+    E_i \hat{A}(z^{-1}) \hat{y}(k+i) &amp; = z^{-\hat{d}} E_iB(z^{-1}) u(k+i-1)
+\end{align}</p>
+
+<p>Rearranging the Diophantine equation and substituting \(E_i \hat{A}(z^{-1}) = 1 - z^{-i}F_i \) into the above equation, we find that</p>
+
+<p>\begin{align}   \label{eqn:rigged}
+    \hat{y}(k+i) &amp; = z^{-\hat{d}} E_iB(z^{-1}) u(k+i-1) + F_i \underbrace{\hat{y}(k)}_{\textbf{replace with \(y(k)\)}}.
+\end{align}</p>
+
+<p>But</p>
+
+<p>\begin{equation}
+    E_i\hat{B}(z^{-1}) = \dfrac{\hat{B}(z^{-1})}{\hat{A}(z^{-1})} - \dfrac{q^{-i} \hat{B}(z^{-1}) F_i}{\hat{A(z^{-1})}},
+\end{equation}</p>
+
+<p>if we multiply the <a href="#Dioph">Diophantine equation</a> by \(\hat{B}(z^{-1})\) such that</p>
+
+<p>\begin{align}  \label{eqn:tf_isasep}
+    \hat{y}(k+i) &amp; = z^{-\hat{d}} \dfrac{\hat{B}(z^{-1})}{\hat{A}(z^{-1})} u(k+i-1) + F_i y(k) - z^{-d} \dfrac{\hat{B}(z^{-1})}{\hat{A}(z^{-1})} F_i u(k -1)   \nonumber
+\end{align}</p>
+
+<p>\begin{align}
+\qquad \qquad \quad &amp; = \underbrace{z^{-\hat{d}} \dfrac{\hat{B}(z^{-1})}{\hat{A}(z^{-1})} u(k+i-1)} + \underbrace{F_i (y(k) - \hat{y}(k) ) }_{\textbf{correction } }
+\end{align}</p>
+
+<p>\begin{align}
+\quad  &amp;  \textbf{prediction} \nonumber
+\end{align}</p>
+
+<p>We see that equation \eqref{eqn:tf_isasep} nicely separates the output predictor into a prediction part (<i>from the past input</i>) and a correction part (based on error between model and prediction at time, \(k\) ). Essentially, we have manipulated the equation \(\eqref(eqn:rigged)\) such that we have a correcting term in the prediction of the output by subsituting \(y(k)\) in place of \(\hat{y}(k)\) in equation \eqref(eqn:rigged) to negate issue of model-plant mismatch.</p>
+
+<p><br />&lt;/br&gt;
+&lt;a name=box-jenkins&gt;&lt;/a&gt;[Box and Jenkins]: Box, G.E.P. and Jenkins, G.M., ‘<em>Time Series Analysis:Forecasting and Control. San Francisco, CA</em>’, Holden Day, 1970.</p>
+
+<p>&lt;a name=billings&gt;&lt;/a&gt;[Billings] :  Stephen A. Billings. ‘<em>Nonlinear System Identification. NARMAX Methods in the Time, Frequency and Spatio-Temporal Domains</em>’. John Wiley &amp; Sons Ltd, Chichester, West Sussex, United Kingdom,  2013.</p>
+
+<p>&lt;a name=cutler&gt;&lt;/a&gt;<a href="https://www.infona.pl/resource/bwmeta1.element.ieee-art-000004232009">[C. R. Cutler, B. L. Ramaker]: Dynamic matrix control – A computer control algorithm</a></p>
+
+<p>&lt;a name=richalet&gt;&lt;/a&gt; [J. Richalet, A. Rault, J.L. Testud and J. papon]: ‘Model Predictive Heuristic Control: Applications to Industrial Processes’, <em>Automatica</em>, Vol. 14. No. 5, pp. 413 - 428, 1978.</p>
+
+<p>&lt;a name=Rossiter&gt;&lt;/a&gt;   <a href="https://www.crcpress.com/Model-Based-Predictive-Control-A-Practical-Approach/Rossiter/9780849312915">[J.A. Rossiter]:   ‘Model Predictive Control: A Practical Approach’. CRC Press LLC, Florida, USA. 2003</a>.</p>
+
+<p>&lt;a name=Gawthrop&gt;&lt;/a&gt;[Gawthrop] : ‘<em>Continuous-Time Self-Tuning Control</em>’ Vols I and II, Tannton, Research Studies Press, 1990.</p>
+
+<p>&lt;a name=Ljung&gt;&lt;/a&gt;[Ljung] : L. Ljung. ‘<em>System Identification Theory for the User</em>’. 2nd Edition. Upper Saddle River, NJ, USA. Prentice Hall, 1999.</p>
+
+<p>&lt;a name=Soeterboek&gt;&lt;/a&gt; <a href="http://repository.tudelft.nl/view/ir/uuid%3A18a07849-f43c-4d98-afb2-0b8a3a2e8b20/">[Ronald Soeterboek]. ‘Predictive Control: A Unified Approach’. Prentice Hall International (UK) Limited, 1992</a>.</p>
+
+<p><br />&lt;/br&gt;
+&lt;p id="footnote-1"&gt;[1] A well-posed \(J\) should have an unbiased predictions in steady state. That is the minimizing argument of \(J\) must be consistent with an offset-free tracking. This implies the predicted control sequence to maintain zerto tracking error must be zero. The minimum of \(J = 0\) in steady state is equivalent to \(r_{\rm \rightarrow}\) \(- \, y_{\rm \rightarrow} = 0\) and \(u_{k+i} - u_{k+i-1} = 0\).</p>
+
+<!-- (Note that \\(x\_{\rm \rightarrow}\\) denotes future values of \\(x\\) ).  -->
+
+  </article>
+
+  <!-- mathjax -->
+  
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  <!-- disqus comments -->
+ 
+ <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'patmeansnoble'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</div>
+
+
+     <!--<nav class="nav-primary" role="navigation" >
+    <ul>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+        <li>
+        	 <a class= "post-link" href=""></a>
+        </li>
+        
+    </ul>
+</nav>
+-->
+      </div>
+    </div>
+
+    <head>
+
+ <!--Font Awesome -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!-- <h2 class="footer-heading">Lekan Ogunmolu</h2> -->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>
+          <a class="github-button" href="https://github.com/lakehanne" data-style="mega" data-count-href="/lakehanne/followers" aria-label="Follow @lakehanne on GitHub"></a>
+        </li>
+      </ul>
+
+        <ul><li>
+          <a href="https://twitter.com/patmeansnoble" target="_blank" ><img src = "/downloads/TwitterLogo_blue.png" width="16%", height="17%"></a>
+        </li></ul>
+    </div>
+
+    <div class="footer-col-2 column">
+
+      <ul>
+        
+        <li>
+          <a href="https://www.quora.com/Olalekan-Ogunmolu" target="_blank"><img src="/downloads/quora.svg" width="12%", height="5%"></a>
+
+        </li>
+        
+      </ul>
+
+
+      <ul>
+        
+        <li>
+          <!-- <a href="mailto:patlekno@icloud.com"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
+          <a href="mailto:patlekno@icloud.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
+
+        </li>
+      </ul>
+      
+
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"><b>To discover and understand.
+</b></p>
+    </div>
+
+  </div>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</footer>
+
+</head>
+
+
+    </body>
+</html>

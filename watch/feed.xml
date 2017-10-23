@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lekan Ogunmolu</title>
+    <description>To discover and understand.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>2017-10-21 13:22:41 -0500</pubDate>
+    <lastBuildDate>2017-10-21 13:22:41 -0500</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+      <item>
+        <title>What's behind IEEE RAS Best Conference Papers?</title>
+        <description>&lt;p&gt;Through the looking-glass, tired of working my brain out while familiarizing myself with a giant codebase I was reverse-engineering to prove a theory for an upcoming conference, I started asking myself why I was doing what I was doing? Just to get a paper out? Or to make a great contribution to science and my field? I googled something along the lines of “&lt;em&gt;How to write a best IEEE RAS conference paper&lt;/em&gt;”. What I found was very interesting as I came across this &lt;a href=&quot;/assets/ieee-best-paper/best_paper.pdf&quot;&gt;IEEE Student Activities Committee Paper&lt;/a&gt;. It offers
+great insight into what constitutes writing a paper that merits IEEE Robotics and Automation Society best conference awards.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy reading it as much as I did.&lt;/p&gt;
+
+</description>
+        <pubDate>2017-06-24 04:15:00 -0500</pubDate>
+        <link>ieee-best-papers</link>
+        <guid isPermaLink="true">ieee-best-papers</guid>
+        
+        
+        <category>best-paper,</category>
+        
+        <category>IEEE,</category>
+        
+        <category>RAS</category>
+        
+      </item>
+    
+      <item>
+        <title>Understanding Generative Adversarial Networks</title>
+        <description>
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: &quot;AMS&quot; } }
+});
+&lt;/script&gt;
+
+&lt;!--Mathjax Parser --&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+&lt;/script&gt;
+
+&lt;h4 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h4&gt;
+
+&lt;p&gt;Deep learning strives to discover a probability distribution on the underlying nonlinear system. This probability distribution is usually discovered using composite mappings of neurons stacked into layers (with many such layers composing a deep network model), providing an abstraction of underlying low-level features for ease of inference at a much higher-level.&lt;/p&gt;
+
+&lt;p&gt;The most successful deep learning models have been discriminative, supervised ones that map a high-dimensional, sensory-rich input to an output using the backpropagation and/or dropout algorithms.&lt;/p&gt;
+
+&lt;p&gt;In order to learn in an unsupervised approach, one has to find a model that is capable of approximating the underlying probabilistic distribution. This is, by no means, difficult due to the intractability of probabilistic computations that arise in
+maximum likelihood estimates, importance sampling and Gibb’s distributions. In such deep generative contexts, it is difficult to leverage on the scalability of piecewise linear models used in discriminative algorithms in an unsupervised context.&lt;/p&gt;
+
+&lt;h4 id=&quot;deciphering-generative-adversarial-networks&quot;&gt;Deciphering Generative Adversarial Networks&lt;/h4&gt;
+
+&lt;p&gt;Since such deep generative models are difficult to train, the question to ask then is, “is it possible to train a generative model from a classical discriminative classification setting?” If we have labeled data available, one can train a differentiable function that maps from an input space to the output space of a Borel measurable set in a supervised setting; this differentiable function can be thought of as fitting a probability distribution on a generative model.&lt;/p&gt;
+
+&lt;p&gt;What happens if we pit the  generative model against a counterfeiter (an adversary) whose goal is to score the &lt;em&gt;likelihood&lt;/em&gt; (not exactly, but we’ll see the definition shortly) that a sample drawn from the probability distribution of the generative model is real or fake?
+You see, things get interesting here. If the adversary samples from the latent space of the generator, then it improves its likelihood of passing off as a real model. This is the central idea behind &lt;strong&gt;generative adversarial networks&lt;/strong&gt;.
+Interesting, huh?&lt;/p&gt;
+
+&lt;h5 id=&quot;prior-work&quot;&gt;Prior Work&lt;/h5&gt;
+
+&lt;p&gt;Deep Deterministic Networks are directed graphical models. To generate stochastic distributions that represent an underlying model, people have used undirected graphical models with hidden variables such as restricted Boltzmann machines (&lt;a href=&quot;http://dl.acm.org/citation.cfm?id=104290&quot;&gt;RBMs&lt;/a&gt;, &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/16764513&quot;&gt;RBMs&lt;/a&gt;) and  deep Boltzmann machines (&lt;a href=&quot;#dbms&quot;&gt;DBMs&lt;/a&gt;). Unless the underlying &lt;em&gt;partition function&lt;/em&gt; within such models are trivial, the product of normalized potential functions and the gradients used are intractable, making such methods limiting.&lt;/p&gt;
+
+&lt;p&gt;&lt;!-- With Monte Carlo Markov Chain methods, however, one can approximate such functions. --&gt;&lt;/p&gt;
+
+&lt;p&gt;With deep belief networks, the gradient of a log likelihood expectation is computed with two different techniques:  the expectations of &lt;em&gt;data-dependent&lt;/em&gt; modes are &lt;em&gt;estimated&lt;/em&gt; with variational approximations while the expectations of &lt;em&gt;data-independent&lt;/em&gt; modes are approximated by &lt;em&gt;persistent Markov chains&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Noise contrastive estimates (&lt;a href=&quot;http://proceedings.mlr.press/v9/gutmann10a/gutmann10a.pdf&quot;&gt;NCEs&lt;/a&gt;) and generative stochastic networks (&lt;a href=&quot;https://arxiv.org/pdf/1306.1091.pdf&quot;&gt;GSNs&lt;/a&gt;) are the closer of the generative adversarial network ancestors. NCEs do not approximate or propose a bound on the log likelihood estimate but require the learned probability distribution to be analytically specified up to a normalization constant. But with deep models containing many latent variables, providing a normalized constant for the probability distribution is almost an impossible task.&lt;/p&gt;
+
+&lt;p&gt;GSNs belong to those class of algorithms that instead of bounding the log likelihood estimate, they train a generative model with backpropagation to draw samples from a desired distribution in a parameterized Markov chain manner. Adversarial nets, on the contrast, do not require parameterized Markov chains for sampling from a data distribution but instead use piecewise linear units (ReLUs, MaxOuts etc) to improve the performance of backpropagation.&lt;/p&gt;
+
+&lt;h4 id=&quot;inside-gans&quot;&gt;Inside GANs&lt;/h4&gt;
+
+&lt;p&gt;The original &lt;a href=&quot;https://arxiv.org/abs/1406.2661&quot;&gt;adversarial net&lt;/a&gt; was designed using two multilayer perceptrons as the modeling framework. It’s defined as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Generator:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;suppose we have a data set, \(\textbf{x} \sim p_g(\centerdot)\)
+    &lt;ul&gt;
+      &lt;li&gt;where \(p_g\) represents the parameterization of the probability distribution of data \(\textbf{x}\);&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;suppose also that we have a noisy dataset \(\textbf{z}\) with a prior defined as \(p_z(\textbf{z})\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;let \(G(\textbf{z};\theta_g)\) be a differentiable mapping from \(\textbf{z}\)’s state space to \(\textbf{x}\)’s state space parameterized by \(\theta_g\)
+    &lt;ul&gt;
+      &lt;li&gt;i.e. \(G_{\theta_g}: \mathbb{R}^{n_z} \rightarrow \mathbb{R}^{n_x}\)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;define \(G(\textbf{z};\theta_g)\) as the generator&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Discriminator:&lt;/strong&gt;
+- let us define \(D(\textbf{x})\) as the probability that the data \(\textbf{x}\) is drawn from the data state space and not its parameterized probability distribution \(p_g(\centerdot)\)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;let \(D(\textbf{x}; \theta_d): \mathbb{R}^{n_x} \rightarrow  \mathbb{R}^1\) represent the differentiable function that parameterizes the probability \(D(\textbf{x})\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;define \(D(\textbf{x}; \theta_d)\) as the discriminator&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;GANs Algorithm&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;GANs &lt;strong&gt;&lt;em&gt;simulataneously&lt;/em&gt;&lt;/strong&gt; train two &lt;u&gt;different&lt;/u&gt; multilayer perceptrons in a minimax scenario:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;one maximizes the probability of assigning the correct label to both training examples and samples drawn from \(G(z; \theta_g)\),
+    &lt;ul&gt;
+      &lt;li&gt;i.e. train to  \(\max_D \text{ log } D(x)\);&lt;/li&gt;
+      &lt;li&gt;note that this is done with supervised learning&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;the second perceptron trains \(G(\textbf{z};\theta_g)\)  to minimize the \(\text{log }[1 - D(G(\textbf{z}))]\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Essentially, we are playing a two-player minimax game with value function \(V(G(\centerdot), D(\centerdot))\):&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+  \min_G \max_D V(D,G) = \mathbb{E}_{x \sim p(x)} \left[\text{ log } D(\textbf{x}) \right] + \mathbb{E}_{\textbf{z} \sim p(\textbf{z})} \left[\text{ log } \left(1 - D(G(\textbf{z})\right)\right]
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;One may wonder why we are taking the logarithms of the differentiable functions: my gut is the authors used the logarithms to hasten the optimization process since differentiating the logarithm of a high cost takes less time than the bare-bones cost function itself \(i.e. (\textbf{O}(\text{ log } (n)) &amp;lt; &amp;lt;  \textbf{ O } (n))\). If the functions are matrix variables, we could take their log determinants.&lt;/p&gt;
+
+&lt;div class=&quot;fig figcenter fighighlight&quot;&gt;
+  &lt;img src=&quot;assets/Gans/fig1.jpg&quot; width=&quot;20%&quot; height=&quot;60%&quot; border=&quot;0&quot; /&gt;
+  &lt;img src=&quot;assets/Gans/fig2.jpg&quot; width=&quot;20%&quot; height=&quot;60%&quot; border=&quot;0&quot; /&gt;  
+  &lt;img src=&quot;assets/Gans/fig3.jpg&quot; width=&quot;20%&quot; height=&quot;60%&quot; border=&quot;0&quot; /&gt;  
+  &lt;img src=&quot;assets/Gans/fig4.jpg&quot; width=&quot;20%&quot; height=&quot;60%&quot; border=&quot;0&quot; /&gt;  
+  &lt;div class=&quot;figcaption&quot; align=&quot;left&quot;&gt;
+    Fig.1: Intuition behind Generative Adversarial Networks (reproduced from the original &lt;a href=&quot;https://arxiv.org/abs/1406.2661&quot;&gt;paper).&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Essentially, GANs involve simultaneously:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;generating samples from a data with probability distribution, \(p_{\text{data}}(x)\) (black, dotted system in Fig 1)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;generating samples from a generative distribution, \(p_g(G)\) (green, solid system in Fig 1),
+    &lt;ul&gt;
+      &lt;li&gt;\(z\) is typically sampled uniformly from a uniform Gaussian noise distribution (lower horizontal line in Fig 1).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;updating a discriminant, \(D\) (blue, dashed system in Fig 1),
+    &lt;ul&gt;
+      &lt;li&gt;this distinguishes between samples from \(p_{\text{data}}(x)\) from samples from \(p_g(G)\). \(\textbf{z}\)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;the horizontal line is part of the domain of \(\textbf{x}\) such that
+    &lt;ul&gt;
+      &lt;li&gt;\(\textbf{x} =G(\textbf{z})\) in the upward arrows imposes the non-uniform distribution \(p_g\) on transformed samples.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;when the underlying probability distribution is very dense, \(G(\centerdot)\) contracts and it expands in regions of low density in $p_g$.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;near optimum, \(p_g\) is similar to $p_\text{data}$ and $D$ is a partially accurate classifier (fig1a).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;in the inner loop of the algorithm, at convergence, \(D\) discriminates samples from data, yielding \(D^\star(\textbf{x}) = \frac{p&lt;em&gt;\text{data}(\textbf{x})}{ p&lt;/em&gt;\text{data}(\textbf{x}) + p_g(\textbf{x})}\) (fig1b) .&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;updating \(G\), the gradients of \(D\) guides \(G(\textbf{z})\) to flow to regions that are more likely to be classified as data (fig1c) .&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;after multiple steps of backprop, provided that $G$ and $D$ have enough capacity, they will reach a &lt;em&gt;saddle point&lt;/em&gt; where neither can improve, since $p_g = p_\text{data}$ (fig1d) .&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At equilibrium, discriminator is unable to differentiate between the two
+distributions, i.e. \(D(\textbf{x}) = \frac{1}{2}\).&lt;/p&gt;
+
+&lt;p&gt;GANs  allow us to train a discriminator as an unsupervised “density estimator” which outputs a low value for an original data and a high value for fictitious data. By pitting the adversary against the discriminator, the generator parameterizes a nonlinear manifold of a dynamical system, maps it to a point on the data manifold, and the discriminator develops internal dynamics that is capable of solving a difficult unsupervised learning problem.&lt;/p&gt;
+
+&lt;h4 id=&quot;training-gans&quot;&gt;Training GANS&lt;/h4&gt;
+
+&lt;p&gt;The algorithm is as detailed below:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python
+  for i in N do
+      for steps in k do
+        obtain m noise samples {z(1), ..., z(m)} from generator noise prior p(z)
+        obtain m minibatch examples {x(1), ..., x(m)} from data generating distribution p(x)
+        update discriminator by ascending its stochastic gradient:
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\nabla_{\theta_d}\frac{1}{m}\sum_{i=1}^{m} [\text{log } D(x(i)) + \text{ log } (1 - D(G(z{i})))].  \nonumber
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python
+      end for
+      obtain m noise samples {z(1), ..., z(m)} from generator noise prior p(z)
+      update generator by descending its stochastic gradient:
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\nabla_{\theta_g}\frac{1}{m}\sum_{i=1}^{m} \text{ log } (1 - D(G(z{i}))).  \nonumber
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python
+  end for
+&lt;/code&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>2017-06-11 06:21:00 -0500</pubDate>
+        <link>gans</link>
+        <guid isPermaLink="true">gans</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["gans", "machine-learning"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>On the necessary and sufficient conditions for optimal controllers</title>
+        <description>
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: &quot;AMS&quot; } }
+});
+&lt;/script&gt;
+
+&lt;!--Mathjax Parser --&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+&lt;/script&gt;
+
+&lt;!-- ### &lt;center&gt;Optimal Controllers: &lt;/center&gt; --&gt;
+&lt;p&gt;This post deals with understanding the necessary and sufficient conditions, fundamental Lipschitz continuity assumptions and the terminal boundary conditions imposed on the Hamilton-Jacobi equation to assure that the problem of minimizing an integral performance index is well-posed.&lt;/p&gt;
+
+&lt;h4 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h4&gt;
+
+&lt;p&gt;Suppose we have the following nonlinear dynamical system&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}            \label{eq:system}
+  \dot{x}  =f(x, u, t), \qquad \qquad x(t_0) = x_0
+\end{equation}  &lt;/p&gt;
+
+&lt;p&gt;which starts at state, \(x_0\) and time, \(t_0\).&lt;/p&gt;
+
+&lt;h5 id=&quot;assumption-i&quot;&gt;&lt;strong&gt;Assumption I&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;If the function \(f(\centerdot)\) is
+continuously differentiable in all its arguments, then the initial value problem (IVP) of \eqref{eq:system} has a &lt;u&gt;unique solution&lt;/u&gt; on a finite time interval; this is a sufficient assumption (Khalil, 1976).&lt;/p&gt;
+
+&lt;h5 id=&quot;assumption-ii&quot;&gt;&lt;strong&gt;Assumption II&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;\(T\) is sufficiently small enough to reside within the time interval where the system’s solutions are defined.&lt;/p&gt;
+
+&lt;p&gt;Qualitatively, our goal is to &lt;strong&gt;optimally&lt;/strong&gt; control the system when it starts in a state \(x_0\), at time \(t_0\), to a neighborhood of the terminal manifold \(T\), whilst exerting as minimal a control energy as possible. Quantitatively, we can define this goal in terms of an index of performance evaluation defined thus:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}            \label{eq:cost}
+  J = J(x(t_0, u(\centerdot), t_0)  = \int\limits_{t=t_0}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))
+\end{equation}  &lt;/p&gt;
+
+&lt;p&gt;where \(J\) is evaluated along the trajectories of the system \(x(t)\), based on an applied control \(u(\centerdot)|_{t_0 \le t \le T} \).
+With \(L\left(x(\tau), u(\tau), \tau\right)\) as the instantaneous cost and \(V(x(T))\) as the terminal cost (which are nonnegative funtions of their arguments), we can think of \(J\) as the total amount of actions we take (controls) and the state energy utilized in bearing the states from \(x_0\) to a neighborhood of the terminal manifold \(V(x(T)) = 0\).&lt;/p&gt;
+
+&lt;p&gt;The question to ask then is that given the cost of performance index \(J\), how do we find a control law \(u^\star\) that is optimal along a unique state trajectory, \(x^\star\), in the interval \([t_0, T]\)? This optimal cost would be the minimum of all the possible costs that we could possibly incur when we implement the optimal control law \(u^\star\). Mathematically, we can express this cost as:&lt;/p&gt;
+
+&lt;p&gt;\begin{gather}
+  J^\star(x(t_0), t_0)  = \int\limits_{t=t_0}^{T} L \left(x^{\star}(\tau), u^\star(\tau), \tau \right) d\tau + V(x^\star(T)) &lt;br /&gt;
+                 = \min_{ u_{[t_0, T]}} J(x_0, u, t_0)
+\end{gather}&lt;/p&gt;
+
+&lt;p&gt;Therefore, the optimal cost is a function of the starting state and time so that we can write:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+  J^\star(x(t_0), t_0) = \min_{ u_{[t_0, T]}} J(x(t_0), u(\centerdot), t_0) = \min_{ u_{[t_0, T]}} \int\limits_{t_0}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Now, assume that we start at an arbitrary initial condition \(x\), at time \(t\), it follows that the optimal cost-to-go from \(x(t)\) to \(x(T)\) is (abusing notation and dropping the templated arguments in \(J\)):&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}          \label{eq:cost-to-go}
+  J^\star(x, t) = \min_{ u_{[t, T]}} \left[\int\limits_{t}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau\right] + V(x(T))
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Things get a little bit interesting when we splice up the integral kernel in \eqref{eq:cost-to-go} along two different time-paths, namely:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:spliced}
+  J^\star(x, t) = \min_{ u_{[t, T]}} \left[\int\limits&lt;em&gt;{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau + \int\limits&lt;/em&gt;{t_1}^{t_2} L\left(x(\tau), u(\tau), \tau\right)d\tau\right] + V(x(T))
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;We can split the minimization over two time intervals, e.g.,  &lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:two_mins}
+  J^\star(x, t) = \min_{ u_{[t, t_1]}} \min_{ u_{[t_1, t_2]}} \left[\int\limits&lt;em&gt;{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau + \int\limits&lt;/em&gt;{t_1}^{t_2} L\left(x(\tau), u(\tau), \tau\right)d\tau\right] + V(x(T))
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Equation \eqref{eq:two_mins} gives the beautiful intuition that one can divide the integration into two or more time slices, solve the optimal control problem for each time slice and in the overall, minimize the effective cost function \(J\) of the overall system. This in essence is a statement of &lt;a href=&quot;https://en.wikipedia.org/wiki/Richard_E._Bellman&quot;&gt;Richard E. Bellman&lt;/a&gt;’s principle of optimality:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bellman’s Principle of Optimality: An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;– Bellman, Richard. Dynamic Programming, 1957, Chap. III.3.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With the principle of optimality, the problem takes a more intuitive meaning, namely that the cost to go from \(x\) at time \(t\) to a terminal state \(x(T)\) can be computed by minimizing the sum of the cost to go from \(x = x(t)\) to \(x_1 = x(t_1)\) and then, the  optimal cost-to-go from \(x_1\) onwards.&lt;/p&gt;
+
+&lt;p&gt;Therefore, \eqref{eq:two_mins} can be restated as:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:two_mins_sep}
+  J^\star(x, t) = \min_{ u_{[t, t_1]}} \left[\int\limits&lt;em&gt;{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau +  \underbrace{\min_{ u_{[t_1, t_2]}} \int\limits&lt;/em&gt;{t_1}^{t_2} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))}_{J^\star(x_1, \, t_1)} \right]
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\(J^\star(x_1, \, t_1)\) in \eqref{eq:two_mins_sep} can be seen as the optimal cost-to-go from \(x_1\) to \(x(T)\), with the overall cost given by&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}         \label{eq:optimal_pre}
+  J^\star(x, t) = \min_{ u_{[t, t_1]}} \left[\int\limits_{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau +  J^\star(x_1, \, t_1)  \right]
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Replacing \(t_1\) by \(t + \delta t\) and with the assumption that \(J^\star(x, t)\) is differentiable, we can expand \eqref{eq:optimal_pre} into a first-order Taylor series around \((\delta t, x)\) as follows:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:taylor}
+  J^\star(x, t) = \min_{ u_{[t, t + \delta]}} \left[ L\left(x, u, \tau\right)\delta t  +  J^\star(x, \, t) + \left(\dfrac{\partial J^\star(x, t)}{\partial t}\right) \delta t + \left(\dfrac{\partial J^\star(x, t)}{\partial x} \right) \delta x + o(\delta)  \right]
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;where \(o(\delta)\) denotes higher order terms satisfying \(\lim_{\delta \rightarrow 0}\dfrac{o(\delta)}{\delta} = 0\).&lt;/p&gt;
+
+&lt;p&gt;Refactoring \eqref{eq:taylor}, we find that&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:hamiltonian_pre}
+  \dfrac{\partial J^\star(x, t)}{\partial t}  = -\min_{ u_{[t, t + \delta]}} \left[ L\left(x, u, \tau\right)  +   \left(\dfrac{\partial J^\star(x, t)}{\partial x} \right) \underbrace{\dot{x}(\centerdot)}_{f(x,u,t)}  \right]
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;We shall define the components in the square column of the above equation as the &lt;strong&gt;Hamiltonian&lt;/strong&gt;, \(H(\centerdot)\) such that  \eqref{eq:hamiltonian_pre} can be thus rewritten:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:hamiltonian}
+  \dfrac{\partial J^\star(x, t)}{\partial t}  = -\min_{ u_{[t, t + \delta]}} H\left(x, \nabla_x J^\star (x, t), u, t \right)
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Based on the smoothness assumption of all function arguments in \eqref{eq:system},
+when the linear sensitivity of the Hamiltonian to changes in \(u\) is zero, then
+\(\nabla H_u\) &lt;strong&gt;must&lt;/strong&gt; vanish at the optimal point i.e.,&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}      \label{eq:hamiltonian_deri}
+  \nabla H_u(x, \nabla_x J^\star (x, t), u, t) = 0
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;ensuring that we satisfy the &lt;strong&gt;local optimality&lt;/strong&gt; property of the controller. In addition, if the Hessian of the Hamiltonian is positive definite along the trajectories of the solution, i.e.,&lt;/p&gt;
+
+&lt;p&gt;\begin{equation} &lt;br /&gt;
+  \dfrac{\partial^2 H}{\partial^2 u} &amp;gt; 0
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;then we have the sufficient condition for global optimality. These conditions are referred to as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Legendre%E2%80%93Clebsch_condition&quot;&gt;Legendre-Clebsch&lt;/a&gt; conditions, essentially guaranteeing that over a singular arc, the Hamiltonian is minimized.&lt;/p&gt;
+
+&lt;p&gt;You begin to see the beauty of optimal control in that \eqref{eq:hamiltonian_deri} allows us to translate the complicated functional minimization integral of \eqref{eq:cost} into a minimization problem that can be solved by ordinary calculus.&lt;/p&gt;
+
+&lt;p&gt;If we let&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}    &lt;br /&gt;
+  H^\star(x, \nabla_x J^\star (x, t), t) = \min_u \left[H(x, \nabla_x J^\star (x, t), u, t)\right]
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;then it follows that solving \eqref{eq:hamiltonian_deri} for the optimal \(u = u^\star\) and putting the result in \eqref{eq:hamiltonian}, one obtains the &lt;em&gt;&lt;strong&gt;Hamilton-Jacobi-Bellman&lt;/strong&gt;&lt;/em&gt; pde whose solution is the optimal cost \(J^\star(x(t), t\) such that&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:optimal_cost}
+  \dfrac{\partial J^\star(x, t)}{\partial t}  = -H^\star \left(x, \nabla_x J^\star (x, t), u, t \right)
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;We can introduce a boundary condition that assures that the cost function of \eqref{eq:cost} is well-posed viz,&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}        \label{eq:boundary_cost}
+  J^\star(x(T), T)  = V(x(T))
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;Taken together, equations \eqref{eq:optimal_cost} allows us to analytically solve for the instanteneous &lt;code&gt;kinetic energy&lt;/code&gt; of the cost function in \eqref{eq:cost} and \eqref{eq:boundary_cost}  allows us to solve for the boundary condition that assure the sufficiency of an optimal control law to exist. If we can solve for \(u^\star\) from \(J^\star(x,t)\), then \eqref{eq:boundary_cost} must constitute the optimal control policy for the nonlinear dynamical system in \eqref{eq:system} given the cost index \eqref{eq:cost}.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h3&gt;
+
+&lt;p&gt;Notice that the optimal policy \(u^\star(t)\) is basically an open-loop control strategy. Why so? \(u^\star\) was derived as a function of time \(t\). As a result, the strategy may not be robust to uncertainties and may be very sensitive. For practical applications, we generally want to have a feedback control policy that is state dependent in order to guarantee robustness to parametric variations and achieve robust stability and performance. Such a \(u = u^\star(x)\) would be helpful in analysing the stability of states and convergence of system dynamics to equilibrium for all future times. Will post such methods in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Properties&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Equations&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dynamics:&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;\(\dot{x}  =f(x, u, t), \quad x(t_0) = x_0 \)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cost:&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;\(J(x,u,\tau) = \int\limits_{t=t_0}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Optimal cost :&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;\(J^\star(x,t) = \min_{u[t,T]}J\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hamiltonian:&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;\(H(x,u,t) =  L\left(x, u, \tau\right)  +   \left(\dfrac{\partial J^\star(x, t)}{\partial x} \right) f(x,u,t)\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Optimal Control:&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;\(u^\star(t) =  H^\star(x,u,t) =  \nabla H_u(x,u,t)\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;HJB Equation:&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;\(-\dfrac{\partial J^\star(x,t)}{\partial t} = H^\star(x, \nabla_x J^\star(x,t),t) )\)  and   \(J^\star(x(T), T)  = V(x(T))\)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;further-readings&quot;&gt;Further Readings&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20050110161049/http://www.wu-wien.ac.at/usr/h99c/h9951826/bellman_dynprog.pdf&quot;&gt;Richard Bellman: On The Birth Of Dynamic Programming&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Optimal-Control-Quadratic-Methods-Engineering/dp/0486457664&quot;&gt;Optimal Control: Linear Quadratic Methods&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>2017-06-04 08:28:00 -0500</pubDate>
+        <link>optimal-control</link>
+        <guid isPermaLink="true">optimal-control</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["control", "optimal-control"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>Should I use ROS or MuJoCo?</title>
+        <description>&lt;p&gt;This was my answer to a question posted in an email thread to our research group’s email lists. The question goes like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;QUESTION&lt;/strong&gt;
+&lt;br /&gt;
+&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;em&gt;__&lt;/em&gt;&lt;br /&gt;
+From: XXX@uni-x.edu &lt;br /&gt;
+Sent: Sunday, May 14, 2017 9:29 AM &lt;br /&gt;
+To: XXX@lists.uni-x.edu &lt;br /&gt;
+Subject: RE: [robotec] MuJoCo &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the documentation, looks like MuJoCo is faster and therefore better to simulate computational intensive controllers like MPC. Gazebo provides other engines as well and seems like is more popular in the ROS community. How to choose between the available options? Which one would you recommend?&lt;/p&gt;
+
+&lt;p&gt;Thanks,&lt;br /&gt;
+XXX&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TL; DR:&lt;/strong&gt;
+If you do not care for accuracy of simulated controller numerical results, if you are not simulating parallel linkages, if you do not need code parallelization (i.e. your computation is not crazy intensive) or if you are not simulating contact and friction, I would choose ROS. Easy to use and straightforward to build fairly complex models.  &lt;/p&gt;
+
+&lt;h1 id=&quot;proper-long-answer&quot;&gt;&lt;strong&gt;Proper (Long) Answer&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;ROS and Gazebo (OSRF tools) are indeed popular in the robotics community like you mentioned and they have their pros. It took me a while to see their limit when using them for research purposes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ROS = Plumbing + Tools + Capabilities + Ecosystem&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Plumbing&lt;/code&gt;: ROS provides publish-subscribe messaging infrastructure designed to support the quick and easy construction of distributed computing systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Tools&lt;/code&gt;: ROS provides an extensive set of tools for configuring, starting, introspecting, debugging, visualizing, logging, testing, and stopping distributed computing systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Capabilities&lt;/code&gt;: ROS provides a broad collection of libraries that implement useful robot functionality, with a focus on mobility, manipulation, and perception.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Ecosystem&lt;/code&gt;: ROS is supported and improved by a large community, with a strong focus on integration and documentation. ros.org is a one-stop-shop for finding and learning about the thousands of ROS packages that are available from developers around the world. answers.ros.org is a rich online community of ros packages users from around the world asking questions and getting help on how to use ROS.&lt;/p&gt;
+
+&lt;p&gt;So getting a simple dynamics kicking should not be a lot of hassle as the documentation is rich and the online community is very active in supporting newbies.&lt;/p&gt;
+
+&lt;p&gt;In the early days, the plumbing, tools, and capabilities were tightly coupled, which has both advantages and disadvantages. On the one hand, by making strong assumptions about how a particular component will be used, developers are able to quickly and easily build and test complex integrated systems. On the other hand, users are given an “all or nothing” choice: to use an interesting ROS component, you pretty much had to jump in to using all of ROS.&lt;/p&gt;
+
+&lt;p&gt;8+ years in after Andrew Ng and co. conceived the platform, the core system has matured considerably, and developers are hard at work refactoring code to separate plumbing from tools from capabilities, so that each may be used in isolation. In particular, people are aiming for important libraries that were developed within ROS to become available to non-ROS users in a minimal-dependency fashion (e.g. OMPL and PCL libraries).&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: Borrowed  from Brian Gerkey’s/my answer to a similar quora question about a year ago.&lt;/p&gt;
+
+&lt;p&gt;For serially linked robot arms and other non-parallel linkages, ROS is a great simulation tool and “middleware”.  However, there are bottlenecks with ROS.&lt;/p&gt;
+
+&lt;p&gt;What ROS calls URDF (Universal Robot Description Format), which is the abstraction tool for rigid body dynamics, is not universal in any sense of the word. URDF models written in ROS are  out-of-the-box incompatible with Gazebo, its sister physics engine (see this &lt;a href=&quot;http://answers.gazebosim.org/question/14891/conversion-from-urdf-to-sdf-using-gzsdf-issues/&quot;&gt;question/wiki&lt;/a&gt;).  More so, state representation in OSRF tools such as ROS is represented in a tree-like manner. I learnt this late last year when simulating parallel linkages. The internal ROS XML  parser interprets constructed linkages as a deep binary tree and not graphs. This makes  simulating parallel linkages almost (actually) impossible. Repeat, actually impossible. They have a fix for this in Gazebo SDF but it is not straightforward. So developers spend a huge chunk of time migrating code from one OSRF framework to another.&lt;/p&gt;
+
+&lt;p&gt;Good controller algorithm formulations are based on numerical optimization (think MPC, differential dynamic programming, sampling-based motion-planning or reinforcement learning). Gazebo was designed around the ODE (Open Dynamics Engine) and Bullet physics engines which provide the states in over-complete Cartesian coordinates and enforce joint constraints via numerical optimization. This is good enough for disconnected bodies with few joint constraints but becomes a pain for complex dynamics such as humanoids or simulating human-robot interactions. Running complex simulations for huge candidate evaluations of humanoids can run into months using ROS (e.g. Todorov’s de novo synthesis). Whereas MUJOCO is optimized for parallel processing, distributed evaluation of possible controllers from which a candidate controller is chosen.&lt;/p&gt;
+
+&lt;p&gt;ODE simulators optimize the controller to the engine. This makes the controller cheat during simulations in ways that mean generated control laws may be physically unrealizable. Speed and accuracy? Controller optimization with MoveIt! (a motion planning framework from OSRF) is mostly done in a single threaded code without the advantage of explicit parallelization of code to make e.g. IK solutions faster. Implementation of concurrency and multithreading is left to the user (this is a big no-no for someone not interested in software engineering).&lt;/p&gt;
+
+&lt;p&gt;ROS is strictly written based on the assumption that the user is running a Linux kernel. So users not familiar with Linux are thrown aback when they first get exposed to it. With MUJOCO, you do not need Linux or OSX as it works on Windows OS just fine. MUJOCO also use an XML parser to interpret links and joints and so it is able to read ROS URDFs and xacro files okay. But it doesn’t work the other way (see &lt;a href=&quot;http://www.mujoco.org/forum/index.php?threads/ros-gazebo-integration.3371/&quot;&gt;this answer&lt;/a&gt; from Todorov)&lt;/p&gt;
+
+&lt;p&gt;MPC implementations are elegant only when the model is accurate. Unexpected poor performance of an MPC controller will often be due to poor modeling assumptions (Rossiter).  If the simulation engine emphasizes simulation stability over control law precision, we have a problem.  And this is my problem with Gazebo and ROS generally. I read it somewhere in one of Todorov’s papers (can’t remember where I found it) that the floating point ops of MUJOCO were unit tested to &lt;code&gt;&amp;gt;&amp;gt;355&lt;/code&gt; decimal points. The OSRF community may be good at community based software engineering for robotics but you have to give Todorov the credit. He had the patience and tenacity to develop such a robust software for control simulation. People stopped paying attention to floating point operational precision back in the late 80’s/90’s.&lt;/p&gt;
+
+&lt;p&gt;What’s more? MUJOCO allows you to write your models in C. Engineers are head over boots for Matlab but I am all for a program or modeling software that stays close to ones and zeros as much as possible. It means being less dumbfounded when things do not work as you envisioned and greater flexibility in being the master and architect of your creation.&lt;/p&gt;
+</description>
+        <pubDate>2017-05-14 08:28:00 -0500</pubDate>
+        <link>mujoco-ros</link>
+        <guid isPermaLink="true">mujoco-ros</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["Q&A", "ros", "mujoco"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>Twanging git pull, push and clone</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#table-o-conts&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#pullpush&quot;&gt;Pulling/Pushing git remotes from LAN/WAN repos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#clone&quot;&gt;Cloning git remotes from LAN/WAN repos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;
+### Introduction&lt;/p&gt;
+
+&lt;p&gt;Git is a useful tool for remote/online work collaboration, as well as social coding. It is useful being able to share one’s work among different computers using native git commands such as &lt;code&gt;merge&lt;/code&gt;, &lt;code&gt;fetch&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;clone&lt;/code&gt;, or &lt;code&gt;pull&lt;/code&gt; without resolving to using &lt;code&gt;ssh&lt;/code&gt;, or &lt;code&gt;scp&lt;/code&gt; which are without the benefits of &lt;code&gt;diff&lt;/code&gt; and &lt;code&gt;merge&lt;/code&gt; strategies of &lt;code&gt;git&lt;/code&gt;. More so, not everyone enjoys exposing their incomplete work/code to a remote repo for the sake of fetching to local &lt;code&gt;origins&lt;/code&gt; on different computers. This post is meant to show how to go about these git ops strategies without going through a remote e.g. an http[s] server.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;pullpush&quot;&gt;&lt;/a&gt;
+#### Pulling/Pushing git remotes from a LAN/WAN repo&lt;/p&gt;
+
+&lt;p&gt;As an example, suppose we have a repo named &lt;code&gt;sensors&lt;/code&gt; in the &lt;code&gt;Documents&lt;/code&gt; directory of a computer with username and group name &lt;code&gt;drumpf@dissembler&lt;/code&gt; and we have a few commits ahead of a tracking repo on a computer named &lt;code&gt;robots@killem&lt;/code&gt;, we can fetch and merge our recent commits on &lt;code&gt;drumpf@dissembler&lt;/code&gt; into &lt;code&gt;robots@killem&lt;/code&gt; as follows:&lt;/p&gt;
+
+&lt;p&gt;We could use &lt;code&gt;ssh&lt;/code&gt;, &lt;code&gt;http[s]&lt;/code&gt;, &lt;code&gt;ftp[s]&lt;/code&gt; or &lt;code&gt;rsync&lt;/code&gt; transport protocols. To pull updates from &lt;code&gt;drump@dissembler:~/Documents/sensors.git&lt;/code&gt; to &lt;code&gt;robots@killem:~/Documents/sensors.git&lt;/code&gt; repo, we would do one of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;via ssh:&lt;/p&gt;
+
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;robots@killem:~/Documents/sensors$ git pull ssh://drumpf@dissembler:/~/Documents/sensors.git&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;via https:&lt;/p&gt;
+
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;robots@killem:~/Documents/sensors$ git pull http[s]://drumpf@dissembler:/robots/killem/Documents/sensors.git&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;via ftp&lt;/p&gt;
+
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;robots@killem:/home/drumpf/Documents/sensors$ git pull ftp[s]://drumpf@dissembler:/robots/killem/Documents/sensors.git&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;via rsync&lt;/p&gt;
+
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;robots@killem:/home/drumpf/Documents/sensors$ git pull rsync://drumpf@dissembler:/~/Documents/sensors.git&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that we have used user expansion for both &lt;code&gt;ssh&lt;/code&gt; and &lt;code&gt;git&lt;/code&gt;. &lt;code&gt;ftp[s]&lt;/code&gt; and &lt;code&gt;rsync&lt;/code&gt; do not allow user expansion when pulling, pushing or cloning, so the full path to the repo has to be specified.
+The &lt;code&gt;https&lt;/code&gt; syntax has no authentication and can be dangerous on unsecured networks. If the group names of the computers are not advertised by &lt;code&gt;/etc/hosts&lt;/code&gt;, you can use the ip address of the computer in place of the host names. Note that &lt;code&gt;ftp[s]&lt;/code&gt; can be used for fetching while &lt;code&gt;rsync&lt;/code&gt; can be used for both fetching and pushing. Both are not very efficient, however, and they are actually deprecated; so you should refrain from using them as much as you can.&lt;/p&gt;
+
+&lt;p&gt;All the commands above would also work for &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SCP-like syntaxes are valid as well:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;scp [user@]host.ng:path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;but note that the first character after the first column must not be a slash to help distinguish a local path from an ssh url&lt;/p&gt;
+
+&lt;p&gt;All of the above commands also support cloning &lt;code&gt;git&lt;/code&gt; repos from one directory to another on the same host or between workstations on the same &lt;code&gt;LAN/WAN&lt;/code&gt;. All that would need to change would be to replace the &lt;code&gt;LAN/WAN&lt;/code&gt; hostname with the path we are cloning from. See examples below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;clone&quot;&gt;&lt;/a&gt;
+#### Cloning git remotes from a LAN/WAN repo&lt;/p&gt;
+
+&lt;p&gt;The procedure is the same as above save we replace pull/push with clone, e.g&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;git clone ssh://[you@]remote.ng[:port]/path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;git clone  git://remote.ng[:port]/path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;git clone  http[s]://remote.ng[:port]/path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;git clone  ftp[s]://remote.ng[:port]/path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;git clone rsync://remote.ng/path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If when doing any of the operations specified so far, the transport protocol is not specified, no problem! Git assumes a remote url transport protocol if it does not know what the remote address is. So we could for example do&lt;/p&gt;
+
+&lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;robots@killem:~/Documents/sensors$ git push transport::address&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;address&lt;/code&gt; is the path to the repo on the LAN/WAN and transport is replaced by &lt;code&gt;https&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;An alternative scp-like syntax is also valid when using the ssh protocol:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;pre class=&quot;terminal&quot;&gt;&lt;code&gt;git clone [you@]remote.ng:path/to/repo.git/&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just as is the case for &lt;code&gt;pull/push&lt;/code&gt;, &lt;code&gt;https&lt;/code&gt; is not secure and should be used with caution.&lt;/p&gt;
+</description>
+        <pubDate>2017-05-12 06:37:00 -0500</pubDate>
+        <link>git-twangs</link>
+        <guid isPermaLink="true">git-twangs</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["git"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>Ubuntu-16.04 and Cuda-8.0 Install Guide</title>
+        <description>&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;NVIDIA libraries are notorious for breaking Xserver particularly in the ubuntu Linux distro. Here’s my installation guide on how to do a clean install without breaking display drivers. Hope it helps.&lt;/p&gt;
+
+&lt;h4 id=&quot;installation&quot;&gt;Installation&lt;/h4&gt;
+
+&lt;p&gt;Pull Ubuntu 8.0 from &lt;a href=&quot;https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add a &lt;code&gt;blacklist-nouveau.conf&lt;/code&gt; file to your &lt;code&gt;etc/modprobe.d&lt;/code&gt; directory like so:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+  sudo touch /etc/modprobe.d/blacklist-nouveau.conf
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add the following contents to the file you just created using your fave editor:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+blacklist nouveau
+options nouveau modeset=0
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Turn off X server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+  sudo service lightdm stop
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Cuda 8.0&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;cd&lt;/code&gt; to the directory where the cuda install file was stored and run it with admin rights e.g.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;code&gt;bash
+sudo ./cuda_8.0.61_375.26_linux.run
+&lt;/code&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Accept the EULA Licence agreement&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Accept yes for NVIDIA drivers install&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Accept yes for cuda-8.0 and cuda symlink&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Decline the installation of OpenGL Libraries (this breaks Xserver)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Install Samples&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Decline the installation of nvidia-xconfig (you wouldn’t need it)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Reboot your system after installation&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voila! We’re set to start developing with cuda.&lt;/p&gt;
+</description>
+        <pubDate>2017-04-28 05:32:00 -0500</pubDate>
+        <link>cuda-ubuntu-fix</link>
+        <guid isPermaLink="true">cuda-ubuntu-fix</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["ubuntu", "linux", "cuda"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>PyTorch and rospy interoperability</title>
+        <description>&lt;h3 id=&quot;table-of-contentstable-of-contents&quot;&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of Contents&lt;/a&gt;:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#nonlinear&quot;&gt;Background&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#problem-formulation&quot;&gt;Importing Torch into ROSPY&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;
+#### Introduction&lt;/p&gt;
+
+&lt;p&gt;Yesterday was mighty nightmarish in the life of this developer. I had trained a conv-net meant to classifer an object I was trying to recognize and later on manipulate using vision-based control. Since &lt;code&gt;PYTORCH&lt;/code&gt; had tensor computation with strong GPU acceleration and differential backprop capabilities based on the &lt;code&gt;torch auto-grad&lt;/code&gt; system, I took advantage of its python compatibility since it would mean I could easily write my control code in &lt;code&gt;rospy&lt;/code&gt; or &lt;code&gt;roscpp&lt;/code&gt; and publish vision/control topics that reduces interoperability issues when working with different Linux processes. Only that I didn’t anticipate &lt;code&gt;Python 2&lt;/code&gt; and &lt;code&gt;Python 3&lt;/code&gt; module import problems way ahead of time. I would give more background below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;nonlinear&quot;&gt;&lt;/a&gt;
+#### Background&lt;/p&gt;
+
+&lt;p&gt;For the record, I run &lt;code&gt;ROS 1.x (indigo bare bones)&lt;/code&gt; on a &lt;code&gt;ubuntu 14.04 machine&lt;/code&gt; with a 32GB RAM. The &lt;code&gt;pytorch&lt;/code&gt; developers encourage users to install &lt;code&gt;Torch&lt;/code&gt; with &lt;code&gt;conda&lt;/code&gt; and typically use &lt;code&gt;python3&lt;/code&gt; since &lt;code&gt;python 2&lt;/code&gt; will be phased out in the near future. So, I had been using &lt;code&gt;pytorch&lt;/code&gt; in a &lt;code&gt;conda&lt;/code&gt; environment that both had a &lt;code&gt;python 2&lt;/code&gt; and &lt;code&gt;python 3&lt;/code&gt; environment. I could easily switch environments by turning on or off whichever python version I wanted. For details on how to do this, see this &lt;a href=&quot;https://conda.io/docs/py2or3.html&quot;&gt;doc&lt;/a&gt; from the folks at conda.&lt;/p&gt;
+
+&lt;p&gt;So far, everything was working great. For &lt;code&gt;ros&lt;/code&gt; applications that does not involve image processing classes such as &lt;code&gt;CvBridge&lt;/code&gt;, I was able to get &lt;code&gt;ros&lt;/code&gt; and &lt;code&gt;pytorch&lt;/code&gt; to talk in &lt;code&gt;python3&lt;/code&gt; despite &lt;code&gt;python3&lt;/code&gt; being unofficially supported for &lt;code&gt;ROS 1.x&lt;/code&gt; (see this &lt;a href=&quot;https://github.com/ros2/ros2/wiki&quot;&gt;github wiki&lt;/a&gt;). Getting this to work involves pip installing the necessary &lt;code&gt;ros&lt;/code&gt; dependencies in &lt;code&gt;python3&lt;/code&gt; using this &lt;a href=&quot;https://github.com/lakehanne/RAL2017/blob/master/requirements.txt&quot;&gt;requirements.txt file&lt;/a&gt;. This &lt;a href=&quot;https://github.com/lakehanne/RAL2017/blob/master/pyrnn/src&quot;&gt;github repo page&lt;/a&gt; shows how I do this.&lt;/p&gt;
+
+&lt;p&gt;Anyways, so I trained a conv net model in &lt;code&gt;pytorch&lt;/code&gt;, no big deal. I had a &lt;code&gt;roscpp&lt;/code&gt; node in running on a different workstation, but within the same &lt;code&gt;ros&lt;/code&gt; network broadcasting &lt;code&gt;sensor_msgs/Image&lt;/code&gt; &lt;code&gt;RGB&lt;/code&gt; images on a designated topic. Given what I know, it should be easy subscribing to the image topic and forwarding the video stream through the pre-trained neural network model to obtain classification results. But boy was I wrong.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;problem-formulation&quot;&gt;&lt;/a&gt;
+#### Importing &lt;code&gt;torch&lt;/code&gt; into &lt;code&gt;rospy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;When you install &lt;code&gt;pytorch&lt;/code&gt; with &lt;code&gt;conda&lt;/code&gt;, it typically places the installation relative to your &lt;code&gt;anaconda&lt;/code&gt; install path. For me this was in &lt;code&gt;/home/$USER/anaconda3&lt;/code&gt;. So to be able to import &lt;code&gt;Torch&lt;/code&gt; and use &lt;code&gt;rospy&lt;/code&gt;’s’  &lt;code&gt;CvBridge&lt;/code&gt; class simultaneously, I installed the following modules: &lt;code&gt;netifaces&lt;/code&gt;, &lt;code&gt;catkin_pkgs&lt;/code&gt; and &lt;code&gt;rospkg&lt;/code&gt; via &lt;code&gt;pip&lt;/code&gt; while in the &lt;code&gt;python3&lt;/code&gt; &lt;code&gt;conda&lt;/code&gt; environment. Then I tried to import the convnet model from a different module’s class into a &lt;code&gt;rospy&lt;/code&gt; module I had written.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;to be able to import &lt;code&gt;Torch&lt;/code&gt; and use &lt;code&gt;rospy's&lt;/code&gt;  &lt;code&gt;CvBridge&lt;/code&gt; simultaneously, I installed the following modules: &lt;code&gt;netifaces&lt;/code&gt;, &lt;code&gt;catkin_pkgs&lt;/code&gt; and &lt;code&gt;rospkg&lt;/code&gt; via &lt;code&gt;pip&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Say &lt;code&gt;convnet.py&lt;/code&gt; model had entries like so:&lt;/p&gt;
+
+&lt;p&gt;```python
+    import torch
+    import torch.nn as nn&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class ResNet(object):
+  def __init__(self, args, **kwargs)
+
+  def convModel(self, arg1, arg2):
+    '''
+      define some conv models
+    '''
+
+  def forward(self, x):
+    '''
+     do stuff with conv layers
+    '''
+    return self.fc(prev_layer(x))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;and &lt;code&gt;process_images.py&lt;/code&gt; file had an import statement like so&lt;/p&gt;
+
+&lt;p&gt;```python
+  from convnet import ResNet&lt;/p&gt;
+
+&lt;p&gt;’’’
+    do stuff with imported model
+  ‘’’&lt;/p&gt;
+
+&lt;p&gt;```
+  I got weird errors like&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python
+    &amp;gt;&amp;gt; Python 3.6.0 (default, Oct 26 2016, 20:30:19)
+    [GCC 4.8.4] on linux2
+    Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+    &amp;gt;&amp;gt; No module named Torch
+ &lt;/code&gt;
+Huh? Country boy comes to town. But the &lt;code&gt;convnet.py&lt;/code&gt; model imports Torch okay. I figured the problem must be because I installed &lt;code&gt;pytorch&lt;/code&gt; with the &lt;code&gt;python3&lt;/code&gt; version. And so I pulled the &lt;code&gt;python2&lt;/code&gt; version of &lt;code&gt;pytorch&lt;/code&gt; from Soumith’s channel.&lt;/p&gt;
+
+&lt;p&gt;Now when I import, it says stuff like &lt;code&gt;convnet module xx compiled with a different Torch version&lt;/code&gt;. What the heck &lt;code&gt;pytorch&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;solution&quot;&gt;&lt;/a&gt;
+#### Solution&lt;/p&gt;
+
+&lt;p&gt;At this moment, I stepped out for a walk, and caught a brainchild. What if I do away with the &lt;code&gt;conda&lt;/code&gt; build of &lt;code&gt;pytorch&lt;/code&gt; and instead install &lt;code&gt;pytorch&lt;/code&gt; from source or &lt;code&gt;PyPI&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;It turns out that this is the most error-less prone way to import &lt;code&gt;pytorch&lt;/code&gt; models into a &lt;code&gt;rospy&lt;/code&gt; file or indeed a &lt;code&gt;python2&lt;/code&gt; file. To do this, I temporarily moved my &lt;code&gt;anaconda3&lt;/code&gt; folder out of &lt;code&gt;bash&lt;/code&gt;’s native path, pulled the latest &lt;code&gt;pytorch&lt;/code&gt; commit from github and then installed with &lt;code&gt;python setup.py install&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now when I try out the above commands, everything works well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It turns out that this is the most error-less prone way to import Pytorch models into a rospy file or indeed a python2 file. To do this, I temporarily moved my &lt;code&gt;anaconda3&lt;/code&gt; folder out of bash’s native path, pulled the latest pytorch commit from github and then installed with &lt;code&gt;python setup.py install&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So my two cents to the robotics community running neural net models in &lt;code&gt;pytorch&lt;/code&gt; or &lt;code&gt;tensorflow&lt;/code&gt; and using such models in &lt;code&gt;rospy&lt;/code&gt; or equivalent environments is to always go for the source installation whenever and if possible. You would save yourself a lot of headache and time-waste.&lt;/p&gt;
+</description>
+        <pubDate>2017-04-27 04:15:00 -0500</pubDate>
+        <link>pytorch-ros</link>
+        <guid isPermaLink="true">pytorch-ros</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["pytorch", "ros", "torch"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>Backpropagation and convex programming in MRAS systems</title>
+        <description>
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: &quot;AMS&quot; } }
+});
+&lt;/script&gt;
+
+&lt;!--Mathjax Parser --&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+&lt;/script&gt;
+
+&lt;h3 id=&quot;table-of-contentstable-of-contents&quot;&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of Contents&lt;/a&gt;:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#nonlinear&quot;&gt;Nonlinear (Multivariable) Model Reference Adaptive Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#problem-formulation&quot;&gt;Solving Quadratic Programming in a Backprop setting&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#slack-variables&quot;&gt;Slack Variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#limitation-backprop&quot;&gt;QP Layer as the last layer in backpropagation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#initialization&quot;&gt;QP Algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#example-codes&quot;&gt;Example Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#acknowledgements&quot;&gt;Acknowlegment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;
+## Introduction&lt;/p&gt;
+
+&lt;p&gt;The backpropagation algorithm is very useful for general optimization tasks, particularly in neural network function approximators and deep learning applications. Great progress in nonlinear function approximation has been made due to the effectiveness of the backprop algorithm. Whereas in traditional control applications, we typically use feedback regulation to stabilize the states of the system, in model reference adaptive control systems, we want to specify an index of performance to determine the “goodness” of our adaptation. An auxiliary dynamic system called the &lt;strong&gt;reference model&lt;/strong&gt; is used in generating this index of performance (IP). The reference model specifies in terms of the input and states of the model a given index of performance and a comparison check determines appropriate  control laws  by comparing the given IP and measured IP based on the outputs of the adjustable system to that of the reference model system. This is called the &lt;strong&gt;error state space&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;nonlinear&quot;&gt;&lt;/a&gt;
+### Nonlinear Model Reference Adaptive Systems&lt;/p&gt;
+
+&lt;p&gt;With nonlinear systems, the unknown nonlinearity, say \(f(.)\), is usually approaximated with a function approximator such as a single hidden layer neural network. To date, the state-of-the-art used in adjusting the weights of a neural network is the &lt;a href=&quot;https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/&quot;&gt;backpropagation algorithm&lt;/a&gt;.  The optimization in classical backprop is unrolled end-to-end so that the complexity of the network increases when we want to add an &lt;i&gt;argmin differentiation layer&lt;/i&gt; before the final neural network layer. The final layer determines the controller parameters or generates the control laws used in adjusting the plant behavior. Fitting the control laws into actuator constraints such as model predictive control schemes allow is not explicitly formulated when using the backprop algorithm; ideally, we would want to fit a quadratic convex layer to compute controller parameters exactly. We cannot easily fit a convex optimization layer into the backprop algorithm using classical gradient descent because the explicit Jacobians of the gradients of the system’s energy function with respect to system parameters is not exactly formulated (but rather are ordered derivatives which fluctuate about the global/local minimum when the weights of the network converge).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The final layer determines the controller parameters or generates the control laws used in adjusting the plant behavior. Fitting the control laws into actuator constraints such as model predictive control schemes allow is not explicitly formulated when using the backprop algorithm; ideally, we would want to fit a quadratic convex layer to compute controller parameters exactly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To generate control laws such as torques to control a motor arm in a multi-dof robot-arm for example, we would want to define a quadratic programming layer as the last layer of our neural network optimization algorithm so that effective control laws that exactly fit into actuator saturation limits are generated. Doing this requires a bit of tweaking of the backprop algorithm on our part.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;problem-formulation&quot;&gt;&lt;/a&gt;
+### Solving Quadratic Programming in a Backprop setting&lt;/p&gt;
+
+&lt;p&gt;When trying to construct a controller for a regulator, or an MRAS system, we may imagine that the control law determination is a search process for a control scheme that takes an arbitrary nonzero initial state to a zero state, ideally in a short amount of time. If the system is controllable, then we may require the controller taking the system, from state \(x(t_0)\) to the zero state at time \(T\). If \(T\) is closer to \(t_0\) than not, more control effort would be required to bear states to \(t_0\). This would  ensure the transfer of states. In most engineering systems, an upper bound is set on the magnitudes of the variables for pragmatic purposes. It therefore becomes impossible to take \(T\) to \(0\) without exceeding the control bounds. Unless we are ready to tolerate high gain terms in the controller parameters, the control is not feasible for finite T. So what do we do? To meet the practical bounds manufacturers place on physical actuators, it suffices to manually formulate these bounds as constraints into the control design objectives.  &lt;/p&gt;
+
+&lt;p&gt;Model predictive controllers have explicit ways of incorporating these constraints into the control design. There are no rules for tuning the parameters of an MRAC system so that the control laws generated in our adjustment mechanism are scaled into the bounds of the underlying actuator.&lt;/p&gt;
+
+&lt;p&gt;Since most controller hardware constraints are specified in terms of lower and upper bounded saturation, the QP problem formulated below is limited to inequality constraints. For  equality-constrained QP problems, &lt;a href=&quot;https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf&quot;&gt;Mattingley and Boyd&lt;/a&gt;, &lt;a href=&quot;http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf&quot;&gt;Vanderberghe’s CVX Optimization&lt;/a&gt;, or  Brandon Amos’ &lt;a href=&quot;https://arxiv.org/pdf/1703.00443.pdf&quot;&gt;ICML submission&lt;/a&gt; offer good treatments.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are no rules for tuning the parameters of an MRAC system so that the control laws generated in our adjustment mechanism are scaled into the bounds of the underlying actuator.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We define the standard QP canonical form problem with inequality contraints thus:&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+\text{minimize} \quad  \frac{1}{2}x^TQx + q^Tx
+\label{eq:orig}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;subject to 	&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+G x \le h  \nonumber
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;where \(Q \succeq \mathbb{S}^n_+ \) (i.e. a symmetric, positive semi-definite matrix) \(\in \mathbb{R}^n, q \in \mathbb{R}^n, G \in \mathbb{R}^{p \times n}, \text{ and } h \in \mathbb{R}^p \). Suppose we have our convex quadratic optimization problem in canonical form, we can use primal-dual interior point methods (PDIPM) to find an optimal solution to such a problem. PDIPMs are the state-of-the-art in solving such problems. Primal-dual methods with Mehrota predictor-corrector are consistent for reliably solving QP embedded optimization problems within 5-25iterations, without warm-start (&lt;a href=&quot;https://stanford.edu/~boyd/papers/pdf/code_gen_impl.pdf&quot;&gt;Boyd and Mattingley, 2012&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;slack-variables&quot;&gt;&lt;/a&gt;
+### Slack Variables
+Given \eqref{eq:orig}, one can introduce slack variables, \(s \in \mathbb{R}^p\) as follows,&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+\text{minimize}  \quad \frac{1}{2}x^TQx + q^Tx
+\label{eq:orig1}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;subject to&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+\quad G x + s =  h, \qquad s \ge 0 \nonumber
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;where \(x \in \mathbb{R}^n, s \in \mathbb{R}^p\). If we let a dual variable \(z \in \mathbb{R}^p \) be associated with the inequality constraint, then we can define the KKT conditions for \eqref{eq:orig1} as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+Gx + s = h, \quad s \ge 0 \\
+z \ge 0 \\
+Qx + q + G^T = 0 \\ \\
+z_i s_i = 0, i = 1, \ldots, p.
+&lt;/script&gt;
+
+&lt;p&gt;More formally, if we write the Lagrangian of system \eqref{eq:orig} as&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+L(z, \lambda) = \frac{1}{2}x^TQx + q^Tx +\lambda^T(Gz -h)
+\label{eq:Lagrangian}
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;it follows that the KKT for &lt;a href=&quot;https://www.cs.cmu.edu/~ggordon/10725-F12/slides/16-kkt.pdf&quot;&gt;stationarity, primal feasibility and complementary slackness&lt;/a&gt; are,&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+Q x^\ast + q + G^T \lambda^\ast = 0 ,
+\label{eq:KKTLagrangian}
+\end{align}&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+K \left(\lambda^\ast\right) \left(G x^\ast - h\right) = 0
+&lt;/script&gt;
+
+&lt;p&gt;where \(K(\cdot) = \textbf{diag}(k) \) is an operator that creates a matrix diagonal of the entries of the vector \(k\). Computing the time-derivative of \eqref{eq:KKTLagrangian}, we find that&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+dQ x^* + Q dx + dq + dG^T \lambda^* + G^T d\lambda = 0
+\label{eq:KKTDiff}
+\end{align}&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+K(\lambda^*)\left(G x^* - h\right) = 0
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a name=&quot;limitation-backprop&quot;&gt;&lt;/a&gt;
+### QP Layer as the last layer in backpropagation&lt;/p&gt;
+
+&lt;p&gt;Vectorizing \eqref{eq:KKTDiff}, we find  &lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+Q &amp; G^T   \\
+K(\lambda^\ast) G &amp; K(dGx^\ast - h)  \\
+\end{bmatrix}
+
+\begin{bmatrix}
+dx \\
+d\lambda \\
+\end{bmatrix}
+
+=
+
+\begin{bmatrix}
+-dQ x^\ast - dq - dG^T \lambda^\ast \\
+-K(\lambda^\ast) dG x^\ast + DK(\lambda^\ast) dh \\
+\end{bmatrix}
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;so that the Jacobians of the variables to be optimized can be formed with respect to the states of the system. Finding \(\dfrac{\partial J}{\partial h^*}\), for example, would involve  passing \(dh\) as identity and setting other terms on the rhs in the equation above to zero. After solving the equation, the desired Jacobian would be \(dz\). With backpropagation, however, the explicit Jacobians are useless  since the gradients of the network parameters are computed using chain rule for &lt;i&gt;ordered derivatives&lt;/i&gt; i.e.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+\dfrac{\partial ^+ J}{ \partial h_i} = \dfrac{\partial J}{ \partial h_i} + \sum_{j &gt; i} \dfrac{\partial ^+ J}{\partial h_j} \dfrac{ {\partial} h_j}{ \partial h_i}
+&lt;/script&gt;
+
+&lt;p&gt;where the derivatives with superscripts denote &lt;i&gt;ordered derivatives&lt;/i&gt; and those with subscripts denote ordinary partial derivatives. The simple partial derivatives denote the direct effect of \(h_i\) on \(h_j\) through the &lt;i&gt;linear set of equations &lt;/i&gt; that determine \(h_j\). To illustrate further, suppose that we have a system of equations given by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+x_2 = 3  x_1 \\
+x_3 = 5  x_1 + 8  x_2
+&lt;/script&gt;
+
+&lt;p&gt;The ordinary partial derivatives of \(x_3\) with respect to \(x_1\) would be \(5\). However, the ordered derivative of \(x_3\) with respect to \(x_1\) would be \(29\) (because of the indirect effect by way of \(x_2\)).&lt;/p&gt;
+
+&lt;p&gt;So with the backprop algorithm, we would form the left matrix-vector product with a previous backward pass vector, \(\frac{\partial J}{\partial x^\ast} \in \mathbb{R}^n \); this is mathematically equivalent to  \(\frac{\partial J}{ \partial x^\ast} \cdot \frac{\partial x^\ast}{ \partial h} \). Therefore, computing the solution for the derivatives of the optimization variables \(dx, d\lambda\), we have through the matrix inversion of \eqref{eq:KKTDiff},&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+dx \\ d\lambda
+\end{bmatrix}
+=
+\begin{bmatrix}
+Q &amp; G^T K(\lambda^\ast) \\
+G &amp; K(Gx^\ast - h)
+\end{bmatrix}^{-1}
+=
+\begin{bmatrix}
+{\dfrac{dJ}{dx^\ast}}^T \\ 0
+\end{bmatrix}.
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;The relevant gradients with respect to every QP paramter is given by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+\dfrac{\partial J}{\partial q} = d_x, \qquad \dfrac{\partial J}{ \partial h} = -K(\lambda^\ast) d_\lambda \\
+
+\dfrac{\partial J}{\partial Q} = \frac{1}{2}(d_x x^T + x d_x^T),  \qquad \dfrac{\partial J}{\partial G} = K(\lambda^\ast)(d_\lambda z^T + \lambda d_z^T
+)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a name=&quot;initialization&quot;&gt;&lt;/a&gt;
+### QP Initialization&lt;/p&gt;
+
+&lt;p&gt;For the primal problem,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+ \text{minimize} \quad \frac{1}{2}x^T Q  x + p^T x + (\frac{1}{2}\|s\|^2_2) \\
+ \text{ subject to } \quad Gx + s = h \\
+&lt;/script&gt;
+
+&lt;p&gt;with \(x\) and \(s\) as variables to be optimized, the corresponding dual problem is,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+  \text{maximize} \quad -\frac{1}{2}w^T Q  w - h^T z + (\frac{1}{2}\|z\|^2_2) \\
+ \text{ subject to } \quad Qw + G^T z +  q = 0 \\
+&lt;/script&gt;
+
+&lt;p&gt;with variables \(w\) and \(z\) to be optimized.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;optimization-steps&quot;&gt;&lt;/a&gt;
+### Optimization Steps&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When the primal and dual starting points \(\hat{x}, \hat{s}, \hat{y}, \hat{z} \) are unknown, they can be initialized as proposed by Vanderberghe in &lt;a href=&quot;http://www.seas.ucla.edu/~vandenbe/publications/coneprog.pdf&quot;&gt;cvxopt&lt;/a&gt; namely, we solve the following linear equations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+G &amp;  -I  \\
+Q &amp; G^T
+\end{bmatrix}
+
+\begin{bmatrix}
+z \\
+x \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+h \\
+-q \\
+\end{bmatrix}
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;with the assumption that \(\hat{x} = x,\hat{y} = y\).&lt;/p&gt;
+
+&lt;p&gt;The initial value of \(\hat{s}\) is computed from the residual \(h - Gx = -z\), as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\hat{s} = \begin{cases}
+	-z \qquad  \text{ if } \alpha_p &lt; 0  \qquad else \\
+	-z + (1+\alpha_p)\textbf{e}
+\end{cases}
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;for \(\alpha_p = \text{ inf } { \alpha | -z + \alpha \textbf{e} \succeq 0 } \).&lt;/p&gt;
+
+&lt;p&gt;Similarly, \(z\) at the first iteration is computed as follows&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\hat{z} = \begin{cases}
+	z \qquad  \text{ if } \alpha_d &lt; 0  \qquad else \\
+	z + (1+\alpha_d)\textbf{e}
+\end{cases}
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;for \(\alpha_d = \text{ inf } { \alpha | z + \alpha \textbf{e} \succeq 0 } \).&lt;/p&gt;
+
+&lt;p&gt;Note \(\textbf{e}\) is identity.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Following Boyd and Mattingley’s convention, we can compute the afiine scaling directions by solving the system,&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+G    &amp;I &amp;0\\
+0   &amp;K(z) &amp; K(s) \\
+Q 	&amp;0 	&amp;G^T
+\end{bmatrix}
+
+\begin{bmatrix}
+\Delta z^{aff} \\
+\Delta s^{aff} \\
+\Delta x^{aff}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-Gx - s + h \\
+-K(s)z \\
+-G^Tz + Qx + q
+\end{bmatrix}
+ %]]&gt;&lt;/script&gt;
+
+    &lt;p&gt;with \( K(s) \text{ as } \textbf{diag}(s) \text{ and } K(z) \text{ as } \textbf{diag(z)} \)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The centering-plus-corrector directions  can be used to efficiently compute the primal and sualvariables by solving&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+G    &amp;I &amp;0\\
+0   &amp;K(z) &amp; K(s) \\
+Q 	&amp;0 	&amp;G^T
+\end{bmatrix}
+
+\begin{bmatrix}
+\Delta z^{cc} \\
+\Delta s^{cc} \\
+\Delta x^{cc}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+\sigma \mu \textbf{e} - K(\Delta s^{aff}) \Delta z^{aff} \\
+0
+\end{bmatrix}
+ %]]&gt;&lt;/script&gt;
+
+    &lt;p&gt;where&lt;/p&gt;
+
+    &lt;p&gt;\begin{align}
+\alpha = \left(\dfrac{(s+ \alpha \Delta s^{aff})^T(z + \alpha \Delta z^{aff})}{s^Tz}\right)^3 \nonumber
+\end{align}&lt;/p&gt;
+
+    &lt;p&gt;and the step size \(\alpha = \text{sup} {\alpha \in [0, 1] | s + \alpha \Delta s^{aff} \ge 0, \, z + \alpha \Delta z^{aff} \ge 0}. \)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finding the primal and dual variables is then a question of composing the two updates in the foregoing to yield&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;
+  x \leftarrow x + \alpha \Delta x, \\
+  s \leftarrow s + \alpha \Delta s, \\
+  z \leftarrow z + \alpha \Delta z.
+  &lt;/script&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;example-codes&quot;&gt;&lt;/a&gt;
+### Example code&lt;/p&gt;
+
+&lt;p&gt;An example implementation of this algorithm in the PyTorch Library is available on my &lt;a href=&quot;https://github.com/lakehanne/RAL2017/blob/devel/pyrnn/src/model.py&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;acknowledgements&quot;&gt;&lt;/a&gt;
+### Acknowledgment&lt;/p&gt;
+
+&lt;p&gt;I would like to thank &lt;a href=&quot;https://bamos.github.io/&quot;&gt;Brandon Amos&lt;/a&gt; of the CMU Locus Lab for his generosity in answering my questions while using his &lt;a href=&quot;https://locuslab.github.io/qpth/&quot;&gt;qpth OptNET framework&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>2017-04-05 06:15:00 -0500</pubDate>
+        <link>QP-Layer-MRAS</link>
+        <guid isPermaLink="true">QP-Layer-MRAS</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["convex", "qpth", "backpropagation"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>Algorithms and Data Structures</title>
+        <description>
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: &quot;AMS&quot; } }
+});
+&lt;/script&gt;
+
+&lt;!--Mathjax Parser --&gt;
+&lt;script type=&quot;text/javascript&quot; async=&quot;&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+&lt;/script&gt;
+
+&lt;h3 id=&quot;table-of-contentstable-of-contents&quot;&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of Contents&lt;/a&gt;:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#warm-up-questions&quot;&gt;Soft-Balls&lt;/a&gt;  &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#array-decays-to-a-pointer&quot;&gt;Array decays to a pointer&lt;/a&gt;    &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#atoi-implementation&quot;&gt;Atoi Implementation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reverse-a-string&quot;&gt;Reversing a string&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#const-iterator&quot;&gt;Const Iterator on a vector dynamic set&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#unordered-map&quot;&gt;Unordered Map&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#matrix-multiply&quot;&gt;Matrix Multiply&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sorting&quot;&gt;Sorting&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-sort&quot;&gt;Insert-Sort (2.1-1)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-sort-in-descending-order&quot;&gt;Insert-Sort in Descending Order (2.1-2)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#lineSearch&quot;&gt;LineSearch (2.1-3)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#merge-sort&quot;&gt;Merge-Sort (2.3-1)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heapsort&quot;&gt;HeapSort&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#quicksort&quot;&gt;QuickSort&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#randomized-quicksort&quot;&gt;Randomized-QuickSort&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#data-structures&quot;&gt;Data Structures&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#queue&quot;&gt;Queues&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#stack&quot;&gt;Stack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#min&quot;&gt;Minimum/Maximum value in an array&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#Simulatneous-min-and-max&quot;&gt;Simulatneous minimum and maximum in an array&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#Deque&quot;&gt;Deque&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#list-array&quot;&gt;Array-based List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#singly-linked-list&quot;&gt;Singly-Linked List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#doubly-linked-list&quot;&gt;Doubly-Linked List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#binary-tree&quot;&gt;Binary Search Tree&lt;/a&gt;   &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;introduction&quot;&gt;&lt;/a&gt;
+## &lt;code&gt;Introduction&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;These are C++/Python solutions to some of the algorithm problems in the Introduction to Algorithms book by Cormen et. al. Zhenchao Gan has some pseudocode solutions to similar problems on his &lt;a href=&quot;https://github.com/gzc/CLRS&quot;&gt;github page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please note that it is not typical that you would be directly asked to implement most of these algorithms. But knowing these algorithms and how to implement them in code would help you in faster answering your questions.&lt;/p&gt;
+
+&lt;p&gt;These solutions have been tested using &lt;code&gt;g++ 4.8.4&lt;/code&gt; with c++ 11/14 support on Ubuntu 14.04. The solutions are being developed over time. You may find more solutions on this page if you check in at a a later time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;warm-up-questions&quot;&gt;&lt;/a&gt;
+## &lt;code&gt;Soft-balls&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Usually, there will be a first &lt;strong&gt;&lt;i&gt;soft-ball&lt;/i&gt;&lt;/strong&gt; question which you are expected to finish in a reasonable amount of time before a &lt;strong&gt;&lt;i&gt;harder&lt;/i&gt;&lt;/strong&gt; question that will test your understanding of data structures. I gleaned these soft-ball questions from the internet (since I am bound by an NDA, I am not allowed to share the questions I got) and answer a few of them in this section. The first question is usually for the interviewer to figure out if you can actually write code. You are being hired to write code. Better be ready to prove it. If you do not pass this stage, you might not make it to the next stage(s) of interview(s). I’ve heard a lot of people flunk it at this stage. So it is worth the while boning up on your basic coding skills. If you are a PhD student, you might be thinking coding is beneath you. But trust me, you &lt;i&gt;actually&lt;/i&gt; have to practice writing the code without an IDE in order not to make mistakes during the whiteboard/doc coding interview(s).&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;array-decays-to-a-pointer&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Array decays to a pointer&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In C++, know that the raw array &lt;code&gt;A[]&lt;/code&gt; decays to a pointer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/src/arraydecaystopointer.cxx&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;atoi-implementation&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Atoi Implementation&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Atoi converts the pointee in the pointer &lt;code&gt;char* argv&lt;/code&gt; (or pointees in the pointer to an array
+&lt;code&gt;char *argv[]/char **argv&lt;/code&gt;) to an integer. This code should be easily adaptable for &lt;code&gt;atoll&lt;/code&gt; and its other variants&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/atoi.cxx&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;reverse-a-string&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Reverse a String&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a fairly common interview question. Implemented in evil C.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/reverse.c&quot;&gt;C Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;const-iterator&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Const Iterator on a vector dynamic set&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is to test your understanding of dynamic set operations and how a pointer that reads from memory
+should not modify the data it is reading from. A similar question might be to implement a print function from a data structure (in this case, remember to add a const keyword in front of the print member function).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/vec.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;unordered-map&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Unordered Map&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Interviewers sometimes ask this to get a feel for your understanding of data structures.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/unordered_map.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;matrix-multiply&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Multiplying-two-square-matrices&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is also a fairly common question. The standard time-based multiplication requires \(\theta(n^3)\) time. If you are asked to optimize the code, &lt;a href=&quot;https://en.wikipedia.org/wiki/Strassen_algorithm&quot;&gt;Strassen’s algorithm&lt;/a&gt; allows us to do the multiplication in \(\theta(n^{\, lg 7})\ \approx \theta^{2.8074}\) time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Matmuls/sqmatmaul.py&quot;&gt;Python Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;sorting&quot;&gt;&lt;/a&gt;
+## &lt;code&gt;Sorting&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here, I illustrate with examples two \(\theta(n \, lg \, n)\) worst-case algorithms (i.e. mergesort and heapsort), and two  \(\theta(n^2)\) worst-case algorithms (i.e. insertion sort and quicksort). I also implement the randomized version of the quicksort algorithm in &lt;code&gt;Python&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;insert-sort&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Insert-Sort (CLRS 2.1-1)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Using Figure 2.2 as a model, illustrate the operation of &lt;code&gt;INSERTION-SORT&lt;/code&gt; on the
+array \(A= (31, 41, 59, 26, 41, 58)\).&lt;/p&gt;
+
+&lt;p&gt;This sorts in increasing order from left to right.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/insertsort.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;insert-sort-in-descending-order&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Insert-Sort in Descending Order (2.1-2)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Rewrite the INSERTION-SORT procedure to sort into non-increasing instead of non-decreasing order.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/insertsort_descending.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;lineSearch&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;LineSearch (2.1-3)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider the searching problem:&lt;/p&gt;
+
+&lt;p&gt;Input: A sequence of n numbers \(A = (a_1, a_2, \ldots , a_n) \) and a value \(\nu.\)&lt;/p&gt;
+
+&lt;p&gt;Output: An index i such that \(\nu = A[i] \) or the special value NIL if \(\nu\) does not appear in \(A\).
+Write pseudocode for &lt;em&gt;&lt;strong&gt;linear search&lt;/strong&gt;&lt;/em&gt;, which scans through the sequence, looking for \(\nu\). Using a loop invariant, prove that your algorithm is correct. Make sure that your loop invariant fulfills the three necessary properties.&lt;/p&gt;
+
+&lt;p&gt;Complexity: \(O(n)\) as you have to go though every element in the list in the worst case.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/linesearch.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;merge-sort&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Merge-Sort (2.3-1)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Using Figure 2.4 as a model, illustrate the operation of merge sort on the array \( A = (3, 41, 52, 26, 38, 57, 9, 49) \).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Complexity: Worst case: \(\theta(n \, lg \, n)\)&lt;/td&gt;
+      &lt;td&gt;Average Case: \(\theta(n \, lg \, n)\)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/mergesort.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/mergesort.py&quot;&gt;Python Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;heapsort&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;HeapSort&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity: Worst case: \(O(n \, lg \, n)\). The Max-Heapify algorithm is \(O(lg \, n)\) while the build-max heap algorithm takes \(O(n)\) time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/heapsort.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/heapsort.py&quot;&gt;Python Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;quicksort&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;QuickSort&lt;/code&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Complexity: Worst case: \(\theta(n^2\)&lt;/td&gt;
+      &lt;td&gt;Average Case: \(\theta(n^2\)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/quicksort.py&quot;&gt;Python Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;randomized-quickSort&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Randomized-QuickSort&lt;/code&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Complexity: Worst case: \(\theta(n^2)\)&lt;/td&gt;
+      &lt;td&gt;Average Case: \(\theta(n^2)\)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here, the only difference from quicksort is that we randomize the choice of the end of our subarray.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/Sorting/randomized_quicksort.py&quot;&gt;Python Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;data-structures&quot;&gt;&lt;/a&gt;
+## Data Structures&lt;/p&gt;
+
+&lt;p&gt;This is the meat of most big-tech company interviews and you should try your best to know what is going on &lt;strong&gt;under the hood&lt;/strong&gt; in these algorithms. CLRS is a good reference. Covering the Part II section of the book is very important to understanding these algorithms. In this section, I provide implementations in C++  11 and python for &lt;code&gt;randomized binary trees&lt;/code&gt;, &lt;code&gt;hash maps&lt;/code&gt; and &lt;code&gt;lists&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;queue&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Queues&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity: Each enqueue and queue dictionary operation takes \(O(1)\) time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/queue.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;stack&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Stack&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity: Each of pop, and push operation takes \(O(1)\) time.&lt;/p&gt;
+
+&lt;p&gt;Question 10.1&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/stack.cxx&quot;&gt;C++ 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;min&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Minimum/Maximum value in an array&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity: \(O(n)\) worst-case time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/min.py&quot;&gt;Python 2.7 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;Simulatneous-min-and-max&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Simulatneous minimum and maximum in an array&lt;/code&gt;
+Section 9.1 in CLRS.&lt;/p&gt;
+
+&lt;p&gt;This algorithm has a worst case running time of \(O(\frac{3n}{2})\).&lt;/p&gt;
+
+&lt;p&gt;We are maintaining both the minimum and maximum elements seen thus far.
+Rather than processing each element of the input by comparing it against
+the current minimum and maximum, at a cost of 2 comparisons per element,
+we process elements in pairs. We compare pairs of elements from the input
+first with each other, and then we compare the smaller with the current
+minimum and the larger to the current maximum, at a cost of 3 comparisons
+for every 2 elements&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/simultaneous_minmax.py&quot;&gt;Python 2.7 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;Deque&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Deque&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;10.1-5 in CLRS
+Whereas a stack allows insertion and deletion of elements at only one end, and a
+queue allows insertion at one end and deletion at the other end, a deque (double-ended queue) allows insertion and deletion at both ends. Write four \(O(1)\)-time
+procedures to insert elements into and delete elements from both ends of a deque
+implemented by an array.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/dequeue.py&quot;&gt;Python Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;list-array&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Array-based List&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity is \(O(n)\) because of &lt;code&gt;INSERT&lt;/code&gt; and &lt;code&gt;FIND&lt;/code&gt;. My implementation supports a dynamic array-based list: it doubles the size of the list every time a new element is inserted that increases the index of the array beyond the default maximum.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/lists/listArray.cxx&quot;&gt;Cxx 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;singly-linked-list&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Singly-Linked List&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity is \(O(n)\) because the &lt;code&gt;SEARCH&lt;/code&gt; dictionary operation may have to traverse the entire length of the list if the value being searched is not in the list.
+The nodes are created with a freelist memory allocator derived from an overloaded &lt;code&gt;new&lt;/code&gt; operator.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/lists/listSinglyLinked.cxx&quot;&gt;Cxx 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;doubly-linked-list&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Doubly-Linked List&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity is \(O(n)\) because the &lt;code&gt;SEARCH&lt;/code&gt; dictionary operation may have to traverse the entire list if the value being searched is not in the list.
+Again, I overloaded the &lt;code&gt;new&lt;/code&gt; and &lt;code&gt;delete&lt;/code&gt; operators with a freelist to better manage memory when we are inserting, searching or deleting large records.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/lists/listDoublyLinked.cxx&quot;&gt;Cxx 11 Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&quot;binary-tree&quot;&gt;&lt;/a&gt;
+### &lt;code&gt;Binary Search Tree&lt;/code&gt;
+The worst case running time for any of the dynamic set operations, &lt;code&gt;INSERT&lt;/code&gt;, &lt;code&gt;SEARCH&lt;/code&gt;, &lt;code&gt;DELETE&lt;/code&gt;, &lt;code&gt;SUCCESSOR&lt;/code&gt;, &lt;code&gt;PREDECESSOR&lt;/code&gt;, &lt;code&gt;MINIMUM&lt;/code&gt;, &lt;code&gt;MAXIMUM&lt;/code&gt; on a binary tree of height \(h\) is \(O(h)\). If the tree has \(n\)-elements, it has a worst-case running time of \(O(lg \, n)\) with&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/binaryTrees/binaryTree.cxx&quot;&gt;Cxx 11 Code&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>2016-12-23 06:25:00 -0600</pubDate>
+        <link>CLRS-C++</link>
+        <guid isPermaLink="true">CLRS-C++</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["algorithms", "data-structures"]:Array</category>
+        
+      </item>
+    
+      <item>
+        <title>Control Theory and Machine Learning</title>
+        <description>&lt;h3 id=&quot;is-there-any-relation-between-control-systems-and-machine-learning&quot;&gt;Is there any relation between control systems and Machine Learning?&lt;/h3&gt;
+
+&lt;p&gt;Answered &lt;a href=&quot;https://www.quora.com/Is-there-any-relation-between-control-systems-and-Machine-Learning/answers/21063329&quot;&gt;here&lt;/a&gt; originally.&lt;/p&gt;
+
+&lt;p&gt;You bet there is. I’ll start with the basic building block of the modern machine learning paradigm: the perceptron. This was a hardware structure built in the 50’s by Rosenblatt to mimic the real neural network in our brains. It arose out of control theory literature when people were trying to identify highly complex and nonlinear dynamical systems. Neural networks – artificial neural networks – were first used in a supervised learning scenario in control theory. Hornik, if I remember correctly, was the first to find that neural networks were universal approximators.&lt;/p&gt;
+
+&lt;p&gt;You’ve heard about the classic sigmoid nonlinear activation function often used in machine/deep learning as a nonlinear squasher? It came out of control theory literature. Without classical control theory, you could say there would be no back-propagation (invented by Rumelhart &amp;amp; Hinton in the ‘80’s based on inspiration from control theory); there would be no back propagation through time (largely due to Werbos’ work in his 1990 classic paper, Backpropagation Through Time: What it entails) now used in recurrent neural networks by modern machine learning practicists; there would probably not be the LSTM (invented by Horchreiter in 1996) which are used in modeling tapped delay lines in memory-based neural networks. These have found massive use in speech recognition, language models or time-series sequences.&lt;/p&gt;
+
+&lt;p&gt;The conflict between exploration and exploitation in reinforcement learning is known in control engineering as the conflict between identification (or estimation) and control (e.g., Witten, 1976). You could arguably say massive reinforcement learning problems arose out of Control Engineering research. Read Andrew Ng’s &lt;a href=&quot;http://rll.berkeley.edu/deeprlcourse/docs/ng-thesis.pdf&quot;&gt;Thesis&lt;/a&gt; for a perspective.&lt;/p&gt;
+
+&lt;p&gt;If you read the works of modern machine learning theorists, you’ll find control jargons camouflaged into new diction to make their ideas sound new or sexy. I think there is some sort of dis-ingenuity among these researchers by not acknowledging that these algorithms arose out of a domain they are often not willing to give credit to. What they call backprop, for example, is nothing more than old-fashioned calculus-based differential chain rule. Variants of recurrent neural networks are simply NARX models (Ilya Suskever &lt;a href=&quot;http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf&quot;&gt;Thesis&lt;/a&gt;) that you would encounter in any system identification literature. So to answer your question, modern machine learning is a derived class of classical control theory.&lt;/p&gt;
+</description>
+        <pubDate>2016-06-14 07:23:00 -0500</pubDate>
+        <link>ml-control</link>
+        <guid isPermaLink="true">ml-control</guid>
+        
+        
+        <category>Liquid error: undefined method `gsub' for ["Q&A", "machine-learning", "control"]:Array</category>
+        
+      </item>
+    
+  </channel>
+</rss>
