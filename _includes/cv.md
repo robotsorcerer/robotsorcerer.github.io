@@ -1,11 +1,11 @@
 
 I am an Electrical Engineering Ph.D. student currently focused on biomedical robots and applied control systems.
 
-I am a part of the SeRViCE lab at UT Dallas, where I am being advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/) where I worked on game theory approaches to reinforcement learning problems. Our work is underway to anarchival venue.
+I am a part of the SeRViCE lab at UT Dallas, where I am being advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theory approaches to reinforcement learning problems. Our work is underway to an archival venue.
 
 These days, I tend to spend most of my time in the [radiation oncology lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) at UT Southwestern Medical Center in downtown Dallas where I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. Across the Dallas North Tollway, I am being advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 
-In 2016, I was in North Reading, MA where I was part of the advanced robotics lab in Amazon Robotics.
+In 2016, I was in North Reading, MA where I was part of the advanced robotics lab in Amazon Robotics. I was mentored by Andy Stubbs and Tye Brady.
 
 My research is at the intersection of the buzzing field of machine learning, and control systems theory. Control theory helps in formulating mathematical models while machine learning allows the luxury of making sense of chaotic data in order to drive real-world control applications. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neural dynamics, stability and robustness of performance, mostly in dynamical systems.
 
@@ -53,10 +53,10 @@ My research is at the intersection of the buzzing field of machine learning, and
   <td>Awarded the  <a href="https://roscon.ros.org/2017/">ROSCon</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
 </tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>June 2017</td>
   <td>Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.</td>
-</tr>
+</tr> -->
 
 </table>
 
