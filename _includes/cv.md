@@ -5,7 +5,7 @@ I am a part of the SeRViCE lab at UT Dallas, where I am being advised by Dr. [Ni
 
 These days, I tend to spend most of my time in the [radiation oncology lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) at UT Southwestern Medical Center in downtown Dallas where I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. Across the Dallas North Tollway, I am being advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 
-In 2016, I was in North Reading, MA where I was part of the advanced robotics lab in Amazon Robotics. I was mentored by Andy Stubbs and Tye Brady.
+In 2016, I was in Amazon Robotics, North Reading, MA, where I was part of the advanced robotics lab. I worked with Dr. Andy Stubbs and Tye Brady.
 
 My research is at the intersection of the buzzing field of machine learning, and control systems theory. Control theory helps in formulating mathematical models while machine learning allows the luxury of making sense of chaotic data in order to drive real-world control applications. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neural dynamics, stability and robustness of performance, mostly in dynamical systems.
 
