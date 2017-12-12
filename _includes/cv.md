@@ -7,6 +7,8 @@ These days, I tend to spend most of my time in the [radiation oncology lab](http
 
 In 2016, I was in Amazon Robotics, North Reading, MA, where I was part of the advanced robotics lab. I worked with Dr. Andy Stubbs and Tye Brady.
 
+In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index).
+
 My research is at the intersection of the buzzing field of machine learning, and control systems theory. Control theory helps in formulating mathematical models while machine learning allows the luxury of making sense of chaotic data in order to drive real-world control applications. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neural dynamics, stability and robustness of performance, mostly in dynamical systems.
 
 
