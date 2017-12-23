@@ -13,10 +13,10 @@ My research is at the intersection of control theory and machine learning. Contr
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>December 2017</td>
   <td> I will be interning in the robotics group of PFN in Tokyo next summer.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>October 2017</td>
