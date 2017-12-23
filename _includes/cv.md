@@ -14,7 +14,7 @@ My research is at the intersection of control theory and machine learning. Contr
 <table class="table table-hover">
 
 <tr>
-  <td class='col-md-3'>September 2017</td>
+  <td class='col-md-3'>December 2017</td>
   <td> I will be interning in the robotics group of PFN in Tokyo next summer.</td>
 </tr>
 
