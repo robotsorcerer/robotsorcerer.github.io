@@ -13,9 +13,19 @@ My research is at the intersection of control theory and machine learning. Contr
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 
+<tr>
+  <td class='col-md-3'>March 2018</td>
+  <td> I penned three papers so far this quarter.</td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>January 2018</td>
+  <td> I am peer reviewing for <i>Neural Computing and Applications</i></td>
+</tr>
+
 <!-- <tr>
   <td class='col-md-3'>December 2017</td>
-  <td> I will be interning in the robotics group of PFN in Tokyo next summer.</td>
+  <td> I will be interning with the robotics group of PFN in Tokyo next summer.</td>
 </tr> -->
 
 <tr>
