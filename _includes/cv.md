@@ -20,7 +20,7 @@ My research is at the intersection of control theory and machine learning. Contr
 
 <tr>
   <td class='col-md-3'>January 2018</td>
-  <td> I am peer reviewing for <i>Neural Computing and Applications</i></td>
+  <td> I am peer reviewing for <i>Neural Computing and Applications</i> Journal.</td>
 </tr>
 
 <!-- <tr>
