@@ -5,7 +5,7 @@ I am a part of the SeRViCE lab at UT Dallas, where I am being advised by Dr. [Ni
 
 These days, I tend to spend most of my time in the [radiation oncology MAIA lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) at UT Southwestern Medical Center. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. At the MAIA lab, I am being advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 
-In 2016, I was in Amazon Robotics, North Reading, MA, where I was part of the advanced robotics lab. I worked with Dr. Andy Stubbs and Tye Brady. In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index).
+<!-- In 2016, I was in Amazon Robotics, North Reading, MA, where I was part of the advanced robotics lab. I worked with Dr. Andy Stubbs and Tye Brady. In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index). -->
 
 My research is at the intersection of control theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of performance of dynamical systems.
 
@@ -13,10 +13,10 @@ My research is at the intersection of control theory and machine learning. Contr
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> I penned three papers so far this quarter.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>January 2018</td>
