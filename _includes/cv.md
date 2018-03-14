@@ -25,7 +25,7 @@ My research is at the intersection of control theory and machine learning. Contr
 
 <tr>
   <td class='col-md-3'>October 2017</td>
-  <td> I am peer reviewing for the 2018 proceedings of the <i>International Conference of Robotics and Automation (ICRA)</i> and the <i>American Control Conference (ACC)</i>.</td>
+  <td> I am peer reviewing for the 2018 proceedings of the <i>International Conference of Robotics and Automation, ICRA (under Associate Editor Pablo Jiménez)</i> and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
 </tr>
 
 <tr>
@@ -48,15 +48,15 @@ My research is at the intersection of control theory and machine learning. Contr
   <td> Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a></td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>July 2017</td>
-  <td>Awarded the  <a href="https://roscon.ros.org/2017/">ROSCon</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
-</tr> -->
+  <td>Awarded the  <a href="https://roscon.ros.org/2017/">OSRF</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
+</tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>June 2017</td>
   <td>Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.</td>
-</tr> -->
+</tr>
 
 </table>
 
