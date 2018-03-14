@@ -19,13 +19,18 @@ My research is at the intersection of control theory and machine learning. Contr
 </tr>
 
 <tr>
+  <td class='col-md-3'>March 2018</td>
+  <td> Videos of my <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS 2018 submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>.</td>
+</tr>
+
+<tr>
   <td class='col-md-3'>January 2018</td>
   <td> I am peer reviewing for <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> Journal, under the Associate Editor,<a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik</a>.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>October 2017</td>
-  <td> I am peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (under Associate Editor Pablo Jiménez)</i> and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
+  <td> I am peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (under Associate Editor Pablo Jiménez) and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
 </tr>
 
 <tr>
