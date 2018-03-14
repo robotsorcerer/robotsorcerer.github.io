@@ -15,17 +15,17 @@ My research is at the intersection of control theory and machine learning. Contr
 
 <tr>
   <td class='col-md-3'>March 2018</td>
-  <td> I am peer reviewing for the International Conference on Intelligent Robots and Systems (IROS) 2018 under the Associate Editor, <a href="http://www.jenskober.de/">Jens Kober</a>.</td>
+  <td> I am peer reviewing for the <a href="https://www.iros2018.org/">International Conference on Intelligent Robots and Systems (IROS)</a> 2018 under the Associate Editor, <a href="http://www.jenskober.de/">Jens Kober</a>.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>January 2018</td>
-  <td> I am peer reviewing for <i>Neural Computing and Applications</i> Journal, under the Associate Editor,<a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik</a>.</td>
+  <td> I am peer reviewing for <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> Journal, under the Associate Editor,<a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik</a>.</td>
 </tr>
 
 <tr>
   <td class='col-md-3'>October 2017</td>
-  <td> I am peer reviewing for the 2018 proceedings of the <i>International Conference of Robotics and Automation, ICRA (under Associate Editor Pablo Jiménez)</i> and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
+  <td> I am peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (under Associate Editor Pablo Jiménez)</i> and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
 </tr>
 
 <tr>
