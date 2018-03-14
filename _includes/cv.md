@@ -20,7 +20,7 @@ My research is at the intersection of control theory and machine learning. Contr
 
 <tr>
   <td class='col-md-3'>January 2018</td>
-  <td> I am peer reviewing for <i>Neural Computing and Applications</i> Journal.</td>
+  <td> I am peer reviewing for <i>Neural Computing and Applications</i> Journal, under the Associate Editor,<a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik</a>.</td>
 </tr>
 
 <tr>
