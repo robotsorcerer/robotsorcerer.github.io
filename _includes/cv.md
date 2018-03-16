@@ -14,16 +14,19 @@ My research is at the intersection of control theory and machine learning. Contr
 <table class="table table-hover">
 
 <tr>
-  <td class='col-md-3'>2018 Peer Reviewing Activities</td>
-  <td> Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale </a>.</td>
-  <br>
-  <td> 2018 proceedings of the <a href="https://www.iros2018.org/"><i>International Conference on Intelligent Robots and Systems (IROS)</i></a> under Associate Editor (AE), <a href="http://www.jenskober.de/">Jens Kober</a>.</td>
-  <br>
-  <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal, (AE, <a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik)</a>.</td>
-  <br>
-  <td> 2018 proceedings of the <a href="https://icra2018.org/"><i>International Conference of Robotics and Automation, ICRA</i></a> (AE Pablo Jiménez) and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
-  <br>
-  <td> 2018 proceedings of the <a href="http://acc2018.a2c2.org/"><i>American Control Conference, ACC, (AE Ashwin Dani) </i>.</a></td>
+  <td class='col-md-3'>March 2018</td>
+  <td> Peer reviewing for Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale.</td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>March 2018</td>
+  <td> Peer reviewing for 2018 proceedings of the <a href="https://www.iros2018.org/"><i>International Conference on Intelligent Robots and Systems (IROS)</i></a> under Associate Editor (AE), <a href="http://www.jenskober.de/">Jens Kober</a>.
+  </td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>March 2018</td>
+  <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal, (AE, <a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik)</a>.</td>
 </tr>
 
 <tr>
@@ -31,15 +34,15 @@ My research is at the intersection of control theory and machine learning. Contr
   <td> Videos of my <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS 2018 submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>.</td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>January 2018</td>
-  <td> I am peer reviewing for <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> Journal, under the Associate Editor,<a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik</a>.</td>
-</tr> -->
+  <td> Peer reviewing for <a href="https://link.springer.com/journal/521">Neural Computing and Applications</a> Journal, under the Associate Editor,<a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik</a>.</td>
+</tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>October 2017</td>
-  <td> I am peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (under Associate Editor Pablo Jiménez) and the <i>American Control Conference, ACC, (under Associate Editor Ashwin Dani) </i>.</td>
-</tr> -->
+  <td> Peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (Associate Editor, Pablo Jiménez) and the <i><a href="http://acc2018.a2c2.org/"><i>American Control Conference, ACC,</i></a> (Associate Editor, Ashwin Dani) </i>.</td>
+</tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
