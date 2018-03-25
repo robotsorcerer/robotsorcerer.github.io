@@ -26,7 +26,7 @@ My research is at the intersection of control theory and machine learning. Contr
 
 <tr>
   <td class='col-md-3'>March 2018</td>
-  <td> Videos of my <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS 2018 submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>.</td>
+  <td> Videos of my IROS 2018 <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>. A condensed version of the <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">paper</a> got accepted to ICRA 2018 abstract-only track.</td>
 </tr>
 
 <tr>
