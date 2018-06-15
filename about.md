@@ -38,6 +38,4 @@ My solution is the only one so far that achieves desired actuation in closed-loo
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry.
 
-+ I enjoy cycling with my little man in the shortly-before-dusk hours around my neighborhood.
-
 + When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros.org forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
