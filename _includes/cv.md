@@ -9,9 +9,21 @@ These days, I tend to spend most of my time in the [radiation oncology MAIA lab]
 
 My research is at the intersection of control theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of performance of dynamical systems.
 
+This summer, I am tucked away in a research lab where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly imitation/reinforcement learning policies.
+
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+
+<tr>
+  <td class='col-md-3'>May 2018</td>
+  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. See you in Madrid! </td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>April 2018</td>
+  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for inferring beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral.</td>
+</tr>
 
 <tr>
   <td class='col-md-3'>March 2018</td>
