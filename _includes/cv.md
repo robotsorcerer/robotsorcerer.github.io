@@ -21,7 +21,7 @@ This summer, I am tucked away in a research lab where I am working on the stabil
 </tr>
 
 <tr>
-  <td class='col-md-3'>Junes 2018</td>
+  <td class='col-md-3'>June 2018</td>
   <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. See you in Madrid! </td>
 </tr>
 
