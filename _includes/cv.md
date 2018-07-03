@@ -9,7 +9,7 @@ These days, I tend to spend most of my time in the [radiation oncology MAIA lab]
 
 My research is at the intersection of control theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of performance of dynamical systems.
 
-This summer, I am tucked away in a research lab where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly imitation/reinforcement learning policies.
+This summer, I am tucked away in a research lab out in Tokyo, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly imitation/reinforcement learning policies. The struggle is real!
 
 
 ## <i class="fa fa-chevron-right"></i> News
@@ -61,10 +61,10 @@ This summer, I am tucked away in a research lab where I am working on the stabil
   <td> I'm a <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">finalist</a>  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a></td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>August 2017</td>
   <td> Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
-</tr> -->
+</tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
