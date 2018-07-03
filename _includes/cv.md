@@ -27,7 +27,7 @@ This summer, I am tucked away in a research lab where I am working on the stabil
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for inferring beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral.</td>
+  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for inferring beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. See you in Nashville, TN!</td>
 </tr>
 
 <tr>
