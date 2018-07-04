@@ -22,7 +22,7 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 
 <tr>
   <td class='col-md-3'>June 2018</td>
-  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. See you in Madrid! </td>
+  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. Long version indexed on <a href='https://arxiv.org/pdf/1710.00491v5.pdf'>arxiv</a> a while ago. Codes <a href=''>https://github.com/lakehanne/youbot</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html/"> home page</a>. See you in Madrid! </td>
 </tr>
 
 <tr>
