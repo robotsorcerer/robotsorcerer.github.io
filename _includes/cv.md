@@ -15,10 +15,10 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>July 05 2018</td>
   <td> I had the pleasure of presenting the following pitch to the management team of Preferred Networks, Tokyo earlier this afternoon. <a href="/assets/presentations/pfn.pdf"><i>On the stability of robot learning models.</i></a>.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>June 2018</td>
