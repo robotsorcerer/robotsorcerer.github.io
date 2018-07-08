@@ -38,6 +38,6 @@ My solution is the only one so far that achieves desired actuation in closed-loo
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry.
 
-+ I still consider Sheffield my adopted home: Biggest village in Yorkshire. Where I've made some of my biggest mistakes. Where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. I shall never forget you.
++ I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing!
 
 + When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros.org forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
