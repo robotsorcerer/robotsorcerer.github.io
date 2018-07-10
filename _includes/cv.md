@@ -21,6 +21,11 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 </tr> -->
 
 <tr>
+  <td class='col-md-3'>July 2018</td>
+  <td> I will be attending ROSCon 2018. If you are a ROS developer and would love to meet, please shoot me an email. See you at ROSCon 2018 in Madrid.</td>
+</tr>
+
+<tr>
   <td class='col-md-3'>June 2018</td>
   <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal.</td>
 </tr>
