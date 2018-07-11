@@ -37,7 +37,7 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for selecting beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. A member of the <a href="http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">MAIA lab</a> will be presenting on my behalf. Please check out my talk in Room 209 at 1:14pm on July 29 in Nashville, TN if you'll be attending the meeting.</td>
+  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for selecting beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. A member of the <a href="http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">MAIA lab</a> will be presenting on my behalf. Please check out my talk in Room 209 at 1:14pm on July 29 in Nashville, TN if you'll be coming to the music city.</td>
 </tr>
 
 <tr>
