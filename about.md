@@ -30,12 +30,14 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 My solution is the only one so far that achieves desired actuation in closed-loop control and in real time without sacrificing time, treatment efficiency or patient comfort -- all based on a data-driven modeling approach and a mathematically proven stable neural-network based controller to compensate for the dynamics of the system. -->
 
-### Things I do for fun
+### Random Facts
 
 + I am a co-owner of the Linux, OpenStack and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
 + I am a member of North Texas Drone Users Group.  
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry.
+
++ I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing!
 
 + When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros.org forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
