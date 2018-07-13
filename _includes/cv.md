@@ -14,6 +14,11 @@ My research is at the intersection of control theory and machine learning. Contr
 <table class="table table-hover">
 
 <tr>
+  <td class='col-md-3'>July 2018</td>
+  <td> I had the privilege of presenting my work on stable learning of robot dynamics from data to the management team of Preferred Networks, Tokyo on.</td>
+</tr>
+
+<tr>
   <td class='col-md-3'>March 2018</td>
   <td> Peer reviewing for Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale.</td>
 </tr>
