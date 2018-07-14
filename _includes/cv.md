@@ -1,5 +1,5 @@
 
-I am an Electrical Engineering Ph.D. student currently focused on biomedical robots and applied control systems.
+I am an Electrical Engineering Ph.D. candidate currently focused on biomedical robots and applied control systems.
 
 I am a part of the SeRViCE lab at UT Dallas, where I am being advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems.
 
@@ -9,11 +9,21 @@ These days, I tend to spend most of my time in the [radiation oncology MAIA lab]
 
 My research is at the intersection of control theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of performance of dynamical systems.
 
-This summer, I am tucked away in a research lab where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly imitation/reinforcement learning policies.
+This summer, I am tucked away in a research lab out in Tokyo, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **REAL**!
 
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+
+<!-- <tr>
+  <td class='col-md-3'>July 05 2018</td>
+  <td> I had the pleasure of presenting the following pitch to the management team of Preferred Networks, Tokyo earlier this afternoon. <a href="/assets/presentations/pfn.pdf"><i>On the stability of robot learning models.</i></a>.</td>
+</tr> -->
+
+<tr>
+  <td class='col-md-3'>July 2018</td>
+  <td> I will be attending ROSCon 2018. If you are a ROS developer and would love to meet, please shoot me an email. Nos vemos en Madrid!</td>
+</tr>
 
 <tr>
   <td class='col-md-3'>June 2018</td>
@@ -22,12 +32,12 @@ This summer, I am tucked away in a research lab where I am working on the stabil
 
 <tr>
   <td class='col-md-3'>June 2018</td>
-  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. See you in Madrid! </td>
+  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. Long version indexed on <a href='https://arxiv.org/pdf/1710.00491v5.pdf'>arxiv</a> a while ago. Codes <a href='https://github.com/lakehanne/youbot'>here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html/"> home page</a>. Hola Madrid! </td>
 </tr>
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for inferring beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral.</td>
+  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for selecting beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. A member of the <a href="http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">MAIA lab</a> will be presenting on my behalf. Please check out my talk in Room 209 at 1:14pm on July 29 in Nashville, TN if you'll be coming to the music city.</td>
 </tr>
 
 <tr>
@@ -61,10 +71,10 @@ This summer, I am tucked away in a research lab where I am working on the stabil
   <td> I'm a <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">finalist</a>  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a></td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>August 2017</td>
   <td> Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
-</tr> -->
+</tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
