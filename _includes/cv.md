@@ -15,10 +15,12 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>July 05 2018</td>
-  <td> I had the pleasure of presenting the following pitch to the management team of Preferred Networks, Tokyo earlier this afternoon. <a href="/assets/presentations/pfn.pdf"><i>On the stability of robot learning models.</i></a>.</td>
-</tr> -->
+  <td> I had the pleasure of presenting my research on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.
+  <!-- <a href="/assets/presentations/pfn.pdf"><i>On the stability of robot learning models.</i></a>. -->
+  </td>
+</tr>
 
 <tr>
   <td class='col-md-3'>July 2018</td>
@@ -38,6 +40,11 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 <tr>
   <td class='col-md-3'>April 2018</td>
   <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for selecting beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. A member of the <a href="http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">MAIA lab</a> will be presenting on my behalf. Please check out my talk in Room 209 at 1:14pm on July 29 in Nashville, TN if you'll be coming to the music city.</td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>July 2018</td>
+  <td> I had the privilege of presenting my work on stable learning of robot dynamics from data to the management team of Preferred Networks, Tokyo on.</td>
 </tr>
 
 <tr>
