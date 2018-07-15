@@ -17,7 +17,7 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 <tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints on my UT Southwestern project. How's
-  <a href="/assets/wafr.pdf"><i>Deep BOO.</i> for a paper title?</a>.
+  <a href="/assets/wafr.pdf"> Deep BOO</a> for a paper title?.
   </td>
 </tr>
 
