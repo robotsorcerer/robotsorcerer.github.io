@@ -14,6 +14,12 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>July 15, 2018</td>
+  <td> I've got some new preprints on my UT Southwestern project. How's
+  <a href="/assets/wafr.pdf"><i>Deep BOO.</i> for a paper title?</a>.
+  </td>
+</tr>
 
 <tr>
   <td class='col-md-3'>July 05 2018</td>
