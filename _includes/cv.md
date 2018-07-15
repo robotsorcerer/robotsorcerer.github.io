@@ -1,15 +1,16 @@
 
-I am an Electrical Engineering Ph.D. candidate currently focused on biomedical robots and applied control systems.
+I am an Electrical and Computer Engineering Ph.D. candidate currently focused on biomedical robots and applied control systems.
 
-I am a part of the SeRViCE lab at UT Dallas, where I am being advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems.
+My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions of robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
 
-These days, I tend to spend most of my time in the [radiation oncology MAIA lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) at UT Southwestern Medical Center. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. At the MAIA lab, I am being advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
+I am a part of the SeRViCE lab at UT Dallas, advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems.
 
-<!-- In 2016, I was in Amazon Robotics, North Reading, MA, where I was part of the advanced robotics lab. I worked with Dr. Andy Stubbs and Tye Brady. In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index). -->
+I am a member of the [medical artificial intelligence and automation lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (MAIA) within the medical engineering division of UT Southwestern's Radiation Oncology department. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. I am privileged to be advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 
-My research is at the intersection of control theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of performance of dynamical systems.
+A while ago, I was in Amazon Robotics, Greater Boston Area, where I was part of the advanced robotics lab.
+<!-- In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index). -->
 
-This summer, I am tucked away in a research lab out in Tokyo, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **REAL**!
+This summer, I am tucked away in a research lab out in Tokyo, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real**!
 
 
 ## <i class="fa fa-chevron-right"></i> News
