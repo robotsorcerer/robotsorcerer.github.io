@@ -7,10 +7,10 @@ I am a part of the SeRViCE lab at UT Dallas, advised by Dr. [Nick Gans](www.utda
 
 I am a member of the [medical artificial intelligence and automation lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (MAIA) within the medical engineering division of UT Southwestern's Radiation Oncology department. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. I am privileged to be advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 
-A while ago, I was in Amazon Robotics, Greater Boston Area, where I was part of the advanced robotics lab.
+A while ago, I was a research and dev intern in Amazon Robotics in the Greater Boston Area where I was part of the Advanced Robotics Lab.
 <!-- In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index). -->
 
-This summer, I am tucked away in a research lab out in Tokyo, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real**!
+This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real**!
 
 
 ## <i class="fa fa-chevron-right"></i> News
@@ -18,7 +18,7 @@ This summer, I am tucked away in a research lab out in Tokyo, where I am working
 <tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints on my UT Southwestern project. How's
-  <a href="/assets/wafr.pdf"> Deep BOO</a> for a paper title?. Please find in this link <a href="/assets/wafr_II.pdf">part II</a> of the paper.
+  <a href="/assets/wafr.pdf"> Deep BOO</a> for a paper title?. Part II of the paper shall be uploaded after the WAFR deadline.
   </td>
 </tr>
 
