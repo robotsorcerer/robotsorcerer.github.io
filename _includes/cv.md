@@ -3,9 +3,7 @@ I am an Electrical and Computer Engineering Ph.D. candidate currently focused on
 
 My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions of robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
 
-I am a part of the SeRViCE lab at UT Dallas, advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems.
-
-I am a member of the [medical artificial intelligence and automation lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (MAIA) within the medical engineering division of UT Southwestern's Radiation Oncology department. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. I am privileged to be advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
+I am a part of the SeRViCE lab at UT Dallas, advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems. I am also a member of the [medical artificial intelligence and automation lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (MAIA) within the medical engineering division of UT Southwestern's Radiation Oncology department. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. I am privileged to be advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 
 A while ago, I was a research and dev intern in Amazon Robotics in the Greater Boston Area where I was part of the Advanced Robotics Lab.
 <!-- In a previous life, I was Prof. [Tony Dodd's](https://www.sheffield.ac.uk/acse/staff/tjd) student at the autonomous lab of Sheffield's [ACSE department](https://www.sheffield.ac.uk/acse/index). -->
@@ -48,11 +46,6 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 <tr>
   <td class='col-md-3'>April 2018</td>
   <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for selecting beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. A member of the <a href="http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">MAIA lab</a> will be presenting on my behalf. Please check out my talk in Room 209 at 1:14pm on July 29 in Nashville, TN if you'll be coming to the music city.</td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>July 2018</td>
-  <td> I had the privilege of presenting my work on stable learning of robot dynamics from data to the management team of Preferred Networks, Tokyo on.</td>
 </tr>
 
 <tr>
