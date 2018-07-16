@@ -17,8 +17,9 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>July 15, 2018</td>
-  <td> I've got some new preprints on my UT Southwestern project. How's
-  <a href="/assets/wafr.pdf"> Deep BOO</a> for a paper title?. Part II of the paper shall be uploaded after the WAFR deadline.
+  <td> I've got some new preprints. How's
+  <a href="/assets/wafr.pdf"> Deep BOO</a> for a paper title?
+  <!-- Part II of the paper shall be uploaded after the WAFR deadline. -->
   </td>
 </tr>
 
