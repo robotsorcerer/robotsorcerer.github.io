@@ -34,9 +34,19 @@ My solution is the only one so far that achieves desired actuation in closed-loo
 
 + I am a co-owner of the Linux, OpenStack and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
-+ I am a member of North Texas Drone Users Group.  
++ I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace of quiet citizens.
+
++ I regularly peer-review for the following academic conferences and journals
+  - Institute of Physics: Measurement Science and Technology (Journal)
+  - International Conference on Intelligent Robots and Systems (IROS)
+  - Neural Computing and Applications (NCAA Journal)
+  - International Conference of Robotics and Automation (ICRA)
+  - American Control Conference (ACC)
+  - International Federation of Automatic Control World Congress (IFAC)
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry.
+
++ I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
 
 + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing!
 
