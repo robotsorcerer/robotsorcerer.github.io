@@ -22,7 +22,8 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>July 05 2018</td>
-  <td> I had the pleasure of presenting my <a href="/assets/presentations/pfn.pdf">research outlook</a> on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.
+  <td> I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.
+  <!-- <a href="/assets/presentations/pfn.pdf"></a> -->
   </td>
 </tr>
 
