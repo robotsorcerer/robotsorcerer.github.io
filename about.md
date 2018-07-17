@@ -50,7 +50,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
     - International Federation of Automatic Control World Congress (IFAC)
 
-+ I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently <a href="https://www.linkedin.com/in/ajithvenkateswaran/">working in industry</a>.
++ I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Ajith is a  <a href="https://www.linkedin.com/in/ajithvenkateswaran/">Senior Software Engineer</a> in Samsung. Adwait is an Engineer at Drov Tech, MN. Rachel is currently an undergrad at MIT CSAIL.
 
 + I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
 
