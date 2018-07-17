@@ -10,6 +10,8 @@ Welcome to my blog, where theory meets practice, and where scientific elegance m
 
 My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators to determine accurate system models, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) adaptive function approximators to model these coupled nonlinearities.  As these soft actuators are nonlinear, a lot of effort goes into formulating the model properties of the hardware in order to obtain an effective controller that can deliver the required sub-millimeter and sub-degree accuracy. Owing to the recent advances in sequential deep learning frameworks in terms of their accuracy and precision in generating powerful models for tasks including speech recognition and machine language translation, I leverage on these technologies to create dynamic models of the patient testbed and to design appropriate adaptive controllers to scale.
 
+I am a part of the SeRViCE lab at UT Dallas, advised by Dr. [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in Dr. [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems.
+I am also a member of the [medical artificial intelligence and automation lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (MAIA) within the medical engineering division of UT Southwestern's Radiation Oncology department. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. I am privileged to be advised by Dr. [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html).
 <!--
 #### Research Background
 
@@ -50,10 +52,10 @@ My solution is the only one so far that achieves desired actuation in closed-loo
 
     - International Federation of Automatic Control World Congress (IFAC)
 
-+ I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently working in industry.
++ I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Two of them are currently <a href="https://www.linkedin.com/in/ajithvenkateswaran/">working in industry</a>.
 
 + I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
 
-+ I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing!
+<!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing! -->
 
 + When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros.org forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
