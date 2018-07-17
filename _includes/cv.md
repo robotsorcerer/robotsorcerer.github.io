@@ -75,7 +75,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td> I'm a <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">finalist</a>  at the <a href="http://www.iros2017.org/program/forums/efsc">3rd Entrepreneurship Forum and Startup Competition (2017).</a></td>
+  <td> I will be <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">pitching my start-up idea</a>  to VCs in Vancouver in October. Yeah, sure. Come in and argue! </td>
 </tr>
 
 <tr>
@@ -85,7 +85,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
+  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes here <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
 </tr>
 
 <tr>
@@ -95,13 +95,13 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td>Awarded the  <a href="https://roscon.ros.org/2017/">OSRF</a> scholarship to attend the 2017 ROS Conference in Vancouver, BC!</td>
+  <td>Awarded the  <a href="https://roscon.ros.org/2017/">OSRF</a> scholarship.</td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>June 2017</td>
   <td>Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.</td>
-</tr>
+</tr> -->
 
 </table>
 
