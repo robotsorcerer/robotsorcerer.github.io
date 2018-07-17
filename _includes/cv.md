@@ -14,7 +14,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
-<!-- <tr>
+<tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints. How's
   Deep BOO for a paper title? Here's <a href="/assets/wafr.pdf"> part I </a> of the paper.
@@ -25,7 +25,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
   <td class='col-md-3'>July 05 2018</td>
   <td> I had the pleasure of presenting my <a href="/assets/presentations/pfn.pdf">research outlook</a> on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.
   </td>
-</tr> -->
+</tr>
 
 <tr>
   <td class='col-md-3'>July 2018</td>
