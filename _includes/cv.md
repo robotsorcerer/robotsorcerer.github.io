@@ -58,10 +58,10 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
   </td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Videos of my IROS 2018 <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>. A condensed version of the <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">paper</a> got accepted to ICRA 2018 abstract-only track.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>January 2018</td>
