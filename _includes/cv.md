@@ -94,7 +94,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td>Awarded the  <a href="https://roscon.ros.org/2017/">OSRF</a> scholarship.</td>
+  <td>Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.</td>
 </tr>
 
 <!-- <tr>
