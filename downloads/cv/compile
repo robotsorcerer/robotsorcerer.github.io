@@ -1,6 +1,6 @@
 #!/bin/bash
 pdflatex resume.tex; sleep 3;
 echo -e "\n\nencoding resume.pdf with 128 bit encription now\n\n"
-pdftk resume.pdf output temp.pdf user_pw shangrila;
+pdftk resume.pdf output temp.pdf user_pw semaphore;
 rm resume.pdf; mv temp.pdf resume.pdf
 
