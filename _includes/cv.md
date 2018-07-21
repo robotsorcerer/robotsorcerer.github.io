@@ -13,7 +13,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
-<tr>
+<!-- <tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints. How's
   Deep BOO for a paper title? Here's <a href="/assets/wafr.pdf"> part I </a> of the paper. Part II shall be uploaded soon.
@@ -23,9 +23,8 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 <tr>
   <td class='col-md-3'>July 05 2018</td>
   <td> I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.
-  <!-- <a href="/assets/presentations/pfn.pdf"></a> -->
   </td>
-</tr>
+</tr>-->
 
 <tr>
   <td class='col-md-3'>July 2018</td>
@@ -39,7 +38,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>June 2018</td>
-  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. Long version indexed on <a href='https://arxiv.org/pdf/1710.00491v5.pdf'>arxiv</a> a while ago. Codes <a href='https://github.com/lakehanne/youbot'>here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html/"> home page</a>. Hola Madrid! </td>
+  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. Long version indexed on <a href='https://arxiv.org/pdf/1710.00491v5.pdf'>arxiv</a> a while ago. Codes <a href='https://github.com/lakehanne/youbot'>here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html"> home page</a>. Hola Madrid! </td>
 </tr>
 
 <tr>
@@ -95,7 +94,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>July 2017</td>
-  <td>Awarded the  <a href="https://roscon.ros.org/2017/">OSRF</a> scholarship.</td>
+  <td>Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.</td>
 </tr>
 
 <!-- <tr>

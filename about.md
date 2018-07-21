@@ -36,19 +36,19 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 + I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace of quiet citizens.
 
-+ I regularly peer-review for the following academic conferences and journals
+- I regularly peer-review for the following academic conferences and journals
 
-    - Institute of Physics: Measurement Science and Technology (Journal)
+    + Institute of Physics: Measurement Science and Technology (Journal)
 
-    - International Conference on Intelligent Robots and Systems (IROS)
+    + International Conference on Intelligent Robots and Systems (IROS)
 
-    - Neural Computing and Applications (NCAA Journal)
+    + Neural Computing and Applications (NCAA Journal)
 
-    - International Conference of Robotics and Automation (ICRA)
+    + International Conference of Robotics and Automation (ICRA)
 
-    - American Control Conference (ACC)
+    + American Control Conference (ACC)
 
-    - International Federation of Automatic Control World Congress (IFAC)
+    + International Federation of Automatic Control World Congress (IFAC)
 
 + I enjoy mentoring committed undergraduates, masters students and high school students that are interested in computer vision and robotics. Ajith is a  <a href="https://www.linkedin.com/in/ajithvenkateswaran/">Senior Software Engineer</a> in Samsung. Adwait is an Engineer at Drov Tech, MN. Rachel is currently an undergrad at MIT CSAIL.
 
