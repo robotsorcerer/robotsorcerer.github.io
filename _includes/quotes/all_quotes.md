@@ -3,6 +3,11 @@
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientists into government contractors_" ~ PNA Report
 
+"_Jira's actually pretty great if you set it up correctly.
+
+The ninth circle of hell is trying to manage complex, interconnected projects across multiple teams with multiple milestones in GitHub issues and project boards.
+There's a place for both._" ~ Brandon Black
+
 "_An academic career, in which a person is forced to produce scientific writings in great amounts, creates a danger of intellectual superficiality_" ~ Albert Einstein
 
 
@@ -22,7 +27,7 @@
 
 "_Science is the belief in the ignorance of experts._" ~ Feynman
 
-"_What will the theories and technologies of 2065 look like? If we are not careful, if we do not sufficiently value explanatory science and individual creativity, they will look pretty much like they do today. But if we do, many wonders may lie ahead—not only the elusive unified field theory for physics but perhaps also a new type of “theory” for cog- nition and consciousness, or maybe theories matching the scope and elegance of natural selection for other great challenges of biology, including the mechanisms of regu- lation and dysregulation (e.g., cancer and aging) at the cellular level and the prediction of structure and function at the molecular level. There is no lack of frontiers._"  ~ PNA Report
+"_What will the theories and technologies of 2065 look like? If we are not careful, if we do not sufficiently value explanatory science and individual creativity, they will look pretty much like they do today. But if we do, many wonders may lie ahead—not only the elusive unified field theory for physics but perhaps also a new type of “theory” for cognition and consciousness, or maybe theories matching the scope and elegance of natural selection for other great challenges of biology, including the mechanisms of regulation and dysregulation (e.g., cancer and aging) at the cellular level and the prediction of structure and function at the molecular level. There is no lack of frontiers._"  ~ PNA Report
 
 _"We have a habit in writing articles published in scientific journals to make the work as finished as possible, to cover all the tracks, to not worry about the blind alleys or to describe how you had the wrong idea first, and so on. So there isn't any place to publish, in a dignified manner, what you actually did in order to get to do the work._"
 -- Richard Feynman in "The Development of the Space-Time View of Quantum Electrodynamics," Nobel Lecture (11 December 1965)﻿
@@ -65,7 +70,7 @@ The challenge is there, but even very small boys do not
 accept all dares._”
                 – Richard E. Bellman
 
-"_"Finally, I’d like to challenge you to think of a PhD as more than just a sequence of papers. You’re not a paper writer. You’re a member of a research community and your goal is to push the field forward. Papers are one common way of doing that but I would encourage you to look beyond the established academic game. Think for yourself and from first principles. Do things others don’t do but should. Step off the treadmill that has been put before you._"
+"_Finally, I’d like to challenge you to think of a PhD as more than just a sequence of papers. You’re not a paper writer. You’re a member of a research community and your goal is to push the field forward. Papers are one common way of doing that but I would encourage you to look beyond the established academic game. Think for yourself and from first principles. Do things others don’t do but should. Step off the treadmill that has been put before you._"
                 -- Andrej Karpathy
 
 “_Math is not something boys are better at, it’s not a spectator sport,
