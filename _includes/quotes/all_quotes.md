@@ -3,13 +3,14 @@
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientists into government contractors_" ~ PNA Report
 
-"_Jira's actually pretty great if you set it up correctly.
+"_Jira's actually pretty great if you set it up correctly. The ninth circle of hell is trying to manage complex, interconnected projects across multiple teams with multiple milestones in GitHub issues and project boards. There's a place for both._" ~ Brandon Black
 
-The ninth circle of hell is trying to manage complex, interconnected projects across multiple teams with multiple milestones in GitHub issues and project boards.
-There's a place for both._" ~ Brandon Black
+"_That which is static and repetitive is boring. That which is dynamic
+and random is confusing. In between lies art._" ~ John A. Locke
+
+"_Science is a differential equation. Religion is a boundary condition._" ~ Alan Turing
 
 "_An academic career, in which a person is forced to produce scientific writings in great amounts, creates a danger of intellectual superficiality_" ~ Albert Einstein
-
 
 “_We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil._” ~ Knuth, Donald
 
@@ -47,9 +48,6 @@ You can't understand religion. You have to believe in it."_
 
 _"Science is but language well arranged._"
  ~ Lavoiser﻿
-
-
- "_There has never been a monopoly on good ideas. If someone thinks they are the best, they probably have not seen people better than they are._" ~ Me, Dec. '12, 2012
 
   “_There are several ways in which a mathematician can
 proceed to extend his research efforts, particularly one who
