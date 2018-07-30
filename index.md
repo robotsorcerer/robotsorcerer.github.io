@@ -30,6 +30,7 @@ title: Lekan Ogunmolu
 ## <i class="fa fa-chevron-right"></i> Side Projects
 + [awesome neuro-control](https://github.com/lakehanne/awesome-neurocontrol): A curated list of papers that apply neural dynamics to control systems.
 + [advice for fellowships, internships, conference grants applications]( {{ site.url }}/scholternships)
++ [summer'18 reading list]( {{ site.url }}/readlist18):  Bellman and Optimal Control
 + [summer'17 reading list]( {{ site.url }}/readlist):  RAS Papers
 + [bash-scripts](https://github.com/lakehanne/shells.git):   Short and fun bash scripts.
 + [control/robotics/ai conference tracker](https://github.com/lakehanne/conference-tracker).
