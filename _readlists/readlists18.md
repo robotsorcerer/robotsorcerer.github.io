@@ -8,7 +8,7 @@
 
 This is the computational aspect of Dr. Bellman's DP theory written alongside Dr. Dreyfus in the summer of 1962, I believe while they worked for the RAND corporation. I am reading the book haphazardly. I have found the stability part of the book to have questions that are still relevant today. It is also interesting to see how Bellman goes into so much detail in elucidating how to implement his DP theoretic formulations on a modern  digital computer. Goes to show that as Engineers and mathematicians, we should not stop at merely theorizing and merely rigorizing existing formalisms, but rather we should go on to provide insights on how our algorithms can be implemented so as to help many people understand our work. Or to quote Dr. Bellman himself, "If we do not wish to suffer the usual atrophy of armchair philosophers, we must occasionally roll up our sleeves and do some spadework."
 
-Since I am in Japan for the summer, I have found that it is best for me to pick on the rare wisdom that this man possessed by reading his book while I am exploring the country on the JR trains during the weekends. It's been great so far!
+Since I am in Japan for the summer, I have found that it is best for me to pick on the rare wisdom that this man possessed by reading his book while I am exploring the country on the tortuous JR trains during the weekends. It's been great so far!
 
 - **[The Theory of Dynamic Programming][Theory-DP]**
   - Authors: Richard Bellman
@@ -20,4 +20,4 @@ Since I am in Japan for the summer, I have found that it is best for me to pick 
 
 <br>
 
-NB: Most of these books are available on Amazon and a used copy can be cheaply bought to entertain your mind this summer. So go ahead and order them. We are in the era of big data and large scale computing. The theory of DP is as relevant AF. 
+NB: Most of these books are available on Amazon and a used copy can be cheaply bought to entertain your mind this summer. So go ahead and order them. We are in the era of big data and large scale computing. The theory of DP is as relevant AF.
