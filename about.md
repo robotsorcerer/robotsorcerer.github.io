@@ -53,7 +53,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 + I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision and robotics.
 
-    -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer</a> in Samsung Research, America.
+    -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer in Samsung Research, America.
 
     -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
 
