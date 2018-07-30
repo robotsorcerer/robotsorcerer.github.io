@@ -10,11 +10,13 @@ This is the computational aspect of Dr. Bellman's DP theory written alongside Dr
 
 Since I am in Japan for the summer, I have found that it is best for me to pick on the rare wisdom that this man possessed by reading his book while I am exploring the country on the tortuous JR trains during the weekends. It's been great so far!
 
-- **[The Theory of Dynamic Programming][Theory-DP]**
+<a name="Theory-DP"></a>
+#### **The Theory of Dynamic Programming**
   - Authors: Richard Bellman
   - This is a rather short report by Dr. Bellman, published in mid-summer of 1954, also while he was at the RAND corporation. At a measly 27 pages in content, it provides an expository delineation of the theory of DP. Highly recommended!
 
-- **[Dynamic Programming][DP]**
+<a name="DP"></a>
+#### **Dynamic Programming**
   - Authors: Richard Bellman
   - A much rather full exposition of the Dynamic Programming theorizing and the optimality principle. Je dois admettre, I have not read this enough to provide an overview. This bullet will be updated once I do.
 
