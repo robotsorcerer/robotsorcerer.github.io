@@ -9,9 +9,10 @@ category: [control,adaptive-control]
 ---
 {% include mathjax.md %}
 
-It's been more than a year since my last post. I am sorry. I blame the publish or perish academic mantra. Now that I've stocked up on a few more papers, I shall try to keep up to date elucidating topics that capture my imagination right here.
+### Intro
 
-This post deals with understanding the the role of neural networks in adaptive control theory. It is based on a talk Nick gave at Google Robotics last year. Before we dive into the slide, allow me the opportunity to delve a little deeper into the role of neural networks in adaptive control theory.
+It's been more than a year since my last post. I am sorry. I blame the publish or perish academic mantra. Now that I've stocked up on a few more papers, I shall try to keep up to date elucidating topics that capture my imagination right here. Before we dive into the proper topic, allow me the opportunity to delve a little deeper into the role of neural networks in adaptive control theory.
+
 
 ### On adaptive systems
 
@@ -25,15 +26,15 @@ Current approaches for solving unknown system nonlinearities  resort to linear a
 
 The most successful severely nonlinear model estimators of today are deep learning models, often trained with back-propagation. Given the intractability of the solvability of nonlinear control problems (e.g. with the Hamilton-Jacobi-Bellman equation), deep networks have found use as efficient function approximators that compactly parameterize high-dimensional control laws(e.g. in deep reinforcement learning). However, these deep neuro-estimators and neuro-controllers lack formal robustness and stability guarantees. These methods have the following drawbacks, namely:
 
-	+ they place an emphasis on depth (hence their capacity for large memory consumption) rather than sparsity, making them over-parameterized systems, that are very sensitive to noise and disturbance;  
++ they place an emphasis on depth (hence their capacity for large memory consumption) rather than sparsity, making them over-parameterized systems, that are very sensitive to noise and disturbance;  
 
-	+  being black boxes, they lack stabilizing guarantees in trained policies so that trained deep neuro-controllers are often unstable and exhibit brittleness in the real-world [4]
++  being black boxes, they lack stabilizing guarantees in trained policies so that trained deep neuro-controllers are often unstable and exhibit brittleness in the real-world [4]
 
-	+ they place an overwhelming emphasis on memorization of static dataset  as opposed to adaptability and analyzability as new data samples become available;
++ they place an overwhelming emphasis on memorization of static dataset  as opposed to adaptability and analyzability as new data samples become available;
 
-	+  so far, neuro-adaptive control methods that guarantee Lyapunov stability have not been applied to the class of problems where the curse-of-dimensionality is a challenge[7].  
++  so far, neuro-adaptive control methods that guarantee Lyapunov stability have not been applied to the class of problems where the curse-of-dimensionality is a challenge[7].  
 
-### My research propagandings :)
+### My neuro-adaptive journey
 
 Therefore, to achieve adaptive systems' original goals, we must revisit these persisting problems and devise sparse, adaptive neuro-estimators, and neuro-control laws.
 
@@ -50,6 +51,10 @@ I focus on the approximation properties of deep networks for representing comple
 The neural network adaptive control part starts on the 11th slide.
 
 For completeness' sake, I am attaching the full slides here. It does more justice to the subject than I could ever rewrite in markdown :). Enjoy and feel free to ask questions in the comments section!
+
+### Teaser Slides
+
+These slides deal with understanding the the role of neural networks in adaptive control theory. It is based on a talk Nick gave at Google Robotics last year.
 
 [Soft-Neuro-Adapt](/assets/presentations/google.pdf)
 
