@@ -33,13 +33,15 @@ Adaptive control applied to nonlinear systems is in its infancy. Why is this so?
 In nonlinear systems, it is not only the parameters that are nonlinear, but also the functions (Bellman has plenty to say about this).  Adaptive control was designed to stabilize system parameters by adapting for nonlinear parameters  and **NOT** nonlinear functions. The extension of adaptive controllers to nonlinear systems from LTI and LTV systems is therefore a complicated one. There are two general cases of adopting adaptive control to nonlinear systems:
 
 + nonlinear systems whose nonlinear functions are known but unknown parameters appear linearly.
+  - Easy: check!
 
 + the nonlinear functions are assumed known by multiplying nonlinear basis functions with unknown parameters to be determined.
+  - Complex: welcome to control theory!
 
-This second option falls under categories where the basis functions are typically deduced from **neural networks** parameters (or weights as they are called) and they are assumed to appear linearly e.g. in a single layer <strong>(so far, this is what has been analytically proven; correct me if I am wrong)</strong>. This property is fundamental to developing analytical stability results with large regions of attraction. In my opinion, analytical stability and the associated existence and uniqueness proofs are really elegant on paper but seldom lend themselves to much usefulness in the laboratory. Why? Most of the computers we use nowadays are only capable of arithmetic operations. Such analytical solutions that we prove require, oftentimes integration and differentiation. On modern digital computers, we must therefore resolve such differentiations and integrations by means of approximations (e.g. finite differences or the trapezoidal rule, a la integration). So we must occassionally roll up our sleeves and use our mathematical spades if we do not wish to suffer the usual atropy of armchair philosophers, or so says R.E. Bellman.
+This second option falls under categories where the basis functions are typically deduced from **neural networks** parameters (or weights as they are called these days) and they are assumed to appear linearly e.g. in a single layer network <strong>(so far, this is what has been analytically proven; correct me if I am wrong)</strong>. This property is fundamental for developing analytical stability results with large regions of attraction. In my opinion, analytical stability and the associated existence and uniqueness proofs are really elegant on paper but seldom lend themselves to much usefulness in the laboratory. Why? Most of the computers we use nowadays are only capable of arithmetic operations. Such analytical solutions that we prove oftentimes require integration and differentiation. On modern digital computers, we must therefore resolve such differentiations and integrations by means of approximations (e.g. finite differences or the trapezoidal rule, a la integration). We must occasionally roll up our sleeves and use our mathematical spades if we do not wish to suffer the usual atrophy of armchair philosophers, or so says R.E. Bellman.
 
 
-### The case for numerically-stable larege-scale adaptve control
+### The case for numerically-stable large-scale adaptve control
 
 To paraphrase the legendary Karl Astrom, "adaptive systems have witnessed the formalization of methods" for designing control and automation algorithms in linear and mildly nonlinear systems. There are pertinent nonlinear problems that adaptive systems have not solved.
 
