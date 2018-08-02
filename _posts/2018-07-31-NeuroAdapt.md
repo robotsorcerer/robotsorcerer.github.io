@@ -59,6 +59,8 @@ These slides deal with understanding the the role of neural networks in adaptive
 [Soft-Neuro-Adapt](/assets/presentations/google.pdf)
 
 
+### References
+
 [1]. Ioannou, P., & Fidan, B. (2006). Adaptive control tutorial. Society for Industrial and Applied Mathematics, 2006
 
 [2]. Billings, S. Nonlinear system identification. NARMAX methods in the Time, Frequency, and Spatio-Temporal Domains. John Wiley & Sons Ltd. 2013.
