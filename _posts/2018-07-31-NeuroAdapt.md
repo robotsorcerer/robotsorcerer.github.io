@@ -25,13 +25,15 @@ Current approaches for solving unknown system nonlinearities  resort to linear a
 
 The most successful severely nonlinear model estimators of today are deep learning models, often trained with back-propagation. Given the intractability of the solvability of nonlinear control problems (e.g. with the Hamilton-Jacobi-Bellman equation), deep networks have found use as efficient function approximators that compactly parameterize high-dimensional control laws(e.g. in deep reinforcement learning). However, these deep neuro-estimators and neuro-controllers lack formal robustness and stability guarantees. These methods have the following drawbacks, namely:
 
-	-- they place an emphasis on depth (hence their capacity for large memory consumption) rather than sparsity, making them over-parameterized systems, that are very sensitive to noise and disturbance;  
+	+ they place an emphasis on depth (hence their capacity for large memory consumption) rather than sparsity, making them over-parameterized systems, that are very sensitive to noise and disturbance;  
 
-	--  being black boxes, they lack stabilizing guarantees in trained policies so that trained deep neuro-controllers are often unstable and exhibit brittleness in the real-world [4]
+	+  being black boxes, they lack stabilizing guarantees in trained policies so that trained deep neuro-controllers are often unstable and exhibit brittleness in the real-world [4]
 
-	-- they place an overwhelming emphasis on memorization of static dataset  as opposed to adaptability and analyzability as new data samples become available;
+	+ they place an overwhelming emphasis on memorization of static dataset  as opposed to adaptability and analyzability as new data samples become available;
 
-	--  so far, neuro-adaptive control methods that guarantee Lyapunov stability have not been applied to the class of problems where the curse-of-dimensionality is a challenge[7].  
+	+  so far, neuro-adaptive control methods that guarantee Lyapunov stability have not been applied to the class of problems where the curse-of-dimensionality is a challenge[7].  
+
+### My research propagandings :)
 
 Therefore, to achieve adaptive systems' original goals, we must revisit these persisting problems and devise sparse, adaptive neuro-estimators, and neuro-control laws.
 
@@ -43,6 +45,7 @@ I focus on the approximation properties of deep networks for representing comple
 
 <!-- Being a google ai residency fellow will equip me with more research freedom, as I build discipline expertise. Honing my research skills, my contributions to the research community will have greater impact. And gaining proficient discipline expertise, this will stimulate rapid progress in my research career path. My goal is to ultimately be in a research position where I can train future researchers that aspire to tackle the important technological problems of our time -- therefore improving the quality of the AI research ecosystem. -->
 
+### Efforts in crossing the Rubicon
 
 The neural network adaptive control part starts on the 11th slide.
 
