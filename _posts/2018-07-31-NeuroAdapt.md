@@ -77,13 +77,7 @@ I focus on the approximation properties of deep networks for representing comple
 
 ### Efforts in crossing the Rubicon
 
-The neural network adaptive control part starts on the 11th slide.
-
-For completeness' sake, I am attaching the full slides here. It does more justice to the subject than I could ever rewrite in markdown :). Enjoy and feel free to ask questions in the comments section!
-
-### Teaser Slides
-
-These slides deal with understanding the the role of neural networks in adaptive control theory. It is based on a talk Nick gave at Google Robotics last year.
+For completeness' sake, I am attaching the full slides of my recent talk on this subject here. These slides deal with understanding the the role of neural networks in adaptive control theory. It is based on a talk Nick gave at Google Robotics last year as well as my talk at PFN this year. It does more justice to the subject than I could ever rewrite in markdown :). Enjoy and feel free to ask questions in the comments section!
 
 [Soft-Neuro-Adapt](/assets/presentations/google.pdf)
 
