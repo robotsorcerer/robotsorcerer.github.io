@@ -6,7 +6,7 @@ permalink: about
 <?php include_once("analyticstracking.php") ?>
 
 <!-- <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;"> -->
-Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning.
+Welcome to my blog, where theory meets practice, and where scientific elegance meets cool engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning.
 
 <!-- My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators to determine accurate system models, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) adaptive function approximators to model these coupled nonlinearities.  As these soft actuators are nonlinear, a lot of effort goes into formulating the model properties of the hardware in order to obtain an effective controller that can deliver the required sub-millimeter and sub-degree accuracy. Owing to the recent advances in sequential deep learning frameworks in terms of their accuracy and precision in generating powerful models for tasks including speech recognition and machine language translation, I leverage on these technologies to create dynamic models of the patient testbed and to design appropriate adaptive controllers to scale. -->
 
@@ -37,18 +37,30 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 + I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
 + I regularly peer-review for the following academic conferences and journals:
-    - Institute of Physics: Measurement Science and Technology (Journal)
-    - International Conference of Robotics and Automation (ICRA)
-    - International Conference on Intelligent Robots and Systems (IROS)
-    - Neural Computing and Applications (NCAA Journal)
-    - International Federation of Automatic Control (IFAC) World Congress
-    - American Control Conference (ACC)
 
+    &nbsp; &nbsp; &nbsp; &nbsp; - Institute of Physics: Measurement Science and Technology (Journal)
+
+    &nbsp; &nbsp; &nbsp; &nbsp; - International Conference on Robotics and Automation (ICRA)
+
+    &nbsp; &nbsp; &nbsp; &nbsp; - International Conference on Intelligent Robots and Systems (IROS)
+
+    &nbsp; &nbsp; &nbsp; &nbsp; - Neural Computing and Applications (NCAA Journal)
+
+    &nbsp; &nbsp; &nbsp; &nbsp; - International Federation of Automatic Control (IFAC) World Congress
+
+    &nbsp; &nbsp; &nbsp; &nbsp; - American Control Conference (ACC)
+
++ I had my masters degree in Control Systems from Sheffield Uni in the UK.
+
++ I had my Bachelors in Physics. Specifically, my thesis was on the single fractional parentage coefiicients in the sd-shell nuclei, advised by [Prof. Ademola Amusa](https://www.linkedin.com/in/ademola-amusa-b40812122/).
 
 + I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision and robotics.
-    -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer in Samsung Research, America.
-    -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
-    -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
+
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer in Samsung Research, America.
+
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
+
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
 
 +   I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
 

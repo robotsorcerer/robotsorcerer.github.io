@@ -15,21 +15,21 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
   </td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>July 05 2018</td>
   <td> I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon. Slides <a href="/assets/presentations/pfn.pdf">here.</a>
   </td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>July 2018</td>
   <td> I will be attending ROSCon 2018. If you are a ROS developer and would love to meet, please shoot me an email. Nos vemos en Madrid!</td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>June 2018</td>
   <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>June 2018</td>
@@ -38,43 +38,43 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> Our submission to the American Association of Physicists in Medicine (AAPM) on using approximate dynamic programming for selecting beam orientation during Intensity Modulated Radiotherapy Treatment Planning  got accepted as an oral. A member of the <a href="http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">MAIA lab</a> will be presenting on my behalf. Please check out my talk in Room 209 at 1:14pm on July 29 in Nashville, TN if you'll be coming to the music city.</td>
+  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city in July.</td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Peer reviewing for Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale.</td>
-</tr>
+</tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Peer reviewing for 2018 proceedings of the <a href="https://www.iros2018.org/"><i>International Conference on Intelligent Robots and Systems (IROS)</i></a> under Associate Editor (AE), <a href="http://www.jenskober.de/">Jens Kober</a>.
   </td>
-</tr>
+</tr> -->
 
 <!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Videos of my IROS 2018 <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>. A condensed version of the <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">paper</a> got accepted to ICRA 2018 abstract-only track.</td>
 </tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>January 2018</td>
   <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal, (AE, <a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik)</a>.</td>
-</tr>
+</tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>October 2017</td>
   <td> Peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (Associate Editor, Pablo Jiménez) and the <i><a href="http://acc2018.a2c2.org/"><i>American Control Conference, ACC,</i></a> (Associate Editor, Ashwin Dani) </i>.</td>
+</tr> -->
+
+<tr>
+  <td class='col-md-3'>August 2017</td>
+  <td> I will be <a href="http://iros2017.org/program/forums/efsc">pitching my start-up idea</a>  to VCs in Vancouver in October. Yeah, sure. Come in and argue! </td>
 </tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td> I will be <a href="https://lists.iais.fraunhofer.de/sympa/arc/euron-dist/2017-09/msg00065.html">pitching my start-up idea</a>  to VCs in Vancouver in October. Yeah, sure. Come in and argue! </td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>August 2017</td>
-  <td> Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award</a> for my IROS oral.</td>
+  <td> Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award.</a></td>
 </tr>
 
 <tr>
