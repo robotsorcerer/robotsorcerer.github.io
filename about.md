@@ -32,7 +32,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 ### Random Facts
 
-+ I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace of quiet, boring citizens.
++ I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace and quiet of boring citizens.
 
 + I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
