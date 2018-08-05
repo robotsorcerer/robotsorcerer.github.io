@@ -209,8 +209,8 @@ Following the prismatic and revolute joint taxonomy, there are many possiblities
 This is otherwise called the **anthromorphic** manipulator, named out of its anthropomorphic characteristics. It has three revolute joints with each axis designated as the **waist** (\\(z\_0\\)), **shoulder** (\\(z\_1\\)), and **elbow** (\\(z\_2\\)). More often than not, the joint axis \\(z\_2\\) will be parallel to \\(z\_1\\) while both \\(z\_2\\) and \\(z\_1\\) will be perpendicular to \\(z\_0\\). The revolute manipulator has a considerably large degree of freedom of movement in a compact space.
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/Lec1/RRR.png" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
-  <div class="figcaption" align="right">Fig 5.1. Symbolic representation of a six-DOF elbow manipulator with links and joints similar to those of a a human joint/limbs which explains why it is called an anthropomorphic robot. Photo courtesy of [\\(^2\\)].
+  <img src="/assets/Lec1/RRR.png" width="80%" height="350" align="middle">  
+  <div class="figcaption" align="right">Fig 5.1. Symbolic representation of a six-DOF elbow manipulator with links and joints similar to those of a a human joint/limbs which explains why it is called an anthropomorphic robot. Photo courtesy of [2].
   </div>
 </div>
 
@@ -219,8 +219,8 @@ This is otherwise called the **anthromorphic** manipulator, named out of its ant
 If we replace the elbow or last joint in the **RRR** manipulator with a prismatic joint, we would be left with what is called the **spherical manipulator**. Spherical joints are capable of arbitrary rotations and the name derives from the fact that the "joint coordinates coincide with the spherical coordinates of the end effector relative to a coordinate frame located at the shoulder joint"\\(^1\\). Passive spherical joints consists of a _ball and socket_ joint. This does not work adequately if the joint is to exert forces and torques and hence actuated spherical joints are often constructed such that three revolute joints are combined with motors to the end of making their axes intersect at a point\\(^3\\).
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/Lec1/Spherical.png" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
-  <div class="figcaption" align="right">Fig 5.2. Symbolic representation of a spherical arm (left); The Stanford Arm (right) is an example of a spherical manipulator. Photo courtesy of \\(^2\\).
+  <img src="/assets/Lec1/Spherical.png" width="80%" height="500" align="middle">
+  <div class="figcaption" align="right">Fig 5.2. Symbolic representation of a spherical arm (left); The Stanford Arm (right) is an example of a spherical manipulator. Photo courtesy of [2].
   </div>
 </div>
 
@@ -229,8 +229,8 @@ If we replace the elbow or last joint in the **RRR** manipulator with a prismati
 Short for **S**elective **Co**mpliant **A**rticulated **R**obot for **A**ssembly. Introduced in 1979 in Japan and the United States. Typically used for pick and place operations.
 
 <div class="fig figcenter fighighlight">
-  <img src="/assets/Lec1/SCARA.png" width="80%" height="350" align="middle"   style="border-left: 1px solid black;">
-  <div class="figcaption" align="right">Fig.5.3. Symbolic representation of the Adept One Robot. Photo Courtesy of [\\(^3\\)].>
+  <img src="/assets/Lec1/SCARA.png" width="80%" height="550" align="middle">
+  <div class="figcaption" align="middle">Fig.5.3. Symbolic representation of the Adept One Robot. Photo Courtesy of [3].
   </div>
 </div>
 
@@ -242,7 +242,7 @@ The cylindrical manipulator has two independent degrees of freedom and is typica
 
 <div class="fig figcenter fighighlight">
   <img src="https://www.machinedesign.com/sites/machinedesign.com/files/uploads/2016/10/12/1216_MD_DiffBetw_Robots_F3.gif" width="60%" height="500" align="middle">
-  <div class="figcaption" align="middle">Fig.5.4.  Symbolic representation of the Cylindrical Robot. Photo Courtesy of [4]</a>.
+  <div class="figcaption" align="middle">Fig.5.4.  Symbolic representation of the Cylindrical Robot. Photo Courtesy of [4] .
   </div>
 </div>
 
@@ -251,8 +251,8 @@ The cylindrical manipulator has two independent degrees of freedom and is typica
 We say a manipulator is cartesian if its first three joints are prismatic. The variables of the joints are the cartesian coordinates with respect to the base. They find uses in sealant application, table-top assembly, and gantry robots e.g. for cargo transfer etc.
 
 <div class="fig figcenter fighighlight">
-  <img src="https://www.assemblymag.com/ext/resources/Issues/2016/November/AIA/asb1116AIA1.jpg" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
-  <div class="figcaption" align="right">Fig. 5.5. An example cartesian robot manipulator.>
+  <img src="https://www.assemblymag.com/ext/resources/Issues/2016/November/AIA/asb1116AIA1.jpg" width="80%" height="500" align="middle">
+  <div class="figcaption" align="middle">Fig. 5.5. An example cartesian robot manipulator.
   </div>
 </div>
 
