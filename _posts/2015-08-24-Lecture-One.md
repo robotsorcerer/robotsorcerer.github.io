@@ -168,7 +168,7 @@ When we know the set of all possible configurations, we say we know the **config
 **Example 2:** A two-revolute joint arm will have \\(\mathcal{S}^1\\) \\(\times\\) \\(\mathcal{S}^1\\) configuration space. This is visually equivalent to moving an outer circle arrount an inner concentric circle. This is called a torus (donut-shaped).
 
 <div class="fig figcenter fighighlight">
-  <img src="https://en.wikipedia.org/wiki/Torus#/media/File:Torus.svg" width="80%" height="500" align="middle">
+  <img src="https://i.stack.imgur.com/fRaug.png" width="80%" height="500" align="middle">
   <div class="figcaption" align="middle">Fig 2. An example of a Torus.
     <i>Courtesy of Wikipedia.</i>
   </div>
@@ -263,8 +263,7 @@ In this class, we have covered the mathematical basis of robotics and built a fo
 We'll see you in the next class.
 
 <a name='add'></a>
-## References
-- 1.  [Asimov, Isaac (circa 1950) I, Robot.](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics).
-- 2.  Robot Modeling and Control, Mark W. Spong, Seth Hutchinson and M. Vidyasagar. John Wiley & Sons Inc. 2006.
-- 3.  A Mathematical Introduction to Robotic Manipulation, Richard Murray, Zexiang Li and S. Shankar Sastry. CRC Press. 1994.
-- 4.  [Dynast](http://icosym-nt.cvut.cz/odl/partners/fuh/EXAMPLES/eqs5/stan_FM.gif).
+#### References
++ 1.  [Asimov, Isaac (circa 1950) I, Robot.](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics).
++ 2.  Robot Modeling and Control, Mark W. Spong, Seth Hutchinson and M. Vidyasagar. John Wiley & Sons Inc. 2006.
++ 3.  A Mathematical Introduction to Robotic Manipulation, Richard Murray, Zexiang Li and S. Shankar Sastry. CRC Press. 1994.
