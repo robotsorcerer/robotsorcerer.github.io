@@ -2,7 +2,7 @@
 layout: post
 date: 2018-08-04 13:10:00
 title: "Control Concepts"
-excerpt: "Just a random collection of theorems, existence and uniqueness for nonlinear control."
+excerpt: "Just a random collection of continuity, existence and uniqueness theorems for nonlinear control."
 permalink: control-concepts
 comments: true
 category: [control]
