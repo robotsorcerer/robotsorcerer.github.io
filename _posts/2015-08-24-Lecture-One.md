@@ -3,7 +3,6 @@ title: Mathematical Modeling of Robots.
 layout: page
 permalink: robots-modeling
 mathjax: true
-excerpt: "A robot may not injure a human being or, through inaction, allow a human being to come to harm."
 comments: true
 category: [control,robotics,mathematics]
 ---
@@ -105,7 +104,7 @@ curved separately.
 
 There will be two exams given during the semester. In the event of an excused
 absence (illness, job-related travel, holy day absence, etc.), students
-**must** inform the instructor ahead of time and provide proper documentation of the conflict. An accommodation will be attempted for verifiable problems. Homework assignments will be collectedm graded and discussed in class (as time permits).
+**must** inform the instructor ahead of time and provide proper documentation of the conflict. An accommodation will be attempted for verifiable problems. Homework assignments will be collected graded and discussed in class (as time permits).
 
 Homework will be collected at the beginning of the class period when
 it is due. Homework that is not reasonably neat and readable, or not bound,
@@ -168,8 +167,8 @@ When we know the set of all possible configurations, we say we know the **config
 
 **Example 2:** A two-revolute joint arm will have \\(\mathcal{S}^1\\) \\(\times\\) \\(\mathcal{S}^1\\) configuration space. This is visually equivalent to moving an outer circle arrount an inner concentric circle. This is called a torus (donut-shaped).
 
-<center> ![Torus](https://en.wikipedia.org/wiki/Torus#/media/File:Torus.svg)</center>
-<center> Fig 2. An example of a Torus. </center>
+![Torus](../assests/Lec1/Torus.svg)
+Fig 2. An example of a Torus.
 
 
 **Example 3:** For a one revolute and one prismatic joint, the configuration space is \\(\mathcal{S}^1\\) \\(\times\\) \\(\mathcal{R}\\) which is geometrically equivalent to a cylinder.
