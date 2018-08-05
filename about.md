@@ -37,20 +37,17 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 + I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
 
 + I regularly peer-review for the following academic conferences and journals:
-  - Institute of Physics: Measurement Science and Technology (Journal)
-  - International Conference of Robotics and Automation (ICRA)
-  - International Conference on Intelligent Robots and Systems (IROS)
-  - Neural Computing and Applications (NCAA Journal)
-  - International Federation of Automatic Control (IFAC) World Congress
-  - American Control Conference (ACC)
+    - Institute of Physics: Measurement Science and Technology (Journal)
+    - International Conference of Robotics and Automation (ICRA)
+    - International Conference on Intelligent Robots and Systems (IROS)
+    - Neural Computing and Applications (NCAA Journal)
+    - International Federation of Automatic Control (IFAC) World Congress
+    - American Control Conference (ACC)
 
 
 + I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision and robotics.
-
     -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer in Samsung Research, America.
-
     -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
-
     -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
 
 +   I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
