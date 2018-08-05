@@ -95,10 +95,11 @@ with the Lipschitz condition satisfied for \\((x,t), (y,t)\\) i\\(\in\\) \\(R(x\
 \end{align}
 
 where \\(k>0\\) and it depends on \\(b, c\\). THUS,
-   -   there exists a unique solution \\(\Phi(t; x\_0, t\_0)\\) of \\(dx/dt\\), that starts as \\(x\_0, t\_0\\) for all \\( |t - t\_0| \le a(t\_0) \\),
+  - there exists a unique solution \\(\Phi(t; x\_0, t\_0)\\) of \\(dx/dt\\), that starts as \\(x\_0, t\_0\\) for all \\( |t - t\_0| \le a(t\_0) \\),
 
-      - \\(a(t\_0) \ge \text{ Min }\{c(t\_0), b(x(t\_0))/M(x\_0, t\_0)\}\\), where \\(M(x\_0, t\_0)\\) is the maximum assumed by the continuous function \\(f(x,t)\\) in the closed, bounded set \\(R(x\_0, t\_0)\\)
-  - In some small neighborhood of \\(x\_0, t\_0\\), the solution is continuous in its arguments
+  - \\(a(t\_0) \ge \text{ Min }\{c(t\_0), b(x(t\_0))/M(x\_0, t\_0)\}\\), where \\(M(x\_0, t\_0)\\) is the maximum assumed by the continuous function \\(f(x,t)\\) in the closed, bounded set \\(R(x\_0, t\_0)\\)
+
+  - in some small neighborhood of \\(x\_0, t\_0\\), the solution is continuous in its arguments
 
 Observe that the Lipschitz condition only implies continuity of \\(f\\) in \\(x\\) but not necessarily in \\(t\\); as it is implied by the bounded derivatives in \\(x\\). Note that the local lipschitz condition required by the theorem only implies desired properties of a solution near \\(x\_0, t\_0\\). The _finite escape time_ (that is it leaves any compact set within a finite time.) quandary does not allow us to make conclusions surrounding arbitrarily large values of \\(t\\). The phrase “finite escape time” is used to describe the phenomenon that a trajectory escapes to infinity at a finite time. **In order that a differential equation accurately represent a physical system, the possibility of finite escape time has to be mitigated by an explicit assumption to the contrary.** If the Lipschitz condition holds for \\(f\\) everywhere, then there can be no finite escape time. The proof is easy by integrating both sides of \eqref{diff_eq} and using
 
@@ -119,4 +120,4 @@ By the Gronwall-Bellman lemma,
   ||\Phi(t; x\_0, t\_0) ||  \le [exp k (t - t\_0)] ||x_0 || \nonumber
 \end{align}
 
-which is less than \\(\infty \\) for any finite (t - t\_0)
+which is less than \\(\infty \\) for any finite (t - t\_0).
