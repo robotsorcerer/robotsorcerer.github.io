@@ -167,8 +167,11 @@ When we know the set of all possible configurations, we say we know the **config
 
 **Example 2:** A two-revolute joint arm will have \\(\mathcal{S}^1\\) \\(\times\\) \\(\mathcal{S}^1\\) configuration space. This is visually equivalent to moving an outer circle arrount an inner concentric circle. This is called a torus (donut-shaped).
 
-![Torus](../assests/Lec1/Torus.svg)
-Fig 2. An example of a Torus.
+<div class="fig figcenter fighighlight">
+  <img src="/assets/Lec1/Torus.svg" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
+  <div class="figcaption" align="right">Fig 2. An example of a Torus.. <i>Courtesy of Wikipedia.</i>
+  </div>
+</div>
 
 
 **Example 3:** For a one revolute and one prismatic joint, the configuration space is \\(\mathcal{S}^1\\) \\(\times\\) \\(\mathcal{R}\\) which is geometrically equivalent to a cylinder.
@@ -204,22 +207,31 @@ Following the prismatic and revolute joint taxonomy, there are many possiblities
 
 This is otherwise called the **anthromorphic** manipulator, named out of its anthropomorphic characteristics. It has three revolute joints with each axis designated as the **waist** (\\(z\_0\\)), **shoulder** (\\(z\_1\\)), and **elbow** (\\(z\_2\\)). More often than not, the joint axis \\(z\_2\\) will be parallel to \\(z\_1\\) while both \\(z\_2\\) and \\(z\_1\\) will be perpendicular to \\(z\_0\\). The revolute manipulator has a considerably large degree of freedom of movement in a compact space.
 
-<center>![Articulated Robot rm](../assets/Lec1/RRR.png)</center>
-<center>Fig 5.1. Symbolic representation of a six-DOF elbow manipulator with links and joints similar to those of a a human joint/limbs which explains why it is called an anthroppmorphic robot. Photo courtesy of [\\(^2\\)].</center>
+<div class="fig figcenter fighighlight">
+  <img src="/assets/Lec1/RRR.png" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
+  <div class="figcaption" align="right">Fig 5.1. Symbolic representation of a six-DOF elbow manipulator with links and joints similar to those of a a human joint/limbs which explains why it is called an anthropomorphic robot. Photo courtesy of [\\(^2\\)].
+  </div>
+</div>
 
 ### 5.2.  The Spherical Manipulator (RRP)
 
 If we replace the elbow or last joint in the **RRR** manipulator with a prismatic joint, we would be left with what is called the **spherical manipulator**. Spherical joints are capable of arbitrary rotations and the name derives from the fact that the "joint coordinates coincide with the spherical coordinates of the end effector relative to a coordinate frame located at the shoulder joint"\\(^1\\). Passive spherical joints consists of a _ball and socket_ joint. This does not work adequately if the joint is to exert forces and torques and hence actuated spherical joints are often constructed such that three revolute joints are combined with motors to the end of making their axes intersect at a point\\(^3\\).
 
-<center>![Spherical Robot rm](../assets/Lec1/Spherical.png)</center>
-Fig 5.2. Symbolic representation of a spherical arm (left); The Stanford Arm (right) is an example of a spherical manipulator. Photo courtesy of \\(^2\\).
+<div class="fig figcenter fighighlight">
+  <img src="/assets/Lec1/Spherical.png" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
+  <div class="figcaption" align="right">Fig 5.2. Symbolic representation of a spherical arm (left); The Stanford Arm (right) is an example of a spherical manipulator. Photo courtesy of \\(^2\\).
+  </div>
+</div>
 
 ### 5.3.  The SCARA Manipulator (RRP)
 
 Short for **S**elective **Co**mpliant **A**rticulated **R**obot for **A**ssembly. Introduced in 1979 in Japan and the United States. Typically used for pick and place operations.
 
-<center>![The Adept One robot](../assets/Lec1/SCARA.png)</center>
-Fig.5.3.  Symbolic representation of the Adept One Robot. Photo Courtesy of [\\(^3\\)].
+<div class="fig figcenter fighighlight">
+  <img src="/assets/Lec1/SCARA.png" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
+  <div class="figcaption" align="right">Fig.5.3. Symbolic representation of the Adept One Robot. Photo Courtesy of [\\(^3\\)].
+  </div>
+</div>
 
 It is a bit different from the Spherical Manipulators in that its \\(z\_0\\), \\(z\_1\\) and \\(z\_2\\) are all parallel to one another.
 
@@ -236,8 +248,12 @@ The cylindrical manipulator has two independent degrees of freedom and is typica
 ### 5.5.  The Cartesian Manipulator (PPP)
 
 We say a manipulator is cartesian if its first three joints are prismatic. The variables of the joints are the cartesian coordinates with respect to the base. They find uses in sealant application, table-top assembly, and gantry robots e.g. for cargo transfer etc.
-<center>![An example cartesian robot manipulator](https://www.assemblymag.com/ext/resources/Issues/2016/November/AIA/asb1116AIA1.jpg)</center>
-<center>Fig. 5.5. An example cartesian robot manipulator.</center>
+
+<div class="fig figcenter fighighlight">
+  <img src="https://www.assemblymag.com/ext/resources/Issues/2016/November/AIA/asb1116AIA1.jpg" width="80%" height="350" align="middle">   style="border-left: 1px solid black;">
+  <div class="figcaption" align="right">Fig. 5.5. An example cartesian robot manipulator.
+  </div>
+</div>
 
 <a name='summary'></a>
 ##Summary
