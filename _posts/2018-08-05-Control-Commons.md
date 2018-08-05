@@ -11,7 +11,7 @@ category: [control]
 
 - [Table of Contents](#table-o-conts)
 - [Introduction](#intro)
-- [Definitions Theorems, Lemmans](#defs)
+- [Definitions, Theorems, Lemmas etc](#defs)
 - [Nonlinear Control Theory](#nlnr)
 
 
@@ -74,50 +74,60 @@ is said to be free (or unforced) if \\(u(t) \equiv 0\\) for all \\(t\\). That is
 + The **first method of Lyapunov** deals with questions of stability using an explicit representation of the solutions of a differential equation
   - Note that the **second method** is more of a historical misnomer, perhaps more accurately described as a philosophical point of view rather than a systematic method. Successful application requires the user's ingenuity.
 
-+ In contrast to popular belief that the energy of a system and a Lyapunov function are the same, they are not the same. Why? Because **the Lyapunov function, (\\V(x)\\), is not unique**. To quote Kalman, "a system whose energy \\(E\\) decreases _on the average_, but not necessarily at each instant, is stable but \\(E\\) is not necessarily a Lyapunov function."
++ In contrast to popular belief that the energy of a system and a Lyapunov function are the same, they are not the same. Why? Because **the Lyapunov function, \\(V(x)\\), is not unique**. To quote Kalman, "a system whose energy \\(E\\) decreases _on the average_, but not necessarily at each instant, is stable but \\(E\\) is not necessarily a Lyapunov function."
 
 + **Lyapunov analysis and optimization**: Suppose a performance index is defined to be the error criterion between a measured and an estimated signal; suppose further that this criterion is integrated w.r.t time, then the performance index is actually a Lyapunov function -- provided that the error is not identically zero along any trajectory of the system.
 
 + **Existence, uniqueness, and continuity theorem**:
 
-  - Let \\(f(x, t)\\) be continuous in \\(x,t\\), and satisfy a Lipschitz condition in some region about any state \\(x\_0\\) passing through time \\(t\_0\\):
+  Let \\(f(x, t)\\) be continuous in \\(x,t\\), and satisfy a Lipschitz condition in some region about any state \\(x\_0\\) passing through time \\(t\_0\\):
 
   \begin{align}
-    R(x\_0, t\_0) = \begin{cases}
-      ||x - x\_0|| \le b(x\_0) \nonumber \\
-      ||t - t\_0|| \le c(t\_0)  \quad (b, c) > 0
-    \end{cases}
+    R(x\_0, t\_0) &=
+      ||x - x\_0|| \le b(x\_0) \nonumber
   \end{align}
 
-with the Lipschitz condition satisfied for \\((x,t), (y,t)\\) i\\(\in\\) \\(R(x\_0, t\_0)\\), then it follows that
+  \begin{align}
+    R(x\_0, t\_0) &= ||t - t\_0|| \le c(t\_0)  \quad (b, c) > 0
+  \end{align}
+
+with the Lipschitz condition satisfied for \\((x,t), (y,t)\\) \\(\in\\) \\(R(x\_0, t\_0)\\), then it follows that
 \begin{align}
   ||f(x,t) - f(y,t)|| \le k \, ||x-y|| \nonumber
 \end{align}
 
-where \\(k>0\\) and it depends on \\(b, c\\). THUS,
-  - there exists a unique solution \\(\Phi(t; x\_0, t\_0)\\) of \\(dx/dt\\), that starts as \\(x\_0, t\_0\\) for all \\( |t - t\_0| \le a(t\_0) \\),
+where \\(k>0\\) depends on \\(b, c\\). THUS,
+  - there exists a unique solution \\(\Phi(t; x\_0, t\_0)\\) of \\(dx/dt\\), that starts as \\(x\_0, t\_0\\) for all \\(\|t - t\_0\| \le a(t\_0)\\),
 
-  - \\(a(t\_0) \ge \text{ Min }\{c(t\_0), b(x(t\_0))/M(x\_0, t\_0)\}\\), where \\(M(x\_0, t\_0)\\) is the maximum assumed by the continuous function \\(f(x,t)\\) in the closed, bounded set \\(R(x\_0, t\_0)\\)
+  - \\(a(t\_0) \ge \text{ Min (}\{c(t\_0), b(x(t\_0))/M(x\_0, t\_0)\}\\), where \\(M(x\_0, t\_0)\\) is the maximum assumed by the continuous function \\(f(x,t)\\) in the closed, bounded set \\(R(x\_0, t\_0)\\)
 
   - in some small neighborhood of \\(x\_0, t\_0\\), the solution is continuous in its arguments
 
-Observe that the Lipschitz condition only implies continuity of \\(f\\) in \\(x\\) but not necessarily in \\(t\\); as it is implied by the bounded derivatives in \\(x\\). Note that the local lipschitz condition required by the theorem only implies desired properties of a solution near \\(x\_0, t\_0\\). The _finite escape time_ (that is it leaves any compact set within a finite time.) quandary does not allow us to make conclusions surrounding arbitrarily large values of \\(t\\). The phrase “finite escape time” is used to describe the phenomenon that a trajectory escapes to infinity at a finite time. **In order that a differential equation accurately represent a physical system, the possibility of finite escape time has to be mitigated by an explicit assumption to the contrary.** If the Lipschitz condition holds for \\(f\\) everywhere, then there can be no finite escape time. The proof is easy by integrating both sides of \eqref{eq:diff_eq} and using
+Observe that the Lipschitz condition only implies continuity of \\(f\\) in \\(x\\) but not necessarily in \\(t\\); as it is implied by the bounded derivatives in \\(x\\). Note that the local lipschitz condition required by the theorem only implies desired properties of a solution near \\(x\_0, t\_0\\).
+
+The _finite escape time_ (that is the solution leaves any compact set within a finite time) quandary does not allow us to make conclusions surrounding arbitrarily large values of \\(t\\). The phrase “**finite escape time**” describes the concept that a trajectory escapes to infinity at a finite time. **In order that a differential equation accurately represent a physical system, the possibility of finite escape time has to be mitigated by an explicit assumption to the contrary.** If the Lipschitz condition holds for \\(f\\) everywhere, then there can be no finite escape time. The proof is easy by integrating both sides of \eqref{eq:diff_eq} and using
 
 \begin{align}
-  \Phi(t; x\_0, t\_0) \le ||x\_0|| + || \int_{t\_0}^{t}f(\Phi(\tau; x\_0, t\_0), \tau)d\tau || \nonumber \\
-  ||x\_0|| + k \int_{t\_0}^{t}f(\Phi(\tau; x\_0, t\_0), \tau)d\tau
+  \Phi(t; x\_0, t\_0) \le ||x\_0|| + || \int_{t\_0}^{t}f(\Phi(\tau; x\_0, t\_0), \tau)d\tau ||
 \end{align}
 
-where \\(f(\cdot)\\) obeys the lipschiz condition
+\begin{align}
+||x\_0|| + k \int_{t\_0}^{t}f(\Phi(\tau; x\_0, t\_0), \tau)d\tau
+\end{align}
+
+where \\(f(\cdot)\\) obeys the lipschitz condition,
 
 \begin{align}
-  ||f(x,t) - f(y,t)|| \le k \, ||x-y|| \nonumber
+  ||f(x,t) - f(y,t)|| \le k \, ||x-y||. \nonumber
 \end{align}
 
 By the Gronwall-Bellman lemma,
 
 \begin{align}
-  ||\Phi(t; x\_0, t\_0) ||  \le [exp k (t - t\_0)] ||x_0 || \nonumber
+  ||\Phi(t; x\_0, t\_0) ||  \le [\exp \, k (t - t\_0)] ||x_0 || \nonumber
 \end{align}
 
-which is less than \\(\infty \\) for any finite (t - t\_0).
+which is less than \\(\infty \\) for any finite \\((t - t\_0)\\).
+
+
+**To be Continued**
