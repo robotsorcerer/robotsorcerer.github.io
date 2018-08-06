@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2018-08-04 13:10:00
-title: "Control Conmmons"
+title: "Control Commons"
 excerpt: "Just a random collection of stability, continuity, existence, and uniqueness theorems for nonlinear control."
 permalink: control-commons
 comments: true
@@ -125,7 +125,7 @@ which is less than \\(\infty \\) for any finite \\((t - t\_0)\\).
 <a name="stab"></a>
 ### Stability
 
-My definitions follow from R.E Kalman's 1960 seminal paper since they are clearer to understand compared to the myriads of definition that exist in many texts. **Stability concerns the deviation about some fixed motion**. So, we shall be considering the deviations from the equilibrium state \\(x\_e\\) of a free dynamic system.
+My definitions follow from R.E Kalman's 1960 seminal paper since they are clearer to understand compared to the myriad of definitions that exist in many texts today. **Stability concerns the deviation about some fixed motion**. So, we will be considering the deviations from the equilibrium state \\(x\_e\\) of a free dynamic system.
 
 Simply put, here is how Kalman defines stability, if \eqref{eq:diff_eq} is slightly perturbed from its equilibrium state at the origin, all subsequent motions remain in a correspondingly small neighborhood of the origin. Harmonic oscillators are a good example of this kind of stability. **Lyapunov** himself defines stability like so:
 
@@ -175,7 +175,7 @@ Asymptotic stability is also a local concept since we do not know aforetime how 
   - Interrelations between stability concepts: This I gleaned from Kalman's 1960 paper on the second method of Lyapunov.
 
       <div class="fig figcenter fighighlight">
-        <img src="/assets/control/control_concepts.png" width="100%" height="300" align="middle">  
+        <img src="/assets/control/control_concepts.png" width="100%" height="450" align="middle">  
         <div class="figcaption" align="middle">Fig. 1. Interrelations between stability concepts. Courtesy of R.E. Kalman
         </div>
       </div>
