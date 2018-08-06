@@ -1,11 +1,11 @@
 ---
 layout: post
 date: 2018-08-04 13:10:00
-title: "Control Concepts"
-excerpt: "Just a random collection of continuity, existence and uniqueness theorems for nonlinear control."
-permalink: control-concepts
+title: "Control Conmmons"
+excerpt: "Just a random collection of stability, continuity, existence, and uniqueness theorems for nonlinear control."
+permalink: control-commons
 comments: true
-category: [control]
+category: [control, stability, nonlinear-control]
 ---
 {% include mathjax.md %}
 
@@ -13,6 +13,7 @@ category: [control]
 - [Introduction](#intro)
 - [Definitions, Theorems, Lemmas etc](#defs)
 - [Nonlinear Control Theory](#nlnr)
+- [Stability](#stab)
 
 
 <a name="intro"></a>
@@ -25,14 +26,6 @@ Here are a few control theorems, concepts and diagrams that I think every contro
 
 <a name="nlnr"></a>
 #### Nonlinear Control Theory
-
-+ Interrelations between stability concepts: This I gleaned from Dr. Rudolf Kalman's 1960 paper on the second method of Lyapunov.
-
-<div class="fig figcenter fighighlight">
-  <img src="/assets/control/control_concepts.png" width="100%" height="300" align="middle">  
-  <div class="figcaption" align="middle">Fig. 1. Interrelations between stability concepts. Courtesy of R.E. Kalman
-  </div>
-</div>
 
 + A differential equation of the form
 
@@ -128,6 +121,84 @@ By the Gronwall-Bellman lemma,
 \end{align}
 
 which is less than \\(\infty \\) for any finite \\((t - t\_0)\\).
+
+<a name="stab"></a>
+### Stability
+
+My definitions follow from R.E Kalman's 1960 seminal paper since they are clearer to understand compared to the myriads of definition that exist in many texts. **Stability concerns the deviation about some fixed motion**. So, we shall be considering the deviations from the equilibrium state \\(x\_e\\) of a free dynamic system.
+
+Simply put, here is how Kalman defines stability, if \eqref{eq:diff_eq} is slightly perturbed from its equilibrium state at the origin, all subsequent motions remain in a correspondingly small neighborhood of the origin. Harmonic oscillators are a good example of this kind of stability. **Lyapunov** himself defines stability like so:
+
++ An equilibrium state \\(x\_e\\) of a free dynamic system ios _stable_ id for every real number \\(\epsilon>0\\), there exists a real number \\(\delta(\epsilon, t\_0)>0\\) such that \\(||x\_0 - x\_e|| \le \delta \\) implies
+
+\begin{align}
+  ||\Phi(t; x\_0, t\_0) - x\_e|| \le \epsilon \quad \forall \quad t \ge t\_0 \nonumber
+\end{align}
+
+This is best imagined from the figure below:
+
+
+<div class="fig figcenter fighighlight">
+  <img src="/assets/control/stability.png" width="100%" height="450" align="middle">  
+  <div class="figcaption" align="middle">Fig. 1. The basic concept of stability. Courtesy of R.E. Kalman
+  </div>
+</div>
+
+Put differently, the system trajectory can be kept arbitrarily close to the origin/equilibrioum if we start the trajectory sufficiently close to it. If there is stability at some initial time, \\(t\_0\\), there is stability for any other initial time \\(t\_1\\), provided that all motions are continuous in the initial state.
+
++ Asymptotic stability: The requirement that we start sufficiently close to the origin and stay in the neighborhood of the origin is a rather limiting one in most practical engineering applications. We would want to require that our motion should return to equilibrium after any small perturbation. Thus, the classical definition of Lyapunov stability is
+  + an equilibrium state \\(x\_e\\) of a free dynamic system is _asymptotically stable_ if
+    - it is stable and
+    - every motion starting sufficiently near \\(x\_e\\) converges to \\(x\_e\\) as \\(t \rightarrow \infty\\).
+
+  +  put differently, there is some real constant \\(r(t\_0)>0\\) and to every real number
+  \\(\mu > 0\\) there corresponds a real number \\(T(\mu, x\_0, t\_0)\\) such that \\(||x\_0 - x\_e|| \le r(t\_0)\\) implies
+
+  \begin{align}
+    \||\Phi(T; x\_0, t\_0)\|| \le \mu \quad \forall \quad t \ge t\_0 + T \nonumber
+  \end{align}
+
+
+  <div class="fig figcenter fighighlight">
+    <img src="/assets/control/asymptotic_stability.png" width="80%" height="350" align="middle">  
+    <div class="figcaption" align="left">Fig. 1. Definition of asymptotic stability. Courtesy of R.E. Kalman
+    </div>
+  </div>
+
+Asymptotic stability is also a local concept since we do not know aforetime how small \\(r(t\_0)\\) should be. For motions starting at the same distance from \\(x\_e\\), none will remain at a larger distance than \\(\mu\\) from \\(x\\) at arbitrarily large values of time. Or to use Massera's definition:
+
++ An equilibrium state \\(x\_e\\) of a free dynamic system is _equiasymptotically stable_ if
+  - it is stable
+  - every motion starting sufficiently near \\(x\_e\\) converges to \\(x\\), as \\(t \rightarrow \infty\\) uniformly in \\(x\_0\\)
+
+
+  - Interrelations between stability concepts: This I gleaned from Kalman's 1960 paper on the second method of Lyapunov.
+
+      <div class="fig figcenter fighighlight">
+        <img src="/assets/control/control_concepts.png" width="100%" height="300" align="middle">  
+        <div class="figcaption" align="middle">Fig. 1. Interrelations between stability concepts. Courtesy of R.E. Kalman
+        </div>
+      </div>
+
++ For _linear systems_, stability is independent of the distance of the initial state from \\(x\_e\\). Nicely defined as such:
+    - an equilibrium state \\(x\_e\\) of a free dynamic system is _asymptotically (equiasymptotically) stable in the large_ if
+    (i) it is stable
+
+    (ii) every motion converges to \\(x\_e\\) as \\(t \rightarrow \infty \\), i.e., every motion converges to \\(x\_e\\), uniformluy in \\(x_0\\) for \\(x\_0 \le r\\), where \\(r\\) is fixed but arbitrarily large
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **To be Continued**
