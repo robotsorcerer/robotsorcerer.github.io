@@ -2,7 +2,7 @@
 layout: post
 date: 2018-08-04 13:10:00
 title: "Control Commons"
-excerpt: "Just a random collection of stability, continuity, existence, and uniqueness theorems for nonlinear control."
+excerpt: "Just a random collection of stability, continuity, existence, and uniqueness theorems for nonlinear control"
 permalink: control-commons
 comments: true
 category: [control, stability, nonlinear-control]
