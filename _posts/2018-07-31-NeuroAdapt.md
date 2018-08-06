@@ -24,7 +24,7 @@ If we relax the restrictive assumptions that govern the implementation of adapti
 
 Techniques such as backstepping and parameter-tuning functions appeared in literature in the '90s for Lyapunov stability and estimation schemes (mostly from Prof. Kokotovic's group, [^Kokotovic1] <sup>&</sup> [^Kokotovic2]) and they proved to be quite good control design strategies. However, these studies assumed nonlinearities that were known ahead of time -- assumptions that make adaptive control very difficult to implement in the real world. Nonlinear techniques based on Lyapunov analysis and passivity arguments plus linear systems theory were used in establishing the stability/robustness margins that are not so easy to compute as in the LTI case.
 
-> Techniques such as backstepping and parameter-tuning functions appeared in literature in the '90s (mostly from Prof. Kokotovic's group, [^Kokotovic1] & [^Kokotovic2]) for Lyapunov stability and estimation schemes and they proved to be quite good control design strategies.
+> Techniques such as backstepping and parameter-tuning functions appeared in literature in the '90s (mostly from Prof. Kokotovic's group, [^Kokotovic1] <sup>&</sup> [^Kokotovic2]) for Lyapunov stability and estimation schemes and they proved to be quite good control design strategies.
 
 In the linear time-varying case, stability margins, bandwidth margins, bandwidth, frequency domain characteristics, poles, zeros do not make much sense even for time-varying parameters unless approximations are made using the assumption of slowly varying parameters, etc (See [^Bellman]'s Applied Dynamic Programing Book esp. chapter on numerical approximations and why calculus of variations is not sufficient for real-world problems).
 
@@ -164,7 +164,7 @@ For completeness' sake, I am attaching the full slides of my recent talk on this
 
 [^2]: The problem of Mayer in the calculus of variations attempts to find the extremum of a function of the end point \\(b\\), \\(J(y) = h(z(b), y(b), b) \\)
 
-[^3]: The Riemann-Steltjes integral is describable by \\(J(y) = \int\_{a}^{b} g(z(x), y(x), x) dG(x)\\)
+[^3]: The Riemann-Stieltjes integral is describable by \\(J(y) = \int\_{a}^{b} g(z(x), y(x), x) dG(x)\\)
 
 
 

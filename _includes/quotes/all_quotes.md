@@ -1,4 +1,8 @@
 
+"__In science as in the lottery, luck favors those who wager the
+most – that is, by another analogy, those who are tilling
+constantly the ground in their garden.__" ~ Ramón y Cajal, Letters to a Young Investigator
+
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientists into government contractors_" ~ PNA Report
