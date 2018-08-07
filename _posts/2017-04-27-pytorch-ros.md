@@ -19,7 +19,7 @@ category: [pytorch,ros,torch]
 <a name='introduction'></a>
 #### Introduction
 
-Yesterday was mighty nightmarish in the life of this developer. I had trained a conv-net meant to classifer an object I was trying to recognize and later on manipulate using vision-based control. Since `PYTORCH` had tensor computation with strong GPU acceleration and differential backprop capabilities based on the `torch auto-grad` system, I took advantage of its python compatibility since it would mean I could easily write my control code in `rospy` or `roscpp` and publish vision/control topics that reduces interoperability issues when working with different Linux processes. Only that I didn't anticipate `Python 2` and `Python 3` module import problems way ahead of time. I would give more background below.
+Yesterday was mighty nightmarish in the life of this developer. I had trained a conv-net meant to classify an object I was trying to recognize and later on manipulate using vision-based control. Since `PYTORCH` had tensor computation with strong GPU acceleration and differential backprop capabilities based on the `torch auto-grad` system, I took advantage of its python compatibility since it would mean I could easily write my control code in `rospy` or `roscpp` and publish vision/control topics that reduces interoperability issues when working with different Linux processes. Only that I didn't anticipate `Python 2` and `Python 3` module import problems way ahead of time. I would give more background below.
 
 <a name="nonlinear"></a>
 #### Background
