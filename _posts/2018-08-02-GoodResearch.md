@@ -79,7 +79,7 @@ I hope you find time to enjoy reading them.
   - Go back to the larger goals
   - Read. A lot.
   - Write down ideas. Talk to people.
-  - Quite time for reading, writing, thinking.
+  - Quiet time for reading, writing, thinking.
 
 + For pete's sake, get a good work ethic
   - I do not believe a person can ever leave their business. They ought to think of it by day and dream of it by night. […] if they intend to go forward and do anything, the whistle is only a signal to start thinking over the day’s work in order to discover how it might be done better. […] The person who has the largest capacity for work and thought is the person who is bound to succeed.
@@ -90,3 +90,8 @@ I hope you find time to enjoy reading them.
 
   -  Successful people exhibit more activity, more energy, than most people do. They look more places, they work harder, they think longer than less successful people. Knowledge and ability are much like compound interest – the more you do the more you can do, and the more opportunities are open for you.
         ~ Hamming, Striving for Greatness in All You Do
+
+
+### [David Mermin](http://www.ai.mit.edu/courses/6.899/papers/mermin.pdf)
+
+Always punctuate your equations. Math is prose. Number all equations in your text. It helps your readers.
