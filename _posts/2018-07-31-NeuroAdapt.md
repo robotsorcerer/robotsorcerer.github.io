@@ -11,7 +11,7 @@ category: [control,adaptive-control]
 
 ### Intro
 
-It's been more than a year since my last post. I am sorry. I blame the publish or perish academic mantra. Now that I am acing toward the end of my degree, I shall try to keep up to date by elucidating on topics that capture my imagination right here. Before we dive into the proper topic, allow me the opportunity to delve a little deeper into the history and development of adaptive control theory.
+It's been more than a year since my last post. I am sorry. I blame the publish or perish academic mantra. Now that I am toward the end of my degree, I shall try to keep up to date by elucidating on topics that capture my imagination right here. Before we dive into the proper topic, allow me the opportunity to delve a little deeper into the history and development of adaptive control theory.
 
 
 #### History Teaser
