@@ -9,17 +9,23 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Aug. 3, 2018</td>
+  <td> Presented my work on neural networks and adaptive control at the Tech. Info. Session of Preferred Networks Inc., Tokyo this afternoon.
+  </td>
+</tr>
+
+<tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints. How's
   <b>Deep BOO</b> for a paper title? Part I of the paper <a href="/assets/papers/wafr.pdf"> here </a>. Part II <a href="/assets/papers/wafr2.pdf">here</a>.
   </td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>July 05 2018</td>
   <td> I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon. Slides <a href="/assets/presentations/pfn.pdf">here.</a>
   </td>
-</tr> -->
+</tr>
 
 <tr>
   <td class='col-md-3'>July 2018</td>
