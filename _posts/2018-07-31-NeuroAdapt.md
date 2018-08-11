@@ -21,6 +21,8 @@ category: [control,adaptive-control]
 
   - [Adaptive Neuro-Control: The Reconstruction Error Brouhaha](#brouhaha)
 
+  - [Reconstruction Error Python Example](#rec-example)
+
 
 <a name="table-contents"></a>
 ### Intro
@@ -193,9 +195,9 @@ Finally,
   \label{eq:lyap_final}
 \end{align}
 
-Equation \eqref{eq:lyap_final} is pivotal since it will help us prove the stability of the neuro-adaptive system under consideration. We would want all terms in that equation to be negative along the trajectories of the solution to \label{eq:diff_eq}.
+Equation \eqref{eq:lyap_final} is pivotal since it will help us prove the stability of the neuro-adaptive system under consideration. We would want all terms in that equation to be negative along the trajectories of the solution to \eqref{eq:diff_eq}.
 
->Equation \eqref{eq:lyap_final} is pivotal since it will help us prove the stability of the neuro-adaptive system under consideration. We would want all terms in that equation to be negative along the trajectories of the solution to \label{eq:diff_eq}.
+>Equation \eqref{eq:lyap_final} is pivotal since it will help us prove the stability of the neuro-adaptive system under consideration. We would want all terms in that equation to be negative along the trajectories of the solution to \eqref{eq:diff_eq}.
 
 If we select the following control law,
 
@@ -260,16 +262,14 @@ Sorting \eqref{eq:lambda}, we find that
 
 
 **This section is currently under development. Please check back in a few days**
-<!-- Adaptive control was primarily invented for systems with changing dynamics. While stability and robustness guarantees for time-varying parameters in a system have been established using techniques such as dynamic normalizing signals, dead zone modification, and parameter projection [1], adaptive systems have not fully realized their original potential of providing control systems that adapt intelligently to the world's dynamics. -->
-
 
 #### The case for stable adaptive large-scale neuro-control
 
-For severe nonlinearities (e.g. systems that possess sub-harmonics and cascades to chaos [^Billings]), the uncertainties and unknowns are unknown nonlinear functions coupled with parameters that appear nonlinear-in-the-parameters of a system [^Ioannou-tut]. Existing adaptive system methods cannot be applied to these problems due to the lack of universal eigenfunctions or Lyapunov exponents [^Ogunfunmi].
+<!-- For severe nonlinearities (e.g. systems that possess sub-harmonics and cascades to chaos [^Billings]), the uncertainties and unknowns are unknown nonlinear functions coupled with parameters that appear nonlinear-in-the-parameters of a system [^Ioannou-tut]. Existing adaptive system methods cannot be applied to these problems due to the lack of universal eigenfunctions or Lyapunov exponents [^Ogunfunmi].
 
 Current approaches for solving unknown system nonlinearities  resort to linear approximations about nominal trajectories so as to obtain locally stable solutions [^Lavretsky]. Mildly nonlinear system harmonics are treated with Volterra kernels and wavelet analyses. However, linear approximations about nominal local  trajectories provide no global stabilizing control law guarantees. And Volterra kernels fail in systems with nonlinear sub-harmonics. A crucial component of these methods are that they assume a structure about the underlying nonlinearity. Therefore, we still rely on linearized nominal approximations  when we attempt to control complex dynamical systems such as aircrafts, chemical plants and oil and gas manufacturing processes etc [3].
 
-<!-- In order to advance the state-of-the-art, and extend our solutions to challenging problems such as natural language processing, dynamic computer vision segmentation, consistent and safe  autonomous driving, efficient distributed automation and manufacturing processes, and climate prediction, we must solve the nonlinear problem and device intelligent adaptive controllers. -->
+ In order to advance the state-of-the-art, and extend our solutions to challenging problems such as natural language processing, dynamic computer vision segmentation, consistent and safe  autonomous driving, efficient distributed automation and manufacturing processes, and climate prediction, we must solve the nonlinear problem and device intelligent adaptive controllers. 
 
 The most successful severely nonlinear model estimators of today are deep learning models, often trained with back-propagation. Given the intractability of the solvability of nonlinear control problems (e.g. with the Hamilton-Jacobi-Bellman equation for \\(n>3\\), for an \\(n\\)-dimensional state), deep networks have found use as efficient function approximators that compactly parameterize high-dimensional control laws(e.g. in deep reinforcement learning). However, these deep neuro-estimators and neuro-controllers lack formal robustness and stability guarantees. These methods have the following drawbacks, namely:
 
@@ -287,18 +287,12 @@ Therefore, to achieve adaptive systems' original goals, we must revisit these pe
 
 I focus on the approximation properties of deep networks for representing complex systems. I also research the Lyapunov stability and synthesis of complex nonlinear control problems. My goal is to find solutions that assure optimality, guarantee robustness and stability for complex autonomous behaviors. Leveraging on information theory and learning-based approaches, I research difficult to automate large-scale autonomous control problems. I approach this problem in strides. Currently, in my PhD research, I study these nonlinearities in automating patient motion correction during clinical radiotherapy.
 
-<!-- My work has been published in robotics and automation society venues these past three years. -->
-
-<!-- Recently, I rigorously expounded on the adaptability, robustness and compact representation of an unknown nonlinear system using deep recurrent networks$^5$. I extended techniques from classical Lyapunov synthesis of LTI model reference control systems to the nonlinear-in-the-parameters problem. The idea was to capture the nonlinear properties of a biomedical soft robot system and derive stabilizing control laws for their actuation via inverse Lyapunov theory. My approach, unique in its representational power, and novel in its stabilizing control law generation, won the NSF Doctoral Consortium award at the just concluded IROS 2017. I know that major progress is within my reach. I am applying to the ai residency program within google in order to continue exploring this problem. Google Brain and X have some of the brightest researchers in the field of learning based control and adaptive systems in the world. I am applying to these groups because of the opportunity to continue to harness my talent, exploring the challenges and open problems in the field, as I continue to make important contributions to science and technology. -->
-
-<!-- Being a google ai residency fellow will equip me with more research freedom, as I build discipline expertise. Honing my research skills, my contributions to the research community will have greater impact. And gaining proficient discipline expertise, this will stimulate rapid progress in my research career path. My goal is to ultimately be in a research position where I can train future researchers that aspire to tackle the important technological problems of our time -- therefore improving the quality of the AI research ecosystem. -->
-
 ### Efforts in crossing the Rubicon
 
 For completeness' sake, I am attaching the full slides of my recent talk on this subject here. These slides deal with understanding the the role of neural networks in adaptive control theory. It is based on a talk Nick gave at Google Robotics last year as well as my talk at PFN this year. It does more justice to the subject than I could ever rewrite in markdown :). Enjoy and feel free to ask questions in the comments section!
 
 [Soft-Neuro-Adapt](/assets/presentations/google.pdf)
-
+-->
 
 ### References
 
