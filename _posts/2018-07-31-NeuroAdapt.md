@@ -249,7 +249,7 @@ where for a small positive constant \\(\epsilon\\), we have that
 We will introduce the inequality \\( \underline{\psi}\_m^\star \le \delta \le \bar{\psi}\_m^\star \\) so that
 
 \begin{align}
-  \Lambda &= -z\_1 \psi \omega\_1 + z\_1 \delta - z\_2 \psi \omega - z\_2 \frac{\partial \alpha}{\partial x\_1}\delta + \gamma^{-1} \tilde{\psi}\dot{\psi} \nonumber \newline
+  \Lambda &= -z\_1 \psi \omega\_1 + z\_1 \delta - z\_2 \psi \omega\_2 - z\_2 \frac{\partial \alpha}{\partial x\_1}\delta + \gamma^{-1} \tilde{\psi}\dot{\psi} \nonumber \newline
   & \le -z\_1(\tilde{\psi} + \psi\_m^\star) \omega\_1 + |z\_1| \psi\_m^\star - z\_2(\tilde{\psi} + \psi\_m^\star) \omega\_2 + |z\_2| p \psi\_m^\star + \psi^{-1} \tilde{\psi} \dot{\psi}.
   \label{eq:lambda}
 \end{align}
@@ -269,7 +269,7 @@ Sorting \eqref{eq:lambda}, we find that
 
 Current approaches for solving unknown system nonlinearities  resort to linear approximations about nominal trajectories so as to obtain locally stable solutions [^Lavretsky]. Mildly nonlinear system harmonics are treated with Volterra kernels and wavelet analyses. However, linear approximations about nominal local  trajectories provide no global stabilizing control law guarantees. And Volterra kernels fail in systems with nonlinear sub-harmonics. A crucial component of these methods are that they assume a structure about the underlying nonlinearity. Therefore, we still rely on linearized nominal approximations  when we attempt to control complex dynamical systems such as aircrafts, chemical plants and oil and gas manufacturing processes etc [3].
 
- In order to advance the state-of-the-art, and extend our solutions to challenging problems such as natural language processing, dynamic computer vision segmentation, consistent and safe  autonomous driving, efficient distributed automation and manufacturing processes, and climate prediction, we must solve the nonlinear problem and device intelligent adaptive controllers. 
+ In order to advance the state-of-the-art, and extend our solutions to challenging problems such as natural language processing, dynamic computer vision segmentation, consistent and safe  autonomous driving, efficient distributed automation and manufacturing processes, and climate prediction, we must solve the nonlinear problem and device intelligent adaptive controllers.
 
 The most successful severely nonlinear model estimators of today are deep learning models, often trained with back-propagation. Given the intractability of the solvability of nonlinear control problems (e.g. with the Hamilton-Jacobi-Bellman equation for \\(n>3\\), for an \\(n\\)-dimensional state), deep networks have found use as efficient function approximators that compactly parameterize high-dimensional control laws(e.g. in deep reinforcement learning). However, these deep neuro-estimators and neuro-controllers lack formal robustness and stability guarantees. These methods have the following drawbacks, namely:
 
