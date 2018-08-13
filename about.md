@@ -57,9 +57,9 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 + I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace and quiet of boring citizens.
 
 
-+ I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision and robotics.
++ I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision, control, and robotics.
 
-    &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer in Samsung Research, America.
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer at Samsung Research, America.
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
 
@@ -70,15 +70,15 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 <!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing! -->
 #### Name Etymology
 
-People often ask me about how to pronounce my name, and its meaning
+People often ask me how to pronounce my name, and its meaning. Here we go:
 
 + Lekan is the short form of "Olalekan", which literally means "wealth increased by a factor of one" in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), a (Benin-Congo) language of the [Yoruba people](https://en.wikipedia.org/wiki/Yoruba_people) of West Africa.
 
-+ Lekan is pronounced "Lay-con", or "Lay-kañ", where "añ" is akin to the intonation of "TION" in "capTION".  
++ Lekan is pronounced "Lay-con", or "Lay-kañ", where "añ" is akin to the intonation of "ION" in say, "captION".  
 
-+ My last name is rather a little long-winding to roll on the tongue. But let me give a background first. From what I understand, my paternal ancestors were [Ifá](https://en.wikipedia.org/wiki/If%C3%A1) divinators who from time to time worshipped the god of iron, referred to as Ogun in the Yoruba language; "molu" is the short form of "mu olu", often abbreviated as "m'olu" in written scripts; it means "take victory" or something of that sort. Therefore, Ogunmolu means "the god of iron prevailed". It's altogether pronounced as "O-goon-moe-loo". There you go.
++ My last name is rather a little long-winding to roll on the tongue. But let me deconstruct its meaning first. From what I understand, my paternal ancestors were part [Ifá](https://en.wikipedia.org/wiki/If%C3%A1) divinators, part worshippers of the god of iron (referred to as Ogun in Yoruba) to boot; "molu" is a compressed form of "mu olu", often abbreviated as "m'olu" or "molu" in contemporary Yoruba; it means "take victory" or something of that facsimile. If you're catching my drift already, you'll see where this is going: Ogunmolu means "the god of iron prevailed". It's altogether pronounced as "O-goon-moe-loo". There you go.
 
-+   When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros.org forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
++   When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros answers forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
 
 +   Among the places I call home include Lagos, Nigeria; Sheffield, United Kingdom; Boston, MA; and of course Tokyo, Japan.
 
