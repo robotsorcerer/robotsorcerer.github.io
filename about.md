@@ -32,11 +32,6 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow.
 
 ### Random Facts
-
-+ I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace and quiet of boring citizens.
-
-+ I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
-
 + I regularly peer-review for the following academic conferences and journals:
 
     &nbsp; &nbsp; &nbsp; &nbsp; - Institute of Physics: Measurement Science and Technology (Journal)
@@ -55,6 +50,13 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 + I had my Bachelors in Physics. Specifically, my thesis was on the single fractional parentage coefiicients in the sd-shell nuclei, advised by [Prof. Ademola Amusa](https://www.linkedin.com/in/ademola-amusa-b40812122/).
 
++ In a previous life, I was a manager at Coca-Cola HBC. The thrill of discovery and the joy  of creative achievement led me to embrace the limited earning prospects of an academic life.
+
++ I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.
+
++ I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace and quiet of boring citizens.
+
+
 + I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision and robotics.
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer in Samsung Research, America.
@@ -66,7 +68,15 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 +   I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
 
 <!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing! -->
-+  Since people often ask me about how to pronounce my name, and its meaning, Lekan is the short form of "Olalekan", which literally means "wealth increased by a factor of one" in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), a (Benin-Congo) language of the [Yoruba people](https://en.wikipedia.org/wiki/Yoruba_people) of West Africa. It is pronounced "Lay-con", or "Lay-kañ", where "añ" is akin to the intonation of "TION" "capTION".  My last name is rather a little long-winding to roll on the tongue. But let me give a background first. From what I understand, my paternal ancestors were [Ifá](https://en.wikipedia.org/wiki/If%C3%A1) divinators who from time to time worshipped the god of iron, referred to as Ogun in the Yoruba language; "molu" is the short form of "mu olu", often abbreviated as "m'olu" in written scripts; it means "take victory" or something of that sort. Therefore, Ogunmolu means "the god of iron prevailed". It's altogether pronounced as "O-goon-moh-loo". There you go.
+#### Name Etymology
+
+People often ask me about how to pronounce my name, and its meaning
+
++ Lekan is the short form of "Olalekan", which literally means "wealth increased by a factor of one" in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language), a (Benin-Congo) language of the [Yoruba people](https://en.wikipedia.org/wiki/Yoruba_people) of West Africa.
+
++ Lekan is pronounced "Lay-con", or "Lay-kañ", where "añ" is akin to the intonation of "TION" in "capTION".  
+
++ My last name is rather a little long-winding to roll on the tongue. But let me give a background first. From what I understand, my paternal ancestors were [Ifá](https://en.wikipedia.org/wiki/If%C3%A1) divinators who from time to time worshipped the god of iron, referred to as Ogun in the Yoruba language; "molu" is the short form of "mu olu", often abbreviated as "m'olu" in written scripts; it means "take victory" or something of that sort. Therefore, Ogunmolu means "the god of iron prevailed". It's altogether pronounced as "O-goon-moe-loo". There you go.
 
 +   When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros.org forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
 
