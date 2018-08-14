@@ -32,6 +32,9 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow.
 
 ### Random Facts
+
++   I work on problems with bandwidth spanning from concept through the build, test, debug, and delivery. I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them to achieve some sort of epic grandeur.
+
 + I regularly peer-review for the following academic conferences and journals:
 
     &nbsp; &nbsp; &nbsp; &nbsp; - Institute of Physics: Measurement Science and Technology (Journal)
@@ -64,8 +67,6 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
-
-+   I enjoy working with hardware, observing the physics of things, and devising the interconnectedness of disparate electro-mechanical components in order to bring about a congruent whole.
 
 <!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing! -->
 #### Name Etymology
