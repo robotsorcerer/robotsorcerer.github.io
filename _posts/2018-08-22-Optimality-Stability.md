@@ -34,3 +34,12 @@ Note that all these definitions merely impose a constraint on the behavior of th
 Optimality, as Bellman would have us think, deals with reaching the goal state with as minimal a path as possible (we could define least time paths, least energy paths, et cetera, which are not necessarily the same) . AFAIK, the principle of optimality and Lyapunov stability have a fundamental disconnect. It seems to me that we may find an optimal control law that is not stable (i.e it’s V(x) gradient function does not strictly decrease along the trajectories of the solution to the dynamic system’s differential equation).
 
 To buttress this fact, consider that the concepts of stability and optimality appeared in the consciousness of control theorists at two distinct and disconnected eras (or so to say) in history. On the one hand, Lyapunov's thesis got published in the Soviet union in the 1890's but his work was not available in English until 1947. Even so, western researchers did not adequately grasp its usefulness until Kalman's 1960 seminal paper on the second method of Lyapunov. Meanwhile, Bellman's last formal work on DP and applied DP did not become published until 1962. Even so, what is more intriguing is that not anywhere in Bellman's stability tests (as far as I can tell from what I have read from his books) did he use Lyapunov analysis' rigor to establish the stability of his methods. Kalman, remarked in his paper in 1960 that  few researchers were aware of Lyapunov methods. We can make a fairly accurate guesstimation that had Bellman been aware of Lyapunov's analyses earlier, it might have creeped into his optimality analyses.
+
+I had these exchange with someone a while ago, I am quoting the caveats they expressed in their agreement with my observation below.
+
+
+> 1) If optimality is concerned only with the cost to from initial condition to final condition, a control law that makes the system unstable might be desirable as unstable systems tend to be very fast
+
+> 2) The problem is what happens when you reach the final condition?  An unstable system will not stop there, but will overshoot the goal and go off to infinity.  So you must have the ability to switch to a stabilizing controller when you reach the goal.
+
+> An example is in fighter aircraft.  I understand that they become unstable during certain maneuvers such as tight turns so they can move very fast, but then “catch” themselves and stabilize before going too far from the equilibrium.
