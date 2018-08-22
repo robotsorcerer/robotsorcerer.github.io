@@ -1,13 +1,17 @@
 
-"__In science as in the lottery, luck favors those who wager the
+"_In science as in the lottery, luck favors those who wager the
 most – that is, by another analogy, those who are tilling
-constantly the ground in their garden.__" ~ Ramón y Cajal, Letters to a Young Investigator
+constantly the ground in their garden._" ~ Ramón y Cajal, Letters to a Young Investigator
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
+
+"_...there is every reason to believe that when the human intellect ignores reality and concentrates within, it can no longer explain the simplest inner workings of life's machinery or of the world around us._" ~ Ramón y Cajal, Letters to a Young Investigator
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientists into government contractors_" ~ PNA Report
 
 "_Jira's actually pretty great if you set it up correctly. The ninth circle of hell is trying to manage complex, interconnected projects across multiple teams with multiple milestones in GitHub issues and project boards. There's a place for both._" ~ Brandon Black
+
+"_The intellect is presented with phenomena marching in review before the sensory organs. It can be truly useful and productive only when limiting itself to the modest tasks of observation, description, and comparison, and of classification that is based on analogies and differences. A knowledge of underlying causes and empirical laws will then come slowly through the use of inductive methods._" ~ Ramón y Cajal, Letters to a Young Investigator
 
 "_That which is static and repetitive is boring. That which is dynamic
 and random is confusing. In between lies art._" ~ John A. Locke
