@@ -9,6 +9,13 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Sept. , 2018</td>
+  <td>
+    I will tentatively be presenting our minimax iterative dynamic game paper (IROS2018) at the <href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface, ATR Computational Neuroscience Labs</a>, Tokyo, Japan. 
+  </td>
+</tr>
+
+<tr>
   <td class='col-md-3'>Aug. 3, 2018</td>
   <td> Presented my work on neural networks and adaptive control at the Tech. Info. Session of Preferred Networks Inc., Tokyo this afternoon.
   </td>
