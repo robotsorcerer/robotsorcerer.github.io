@@ -30,7 +30,7 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 
 <tr>
   <td class='col-md-3'>July 05, 2018</td>
-  <td> I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon. Slides <a href="/assets/presentations/pfn.pdf">here.</a>
+  <td> I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.
   </td>
 </tr>
 
@@ -39,19 +39,19 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
   <td> I will be attending ROSCon 2018. If you are a ROS developer and would love to meet, please shoot me an email. Nos vemos en Madrid!</td>
 </tr>
 
-<!-- <tr>
-  <td class='col-md-3'>June 2018</td>
-  <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal.</td>
-</tr> -->
-
 <tr>
   <td class='col-md-3'>June 2018</td>
-  <td> My  <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">IROS2018 submission</a> is a definite accept. Long version indexed on <a href='https://arxiv.org/pdf/1710.00491v5.pdf'>arxiv</a> a while ago. Codes <a href='https://github.com/lakehanne/youbot'>here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html"> home page</a>. Hola Madrid! </td>
+  <td> Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept. Codes <a href='https://github.com/lakehanne/youbot'>here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html"> home page</a>. Hola Madrid! </td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>April 24, 2018</td>
+  <td> Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop at ICRA 2018</a>. Codes <a href='https://github.com/lakehanne/youbot'>here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html"> home page</a>. Hallo Brisbane! </td>
 </tr>
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city in July.</td>
+  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in Nashville, TN, the music city, in July.</td>
 </tr>
 
 <!-- <tr>
