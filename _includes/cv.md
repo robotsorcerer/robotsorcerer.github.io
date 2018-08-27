@@ -9,9 +9,9 @@ This summer, I am tucked away in a research lab out in Japan, where I am working
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>Late Aug. 2018</td>
+  <td class='col-md-3'>Aug. 29, 2018</td>
   <td>
-    I will be presenting our minimax iterative dynamic game paper (IROS2018) at the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface, ATR Computational Neuroscience Labs</a>, Osaka, Japan.
+    I will be presenting our minimax iterative dynamic game work at the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>
   </td>
 </tr>
 
