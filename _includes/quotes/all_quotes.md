@@ -1,9 +1,13 @@
 
+"_It follows that the Scientist, like the Pilgrim, must wend a straight and narrow path between the Pitfalls of Oversimplification and the Morass of Overcomplication._" ~ R.E. Bellman, on including too many features of reality in a mathematical model or constructing a model in too simple a fashion.
+
 "_In science as in the lottery, luck favors those who wager the
 most – that is, by another analogy, those who are tilling
 constantly the ground in their garden._" ~ Ramón y Cajal, Letters to a Young Investigator
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
+
+"_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
 
 "_...there is every reason to believe that when the human intellect ignores reality and concentrates within, it can no longer explain the simplest inner workings of life's machinery or of the world around us._" ~ Ramón y Cajal, Letters to a Young Investigator
 
@@ -30,8 +34,6 @@ and random is confusing. In between lies art._" ~ John A. Locke
  ~  Richard Feynman. "Appendix F – Personal observations on the reliability of the Shuttle". Kennedy Space Center.
 
 "_So here is some useful advice: if you've won a Nobel Prize, and want to win a second one, work with a collaborator_" ~ Richard Muller
-
-"_It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only._" ~ Charles Dickens, A Tale of Two Cities
 
 "_Maybe this is why data mining has largely replaced traditional hypothesis-driven science. We are awash in small discoveries, most of which are essentially detections of “statistically significant” patterns in big data. Usually, there is no unifying model or theory that generates predictions, testable or not. That would take too much time and thought. Even the elite scientific journals seem too favorable to observations of patterns in new data, even if irreproducible, possibly explained by chance, or utterly lacking any supporting theory. Except in a few areas, such as string theory and climate studies, there are few incentives to search for unifying principles, let alone large-scale models_" ~ PNA report
 

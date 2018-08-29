@@ -3,7 +3,6 @@
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientisis into government contractors_" ~ PNA Report
 
-"_It follows that the Scientist, like the Pilgrim, must wend a straight and narrow path between the Pitfalls of Oversimplification and the Morass of Overcomplication._" ~ R.E. Bellman, on including too many features of reality in a mathematical model or constructing a model in too simple a fashion.
 
 “_We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil._” ~ Knuth, Donald
 
@@ -12,7 +11,6 @@
 "_For a successful technology, reality must take precedence over public relations, for nature cannot be fooled._"
  ~  Richard Feynman. "Appendix F – Personal observations on the reliability of the Shuttle". Kennedy Space Center.
 
-"_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
 
 "_Maybe this is why data mining has largely replaced traditional hypothesis-driven science. We are awash in small discoveries, most of which are essentially detections of “statistically significant” patterns in big data. Usually, there is no unifying model or theory that generates predictions, testable or not. That would take too much time and thought. Even the elite scientific journals seem too favorable to observations of patterns in new data, even if irreproducible, possibly explained by chance, or utterly lacking any supporting theory. Except in a few areas, such as string theory and climate studies, there are few incentives to search for unifying principles, let alone large-scale models_" ~ PNA report
 
