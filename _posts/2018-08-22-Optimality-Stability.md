@@ -50,7 +50,7 @@ Optimality, as Bellman would have us think, deals with reaching the goal state w
 <a name="updatedOptStab"></a>
 **UPDATE [Aug 28, 2018]**
 
-Most of the discussions below are drawn from Freeman and Kokotovic's ^[Freeman_Kokotovic] 1996 work on _point-wise min-norm control laws for robust control lyapunov functions_.
+Most of the discussions below are drawn from Freeman and Kokotovic's [^Freeman_Kokotovic] 1996 work on _point-wise min-norm control laws for robust control lyapunov functions_.
 
 They provide an optimality-based method for choosing a _stabilizing_ control law once an rclf is known without resorting to cancellation or domination of nonlinear terms, which do not necessarily possess the desirable properties of optimality and may lead to poor robustness and wasted control effort.
 
