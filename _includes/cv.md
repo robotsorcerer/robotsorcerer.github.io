@@ -8,6 +8,15 @@ My research interests lie at the intersection of control/game theory and machine
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+
+<tr>
+  <td class='col-md-3'>September 06, 2018</td>
+  <td>
+  <b><a href="/assets/papers/wafr.pdf"> Deep BOO</a></b> gets accepted to Algorithm for Robotics Foundation (workshop). Archival version would later appear in Springer Proceedings
+  in Advanced Robotics (SPAR) series this year.
+  </td>
+</tr>
+
 <tr>
   <td class='col-md-3'>Aug. 29, 2018</td>
   <td>At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
