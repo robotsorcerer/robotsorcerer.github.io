@@ -12,8 +12,8 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>September 06, 2018</td>
   <td>
-  <b><a href="/assets/papers/wafr.pdf"> Deep BOO</a></b> gets accepted to Algorithm for Robotics Foundation (workshop). Archival version would later appear in Springer Proceedings
-  in Advanced Robotics (SPAR) series this year.
+  <a href="/assets/papers/wafr.pdf"> Deep BOO</a> gets accepted to the Algorithm for Robotics Foundation (workshop). Archival version would  appear in the "Springer Proceedings
+  in Advanced Robotics (SPAR)" series later this year.
   </td>
 </tr>
 
