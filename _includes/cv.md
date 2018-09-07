@@ -12,8 +12,8 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>September 06, 2018</td>
   <td>
-  <a href="/assets/papers/wafr.pdf"> Deep BOO</a> gets accepted to the Algorithm for Robotics Foundation (workshop). Archival version would  appear in the "Springer Proceedings
-  in Advanced Robotics (SPAR)" series later this year.
+  <a href="/assets/papers/wafr.pdf"> Deep BOO</a> gets accepted to the Workshop on the Algorithm Foundations of Robotics (WAFR). WAFR has an <a href="https://parasol.tamu.edu/wafr/wafr2018/authors.php">"established reputation as one, if not the most, important venue for presenting algorithmic work related to robotics"</a>. Archival version would  appear in the <i>Springer Proceedings
+  in Advanced Robotics (SPAR)</i> series.
   </td>
 </tr>
 
@@ -32,7 +32,8 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints. How's
-  <b>Deep BOO</b> for a paper title? Part I of the paper <a href="/assets/papers/wafr.pdf"> here </a>. Part II <a href="/assets/papers/wafr2.pdf">here</a>.
+  <b>Deep BOO</b> for a paper title? Part I of the paper <a href="/assets/papers/wafr.pdf"> here.</a>
+  <!-- Part II <a href="/assets/papers/wafr2.pdf">here</a>. -->
   </td>
 </tr>
 
@@ -59,7 +60,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in Nashville, TN, the music city, in July.</td>
+  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city, in July.</td>
 </tr>
 
 <!-- <tr>
@@ -100,7 +101,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>August 2017</td>
-  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes here <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
+  <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>.</td>
 </tr>
 
 <tr>
