@@ -8,6 +8,12 @@ My research interests lie at the intersection of control/game theory and machine
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+<!-- <tr>
+  <td class='col-md-3'>October 07, 2018</td>
+  <td>
+  Got the google travel and conference grant in light of NIPS 2018.
+  </td>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>September 06, 2018</td>

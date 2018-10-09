@@ -6,7 +6,7 @@ layout: post
 
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>August 2018 </td>
+  <td class='col-md-3'>October 2018 </td>
   <td><a href="/downloads/cv/resume.pdf">Academic CV</a></td>
 </tr>
 </table>
