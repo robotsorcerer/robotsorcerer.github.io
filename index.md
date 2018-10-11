@@ -29,6 +29,7 @@ title: Lekan Ogunmolu
 
 ## <i class="fa fa-chevron-right"></i> Side Projects
 + [awesome neuro-control](https://github.com/lakehanne/awesome-neurocontrol): A curated list of papers that apply neural dynamics to control systems.
++ [awesome screw theory](https://github.com/lakehanne/awesome-screw-theory): A curated list of papers that apply screw theory for soft and rigid robots control.
 + [advice for fellowships, internships, conference grants applications]( {{ site.url }}/scholternships)
 + [summer'18 reading list]( {{ site.url }}/readlist18):  Bellman and Optimal Control
 + [summer'17 reading list]( {{ site.url }}/readlist):  RAS Papers
