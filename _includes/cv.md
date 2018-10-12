@@ -11,7 +11,7 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
-  Thanks to sponsorship from Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!
+  Thanks to the generous sponsorship from Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!
   </td>
 </tr>
 
