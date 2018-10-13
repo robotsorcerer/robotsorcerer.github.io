@@ -11,6 +11,13 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
+  It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager</a>
+  </td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>October 07, 2018</td>
+  <td>
   Thanks to the generous sponsorship of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!
   </td>
 </tr>
@@ -38,8 +45,7 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints. How's
-  <b>Deep BOO</b> for a paper title? Part I of the paper <a href="/assets/papers/wafr.pdf"> here.</a>
-  <!-- Part II <a href="/assets/papers/wafr2.pdf">here</a>. -->
+  <b>Deep BOO</b> for a paper title? Paper <a href="/assets/papers/wafr.pdf"> here.</a>
   </td>
 </tr>
 
@@ -69,31 +75,31 @@ My research interests lie at the intersection of control/game theory and machine
   <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city, in July.</td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>March 2018</td>
   <td> Peer reviewing for Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale.</td>
-</tr> -->
+</tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>March 2018</td>
   <td> Peer reviewing for 2018 proceedings of the <a href="https://www.iros2018.org/"><i>International Conference on Intelligent Robots and Systems (IROS)</i></a> under Associate Editor (AE), <a href="http://www.jenskober.de/">Jens Kober</a>.
   </td>
-</tr> -->
+</tr>
 
 <!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Videos of my IROS 2018 <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>. A condensed version of the <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">paper</a> got accepted to ICRA 2018 abstract-only track.</td>
 </tr> -->
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>January 2018</td>
   <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal, (AE, <a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik)</a>.</td>
-</tr> -->
+</tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>October 2017</td>
   <td> Peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (Associate Editor, Pablo Jiménez) and the <i><a href="http://acc2018.a2c2.org/"><i>American Control Conference, ACC,</i></a> (Associate Editor, Ashwin Dani) </i>.</td>
-</tr> -->
+</tr>
 
 <tr>
   <td class='col-md-3'>August 2017</td>
@@ -120,10 +126,10 @@ My research interests lie at the intersection of control/game theory and machine
   <td>Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.</td>
 </tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>June 2017</td>
   <td>Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.</td>
-</tr> -->
+</tr>
 
 </table>
 
