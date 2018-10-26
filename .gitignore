@@ -14,8 +14,6 @@ downloads/**/*.aux
 downloads/**/*.log
 build/
 watch/
-vendor/
 travis.log
 _site/
 settings/
-
