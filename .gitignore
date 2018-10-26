@@ -12,3 +12,9 @@ downloads/**/*.gz
 downloads/**/*.blg
 downloads/**/*.aux
 downloads/**/*.log
+
+build/
+watch/
+travis.log
+_site/
+settings/
