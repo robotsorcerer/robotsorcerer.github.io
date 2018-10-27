@@ -1,0 +1,68 @@
+% !TeX spellcheck = <none>
+ %% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\PassOptionsToPackage{pdfpagelabels=false}{hyperref}
+\documentclass[10pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue, modroman]{classic}
+
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+\usepackage[T1]{fontenc}
+%\usepackage[dvipsnames]{xcolor}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\AtBeginDocument{\recomputelengths}
+
+\setlength{\topmargin}{-0.7in}
+\usepackage{calc}
+\setlength{\textheight}{\textheight+0.5in}
+\usepackage{layout}
+\usepackage{color}
+
+%            personal data
+\firstname{Olalekan}
+\familyname{Ogunmolu}
+\definecolor{light-blue}{rgb}{0.30,0.35,1}
+\title{Robotics | Control Systems  | ML \newline
+\bf{\lb{\footnotesize
+Rerum Cognoscere Causas: To know the causes of things.} }}
+\address{2280 Inwood Rd., UT Southwestern}{Medical Center, Dallas, TX75235}
+\email{olalekan.ogunmolu@utsw.edu}
+\mobile{omitted intentionally}
+%\mobile{+1-972-375-6346}%, +81-80-9163-6112}
+\homepage{scriptedonachip.com}
+\include{def}
+
+
+\begin{document}
+
+	\makecvtitle
+	%
+	\input{education}
+	%\input{research_interests}
+	\input{experience}
+	\input{awards}
+	\input{talks}
+	\input{publications}
+	\input{posters}
+	\input{coursework}
+	\input{leadership}
+	\input{mentor}
+	\input{compute}
+	\input{opensource}
+	\input{language}
+%
+	\vspace{0.4in}
+	\footnotesize \centering Last updated: October 02, 2018
+\renewcommand{\listitemsymbol}{-}
+\clearpage
+\end{document}
