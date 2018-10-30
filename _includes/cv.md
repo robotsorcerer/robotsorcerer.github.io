@@ -11,6 +11,14 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
+  I am proposing the <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Proposal.pdf">following.</a>for my thesis next spring. If you are in the DFW area, please shoot me an email if you would like to attend.
+  </td>
+</tr>
+
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>October 07, 2018</td>
+  <td>
   It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
   </td>
 </tr>
