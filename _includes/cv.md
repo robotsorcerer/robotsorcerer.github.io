@@ -8,12 +8,12 @@ My research interests lie at the intersection of control/game theory and machine
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
-<tr>
+<!-- <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
-  I am proposing the <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Proposal.pdf"> following work in robotic radiotherapy</a> as the foundational work for my doctoral thesis. 
+  I am proposing the <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Proposal.pdf"> following work in robotic radiotherapy</a> as the foundational work for my doctoral thesis.
   </td>
-</tr>
+</tr> -->
 
 <table class="table table-hover">
 <tr>
@@ -140,5 +140,3 @@ My research interests lie at the intersection of control/game theory and machine
 </tr>
 
 </table>
-
-[iros-paper]: https://arxiv.org/abs/1703.03821
