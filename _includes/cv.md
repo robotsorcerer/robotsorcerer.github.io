@@ -8,14 +8,6 @@ My research interests lie at the intersection of control/game theory and machine
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
-<!-- <tr>
-  <td class='col-md-3'>October 07, 2018</td>
-  <td>
-  I am proposing the <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Proposal.pdf"> following work in robotic radiotherapy</a> as the foundational work for my doctoral thesis.
-  </td>
-</tr> -->
-
-<table class="table table-hover">
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
@@ -137,6 +129,14 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>June 2017</td>
   <td>Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.</td>
+</tr>
+
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>November 01, 2018</td>
+  <td>
+  Thesis proposal on <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Proposal.pdf"> robotic radiotherapy</a>. Slides <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Presentation.pdf">here.</a> All of my papers <a href="http://ecs.utdallas.edu/~opo140030/media/Dissertation/Papers_Unabridged.pdf"> here.</a>
+  </td>
 </tr>
 
 </table>
