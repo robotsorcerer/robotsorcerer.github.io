@@ -13,7 +13,7 @@ title: Lekan Ogunmolu
 <br>
 {% include cv.md %}
 
-## <i class="fa fa-chevron-right"></i> Recent Blog Posts
+ <h2><i class="fa fa-chevron-right"></i>Recent Blog Posts</h2>
 
 <table class="table table-hover">
   {% for post in site.posts limit: 3 %}
@@ -27,15 +27,17 @@ title: Lekan Ogunmolu
 </table>
 <h4><a href="/blog">View all</a></h4>
 
-## <i class="fa fa-chevron-right"></i> Side Projects
-+ [awesome neuro-control](https://github.com/lakehanne/awesome-neurocontrol): A curated list of papers that apply neural dynamics to control systems.
-+ [awesome screw theory](https://github.com/lakehanne/awesome-screw-theory): A curated list of papers that apply screw theory for soft and rigid robots control.
-+ [advice for fellowships, internships, conference grants applications]( {{ site.url }}/scholternships)
-+ [summer'18 reading list]( {{ site.url }}/readlist18):  Bellman and Optimal Control
-+ [summer'17 reading list]( {{ site.url }}/readlist):  RAS Papers
-+ [bash-scripts](https://github.com/lakehanne/shells.git):   Short and fun bash scripts.
-+ [control/robotics/ai conference tracker](https://github.com/lakehanne/conference-tracker).
-+ [research group resources](https://github.com/lakehanne/research-group-resources):  Borrowed from Jean Yang.
+ <h2><i class="fa fa-chevron-right"></i> Side Projects</h2>
++    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: A curated list of papers that apply neural dynamics to control systems.<br>
+
++ <a href="https://github.com/lakehanne/awesome-screw-theory"> awesome screw theory</a>: A curated list of papers that apply screw theory for soft and rigid robots control.<br>
+
++ <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a><br>
++ <a href="{{ site.url }}/readlist18"> summer'18 reading list</a>:  Bellman and Optimal Control<br>
++ <a href="{{ site.url }}/readlist"> summer'17 reading list</a>:  RAS Papers<br>
++ <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>:   Short and fun bash scripts.<br>
++ <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a><br>
++ <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang.
 
 ---
 
