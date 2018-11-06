@@ -7,12 +7,35 @@ My research interests lie at the intersection of control/game theory and machine
 
 
 ## <i class="fa fa-chevron-right"></i> News
+
 <table class="table table-hover">
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>November 02, 2018</td>
   <td>
-    These <a href="/assets/presentations/proposal.pdf"> QR Codes</a> link to my thesis proposal slides, actual material, and papers to date.
+    These <a href="/assets/presentations/proposal.pdf"> QR Codes</a> link to my thesis proposal slides, actual material, and papers to date.<br>
+    <!-- <tr>
+      <th>
+        {% include fig.html
+        max-width="100px" file="/assets/presentations/proposal1.png" alt="main matter"
+        float="left"  border="1px dotted black"  margin="0px 0px 15px 20px" align="left"
+         %}
+       </th>
+
+       <th>
+        {% include fig.html
+        max-width="100px" file="/assets/presentations/proposal2.png" alt="presentation"
+        float="middle"  border="1px dotted black"  margin="0px 0px 15px 20px" align="middle"      
+         %}
+       </th>
+
+       <th>
+       {% include fig.html
+           max-width="100px" file="/assets/presentations/proposal3.png" alt="all papers"
+           float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
+       %}
+       </th>
+    </tr> -->
   </td>
 </tr>
 
