@@ -10,11 +10,11 @@ My research interests lie at the intersection of control/game theory and machine
 
 <table class="table table-hover">
 <table class="table table-hover">
-<!--<tr>
+<tr>
   <td class='col-md-3'>November 13, 2018</td>
   <td>
-    I've been making presentations lately. You may access some of my recent "Talks"<a href="https://ecs.utdallas.edu/~opo140030/speaking.html"> on my academic webpage</a>.<br>
-     <tr>
+    I've been making presentations lately. You may access some of my recent "Talks"<a href="https://ecs.utdallas.edu/~opo140030/talks.html" target="tab"> on my academic webpage</a>.<br>
+     <!--<tr>
       <th>
         {% include fig.html
         max-width="100px" file="/assets/presentations/proposal1.png" alt="main matter"
@@ -35,9 +35,9 @@ My research interests lie at the intersection of control/game theory and machine
            float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
        %}
        </th>
-    </tr>
+    </tr>-->
   </td>
-</tr>-->
+</tr>
 
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
