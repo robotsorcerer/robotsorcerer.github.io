@@ -13,7 +13,7 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>November 02, 2018</td>
   <td>
-    These <a href="/assets/presentations/proposal.pdf"> QR Codes</a> link to my thesis proposal slides, actual material, and papers to date.<br>
+    I've been making presentations lately. You may access some of my recent work  on my "Talks"<a href="https://ecs.utdallas.edu/~opo140030/speaking.html"> academic webpage</a>.<br>
     <!-- <tr>
       <th>
         {% include fig.html
