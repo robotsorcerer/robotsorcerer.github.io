@@ -3,6 +3,10 @@ I am an Electrical and Computer Engineering Ph.D. candidate currently focused on
 
 My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions surrounding robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
 
+Below is a wordle of my research from 2015 through Fall 2018.
+
+![Research Wordle](/downloads/research-wordle.svg)
+
 ~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!)
 
 
