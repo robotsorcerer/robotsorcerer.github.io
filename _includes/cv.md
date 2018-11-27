@@ -3,11 +3,22 @@ I am an Electrical and Computer Engineering Ph.D. candidate currently focused on
 
 My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions surrounding robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
 
-Below is a wordle of my research from 2015 through Fall 2018.
+<!-- Below is a wordle of my research from 2015 through Fall 2018. -->
 
-![Research Wordle](/downloads/research-wordle.svg)
+<div class="fig figcenter fighighlight">
+  <img src="/downloads/research-cloud.png" width="100%" height="400" align="middle">  
+  <div class="figcaption" align="middle">
+  <b>Wordle of my Research</b>
+  </div>
+</div>
 
-~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!)
+<!-- {% include fig.html
+  max-width="400px" file="/downloads/research-cloud.png" alt="presentation"
+  float="middle"  border="1px dotted black"  margin="0px 0px 150px 20px" align="middle"      
+ %} -->
+<!-- ![Research Wordle](/downloads/research-cloud.png) -->
+
+<!-- ~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!) -->
 
 
 ## <i class="fa fa-chevron-right"></i> News
