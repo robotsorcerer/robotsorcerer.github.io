@@ -25,8 +25,9 @@ My research interests lie at the intersection of control/game theory and machine
 
 <table class="table table-hover">
 <table class="table table-hover">
+  <!-- 
 <tr>
-  <!-- <td class='col-md-3'>December 08, 2018</td>
+  <td class='col-md-3'>December 08, 2018</td>
   <td>
   I am excited to annouce that I've been offered a postdoctoral scholar position at the <a href="https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-duchossois-center-for-advanced-medicine-hyde-park">Duchossois Center for Advanced Medicine</a> at the <a href="https://www.uchicago.edu/">University of Chicago.</a> Home of Robert S. Mulliken, Enrico Fermi and the Chicago Pile-1: meet your duel!
   </td>
