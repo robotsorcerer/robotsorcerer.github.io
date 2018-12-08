@@ -5,12 +5,12 @@ My research interests lie at the intersection of control/game theory and machine
 
 <!-- Below is a wordle of my research from 2015 through Fall 2018. -->
 
-<div class="fig figcenter fighighlight">
+<!-- <div class="fig figcenter fighighlight">
   <img src="/downloads/research-cloud.png" width="100%" height="400" align="middle">  
   <div class="figcaption" align="middle">
   <b>Wordle of my Research</b>
   </div>
-</div>
+</div> -->
 
 <!-- {% include fig.html
   max-width="400px" file="/downloads/research-cloud.png" alt="presentation"
@@ -25,34 +25,19 @@ My research interests lie at the intersection of control/game theory and machine
 
 <table class="table table-hover">
 <table class="table table-hover">
-<!--<tr>
-  <td class='col-md-3'>November 13, 2018</td>
+<tr>
+  <td class='col-md-3'>December 08, 2018</td>
   <td>
-    I've been making presentations lately. You may access some of my recent "Talks"<a href="https://ecs.utdallas.edu/~opo140030/talks.html" target="tab"> on my academic webpage</a>.<br>
-     <tr>
-      <th>
-        {% include fig.html
-        max-width="100px" file="/assets/presentations/proposal1.png" alt="main matter"
-        float="left"  border="1px dotted black"  margin="0px 0px 15px 20px" align="left"
-         %}
-       </th>
-
-       <th>
-        {% include fig.html
-        max-width="100px" file="/assets/presentations/proposal2.png" alt="presentation"
-        float="middle"  border="1px dotted black"  margin="0px 0px 15px 20px" align="middle"      
-         %}
-       </th>
-
-       <th>
-       {% include fig.html
-           max-width="100px" file="/assets/presentations/proposal3.png" alt="all papers"
-           float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
-       %}
-       </th>
-    </tr>
+  I am excited to annouce that I've been offered a postdoctoral scholar position at the <a href="https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-duchossois-center-for-advanced-medicine-hyde-park">Duchossois Center for Advanced Medicine</a> at the <a href="https://www.uchicago.edu/">University of Chicago.</a> Home of Robert S. Mulliken, Enrico Fermi and the Chicago Pile-1: meet your duel!
   </td>
-</tr>-->
+</tr>
+
+<tr>
+  <td class='col-md-3'>October 07, 2018</td>
+  <td>
+  It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
+  </td>
+</tr>
 
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
