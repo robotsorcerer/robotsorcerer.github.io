@@ -25,7 +25,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <table class="table table-hover">
 <table class="table table-hover">
-  <!-- 
+  <!--
 <tr>
   <td class='col-md-3'>December 08, 2018</td>
   <td>
@@ -33,7 +33,7 @@ My research interests lie at the intersection of control/game theory and machine
   </td>
 </tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
   It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
@@ -53,6 +53,7 @@ My research interests lie at the intersection of control/game theory and machine
   Thanks to the generous support of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!
   </td>
 </tr>
+-->
 
 <tr>
   <td class='col-md-3'>September 06, 2018</td>
