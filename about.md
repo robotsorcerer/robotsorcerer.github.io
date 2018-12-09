@@ -33,7 +33,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 ### Random Facts
 
-+   I work on problems with bandwidth spanning from concept through the build, test, debug, and delivery. I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them to achieve some sort of epic grandeur.
++   I work on problems with bandwidth spanning from concept through the build, test, debug, and delivery. I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
 + I regularly peer-review for the following academic conferences and journals:
 
@@ -68,7 +68,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
 
-<!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing! -->
+<!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing!
 #### Name Etymology
 
 People often ask me how to pronounce my name, and its meaning. Here we go:
@@ -84,5 +84,5 @@ migrated from the Delta area of Nigeria (Warri, specifically) to Yorubaland many
 +   When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros answers forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
 
 +   Among the places I call home include Lagos, Nigeria; Sheffield, United Kingdom; Boston, MA; and of course Tokyo, Japan.
-
+-->
 [iros-paper]: https://arxiv.org/abs/1703.03821v3
