@@ -6,15 +6,15 @@
   - &nbsp; &nbsp;&nbsp; Control Systems -- Robotics -- Machine Learning -- Game Theory -- Biomedical Robots -- Radiation Oncology.
 
 + **University Affiliations:**
-  - &nbsp; &nbsp;&nbsp;  University of Sheffield, School of Engineering (ended 2013)
-  - &nbsp; &nbsp;&nbsp;  UT Southwestern Medical Center, Medical Physics and Engineering, Div. of Radiation Oncology (2014 - Now)
-  - &nbsp; &nbsp;&nbsp; University of Texas at Dallas, School of Engineering (2014 - Now)
+  - &nbsp; &nbsp;&nbsp;  University of Sheffield, School of Engineering (ended 2013).
+  - &nbsp; &nbsp;&nbsp;  UT Southwestern Medical Center, Medical Physics and Engineering, Div. of Radiation Oncology (2014 - Now).
+  - &nbsp; &nbsp;&nbsp; University of Texas at Dallas, School of Engineering (2014 - Now).
   - &nbsp; &nbsp;&nbsp; University of Chicago, Pritzker School of Medicine (starting 2019).
 
 + **Previous Company Affiliations:**
-  -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016)
-  - &nbsp; &nbsp;&nbsp; Preferred Networks, Tokyo, Japan (Ended 2018)
-  - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011)
+  -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
+  - &nbsp; &nbsp;&nbsp; Preferred Networks, Tokyo, Japan (Ended 2018).
+  - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
   -  &nbsp; &nbsp;&nbsp; IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
