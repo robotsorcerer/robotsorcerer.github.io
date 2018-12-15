@@ -24,7 +24,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011)
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; IEEE Access -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation -- International Conference on Intelligent Robots and Systems -- American Control Conference.
+  -  &nbsp; &nbsp;&nbsp; IEEE Access -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
 <!--
 My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions surrounding robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
