@@ -15,8 +15,7 @@ My research interests lie at the intersection of control/game theory and machine
 <!-- {% include fig.html
   max-width="400px" file="/downloads/research-cloud.png" alt="presentation"
   float="middle"  border="1px dotted black"  margin="0px 0px 150px 20px" align="middle"      
- %} -->
-<!-- ![Research Wordle](/downloads/research-cloud.png) -->
+ %}  ![Research Wordle](/downloads/research-cloud.png) -->
 
 ~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!)
 
@@ -26,12 +25,12 @@ My research interests lie at the intersection of control/game theory and machine
 <table class="table table-hover">
 <table class="table table-hover">
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>December 08, 2018</td>
   <td>
-  I am happy to announce that I will be resuming as a postdoc at the <a href="https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-duchossois-center-for-advanced-medicine-hyde-park">Duchossois Center for Advanced Medicine</a> of the <a href="https://www.uchicago.edu/">University of Chicago.</a> Home of Robert S. Mulliken, Enrico Fermi and the Chicago Pile-1: meet your duel! :)
+  I am happy to announce that starting next summer, I will be resuming as a postdoc at the <a href="https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-duchossois-center-for-advanced-medicine-hyde-park">Duchossois Center for Advanced Medicine</a> and pritzker school of medicine at the <a href="https://www.uchicago.edu/">University of Chicago.</a> Home of Robert S. Mulliken, Enrico Fermi and the Chicago Pile-1: meet your duel! :)
   </td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
@@ -53,7 +52,6 @@ My research interests lie at the intersection of control/game theory and machine
   Thanks to the generous support of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!
   </td>
 </tr>
--->
 
 <tr>
   <td class='col-md-3'>September 06, 2018</td>
