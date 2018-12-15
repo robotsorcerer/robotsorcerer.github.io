@@ -1,22 +1,15 @@
 
 + **Bio Snippet**
-  - | &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate.
+  - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate.
 
 + **Research Focus**:
   - &nbsp; &nbsp;&nbsp; Control Systems -- Robotics -- Machine Learning -- Game Theory -- Biomedical Robots -- Radiation Oncology.
-
-  <!-- - &nbsp; &nbsp;&nbsp; Applied Control Systems.
-  - &nbsp; &nbsp;&nbsp; Robotics.
-  - &nbsp; &nbsp;&nbsp; Machine Learning.
-  - &nbsp; &nbsp;&nbsp; Game Theory Enthusiast.
-  - &nbsp; &nbsp;&nbsp; Biomedical Robots.
-  - &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Domain:  Cancer Radiation Therapy -->
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  University of Sheffield, School of Engineering (ended 2013)
   - &nbsp; &nbsp;&nbsp;  UT Southwestern Medical Center, Medical Physics and Engineering, Div. of Radiation Oncology (2014 - Now)
   - &nbsp; &nbsp;&nbsp; University of Texas at Dallas, School of Engineering (2014 - Now)
-  - &nbsp; &nbsp;&nbsp; University of Chicago, Pritzker School of Medicine (starting 2019, pending my acceptance of offer).
+  - &nbsp; &nbsp;&nbsp; University of Chicago, Pritzker School of Medicine (starting 2019).
 
 + **Previous Company Affiliations:**
   -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016)
@@ -24,7 +17,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011)
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; IEEE Access -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
+  -  &nbsp; &nbsp;&nbsp; IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
 <!--
 My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions surrounding robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
