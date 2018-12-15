@@ -18,22 +18,22 @@ My research interests lie at the intersection of control/game theory and machine
  %} -->
 <!-- ![Research Wordle](/downloads/research-cloud.png) -->
 
-<!-- ~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!) -->
+~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!)
 
 
 ## <i class="fa fa-chevron-right"></i> News
 
 <table class="table table-hover">
 <table class="table table-hover">
-  <!--
+
 <tr>
   <td class='col-md-3'>December 08, 2018</td>
   <td>
-  I am excited to annouce that I've been offered a postdoctoral scholar position at the <a href="https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-duchossois-center-for-advanced-medicine-hyde-park">Duchossois Center for Advanced Medicine</a> at the <a href="https://www.uchicago.edu/">University of Chicago.</a> Home of Robert S. Mulliken, Enrico Fermi and the Chicago Pile-1: meet your duel!
+  I am happy to announce that I will be resuming as a postdoc at the <a href="https://www.uchicagomedicine.org/find-a-location/uchicago-medicine-duchossois-center-for-advanced-medicine-hyde-park">Duchossois Center for Advanced Medicine</a> of the <a href="https://www.uchicago.edu/">University of Chicago.</a> Home of Robert S. Mulliken, Enrico Fermi and the Chicago Pile-1: meet your duel! :)
   </td>
-</tr> -->
+</tr>
 
-<!-- <tr>
+<tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
   It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
