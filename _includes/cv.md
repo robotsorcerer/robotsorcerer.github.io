@@ -3,12 +3,14 @@
   - | &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate.
 
 + **Research Focus**:
-  - &nbsp; &nbsp;&nbsp; Applied Control Systems.
+  - &nbsp; &nbsp;&nbsp; Control Systems -- Robotics -- Machine Learning -- Game Theory -- Biomedical Robots -- Radiation Oncology.
+
+  <!-- - &nbsp; &nbsp;&nbsp; Applied Control Systems.
   - &nbsp; &nbsp;&nbsp; Robotics.
   - &nbsp; &nbsp;&nbsp; Machine Learning.
   - &nbsp; &nbsp;&nbsp; Game Theory Enthusiast.
   - &nbsp; &nbsp;&nbsp; Biomedical Robots.
-  - &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Domain:  Cancer Radiation Therapy
+  - &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Domain:  Cancer Radiation Therapy -->
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  University of Sheffield, School of Engineering (ended 2013)
@@ -20,6 +22,9 @@
   -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016)
   - &nbsp; &nbsp;&nbsp; Preferred Networks, Tokyo, Japan (Ended 2018)
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011)
+
++ **Research Peer Reviewing Activities**
+  -  &nbsp; &nbsp;&nbsp; IEEE Access -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation -- International Conference on Intelligent Robots and Systems -- American Control Conference.
 
 <!--
 My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions surrounding robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
@@ -53,19 +58,12 @@ My research interests lie at the intersection of control/game theory and machine
   </td>
 </tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
   It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
   </td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>October 07, 2018</td>
-  <td>
-  It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
-  </td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
@@ -90,16 +88,16 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>Aug. 3, 2018</td>
-  <td> Presented my work on neural networks and adaptive control at the Tech. Info. Session of Preferred Networks Inc., Tokyo this afternoon.
+  <td> Presented our work on neural networks and adaptive control at the Tech. Info. Session of Preferred Networks Inc., Tokyo this afternoon.
   </td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>July 15, 2018</td>
   <td> I've got some new preprints. How's
   <b>Deep BOO</b> for a paper title? Paper <a href="/assets/papers/wafr.pdf"> here.</a>
   </td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>July 05, 2018</td>
@@ -109,7 +107,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>July 2018</td>
-  <td> I will be attending ROSCon 2018. If you are a ROS developer and would love to meet, please shoot me an email. Nos vemos en Madrid!</td>
+  <td> I will be attending ROSCon 2018.  Nos vemos en Madrid!</td>
 </tr>
 
 <tr>
@@ -124,10 +122,10 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city, in July.</td>
+  <td> Our AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city, in July.</td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Peer reviewing for Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale.</td>
 </tr>
@@ -138,12 +136,12 @@ My research interests lie at the intersection of control/game theory and machine
   </td>
 </tr>
 
-<!-- <tr>
+ <tr>
   <td class='col-md-3'>March 2018</td>
   <td> Videos of my IROS 2018 <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>. A condensed version of the <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">paper</a> got accepted to ICRA 2018 abstract-only track.</td>
 </tr> -->
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>January 2018</td>
   <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal, (AE, <a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik)</a>.</td>
 </tr>
@@ -151,7 +149,7 @@ My research interests lie at the intersection of control/game theory and machine
 <tr>
   <td class='col-md-3'>October 2017</td>
   <td> Peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (Associate Editor, Pablo Jiménez) and the <i><a href="http://acc2018.a2c2.org/"><i>American Control Conference, ACC,</i></a> (Associate Editor, Ashwin Dani) </i>.</td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>August 2017</td>
