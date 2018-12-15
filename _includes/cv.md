@@ -16,7 +16,7 @@
   - &nbsp; &nbsp;&nbsp;  University of Sheffield, School of Engineering (ended 2013)
   - &nbsp; &nbsp;&nbsp;  UT Southwestern Medical Center, Medical Physics and Engineering, Div. of Radiation Oncology (2014 - Now)
   - &nbsp; &nbsp;&nbsp; University of Texas at Dallas, School of Engineering (2014 - Now)
-  - &nbsp; &nbsp;&nbsp; University of Chicago, Pritzker School of Medicine (starting 2019)
+  - &nbsp; &nbsp;&nbsp; University of Chicago, Pritzker School of Medicine (starting 2019, pending my acceptance of offer).
 
 + **Previous Company Affiliations:**
   -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016)
