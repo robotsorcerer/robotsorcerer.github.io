@@ -1,5 +1,5 @@
 
-+ **Bio Snippet**
+**Bio Snippet**
   - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate.
 
 + **Research Focus**:
