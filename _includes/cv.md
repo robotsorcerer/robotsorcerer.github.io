@@ -6,10 +6,10 @@
   - &nbsp; &nbsp;&nbsp; Control Systems -- Robotics -- Machine Learning -- Game Theory -- Biomedical Robots -- Radiation Oncology.
 
 + **University Affiliations:**
-  - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse)(ended 2013).
+  - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse)(Ended 2013).
   - &nbsp; &nbsp;&nbsp;  [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (Current).
   - &nbsp; &nbsp;&nbsp; [University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Current).
-  - &nbsp; &nbsp;&nbsp; University of Chicago, Pritzker School of Medicine (starting 2019).
+  - &nbsp; &nbsp;&nbsp; [University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (Starting 2019).
 
 + **Previous Company Affiliations:**
   -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
