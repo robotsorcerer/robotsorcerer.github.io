@@ -27,7 +27,7 @@
 <tr>
   <td class='col-md-3'>December 23, 2018</td>
   <td>
-  I will be presenting the second version of deep boo at UC Berkeley in 2019! Watch this space!
+  I will be presenting the second version of deep boo at Berkeley in 2019! Watch this space!
   </td>
 </tr>
 
