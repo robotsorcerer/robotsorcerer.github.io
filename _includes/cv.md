@@ -25,6 +25,13 @@
 <table class="table table-hover">
 
 <tr>
+  <td class='col-md-3'>December 23, 2018</td>
+  <td>
+  I will be presenting the second version of deep boo at UC Berkeley in 2019! Watch this space!
+  </td>
+</tr>
+
+<tr>
   <td class='col-md-3'>October 07, 2018</td>
   <td>
   Thanks to the generous support of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!
