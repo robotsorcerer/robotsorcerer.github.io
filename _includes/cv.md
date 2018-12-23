@@ -3,7 +3,8 @@
   <!-- - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate. -->
 
 + **Research Focus**:
-  - &nbsp; &nbsp;&nbsp; Control Systems -- Robotics -- Machine Learning -- Game Theory -- Biomedical Robots -- Radiation Oncology.
+  - &nbsp; &nbsp;&nbsp; Control Systems -- Robotics -- Machine Learning
+    <!-- -- Game Theory -- Biomedical Robots -- Radiation Oncology. -->
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
