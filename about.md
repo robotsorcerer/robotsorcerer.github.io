@@ -6,14 +6,14 @@ permalink: about
 <?php include_once("analyticstracking.php") ?>
 
 <!-- <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;"> -->
-Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning. I am not a robot.
+### Bio Perambulations. Blah, blah, blah.
+
+Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning. **Lekan is not a robot**.
 
 
-<!-- My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators to determine accurate system models, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) adaptive function approximators to model these coupled nonlinearities.  As these soft actuators are nonlinear, a lot of effort goes into formulating the model properties of the hardware in order to obtain an effective controller that can deliver the required sub-millimeter and sub-degree accuracy. Owing to the recent advances in sequential deep learning frameworks in terms of their accuracy and precision in generating powerful models for tasks including speech recognition and machine language translation, I leverage on these technologies to create dynamic models of the patient testbed and to design appropriate adaptive controllers to scale. -->
+My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) leveraging Cosserat's beam theory, Luh's algorithm, the forward and backward Euler methods, and screw theory for the kinodynamic planning and execution of trajectories by these soft and semi-rigid continuum models; and  occasionally suing (iii) adaptive function approximators to model these coupled nonlinearities
 
-<!-- I am a part of the SeRViCE lab at UT Dallas, advised by [Nick Gans](www.utdallas.edu/~ngans). I spent the summer and fall semesters of 2017 partly in [Tyler Summer's](http://me.utdallas.edu/people/summers.html) [control, optimization, and networks lab](http://www.utdallas.edu/~tyler.summers/), where I worked on game theoretic approaches to reinforcement learning problems.
-I am also a member of the [medical artificial intelligence and automation lab](http://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (MAIA) within the medical engineering division of UT Southwestern's Radiation Oncology department. Here, I work on learning control problems for optimal beam angle orientation during intensity modulated cancer radiotherapy. I am privileged to be advised by [Steve Jiang](http://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html). -->
-
+<!--
 #### Research Background
 
 In stereotactic radiosurgery of the head and neck region, patients are typically positioned in a supine manner on a 6-DOF robotic couch for motion alignment correction with respect to an incident radiation. As such, the precision of delivery of radiation dose to target tumor is extremely important. Target miss in dosimetry angle or errors arising from patient positioning have been known to cause eczema, brain complications, and the exposure of organs at risks.
@@ -29,11 +29,11 @@ max-width="100px" file="/imgs/homepage/moveit.jpg" alt="igrt setup"
 float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
  %}
 
-The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow.
+The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. -->
 
 ### Random Facts
 
-+   I work on problems with bandwidth spanning from concept through the build, test, debug, and delivery. I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
++   I work on problems with bandwidth spanning conception, build, and test of what I call "fancy little robots". I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
 + I regularly peer-review for the following academic conferences and journals:
 
@@ -49,9 +49,9 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
     &nbsp; &nbsp; &nbsp; &nbsp; - American Control Conference (ACC)
 
-+ I had my masters degree in Control Systems from Sheffield Uni in the UK.
+<!-- + I had my masters degree in Control Systems from Sheffield Uni in the UK.
 
-+ I had my Bachelors in Physics. Specifically, my thesis was on the single fractional parentage coefiicients in the sd-shell nuclei, advised by [Prof. Ademola Amusa](https://www.linkedin.com/in/ademola-amusa-b40812122/).
++ I had my Bachelors in Physics. Specifically, my thesis was on the single fractional parentage coefiicients in the sd-shell nuclei, advised by [Prof. Ademola Amusa](https://www.linkedin.com/in/ademola-amusa-b40812122/). -->
 
 <!-- + In a previous life, I was a manager at Coca-Cola HBC. The thrill of discovery and the joy  of creative achievement led me to embrace the limited earning prospects of an academic life. -->
 
@@ -84,5 +84,6 @@ migrated from the Delta area of Nigeria (Warri, specifically) to Yorubaland many
 +   When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros answers forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
 
 +   Among the places I call home include Lagos, Nigeria; Sheffield, United Kingdom; Boston, MA; and of course Tokyo, Japan.
--->
 [iros-paper]: https://arxiv.org/abs/1703.03821v3
+
+-->
