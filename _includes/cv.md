@@ -3,10 +3,10 @@
   <!-- - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate. -->
 
 + **Research Focus**:
-  - &nbsp; &nbsp;&nbsp; Intimidating buzzwords: Control Theory -- Robotics -- Game Theory -- Radiation Oncology
-  - &nbsp; &nbsp;&nbsp; Recently (and reluctantly) added buzzwords: Big Data, Data Science, Artificial Intelligence
-  - &nbsp; &nbsp;&nbsp; Older buzzwords,  now trendy: Machine Learning
-  - &nbsp; &nbsp;&nbsp; Not so old buzzwords that are no longer cool: System Identification, Data Mining
+  - &nbsp; &nbsp;&nbsp; Intimidating buzzwords: Control Theory -- Robotics -- Game Theory -- Radiation Oncology.
+  - &nbsp; &nbsp;&nbsp; Recently (and reluctantly) added buzzwords: Big Data, Data Science, Artificial Intelligence.
+  - &nbsp; &nbsp;&nbsp; Older buzzwords,  now trendy: Machine Learning.
+  - &nbsp; &nbsp;&nbsp; Not so old buzzwords that are no longer cool: System Identification, Data Mining.
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
