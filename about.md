@@ -6,12 +6,12 @@ permalink: about
 <?php include_once("analyticstracking.php") ?>
 
 <!-- <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;"> -->
-### Bio Perambulations. Blah, blah, blah.
+### Blah, blah, blah.
 
 Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning. **Lekan is not a robot**.
 
 
-My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) leveraging Cosserat's beam theory, Luh's algorithm, the forward and backward Euler methods, and screw theory for the kinodynamic planning and execution of trajectories by these soft and semi-rigid continuum models; and  occasionally suing (iii) adaptive function approximators to model these coupled nonlinearities
+My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) leveraging Cosserat's beam theory, Luh's algorithm, the forward and backward Euler methods, and screw theory for the kinodynamic planning and execution of trajectories by these soft and semi-rigid continuum robots
 
 <!--
 #### Research Background

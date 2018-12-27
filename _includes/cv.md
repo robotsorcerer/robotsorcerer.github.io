@@ -3,10 +3,10 @@
   <!-- - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate. -->
 
 + **Research Focus**:
-  - &nbsp; &nbsp;&nbsp; Intimidating buzzwords: Control Theory -- Robotics -- Game Theory -- Radiation Oncology.
-  - &nbsp; &nbsp;&nbsp; Recently (and reluctantly) added buzzwords: Big Data, Data Science, Artificial Intelligence.
-  - &nbsp; &nbsp;&nbsp; Older buzzwords,  now trendy: Machine Learning.
-  - &nbsp; &nbsp;&nbsp; Not so old buzzwords that are no longer cool: System Identification, Data Mining.
+  - &nbsp; &nbsp;&nbsp; **Core**: Control Theory -- Robotics -- Game Theory -- Radiation Oncology.
+  - &nbsp; &nbsp;&nbsp; Reluctantly added buzzwords: Big Data, Data Science, Artificial Intelligence.
+  - &nbsp; &nbsp;&nbsp; Old buzzword, now in vogue: Machine Learning.
+  - &nbsp; &nbsp;&nbsp; Recent buzzwords, no longer so cool: System Identification, Data Mining.
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
@@ -20,7 +20,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
+  -  &nbsp; &nbsp;&nbsp; IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- International Federation of Automatic Control (IFAC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
 ## <i class="fa fa-chevron-right"></i> News
 
@@ -28,9 +28,9 @@
 <table class="table table-hover">
 
 <tr>
-  <td class='col-md-3'>December 23, 2018</td>
+  <td class='col-md-3'>December 28, 2018</td>
   <td>
-  I will be presenting the second version of deep boo at Berkeley in 2019! Watch this space!
+  I will be presenting the sequel to <a href="https://parasol.tamu.edu/wafr/wafr2018/ppr_files/WAFR_2018_paper_17.pdf">Deep BOO!</a> at Berkeley in 2019. Watch this space.
   </td>
 </tr>
 
