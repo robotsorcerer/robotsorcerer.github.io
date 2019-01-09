@@ -8,8 +8,16 @@ permalink: about
 <!-- <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;"> -->
 ### Blah, blah, blah.
 
-Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning. **Lekan is not a robot**.
+#### Tell me what you got
 
+Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning.
+
+I study, build, and use robots and I design control-based AI systems. I care about equality, justice and freedom. To this end, it is my view that the oppressed shall salvage themselves (from economic and social disparities) not by begging for crumbs of power from the privileged, but by taking it via achievement, discipline and hard work.  **Lekan is not a robot**.
+
+I love to build systems. I am a big believer in open science and reproducible research. Therefore most of my papers and codes can be easily found via a simple O(1) google search or github repo lookup. My PGP key on public key servers is BDE7 D508 3BB6 5EGH 7A66 BD97 527F E229 FAC7 8CF5.  I have been described as quite an active tweeter; my handle is @patmeansnoble. As I travel the planet, I try much as possible to document my experiences and world in pictures on Instagram: @patlekano
+
+
+#### Research, you say?
 
 My work explores better model representation in dynamical systems using state-of-the-art neural network function approximators, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes (i) the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment; (ii) leveraging Cosserat's beam theory, Luh's algorithm, the forward and backward Euler methods, and screw theory for the kinodynamic planning and execution of trajectories by these soft and semi-rigid continuum robots
 
@@ -31,11 +39,11 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. -->
 
-### Random Facts
+#### More perambulations
 
 +   I work on problems with bandwidth spanning conception, build, and test of what I call "fancy little robots". I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
-+ I regularly peer-review for the following academic conferences and journals:
+<!-- + I regularly peer-review for the following academic conferences and journals:
 
     &nbsp; &nbsp; &nbsp; &nbsp; - Institute of Physics: Measurement Science and Technology (Journal)
 
@@ -47,7 +55,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
     &nbsp; &nbsp; &nbsp; &nbsp; - International Federation of Automatic Control (IFAC) World Congress
 
-    &nbsp; &nbsp; &nbsp; &nbsp; - American Control Conference (ACC)
+    &nbsp; &nbsp; &nbsp; &nbsp; - American Control Conference (ACC) -->
 
 <!-- + I had my masters degree in Control Systems from Sheffield Uni in the UK.
 
