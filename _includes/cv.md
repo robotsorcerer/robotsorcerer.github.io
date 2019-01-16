@@ -1,48 +1,36 @@
 
-I am an Electrical and Computer Engineering Ph.D. candidate currently focused on biomedical robots and applied control systems.
+**Bio Snippet**
+  <!-- - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate. -->
 
-My research interests lie at the intersection of control/game theory and machine learning. Control theory helps me in formulating mathematical models while machine learning allows me the luxury of making sense of chaotic data in order to drive real-world processes. Game theory helps facilitate answering questions surrounding robustness and rational decision-making by my agents. I try to solve problems that are difficult to model with closed-form analytic methods. I research along the lines of optimal control, adaptive neuro-dynamic systems, as well as stability and robustness of the performance of nonlinear dynamical systems.
++ **Research Focus**:
+  - &nbsp; &nbsp;&nbsp; **Core**: Control Theory -- Robotics -- Game Theory -- Radiation Oncology.
+  - &nbsp; &nbsp;&nbsp; Reluctantly added buzzwords: Big Data, Data Science, Artificial Intelligence.
+  - &nbsp; &nbsp;&nbsp; Old buzzword, now in vogue: Machine Learning.
+  - &nbsp; &nbsp;&nbsp; Recent buzzwords, no longer so cool: System Identification, Data Mining.
 
-~~This summer, I am tucked away in a research lab out in Japan, where I am working on the stability of nonparametric robot learning policies/controllers. My goal is to inculcate stability in the sense of Lyapunov to robot learning models, particularly in imitation/reinforcement learning policies. The struggle is **real!**~~ (Phase I of work done; Journal to follow soon. I am back in Texas!)
++ **University Affiliations:**
+  - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
+  - &nbsp; &nbsp;&nbsp;  [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (Current).
+  - &nbsp; &nbsp;&nbsp; [University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Current).
+  - &nbsp; &nbsp;&nbsp; [University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (Starting 2019).
 
++ **Previous Company Affiliations:**
+  -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
+  - &nbsp; &nbsp;&nbsp; Preferred Networks, Tokyo, Japan (Ended 2018).
+  - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
+
++ **Research Peer Reviewing Activities**
+  -  &nbsp; &nbsp;&nbsp; IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- International Federation of Automatic Control (IFAC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
 ## <i class="fa fa-chevron-right"></i> News
 
 <table class="table table-hover">
 <table class="table table-hover">
-<!--<tr>
-  <td class='col-md-3'>November 13, 2018</td>
-  <td>
-    I've been making presentations lately. You may access some of my recent "Talks"<a href="https://ecs.utdallas.edu/~opo140030/talks.html" target="tab"> on my academic webpage</a>.<br>
-     <tr>
-      <th>
-        {% include fig.html
-        max-width="100px" file="/assets/presentations/proposal1.png" alt="main matter"
-        float="left"  border="1px dotted black"  margin="0px 0px 15px 20px" align="left"
-         %}
-       </th>
-
-       <th>
-        {% include fig.html
-        max-width="100px" file="/assets/presentations/proposal2.png" alt="presentation"
-        float="middle"  border="1px dotted black"  margin="0px 0px 15px 20px" align="middle"      
-         %}
-       </th>
-
-       <th>
-       {% include fig.html
-           max-width="100px" file="/assets/presentations/proposal3.png" alt="all papers"
-           float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="right"
-       %}
-       </th>
-    </tr>
-  </td>
-</tr>-->
 
 <tr>
-  <td class='col-md-3'>October 07, 2018</td>
+  <td class='col-md-3'>December 28, 2018</td>
   <td>
-  It's ICRA paper reviewing season again. This year, I am reviewing for Associate Editor, <a href="https://web.stanford.edu/~schwager/">Mac Schwager.</a>
+  I will be presenting the sequel to <a href="https://parasol.tamu.edu/wafr/wafr2018/ppr_files/WAFR_2018_paper_17.pdf">Deep BOO!</a> at Berkeley in 2019. Watch this space.
   </td>
 </tr>
 
@@ -69,14 +57,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>Aug. 3, 2018</td>
-  <td> Presented my work on neural networks and adaptive control at the Tech. Info. Session of Preferred Networks Inc., Tokyo this afternoon.
-  </td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>July 15, 2018</td>
-  <td> I've got some new preprints. How's
-  <b>Deep BOO</b> for a paper title? Paper <a href="/assets/papers/wafr.pdf"> here.</a>
+  <td> Presented our work on neural networks and adaptive control at the Tech. Info. Session of Preferred Networks Inc., Tokyo this afternoon.
   </td>
 </tr>
 
@@ -88,7 +69,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>July 2018</td>
-  <td> I will be attending ROSCon 2018. If you are a ROS developer and would love to meet, please shoot me an email. Nos vemos en Madrid!</td>
+  <td> I will be attending ROSCon 2018.  Nos vemos en Madrid!</td>
 </tr>
 
 <tr>
@@ -103,33 +84,7 @@ My research interests lie at the intersection of control/game theory and machine
 
 <tr>
   <td class='col-md-3'>April 2018</td>
-  <td> My AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city, in July.</td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>March 2018</td>
-  <td> Peer reviewing for Institute of Physics: Measurement Science and Technology (Journal). Editor, Charlotte O'Neale.</td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>March 2018</td>
-  <td> Peer reviewing for 2018 proceedings of the <a href="https://www.iros2018.org/"><i>International Conference on Intelligent Robots and Systems (IROS)</i></a> under Associate Editor (AE), <a href="http://www.jenskober.de/">Jens Kober</a>.
-  </td>
-</tr>
-
-<!-- <tr>
-  <td class='col-md-3'>March 2018</td>
-  <td> Videos of my IROS 2018 <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">submission</a> can be found <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/"> here</a>. A condensed version of the <a href="http://ecs.utdallas.edu/~opo140030/iros18/IROS2018.pdf">paper</a> got accepted to ICRA 2018 abstract-only track.</td>
-</tr> -->
-
-<tr>
-  <td class='col-md-3'>January 2018</td>
-  <td> Peer reviewing for <a href="https://link.springer.com/journal/521"><i>Neural Computing and Applications</i></a> Journal, (AE, <a href="https://www.researchgate.net/profile/Milan_Stehlik"> Milan Stehlik)</a>.</td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>October 2017</td>
-  <td> Peer reviewing for the 2018 proceedings of the <a href="https://icra2018.org/">International Conference of Robotics and Automation, ICRA</a> (Associate Editor, Pablo Jiménez) and the <i><a href="http://acc2018.a2c2.org/"><i>American Control Conference, ACC,</i></a> (Associate Editor, Ashwin Dani) </i>.</td>
+  <td> Our AAPM (American Association of Physicists in Medicine) submission got accepted as an oral. See you in the music city, in July.</td>
 </tr>
 
 <tr>

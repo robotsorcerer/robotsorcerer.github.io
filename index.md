@@ -39,6 +39,6 @@ title: Lekan Ogunmolu
 + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a><br>
 + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang.
 
----
-
+<br><br>
+---<br>
 Last updated on {% include last-updated.txt %}
