@@ -5,7 +5,6 @@ permalink: about
 
 <?php include_once("analyticstracking.php") ?>
 
-<!-- <img src="/downloads/Pat.jpg" alt="Me" align="right" style="width:100px;height:100px;"> -->
 ### Intro blah, blah, blah.
 
 <!-- #### Tell me what you got -->
@@ -14,7 +13,7 @@ Welcome to my blog, where theory meets practice, and where scientific elegance m
 
 I study, build, and use robots and I design control-based AI systems. I care about equality, justice and freedom. To this end, it is my view that the oppressed shall salvage themselves (from economic and social disparities) not by begging for crumbs of power from the privileged, but by taking it via achievement, discipline and hard work.  **Lekan is not a robot**.
 
-I love to build systems. I am a big believer in open science and reproducible research. Therefore most of my papers and codes can be easily found via a simple **O(n)** google search or github repo lookup. My PGP key on public key servers is _03E3 58FB 1D98 869E 8ABE  1EF0 E6A1 2F95 B720 BBB5_.  I have been described as quite an active tweeter; my handle is @patmeansnoble. As I travel the planet, I try much as possible to document my experiences and world in pictures on Instagram: @patlekano
+I love to build systems. I am a big believer in open science and reproducible research. Therefore most of my papers and codes can be easily found via a simple _**O(n)**_ google search or github repo lookup. My PGP key on public key servers is _03E3 58FB 1D98 869E 8ABE  1EF0 E6A1 2F95 B720 BBB5_.  I have been described as quite an active tweeter; my handle is @patmeansnoble. As I travel the planet, I try much as possible to document my experiences and world in pictures on Instagram: @patlekano
 
 
 #### Research, you say?
