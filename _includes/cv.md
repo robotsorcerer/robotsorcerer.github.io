@@ -27,12 +27,12 @@
 <table class="table table-hover">
 <table class="table table-hover">
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>December 28, 2018</td>
   <td>
   I will be presenting the sequel to <a href="https://parasol.tamu.edu/wafr/wafr2018/ppr_files/WAFR_2018_paper_17.pdf">Deep BOO!</a> at Berkeley in 2019. Watch this space.
   </td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
