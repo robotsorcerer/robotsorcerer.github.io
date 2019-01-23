@@ -1,13 +1,21 @@
 
+"_Young men should prove theorems. Old men should write books._" ~ G.H. Hardy
+
 "_It follows that the Scientist, like the Pilgrim, must wend a straight and narrow path between the Pitfalls of Oversimplification and the Morass of Overcomplication._" ~ R.E. Bellman, on including too many features of reality in a mathematical model or constructing a model in too simple a fashion.
 
 "_In science as in the lottery, luck favors those who wager the
 most – that is, by another analogy, those who are tilling
 constantly the ground in their garden._" ~ Ramón y Cajal, Letters to a Young Investigator
 
+"_It is one of the first duties of a professor, for example, in any subject, to exaggerate a litle both the importance of his subject and his own importance in it_” ~ G. H. Hardy, 1940
+
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
 
+"_Classical mathematics concentrated on linear equations for a sound pragmatic reason: it could not solve anything else._" ~ Ian Stewart
+
 "_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
+
+"_"Simulations are like Michelin star restaurants but should be like McDonald's: ubiquitous and standardised_" ~ Craig Mcllhenny
 
 "_...there is every reason to believe that when the human intellect ignores reality and concentrates within, it can no longer explain the simplest inner workings of life's machinery or of the world around us._" ~ Ramón y Cajal, Letters to a Young Investigator
 
