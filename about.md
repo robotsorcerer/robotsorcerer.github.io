@@ -11,7 +11,7 @@ permalink: about
 
 Welcome to my blog, where theory meets practice, and where scientific elegance meets engineering impact. Fields that consume the bulk of my attention currently include control theory, game theory, robotics, and certainly deep/reinforcement learning.
 
-I study, build, and use robots and I design control-based AI systems. I care about equality, justice, and diversity -- of thought and representation.  **Lekan is not a robot**.
+I study, build, and use robots and I design control-based AI systems. I care about equality, justice, and diversity -- of thought and representation. **Lekan is not a robot**.
 
 I love to build systems. I am a big believer in open science and reproducible research. Therefore most of my papers and codes can be easily found via google search or github repo lookup. My PGP key on most public key servers is **03E3 58FB 1D98 869E 8ABE  1EF0 E6A1 2F95 B720 BBB5**. It helps to send your email encrypted if I do not know you, to hasten a quick reply.  I have been described as quite an active tweeter; my handle is @patmeansnoble.
 
