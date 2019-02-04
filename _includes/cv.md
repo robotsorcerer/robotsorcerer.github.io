@@ -30,6 +30,13 @@
 <table class="table table-hover">
 
 <tr>
+  <td class='col-md-3'>January 31, 2018</td>
+  <td>
+  Starting in the summer of 2019, after I shall have defended my PhD thesis, I will be resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a>
+  </td>
+</tr>
+
+<tr>
   <td class='col-md-3'>December 28, 2018</td>
   <td>
   I will be presenting the sequel to <a href="https://parasol.tamu.edu/wafr/wafr2018/ppr_files/WAFR_2018_paper_17.pdf">Deep BOO!</a> at Berkeley in 2019. Watch this space.
