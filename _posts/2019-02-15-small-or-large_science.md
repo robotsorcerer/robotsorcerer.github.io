@@ -17,8 +17,7 @@ I came across a very dope article in Nature Journal of Science by Wu, Wang from 
 
 - **TLDR**
 
-Small teams disrupt science and technology by exploring and amplifying promising ideas from older and less-popular work. Large teams develop recent successes, by solving acknowledged problems and refining common designs. Both small and large teams are essential to a flourishing ecology of
-science and technology
+Small teams disrupt science and technology by exploring and amplifying promising ideas from older and less-popular work. Large teams develop recent successes, by solving acknowledged problems and refining common designs. Both small and large teams are essential to a flourishing ecology of science and technology.
 
 - **Longer version**
 
@@ -26,7 +25,7 @@ science and technology
 
 (2) Solo authors are just as likely to produce high-impact papers (in the top 5% of citations) as teams with five members, but solo-authored papers are 72% more likely to be highly disruptive (in the top 5% of disruptive papers). By contrast, ten-person teams are 50% more likely to score a high-impact paper, yet these contributions are much more likely to develop existing ideas already prominent in the system, which is reflected in the very low likelihood they are among the most disruptive.
 
-(3) High-impact papers produced by small teams are the most disruptive, and high-impact papers produced by large teams are the most developmental. Case in point, within the pool of high-impact articles and patents, small teams are more disruptive w.r.t more new ideas
+(3) High-impact papers produced by small teams are the most disruptive, and high-impact papers produced by large teams are the most developmental. Case in point, within the pool of high-impact articles and patents, small teams are more disruptive w.r.t more new ideas.
 
 (4) Solo authors and small teams much more often build on older, less popular ideas. Larger
 teams more often target recent, high-impact work as their primary source of inspiration, and this tendency increases monotonically with team size.
@@ -37,4 +36,4 @@ teams more often target recent, high-impact work as their primary source of insp
 
 (7) Consistent diminishing marginal increases to novelty with team size, such that with each new team member, their contribution to novel combinations decreases.
 
-(8) Whereas larger teams facilitate broader search, small teams search deeper
+(8) Whereas larger teams facilitate broader search, small teams search deeper.
