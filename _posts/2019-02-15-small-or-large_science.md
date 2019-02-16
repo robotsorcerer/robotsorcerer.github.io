@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2019-02-15 22:10:00
-title: "Large teams develop and small teams disrupt science and technology."
+title: "Science/Tech: Large teams develop; Small teams disrupt."
 excerpt: "A systematic study of impact measure of scientific work from small teams vs. large teams."
 permalink: opti-stable
 comments: true
@@ -9,17 +9,17 @@ mathjax: true
 category: [control, stability, optimality]
 ---
 
-#### Introduction
+## Introduction
 
-I came across a very dope article in Nature Journal of Science by Wu, Wang from UChicago earlier this evening. I was so enthralled by the findings that I threw the rest of my half-eaten dinner away just to digest this very interesting article. It compares the impact of the scientific output from large teams versus small teams over a 3 scores period. I do encourage you to read the [paper](https://www.nature.com/articles/s41586-019-0941-9) yourself but if you are too busy, here are my key takeaways from the paper.
+I came across a very dope article in Nature Journal of Science by Wu, Wang from UChicago earlier this evening. I was so enthralled by the findings that I threw the rest of my half-eaten dinner away just to digest this very interesting article. It compares the impact of the scientific output from large teams versus small teams over a three scores period. I do encourage you to read the [paper](https://www.nature.com/articles/s41586-019-0941-9) yourself but if you are too busy, here are my key takeaways from the paper.
 
-#### Takeaways:
+## Takeaways:
 
-- **TLDR**
+**TLDR**
 
 Small teams disrupt science and technology by exploring and amplifying promising ideas from older and less-popular work. Large teams develop recent successes, by solving acknowledged problems and refining common designs. Both small and large teams are essential to a flourishing ecology of science and technology.
 
-- **Longer version**
+**Longer version**
 
 (1) Work by small teams will be substantially more disruptive than work by large teams; large teams may be better designed or incentivized to develop current science and technology, and that small teams disrupt science and technology with new problems and opportunities.
 
