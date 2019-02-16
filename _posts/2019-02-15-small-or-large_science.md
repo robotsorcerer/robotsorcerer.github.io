@@ -1,9 +1,9 @@
 ---
 layout: post
 date: 2019-02-15 22:10:00
-title: "Science/Tech: Large teams develop; Small teams disrupt."
+title: "Sci-Tech: Large teams develop; Small teams disrupt."
 excerpt: "A systematic study of impact measure of scientific work from small teams vs. large teams."
-permalink: opti-stable
+permalink: sci-tech
 comments: true
 mathjax: true
 category: [control, stability, optimality]
@@ -11,7 +11,7 @@ category: [control, stability, optimality]
 
 ## Introduction
 
-I came across a very dope article in Nature Journal of Science by Wu, Wang from UChicago earlier this evening. I was so enthralled by the findings that I threw the rest of my half-eaten dinner away just to digest this very interesting article. It compares the impact of the scientific output from large teams versus small teams over a three scores period. I do encourage you to read the [paper](https://www.nature.com/articles/s41586-019-0941-9) yourself but if you are too busy, here are my key takeaways from the paper.
+I came across a very dope article in Nature Journal of Science by Wu and Wang from UChicago earlier this evening. I was so enthralled by the findings that I threw the rest of my half-eaten dinner away just to digest this very interesting article. It compares the impact of the scientific output from large teams versus small teams over a three scores period. I do encourage you to read the [paper](https://www.nature.com/articles/s41586-019-0941-9) yourself but if you are too busy, here are my key takeaways from the paper.
 
 ## Takeaways:
 
