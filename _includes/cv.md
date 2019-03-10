@@ -20,7 +20,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- International Federation of Automatic Control (IFAC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
+  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) World Congress -- IFAC Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
   <!-- + **Awards and Honors**
     -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation Scholarship (2017) -- President’s Excellence Award for Teaching Assistants (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012). Best Chemistry Student (West African Senior School Examinations Council -- Two Years in a Row). -->
@@ -36,12 +36,12 @@
   </td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td class='col-md-3'>December 28, 2018</td>
   <td>
   I will be presenting the sequel to <a href="https://parasol.tamu.edu/wafr/wafr2018/ppr_files/WAFR_2018_paper_17.pdf">Deep BOO!</a> at Berkeley in 2019. Watch this space.
   </td>
-</tr>
+</tr> -->
 
 <tr>
   <td class='col-md-3'>October 07, 2018</td>
