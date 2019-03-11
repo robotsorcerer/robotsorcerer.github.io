@@ -2,6 +2,10 @@
 
 #### [Worst wrong predictions in history](https://www.quora.com/What-are-some-of-the-worst-wrong-predictions-ever-made-in-history/answer/Walter-Johnson-51?share=c704e87b&srid=o45o)
 
+"_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
+
+"_By this we mean that machine tool errors obey cause-and-effect relationships, and do not vary randomly for no reason. Further, the causes are not esoteric and uncontrollable, but can be explained in terms of familiar engineering principles._" ~ Bob Donaldson
+
 "_I think there is a world market for maybe five computers._"
  -- Thomas Watson, chairman of IBM, 1943.
 
