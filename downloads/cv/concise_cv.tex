@@ -9,7 +9,7 @@
 \documentclass[10pt,a4paper]{moderncv}
 
 % moderncv themes
-\moderncvtheme[blue, modroman]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[orange, modroman]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 %\moderncvtheme[green]{classic}                % idem
 
 	
@@ -40,57 +40,72 @@
 \firstname{Olalekan}
 \familyname{Ogunmolu}
 \definecolor{light-blue}{rgb}{0.30,0.35,1}
-\title{ %Control Systems | Robotics | Machine Learning \newline
-\textbf{\textcolor{light-blue}{ %\footnotesize Rerum Cognoscere Causas: To know the causes of things.
-} 
-}}                               % optional, remove/comment the line if not wanted
-\address{ATC 1.801, ATEC Bldg}{UT Dallas, Richardson, TX 75080}        % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty 
-%\fax{fax number}                             % optional, remove/comment the line if not wanted
-\email{opo140030@utdallas.edu}                               % optional, remove/comment the line if not wanted
-%\homepage{http://lakehanne.github.io}                         % optional, remove/comment the line if not wanted
-%\extrainfo{\footnotesize http://ecs.utdallas.edu/$\sim$olalekan.ogunmolu/} 
-\extrainfo{\footnotesize http://ecs.utdallas.edu/ $\sim$ opo140030}                 % optional, remove/comment the line if not wanted
-%\photo[64pt][0.4pt]{EverPat}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{Rerum Cognoscere Causas: To know the causes of things.}                                  % optional, remove/comment the line if not wanted
-%	
+%\address{ATC 1.801, ATEC Bldg}{UT Dallas, Richardson, TX 75080}       
+\email{opo140030@utdallas.edu}                               % optional,
+\extrainfo{\footnotesize http://ecs.utdallas.edu/ $\sim$ opo140030}      
+\include{def}
+
+
 \begin{document}
-	\long\def\/*#1*/{}								% Define block comment
 %\vspace{-2ex}
 	%-----       resume       ---------------------------------------------------------
-	\makecvtitle
+	%\makecvtitle
 	\section{Education}
 	\cventry{2014--Present}{PhD in Electrical Engineering }{University of Texas at Dallas}{Richardson, TX}{United States}
 	{} % arguments 3 to 6 can be left empty
-	
+	%
 	\cventry{2011--2012}{Master of Science in Engineering in Control Systems}{The University of Sheffield}{}{UK}{}
-	
+	%
 	\cventry{2000--2005}{Bachelor Of Science in Physics \& Electronics}{Adekunle Ajasin University}{Akungba}{Nigeria}{}
 %
 \section{Publications}
-	\cvitem{}{\textbf{Olalekan Ogunmolu}, Adwait Kulkarn, Yonas Tadesse, Xuejun Gu, Steve Jiang, and Nick Gans. \href{http://ecs.utdallas.edu/~opo140030/media/Papers/iROS2017/iROS2017.pdf}{\textcolor{blue}{A 3-DOF Soft Robot System For Frameless and Maskless Cancer Radiotherapy}}. \textit{Under Review at IEEE/RSJ International Conference on Robot and Systems}: \emph{To be presented at IROS 2017}, Vancouver, BC, Canada. September 2017.}{}
-		
-	\cvitem{}{\textbf{Olalekan Ogunmolu}, Xuejun Gu, Steve Jiang, and Nick Gans. \href{http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf}{\textcolor{blue}{Vision-based control of a soft-robot for Maskless Cancer Radiotherapy}}. \emph{IEEE Conference on Automation Science and Engineering (CASE)}, Fort-Worth, Texas, August 2016. %\newline
-	 DOI: 10.1109/CoASE.2016.7743378}{}
-	 
-	%\cvitem{}{\textbf{Olalekan Ogunmolu}. \href{https://arxiv.org/pdf/1612.01607v2.pdf}{\textcolor{blue}{Review of "Continuous Finite-Time Stabilization of Translational and Rotational Double Integrators"}}. \emph{arxiv PrePrints, arxiv ID: 1612.01607v2}, May 2015.}{}
-		
-	\cvitem{}{\textbf{Olalekan Ogunmolu}, Xuejun Gu, Steve Jiang, and Nick Gans. \href{http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf}{\textcolor{blue}{A Real-Time Soft-Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy}}. \emph{IEEE Conference on Automation Science and Engineering (CASE)}, Gothenburg, Sweden, August 2015. DOI: 10.1109/CoASE.2015.7294318}{}
-	
-	\cvitem{}{\textbf{Olalekan Ogunmolu}, Nick Gans, Steve Jiang, Xuejun Gu. \href{http://www.aapm.org/meetings/2015AM/PRAbs.asp?mid=99&aid=29621}{\textcolor{blue}{An Image-Guided Soft Robotic Patient Positioning System for Maskless Head-And-Neck Cancer Radiotherapy: A Proof-of-Concept Study}}. \emph{American Association of Physicists in Medicine (AAPM)} Annual Meeting, July 2015.}{}
-	
-	\cvitem{}{\textbf{Olalekan Ogunmolu}, %\href{http://lakehanne.github.io/downloads/MS_Thesis.pdf}
-	{\textcolor{black}{Autonomous Navigation of a Rotor-craft unmanned aerial vehicle using machine vision.}} . \newline {MS Thesis, August. 2011. Advisor: Tony J. Dodd, University of Sheffield, England.}}{}
-		
-	\cvitem{}{\textbf{Olalekan Ogunmolu}, \href{http://lakehanne.github.io/downloads/BS_Thesis.pdf}{\textcolor{blue}{Single Fractional Parentage Coefficients in the sd-Shell Nuclei}} . \newline {BS Thesis, Nov. 2004. \hspace{0.5em} Advisor: Ademola Amusa, Adekunle Ajasin University, Nigeria.}}{}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Azar Sadeghnejad Barkousaraie, Dan Nguyen, Nicholas Gans, and Steve Jiang.  \href{}{\bl{A Monte Carlo Tree Game for Beam Orientation Optimization}}. To appear in \textit{\bl{\href{https://iccr-mcma.org/mcma2019/}{International Conference on Monte Carlo Techniques for Medical Applications II}}} (\emph{MCMA}), Montreal, CA. June 2019.}{}
+%	
+\cvitem{}{Azar Sadeghnejad Barkousaraie,  \textbf{Olalekan Ogunmolu}, Steve Jiang, and Dan Nguyen.  \href{}{\bl{Deep Learning Neural Network for Beam Orientation Optimization}}. To appear in \textit{\bl{\href{http://iccr-mcma.org/iccr2019/}{International Conference on the use of Computers in Radiation Therapy XVI}}} (\emph{ICCR}), Montreal, CA. June 2019.}{}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Michael Folkerts, Dan Nguyen, Nicholas Gans, and Steve Jiang.  \href{}{\bl{Deep BOO: Automating Beam Orientation Selection in Intensity Modulated Radiation Therapy}}. To appear at \textit{\bl{\href{http://algorithmic-robotics.org/wafr2018/}{Algorithmic Foundations of Robotics XIII, International Workshop}}} (\emph{WAFR}), Mérida, Mexico. December 2018.}{}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Nicholas Gans, and Tyler Summers. \href{}{\bl{Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks}}. \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems} (\emph{IROS}), Madrid, Spain. October 2018. DOI: 10.1109/IROS.2018.8594037}{}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Dan Nguyen, Xun Jia, Weiguo Lu, Nick Gans, and Steve Jiang. \href{}{\bl{Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach}}. 
+	%\newline Selected for Oral Presentation at the \textit{John R. Cameron Young Investigators Symposium -- 60th Annual Meeting of the American Association of Physicists in Medicine}, Nashville, TN (\emph{AAPM}). July 2018.
+}
+%{}
+% }x
+%
+\cvitem{}{Yara Almubarak, Joshi Aniket, \bf{Olalekan Ogunmolu}, Xuejun Gu, Steve Jiang, Nicholas Gans, and Yonas Tadesse, \bl{Design and Development of Soft Robots for Head and Neck Cancer Radiotherapy.} \emph{\href{http://spie.org/conferences-and-exhibitions/smart-structures/nde?SSO=1}{\bl{SPIE: Smart Structures + Nondestructive Evaluation}},} Denver, CO, U.S.A. March 2018.
+}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Adwait Kulkarn, Yonas Tadesse, Xuejun Gu, Steve Jiang, and Nick Gans. \href{https://arxiv.org/abs/1703.03821}{\bl{Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose Correction System For Frameless and Maskless Cancer Radiotherapy}}. \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems} (\emph{IROS}), Vancouver, BC, Canada. September 2017. DOI: 10.1109/IROS.2017.8206211.}{}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Xuejun Gu, Steve Jiang, and Nick Gans. \href{http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf}{\bl{Vision-based control of a soft-robot for Maskless Cancer Radiotherapy}}. \emph{IEEE Conference on Automation Science and Engineering (CASE)}, Fort-Worth, Texas, August 2016. %\newline
+	DOI: 10.1109/CoASE.2016.7743378.}{}
+%
+\cvitem{}{\textbf{Olalekan Ogunmolu}, Xuejun Gu, Steve Jiang, and Nick Gans. \href{http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf}{\bl{A Real-Time Soft-Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy}}. \emph{IEEE Conference on Automation Science and Engineering (CASE)}, Gothenburg, Sweden, August 2015. DOI: 10.1109/CoASE.2015.7294318.}{}
+%
+%\cvitem{}{\textbf{Olalekan Ogunmolu},
+%	{\bl{Autonomous Navigation of a Rotor-craft unmanned aerial vehicle using machine vision.}} . \newline {MS Thesis, August. 2011. Advisor: Tony J. Dodd, University of Sheffield, England.}}{}
+%%
+%\cvitem{}{\textbf{Olalekan Ogunmolu}, \href{http://lakehanne.github.io/downloads/BS_Thesis.pdf}{\bl{Single Fractional Parentage Coefficients in the sd-Shell Nuclei}} . \newline {BS Thesis, Nov. 2004. \hspace{0.5em} Advisor: Ademola Amusa, Adekunle Ajasin University, Nigeria.}}{}
+
 	%
 	\section{Invited Talks}
+		\cvitem{Open Robotics}{\bl{\href{}{Soft-Robotic Position Correction Mechanisms in Intensity-Modulated Radiation Therapy}}.
+		\newline 	{Open Robotics Foundation, Mountain View, CA, USA. January 2019.}}
+	
+	\cvitem{UChicago}{\bl{\href{}{Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy}}. 	{Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.}}
+	
+	\cvitem{ATR CNS Labs}{\bl{\href{}{Minimax Iterative Dynamic Game}}.
+	 	{Department of Brain Robot Interface, Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.}}
+	
+	\cvitem{Stanford University}{\bl{\href{}{Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy}}.
+ 	{Department of Energy Resources Engineering, Stanford University, Stanford, CA, USA. November 2018.}}
+	
+	
 	\cvitem{UTSW, Dallas, TX}{A 3-DOF Neuro-Adaptive Patient Pose Correcting System For Frameless and Maskless Cancer Radiotherapy,  \emph{Physics Research Seminar Series, Radiation Oncology Department, UT Southwestern Medical Center,} Dallas, TX, USA. March 2017.}
 		
 	\cvitem{IEEE Arlington, TX}{Towards automated accurate patient positioning in maskless cancer radiotherapy. \emph{IEEE Computational Intelligence Society,} UT Arlington, TX, USA. December 2015.}
-	
-	%\section{Poster Presentations}
-	%\cvitem{Texas Systems Day}{A 3-DOF Neuro-Adaptive Pose Correction System For Frameless and Maskless Cancer Radiotherapy,  \emph{Texas Systems Day, Texas A \& M University,} College Station, TX, USA. March 2017.}
-	%
 	\section{Experience}
 	\cventry{Spring - Summer 2016}{\textbf{Hardware Integration Intern,  Amazon Robotics, North Reading} }{}{MA}{
 		\newline
