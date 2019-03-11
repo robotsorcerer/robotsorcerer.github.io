@@ -1,6 +1,6 @@
-### [Daniel Liberzon Quotes](http://liberzon.csl.illinois.edu/)
+<!-- ### [Daniel Liberzon Quotes](http://liberzon.csl.illinois.edu/) -->
 
-#### [Worst wrong predictions in history](https://www.quora.com/What-are-some-of-the-worst-wrong-predictions-ever-made-in-history/answer/Walter-Johnson-51?share=c704e87b&srid=o45o)
+<!-- #### [Worst wrong predictions in history](https://www.quora.com/What-are-some-of-the-worst-wrong-predictions-ever-made-in-history/answer/Walter-Johnson-51?share=c704e87b&srid=o45o) -->
 
 "_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
 
