@@ -1,4 +1,9 @@
 
+
+"_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
+
+"_By this we mean that machine tool errors obey cause-and-effect relationships, and do not vary randomly for no reason. Further, the causes are not esoteric and uncontrollable, but can be explained in terms of familiar engineering principles._" ~ Bob Donaldson
+
 "_Young men should prove theorems. Old men should write books._" ~ G.H. Hardy
 
 "_It follows that the Scientist, like the Pilgrim, must wend a straight and narrow path between the Pitfalls of Oversimplification and the Morass of Overcomplication._" ~ R.E. Bellman, on including too many features of reality in a mathematical model or constructing a model in too simple a fashion.
