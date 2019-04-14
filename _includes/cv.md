@@ -31,7 +31,7 @@
 <tr>
   <td class='col-md-3'>January 31, 2018</td>
   <td>
-  Starting in the summer of 2019, after I shall have defended my PhD thesis, I shall be resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine. I shall continue investigating head and neck immobilization in cancer radiation therapy with the aid of continuum soft manipulators and parallel rigid robot mechanisms.</a>
+  Starting in the summer of 2019, after I shall have defended my PhD thesis, I shall be resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a> I shall continue investigating head and neck immobilization in cancer radiation therapy with the aid of continuum soft manipulators and parallel rigid robot mechanisms.
   </td>
 </tr>
 
