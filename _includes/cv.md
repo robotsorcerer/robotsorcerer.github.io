@@ -19,7 +19,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) World Congress -- IFAC Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- International Conference on Robotics and Automation (ICRA) -- International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
+  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) World Congress -- IFAC Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
   <!-- + **Awards and Honors**
     -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation Scholarship (2017) -- President’s Excellence Award for Teaching Assistants (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012). Best Chemistry Student (West African Senior School Examinations Council -- Two Years in a Row). -->
@@ -31,7 +31,7 @@
 <tr>
   <td class='col-md-3'>January 31, 2018</td>
   <td>
-  Starting in the summer of 2019, after I shall have defended my PhD thesis, I will be resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a>
+  Starting in the summer of 2019, after I shall have defended my PhD thesis, I shall be resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine. I shall continue investigating head and neck immobilization in cancer radiation therapy with the aid of continuum soft manipulators and parallel rigid robot mechanisms.</a>
   </td>
 </tr>
 
