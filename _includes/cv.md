@@ -3,9 +3,9 @@
   <!-- - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate. -->
 
 + **Research Focus**:
-  - &nbsp; &nbsp;&nbsp; **Core**: Control Theory -- Robotics -- Game Theory.
-  - &nbsp; &nbsp;&nbsp; Reluctantly added buzzwords: Big Data, Data Science, Artificial Intelligence.
-  - &nbsp; &nbsp;&nbsp; Old buzzwords: System Identification, Data Mining.
+  - &nbsp; &nbsp;&nbsp; **Core**: Control Theory -- Robotics -- Finite Elastic Deformation.
+  - &nbsp; &nbsp;&nbsp; Fund-my-startup buzzwords: Artificial Intelligence, Big Data, Data Science.
+  - &nbsp; &nbsp;&nbsp; Serious buzzwords: System Identification, Data Mining.
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
@@ -19,7 +19,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) World Congress -- IFAC Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
+  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) World Congress -- IFAC Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- Dynamic Systems and Control Conference (DSCC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
   <!-- + **Awards and Honors**
     -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation Scholarship (2017) -- President’s Excellence Award for Teaching Assistants (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012). Best Chemistry Student (West African Senior School Examinations Council -- Two Years in a Row). -->
