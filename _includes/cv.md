@@ -4,8 +4,8 @@
 
 + **Research Focus**:
   - &nbsp; &nbsp;&nbsp; **Core**: Control Theory -- Robotics -- Finite Elastic Deformation.
-  - &nbsp; &nbsp;&nbsp; Fund-my-startup buzzwords: Artificial Intelligence, Big Data, Data Science.
-  - &nbsp; &nbsp;&nbsp; Serious buzzwords: System Identification, Data Mining.
+  - &nbsp; &nbsp;&nbsp; **Fund-my-startup buzzwords**: Artificial Intelligence, Big Data, Data Science.
+  - &nbsp; &nbsp;&nbsp; **Serious buzzwords**: System Identification, Data Mining.
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
