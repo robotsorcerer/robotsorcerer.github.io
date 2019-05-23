@@ -32,7 +32,8 @@
 <tr>
   <td class='col-md-3'>May 16, 2019</td>
   <td>
-  I have defended my <a href="">PhD thesis</a>. For now, I am resuming as a postdoc at  <s><a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a></s> The University of Pennsylvania's Perelman School of Medicine.
+  I have defended my <a href="">PhD thesis</a>. For now, I am resuming as a postdoc at  <s><a href="https://www.uchicago.edu/">The University of Chicago's</a> 
+    <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a></s> <!-- The University of Pennsylvania's Perelman School of Medicine. -->
   </td>
 </tr>
 
