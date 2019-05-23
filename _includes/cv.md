@@ -8,10 +8,11 @@
   - &nbsp; &nbsp;&nbsp; **Serious buzzwords**: System Identification, Data Mining.
 
 + **University Affiliations:**
-  - &nbsp; &nbsp;&nbsp;  [University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2013).
-  - &nbsp; &nbsp;&nbsp;  [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html) (Current).
-  - &nbsp; &nbsp;&nbsp; [University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Current).
-  - &nbsp; &nbsp;&nbsp; [University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (Starting 2019).
+  - &nbsp; &nbsp;&nbsp; [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
+  - &nbsp; &nbsp;&nbsp; [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019 - Present).
+  - &nbsp; &nbsp;&nbsp;  [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019).
+  - &nbsp; &nbsp;&nbsp;  [The University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012).
+  - &nbsp; &nbsp;&nbsp; [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
 
 + **Previous Company Affiliations:**
   -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
@@ -19,7 +20,7 @@
   - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
-  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) World Congress -- IFAC Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- Dynamic Systems and Control Conference (DSCC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
+  -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IFAC World Congress  -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- Dynamic Systems and Control Conference (DSCC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
   <!-- + **Awards and Honors**
     -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation Scholarship (2017) -- President’s Excellence Award for Teaching Assistants (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012). Best Chemistry Student (West African Senior School Examinations Council -- Two Years in a Row). -->
@@ -29,9 +30,16 @@
 <table class="table table-hover">
 
 <tr>
-  <td class='col-md-3'>January 31, 2018</td>
+  <td class='col-md-3'>May 16, 2019</td>
   <td>
-  Starting in the summer of 2019, after I shall have defended my PhD thesis, I shall be resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a> I shall continue investigating head and neck immobilization in cancer radiation therapy with the aid of continuum soft manipulators and parallel rigid robot mechanisms.
+  I have defended my <a href="">PhD thesis</a>. For now, I am resuming as a postdoc at  <s><a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a></s> The University of Pennsylvania's Perelman School of Medicine.
+  </td>
+</tr>
+
+<tr>
+  <td class='col-md-3'>January 31, 2019</td>
+  <td>
+  Starting in the summer of 2019, after I shall have defended my PhD thesis, I shall be moving into the gig economy, resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a> I shall continue investigating head and neck immobilization in cancer radiation therapy with the aid of continuum soft manipulators and parallel rigid robot mechanisms.
   </td>
 </tr>
 

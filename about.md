@@ -79,6 +79,8 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
 
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Blessing]() is resuming as a CS PhD student at Tufts in the Fall.
+
 <!-- + I still consider Sheffield my adopted home. Biggest village in Yorkshire, where I've made some of my biggest mistakes; where I've met some of the best people I could ever hope to know. City of hills. Home of the Yorkshire pudding. Of thee I sing!
 #### Name Etymology
 
