@@ -12,7 +12,8 @@
 % moderncv themes
 \moderncvtheme[blue, modroman]{classic}
 
-\usepackage[sc]{mathpazo}
+%\usepackage[sc]{mathpazo}
+\usepackage{fourier}
 \linespread{1.05}
 \usepackage[T1]{fontenc}
 %\usepackage[dvipsnames]{xcolor}
@@ -28,26 +29,27 @@
 \usepackage{layout}
 \usepackage{color}
 \usepackage{multicol}
+\usepackage{paralist}
 
 %            personal data
-\firstname{Olalekan}
+\title{Robotics | Control Systems  | ML 
+	\newline
+	\bf{\lb{\footnotesize
+			Rerum Cognoscere Causas: To know the causes of things.} }}
+\firstname{Lekan}
 \familyname{Ogunmolu}
-\definecolor{light-blue}{rgb}{0.30,0.35,1}
-\title{Robotics | Control Systems  | ML \newline
-\bf{\lb{\footnotesize
-Rerum Cognoscere Causas: To know the causes of things.} }}
 \address{2280 Inwood Rd., Department of Radiation Oncology, \\UT Southwestern Medical Center,}{ Dallas, TX75235}
 \email{olalekan.ogunmolu@utsouthwestern.edu}
-%\email{patlekano@gmail.com}
 \mobile{omitted intentionally}
 %\mobile{+1-972-375-6346}%, +81-80-9163-6112}
 \homepage{scriptedonachip.com}
-\include{def}
+\include{sections/def}
 
 
 \begin{document}
 
 	\makecvtitle
+<<<<<<< HEAD
 	%
 	\input{education}
 	\input{publications}
@@ -63,9 +65,24 @@ Rerum Cognoscere Causas: To know the causes of things.} }}
 	\input{opensource}
 	\input{language}
 	\input{References}
+=======
+	\input{sections/intro}
+	\input{sections/education}
+	\input{sections/talks}
+	\input{sections/publications}
+	\input{sections/posters}
+	\input{sections/experience}
+	\input{sections/awards}
+	\input{sections/leadership}
+	\input{sections/mentor}
+	\input{sections/compute}
+	%\input{sections/opensource}
+	\input{sections/language}
+	%\input{sections/references}
+>>>>>>> 215c5ffb84b3f3c9e84d701e09c903a96fde11e8
 %
 	%\vspace{0.2in}
-	\footnotesize \centering Last updated: May 3, 2019
-\renewcommand{\listitemsymbol}{-}
+	\footnotesize \centering Last updated: May 23, 2019
+%\renewcommand{\listitemsymbol}{-}
 \clearpage
 \end{document}
