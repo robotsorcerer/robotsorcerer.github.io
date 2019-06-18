@@ -23,7 +23,13 @@
   -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IFAC World Congress  -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- Dynamic Systems and Control Conference (DSCC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).
 
   <!-- + **Awards and Honors**
-    -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation Scholarship (2017) -- President’s Excellence Award for Teaching Assistants (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012). Best Chemistry Student (West African Senior School Examinations Council -- Two Years in a Row). -->
+    -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation Scholarship (2017) -- President’s Excellence Award for Teaching Assistants (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012). Best Chemistry Student (West African Senior School Examinations Council -- Two Years in a Row).
+
+
+    Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>.
+
+
+    -->
 ## <i class="fa fa-chevron-right"></i> News
 
 <table class="table table-hover">
@@ -32,7 +38,7 @@
 <tr>
   <td class='col-md-3'>May 16, 2019</td>
   <td>
-  I have defended my <a href="">PhD thesis</a>. For now, I am resuming as a postdoc at  <s><a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a></s> The University of Pennsylvania's Perelman School of Medicine.
+  I have successfully defended my <a href="https://www.utdallas.edu/~opo140030/media/Papers/thesis.pdf">PhD thesis</a>. In the interim, I am resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine</a>/<a href="https://www.upenn.edu/">The University of Pennsylvania's</a> <a href="https://www.med.upenn.edu/">Perelman School of Medicine.</a>
   </td>
 </tr>
 
