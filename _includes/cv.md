@@ -38,10 +38,10 @@
 <tr>
   <td class='col-md-3'>May 16, 2019</td>
   <td>
-  I have successfully defended my <a href="https://www.utdallas.edu/~opo140030/media/Papers/thesis.pdf">PhD thesis</a>. In the interim, I am resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine</a>/<a href="https://www.upenn.edu/">The University of Pennsylvania's</a> <a href="https://www.med.upenn.edu/">Perelman School of Medicine.</a>
+  I have successfully defended my PhD thesis. In the interim, I am resuming as a postdoc at  <a href="https://www.uchicago.edu/">The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine</a>/<a href="https://www.upenn.edu/">The University of Pennsylvania's</a> <a href="https://www.med.upenn.edu/">Perelman School of Medicine.</a>
   </td>
 </tr>
-
+<!-- <a href="https://www.utdallas.edu/~opo140030/media/Papers/thesis.pdf"></a> -->
 <tr>
   <td class='col-md-3'>January 31, 2019</td>
   <td>
