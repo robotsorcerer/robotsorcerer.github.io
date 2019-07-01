@@ -1,0 +1,71 @@
+% !TeX spellcheck = <none>
+ %% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\PassOptionsToPackage{pdfpagelabels=false}{hyperref}
+\documentclass[10pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue, modroman]{classic}
+
+%\usepackage[sc]{mathpazo}
+\usepackage{fourier}
+\linespread{1.05}
+\usepackage[T1]{fontenc}
+%\usepackage[dvipsnames]{xcolor}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\AtBeginDocument{\recomputelengths}
+
+\setlength{\topmargin}{-0.7in}
+\usepackage{calc}
+\setlength{\textheight}{\textheight+0.5in}
+\usepackage{layout}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{paralist}
+
+%            personal data
+\title{Robotics | Control Systems  | ML
+	\newline
+	\bf{\lb{\footnotesize
+			Rerum Cognoscere Causas: To know the causes of things.} }}
+\firstname{Lekan}
+\familyname{Ogunmolu}
+%\address{Perelman School of Medicine, University of Pennsylvania}{Philadelphia, PA 19104-5156}
+\address{6022 S. Drexel Ave, Apt 211}{University of Chicago, Chicago, IL 60637}
+\email{olalekanpatrick@yahoo.com}
+%\mobile{omitted intentionally}
+\mobile{+1-972-375-6346}%, +81-80-9163-6112}
+\homepage{scriptedonachip.com}
+\include{sections/def}
+
+
+\begin{document}
+
+	\makecvtitle
+	%\input{sections/intro}
+	\input{sections/education}
+	\input{sections/experience}
+	%\input{sections/talks}
+	%\input{sections/publications}
+	%\input{sections/posters}
+	\input{sections/awards}
+	\input{sections/leadership}
+	\input{sections/mentor}
+	\input{sections/compute}
+	%\input{sections/opensource}
+	\input{sections/language}
+	%\input{sections/references}
+%
+	%\vspace{0.2in}
+	\footnotesize \centering Last updated: May 23, 2019
+%\renewcommand{\listitemsymbol}{-}
+\clearpage
+\end{document}
