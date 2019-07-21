@@ -29,4 +29,19 @@ exclude:
   - Gemfile
   - Gemfile.lock
 # paginate: 2
+plugins_dir:
+  - jekyll-archives
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 paginate_path: "/blog/page:num/"
+sidebars:
+- news_sidebar
+- blogs_sidebar
+- strava_sidebar
