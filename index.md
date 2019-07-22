@@ -25,10 +25,10 @@ title: Lekan O'Molu
     {% endunless %}
   {% endfor %}
 </table>
-<h4><a href="/blog">View all blogposts </a></h4>
+<h4><a href="/blog">View all blog posts </a></h4>
 <br>
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News</h2>
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
 <table class="table table-hover">
     {% for item in site.data.news.news_items %}
     {% for subitem in item.subnewsitems %} 
@@ -46,7 +46,7 @@ title: Lekan O'Molu
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
-<p>I pedal the metal of an unstable bi-pedal locomotor device (aka bike), often logging approximately 120 miles a week, weather permitting. I currently own a 2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> road bike (62cm, because why not? I am 6'7" --fyi, this is why not). It has served me well in the states of Texas, Illinois, and Indiana. I hope it serves in Michigan, Wisconsin and Pennsylvania soon. Below are my activities summary on strava.</p>
+<p>I pedal the metal of an unstable bi-pedal locomotor robata (a.k.a. bike), often logging approximately 120 miles a week, weather permitting. I currently own a 2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> road bike (62cm, because why not? I am 6'7" --fyi, this is why not). It has served me well in the states of Texas, Illinois, and Indiana. I hope it serves in Michigan, Wisconsin and Pennsylvania soon. Below are my activities summary on strava.</p>
   <iframe height='200' width='700' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 
