@@ -62,13 +62,14 @@ title: Lekan O'Molu
 + <a href="{{ site.url }}/readlist"> summer'17 reading list</a>:  RAS Papers<br>
 + <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>:   Short and fun bash scripts.<br>
 + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a><br>
-+ <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang.
++ <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang
 
 
 <!-- Strava Extended -->
+<!-- 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Extended Strava Activities</h2>
 <p>Extended display of my recent physical therapy activities on strava</p>
-<iframe height='454' width='700' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/latest-rides/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
+<iframe height='454' width='700' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/latest-rides/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe> -->
 
 <br><br>
 Last updated on {% include last-updated.txt %}
