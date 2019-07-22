@@ -41,7 +41,7 @@ title: Lekan O'Molu
     {% endfor %}
   {% endfor %}
 </table> 
-<h4><a href="{{ sites._includes }}/news.html">View archived news</a></h4>
+<h4><a href="{{ sites }}/news.html">View archived news</a></h4>
 <br>
 
 <!-- Strava summary -->
