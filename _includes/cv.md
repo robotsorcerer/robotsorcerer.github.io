@@ -15,9 +15,9 @@
   - &nbsp; &nbsp;&nbsp; [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
 
 + **Previous Company Affiliations:**
-  -  &nbsp; &nbsp;&nbsp; Amazon Robotics (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
-  - &nbsp; &nbsp;&nbsp; Preferred Networks, Tokyo, Japan (Ended 2018).
-  - &nbsp; &nbsp;&nbsp; Coca-Cola, Lagos/Athens (Ended 2011).
+  -  &nbsp; &nbsp;&nbsp; [Amazon Robotics](https://www.amazonrobotics.com/#/) (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
+  - &nbsp; &nbsp;&nbsp; [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
+  - &nbsp; &nbsp;&nbsp; [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
 
 + **Research Peer Reviewing Activities**
   -  &nbsp; &nbsp;&nbsp; International Federation of Automatic Control (IFAC) Automatica Journal -- IEEE Access Journal -- Journal of Neural Computing and Applications (NCAA) -- IFAC World Congress  -- IOP: Measurement Science and Technology -- IEEE International Conference on Robotics and Automation (ICRA) -- IEEE International Conference on Decision and Control (CDC) -- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) -- Dynamic Systems and Control Conference (DSCC) -- American Control Conference (ACC) -- International Conference on Machine Learning (ICML).

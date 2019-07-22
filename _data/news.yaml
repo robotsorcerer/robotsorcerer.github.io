@@ -1,0 +1,89 @@
+news_items:
+  - items: 'PHinisheD!'
+    subnewsitems:
+      - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.  
+                        S.B. Jiang, and N. Gans, and my dissertation committee members: Mark Spong, T. Summers, 
+                        Y. Tadesse and N. Gans.'
+        highlight: true
+        date: May 16, 2019 
+  - items: 'Postdoc!'
+    subnewsitems:
+      - content: Starting in the summer of 2019, after I shall have defended my PhD thesis, 
+                  I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/">
+                  The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> 
+                  Pritzker school of medicine.</a>
+        highlight: true
+        date: January 31, 2019
+  - items: 'Thanks Google!'
+    subnewsitems:
+      - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials, 
+      workshops, and program sessions at NIPS 2018. Bonjour Montréal!'
+        highlight: false
+        date: 'October 07, 2018' 
+  - items: 'Madrid!'
+    subnewsitems:
+      - content: I had a reyt good great time at this year's IROS and ROSCon in Madrid. 
+                 Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>, 
+                 <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>, 
+                 and video of Marc Raibert's <a href="https://www.instagram.com/p/BobgQPMhuKCrqy9OjV01K9-0cH6kmFZXcB6kgk0/">mini-spot demo</a>
+        highlight: false
+        date: October 6, 2018
+  - items: 'WAFR!'
+    subnewsitems:
+      - content: <a href="/assets/papers/wafr.pdf"> Deep BOO!</a> gets accepted to the Workshop on the Algorithm Foundations of Robotics (WAFR). WAFR has an <a href="https://parasol.tamu.edu/wafr/wafr2018/authors.php">"established reputation as one, if not the most, important venue for presenting algorithmic work related to robotics"</a>.
+        date: September 06, 2018
+        highlight: false
+  - items: ATR Labs
+    subnewsitems:
+      - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
+        date: August 29, 2018
+        highlight: true
+  - items: 'Nonlinear NeuroControl Talk'
+    subnewsitems:
+      - content: 'I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.' 
+        date: 'July 05, 2018' 
+        highlight: false
+  - items: 'Robust control via game theory'
+    subnewsitems:
+      - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept. 
+                  Codes <a href="https://github.com/lakehanne/youbot">here</a>. 
+                  Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!' 
+        date: 'June 2018' 
+        highlight: false
+  - items: 'Minimax iterative dynamic game'
+    subnewsitems:
+      - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018. 
+                Codes <a href="https://github.com/lakehanne/youbot">here</a>. 
+                Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!' 
+        date: 'April 24, 2018' 
+        highlight: false
+  - items: 'Venture capitalists and robotics'
+    subnewsitems:
+      - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!' 
+        date: 'August 2017' 
+        highlight: false
+  - items: 'NSF'
+    subnewsitems:
+      - content: Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award.</a>
+        date: 'August 2017' 
+        highlight: false  
+  - items: 'SNA'
+    subnewsitems:
+      - content: The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>
+        date: 'August 2017' 
+        highlight: false  
+  - items: 'iDGv1'
+    subnewsitems:
+      - content: Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a>
+        date: 'July 2017' 
+        highlight: false          
+  - items: 'OSRF'
+    subnewsitems:
+      - content: Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.
+        date: 'July 2017' 
+        highlight: false     
+  - items: 'ICML'
+    subnewsitems:
+      - content: Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.
+        date: 'June 2017' 
+        highlight: false                   
