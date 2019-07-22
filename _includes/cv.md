@@ -5,8 +5,8 @@
 
 + **Research Focus**:
   - &nbsp; &nbsp;&nbsp; **Core**: Control Theory -- Robotics -- Finite Elastic Deformation.
-  #- &nbsp; &nbsp;&nbsp; **Fund-my-startup buzzwords**: Artificial Intelligence, Big Data, Data Science.
-  #- &nbsp; &nbsp;&nbsp; **Serious buzzwords**: System Identification, Data Mining.
+  - &nbsp; &nbsp;&nbsp; **Fund-my-startup buzzwords**: Artificial Intelligence, Big Data, Data Science.
+  - &nbsp; &nbsp;&nbsp; **Antiquated buzzwords**: System Identification, Data Mining.
 
 + **University Affiliations:**
   - &nbsp; &nbsp;&nbsp; [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
