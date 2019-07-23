@@ -52,7 +52,7 @@ title: Lekan O'Molu
 
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
- <p>At my leisure, I like to read -- a lot! Research papers, history books, engineering junkies and such.</p>
+ <p>At my leisure, I like to read -- a lot! My interests span from research papers, to history books, to engineering junkies and such. Highlighted below are some of my reading lists in the past, codes you might find useful and what-have-you.</p>
 
 +    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: A curated list of papers that apply neural dynamics to control systems.<br>
 
