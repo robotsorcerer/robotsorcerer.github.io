@@ -1,4 +1,10 @@
 news_items:
+  - items: 'IROS_18!'
+    subnewsitems:
+      - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: [lakehanne/ros](https://cloud.docker.com/repository/docker/lakehanne/ros/)
+                  Look for the idg_iros18 tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
+        highlight: true
+        date: August 20, 2019 
   - items: 'PHinisheD!'
     subnewsitems:
       - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.  
