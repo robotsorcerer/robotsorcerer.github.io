@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scriptedonachip.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #patmeansnoble
 github_username:  lakehanne
+docker_username:  lakehanne
 timezone:         America/Chicago
 quora_username:   Olalekan-Ogunmolu
 sass:

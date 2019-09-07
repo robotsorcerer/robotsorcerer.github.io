@@ -36,7 +36,6 @@
       <ul>
         {% if site.email %}
         <li>
-          <!-- <a href="mailto:{{ site.email }}"><i class="fa fa-fw fa-envelope-square"> Email</i></a> -->
           <a href="mailto:{{ site.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>
 
         </li>
@@ -46,7 +45,22 @@
     </div>
 
     <div class="footer-col-3 column">
-      <p class="text"><b>{{ site.description }}</b></p>
+
+      <ul>
+        {% if site.docker_username %}
+        <li>
+          <a href="https://hub.docker.com/u/{{ site.docker_username }}" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" width="25%", height="15%"></a>
+        </li>
+        {% endif %}
+      </ul>
+
+      <ul>
+        {% if site.description %}
+        <li>
+          <a class="text"><b>{{ site.description }}</b></a>
+        </li>
+        {% endif %}
+      </ul>
     </div>
 
   </div>
