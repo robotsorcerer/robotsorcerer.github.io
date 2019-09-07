@@ -1,12 +1,12 @@
 
-title:            Lekan Molu # ぇかん オグンモゥ (
-locale:           en_US
-email:            patlekno@icloud.com
+title: Lekan Molu # ぇかん オグンモゥ (
+locale: en_US
+email: patlekno@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
   To discover and understand.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _ #patmeansnoble
+url: "http://scriptedonachip.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: #patmeansnoble
 github_username:  lakehanne
 timezone:         America/Chicago
 quora_username:   Olalekan-Ogunmolu
@@ -20,28 +20,19 @@ defaults:
       static: "true"
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
-  #- jekyll-coffeescript
   - jekyll-watch
-  #- jekyll-assets
 exclude:
   - Gemfile
   - Gemfile.lock
-# paginate: 2
-plugins_dir:
-  - jekyll-archives
-jekyll-archives:
-  enabled: []
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-paginate_path: "/blog/page:num/"
-sidebars:
-- news_sidebar
-- blogs_sidebar
-- strava_sidebar
+  - README.md
+  - .DS_Store
+  - .travis.yml
+  - jekyll-feed
+  - me-style.jpg
+  - validate.rb
+  - bower_components
+  - update-vendor-deps.sh
+  - vendor/bundle
+  - vendor/bower.json

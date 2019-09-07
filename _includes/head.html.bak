@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width,  initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} posts" />
+    <!-- <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} posts" /> -->
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-    <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link href="/vendor/css/font-awesome.min.css" rel="stylesheet">
     <link href="/vendor/css/academicons.min.css" rel="stylesheet">
-    <link href="/vendor/pygments/default.css" rel="stylesheet">
+    <link href="/vendor/pygments/default.css" rel="stylesheet"> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="row">
@@ -27,8 +28,7 @@
                         {{ site.title }}
                     </div>
                 </a>
-              <button class="navbar-toggle" type="button" data-toggle="collapse"
-                      data-target="#navbar-main">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -36,26 +36,13 @@
             </div>
             <div class="navbar-collapse collapse" id="navbar-main">
               <ul class="nav navbar-nav">
+                <li><a href="/about">About</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/quotes">Quotes</a></li>
-                <li><a href="https://scholar.google.com/citations?user=JeUaqqEAAAAJ&hl=en">Publications</a></li>
               </ul>
               <ul>
-                  <a><div style="float:right; margin-top:20px; margin-right:40px;">
-                  <a href="{{ "/atom.xml" | prepend: site.baseurl }}">
-                    <img src="/downloads/rssicon.svg" width="20">
-                  </a>
-                  </div></a>
-
-                  <a><div style="float:right; margin-top:20px; margin-right:40px;">
-                    <a href="/about">About</a>
-                  </div></a>
-
-                  <a><div style="float:right; margin-top:20px; margin-right:40px;">
-                  <a href="/downloads/cv/resume.pdf" target='_blank' class="fa fa-download">
-                    Resume
-                  </a>
-                  </div></a>
+                <li><div style="float:right; margin-top:20px; margin-right:40px;"><a href="/downloads/cv/resume.pdf">CV</a></li>
+                <li><div style="float:right; margin-top:20px; margin-right:40px;"><a href="/quotes">Quotes</a></li>
+                <li><div style="float:right; margin-top:20px; margin-right:40px;"><a href="{{ "/atom.xml" | prepend: site.baseurl }}"><img src="/downloads/rssicon.svg" width="20"></a></div></li>
               </ul>
               <nav class="site-nav">
                 <a href="#" class="menu-icon">
@@ -76,14 +63,21 @@
       </div>
     </div>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-3698471-23', 'auto');
-      ga('send', 'pageview');
-    </script>
+  <!-- {{ content }} -->
 
+  <script src="/js/sp.js"></script>
+  <script src="/vendor/js/jquery.min.js"></script>
+  <script src="/vendor/js/bootstrap.min.js"></script>
+  <script src="/vendor/js/anchor.min.js"></script>
+  <script src="/vendor/js/jquery.toc.js"></script>
+
+      <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-3698471-23', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
