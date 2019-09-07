@@ -31,7 +31,7 @@ title: Lekan O'Molu
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
 <table class="table table-hover">
     {% for item in site.data.news.news_items %}
-    {% for subitem in item.subnewsitems %} 
+    {% for subitem in item.subnewsitems %}
         {% unless subitem.highlight == false %}
         <tr>
           <td>{{ subitem.content }} </td>
@@ -40,13 +40,13 @@ title: Lekan O'Molu
       {% endunless %}
     {% endfor %}
   {% endfor %}
-</table> 
+</table>
 <h4><a href="{{ sites }}/news">View archived news</a></h4>
 <br>
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
-<p>I pedal the metal of an unstable bi-pedal locomotor robata (robot) a.k.a. bike, often logging approximately 120 miles a week, to the extent that the weather permits. I currently own a 2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> 62cm road bike. Because why not? I am 6'7" (fyi, this is why not). It has served me well in the states of Texas, Illinois, and Indiana -- so far. I hope it serves in Michigan, Wisconsin and Pennsylvania soon as I log my centuries around the Midwest and East coast. Below are my activities summary on strava. When strava says follow "Lekan Pat Molu", it literally means hit the goddamn button and follow me.</p>
+<p>I pedal the metal of an unstable bi-pedal locomotor robata (robot) a.k.a. bike, often logging approximately 120 miles a week, to the extent that the weather permits. I currently own a 2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> 62cm road bike. Because why not? I am 6'7". It has served me well in the states of Texas, Illinois, and Indiana -- so far. I hope it serves in Michigan, Wisconsin and Pennsylvania soon as I log my centuries around the Midwest and East coast. Below are my activities summary on strava. When strava says follow "Lekan Pat Molu", it literally means hit the goddamn button and follow me.</p>
   <iframe height='200' width='700' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 
@@ -65,12 +65,6 @@ title: Lekan O'Molu
 + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a><br>
 + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang
 
-
-<!-- Strava Extended -->
-<!-- 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Extended Strava Activities</h2>
-<p>Extended display of my recent physical therapy activities on strava</p>
-<iframe height='454' width='700' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/latest-rides/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe> -->
 
 <br><br>
 Last updated on {% include last-updated.txt %}
