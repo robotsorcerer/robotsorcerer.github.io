@@ -52,18 +52,17 @@ title: Lekan O'Molu
 
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
- <p>At my leisure, I read -- a lot: research papers, history books, and engineering texts etc. Highlighted below are some of my reading lists in the past, codes you might find useful and what-have-you.</p>
+ <p>At my leisure, I like to read: research papers, history books, and engineering texts inter alia. Highlighted below are some of my reading lists in the past, codes you might find useful and what-have-you.</p>
 
-+    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: A curated list of papers that apply neural dynamics to control systems.<br>
-
-+ <a href="https://github.com/lakehanne/awesome-screw-theory"> awesome screw theory</a>: A curated list of papers that apply screw theory for soft and rigid robots control.<br>
-
-+ <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a><br>
-+ <a href="{{ site.url }}/readlist18"> summer'18 reading list</a>:  Bellman and Optimal Control<br>
-+ <a href="{{ site.url }}/readlist"> summer'17 reading list</a>:  RAS Papers<br>
-+ <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>:   Short and fun bash scripts.<br>
-+ <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a><br>
-+ <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang
++    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: A curated list of papers that apply neural dynamics to control systems.
++ <a href="https://github.com/lakehanne/awesome-screw-theory"> awesome screw theory</a>: A curated list of papers that apply screw theory for soft and rigid robots control.
++ <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a>
++ <a href="{{ site.url }}/readlist18"> summer'18 reading list</a>:  Bellman and Optimal Control
++ <a href="{{ site.url }}/readlist"> summer'17 reading list</a>:  RAS Papers
++ <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>:   Short and fun bash scripts.
++ <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a>
++ <a href="https://github.com/lakehanne/screws"> screw theory, nonlinear/finite elastic deformation codes and continuum syntheses examples.
+<!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
 
 
 <br><br>
