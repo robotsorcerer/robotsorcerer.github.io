@@ -46,13 +46,13 @@ title: Lekan O'Molu
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
-<p>I pedal the metal of an unstable bi-pedal locomotor robata (robot) a.k.a. bike, often logging approximately 120 miles a week, to the extent that the weather permits. I currently own a 2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> 62cm road bike. Because why not? I am 6'7". It has served me well in the states of Texas, Illinois, and Indiana -- so far. I hope it serves in Michigan, Wisconsin and Pennsylvania soon as I log my centuries around the Midwest and East coast. Below are my activities summary on strava. When strava says follow "Lekan Pat Molu", it literally means hit the goddamn button and follow me.</p>
+<p>I pedal the metal of an unstable bi-pedal robata, often logging approximately 120 miles a week, to the extent that the weather permits. I own a 2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> 62cm road bike. It has served me well in Texas, Illinois, Wisconsin, and Indiana -- so far. Below are my activities summary for the current week on Strava. Feel free to follow on Strava</p>
   <iframe height='200' width='700' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
- <p>At my leisure, I like to read -- a lot! My interests span research papers, history books, and engineering junkies. Highlighted below are some of my reading lists in the past, codes you might find useful and what-have-you.</p>
+ <p>At my leisure, I read -- a lot: research papers, history books, and engineering texts etc. Highlighted below are some of my reading lists in the past, codes you might find useful and what-have-you.</p>
 
 +    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: A curated list of papers that apply neural dynamics to control systems.<br>
 
