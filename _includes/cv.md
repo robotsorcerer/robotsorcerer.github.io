@@ -40,10 +40,9 @@
   - Ericsson Graduate Fellowship (2015) 
   - Jonsson Scholarship (2014) 
   - PTDF Overseas Fellowship (2012). 
-  - Best Chemistry Student (West African Senior School Examinations -- Two Years in a Row). -->
+  - Best Chemistry Student (West African Senior School Examinations -- Two Years in a Row). -
 
-
-  <!--   Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>. 
+   Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>. 
 
   - **Fund-my-startup buzzwords**: Artificial Intelligence, Big Data, Data Science.
   - **Antiquated buzzwords**: System Identification, Data Mining.
