@@ -29,11 +29,11 @@
   - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020)  
   - [ICRA, An IEEE International Conference on Robotics and Automation. The World's Flagship Robotics Conference](https://www.icra2020.org/) 
   - [CDC, An IEEE International Conference on Decision and Control. The World's Flagship Control and Decision Conference](https://cdc2020.ieeecss.org/) 
-  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems, The world's second venue for disseminating new ideas in robotics](https://www.iros2019.org/)
+  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems, The World's second Flagship Robotics Conference](https://www.iros2019.org/)
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC) 
   - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/)
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
+<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
   -  Google AI Travel and Conference Grant (2018) 
   - IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) 
   - NSF Doctoral Consortium Award (2017) 
@@ -44,7 +44,7 @@
   - Ericsson Graduate Fellowship (2015) 
   - Jonsson Scholarship (2014) 
   - PTDF Overseas Fellowship (2012). 
-  - Best Chemistry Student (West African Senior School Examinations -- Two Years in a Row).
+  - Best Chemistry Student (West African Senior School Examinations -- Two Years in a Row). -->
 
 
   <!--   Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>. -->
