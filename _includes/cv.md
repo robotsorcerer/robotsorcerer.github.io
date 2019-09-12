@@ -1,7 +1,5 @@
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
-<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Bio Snippet </h4> -->
-  <!-- - &nbsp; &nbsp;&nbsp; Fifth year Ph.D. candidate. -->
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
   - **Core**: Control Theory -- Robotics -- Finite Elastic Deformation.
@@ -11,6 +9,7 @@
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>University Affiliations</h4>
   - [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
   - [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019 - Present).
+  - [Brandeis University](https://www.brandeis.edu/gps/), [Adjunct Instructor, Robot Manipulation, Planning and Control](https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100) (2019 - Present).
   -  [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019).
   -  [The University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012).
   - [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
