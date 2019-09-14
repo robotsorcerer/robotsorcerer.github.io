@@ -22,7 +22,7 @@ publications:
           - Erik Pearson,
           - Nick Gans, and
           - Rodney Wiersma.
-        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: Transactions on Robotics
         paper_status: Working Manuscript
         year: 2020
@@ -31,15 +31,10 @@ publications:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
                 Beam Orientation Selection  in Cancer Radiation Therapy
         location: /downloads/Papers/PhDThesis.pdf
-        authors: 
-          - <b>Olalekan Ogunmolu</b>
-          # - Tyler Summers,
-          # - Yonas Tadesse
-          # - Nick Gans, and
-          # - Mark Spong.
-        venue_web: false
-        venue: PhD Thesis
-        paper_status: 'Accepted'
+        authors: <b>Olalekan Ogunmolu</b>
+        venue_web: https://www.utsouthwestern.edu/
+        venue: 'PhD Thesis: The University of Texas at Dallas; UT Southwestern Medical Center'
+        paper_status: Accepted
         year: May, 2019
   - items: 'MedPhys!'
     paperitems:
@@ -52,8 +47,8 @@ publications:
           - Dan Nguyen.
         venue_web: https://www.medphys.org/
         venue: Medical Physics (An AAPM Journal)
-        year: 2019
-        paper_status: Under revision
+        year: May, 2019
+        paper_status: Submitted
   - items: 'MICCAI19!'
     paperitems:
       - title: 'Using supervised learning and guided Monte Carlo tree search for beam orientation optimization in radiation therapy'
