@@ -1,0 +1,182 @@
+publications:
+  - items: 'RAL/ICRA2019!'
+    paperitems:
+      - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
+        location: /downloads/Papers/ContinuumI.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xinmin Liu,
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue: Robotics and Automation Letters/ICRA
+        paper_status: Submitted
+        year: 2020
+  - items: 'TRO2019!'
+    paperitems:
+      - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
+        location: /downloads/Papers/ContinuumII.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xinmin Liu,
+          - Erik Pearson,
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue: Transactions on Robotics
+        paper_status: Working Manuscript
+        year: 2020
+  - items: 'MedPhys!'
+    paperitems:
+      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Cancer Patients'
+        location: 'https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments'
+        authors: 
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: https://www.medphys.org/
+        venue: Medical Physics (An AAPM Journal)
+        year: 2019
+        paper_status: Under revision
+  - items: 'MICCAI19!'
+    paperitems:
+      - title: 'Using supervised learning and guided Monte Carlo tree search for beam orientation optimization in radiation therapy'
+        location: ''
+        authors: 
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: http://iccr-mcma.org/iccr2019/
+        venue: International Conference on Medical Image Computing and Computer 
+                Assisted Intervention (MICCAI), XXII
+        year:  Shenzhen, China. October 2019
+        paper_status: To appear
+  - items: 'ICCR19!'
+    paperitems:
+      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
+        location: ''
+        authors: 
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: http://iccr-mcma.org/iccr2019/
+        venue: International Conference on the use of Computers in Radiation Therapy XVI
+        year:  Montreal, CA. June 2019
+        paper_status: To Appear
+  - items: 'WAFR18!'
+    paperitems:
+      - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
+                Modulated Radiation Therapy'
+        location: 'https://easychair.org/publications/preprint/LGsv'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Michael Folkerts,
+          - Dan Nguyen, and
+          - Steve Jiang.
+        venue_web: 'https://www.medphys.org/'
+        venue: WAFR XIII, Springer's Proceedings in Advanced Robotics (SPAR) Book
+        year: 2019
+        paper_status: Accepted
+  - items: 'IROS18!'
+    paperitems:
+      - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
+        location: 'downloads/Papers/IROS18.pdf'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans, and
+          - Tyler Summers.
+        venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
+        venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        year: Madrid. 2018
+        paper_status: Accepted
+  - items: 'SPIE18!'
+    paperitems:
+      - title: 'Design and Development of Soft Robots for Head and Neck Cancer Radiotherapy.'
+        location: ''
+        authors: 
+          - Yara Almubarak, 
+          - Joshi Aniket, 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xuejun Gu, 
+          - Steve Jiang, 
+          - Nicholas Gans, and 
+          - Yonas Tadesse
+        venue_web: 'http://spie.org/conferences-and-exhibitions/smart-structures/nde?SSO=1'
+        venue: 'SPIE: Smart Structures + Nondestructive Evaluation'
+        year: Denver, CO, U.S.A. March 2018
+        paper_status: Accepted
+  - items: 'IROS17!'
+    paperitems:
+      - title: 'Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose 
+                Correction System For Frameless and Maskless Cancer Radiotherapy'
+        location: 'https://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017.pdf'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Adwait Kulkarn, 
+          - Yonas Tadesse, 
+          - Xuejun Gu, 
+          - Steve Jiang, and 
+          - Nick Gans
+        venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
+        venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        year: Vancouver, BC. 2017
+        paper_status: Accepted
+  - items: 'ZeroSum!'
+    paperitems:
+      - title: 'Robust Zero-Sum Deep Reinforcement Learning'
+        location: 'https://arxiv.org/abs/1710.00491'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans, and
+          - Tyler Summers.
+        venue_web: false
+        venue: arXiv
+        year:  2017
+        paper_status: Technical Report
+  - items: 'Ident!'
+    paperitems:
+      - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
+        location: 'https://arxiv.org/abs/1610.01439'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xuejun Gu, 
+          - Steve Jiang, and 
+          - Nick Gans
+        venue_web: false
+        venue: arXiv
+        year:  October, 2016
+        paper_status: Technical Report
+  - items: 'CASE16!'
+    paperitems:
+      - title: 'Vision-based control of a soft-robot for Maskless Cancer Radiotherapy'
+        location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xuejun Gu, 
+          - Steve Jiang, and 
+          - Nick Gans
+        venue_web: 'https://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016.pdf'
+        venue: IEEE Conference on Automation Science and Engineering (CASE)
+        year:  Fort-Worth, Texas, August 2016
+        paper_status: Accepted
+  - items: 'CASE15!'
+    paperitems:
+      - title: 'A Real-Time Soft-Robotic Patient Positioning 
+                System for Maskless Head-and-Neck Cancer Radiotherapy'
+        location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xuejun Gu, 
+          - Steve Jiang, and 
+          - Nick Gans
+        venue_web: 'http://ewh.ieee.org/soc/ras/conf/FullySponsored/CASE/2015/case2015.org/index.html'
+        venue: IEEE Conference on Automation Science and Engineering (CASE)
+        year: Gothenburg, Sweden, August 2015
+        paper_status: Accepted
+
+  # authors: <a href="http://scriptedonachip.com"><b>Olalekan Ogunmolu</b></a>, <a href="http://home.uchicago.edu/~xmliu/">Xinmin Liu</a>, 
+  #           <a href="https://www.uta.edu/utari/contact-us/staff-member.php?staffid=nicholas-gans-phd">Nick Gans</a>, and 
+  #           <a href="https://radonc.uchicago.edu/">Rodney Wiersma</a>
