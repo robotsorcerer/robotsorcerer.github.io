@@ -11,7 +11,7 @@ publications:
         venue_web: https://www.ieee-ras.org/publications/ra-l
         venue: Robotics and Automation Letters/ICRA
         paper_status: Submitted
-        year: 2020
+        year: Paris, France. 2020
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
@@ -26,6 +26,21 @@ publications:
         venue: Transactions on Robotics
         paper_status: Working Manuscript
         year: 2020
+  - items: 'Thesis!'
+    paperitems:
+      - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
+                Beam Orientation Selection  in Cancer Radiation Therapy
+        location: /downloads/Papers/PhDThesis.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>
+          # - Tyler Summers,
+          # - Yonas Tadesse
+          # - Nick Gans, and
+          # - Mark Spong.
+        venue_web: false
+        venue: PhD Thesis
+        paper_status: 'Accepted'
+        year: May, 2019
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Cancer Patients'
