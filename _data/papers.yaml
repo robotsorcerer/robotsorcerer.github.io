@@ -142,7 +142,7 @@ publications:
   - items: 'ZeroSum!'
     paperitems:
       - title: 'Robust Zero-Sum Deep Reinforcement Learning'
-        location: 'https://arxiv.org/abs/1710.00491'
+        location: 'https://arxiv.org/abs/1710.00491v5'
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
