@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lekan Molu
+title: Lekan
 ---
 
 <div class="col-md-2 vcenter idxHdr">
