@@ -39,7 +39,7 @@ publications:
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Cancer Patients'
-        location: 'https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments'
+        location: /404 #https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
         authors: 
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
@@ -52,7 +52,7 @@ publications:
   - items: 'MICCAI19!'
     paperitems:
       - title: 'Using supervised learning and guided Monte Carlo tree search for beam orientation optimization in radiation therapy'
-        location: ''
+        location: '/404'
         authors: 
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
@@ -66,7 +66,7 @@ publications:
   - items: 'ICCR19!'
     paperitems:
       - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
-        location: ''
+        location: '/404'
         authors: 
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
@@ -104,8 +104,8 @@ publications:
         paper_status: Accepted
   - items: 'SPIE18!'
     paperitems:
-      - title: 'Design and Development of Soft Robots for Head and Neck Cancer Radiotherapy.'
-        location: ''
+      - title: 'Design and Development of Soft Robots for Head and Neck Cancer Radiotherapy'
+        location: 'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10594/1059418/Design-and-development-of-soft-robot-for-head-and-neck/10.1117/12.2300945.short?SSO=1'
         authors: 
           - Yara Almubarak, 
           - Joshi Aniket, 
@@ -122,7 +122,7 @@ publications:
     paperitems:
       - title: 'Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose 
                 Correction System For Frameless and Maskless Cancer Radiotherapy'
-        location: 'https://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017.pdf'
+        location: 'https://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017.pdf' #https://ieeexplore.ieee.org/abstract/document/8206211
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Adwait Kulkarn, 
