@@ -51,7 +51,7 @@ publications:
         paper_status: Submitted
   - items: 'MICCAI19!'
     paperitems:
-      - title: 'Using supervised learning and guided Monte Carlo tree search for beam orientation optimization in radiation therapy'
+      - title: 'Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy'
         location: '/404'
         authors: 
           - Azar Sadeghnejad Barkousaraie,
@@ -161,7 +161,7 @@ publications:
         paper_status: Technical Report
   - items: 'CASE16!'
     paperitems:
-      - title: 'Vision-based control of a soft-robot for Maskless Cancer Radiotherapy'
+      - title: 'Vision-based Control of a Soft Robot for Maskless Cancer Radiotherapy'
         location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf'
         authors: 
           - <b>Olalekan Ogunmolu</b>,

@@ -1,0 +1,56 @@
+Three-Prong Test (Matter of Dhanasar)
+
+1a.  How is your field or industry inherently beneficial to the interests of the United States (i.e., how is work in your field of “substantial merit”)? 
+
+1b. How does your work in particular benefit the United States (i.e., how is your work of “national importance”)? 
+
+RESPONSE (I have merged my response to the two prongs in the answer below)
+
+
+CANCER AS AN ECONOMIC BURDEN TO THE UNITED STATES
+In 2019, an estimated 1,762,450 new cases of cancer will be diagnosed in the United States, and 606,880 people will die from the disease. The economic burden is financially significant with a national expenditure of $147.3 billion in 2017 [12] or 4.2% of overall health care spendingin 2017 . 
+
+RADIATION THERAPY AS A CUTTING_EDGE TOOL FOR TREATING CANCERS
+Along with surgery and chemotherapy, radiation therapy (RT) is an essential part of a successful cancer treatment, with more than 50% of all patients receiving RT for the management of their cancers. There have been steady gains in the five-year survival rate for cancer patients, with an improvement of 66% across all cancer types. The increase in survival rate has been attributed in a large part to technological advancements in RT. RT, when carefully used, can conform the radiation dose to the 3D shape of a tumor with approximately 1-2 mm accuracy. This allows for further dose escalation to the tumor, while minimizing dose to nearby healthy organs-at-risk (OAR), and has had significant impact on cancer patients in terms of better tumor control and normal tissue sparing.
+
+NEED FOR ACCURATE PATIENT IMMOBILIZATION DURING RT
+Yet, it is important to keep the patient immobilized on the treatment machine in order to avoid translational and rotational errors which can cause post-treatment complications such as edema, brain lesions or healthy tissue necrosis. Accurate control is required so that healthy tissue around a tumor is not excessively irradiated to the point where such tissues are damaged or killed. Today, accomplishing precise body control in the clinic involves positioning the patient on the treatment bed while  a frame is securely attached to the patient's head. Such treatments are not suitable for fractionated, small doses, which are repeatedly given to the patient from a few weeks to a few months -- which may be necessary when previously irradiated tissues are required to heal while other tissues are irradiated. It becomes impractical to leave the frame on the patient's head, since treatment usually lasts several rounds for weeks or months. The complex process of removing and reattaching the frame would result in different positions of the frame each time -- defeating the purpose of accurate positioning. Thus, researchers have started investigating the use of rigid robots to provide a real-time compensation of patients' motion deviation during radiation therapy in a process called frameless and maskless (F&M) immobilization [4,5]. Technological advances such as the  Cyberknife industrial system ensures complete non-invasive radiotherapy by using implanted tiny gold fiducials to differentiate tumors from healthy tissues. 
+
+DEMERITS OF CURRENT RESEARCH DIRECTIONS
+Robotic stages which are being developed in correcting motions of test patients and manikin phantoms have rigid underlying structures that prevent their ability to directly interact with the patient's body tissues seamlessly. This is due to theur rigid links that only allow for manipulation with their specialized end effectors. Therefore, manipulating internal body organs during radiosurgery or compensating for small motions suchg as respiration(a major issue when treating lung tumors) is a major challenge for these class of robots. They share their complete workspace with the patients' body tissues, a safety concern because rigid electromechanical components do not allow for compliant morphological control laws that minimize actuator "hard shocks" on the patients' body during motion correction. Furthermore, they are incapable of providing sophisticated 3D manipulation with their constant-curvature components, owing to the respiratory and internal organs motions that often cause deviation from target. 
+
+Cyberknife and Cyberknife-like systems, despite their design complexity, still require rigid frames and masks; they are not capable of continuous real-time motion compensation when the treatment beam is on; and they are only FDA approved for use on lung cancers, which require far less accuracy (less than 5mm; the standard is 2mm or less).  Opening the scalp and planting the fiducials causes pain for the patient [6]. Hence, these systems are limited in cancer treatments.
+
+MY PROPOSED TECHNOLOGICAL SOLUTION
+Soft robotics is an emerging sub-specialty in the field of robotics which mitigates the difficulty of operating in unstructured, congested and nonlinear environments similar to the real-world that their rigid robot counterparts experience in such situations. Inspired from the dynamics of living organisms such as muscular hydrostats (octopus and elephant trunks), made out of muscles and connective tissues, robots with a soft structure and delicate tissue have redundant degrees of freedom that are helpful in delicate control in cluttered or complex nonlinear dynamical systems. They have the potential to provide versatile adaptability and flexibility for an object’s movement, support or  manipulation. My research goal capitalizes on the potentially infinite degrees of freedom of soft robot designs to manipulate human body parts during radiation therapy treatments of cancer tumors (head and neck, lung and prostate tumors). To the best of my knowledge, I am the only researcher in the United states who undertakes this accurate patient positioning research challenge of addressing dose efficacy while guaranteeing patient comfort, eliminating dose attenuation and obtaining an AAPM task group approved accuracy requiremnt -- by using soft tissue materials to achieve my goals. By controlling the amount of fluid in the internal cavities of my IABs, I have compensated motion deviation using non-parameteric models derived from indirect adaptive control [5]. My hardware design absorbs the reactive pressure from the patient's displacement during manipulation, thus guaranteeing patient's comfort. Their radio-transparency to ionizing radiation make situating them close to the tumor source an attractive option for fast motion compensation -- mitigating against the inherent delay between the computation of control signals and actuation in rigid compensation works such as [4] and [5].  My continuum, compliant and configurable (C3) inflatable air bladders (IABs) [7,8,9] mitigate the highlighted issues that rigid robot compensation mechanisms and the Cyberknife system introduce. My soft elastomeric actuators  provide therapeutic patient motion compensation during RT through inflation, deflation, extension or contraction governed by their material moduli, incompressibility or internal pressurization when given a reference trajectory [11].
+
+
+IMPACT ON PATIENT HEALTHCARE IN THE UNITED STATES: My C3 IABs reduce the discomfort that currently accompanies patient RT treatments, eliminate shared workspace safety concerns that limit the use of rigid robots, and quicken clinical setup times as treatments would no longer need to be stopped to correct deviation from target (as is currently done in clinics). Since soft robots are much cheaper to mass-produce compared to rigid robots, it is reasonable to project that my platform would reduce the cost of providing healthcare for cancer patients, spur other research directions in scaling composite models for real-time deployments in control systems in space robotics, consumer robotics (warehouses) and democratize human-friendly robots in homes and society at large in the United States -- making the USA to once again the global usher in technological advancements in clinical radiation therapy that drastically improve healthcare quality for all peoples.
+
+
+
+2.  How do your past accomplishments position you to continue contributing to your field? How do you plan to continue your current research?
+
+Given the problems I have highlighted above, I have responded to the challenges in my field by proposing a technically accurate immobilization system based on soft robotics to accurately immbilize a patient in real-time on a treatment bed, while guaranteeing patient comfort, dose efficacy and providing compliance in manipulation. I have a masters degree in control systems, which was very helpful when I started the head and neck immobilization project in RT during my PhD in robotics at the University of Texas at Dallas. My unique background has led me to a postdoc position at one of the finest medical schools in the country where I continue to combine scientific elegance with practical impact, delivering on technologies to advance the state of bleeding-edge healthcare in the United States. I intend to continue contributing to my research fields at large -- soft robotics, control systems and machine learning in medicine, gaining dicipline expertise and helping develop the next generation of talents through mentorship programs.
+
+
+
+
+3.  Is there anything else you can tell us that really sets you apart from you peers? This can include specific particularly impressive contributions that have had a large impact on your field, awards or other recognition you have received, or particular skills that you have that go beyond what would be expected of an average individual in your field. 
+
+
+
+
+
+ 
+	Please include any additional information below that you feel speaks to the substantial importance or the distinguished merit of your past, current, and future professional endeavors:
+	I work on problems with bandwidth spanning conception, build, and test of robots. I love conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws, and improvising upon them.
+	I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on this youtube page.
+	I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday.
+	I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision, control, and robotics.
+-	Ajith  Ventateswaran was a Senior Robotics Software Engineer at Samsung Research, America before moving to the Bay Area.
+-	Adwait Kulkarni is an Engineer at Drov. Tech, MN.
+-	Rachel Thompson is currently an undergrad at MIT’s CSAIL department.
+-	Blessing is resuming as a CS PhD student at Tufts in the Fall.
+
+
