@@ -23,9 +23,9 @@
   - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233) 
   - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521) 
   - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020)  
-  - [ICRA, An IEEE International Conference on Robotics and Automation. The World's Flagship Robotics Conference](https://www.icra2020.org/) 
-  - [CDC, An IEEE International Conference on Decision and Control. The World's Flagship Control and Decision Conference](https://cdc2020.ieeecss.org/) 
-  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems, The World's second Flagship Robotics Conference](https://www.iros2019.org/)
+  - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/) 
+  - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/) 
+  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/)
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC) 
   - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/)
 
