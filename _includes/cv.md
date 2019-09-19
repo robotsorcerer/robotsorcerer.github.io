@@ -16,7 +16,7 @@
   - [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
   - [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Research Reviewing Activities</h4>
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Review</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica") 
   - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/)
   - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/) 
