@@ -9,7 +9,7 @@ publications:
           - Nick Gans, and
           - Rodney Wiersma.
         venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: Robotics and Automation Letters/ICRA
+        venue: IEEE Robotics and Automation Letters/ICRA
         paper_status: Submitted
         year: Paris, France. 2020
   - items: 'TRO2019!'
@@ -23,7 +23,7 @@ publications:
           - Nick Gans, and
           - Rodney Wiersma.
         venue_web: https://www.ieee-ras.org/publications/t-ro
-        venue: Transactions on Robotics
+        venue: IEEE Transactions on Robotics
         paper_status: Working Manuscript
         year: 2020
   - items: 'Thesis!'
@@ -38,7 +38,7 @@ publications:
         year: May, 2019
   - items: 'MedPhys!'
     paperitems:
-      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Cancer Patients'
+      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
         location: /404 #https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
         authors: 
           - Azar Sadeghnejad Barkousaraie,
@@ -73,7 +73,7 @@ publications:
           - Steve Jiang, and
           - Dan Nguyen.
         venue_web: http://iccr-mcma.org/iccr2019/
-        venue: International Conference on the use of Computers in Radiation Therapy XVI
+        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
         year:  Montreal, CA. June 2019
         paper_status: To Appear
   - items: 'WAFR18!'
@@ -87,7 +87,7 @@ publications:
           - Dan Nguyen, and
           - Steve Jiang.
         venue_web: 'https://www.medphys.org/'
-        venue: WAFR XIII, Springer's Proceedings in Advanced Robotics (SPAR) Book
+        venue: Springer's Proceedings in Advanced Robotics Book. Presented at WAFR XIII
         year: 2019
         paper_status: Accepted
   - items: 'IROS18!'
@@ -142,7 +142,7 @@ publications:
           - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
           - Tyler Summers.
-        venue_web: false
+        venue_web: https://arxiv.org
         venue: arXiv
         year:  2017
         paper_status: Technical Report
@@ -155,9 +155,9 @@ publications:
           - Xuejun Gu, 
           - Steve Jiang, and 
           - Nick Gans
-        venue_web: false
+        venue_web: https://arxiv.org
         venue: arXiv
-        year:  October, 2016
+        year:  2016
         paper_status: Technical Report
   - items: 'CASE16!'
     paperitems:
