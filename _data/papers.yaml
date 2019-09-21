@@ -30,7 +30,7 @@ publications:
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
                 Beam Orientation Selection  in Cancer Radiation Therapy
-        location: /downloads/Papers/PhDThesis.pdf
+        location: #/downloads/Papers/PhDThesis.pdf
         authors: <b>Olalekan Ogunmolu</b>
         venue_web: https://www.utsouthwestern.edu/
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
