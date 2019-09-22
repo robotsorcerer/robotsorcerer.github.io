@@ -1,4 +1,16 @@
 publications:
+  - items: 'RAL/IROS2020!'
+    paperitems:
+      - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Ayaka Kume, and
+          - Jethro Tan.
+        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue: IEEE Robotics and Automation Letters/IROS
+        paper_status: Working Manuscript
+        year: Las Vegas, NV. 2020
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
@@ -18,10 +30,11 @@ publications:
         location: /404
         authors: 
           - <b>Olalekan Ogunmolu</b>,
-          - Xinmin Liu,
-          - Erik Pearson,
-          - Nick Gans, and
-          - Rodney Wiersma.
+          - and yet-to-be-decided co-authors.
+          - #Xinmin Liu,
+          - #Erik Pearson,
+          - #Nick Gans, and
+          - #Rodney Wiersma.
         venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: IEEE Transactions on Robotics
         paper_status: Working Manuscript
@@ -62,7 +75,7 @@ publications:
         venue: International Conference on Medical Image Computing and Computer 
                 Assisted Intervention (MICCAI), XXII
         year:  Shenzhen, China. October 2019
-        paper_status: To appear
+        paper_status: Accepted at
   - items: 'ICCR19!'
     paperitems:
       - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
@@ -75,7 +88,7 @@ publications:
         venue_web: http://iccr-mcma.org/iccr2019/
         venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
         year:  Montreal, CA. June 2019
-        paper_status: To Appear
+        paper_status: Accepted at
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
