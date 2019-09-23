@@ -43,7 +43,7 @@ publications:
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
                 Beam Orientation Selection  in Cancer Radiation Therapy
-        location: #/downloads/Papers/PhDThesis.pdf
+        location: /downloads/Papers/PhDThesis.pdf
         authors: <b>Olalekan Ogunmolu</b>
         venue_web: https://www.utsouthwestern.edu/
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
@@ -52,7 +52,7 @@ publications:
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
-        location: /404 #https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
+        location: # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
         authors: 
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
