@@ -5,9 +5,9 @@
   - **Core**: Control Theory -- Robotics -- Finite Elastic Deformation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
-  - Instructor, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/) (2019 - Present).
   - Postdoc, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
   - Postdoc, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019 - Present).
+  - Instructor, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/) (2019 - Present).
   -  Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019).
   -  Student, [The University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012).
   - Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
@@ -18,17 +18,17 @@
   - [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
-  - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica") 
-  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/)
-  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/) 
-  - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233) 
-  - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521) 
-  - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020)  
-  - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/) 
-  - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/) 
-  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/)
-  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC) 
-  - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/)
+  - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica"). 
+  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
+  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/). 
+  - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233). 
+  - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521). 
+  - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
+  - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/).
+  - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/). 
+  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
+  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC). 
+  - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
   -  Google AI Travel and Conference Grant (2018) 

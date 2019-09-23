@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2018-08-22 13:10:00
-title: "Optimality vs. Stability of Feedback Control Systems"
+title: "Optimality vs. Stability of Feedback Control Systems."
 excerpt: "A system under the effect of an optimal controller may not necessarily be stable."
 permalink: opti-stable
 comments: true

@@ -1,9 +1,14 @@
 news_items:
+  - items: ATR Labs
+    subnewsitems:
+      - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
+        date: August 29, 2018
+        highlight: true
   - items: 'IROS_18!'
     subnewsitems:
       - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>.
                   Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
-        highlight: true
+        highlight: false
         date: August 20, 2019 
   - items: 'PHinisheD!'
     subnewsitems:
@@ -39,11 +44,6 @@ news_items:
       - content: <a href="/assets/papers/wafr.pdf"> Deep BOO!</a> gets accepted to the Workshop on the Algorithm Foundations of Robotics (WAFR). WAFR has an <a href="https://parasol.tamu.edu/wafr/wafr2018/authors.php">"established reputation as one, if not the most, important venue for presenting algorithmic work related to robotics"</a>.
         date: September 06, 2018
         highlight: false
-  - items: ATR Labs
-    subnewsitems:
-      - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
-        date: August 29, 2018
-        highlight: true
   - items: 'Nonlinear NeuroControl Talk'
     subnewsitems:
       - content: 'I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.' 
