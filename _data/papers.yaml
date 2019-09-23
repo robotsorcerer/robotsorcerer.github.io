@@ -8,7 +8,7 @@ publications:
           - Ayaka Kume, and
           - Jethro Tan.
         venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters/IROS
+        venue: IEEE Robotics and Automation Letters (RAL/IROS)
         paper_status: Working Manuscript
         year: Las Vegas, NV. 2020
   - items: 'RAL/ICRA2019!'
@@ -21,7 +21,7 @@ publications:
           - Nick Gans, and
           - Rodney Wiersma.
         venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters/ICRA
+        venue: IEEE Robotics and Automation Letters(RAL/ICRA)
         paper_status: Submitted
         year: Paris, France. 2020
   - items: 'TRO2019!'
@@ -36,7 +36,7 @@ publications:
           - #Nick Gans, and
           - #Rodney Wiersma.
         venue_web: https://www.ieee-ras.org/publications/t-ro
-        venue: IEEE Transactions on Robotics
+        venue: IEEE Transactions on Robotics (T-RO)
         paper_status: Working Manuscript
         year: 2020
   - items: 'Thesis!'
