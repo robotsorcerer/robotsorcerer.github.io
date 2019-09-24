@@ -44,26 +44,26 @@
 
     </div>
 
-    <div class="footer-col-3 column">
+      <div class="footer-col-3 column">
 
-      <ul>
-        {% if site.docker_username %}
-        <li>
-          <a href="https://hub.docker.com/u/{{ site.docker_username }}" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" width="25%", height="15%"></a>
-        </li>
-        {% endif %}
-      </ul>
+        <ul>
+          {% if site.docker_username %}
+          <li>
+            <a href="https://hub.docker.com/u/{{ site.docker_username }}" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" width="25%", height="15%"></a>
+          </li>
+          {% endif %}
+        </ul>
 
-      <ul>
-        {% if site.description %}
-        <li>
-          <a class="text"><b>{{ site.description }}</b></a>
-        </li>
-        {% endif %}
-      </ul>
+        <ul>
+          {% if site.description %}
+          <li>
+            <a class="text"><b>{{ site.description }}</b></a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
     </div>
-
-  </div>
 <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 </footer>
 
