@@ -1,15 +1,4 @@
 news_items:
-  - items: ATR Labs
-    subnewsitems:
-      - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
-        date: August 29, 2018
-        highlight: true
-  - items: 'IROS_18!'
-    subnewsitems:
-      - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>.
-                  Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
-        highlight: false
-        date: August 20, 2019 
   - items: 'PHinisheD!'
     subnewsitems:
       - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.  
@@ -17,14 +6,30 @@ news_items:
                         Y. Tadesse and D. Bhatia.'
         highlight: true
         date: May 16, 2019 
+  - items: ATR Labs
+    subnewsitems:
+      - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
+        date: August 29, 2018
+        highlight: true
+  - items: 'Venture capitalists and robotics'
+    subnewsitems:
+      - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!' 
+        date: 'August 2017' 
+        highlight: true
   - items: 'Postdoc!'
     subnewsitems:
       - content: Starting in the summer of 2019, after I shall have defended my PhD thesis, 
                   I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/">
                   The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> 
                   Pritzker school of medicine.</a>
-        highlight: true
+        highlight: false
         date: January 31, 2019
+  - items: 'IROS_18!'
+    subnewsitems:
+      - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>.
+                  Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
+        highlight: false
+        date: August 20, 2019 
   - items: 'Thanks Google!'
     subnewsitems:
       - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials, 
@@ -62,11 +67,6 @@ news_items:
                 Codes <a href="https://github.com/lakehanne/youbot">here</a>. 
                 Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!' 
         date: 'April 24, 2018' 
-        highlight: false
-  - items: 'Venture capitalists and robotics'
-    subnewsitems:
-      - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!' 
-        date: 'August 2017' 
         highlight: false
   - items: 'NSF'
     subnewsitems:
