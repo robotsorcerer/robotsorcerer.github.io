@@ -13,7 +13,7 @@ news_items:
         highlight: true
   - items: 'Venture capitalists and robotics'
     subnewsitems:
-      - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!' 
+      - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!
         date: 'August 2017' 
         highlight: true
   - items: 'Postdoc!'
