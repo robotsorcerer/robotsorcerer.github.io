@@ -44,13 +44,6 @@ title: Lekan
 <h4><a href="{{ sites }}/news">View archived news</a></h4>
 <br>
 
-<!-- Strava summary -->
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
-<p>At heart, I am an explorer. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week rain or shine, hell or highwater -- from the parching heats of sultry Texas, to the cold winds of the  Midwest and the Eastern Seaboard of the United States. I own a 62cm  2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> road bike. It has served me well in Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey -- so far. Below is a screenshot of my activities summary this week. Feel free to follow me on Strava. 
-
-Life, Liberty and the pursuit of the trails!</p>
-  <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
-
 
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
@@ -65,6 +58,11 @@ Life, Liberty and the pursuit of the trails!</p>
 + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a>
 + <a href="https://github.com/lakehanne/screws"> screw theory, nonlinear/finite elastic deformation codes and continuum syntheses examples.
 <!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
+
+<!-- Strava summary -->
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
+<p>At heart, I am an explorer. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week (during cycline season, riding rain or shine, hell or highwater -- from the parching heats of sultry Texas, to the cold winds of the  Midwest and the Eastern Seaboard of the United States). In the bleak midwinters, I get sloppy and pile on more fat :-). I own a 62cm  2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> road bike. States where I have ridden so far include Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey. Below is a screenshot of my recent activities summary. Feel free to follow me on Strava as I pursue <i>life, liberty and the trails!<!></p>
+  <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 
 <br><br>
