@@ -106,7 +106,7 @@ publications:
   - items: 'IROS18!'
     paperitems:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
-        location: 'downloads/Papers/IROS18.pdf'
+        location: 'downloads/Papers/IROS18.pdf' #'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/'
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
