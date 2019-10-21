@@ -1,4 +1,4 @@
-
+"_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck
 
 "_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
 
@@ -51,15 +51,17 @@ and random is confusing. In between lies art._" ~ John A. Locke
 "_Maybe this is why data mining has largely replaced traditional hypothesis-driven science. We are awash in small discoveries, most of which are essentially detections of “statistically significant” patterns in big data. Usually, there is no unifying model or theory that generates predictions, testable or not. That would take too much time and thought. Even the elite scientific journals seem too favorable to observations of patterns in new data, even if irreproducible, possibly explained by chance, or utterly lacking any supporting theory. Except in a few areas, such as string theory and climate studies, there are few incentives to search for unifying principles, let alone large-scale models_" ~ PNA report
 
 
+"_Perhaps the key to self-fulfillment is to unconsciously live consciously; But then perception is often reality. So the skillful scientist must wend the straight and narrow path between the fleeting perceptions of his character as arrogant and communicating his work in the most delicate way to carry as much people as possible along._"
+
 "_Science is the belief in the ignorance of experts._" ~ Feynman
 
 "_What will the theories and technologies of 2065 look like? If we are not careful, if we do not sufficiently value explanatory science and individual creativity, they will look pretty much like they do today. But if we do, many wonders may lie ahead—not only the elusive unified field theory for physics but perhaps also a new type of “theory” for cognition and consciousness, or maybe theories matching the scope and elegance of natural selection for other great challenges of biology, including the mechanisms of regulation and dysregulation (e.g., cancer and aging) at the cellular level and the prediction of structure and function at the molecular level. There is no lack of frontiers._"  ~ PNA Report
 
-_"We have a habit in writing articles published in scientific journals to make the work as finished as possible, to cover all the tracks, to not worry about the blind alleys or to describe how you had the wrong idea first, and so on. So there isn't any place to publish, in a dignified manner, what you actually did in order to get to do the work._"
+"_We have a habit in writing articles published in scientific journals to make the work as finished as possible, to cover all the tracks, to not worry about the blind alleys or to describe how you had the wrong idea first, and so on. So there isn't any place to publish, in a dignified manner, what you actually did in order to get to do the work._"
 -- Richard Feynman in "The Development of the Space-Time View of Quantum Electrodynamics," Nobel Lecture (11 December 1965)﻿
 
- _"Nature and nature's laws lay hid in the night. <br>
-  God said, "Let Newton be!" and all was light._"<br>
+"_Nature and nature's laws lay hid in the night. 
+  God said, "Let Newton be!" and all was light._"
   &nbsp; &nbsp; -- Alexander Pope, Epitaph on Sir Isaac Newton
 
 _"My father was a Stalinist and sent me to a private Christian school where we had to pray every morning. From a very young age I was convinced that many of the things that the teachers and other kids believed were just obvious nonsense. That's great training for a scientist and it transferred very well to artificial intelligence. But it was a nasty shock when I found out what Stalin actually did.﻿_"

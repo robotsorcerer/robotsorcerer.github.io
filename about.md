@@ -16,7 +16,7 @@ Welcome to my web presence! I am an interdisciplinary researcher who combines th
 
 
 <!-- You may find some of my greatest hits on [youtube](https://www.youtube.com/watch?v=PnW4hJ4n0PY), [my old academic webpage](https://ecs.utdallas.edu/~opo140030/talks.html), or [vimeo](https://vimeo.com/manage/videos).  -->
-### More yammering
+#### More intro yammering
 
 I love working with talented teams, as well as spending-time with people in cerebral people.  I would consider myself largely an independent researcher who enjoys self-direction at my own projects/goals. Yet, I value collaboration across domains and with people of diverse expertise. I read widely and study avidly: my interests span history to public affairs (_really?_) to the sciences, and technical disciplines (hello, chemistry and engineering!). A big believer in open science and reproducible research, I try to make my publications and codes public to the extent that I can: [publications](/pubs), [github repos](https://github.com/lakehanne). I am particularly mindful of inclusion in hi-tech, STEM, policy-making, and governance (yep, all of the above). **Lekan is not a robot**. My PGP key on most public key servers is **03E3 58FB 1D98 869E 8ABE  1EF0 E6A1 2F95 B720 BBB5**. It helps to send your email encrypted if I do not know you.  
 
