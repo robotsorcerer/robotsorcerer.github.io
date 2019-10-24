@@ -1,16 +1,29 @@
 publications:
-  - items: 'RAL/IROS2020!'
+  - items: 'AIRT2019!'
     paperitems:
-      - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
-        location: #/downloads/Papers/ContinuumI.pdf
+      - title: Using Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
+        location: https://link.springer.com/chapter/10.1007/978-3-030-32486-5_1
         authors: 
+          - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
-          - Ayaka Kume, and
-          - Jethro Tan.
-        venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters (RAL/IROS)
-        paper_status: Working Manuscript
-        year: Las Vegas, NV. 2020
+          - Steve Jiang, and 
+          - Dan Nguyen.
+        venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
+        venue: © Springer Nature 
+        paper_status: Appeared in
+        year: Switzerland AG 2019   
+  # - items: 'RAL/IROS2020!'
+  #   paperitems:
+  #     - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
+  #       location: #/downloads/Papers/ContinuumI.pdf
+  #       authors: 
+  #         - <b>Olalekan Ogunmolu</b>,
+  #         - Ayaka Kume, and
+  #         - Jethro Tan.
+  #       venue_web: https://www.ieee-ras.org/publications/ra-l
+  #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
+  #       paper_status: Working Manuscript
+  #       year: Las Vegas, NV. 2020
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
@@ -23,7 +36,17 @@ publications:
         venue_web: https://www.ieee-ras.org/publications/ra-l
         venue: IEEE Robotics and Automation Letters (RAL/ICRA)
         paper_status: Submitted
-        year: Paris, France. 2020
+        year: Paris, France. 2020     
+  - items: 'Thesis!'
+    paperitems:
+      - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
+                Beam Orientation Selection  in Cancer Radiation Therapy
+        location: /downloads/Papers/PhDThesis.pdf
+        authors: <b>Olalekan Ogunmolu</b>
+        venue_web: https://www.utsouthwestern.edu/
+        venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
+        paper_status: Accepted
+        year: May, 2019 
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
@@ -38,17 +61,7 @@ publications:
         venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: IEEE Transactions on Robotics (T-RO)
         paper_status: Working Manuscript
-        year: 2020
-  - items: 'Thesis!'
-    paperitems:
-      - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
-                Beam Orientation Selection  in Cancer Radiation Therapy
-        location: /downloads/Papers/PhDThesis.pdf
-        authors: <b>Olalekan Ogunmolu</b>
-        venue_web: https://www.utsouthwestern.edu/
-        venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
-        paper_status: Accepted
-        year: May, 2019
+        year: 2020       
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
@@ -62,20 +75,6 @@ publications:
         venue: Medical Physics (An AAPM Journal)
         year: May, 2019
         paper_status: Submitted
-  - items: 'MICCAI19!'
-    paperitems:
-      - title: 'Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy'
-        location: '/404'
-        authors: 
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen.
-        venue_web: http://iccr-mcma.org/iccr2019/
-        venue: International Conference on Medical Image Computing and Computer 
-                Assisted Intervention (MICCAI), XXII
-        year:  Shenzhen, China. October 2019
-        paper_status: Accepted at
   - items: 'ICCR19!'
     paperitems:
       - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
