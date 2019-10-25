@@ -51,7 +51,7 @@ title: Lekan
 
 +    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: a curated list of papers that apply neural dynamics to control systems.
 + <a href="https://github.com/lakehanne/awesome-screw-theory"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
-+ <a href="https://github.com/lakehanne/Savitzky-Golay">savgol</a>: a c++11 implementation of the Vandermonde matrixi and Savityzky-Golay differentiation filter/smoothing coefficients.
++ <a href="https://github.com/lakehanne/Savitzky-Golay">savgol</a>: a c++11 implementation of the Vandermonde matrix as well as Savityzky-Golay differentiation filter and smoothing coefficients.
 + <a href="https://github.com/lakehanne/gps">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ROS Indigo.
 <!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
 + <a href="{{ site.url }}/readlist18"> summer'18 reading list</a>:  Bellman and Optimal Control
