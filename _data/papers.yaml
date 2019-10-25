@@ -8,8 +8,8 @@ publications:
           - <b>Olalekan Ogunmolu</b>,
           - Steve Jiang, and 
           - Dan Nguyen.
-        venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
-        venue: Artificial Intelligence in RT, © Springer Nature 
+        venue_web: #https://link.springer.com/book/10.1007/978-3-030-32486-5
+        venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature 
         paper_status: Appeared in
         year: Switzerland AG 2019   
   # - items: 'RAL/IROS2020!'
