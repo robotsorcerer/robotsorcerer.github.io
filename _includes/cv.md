@@ -29,7 +29,25 @@
   - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
   - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
-  <!-- - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/). -->
+  - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/).
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Invited Talks</h4>
+ - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy, Open Robotics Foundation, Mountain View, CA, USA. January 2019.
+
+- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering, Stanford University, Stanford, CA, USA. November 2018.
+
+- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
+
+- Minimax Iterative Dynamic Game, Department of Brain Robot Interface, Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
+  
+- Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
+
+- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System,  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
+
+- A Wearable Soft Robotic Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy, University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
+ 
+- Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
+
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
   -  Google AI Travel and Conference Grant (2018)
