@@ -13,20 +13,6 @@ title: Lekan
 {% include cv.md %}
 <br>
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Recent Blog Posts</h2>
-
-<table class="table table-hover">
-  {% for post in site.posts limit: 3 %}
-    {% unless post.draft %}
-    <tr>
-      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
-    </tr>
-    {% endunless %}
-  {% endfor %}
-</table>
-<h4><a href="/blog">View all blog posts </a></h4>
-<br>
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
 <table class="table table-hover">
@@ -44,7 +30,6 @@ title: Lekan
 <h4><a href="{{ sites }}/news">View archived news</a></h4>
 <br>
 
-
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
  <p>At leisure, I like to read: research papers, history books, and engineering texts inter alia. Highlighted below are some of my reading lists in the past, codes you might find useful and what-have-you.</p>
@@ -60,6 +45,21 @@ title: Lekan
 <!-- + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a> -->
 + <a href="https://github.com/lakehanne/screws"> screw theory, nonlinear/finite elastic deformation codes and continuum syntheses examples.
 <!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
+
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Recent Blog Posts</h2>
+
+<table class="table table-hover">
+  {% for post in site.posts limit: 3 %}
+    {% unless post.draft %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
+    </tr>
+    {% endunless %}
+  {% endfor %}
+</table>
+<h4><a href="/blog">View all blog posts </a></h4>
+<br>
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>

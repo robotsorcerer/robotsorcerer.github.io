@@ -2,8 +2,10 @@ news_items:
   - items: 'PHinisheD!'
     subnewsitems:
       - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.  
-                        S.B. Jiang, and N. Gans, and my dissertation committee members: Mark Spong, T. Summers, 
-                        Y. Tadesse and D. Bhatia.'
+                        <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and 
+                        <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>, 
+                        and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, 
+                        T. Summers, Y. Tadesse and D. Bhatia.'
         highlight: true
         date: May 16, 2019 
   - items: ATR Labs
