@@ -26,9 +26,9 @@ title: Lekan
       {% endunless %}
     {% endfor %}
   {% endfor %}
-</table>
 <h4><a href="{{ sites }}/news">View archived news</a></h4>
-<br>
+</table>
+<!-- <br> -->
 
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
