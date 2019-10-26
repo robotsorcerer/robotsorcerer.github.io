@@ -34,7 +34,7 @@ Frameless and maskless (F&M) RT is an emerging non-invasive radiosurgery treatme
 
 + are incapable of providing sophisticated 3D manipulation with their constant-curvature components; and
 
-+ the inadventent respiratorial and internal organ motions often induce deviation from a target beyond the recommentations of AAPM Task Group 17, namely 2mm and 2 degrees tolerance.
++ the inadvertent respiratorial and internal organ motions often induce deviation from a target beyond the recommentations of AAPM Task Group 17, namely 2mm and 2 degrees tolerance.
 
 In our research, we utilize inflatable air bladders (IABs) to mitigate these highlighted issues. Our IABs are continuum, compliant and configurable (C3) soft elastomeric actuators that provide therapeutic and comfortable patient motion compensation during RT. They inflate, deflate, extend or contract governed by their material moduli, incompressibility and internal pressurization when given a reference trajectory. By controlling the amount of fluid in the internal cavities of these IABs, we have compensated motion deviation e.g. using non-parameteric models derived from indirect adaptive control. Our hardware design absorbs the reactive pressure from the patient's displacement during manipulation, guaranteeing patient's comfort. Their radio-transparency to ionizing radiation make situating them close to the tumor source an attractive option for fast motion compensation -- mitigating against the inherent delay between the computation of control signals and actuation in rigid compensation works. 
 <!-- 
