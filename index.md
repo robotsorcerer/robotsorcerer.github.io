@@ -40,9 +40,9 @@ title: Lekan
 + <a href="https://github.com/lakehanne/Savitzky-Golay">savgol</a>: a c++11 implementation of the Vandermonde matrix as well as Savityzky-Golay differentiation filter and smoothing coefficients.
 + <a href="https://github.com/lakehanne/gps">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ROS Indigo.
 + <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>: short & fun bash scripts.
++ <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am reading/implementing
 <!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
 + <a href="{{ site.url }}/readlist18"> summer'18 reading list</a>:  Bellman and Optimal Control
-+ <a href="{{ site.url }}/readlist"> summer'17 reading list</a>:  RAS Papers
 <!-- + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a> -->
 <!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
 
