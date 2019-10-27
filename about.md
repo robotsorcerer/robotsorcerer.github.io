@@ -93,7 +93,7 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer at Samsung Research, America.
 
-    &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at Drov. Tech, MN.
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at [Drov. Tech, MN](http://drovtech.com).
 
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
 
