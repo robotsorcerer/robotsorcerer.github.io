@@ -33,21 +33,8 @@
 <h4><a href="{{ sites }}/news">Archived news</a></h4>
 </table>
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
-  - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
-  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
-  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
-  - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233).
-  - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521).
-  - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
-  - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/)
-  - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
-  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
-  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
-  - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
-  - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/).
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Invited Talks</h4>
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Invited Talks</h2>
  - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
@@ -64,6 +51,21 @@
 - A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
  
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
+
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
+  - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
+  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
+  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
+  - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233).
+  - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521).
+  - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
+  - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/)
+  - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
+  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
+  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
+  - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
+  - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/).
 
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>

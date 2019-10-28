@@ -12,7 +12,7 @@ news_items:
     subnewsitems:
       - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
         date: August 29, 2018
-        highlight: true
+        highlight: false
   - items: 'Venture capitalists and robotics'
     subnewsitems:
       - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!

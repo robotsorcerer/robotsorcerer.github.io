@@ -38,13 +38,13 @@ title: Lekan
 + <a href="https://github.com/lakehanne/screws" target="blank"> screw theory and elastic deformations: </a> screw theory applied to continuum syntheses. codes and  examples.
 + <a href="https://github.com/lakehanne/shells.git" target="blank"> bourne again shells</a>: short & fun bash scripts.
 + <a href="https://github.com/lakehanne/Savitzky-Golay" target="blank">savgol</a>: a c++11 implementation of the vandermonde matrix as well as savityzky-golay differentiation filter and smoothing coefficients.
-+ <a href="https://github.com/lakehanne/gps" target="blank">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ROS Indigo.
-+ <a href="https://github.com/lakehanne/keyence" target="blank">keyence</a>: basic api in c and c++ for streaming sensed data from the <a href="https://www.keyence.com/landing/measure/lp_blp_ljv_1079.jsp?aw=google-kaenLJ213101bb-br&k_clickid=0b5a6233-6a63-4e33-9721-b8207086947a&gclid=CjwKCAjwo9rtBRAdEiwA_WXcFvZDgBqvXU8-yPeZJrXOrhdXY-t-cM62PvMffbMwAmovJDj-uPjSIhoCyAEQAvD_BwE" target="blank">keyence LJV-7300 line scanners</a>.
-+ <a href="https://github.com/lakehanne/keyence" target="blank">ensenso</a>: ros and point cloud library bridges to the <a href="https://www.ensenso.com/" target="blank">ensenso 3D N35 camera</a>.
-+ <a href="https://github.com/lakehanne/keyence" target="blank">gocator</a>: ros and point cloud library bridges to the <a href="https://lmi3d.com/products/gocator-3D-smart-sensors" target="blank"> LMI gocator line scanning sensor</a>.
-+ <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am reading/implementing
++ <a href="https://github.com/lakehanne/gps" target="blank">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ros indigo.
++ <a href="https://github.com/lakehanne/keyence" target="blank">keyence</a>: basic api in c and c++ for streaming sensed data from the <a href="https://www.keyence.com/landing/measure/lp_blp_ljv_1079.jsp?aw=google-kaenLJ213101bb-br&k_clickid=0b5a6233-6a63-4e33-9721-b8207086947a&gclid=CjwKCAjwo9rtBRAdEiwA_WXcFvZDgBqvXU8-yPeZJrXOrhdXY-t-cM62PvMffbMwAmovJDj-uPjSIhoCyAEQAvD_BwE" target="blank">keyence LJV-7300 line scanners factory api</a>.
++ <a href="https://github.com/lakehanne/ensenso" target="blank">ensenso</a>: ros and point cloud library bridges to the <a href="https://www.ensenso.com/" target="blank">ensenso 3D N35 camera factory api</a>.
++ <a href="https://github.com/lakehanne/gocator" target="blank">gocator</a>: ros and point cloud library bridges to the <a href="https://lmi3d.com/products/gocator-3D-smart-sensors" target="blank"> LMI gocator line scanning sensor factory api</a>.
++ <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am currently reading/implementing.
 <!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
-+ <a href="{{ site.url }}/readlist18" target="blank"> summer'18 reading list</a>:  Bellman and Optimal Control
++ <a href="{{ site.url }}/readlist18" target="blank"> summer'18 reading list</a>:  Bellman and Optimal Control.
 <!-- + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a> -->
 <!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
 
