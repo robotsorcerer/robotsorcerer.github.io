@@ -26,10 +26,12 @@ At various times in my little time on this planet, I have been a [_Shikaakwaan_]
 
 #### Research Abridgment
 
-Across our planet, in rich and poor nations alike, cancer remains an existential burden to healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, wherein 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019](https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf)</sup>. Means of treating cancers may include one or a combination of drugs, radiation therapy, immunotherapy,  stem cell transplant, targeted therapy, precision therapy, chemotherapy or surgery. Among the different locations where cancers can exist in the human body, cancers of the head and neck (H&N) region tend to be most fatal because of the sensitivity of  H&N organs. Thus, an all-of-the-above solution is not always the most suitable means for treating H&N cancers. 
+Across our planet, in rich and poor nations alike, cancer remains an existential burden to healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, wherein 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019](https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf)</sup>. 
+
+Means of treating cancers may include one or a combination of drugs, radiation therapy, immunotherapy,  stem cell transplant, targeted therapy, precision therapy, chemotherapy or surgery. Among the different locations where cancers can exist in the human body, cancers of the head and neck (H&N) region tend to be most fatal because of the sensitivity of  H&N organs. Thus, an all-of-the-above solution is not always the most suitable means for treating H&N cancers. 
 Radiation Therapy (RT), often in conjunction with surgery and chemotherapy, is an invaluable single cancer treatment modality nowadays owing to its cost-effectiveness (accounting for only 5% of the total cost of cancer care <sup>[Ringborg Report](https://www.tandfonline.com/doi/abs/10.1080/02841860310010826)</sup>, and its advanced mode of radiation production and delivery: shaping the geometry of high-energy  conformal radiation so that it allows radiation escalation to a tumor target while simultaneously sparing organs-at-risk (OARs). Matter-of-factly, half of all cancer patients do undergo RT treatment during the course of their illness with an estimated 40% of all  curative treatment being performed using RT<sup>[Baskar12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3298009/)</sup>. Owing to its advanced radiation delivery method, RT is often the most suitable treatment method for H&N cancers. 
 
-However, owing to the accurate dose realization requirement in RT, the head and neck region must be made immobile during the administration of dose, as motions of the order of 2mm or 2 degrees deviation from a desired trajectory have been known to cause eczema, brain lesions and other post-treatment complications. The state-of-the-art positioning method for avoiding dose miss is to immobilize the patient with rigid metallic frames or masks<sup>[Fig 1](#fig-rigid)</sup>. 
+Owing to the accurate dose realization requirement in RT, the head and neck region must be made immobile during the administration of dose, as motions of the order of 2mm or 2 degrees deviation from a desired trajectory have been known to cause eczema, brain lesions and other post-treatment complications. The state-of-the-art positioning method for avoiding dose miss is to immobilize the patient with rigid metallic frames or masks<sup>[Fig 1](#fig-rigid)</sup>. 
 
 {% 
     include fig.html 
@@ -59,6 +61,7 @@ However, these frames attenuate dose and and the stress of wearing and removing 
         caption='<b>Fig 2:</b> The beam repositioning system ©Cyberknife.'
 %}
 
+<br>
 Frameless and maskless (F&M) RT is an emerging non-invasive radiosurgery treatment modality that aims to stem this issue. The goal of F&M RT is to control and correct a patient's motion, ideally with a closed-loop feedback controller implemented on a high-precision manipulation system (usually robots) in **real-time** during RT. Since patient deviation from target trajectory is frequent during treatment, parallel robots (matter-of-factly, 6-legged Stewart-Gough platforms) have emerged as a means of immobilizing patients in research scenarios. However, such parallel robots:
 
 + share their complete workspace with body tissues, a safety concern since rigid robot components lack compliance and their end effectors add "hard shocks" to the patients' body during manipulation;
@@ -74,9 +77,10 @@ In my research, we utilize inflatable air bladders (IABs) to mitigate these high
         file='assets/setup.png' 
         max-width='95%' 
         align='middle'
-        caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around Head and Neck Region. ©Lekan Molu, 2019.'
+        caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. ©Lekan Molu, 2019.'
 %}
 
+<br>
 They inflate, deflate, extend or contract governed by their material moduli, incompressibility and internal pressurization when given a reference trajectory. By controlling the amount of fluid in the internal cavities of these IABs, we can compensate motion deviation in real-time. Our hardware design absorbs the reactive pressure from the patient's displacement during manipulation, guaranteeing patient's comfort. Their radio-transparency to ionizing radiation make situating them close to the tumor source an attractive option for fast motion compensation -- mitigating against the inherent delay between the computation of control signals and actuation in rigid compensation works. 
 <!-- 
 For more background on this research, head over to [our group page](https://radonc.uchicago.edu/) and see our publications. -->
