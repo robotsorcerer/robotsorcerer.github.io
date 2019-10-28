@@ -39,6 +39,7 @@ title: Lekan
 + <a href="https://github.com/lakehanne/screws"> screw theory and elastic deformations: </a> screw theory applied to continuum syntheses. codes and  examples.
 + <a href="https://github.com/lakehanne/Savitzky-Golay">savgol</a>: a c++11 implementation of the Vandermonde matrix as well as Savityzky-Golay differentiation filter and smoothing coefficients.
 + <a href="https://github.com/lakehanne/gps">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ROS Indigo.
++ <a href="https://github.com/lakehanne/keyence">keyence</a>: basic api in c and c++ for streaming sensed data from the keyence LJV-7300 line scanners.
 + <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>: short & fun bash scripts.
 + <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am reading/implementing
 <!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
