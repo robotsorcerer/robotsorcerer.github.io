@@ -32,7 +32,7 @@ title: Lekan
 
 <!-- Side projects  -->
  <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
- <p>At leisure, I like to read: research papers, history books, and engineering texts inter alia. Highlighted below are some of my reading lists in the past, or codes you might find useful.</p>
+<!--  <p>At leisure, I like to read: research papers, history books, and engineering texts inter alia. Highlighted below are some of my reading lists in the past, or codes you might find useful.</p> -->
 
 +    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: a curated list of papers that apply neural dynamics to control systems.
 + <a href="https://github.com/lakehanne/awesome-screw-theory"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
