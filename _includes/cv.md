@@ -17,6 +17,22 @@
   - [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
   - [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
 
+
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
+<table class="table table-hover">
+    {% for item in site.data.news.news_items %}
+    {% for subitem in item.subnewsitems %}
+        {% unless subitem.highlight == false %}
+        <tr>
+          <td>{{ subitem.content }} </td>
+          <td class="col-md-3" style="text-align: right;">{{ subitem.date | date: "%B %e, %Y" }}</td>
+        </tr>
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+<h4><a href="{{ sites }}/news">Archived news</a></h4>
+</table>
+
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
   - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
@@ -32,19 +48,20 @@
   - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Invited Talks</h4>
- - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy, Open Robotics Foundation, Mountain View, CA, USA. January 2019.
+ - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 
-- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering, Stanford University, Stanford, CA, USA. November 2018.
+- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
 
-- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
+<!-- - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018. -->
+- A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and Beam Orientation Selection  in Cancer Radiation Therapy. 
 
-- Minimax Iterative Dynamic Game, Department of Brain Robot Interface, Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
+- Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
   
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
 
-- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System,  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
+- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
 
-- A Wearable Soft Robotic Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy, University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
+- A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
  
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 

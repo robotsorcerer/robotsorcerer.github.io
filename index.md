@@ -14,39 +14,6 @@ title: Lekan
 <br>
 
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
-<table class="table table-hover">
-    {% for item in site.data.news.news_items %}
-    {% for subitem in item.subnewsitems %}
-        {% unless subitem.highlight == false %}
-        <tr>
-          <td>{{ subitem.content }} </td>
-          <td class="col-md-3" style="text-align: right;">{{ subitem.date | date: "%B %e, %Y" }}</td>
-        </tr>
-      {% endunless %}
-    {% endfor %}
-  {% endfor %}
-<h4><a href="{{ sites }}/news">View archived news</a></h4>
-</table>
-<!-- <br> -->
-
-<!-- Side projects  -->
- <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
-<!--  <p>At leisure, I like to read: research papers, history books, and engineering texts inter alia. Highlighted below are some of my reading lists in the past, or codes you might find useful.</p> -->
-
-+    <a href="https://github.com/lakehanne/awesome-neurocontrol">awesome neuro-control</a>: a curated list of papers that apply neural dynamics to control systems.
-+ <a href="https://github.com/lakehanne/awesome-screw-theory"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
-+ <a href="https://github.com/lakehanne/screws"> screw theory and elastic deformations: </a> screw theory applied to continuum syntheses. codes and  examples.
-+ <a href="https://github.com/lakehanne/Savitzky-Golay">savgol</a>: a c++11 implementation of the Vandermonde matrix as well as Savityzky-Golay differentiation filter and smoothing coefficients.
-+ <a href="https://github.com/lakehanne/gps">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ROS Indigo.
-+ <a href="https://github.com/lakehanne/keyence">keyence</a>: basic api in c and c++ for streaming sensed data from the keyence LJV-7300 line scanners.
-+ <a href="https://github.com/lakehanne/shells.git"> bash-scripts</a>: short & fun bash scripts.
-+ <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am reading/implementing
-<!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
-+ <a href="{{ site.url }}/readlist18"> summer'18 reading list</a>:  Bellman and Optimal Control
-<!-- + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a> -->
-<!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
-
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Recent Blog Posts</h2>
 
 <table class="table table-hover">
@@ -61,6 +28,25 @@ title: Lekan
 </table>
 <h4><a href="/blog">View all blog posts </a></h4>
 <br>
+
+<!-- Side projects  -->
+ <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
+<!--  <p>At leisure, I like to read: research papers, history books, and engineering texts inter alia. Highlighted below are some of my reading lists in the past, or codes you might find useful.</p> -->
+
++    <a href="https://github.com/lakehanne/awesome-neurocontrol" target="blank">awesome neuro-control</a>: a curated list of papers that apply neural dynamics to control systems.
++ <a href="https://github.com/lakehanne/awesome-screw-theory" target="blank"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
++ <a href="https://github.com/lakehanne/screws" target="blank"> screw theory and elastic deformations: </a> screw theory applied to continuum syntheses. codes and  examples.
++ <a href="https://github.com/lakehanne/shells.git" target="blank"> bourne again shells</a>: short & fun bash scripts.
++ <a href="https://github.com/lakehanne/Savitzky-Golay" target="blank">savgol</a>: a c++11 implementation of the vandermonde matrix as well as savityzky-golay differentiation filter and smoothing coefficients.
++ <a href="https://github.com/lakehanne/gps" target="blank">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ROS Indigo.
++ <a href="https://github.com/lakehanne/keyence" target="blank">keyence</a>: basic api in c and c++ for streaming sensed data from the <a href="https://www.keyence.com/landing/measure/lp_blp_ljv_1079.jsp?aw=google-kaenLJ213101bb-br&k_clickid=0b5a6233-6a63-4e33-9721-b8207086947a&gclid=CjwKCAjwo9rtBRAdEiwA_WXcFvZDgBqvXU8-yPeZJrXOrhdXY-t-cM62PvMffbMwAmovJDj-uPjSIhoCyAEQAvD_BwE" target="blank">keyence LJV-7300 line scanners</a>.
++ <a href="https://github.com/lakehanne/keyence" target="blank">ensenso</a>: ros and point cloud library bridges to the <a href="https://www.ensenso.com/" target="blank">ensenso 3D N35 camera</a>.
++ <a href="https://github.com/lakehanne/keyence" target="blank">gocator</a>: ros and point cloud library bridges to the <a href="https://lmi3d.com/products/gocator-3D-smart-sensors" target="blank"> LMI gocator line scanning sensor</a>.
++ <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am reading/implementing
+<!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
++ <a href="{{ site.url }}/readlist18" target="blank"> summer'18 reading list</a>:  Bellman and Optimal Control
+<!-- + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a> -->
+<!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
