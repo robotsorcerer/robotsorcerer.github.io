@@ -24,9 +24,40 @@ I was ~~buttered and bread~~ born and bred in Southern Nigeria. I spent most of 
 <!-- There are many places I call home including but not limited to the following: Lagos, Tokyo, [City of Sheafs](https://en.wikipedia.org/wiki/Sheffield)(will always be my spiritual home), Dallas, TX and [Shikaakwa](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/).  --> 
 At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_. 
 
-#### Research 
+#### Research Abridgment
 
-Radiation therapy (RT) along with chemotherapy and surgery are major cancer treatment modalities. RT produces higher survival rates among patients in part due to the technological advancements that enable maximizing radiation dose to a tumor target whilst simultaneously minimizing irradiation to surrounding healthy tissues. Owing to the accurate dose realization requirement in RT, the head and neck region must be made immobile during the administration of dose, as motions of the order of 2mm or 2 degrees deviation from a desired trajectory have been known to cause eczema, brain lesions and other post-treatment complications. The state-of-the-art positioning method for avoiding dose miss is to immobilize the patient with rigid metallic frames or masks. However, these frames attenuate dose and and the stress of wearing and removing rigid masks intermittently over many months of treatment fractionation can be painful for the patient. 
+Across our planet, in rich and poor nations alike, cancer remains an existential burden to healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, wherein 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019](https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf)</sup>. Means of treating cancers may include one or a combination of drugs, radiation therapy, immunotherapy,  stem cell transplant, targeted therapy, precision therapy, chemotherapy or surgery. Among the different locations where cancers can exist in the human body, cancers of the head and neck (H&N) region tend to be most fatal because of the sensitivity of  H&N organs. Thus, an all-of-the-above solution is not always the most suitable means for treating H&N cancers. 
+Radiation Therapy (RT), often in conjunction with surgery and chemotherapy, is an invaluable single cancer treatment modality nowadays owing to its cost-effectiveness (accounting for only 5% of the total cost of cancer care <sup>[Ringborg Report](https://www.tandfonline.com/doi/abs/10.1080/02841860310010826)</sup>, and its advanced mode of radiation production and delivery: shaping the geometry of high-energy  conformal radiation so that it allows radiation escalation to a tumor target while simultaneously sparing organs-at-risk (OARs). Matter-of-factly, half of all cancer patients do undergo RT treatment during the course of their illness with an estimated 40% of all  curative treatment being performed using RT<sup>[Baskar12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3298009/)</sup>. Owing to its advanced radiation delivery method, RT is often the most suitable treatment method for H&N cancers. 
+
+However, owing to the accurate dose realization requirement in RT, the head and neck region must be made immobile during the administration of dose, as motions of the order of 2mm or 2 degrees deviation from a desired trajectory have been known to cause eczema, brain lesions and other post-treatment complications. The state-of-the-art positioning method for avoiding dose miss is to immobilize the patient with rigid metallic frames or masks<sup>[Fig 1](#fig-rigid)</sup>. 
+
+{% 
+    include fig.html 
+        file='assets/head-plastic.jpg' 
+        max-width='45%' 
+        align='left'
+        float='left'
+%}
+{% 
+    include fig.html 
+        file='assets/head-rigid.jpg' 
+        max-width='45%' 
+        align='middle'
+        float='middle'
+        caption='<b>Fig 1</b>: <i>(Left)</i> H&N Immobilized with Thermoplastic Mould. <i>(Right)</i> With Rigid Frame.'
+%}
+
+<br>
+
+However, these frames attenuate dose and and the stress of wearing and removing rigid masks intermittently over many months of treatment fractionation can be painful for the patient. 
+
+{% 
+    include fig.html 
+        file='assets/cyberknife.jpg' 
+        max-width='85%' 
+        align='middle'
+        caption='<b>Fig 2:</b> The beam repositioning system ©Cyberknife.'
+%}
 
 Frameless and maskless (F&M) RT is an emerging non-invasive radiosurgery treatment modality that aims to stem this issue. The goal of F&M RT is to control and correct a patient's motion, ideally with a closed-loop feedback controller implemented on a high-precision manipulation system (usually robots) in **real-time** during RT. Since patient deviation from target trajectory is frequent during treatment, parallel robots (matter-of-factly, 6-legged Stewart-Gough platforms) have emerged as a means of immobilizing patients in research scenarios. However, such parallel robots:
 
@@ -36,7 +67,17 @@ Frameless and maskless (F&M) RT is an emerging non-invasive radiosurgery treatme
 
 + the inadvertent respiratorial and internal organ motions often induce deviation from a target beyond the recommentations of AAPM Task Group 17, namely 2mm and 2 degrees tolerance.
 
-In our research, we utilize inflatable air bladders (IABs) to mitigate these highlighted issues. Our IABs are continuum, compliant and configurable (C3) soft elastomeric actuators that provide therapeutic and comfortable patient motion compensation during RT. They inflate, deflate, extend or contract governed by their material moduli, incompressibility and internal pressurization when given a reference trajectory. By controlling the amount of fluid in the internal cavities of these IABs, we have compensated motion deviation e.g. using non-parameteric models derived from indirect adaptive control. Our hardware design absorbs the reactive pressure from the patient's displacement during manipulation, guaranteeing patient's comfort. Their radio-transparency to ionizing radiation make situating them close to the tumor source an attractive option for fast motion compensation -- mitigating against the inherent delay between the computation of control signals and actuation in rigid compensation works. 
+In my research, we utilize inflatable air bladders (IABs) to mitigate these highlighted issues. Our IABs are continuum, compliant and configurable (C3) soft elastomeric actuators that provide therapeutic and comfortable patient motion compensation during RT. 
+
+{% 
+    include fig.html 
+        file='assets/setup.png' 
+        max-width='95%' 
+        align='middle'
+        caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around Head and Neck Region. ©Lekan Molu, 2019.'
+%}
+
+They inflate, deflate, extend or contract governed by their material moduli, incompressibility and internal pressurization when given a reference trajectory. By controlling the amount of fluid in the internal cavities of these IABs, we can compensate motion deviation in real-time. Our hardware design absorbs the reactive pressure from the patient's displacement during manipulation, guaranteeing patient's comfort. Their radio-transparency to ionizing radiation make situating them close to the tumor source an attractive option for fast motion compensation -- mitigating against the inherent delay between the computation of control signals and actuation in rigid compensation works. 
 <!-- 
 For more background on this research, head over to [our group page](https://radonc.uchicago.edu/) and see our publications. -->
 
