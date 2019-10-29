@@ -20,10 +20,9 @@ Example institutions that have used my work include the National Aeronautics and
 ### Background
 
 I was ~~buttered and bread~~ born and bred in Southern Nigeria. I spent most of my adolescent years in the only logical place in the whole wide world where one can maximize one's 'life-fun-index': [Lagos](https://en.wikipedia.org/wiki/Lagos). I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres. I do have an electric guitar, which I lazily play when I'm depressed. Someday, I do hope to be a street entertainer (_wouldn't that be fun?_).
-
 <!-- There are many places I call home including but not limited to the following: Lagos, Tokyo, [City of Sheafs](https://en.wikipedia.org/wiki/Sheffield)(will always be my spiritual home), Dallas, TX and [Shikaakwa](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/).  --> 
-<!-- At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_. 
- -->
+At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_. 
+
 #### Research Abridgment
 
 Across our planet, in rich and poor nations alike, cancer remains an existential burden to healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, wherein 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019](https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf)</sup>. 
@@ -43,10 +42,10 @@ Owing to the accurate dose realization requirement in RT, the head and neck regi
 {% 
     include fig.html 
         file='assets/head-rigid.jpg' 
-        max-width='45%' 
+        max-width='75%' 
         align='middle'
         float='middle'
-        caption='<b>Fig 1</b>: <i>(Left)</i> H&N Immobilized with Thermoplastic Mould. <i>(Right)</i> With Rigid Frame.'
+        caption='<b>Fig 1</b>: <i>(Left)</i> H&N immobilized with Thermoplastic Mould. <i>(Right)</i> H&N immobilized with Rigid Frame. A screw is typically drilled into the skull to render the patient immobile. The mask is further secured to the table with mechanical screws. Masks and frames generally attenuate high-energy photons meant to deliver curative dose to tumor.'
 %}
 
 <br>
