@@ -66,6 +66,17 @@ publications:
         venue: IEEE Robotics and Automation Letters (RAL/ICRA)
         paper_status: Submitted
         year: Paris, France. 2020     
+  - items: 'Springer2019!'
+    paperitems:
+      - title: Real-Time Motion Compensation with Soft Robots in Robotic Radiosurgery
+        location: /downloads/Papers/Springer19.pdff
+        authors: 
+          - <b>Olalekan Ogunmolu</b> and
+          - Rodney Wiersma.
+        venue_web: # https://www.ieee-ras.org/publications/ra-l
+        venue: #© Springer Nature 
+        paper_status: Working Manuscript
+        year: 2019     
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
