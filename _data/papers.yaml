@@ -11,6 +11,19 @@ publications:
   #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
   #       paper_status: Working Manuscript
   #       year: Las Vegas, NV. 2020
+  - items: 'RAL/ICRA2019!'
+    paperitems:
+      - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
+        location: /downloads/Papers/ContinuumI.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>,
+          - Xinmin Liu,
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue: IEEE Robotics and Automation Letters (RAL/ICRA)
+        paper_status: Submitted
+        year: Paris, France. 2020  
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
@@ -52,29 +65,16 @@ publications:
         venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         year: Vancouver, BC. 2017
-        paper_status: Accepted
-  - items: 'RAL/ICRA2019!'
-    paperitems:
-      - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
-        location: /downloads/Papers/ContinuumI.pdf
-        authors: 
-          - <b>Olalekan Ogunmolu</b>,
-          - Xinmin Liu,
-          - Nick Gans, and
-          - Rodney Wiersma.
-        venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters (RAL/ICRA)
-        paper_status: Submitted
-        year: Paris, France. 2020     
+        paper_status: Accepted   
   - items: 'Springer2019!'
     paperitems:
-      - title: Real-Time Motion Compensation with Soft Robots in Robotic Radiosurgery
+      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
         location: /downloads/Papers/Springer19.pdff
         authors: 
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
         venue_web: # https://www.ieee-ras.org/publications/ra-l
-        venue: #© Springer Nature 
+        venue: © Springer Nature (Book Chapter)
         paper_status: Working Manuscript
         year: 2019     
   - items: 'TRO2019!'
