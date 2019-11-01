@@ -39,8 +39,8 @@
 
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
 
-<!-- - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018. -->
-- A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and Beam Orientation Selection  in Cancer Radiation Therapy. 
+- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
+<!-- - A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and Beam Orientation Selection  in Cancer Radiation Therapy.  -->
 
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
   
@@ -52,6 +52,17 @@
  
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
+ -  NSF Doctoral Consortium Award 
+ -  Mary and Richard Templeton Graduate Fellowship 
+ -  Ericsson Graduate Fellowship  
+ -  President’s Teaching Excellence Award for Teaching Assistants 
+ -  Jonsson Scholarship
+ -  Golden Key Honor
+ -  IEEE Robotics and Automation Society/Society of Industrial and Applied Maths Travel Award 
+ -  IEEE Robotics and Automation Society Travel Award 
+ -  Google AI Travel and Conference Grant 
+ -  ROSCon Scholarship 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
