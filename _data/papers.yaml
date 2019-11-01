@@ -14,7 +14,7 @@ publications:
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
-        location: #/downloads/Papers/ContinuumI.pdf
+        location: /downloads/Papers/ContinuumI.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Xinmin Liu,
@@ -27,7 +27,7 @@ publications:
   - items: 'Springer2019!'
     paperitems:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
-        location: /downloads/Papers/Springer19.pdff
+        location: /downloads/Papers/Springer19.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
