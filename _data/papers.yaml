@@ -27,7 +27,7 @@ publications:
   - items: 'Springer2019!'
     paperitems:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
-        location: /downloads/Papers/Springer19.pdf
+        location: #/downloads/Papers/Springer19.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
