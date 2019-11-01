@@ -14,7 +14,7 @@ publications:
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
-        location: /downloads/Papers/ContinuumI.pdf
+        location: #/downloads/Papers/ContinuumI.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Xinmin Liu,
@@ -24,6 +24,17 @@ publications:
         venue: IEEE Robotics and Automation Letters (RAL/ICRA)
         paper_status: Submitted
         year: Paris, France. 2020  
+  - items: 'Springer2019!'
+    paperitems:
+      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
+        location: /downloads/Papers/Springer19.pdff
+        authors: 
+          - <b>Olalekan Ogunmolu</b> and
+          - Rodney Wiersma.
+        venue_web: # https://www.ieee-ras.org/publications/ra-l
+        venue: © Springer Nature (Book Chapter)
+        paper_status: Working Manuscript
+        year: 2019     
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
@@ -35,7 +46,7 @@ publications:
           - Dan Nguyen, and
           - Steve Jiang.
         venue_web: 'https://www.medphys.org/'
-        venue: Algorithm Foundations of Robotics, XIII. Published in Springer's Proceedings in Advanced Robotics Book 
+        venue: Algorithm Foundations of Robotics, XIII. Published in Springer's Proceedings in Advanced Robotics (SPAR) Book 
         year: 2019
         paper_status: Accepted
   - items: 'IROS18!'
@@ -66,17 +77,6 @@ publications:
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         year: Vancouver, BC. 2017
         paper_status: Accepted   
-  - items: 'Springer2019!'
-    paperitems:
-      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
-        location: /downloads/Papers/Springer19.pdff
-        authors: 
-          - <b>Olalekan Ogunmolu</b> and
-          - Rodney Wiersma.
-        venue_web: # https://www.ieee-ras.org/publications/ra-l
-        venue: © Springer Nature (Book Chapter)
-        paper_status: Working Manuscript
-        year: 2019     
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
