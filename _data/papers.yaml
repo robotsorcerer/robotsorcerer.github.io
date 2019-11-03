@@ -20,18 +20,18 @@ publications:
         paper_status: Working Manuscript
         year: 2020       
 
-  - items: 'RAL/IROS2020!'
-    paperitems:
-      - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors: 
-          - <b>Olalekan Ogunmolu</b>
-          - Ayaka Kume and
-          - Jethro Tan.
-        venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters (RAL/IROS)
-        paper_status: Working Manuscript
-        year: 2020
+  # - items: 'RAL/IROS2020!'
+  #   paperitems:
+  #     - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
+  #       location: #/downloads/Papers/ContinuumI.pdf
+  #       authors: 
+  #         - <b>Olalekan Ogunmolu</b>
+  #         - Ayaka Kume and
+  #         - Jethro Tan.
+  #       venue_web: https://www.ieee-ras.org/publications/ra-l
+  #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
+  #       paper_status: Working Manuscript
+  #       year: 2020
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
@@ -74,13 +74,13 @@ publications:
   - items: 'Springer2019!'
     paperitems:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
-        location: #/downloads/Papers/Springer19.pdf
+        location: /downloads/Papers/Springer19.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
-        venue_web: # https://www.ieee-ras.org/publications/ra-l
+        venue_web: 
         venue: © Springer Nature (Invited Book Chapter)
-        paper_status: Submitted
+        paper_status: Manuscript
         year: November 2019     
   - items: 'IROS17!'
     paperitems:
@@ -134,19 +134,19 @@ publications:
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
         paper_status: Accepted
         year: May, 2019 
-  - items: 'ICCR19!'
-    paperitems:
-      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
-        location: '/404'
-        authors: 
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen.
-        venue_web: http://iccr-mcma.org/iccr2019/
-        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
-        year:  Montreal, CA. June 2019
-        paper_status: Accepted
+  # - items: 'ICCR19!'
+  #   paperitems:
+  #     - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
+  #       location: '/404'
+  #       authors: 
+  #         - Azar Sadeghnejad Barkousaraie,
+  #         - <b>Olalekan Ogunmolu</b>,
+  #         - Steve Jiang, and
+  #         - Dan Nguyen.
+  #       venue_web: http://iccr-mcma.org/iccr2019/
+  #       venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
+  #       year:  Montreal, CA. June 2019
+  #       paper_status: Accepted
   - items: 'SPIE18!'
     paperitems:
       - title: 'Design and Development of A Soft Robot for Head and Neck Cancer Radiotherapy'
