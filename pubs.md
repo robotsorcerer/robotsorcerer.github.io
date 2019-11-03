@@ -10,8 +10,6 @@ permalink: pubs
 
 	© 2019 IEEE.  Personal use of any of these materials is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing any of these materials for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of these works in other works.<br>
 
-	<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h2>
-	
     {% for item in site.data.papers.publications %}
     	{% for paper in item.paperitems %}
 	        <tr>
