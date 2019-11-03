@@ -65,6 +65,23 @@ Permission from IEEE must be obtained for all IEEE publications for other uses, 
 	  	{% endfor %}	
 </table>
 
+<table  class="table table-hover" >	
+  	<h3><b>Technical Reports</b></h3>
+		{% for item in site.data.papers.publications %}
+	    	{% for paper in item.paperitems %}
+	          	{% if paper.paper_status contains "Technical" %}
+		        	<tr>
+		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
+		          			{% for author in paper.authors %}
+		          				{{ author  }}
+		          			{% endfor %} 
+		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.
+			      		</td>
+		      		</tr>
+		      	{% endif %}
+	    	{% endfor %}
+	  	{% endfor %}	
+</table>
 
 <!--     {% for item in site.data.papers.publications %}
     	{% for paper in item.paperitems %}
