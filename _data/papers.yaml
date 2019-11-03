@@ -5,8 +5,8 @@ publications:
         location: /downloads/Papers/kinecontrol.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b>
-        venue_web: #https://www.ieee-ras.org/publications/t-ro
-        venue: #IEEE Transactions on Robotics (T-RO)
+        venue_web: https://www.ieee-ras.org/publications/t-ro
+        venue: IEEE Transactions on Robotics (T-RO)
         paper_status: Working Manuscript
         year: 2020    
   - items: 'TRO2019!'
@@ -15,8 +15,8 @@ publications:
         location: /downloads/Papers/ijrr.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b>
-        venue_web: #https://www.ieee-ras.org/publications/t-ro
-        venue: #IEEE Transactions on Robotics (T-RO)
+        venue_web: https://www.ieee-ras.org/publications/t-ro
+        venue: IEEE Transactions on Robotics (T-RO)
         paper_status: Working Manuscript
         year: 2020       
 
@@ -29,7 +29,7 @@ publications:
           - Ayaka Kume and
           - Jethro Tan.
         venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: #IEEE Robotics and Automation Letters (RAL/IROS)
+        venue: IEEE Robotics and Automation Letters (RAL/IROS)
         paper_status: Working Manuscript
         year: 2020
   - items: 'RAL/ICRA2019!'
@@ -174,7 +174,7 @@ publications:
         venue_web: https://arxiv.org
         venue: arXiv
         year:  2017
-        paper_status: Manuscript
+        paper_status: Technical Report
   - items: 'Ident!'
     paperitems:
       - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
@@ -187,7 +187,7 @@ publications:
         venue_web: https://arxiv.org
         venue: arXiv
         year:  2016
-        paper_status: Manuscript
+        paper_status: Technical Report
   - items: 'CASE16!'
     paperitems:
       - title: 'Vision-based Control of a Soft Robot for Maskless Cancer Radiotherapy'
