@@ -114,7 +114,7 @@ publications:
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
-        location: # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
+        location: https://arxiv.org/abs/1905.00523 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
         authors: 
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
