@@ -2,7 +2,7 @@
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
-  - **Core**: Control Theory -- Robotics -- Elastic Deformations.
+  - **Core**: Control Theory -- Robotics -- Soft Matter -- Elastic Deformations.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
