@@ -1,4 +1,14 @@
 publications: 
+  - items: 'TRO2019!'
+    paperitems:
+      - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
+        location: /downloads/Papers/kinecontrol.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>
+        venue_web: https://www.ieee-ras.org/publications/t-ro
+        venue: IEEE Transactions on Robotics (T-RO)
+        paper_status: Working Manuscript
+        year: 2020       
   # - items: 'RAL/IROS2020!'
   #   paperitems:
   #     - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
@@ -77,21 +87,6 @@ publications:
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         year: Vancouver, BC. 2017
         paper_status: Accepted   
-  - items: 'TRO2019!'
-    paperitems:
-      - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
-        location: /404
-        authors: 
-          - <b>Olalekan Ogunmolu</b>,
-          - and yet-to-be-decided co-authors.
-          - #Xinmin Liu,
-          - #Erik Pearson,
-          - #Nick Gans, and
-          - #Rodney Wiersma.
-        venue_web: https://www.ieee-ras.org/publications/t-ro
-        venue: IEEE Transactions on Robotics (T-RO)
-        paper_status: Working Manuscript
-        year: 2020       
   - items: 'AIRT2019!'
     paperitems:
       - title: Using Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
