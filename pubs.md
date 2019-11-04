@@ -50,7 +50,7 @@ Permission from IEEE must be obtained for all IEEE publications for other uses, 
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %}<br>
-		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.
+		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.paper_status paper.year }}.
 			      		</td>
 		      		</tr>
 		      	{% endif %}
