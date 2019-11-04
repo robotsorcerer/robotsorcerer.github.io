@@ -42,9 +42,9 @@ publications:
           - Nick Gans, and
           - Rodney Wiersma.
         venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters (RAL/ICRA)
+        venue: IEEE Robotics and Automation Letters (RAL/ICRA), Paris, France
         paper_status: Submitted
-        year: Paris, France. September 2019  
+        year: September 2019  
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
@@ -79,8 +79,8 @@ publications:
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
         venue_web: 
-        venue: © Springer Nature (Invited Book Chapter)
-        paper_status: Manuscript
+        venue: © Springer (Invited Book Chapter)
+        paper_status: Submitted
         year: November 2019     
   - items: 'IROS17!'
     paperitems:
@@ -163,18 +163,18 @@ publications:
         venue: 'SPIE: Smart Structures + Nondestructive Evaluation'
         year: Denver, CO, U.S.A. March 2018
         paper_status: Accepted
-  - items: 'ZeroSum!'
-    paperitems:
-      - title: 'Robust Zero-Sum Deep Reinforcement Learning'
-        location: 'https://arxiv.org/abs/1710.00491v5'
-        authors: 
-          - <b>Olalekan Ogunmolu</b>,
-          - Nick Gans, and
-          - Tyler Summers.
-        venue_web: https://arxiv.org
-        venue: arXiv
-        year:  2017
-        paper_status: Technical Report
+  # - items: 'ZeroSum!'
+  #   paperitems:
+  #     - title: 'Robust Zero-Sum Deep Reinforcement Learning'
+  #       location: 'https://arxiv.org/abs/1710.00491v5'
+  #       authors: 
+  #         - <b>Olalekan Ogunmolu</b>,
+  #         - Nick Gans, and
+  #         - Tyler Summers.
+  #       venue_web: https://arxiv.org
+  #       venue: arXiv
+  #       year:  2017
+  #       paper_status: Technical Report
   - items: 'Ident!'
     paperitems:
       - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
