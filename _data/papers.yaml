@@ -4,7 +4,7 @@ publications:
       - title: 'Kinematics and Dynamics of a Continuum Motion-Correction Mechanism for Frameless and Maskless Cancer Radiation Therapy'
         location: /downloads/Papers/kinecontrol.pdf
         authors: 
-          - <b>Olalekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: IEEE Transactions on Robotics (T-RO)
         paper_status: Working Manuscript
@@ -14,7 +14,7 @@ publications:
       - title: 'Real-Time Six-DOF Patient Motion Correction in Robotic Radiosurgery with a Soft Robot Mechanism'
         location: /downloads/Papers/ijrr.pdf
         authors: 
-          - <b>Olalekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu.</b>
         venue_web: https://journals.sagepub.com/home/ijr
         venue: The International Journal of Robotics Research (IJRR)
         paper_status: Working Manuscript
