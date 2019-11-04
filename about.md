@@ -77,7 +77,7 @@ To improve the treatment planning process, these drawbacks need to be addressed.
         file='assets/setup.png' 
         max-width='95%' 
         align='middle'
-        caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. ©Lekan Molu, 2019.'
+        caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. © Lekan Molu, 2019. Thanks to Erik Pearson of UChicago RadOnc for the CAD Model of the Gantry and Turntable.'
 %}
 <br>
 
