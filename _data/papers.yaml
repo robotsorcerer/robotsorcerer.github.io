@@ -11,7 +11,7 @@ publications:
         year: 2020    
   - items: 'TRO2019!'
     paperitems:
-      - title: 'Real-Time Six-DOF Patient Motion Correction in Robotic Radiosurgery with a Soft Robot Mechanism.'
+      - title: 'Real-Time Six-DOF Patient Motion Correction in Robotic Radiosurgery with a Soft Robot Mechanism'
         location: /downloads/Papers/ijrr.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b>
