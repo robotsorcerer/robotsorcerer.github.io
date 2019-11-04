@@ -44,7 +44,7 @@ Owing to the accurate dose realization requirement in RT delivery, the head and 
 
 <br>
 
-Mask-based immobilization uses thermoplastic masks  (see left inset of [Fig 1](#fig-rigid)). Before the patient wears the mask, the solid thermoplast is allowed to stretch by heating it in water to a preset temperature. When the molecular bonds in the thermoplast weaken, a patient may wear it tnd secure their head to the couch. However, it reduces immobilization accuracy owing to flex (producing a drift of up to $6mm$) and shrinkage. For deep tumors nearby critical structures such as the brain stem, and for novel treatment modalities such as single isocenter multiple-target stereotactic radiosurgery, masks are not suitable given the high sensitivity of rotational head motion.
+Mask-based immobilization uses thermoplastics  (see left inset of [Fig 1](#fig-rigid)). Before the patient wears the mask, the solid thermoplast is allowed to stretch by heating it in water to a preset temperature. When the molecular bonds in the thermoplast weaken, a patient may wear it and use it to secure their head to the couch on which they supinely lie. However, thiese masks reduce immobilization accuracy owing to flex (producing a drift of up to \\(6mm\\) as well as shrinkage. For deep tumors nearby sensitive organs such as the brain stem, or for  single isocenter multiple-target stereotactic radiosurgery (SRS) treatment modalities, masks are not suitable given the high sensitivity of head motion along the rotatory axis.
 
 Frame-based immobilization involves a metal ring screwed to the skull of the patient, which is then bolted to the treatment table (see right inset of [Fig 1](#fig-rigid)). The invasive nature and discomfort of the frame causes poor compliance to trajectory tracking and reduces clinical efficacy. Even so, for certain patients frame placement is impossible given their unique cranial anatomy or prior surgical bone flaps; the frame limits the use of multiple RT delivery as patients cannot be subjected to daily attachment and removal of the frame. 
 
@@ -60,11 +60,11 @@ Setup errors between fractionated treatments (interfractional errors) or patient
 %}
 <br>
 
-The CyberKnife system (see Fig 2), in spite of its advanced mode of delivery, requires a frame or immobilization mask, and is incapable of real-time closed-loop feedback head motion corrections when the treatment beam is on. The CyberKnife Synchrony only executes _a-priori_ trajectories, and is only FDA-approved for lung tumors' treatment; correction requirements in systems such as this require far less accuracy, typically \\(< 5mm\\)<sup>[Keall-Report]</sup>than brain targets. Additonally, real-time closed-loop head motion compensation for the CyberKnife system is inhibited by its high load-to-weight ratio; at 160kg the load at the end of a long robotic arm would require rapid movement in response to random real-time head pose changes. Its high rigidity and setup distance from the patient magnifies error from the shoulder out to the end effector. This is a recipe for large end effector velocities and acceleration that would significantly affect dose delivery. 
+The CyberKnife system (see Fig 2), in spite of its advanced mode of delivery, requires a frame or immobilization mask, and is incapable of real-time closed-loop feedback head motion corrections when the treatment beam is on. The CyberKnife Synchrony only executes _a-priori_ trajectories, and is only FDA-approved for lung tumors' treatment; correction requirements in systems such as this require far less accuracy, typically \\(< 5mm\\)<sup>[Keall-Report]</sup>than brain targets. Additonally, real-time closed-loop head motion compensation for the CyberKnife system is inhibited by its high load-to-weight ratio: at 160kg, its high rigidity and setup distance from the patient magnifies error from the shoulder out to the end effector. This is a recipe for large end effector velocities and acceleration that  significantly affects dose delivery. 
 
-Frameless and maskless (F&M) positioning systems is an emerging non-invasive immobilization system in radiosurgery that works without utilizing rigid masks and frames so as to ensure dose delivery precision while keeping the patient comfortable during treatment. The goal is to correct patient motion, ideally with a closed-loop feedback controller implemented on a high-precision robotic system in real-time during RT. Recent F&M research research directions include the steel-cast assembled 4-DOF robot of [Wiersma Group][Xinmin4DOF] which corrected translational motion and a pitch rotational head motion; the HexaPOD parallel manipulator of [Coventry Uni's Group][HerrmannHexaPODMPC] which utilized a system identification and model predictive control approach to correct a tumor position on an Hexapod, or the in-house fabricated 6-DOF Stewart-Gough platform of [Wiersma Group][BelcherThesis]. However, these systems share common drawbacks e.g.
+Frameless and maskless (F&M) positioning systems is an emerging non-invasive immobilization system in radiosurgery that works without utilizing rigid masks and frames so as to ensure dose delivery precision while keeping the patient comfortable during treatment. The goal is to correct patient motion, ideally with a closed-loop feedback controller implemented on a high-precision robotic system in real-time during RT. Recent F&M research research directions include the steel-cast assembled 4-DOF robot of [Wiersma Group][Xinmin4DOF], which corrected translational motion and a pitch rotational head motion; the HexaPOD parallel manipulator of [Coventry Uni's Group][HerrmannHexaPODMPC], which utilized a system identification and model predictive control approach to correct a tumor position on an Hexapod; or the in-house fabricated 6-DOF Stewart-Gough platform of [Wiersma Group][BelcherThesis]. However, these systems share common drawbacks e.g.
 
-+ given their constant-curvature end-effectors/platforms, they are incapable of providing sophisticated manipulation eg for the inadvertent respiratory motions that often induce deviation from a target;
++ given their constant-curvature end-effectors/platforms, they are incapable of providing sophisticated manipulation e.g. for the inadvertent respiratory motions that often induce deviation from a target in RT;
     
 + being made out of rigid bodies, the attenuation of ionizing radiation dose has to be factored into treatment plans when these systems get commissioned; and
     
@@ -105,7 +105,7 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. -->
 
-### Background
+### Origins of this specie
 
 I was ~~buttered and bread~~ born and bred in Southern Nigeria. I spent most of my adolescent years in the only logical place in the whole wide world where one can maximize one's 'life-fun-index': [Lagos](https://en.wikipedia.org/wiki/Lagos). I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres. I do have an electric guitar, which I lazily play when I'm depressed. Someday, I do hope to be a street entertainer (_wouldn't that be fun?_).
 There are many places I call home including [Chicago](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), [Lagos](https://en.wiktionary.org/wiki/Lagosian),  [Sheffield](https://www.urbandictionary.com/define.php?term=Sheffielder), and Boston. 
@@ -170,32 +170,32 @@ migrated from the Delta area of Nigeria (Warri, specifically) to Yorubaland many
 
 -->
 
-#### References 
+### References 
 
 [IARC2019]: https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf
 
-[IARC Brochure: A Unique Agency, June 2019][IARC2019]
++ [IARC Brochure: A Unique Agency, June 2019][IARC2019]
 
 [Baskar19]: https://scholar.google.com/scholar_url?url=https://www.ncbi.nlm.nih.gov/pmc/articles/pmc3298009/&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=2296803199726912578&ei=PPy_XYKPCYeQmAGr1puoAg&scisig=AAGBfm2Gk_oOcTq0QajQZ4Vp_bf9IiIEQg 
 
-[Baskar, Rajamanickam, Kuo Ann Lee, Richard Yeo, and Kheng-Wei Yeoh. "Cancer and radiation therapy: current advances and future directions." International journal of medical sciences 9, no. 3 (2012): 193.][Baskar19]
++ [Baskar, Rajamanickam, Kuo Ann Lee, Richard Yeo, and Kheng-Wei Yeoh. "Cancer and radiation therapy: current advances and future directions." International journal of medical sciences 9, no. 3 (2012): 193.][Baskar19]
 
 [RingborgReport]: https://scholar.google.com/scholar_url?url=https://www.tandfonline.com/doi/pdf/10.1080/02841860310010826&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=9053926701978851676&ei=gPu_XaaRD8rtmQHY7L-ICg&scisig=AAGBfm1hoZbHKgpFcqBS5JeEyBDQc6N5Mg
 
-[Ringborg, Ulrik, David Bergqvist, Bengt Brorsson, Eva Cavallin-Ståhl, Jeanette Ceberg, Nina Einhorn, Jan-erik Frödin et al. "The Swedish Council on Technology Assessment in Health Care (SBU) systematic overview of radiotherapy for cancer including a prospective survey of radiotherapy practice in Sweden 2001--summary and conclusions." Acta Oncologica 42, no. 5-6 (2003): 357-365.][RingborgReport]
++ [Ringborg, Ulrik, David Bergqvist, Bengt Brorsson, Eva Cavallin-Ståhl, Jeanette Ceberg, Nina Einhorn, Jan-erik Frödin et al. "The Swedish Council on Technology Assessment in Health Care (SBU) systematic overview of radiotherapy for cancer including a prospective survey of radiotherapy practice in Sweden 2001--summary and conclusions." Acta Oncologica 42, no. 5-6 (2003): 357-365.][RingborgReport]
 
-[Keall, Paul J., Gig S. Mageras, James M. Balter, Richard S. Emery, Kenneth M. Forster, Steve B. Jiang, Jeffrey M. Kapatoes et al. "The management of respiratory motion in radiation oncology report of AAPM Task Group 76 a." Medical physics 33, no. 10 (2006): 3874-3900.][Keall-Report]
++ [Keall, Paul J., Gig S. Mageras, James M. Balter, Richard S. Emery, Kenneth M. Forster, Steve B. Jiang, Jeffrey M. Kapatoes et al. "The management of respiratory motion in radiation oncology report of AAPM Task Group 76 a." Medical physics 33, no. 10 (2006): 3874-3900.][Keall-Report]
 
 [Keall-Report]: https://scholar.google.com/scholar_url?url=https://aapm.onlinelibrary.wiley.com/doi/full/10.1118/1.2349696&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=16883262995404466763&ei=kPG_XbPSBM32mQHzlZmoAw&scisig=AAGBfm0_dEagRqfdmdv2HRGW96vZ4Y8Vxw
 
-[Liu, Xinmin, Andrew H. Belcher, Zachary Grelewicz, and Rodney D. Wiersma. "Robotic stage for head motion correction in stereotactic radiosurgery." In 2015 American Control Conference (ACC), pp. 5776-5781. IEEE, 2015.][Xinmin4DOF]
++ [Liu, Xinmin, Andrew H. Belcher, Zachary Grelewicz, and Rodney D. Wiersma. "Robotic stage for head motion correction in stereotactic radiosurgery." In 2015 American Control Conference (ACC), pp. 5776-5781. IEEE, 2015.][Xinmin4DOF]
 
 [Xinmin4DOF]: https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Xinmin_Liu2/publication/282928634_Robotic_stage_for_head_motion_correction_in_stereotactic_radiosurgery/links/5693b99408ae820ff0727bb5/Robotic-stage-for-head-motion-correction-in-stereotactic-radiosurgery.pdf&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=306093932951640353&ei=5fK_Xej2KIjTmQH4ho_oBw&scisig=AAGBfm01ovpaXREjk99p5H5DtD2mXLprAA
 
-[Herrmann, Christian, Lei Ma, and Klaus Schilling. "Model predictive control for tumor motion compensation in robot assisted radiotherapy." IFAC Proceedings Volumes 44, no. 1 (2011): 5968-5973.][HerrmannHexaPODMPC]
++ [Herrmann, Christian, Lei Ma, and Klaus Schilling. "Model predictive control for tumor motion compensation in robot assisted radiotherapy." IFAC Proceedings Volumes 44, no. 1 (2011): 5968-5973.][HerrmannHexaPODMPC]
 
 [HerrmannHexaPODMPC]: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S147466701644560X&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=12168071717874672865&ei=FfO_XY2MOIeQmAGr1puoAg&scisig=AAGBfm3ImR8PwLFO61aeFdeeorV6DpLtqw
 
-[Patient Motion Management with 6DOF Robotics for Frameless and Maskless Stereotactic Radiosurgery][BelcherThesis]
++ [Patient Motion Management with 6DOF Robotics for Frameless and Maskless Stereotactic Radiosurgery][BelcherThesis]
 
 [BelcherThesis]: https://scholar.google.com/scholar_url?url=http://search.proquest.com/openview/c8ffdee64db65e61136903fcfc899c07/1%3Fpq-origsite%3Dgscholar%26cbl%3D18750%26diss%3Dy%26casa_token%3DRyN4hR-RX8cAAAAA:lfnvPQ8e9anJyXH_PlGRZkWVs3C7QnyXufLaz4sgk-6RbldrubjV5hn-9SNYoLb8lSBgbMkA-A&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=6826969054585395406&ei=SfO_XemdBYeQmAGr1puoAg&scisig=AAGBfm2cw00mWWKT2yCH8irjsl3oasping
