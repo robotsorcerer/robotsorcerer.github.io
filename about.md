@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: about
+mathjax: true
 ---
 
 <?php include_once("analyticstracking.php") ?>
@@ -16,21 +17,14 @@ Welcome to my web presence! I am an `interdisciplinary researcher` who combines 
 <!-- My work has made meaningful impact in disciplines within and outside medicine and engineering, with citations from government and highered learning research institutions across the globe. 
 Example institutions that have used my work include the National Aeronautics and Space Agency's Jet Propulsion Laboratory (NASA JPL), the 6th R&D institute of South Korea's Agency for Defense Development, Uber AI Labs, and the Chinese Academy of Sciences among others. -->
 
+### Research Abridgment
 
-### Background
-
-I was ~~buttered and bread~~ born and bred in Southern Nigeria. I spent most of my adolescent years in the only logical place in the whole wide world where one can maximize one's 'life-fun-index': [Lagos](https://en.wikipedia.org/wiki/Lagos). I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres. I do have an electric guitar, which I lazily play when I'm depressed. Someday, I do hope to be a street entertainer (_wouldn't that be fun?_).
-There are many places I call home including [Chicago](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), [Lagos](https://en.wiktionary.org/wiki/Lagosian),  [Sheffield](https://www.urbandictionary.com/define.php?term=Sheffielder), and Boston.
-<!-- At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_.  -->
-
-#### Research Abridgment
-
-Across our planet, in rich and poor nations alike, cancer remains an existential burden on healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, wherein 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019](https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf)</sup>. 
+Across our planet, in rich and poor nations alike, cancer remains an existential burden on healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, whereupon 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019](https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf)</sup>. 
 
 Means of treating cancers may include one or a combination of drugs, radiation therapy, immunotherapy,  stem cell transplant, targeted therapy, precision therapy, chemotherapy or surgery. Among the different locations where cancers can exist in the human body, cancers of the head and neck (H&N) region tend to be most fatal because of the sensitivity of  H&N organs. Thus, an all-of-the-above solution is not always the most suitable means for treating H&N cancers. 
 Radiation Therapy (RT), often in conjunction with surgery and chemotherapy, is an invaluable single cancer treatment modality nowadays owing to its cost-effectiveness (accounting for only 5% of the total cost of cancer care <sup>[Ringborg Report](https://www.tandfonline.com/doi/abs/10.1080/02841860310010826)</sup>, and its advanced mode of radiation production and delivery: shaping the geometry of high-energy  conformal radiation so that it allows radiation escalation to a tumor target while simultaneously sparing organs-at-risk (OARs). Matter-of-factly, half of all cancer patients do undergo RT treatment during the course of their illness with an estimated 40% of all  curative treatment being performed using RT<sup>[Baskar12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3298009/)</sup>. Owing to its advanced radiation delivery method, RT is often the most suitable treatment method for H&N cancers. 
 
-Owing to the accurate dose realization requirement in RT, the head and neck region must be made immobile during the administration of dose, as motions of the order of 2mm or 2 degrees deviation from a desired trajectory have been known to cause eczema, brain lesions and other post-treatment complications. The state-of-the-art positioning method for avoiding dose miss is to immobilize the patient with rigid metallic frames or masks<sup>[Fig 1](#fig-rigid)</sup>. 
+Owing to the accurate dose realization requirement in RT delivery, the head and neck region must be made immobile during the administration of dose, as motions of the order of 2mm or 2 degrees deviation from a desired trajectory can cause eczema, brain lesions or other post-treatment complications. The state-of-the-art positioning method for avoiding dose miss is to immobilize the patient with rigid metallic frames or masks<sup>[Fig 1](#fig-rigid)</sup>. 
 
 {% 
     include fig.html 
@@ -50,7 +44,12 @@ Owing to the accurate dose realization requirement in RT, the head and neck regi
 
 <br>
 
-However, these frames attenuate dose and and the stress of wearing and removing rigid masks intermittently over many months of treatment fractionation can be painful for the patient. 
+Mask-based immobilization uses thermoplastic masks  (see left inset of [Fig 1](#fig-rigid)). Before the patient wears the mask, the solid thermoplast is allowed to stretch by heating it in water to a preset temperature. When the molecular bonds in the thermoplast weaken, a patient may wear it tnd secure their head to the couch. However, it reduces immobilization accuracy owing to flex (producing a drift of up to $6mm$) and shrinkage. For deep tumors nearby critical structures such as the brain stem, and for novel treatment modalities such as single isocenter multiple-target stereotactic radiosurgery, masks are not suitable given the high sensitivity of rotational head motion.
+
+Frame-based immobilization involves a metal ring screwed to the skull of the patient, which is then bolted to the treatment table (see right inset of [Fig 1](#fig-rigid)). The invasive nature and discomfort of the frame causes poor compliance to trajectory tracking and reduces clinical efficacy. Even so, for certain patients frame placement is impossible given their unique cranial anatomy or prior surgical bone flaps; the frame limits the use of multiple RT delivery as patients cannot be subjected to daily attachment and removal of the frame. 
+
+Setup errors between fractionated treatments (interfractional errors) or patient motion errors during a treatment session (intrafractional errors) often need to be corrected _in real-time_ during treatment. Currently in clinics, the treatment is stopped, and the machine is recalibrated when the error is too large for this process to go on. The discomfort caused by head and neck masks and frames in prolonged treatment (i) can increase the voluntary and involuntary motion of  patients; (ii) are time-consuming to calibrate on a treatment machine since doses are usually delivered in fractions over many weeks or months; (iii) lack real-time position correction of the patient's head motion; and (iv) have been known to cause patient discomfort after treatment. 
+
 
 {% 
     include fig.html 
@@ -59,17 +58,19 @@ However, these frames attenuate dose and and the stress of wearing and removing 
         align='middle'
         caption='<b>Fig 2:</b> The beam repositioning system ©Cyberknife.'
 %}
-
 <br>
-Frameless and maskless (F&M) RT is an emerging non-invasive radiosurgery treatment modality that aims to stem this issue. The goal of F&M RT is to control and correct a patient's motion, ideally with a closed-loop feedback controller implemented on a high-precision manipulation system (usually robots) in **real-time** during RT. Since patient deviation from target trajectory is frequent during treatment, parallel robots (matter-of-factly, 6-legged Stewart-Gough platforms) have emerged as a means of immobilizing patients in research scenarios. However, such parallel robots:
 
-+ share their complete workspace with body tissues, a safety concern since rigid robot components lack compliance and their end effectors add "hard shocks" to the patients' body during manipulation;
+The CyberKnife system (see Fig 2), in spite of its advanced mode of delivery, requires a frame or immobilization mask, and is incapable of real-time closed-loop feedback head motion corrections when the treatment beam is on. The CyberKnife Synchrony only executes _a-priori_ trajectories, and is only FDA-approved for lung tumors' treatment; correction requirements in systems such as this require far less accuracy, typically \\(< 5mm\\)<sup>[Keall-Report]</sup>than brain targets. Additonally, real-time closed-loop head motion compensation for the CyberKnife system is inhibited by its high load-to-weight ratio; at 160kg the load at the end of a long robotic arm would require rapid movement in response to random real-time head pose changes. Its high rigidity and setup distance from the patient magnifies error from the shoulder out to the end effector. This is a recipe for large end effector velocities and acceleration that would significantly affect dose delivery. 
 
-+ are incapable of providing sophisticated 3D manipulation with their constant-curvature components; and
+Frameless and maskless (F&M) positioning systems is an emerging non-invasive immobilization system in radiosurgery that works without utilizing rigid masks and frames so as to ensure dose delivery precision while keeping the patient comfortable during treatment. The goal is to correct patient motion, ideally with a closed-loop feedback controller implemented on a high-precision robotic system in real-time during RT. Recent F&M research research directions include the steel-cast assembled 4-DOF robot of [Wiersma Group][Xinmin4DOF] which corrected translational motion and a pitch rotational head motion; the HexaPOD parallel manipulator of [Coventry Uni's Group][HerrmannHexaPODMPC] which utilized a system identification and model predictive control approach to correct a tumor position on an Hexapod, or the in-house fabricated 6-DOF Stewart-Gough platform of [Wiersma Group][BelcherThesis]. However, these systems share common drawbacks e.g.
 
-+ the inadvertent respiratorial and internal organ motions often induce deviation from a target beyond the recommentations of AAPM Task Group 17, namely 2mm and 2 degrees tolerance.
-
-In my line of work, we try to sidestep these issues. Our philosophy is to do away with radio-opaque/rigid bodies in the compensation mechanism. Fundamentally, we utilize inflatable air bladders (`IABs`) to mitigate these highlighted issues. These `IABs` are continuum, compliant and configurable (C<sup>3</sup>) soft elastomeric actuators that provide therapeutic and comfortable patient motion compensation during RT. Most of my PhD work was focussed on a system identification and statistical approach to their modeling; owing to their medium fidelity in control scenarios, I mitigated unmodeled dynamics and model uncertainties using standard techniques from indirect adaptive control (with projection to handle unbounded errors), optimal control (for setpoint/trajectory regulation) and some neural network adaptive control laws to mitigate unmodeled uncertainties in the system model. In the latter part of my PhD, I started thinking more about deriving closed-form expressions for their kinematics. With continuum mechanics and elastic deformations, we are now able to derive the `soft ik`,  and the dynamical model that governs their deformation is derived from `Cauchy's laws of motion` and `Truesdell's determinism for the stress principle`. Writing the direct kinematics of the mechanism becomes a relatively easier problem, allowing for elegant mathematical formulae in predicting a deformation behavior under a given stress and/or internal pressurization. A prototype of the SoRo Mechanism for manipulating the H&N region of a patient in stereotactic radiosurgery is shown in Fig. 3.
++ given their constant-curvature end-effectors/platforms, they are incapable of providing sophisticated manipulation eg for the inadvertent respiratory motions that often induce deviation from a target;
+    
++ being made out of rigid bodies, the attenuation of ionizing radiation dose has to be factored into treatment plans when these systems get commissioned; and
+    
++ exhibiting planar platforms/tool frames, there is an inherent delay in head motion compensation along the patient's frontal axis that may inhibit clinical accuracy.
+ 
+To improve the treatment planning process, these drawbacks need to be addressed. This would require the interdisciplinary effort of engineers, roboticists, physicists, and surgeons alike. In my line of work, we try to sidestep these issues. Our philosophy is to do away with radio-opaque/rigid bodies in the compensation mechanism. Fundamentally, we utilize inflatable air bladders (`IABs`) to mitigate these highlighted issues. These `IABs` are continuum, compliant and configurable (C<sup>3</sup>) soft elastomeric actuators that provide therapeutic and comfortable patient motion compensation during RT. Most of my PhD work was focussed on a system identification and statistical approach to their modeling; owing to their medium fidelity in control scenarios, I mitigated unmodeled dynamics and model uncertainties using standard techniques from indirect adaptive control (with projection to handle unbounded errors), optimal control (for setpoint/trajectory regulation) and some neural network adaptive control laws to mitigate unmodeled uncertainties in the system model. In the latter part of my PhD, I started thinking more about deriving closed-form expressions for their kinematics. With continuum mechanics and elastic deformations, we are now able to derive the `soft ik`,  and the dynamical model that governs their deformation is derived from `Cauchy's laws of motion` and `Truesdell's determinism for the stress principle`. Writing the direct kinematics of the mechanism becomes a relatively easier problem, allowing for elegant mathematical formulae in predicting a deformation behavior under a given stress and/or internal pressurization. A prototype of the SoRo Mechanism for manipulating the H&N region of a patient in stereotactic radiosurgery is shown in Fig. 3.
 
 {% 
     include fig.html 
@@ -78,8 +79,8 @@ In my line of work, we try to sidestep these issues. Our philosophy is to do awa
         align='middle'
         caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. ©Lekan Molu, 2019.'
 %}
-
 <br>
+
 They inflate, deflate, extend or contract governed by their material moduli, incompressibility and internal pressurization when given a reference trajectory. By controlling the amount of fluid in the internal cavities of these IABs, we can compensate motion deviation in real-time. Our hardware design absorbs the reactive pressure from the patient's displacement during manipulation, guaranteeing patient's comfort. Their radio-transparency to ionizing radiation make situating them close to the tumor source an attractive option for fast motion compensation -- mitigating against the inherent delay between the computation of control signals and actuation in rigid compensation works. 
 <!-- 
 For more background on this research, head over to [our group page](https://radonc.uchicago.edu/) and see our publications. -->
@@ -104,7 +105,13 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. -->
 
-#### Miscellaneous
+### Background
+
+I was ~~buttered and bread~~ born and bred in Southern Nigeria. I spent most of my adolescent years in the only logical place in the whole wide world where one can maximize one's 'life-fun-index': [Lagos](https://en.wikipedia.org/wiki/Lagos). I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres. I do have an electric guitar, which I lazily play when I'm depressed. Someday, I do hope to be a street entertainer (_wouldn't that be fun?_).
+There are many places I call home including [Chicago](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), [Lagos](https://en.wiktionary.org/wiki/Lagosian),  [Sheffield](https://www.urbandictionary.com/define.php?term=Sheffielder), and Boston. 
+<!--At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_.  -->
+
+### Miscellaneous
 
 +   I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
@@ -153,7 +160,7 @@ People often ask me how to pronounce my name, and its meaning. Here we go:
 + Lekan is pronounced "Lay-con", or "Lay-kañ", where "añ" is akin to the intonation of "ION" in say, "captION".  
 
 + My last name is rather a little long-winding to roll on the tongue. But let me deconstruct its meaning first. From what I understand, my paternal ancestors
-migrated from the Delta area of Nigeria (Warri, specifically) to Yorubaland many generations ago. They fully assimilated into the local Yoruba culture, and became part [Ifá](https://en.wikipedia.org/wiki/If%C3%A1) divinators, and part [Ogun](https://en.wikipedia.org/wiki/Ogun)  worshippers to boot (it is rather amusing that I chose the Engineering profession given that Ogun is generally worshipped by blacksmiths and technologists); "molu" is a compressed form of "mu olu", often abbreviated as "m'olu" or "molu" in contemporary Yoruba; it means "to take victory" or something of that facsimile. If you're catching my drift already, you'll see where this is going: Ogunmolu means "the god of iron prevailed". It's altogether pronounced as "O-goon-moe-loo". There you go.
+migrated from the Delta area of Nigeria (Warri, specifically) to Yorubaland many generations ago. They fully assimilated into the local Yoruba culture, and became part [Ifá](https://en.wikipedia.org/wiki/If%C3%A1) divinators, and part [Ogun](https://en.wikipedia.org/wiki/Ogun)  worshippers to boot (it is rather amusing that I chose the Engineering profession given that Ogun is generally worshipped by blacksmiths and technologists); "molu" is a compressed form of "mu olu", often abbreviated as "m'olu" or "molu" in contemporary Yoruba; it means "to take victory" or something of that facsimile. If you're catching my drift already, you'll see where this is going: Ogunmolu means "the god of iron prevailed". It's altogether pronounced as "O-goon-moh-loo". There you go.
 
 
 +   When I am not busy, I am probably on [quora](https://www.quora.com/profile/Lekan-4), the [ros answers forum](http://answers.ros.org) or the [pytorch forum](http://discuss.pytorch.org) answering and posting questions.
@@ -162,3 +169,22 @@ migrated from the Delta area of Nigeria (Warri, specifically) to Yorubaland many
 [iros-paper]: https://arxiv.org/abs/1703.03821v3
 
 -->
+
+#### References 
+
+
+[Keall, Paul J., Gig S. Mageras, James M. Balter, Richard S. Emery, Kenneth M. Forster, Steve B. Jiang, Jeffrey M. Kapatoes et al. "The management of respiratory motion in radiation oncology report of AAPM Task Group 76 a." Medical physics 33, no. 10 (2006): 3874-3900.][Keall-Report]
+
+[Keall-Report]: https://scholar.google.com/scholar_url?url=https://aapm.onlinelibrary.wiley.com/doi/full/10.1118/1.2349696&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=16883262995404466763&ei=kPG_XbPSBM32mQHzlZmoAw&scisig=AAGBfm0_dEagRqfdmdv2HRGW96vZ4Y8Vxw
+
+[Liu, Xinmin, Andrew H. Belcher, Zachary Grelewicz, and Rodney D. Wiersma. "Robotic stage for head motion correction in stereotactic radiosurgery." In 2015 American Control Conference (ACC), pp. 5776-5781. IEEE, 2015.][Xinmin4DOF]
+
+[Xinmin4DOF]: https://scholar.google.com/scholar_url?url=https://www.researchgate.net/profile/Xinmin_Liu2/publication/282928634_Robotic_stage_for_head_motion_correction_in_stereotactic_radiosurgery/links/5693b99408ae820ff0727bb5/Robotic-stage-for-head-motion-correction-in-stereotactic-radiosurgery.pdf&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=306093932951640353&ei=5fK_Xej2KIjTmQH4ho_oBw&scisig=AAGBfm01ovpaXREjk99p5H5DtD2mXLprAA
+
+[Herrmann, Christian, Lei Ma, and Klaus Schilling. "Model predictive control for tumor motion compensation in robot assisted radiotherapy." IFAC Proceedings Volumes 44, no. 1 (2011): 5968-5973.][HerrmannHexaPODMPC]
+
+[HerrmannHexaPODMPC]: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S147466701644560X&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=12168071717874672865&ei=FfO_XY2MOIeQmAGr1puoAg&scisig=AAGBfm3ImR8PwLFO61aeFdeeorV6DpLtqw
+
+[Patient Motion Management with 6DOF Robotics for Frameless and Maskless Stereotactic Radiosurgery][BelcherThesis]
+
+[BelcherThesis]: https://scholar.google.com/scholar_url?url=http://search.proquest.com/openview/c8ffdee64db65e61136903fcfc899c07/1%3Fpq-origsite%3Dgscholar%26cbl%3D18750%26diss%3Dy%26casa_token%3DRyN4hR-RX8cAAAAA:lfnvPQ8e9anJyXH_PlGRZkWVs3C7QnyXufLaz4sgk-6RbldrubjV5hn-9SNYoLb8lSBgbMkA-A&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=6826969054585395406&ei=SfO_XemdBYeQmAGr1puoAg&scisig=AAGBfm2cw00mWWKT2yCH8irjsl3oasping
