@@ -17,7 +17,7 @@ Welcome to my web presence! I am an `interdisciplinary researcher` who combines 
 <!-- My work has made meaningful impact in disciplines within and outside medicine and engineering, with citations from government and highered learning research institutions across the globe. 
 Example institutions that have used my work include the National Aeronautics and Space Agency's Jet Propulsion Laboratory (NASA JPL), the 6th R&D institute of South Korea's Agency for Defense Development, Uber AI Labs, and the Chinese Academy of Sciences among others. -->
 
-### Origin of this Specie
+### On the Origin of this Specie
 
 
 I was ~~buttered and bread~~ born and bred in Southern Nigeria. I spent most of my adolescent years in the only logical place in the whole wide world where one can maximize one's 'life-fun-index': [Lagos](https://en.wikipedia.org/wiki/Lagos). I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres. I do have an electric guitar, which I lazily play when I'm depressed. Someday, I do hope to be a street entertainer (_wouldn't that be fun?_).
