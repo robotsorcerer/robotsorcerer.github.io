@@ -2,7 +2,7 @@ publications:
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of a Soft Continuum in-Parallel Manipulator' #: Application to Cranial Cancer Radiosurgery'
-        location: /downloads/Papers/kinecontrol.pdf
+        location: #/downloads/Papers/kinecontrol.pdf
         authors: 
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
