@@ -5,11 +5,11 @@ permalink: pubs
 <?php include_once("analyticstracking.php") ?>
 
 <table class="table table-hover" >
-	<!--For the IEEE publications on this page, be sure to follow the <a href="https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/policy-posting-your-journal-article">IEEE ethics and guidelines policy</a> when citing or using any of these materials. A skeleton of the policy is posted in the following paragraph.
+	<!--For the IEEE publications on this page, be sure to follow the <a href="https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/policy-posting-your-journal-article">IEEE ethics and guidelines policy</a> when citing or using any of these materials. A skeleton of the policy is posted in the following paragraph. Unless a manuscript has not been published, personal use of any of these materials is permitted.
+
 	<hr> -->
 
-© 2019 IEEE.  Unless a manuscript has not been published, personal use of any of these materials is permitted.
-
+© 2019 IEEE.  
 Permission from IEEE must be obtained for all IEEE publications for other uses, in any current or future media, including reprinting/republishing any of these materials for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of these works in other works.<br><br>
 
 <center>
@@ -49,7 +49,7 @@ Permission from IEEE must be obtained for all IEEE publications for other uses, 
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %}<br>
-		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.paper_status }} {{ paper.year }}.
+		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> ({{ paper.paper_status }}) {{ paper.year }}.
 			      		</td>
 		      		</tr>
 		      	{% endif %}
