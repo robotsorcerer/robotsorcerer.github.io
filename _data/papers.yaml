@@ -6,9 +6,9 @@ publications:
         authors: 
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
-        venue: #IEEE Transactions on Robotics (T-RO)
+        venue: IEEE Transactions on Robotics (T-RO)
         paper_status: Working Manuscript
-        year: 2020    
+        year: Spring 2020    
   - items: 'TRO2019!'
     paperitems:
       - title: 'Real-Time Six-DOF Patient Motion Correction in Robotic Radiosurgery with a Soft Robot Mechanism'
@@ -16,9 +16,9 @@ publications:
         authors: 
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://journals.sagepub.com/home/ijr
-        venue: #The International Journal of Robotics Research (IJRR)
+        venue: The International Journal of Robotics Research (IJRR)
         paper_status: Working Manuscript
-        year: 2020       
+        year: Spring 2020       
 
   # - items: 'RAL/IROS2020!'
   #   paperitems:
