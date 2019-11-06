@@ -102,7 +102,7 @@ GEM
       domain_name (~> 0.5)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.6.2)
+    jekyll (3.6.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -292,6 +292,7 @@ DEPENDENCIES
   github-pages
   html-proofer (~> 3.0.6)
   html5_validator (~> 1.0)
+  jekyll (>= 3.6.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   tzinfo-data
