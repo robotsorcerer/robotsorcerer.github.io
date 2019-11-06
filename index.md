@@ -50,7 +50,7 @@ title: Lekan
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
-<p>At heart, I am an explorer. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week (riding rain or shine, hell or highwater during the cycling season). I've ridden in the parching heats of sultry Texas, and the cold winds of the  Midwest and the Eastern Seaboard of the United States. In the winter seasons, I get sloppy with my usual ride schedule and pile on more fat :-). 
+<p>Regular mortal on two wheels hoping to someday be a world champ here. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week during cycling season (riding rain or shine, hell or highwater during the cycling season). I ride in the parching heats of sultry Texas, the blustering cold winds of the  Midwest and the Eastern Seaboard. In the winter seasons, I get sloppy with my usual ride schedule and pile on more fat :-). 
 <!--   I own a 62cm  2018 <a href="https://www.trekbikes.com/us/en_US/us/en_US/bikes/road-bikes/performance-road-bikes/domane/domane-al/domane-al-3/p/23526/">TREK Domane AL3</a> road bike.  -->
   States where I have ridden so far include Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey. Below is a screenshot of my recent activities summary. Feel free to follow me on Strava as I pursue <i>life, liberty and the trails!</i></p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
