@@ -8,7 +8,7 @@ publications:
         venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: IEEE Transactions on Robotics (T-RO).
         paper_status: Working Manuscript
-        year: Spring 2020    
+        year: Winter 2020    
   - items: 'TRO2019!'
     paperitems:
       - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
@@ -18,7 +18,7 @@ publications:
         venue_web: https://journals.sagepub.com/home/ijr
         venue: The International Journal of Robotics Research (IJRR).
         paper_status: Working Manuscript
-        year: Spring 2020       
+        year: Winter 2020       
 
   # - items: 'RAL/IROS2020!'
   #   paperitems:
