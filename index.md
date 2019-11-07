@@ -45,8 +45,6 @@ title: Lekan
 + <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am currently reading/implementing.
 <!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
 + <a href="{{ site.url }}/readlist18" target="blank"> summer'18 reading list</a>:  Bellman and Optimal Control.
-<!-- + <a href="https://github.com/lakehanne/conference-tracker"> control/robotics/ai conference tracker</a> -->
-<!-- + <a href="https://github.com/lakehanne/research-group-resources">research group resources</a>:  Borrowed from Jean Yang -->
 
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
