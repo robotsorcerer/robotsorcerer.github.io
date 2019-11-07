@@ -5,7 +5,7 @@ news_items:
                   robot statics and kinematics, robot dynamics and control, along with  deep reinforcement learning for trajectory optimization, 
                   I will strive to have all lecture notes and software available on the <a href="https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100">
                   Brandeis RBOT250 website when I am allowed to.</a>'
-        highlight: true
+        highlight: false
         date: Nov 07, 2019 
   - items: 'PHinisheD!'
     subnewsitems:
