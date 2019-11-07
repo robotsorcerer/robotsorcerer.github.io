@@ -11,7 +11,7 @@ publications:
         year: Spring 2020    
   - items: 'TRO2019!'
     paperitems:
-      - title: 'Trajectory Optimization on a Soft Continuum in-Parallel Manipulator'
+      - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
         location: /downloads/Papers/ijrr.pdf
         authors: 
           - <b>Olalekan Ogunmolu.</b>
