@@ -1,7 +1,7 @@
 publications: 
   - items: 'TRO2019!'
     paperitems:
-      - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot Manipulator' #: Application to Cranial Cancer Radiosurgery'
+      - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot Manipulator: Application to Cranial Cancer Radiosurgery'
         location: /downloads/Papers/kinecontrol.pdf
         authors: 
           - <b>Olalekan Ogunmolu.</b>
