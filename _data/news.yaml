@@ -1,7 +1,7 @@
 news_items:
   - items: Brandeis
     subnewsitems:
-      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring of 2020 as an Adjunct Faculty. Basically, I'll be synthesizing
+      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring of 2020 as an Adjunct Faculty. Basically, I will be synthesizing
                   robot statics and kinematics, robot dynamics and control, along with  deep reinforcement learning for trajectory optimization. 
                   I will strive to have all lecture notes and software available on the <a href="https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100">
                   RBOT250 website</a> to the extent that my employer allows.'
