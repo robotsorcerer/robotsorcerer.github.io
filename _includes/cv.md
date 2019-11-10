@@ -53,22 +53,21 @@
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
- -  NSF Doctoral Consortium Award 
- -  Mary and Richard Templeton Graduate Fellowship 
- -  Ericsson Graduate Fellowship  
- -  President’s Teaching Excellence Award for Teaching Assistants 
- -  Jonsson Scholarship
- -  Golden Key Honor
- -  IEEE Robotics and Automation Society/Society of Industrial and Applied Maths Travel Award 
- -  IEEE Robotics and Automation Society Travel Award 
- -  Google AI Travel and Conference Grant 
- -  ROSCon Scholarship 
+ -  NSF Doctoral Consortium Award, 2017
+ -  Mary and Richard Templeton Graduate Fellowship, 2017 
+ -  Ericsson Graduate Fellowship, 2015
+ -  President’s Teaching Excellence Award for Teaching Assistants, Nom. 2017
+ -  Jonsson Scholarship, 2014
+ -  Golden Key Honor, 2016
+ -  IEEE Robotics and Automation Society/International Symposium on Assembly and Manufacturing (ISAM) Travel Award, 2016
+ -  IEEE Robotics and Automation Society Travel Award, 2018
+ -  Google AI Travel and Conference Grant, 2018
+ -  ROSCon Scholarship, 2017
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
   - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
   - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
-  - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233).
   - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521).
   - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
   - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/)
