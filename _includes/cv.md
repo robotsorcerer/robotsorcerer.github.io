@@ -59,7 +59,7 @@
  -  President’s Teaching Excellence Award for Teaching Assistants 
  -  Jonsson Scholarship
  -  Golden Key Honor
- -  IEEE Robotics and Automation Society/Society of Industrial and Applied Maths Travel Award 
+ -  IEEE Robotics and Automation Society/International Symposium on Assembly and Manufacturing (ISAM) Travel Award 
  -  IEEE Robotics and Automation Society Travel Award 
  -  Google AI Travel and Conference Grant 
  -  ROSCon Scholarship 
@@ -68,7 +68,6 @@
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
   - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
   - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
-  - [IOP: Measurement Science and Technology. A Journal of the  Institute of Physics](https://iopscience.iop.org/journal/0957-0233).
   - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521).
   - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
   - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/)
