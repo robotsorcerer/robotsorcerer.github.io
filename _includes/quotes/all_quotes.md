@@ -1,3 +1,10 @@
+"_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier
+
+"_But, after all, the sciences have made progress, because philosophers have applied themselves with more attention to observe, and have communicated to their language that precision and accuracy which they have employed in their observations: In correcting their language they reason better._" ~ Abbé de Condillac
+
+"_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
+
+
 "_Robotics is not a single idea. It is a substantial body of scientific and engineering results, accumulated over centuries. It draws primarily from mathematics, physics, mechanical engineering, and computer science, but also from philosophy, psychology, biology and other fields. Robotics is the gathering place of these ideas. Robotics provides motivation. Robotics tests ideas and steers continuing research. Finally, robotics is the proof. Observing a robot’s behavior is the nearly compelling proof that machines can be aware of their surroundings, can develop meaningful goals, and can act effectively to accomplish those goals._" ~ Matthew Mason
 
 "_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck
@@ -14,19 +21,23 @@
 most – that is, by another analogy, those who are tilling
 constantly the ground in their garden._" ~ Ramón y Cajal, Letters to a Young Investigator
 
+"_The impossibility of separating the nomenclature of a science from the science itself, is owing to this, that every branch of physical science must consist of three things; the series of facts which are the objects of the science, the ideas which represent these facts, and the words by which these ideas are expressed. Like three impressions of the same seal, the word ought to produce the idea, and the idea to be a picture of the fact. And, as ideas are preserved and communicated by means of words, it necessarily follows that we cannot improve the language of any science without at the same time improving the science itself; neither can we, on the other hand, improve a science, without improving the language or nomenclature which belongs to it. However certain the facts of any science may be, and, however just the ideas we may have formed of these facts, we can only communicate false impressions to others, while we want words by which these may be properly expressed._" ~ Antoine Lavoisier
+
 "_It is one of the first duties of a professor, for example, in any subject, to exaggerate a litle both the importance of his subject and his own importance in it_” ~ G. H. Hardy, 1940
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
 
 "_Classical mathematics concentrated on linear equations for a sound pragmatic reason: it could not solve anything else._" ~ Ian Stewart
 
-"_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
+_"Instead of applying observation to the things we wished to know, we have chosen rather to imagine them. Advancing from one ill founded supposition to another, we have at last bewildered ourselves amidst a multitude of errors. These errors becoming prejudices, are, of course, adopted as principles, and we thus bewilder ourselves more and more. The method, too, by which we conduct our reasonings is as absurd; we abuse words which we do not understand, and call this the art of reasoning. When matters have been brought this length, when errors have been thus accumulated, there is but one remedy by which order can be restored to the faculty of thinking; this is, to forget all that we have learned, to trace back our ideas to their source, to follow the train in which they rise, and, as my Lord Bacon says, to frame the human understanding anew._" ~ Abbé de Condillac
 
-"_"Simulations are like Michelin star restaurants but should be like McDonald's: ubiquitous and standardised_" ~ Craig Mcllhenny
+_"Simulations are like Michelin star restaurants but should be like McDonald's: ubiquitous and standardised_" ~ Craig Mcllhenny
 
 "_...there is every reason to believe that when the human intellect ignores reality and concentrates within, it can no longer explain the simplest inner workings of life's machinery or of the world around us._" ~ Ramón y Cajal, Letters to a Young Investigator
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientists into government contractors_" ~ PNA Report
+
+"_It is a maxim universally admitted in geometry, and indeed in every branch of knowledge, that, in the progress of investigation, we should proceed from known facts to what is unknown. In early infancy, our ideas spring from our wants; the sensation of want excites the idea of the object by which it is to be gratified. In this manner, from a series of sensations, observations, and analyses, a successive train of ideas arises, so linked together, that an attentive observer may trace back to a certain point the order and connection of the whole sum of human knowledge._" ~ Carmen Giunta
 
 "_Jira's actually pretty great if you set it up correctly. The ninth circle of hell is trying to manage complex, interconnected projects across multiple teams with multiple milestones in GitHub issues and project boards. There's a place for both._" ~ Brandon Black
 
@@ -97,8 +108,8 @@ The challenge is there, but even very small boys do not
 accept all dares._”
                 – Richard E. Bellman
 
-"_Finally, I’d like to challenge you to think of a PhD as more than just a sequence of papers. You’re not a paper writer. You’re a member of a research community and your goal is to push the field forward. Papers are one common way of doing that but I would encourage you to look beyond the established academic game. Think for yourself and from first principles. Do things others don’t do but should. Step off the treadmill that has been put before you._"
-                -- Andrej Karpathy
+<!-- "_Finally, I’d like to challenge you to think of a PhD as more than just a sequence of papers. You’re not a paper writer. You’re a member of a research community and your goal is to push the field forward. Papers are one common way of doing that but I would encourage you to look beyond the established academic game. Think for yourself and from first principles. Do things others don’t do but should. Step off the treadmill that has been put before you._"
+                -- Andrej Karpathy -->
 
 “_Math is not something boys are better at, it’s not a spectator sport,
   it’s not a system of arbitrary rules, it’s not dependent on the laws of physics,
@@ -134,6 +145,8 @@ cannot fix it without rewriting your app._”
 
 "_Religion is a very useful tool to give meaning to the unknown; but science or philosophy gives more accurate explanations._" -  Cesar Diaz
 
+"_We ought, in every instance, to submit our reasoning to the test of experiment, and never to search for truth but by the natural road of experiment and observation. Thus mathematicians obtain the solution of a problem by the mere arrangement of data, and by reducing their reasoning to such simple steps, to conclusions so very obvious, as never to lose sight of the evidence which guides them._" ~ Lavoisier
+
 “_What I cannot create, I do not understand._”
                       – Richard Feynman
 
@@ -157,6 +170,8 @@ met._”
 
 “_He was very clear that entering a new field always meant discomfort. It was hard to raise money to do an experiment, and the existing experts would resent your entry. He told me that the only way to do it was with complete humility; you had to recognize that you didn’t know much. You have to become a student again. No shortcuts. Before you talk to any of the experts, study hard so that they won’t feel that you are wasting their time. If you can bring something new to an existing field, then you might make an important discovery._”
 						– <a href="https://www.quora.com/What-has-enabled-Richard-Muller-to-live-such-an-interesting-life">Richard Muller on Luis Alvarez</a>
+
+"_In the study and practice of the sciences it is quite different; the false judgments we form neither affect our existence nor our welfare; and we are not forced by any physical necessity to correct them. Imagination, on the contrary, which is ever wandering beyond the bounds of truth, joined to self-love and that self-confidence we are so apt to indulge, prompt us to draw conclusions which are not immediately derived from facts; so that we become in some measure interested in deceiving ourselves. Hence it is by no means to be wondered, that, in the science of physics in general, men have often made suppositions, instead of forming conclusions. These suppositions, handed down from one age to another, acquire additional weight from the authorities by which they are supported, till at last they are received, even by men of genius, as fundamental truths._"  ~ Lavoisier       
 
 “_Johnny von Neumann was a great mathematician and a great physicist.
   So someone (I don’t remember who) challenged him with this problem:
@@ -190,3 +205,5 @@ For the Snark was a Boojum, you see._”
 
 “_Towering genius disdains a beaten path. It seeks regions hitherto unexplored._”
                       – Abraham Lincoln
+
++ [Useful Links](http://web.lemoyne.edu/giunta/EA/LAVPREFann.HTML#foot3)                    
