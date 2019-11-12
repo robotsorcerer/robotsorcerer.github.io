@@ -73,7 +73,7 @@ publications:
         paper_status: Accepted
   - items: 'Springer2019!'
     paperitems:
-      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiosurgery
+      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
         location: /downloads/Papers/Springer19.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b> and
@@ -86,7 +86,7 @@ publications:
     paperitems:
       - title: 'Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose 
                 Correction System For Frameless and Maskless Cancer Radiotherapy'
-        location: 'https://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017.pdf' #https://ieeexplore.ieee.org/abstract/document/8206211
+        location: https://ieeexplore.ieee.org/abstract/document/8206211
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Adwait Kulkarn, 
@@ -107,7 +107,7 @@ publications:
           - <b>Olalekan Ogunmolu</b>,
           - Steve Jiang, and 
           - Dan Nguyen.
-        venue_web: #https://link.springer.com/book/10.1007/978-3-030-32486-5
+        venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature 
         paper_status: Accepted
         year: Switzerland AG 2019  
@@ -197,7 +197,7 @@ publications:
           - Xuejun Gu, 
           - Steve Jiang, and 
           - Nick Gans.
-        venue_web: 'https://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016.pdf'
+        venue_web: https://ieeexplore.ieee.org/document/7743378 #'https://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016.pdf'
         venue: IEEE Conference on Automation Science and Engineering (CASE)
         year:  Fort-Worth, Texas, August 2016
         paper_status: Accepted
@@ -205,9 +205,9 @@ publications:
     paperitems:
       - title: 'A Real-Time Soft-Robotic Patient Positioning 
                 System for Maskless Head-and-Neck Cancer Radiotherapy'
-        location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
+        location: https://ieeexplore.ieee.org/document/7294318 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
         authors: 
-          - <b>Olalekan Ogunmolu</b>,
+          - <b>Olalekan P. Ogunmolu</b>,
           - Xuejun Gu, 
           - Steve Jiang, and 
           - Nick Gans.
