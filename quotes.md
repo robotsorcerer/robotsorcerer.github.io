@@ -7,6 +7,8 @@ layout: post
 ###### [Science Luminaries](#sci-lum)
 ###### [Worst Predictions](#worst-preds) -->
 
+> Good for the soul. Quotes that youse can use. 
+
 <br>
 <a name="sci-lum"></a>
 {% include_relative _includes/quotes/all_quotes.md %}
