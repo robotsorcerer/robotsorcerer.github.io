@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: research
 mathjax: true
 ---
@@ -10,7 +10,7 @@ mathjax: true
 <a name="research"></a>
 ### Research Abridgment
 
-> An overview of my current research
+> Research Propagandings: An overview of my current research.
 
 
 Across our planet, in rich and poor nations alike, cancer remains an existential burden on healthful living.  In 2019 alone, an estimated 1,762,450 new cancer cases will be diagnosed in the United States, whereupon 606,880 cases will lead to fatality<sup>[ACS 2019](https://www.cancer.org/research/cancer-facts-statistics/all-cancer-facts-figures/cancer-facts-figures-2019.html)</sup>. This is projected to cost approximately $147.3 billion or 4.2% of overall health care spending (per 2017 budget). Cancer mortality is having pronounced effects on low- and middle-income countries as well with the International Agency for Research on Cancers estimating that the highest cancer incidence will fall on low- and middle-income countries over the coming decades <sup>[IARC Report 2019][IARC2019]</sup>. 
