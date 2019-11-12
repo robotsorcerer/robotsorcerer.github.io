@@ -8,8 +8,7 @@
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019 - Present).
   - Adjunct Instructor, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), Robot Manipulation, Motion Planning and Control,  (2019 - Present).
-  -  Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019).
-  -  Student, [The University of Sheffield, School of Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012).
+  -  Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019). Amy Johnson Building, Automatic Control and Systems Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012/2013).
   - Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Previous Company Affiliations</h4>
