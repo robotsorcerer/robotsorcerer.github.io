@@ -37,6 +37,7 @@ title: Lekan
 + <a href="https://github.com/lakehanne/awesome-screw-theory" target="blank"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
 + <a href="https://github.com/lakehanne/screws" target="blank"> screw theory and elastic deformations: </a> screw theory applied to continuum syntheses. codes and  examples.
 + <a href="https://github.com/lakehanne/shells.git" target="blank"> bourne again shells</a>: short & fun bash scripts.
++ <a href="/SWEngr" target="blank"> data structure commons</a>: my solutions (in python) to a collection of interesting software engineering questions at The FAANG. 
 + <a href="https://github.com/lakehanne/Savitzky-Golay" target="blank">savgol</a>: a c++11 implementation of the vandermonde matrix as well as savityzky-golay differentiation filter and smoothing coefficients.
 + <a href="https://github.com/lakehanne/gps" target="blank">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ros indigo.
 + <a href="https://github.com/lakehanne/keyence" target="blank">keyence</a>: basic api in c and c++ for streaming sensed data from the <a href="https://www.keyence.com/landing/measure/lp_blp_ljv_1079.jsp?aw=google-kaenLJ213101bb-br&k_clickid=0b5a6233-6a63-4e33-9721-b8207086947a&gclid=CjwKCAjwo9rtBRAdEiwA_WXcFvZDgBqvXU8-yPeZJrXOrhdXY-t-cM62PvMffbMwAmovJDj-uPjSIhoCyAEQAvD_BwE" target="blank">keyence LJV-7300 line scanners factory api</a>.
