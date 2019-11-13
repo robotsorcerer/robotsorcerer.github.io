@@ -6,8 +6,10 @@
 
 + All I Have (Oh How You Love Me) -- Rita Springer
 
-+ Lauura Story - What A Savior - Ble
++ [What A Savior, Lauura Story]()
 
 ### Sick Country Beats
 
-+ [Head over boots, Jon Pardi]()
++ [Head over boots, Jon Pardi](https://www.youtube.com/watch?v=3odIdmuFfEY)
+
++ [Stand at your window, Jim Reeves](https://www.youtube.com/watch?v=tBeBn5-3_x0)
