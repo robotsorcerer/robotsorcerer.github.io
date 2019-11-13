@@ -11800,7 +11800,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -11813,9 +11813,12 @@ div#notebook {
 <span class="kn">from</span> <span class="nn">scipy.sparse</span> <span class="k">import</span> <span class="n">vstack</span>
 <span class="kn">from</span> <span class="nn">os.path</span> <span class="k">import</span> <span class="n">join</span><span class="p">,</span> <span class="n">expanduser</span>
 <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="k">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="c1"># you are gonna need this folder, maybe talk to azar; she might still have it; </span>
-<span class="c1"># otherwise, I saved one on my old desktop if Dan has not wiped it</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;C:\Users\Lekan\Documents\vmspy&#39;</span><span class="p">)</span>  
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">you are gonna need this folder; </span>
+<span class="sd">mike probably pushed it somewhere online. </span>
+<span class="sd">a quick search may turn it up</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;\path\to\your\local\vmspy&#39;</span><span class="p">)</span>  
 <span class="kn">import</span> <span class="nn">pysapi</span>
 <span class="kn">from</span> <span class="nn">pysapi.tools.plans</span> <span class="k">import</span> <span class="n">dose_influence_matrix</span>
 <span class="kn">from</span> <span class="nn">pysapi.tools.structures</span> <span class="k">import</span> <span class="n">dvh_relative</span>
