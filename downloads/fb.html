@@ -12581,6 +12581,7 @@ new contents:  [6, 2, 9, 17, 3]
         <span class="n">node_r</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">p</span>
         <span class="k">while</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">node_r</span><span class="p">,</span> <span class="n">BSTNode</span><span class="p">)</span> <span class="ow">and</span> <span class="n">node</span><span class="o">==</span><span class="n">node_r</span><span class="o">.</span><span class="n">right</span><span class="p">:</span>
             <span class="n">node</span> <span class="o">=</span> <span class="n">node_r</span>
+            <span class="n">node_r</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">p</span>
         <span class="k">return</span> <span class="n">node_r</span>
 
     <span class="k">def</span> <span class="nf">insert</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
