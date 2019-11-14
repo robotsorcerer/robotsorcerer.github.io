@@ -64,7 +64,7 @@
  -  Google AI Travel and Conference Grant, 2018
  -  ROSCon Scholarship, 2017
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Activities: Peer Research Reviews</h4>
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Research Reviewing Activities</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
   - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
   - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
@@ -75,6 +75,7 @@
   - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
   - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
+  - [ICML, International Conference on Machine Learning](https://icml.cc/)
   - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/).
 
 
