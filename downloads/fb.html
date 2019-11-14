@@ -11789,7 +11789,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># linked list: double linked list</span>
@@ -11818,7 +11818,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;Singly Linked List&#39;</span>
@@ -11828,10 +11828,10 @@ div#notebook {
         
     <span class="k">def</span> <span class="nf">addNode</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
         <span class="n">node</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span>
-        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="n">node</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="n">node</span>
-        <span class="n">node</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="c1">#node.prev = None</span>
 
     <span class="k">def</span> <span class="nf">walk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span>
@@ -11877,7 +11877,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">DoubleLinkedList</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
@@ -11979,7 +11979,7 @@ None
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Sentinel</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
@@ -11991,27 +11991,35 @@ None
         <span class="k">return</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">key</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span>
         
 <span class="k">class</span> <span class="nc">DoubleLinkedListSentinel</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="o">=</span><span class="n">Sentinel</span><span class="p">()):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">senty</span> <span class="o">=</span> <span class="n">node</span> <span class="c1"># start with an empty list</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">head</span><span class="o">=</span><span class="n">Sentinel</span><span class="p">()):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="n">head</span> <span class="c1"># start with an empty list</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">position</span> <span class="o">=</span> <span class="mi">0</span>
         
+    <span class="k">def</span> <span class="nf">size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span>
+        <span class="k">while</span> <span class="n">cur</span><span class="p">:</span>
+            <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">cur</span> <span class="o">=</span> <span class="n">cur</span><span class="o">.</span><span class="n">next</span>
+        <span class="k">return</span> <span class="n">count</span>
+    
     <span class="k">def</span> <span class="nf">insert</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
         <span class="s1">&#39;O(1) worst case time&#39;</span>
-        <span class="n">node</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="o">.</span><span class="n">next</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="n">node</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span>
-        <span class="n">node</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span>
+        <span class="n">node</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="n">node</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span>
+        <span class="n">node</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">position</span> <span class="o">+=</span> <span class="mi">1</span>
         
     <span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
         <span class="s1">&#39;O(n) worst case time&#39;</span>
-        <span class="n">node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="o">.</span><span class="n">next</span>
-        <span class="k">while</span> <span class="p">((</span><span class="n">node</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">val</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">val</span><span class="p">)):</span>
+        <span class="n">node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span>
+        <span class="k">while</span> <span class="p">((</span><span class="n">node</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">val</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">val</span><span class="p">)):</span>
             <span class="n">node</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">next</span>
         <span class="k">return</span> <span class="n">node</span>
     
     <span class="k">def</span> <span class="nf">advance_to_pos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pos</span><span class="p">):</span>
-        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span>
         <span class="k">while</span> <span class="n">pos</span> <span class="o">!=-</span><span class="mi">1</span><span class="p">:</span>
             <span class="n">cur</span> <span class="o">=</span> <span class="n">cur</span><span class="o">.</span><span class="n">next</span>
             <span class="n">pos</span> <span class="o">-=</span> <span class="mi">1</span>
@@ -12022,7 +12030,7 @@ None
         <span class="k">if</span> <span class="n">node</span><span class="o">.</span><span class="n">prev</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">node</span><span class="o">.</span><span class="n">prev</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">next</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">next</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">next</span>
         <span class="k">if</span> <span class="n">node</span><span class="o">.</span><span class="n">next</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">node</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">prev</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">prev</span>
     
@@ -12031,7 +12039,7 @@ None
         <span class="n">node_m</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">advance_to_pos</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
         <span class="n">node_n</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">advance_to_pos</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
         <span class="c1"># advance pointer to node m</span>
-        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span>
         <span class="k">while</span> <span class="n">cur</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">node_m</span><span class="o">.</span><span class="n">next</span><span class="p">:</span>
             <span class="n">cur</span> <span class="o">=</span> <span class="n">cur</span><span class="o">.</span><span class="n">next</span>
         <span class="c1"># start reversing from current node m all the way to node n</span>
@@ -12046,7 +12054,7 @@ None
         
     <span class="k">def</span> <span class="nf">walk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="s1">&#39;O(n) worst case time&#39;</span>
-        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">senty</span><span class="o">.</span><span class="n">next</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">next</span>
         <span class="k">while</span> <span class="n">cur</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">cur</span><span class="p">,</span> <span class="n">Sentinel</span><span class="p">):</span>
             <span class="nb">print</span><span class="p">(</span><span class="s1">&#39; cur_node: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span>
                   <span class="nb">format</span><span class="p">(</span><span class="n">cur</span><span class="p">))</span>
@@ -12086,112 +12094,10 @@ Explanation: 342 + 465 = 807.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-    <span class="nd">@classmethod</span>
-    <span class="k">def</span> <span class="nf">addTwoNumbers</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l1</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">l2</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="n">l1sz</span><span class="p">,</span> <span class="n">l2sz</span> <span class="o">=</span> <span class="n">l1</span><span class="o">.</span><span class="n">getSize</span><span class="p">(),</span> <span class="n">l2</span><span class="o">.</span><span class="n">getSize</span><span class="p">()</span>
-        <span class="k">assert</span> <span class="n">l1sz</span><span class="o">==</span><span class="n">l2sz</span><span class="p">,</span> <span class="s2">&quot;size not equal&quot;</span>
-        
-        <span class="n">returnList</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
-        <span class="n">cur_1</span><span class="p">,</span> <span class="n">cur_2</span> <span class="o">=</span> <span class="n">l1</span><span class="o">.</span><span class="n">head</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">head</span>
-        <span class="n">carry</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="k">while</span> <span class="p">(</span><span class="n">cur_1</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">cur_2</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
-            <span class="n">cur_val</span> <span class="o">=</span> <span class="n">cur_1</span><span class="o">.</span><span class="n">val</span> <span class="o">+</span> <span class="n">cur_2</span><span class="o">.</span><span class="n">val</span> <span class="o">+</span> <span class="n">carry</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">carry</span> <span class="k">else</span> <span class="n">cur_1</span><span class="o">.</span><span class="n">val</span> <span class="o">+</span> <span class="n">cur_2</span><span class="o">.</span><span class="n">val</span>
-            <span class="k">if</span> <span class="n">cur_val</span><span class="o">&lt;=</span><span class="mi">9</span><span class="p">:</span>
-                <span class="n">returnList</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">cur_val</span><span class="p">))</span>
-                <span class="k">del</span> <span class="n">carry</span><span class="p">[::]</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">tostore</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">cur_val</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-                <span class="n">returnList</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">tostore</span><span class="p">))</span>
-                <span class="n">carry</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">cur_val</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
-            <span class="n">cur_1</span><span class="p">,</span> <span class="n">cur_2</span> <span class="o">=</span> <span class="n">cur_1</span><span class="o">.</span><span class="n">next</span><span class="p">,</span> <span class="n">cur_2</span><span class="o">.</span><span class="n">next</span>
-        
-        <span class="n">ret</span> <span class="o">=</span> <span class="n">returnList</span><span class="o">.</span><span class="n">walk</span><span class="p">()</span> <span class="c1">#[x for x in returnList.walk()]</span>
-        <span class="k">return</span> <span class="n">ret</span>
-    
-    <span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">res</span><span class="p">):</span>
-        <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-        <span class="n">l1nums</span> <span class="o">=</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">()[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">l2nums</span> <span class="o">=</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">()[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        
-        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">l1nums</span><span class="p">,</span><span class="n">l2nums</span><span class="p">)</span><span class="o">==</span><span class="nb">int</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">res</span><span class="p">))[</span><span class="mi">0</span><span class="p">])</span>
-
-    
-<span class="c1"># Tests</span>
-<span class="n">l1</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">]:</span>  <span class="n">l1</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-<span class="n">l2</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">]:</span>  <span class="n">l2</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;l1: &#39;</span><span class="p">,</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="n">l1</span><span class="o">.</span><span class="n">getSize</span><span class="p">(),</span> <span class="s1">&#39;l2: &#39;</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="n">l2</span><span class="o">.</span><span class="n">getSize</span><span class="p">())</span>
-    
-<span class="n">sol</span> <span class="o">=</span> <span class="n">Solution</span><span class="p">()</span>
-<span class="n">res</span> <span class="o">=</span> <span class="n">sol</span><span class="o">.</span><span class="n">addTwoNumbers</span><span class="p">(</span><span class="n">l1</span><span class="p">,</span> <span class="n">l2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="mi">199</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span> <span class="c1">#sol.check(res))</span>
-
-<span class="n">l1</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>  <span class="n">l1</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-<span class="n">l2</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
-<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">4</span><span class="p">][::</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>  <span class="n">l2</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;l1: &#39;</span><span class="p">,</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="n">l1</span><span class="o">.</span><span class="n">getSize</span><span class="p">(),</span> <span class="s1">&#39;l2: &#39;</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="n">l2</span><span class="o">.</span><span class="n">getSize</span><span class="p">())</span>
-    
-<span class="n">sol</span> <span class="o">=</span> <span class="n">Solution</span><span class="p">()</span>
-<span class="n">res</span> <span class="o">=</span> <span class="n">sol</span><span class="o">.</span><span class="n">addTwoNumbers</span><span class="p">(</span><span class="n">l1</span><span class="p">,</span> <span class="n">l2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">()</span> <span class="c1">#sol.check(res))</span>
-
-<span class="c1"># fb question: reverse the result</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>l1:  991 3 l2:  991 3
-398 398
-
-l1:  243 3 l2:  564 3
-807
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">You are given two non-empty linked lists representing two non-negative integers. </span>
-<span class="sd">The digits are stored in reverse order and each of their nodes contain a single digit. </span>
-<span class="sd">Add the two numbers and return it as a linked list.</span>
-<span class="sd">You may assume the two numbers do not contain any leading zero, except the number 0 itself.</span>
-
-<span class="sd">Example:</span>
-
-<span class="sd">Input: (2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4)</span>
-<span class="sd">Output: 7 -&gt; 0 -&gt; 8</span>
-<span class="sd">Explanation: 342 + 465 = 807.</span>
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="kn">import</span> <span class="nn">copy</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">copy</span>
     
 <span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
     <span class="nd">@classmethod</span>
@@ -12202,40 +12108,43 @@ l1:  243 3 l2:  564 3
         <span class="n">returnList</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
         <span class="n">cur_1</span><span class="p">,</span> <span class="n">cur_2</span> <span class="o">=</span> <span class="n">l1</span><span class="o">.</span><span class="n">head</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">head</span>
         <span class="n">carry</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="k">while</span> <span class="p">(</span><span class="n">cur_1</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">cur_2</span><span class="p">):</span>
+        <span class="k">while</span> <span class="n">cur_1</span> <span class="ow">and</span> <span class="n">cur_2</span><span class="p">:</span>
             <span class="n">cur_val</span> <span class="o">=</span> <span class="n">cur_1</span><span class="o">.</span><span class="n">val</span> <span class="o">+</span> <span class="n">cur_2</span><span class="o">.</span><span class="n">val</span> <span class="o">+</span> <span class="n">carry</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">carry</span> <span class="k">else</span> <span class="n">cur_1</span><span class="o">.</span><span class="n">val</span> <span class="o">+</span> <span class="n">cur_2</span><span class="o">.</span><span class="n">val</span>
             <span class="k">if</span> <span class="n">cur_val</span><span class="o">&lt;=</span><span class="mi">9</span><span class="p">:</span>
-                <span class="n">returnList</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">ListNode</span><span class="p">(</span><span class="n">cur_val</span><span class="p">))</span>
+                <span class="n">returnList</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">cur_val</span><span class="p">))</span>
                 <span class="k">del</span> <span class="n">carry</span><span class="p">[::]</span>
             <span class="k">else</span><span class="p">:</span>
                 <span class="n">tostore</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">cur_val</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-                <span class="n">returnList</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">ListNode</span><span class="p">(</span><span class="n">tostore</span><span class="p">))</span>
+                <span class="n">returnList</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">tostore</span><span class="p">))</span>
                 <span class="n">carry</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">cur_val</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
             <span class="n">cur_1</span><span class="p">,</span> <span class="n">cur_2</span> <span class="o">=</span> <span class="n">cur_1</span><span class="o">.</span><span class="n">next</span><span class="p">,</span> <span class="n">cur_2</span><span class="o">.</span><span class="n">next</span>
         
-        <span class="n">rl</span> <span class="o">=</span> <span class="n">returnList</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
-        <span class="c1">#print(&#39;rl: &#39;, rl)</span>
-        <span class="k">return</span> <span class="n">rl</span><span class="o">.</span><span class="n">walk</span><span class="p">()</span>
+        <span class="c1">#rl = returnList.reverse()</span>
+        <span class="k">return</span> <span class="n">returnList</span> 
     
-        
-    <span class="k">def</span> <span class="nf">check</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">res</span><span class="p">):</span>
-        <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-        <span class="n">l1nums</span> <span class="o">=</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">()[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">l2nums</span> <span class="o">=</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">()[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        
-        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">l1nums</span><span class="p">,</span><span class="n">l2nums</span><span class="p">)</span><span class="o">==</span><span class="nb">int</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">res</span><span class="p">))[</span><span class="mi">0</span><span class="p">])</span>
+<span class="c1"># Tests</span>
+<span class="n">l1</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">]:</span>  <span class="n">l1</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
+<span class="n">l2</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">]:</span>  <span class="n">l2</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
+    
+<span class="n">sol</span> <span class="o">=</span> <span class="n">Solution</span><span class="p">()</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">sol</span><span class="o">.</span><span class="n">addTwoNumbers</span><span class="p">(</span><span class="n">l1</span><span class="p">,</span> <span class="n">l2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;l1: &#39;</span><span class="p">,</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="s1">&#39;l2: &#39;</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> 
+          <span class="s1">&#39; res: &#39;</span><span class="p">,</span> <span class="n">res</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="s1">&#39; res reversed: &#39;</span><span class="p">,</span> <span class="n">res</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span><span class="o">.</span><span class="n">walk</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">()</span> 
 
+<span class="c1"># Test2</span>
 <span class="n">l1</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">]:</span>  <span class="n">l1</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;l1: &#39;</span><span class="p">,</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="n">l1</span><span class="o">.</span><span class="n">getSize</span><span class="p">())</span>
 <span class="c1">#</span>
 <span class="n">l2</span> <span class="o">=</span> <span class="n">SingleLinkedList</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">4</span><span class="p">]:</span>  <span class="n">l2</span><span class="o">.</span><span class="n">addNode</span><span class="p">(</span><span class="n">Node</span><span class="p">(</span><span class="n">num</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;l2: &#39;</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="n">l2</span><span class="o">.</span><span class="n">getSize</span><span class="p">())</span>
     
-<span class="c1"># sol = Solution()</span>
-<span class="c1"># res = sol.addTwoNumbers(l1, l2)</span>
-<span class="c1"># print(res, 199+199)</span>
+<span class="n">sol</span> <span class="o">=</span> <span class="n">Solution</span><span class="p">()</span>
+<span class="n">res</span> <span class="o">=</span> <span class="n">sol</span><span class="o">.</span><span class="n">addTwoNumbers</span><span class="p">(</span><span class="n">l1</span><span class="p">,</span> <span class="n">l2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;l1: &#39;</span><span class="p">,</span> <span class="n">l1</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="s1">&#39;l2: &#39;</span><span class="p">,</span> <span class="n">l2</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> 
+          <span class="s1">&#39; res: &#39;</span><span class="p">,</span> <span class="n">res</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="s1">&#39; res reversed: &#39;</span><span class="p">,</span> <span class="n">res</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span><span class="o">.</span><span class="n">walk</span><span class="p">())</span>
 </pre></div>
 
 </div>
@@ -12252,8 +12161,9 @@ l1:  243 3 l2:  564 3
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>l1:  342 3
-l2:  465 3
+<pre>l1:  991 l2:  991  res:  398  res reversed:  893
+
+l1:  342 l2:  465  res:  807  res reversed:  708
 </pre>
 </div>
 </div>
@@ -12278,7 +12188,7 @@ l2:  465 3
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -12353,7 +12263,7 @@ new contents:  [15, 6, 2, 9, 17]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Queue</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
@@ -12386,7 +12296,7 @@ new contents:  [15, 6, 2, 9, 17]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">q</span> <span class="o">=</span> <span class="n">Queue</span><span class="p">()</span>
@@ -12436,18 +12346,21 @@ new contents:  [6, 2, 9, 17, 3]
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Hash-Tables">Hash Tables<a class="anchor-link" href="#Hash-Tables">&#182;</a></h1><p>An effective data structure for implementing dickos. While searching for an element in a hash table might take as long as O(n) just as a linked list in worst case, in practice, hashing performs extremely well. Under reasonable assumptions, the average time to search for an element in a hash table is O(1). Directly ad-dressing into an ordinary array makes effective use of our ability to examine an arbitrary position in an array in O(1) time. When the number of keys actually stored is small relative to the total number of possible keys, hash tables become an effective alternative to directly addressing an array, since a hash table typically uses an array of size proportional to the number of keys actually stored. Instead of using the key as an array index directly, the array index is computed from the key. Basic ops require only O(1) time on average. Perfect hashing can support O(1) worst case time, when set of keys being stored is static</p>
+<h1 id="Hash-Tables">Hash Tables<a class="anchor-link" href="#Hash-Tables">&#182;</a></h1><p>An effective data structure for implementing dictionaries. While searching for an element in a hash table might take as long as O(n) just as a linked list in worst case, in practice, hashing performs extremely well. Under reasonable assumptions, the average time to search for an element in a hash table is O(1). Directly addressing into an ordinary array makes effective use of our ability to examine an arbitrary position in an array in O(1) time. When the number of keys actually stored is small relative to the total number of possible keys, hash tables become an effective alternative to directly addressing an array, since a hash table typically uses an array of size proportional to the number of keys actually stored. Instead of using the key as an array index directly, the array index is computed from the key. Basic ops require only O(1) time on average. Perfect hashing can support O(1) worst case time, when set of keys being stored is static</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">DirectAddress</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="sd">&#39;&#39;&#39;Note: Only works well the Universe of keys is reasonably small&#39;&#39;&#39;</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Note: Only works well if the Universe of </span>
+<span class="sd">        keys is reasonably small</span>
+<span class="sd">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">T</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">T</span> <span class="o">=</span> <span class="n">T</span> 
     
@@ -12532,7 +12445,7 @@ new contents:  [6, 2, 9, 17, 3]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Bundle</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
@@ -12548,12 +12461,12 @@ new contents:  [6, 2, 9, 17, 3]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Sentinel</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&#39;&#39;&#39;Place holder for root nodes. I prefer this to None </span>
-<span class="sd">    as an ad hoc python pointer in place od C\&#39;s Null&#39;&#39;&#39;</span>
+<span class="sd">    as an ad hoc python pointer in place of C\&#39;s Null&#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="bp">self</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">right</span>  <span class="o">=</span> <span class="bp">self</span>
@@ -12624,10 +12537,10 @@ new contents:  [6, 2, 9, 17, 3]
             <span class="bp">self</span><span class="o">.</span><span class="n">transplant</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">z</span><span class="o">.</span><span class="n">left</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">minimum</span><span class="p">(</span><span class="n">z</span><span class="o">.</span><span class="n">right</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">z</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">y</span><span class="o">.</span><span class="n">p</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">z</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">transplant</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">y</span><span class="o">.</span><span class="n">right</span><span class="p">)</span>
                 <span class="n">y</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">z</span><span class="o">.</span><span class="n">right</span>
-                <span class="n">y</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">y</span>
+                <span class="n">y</span><span class="o">.</span><span class="n">right</span><span class="o">.</span><span class="n">p</span> <span class="o">=</span> <span class="n">y</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">transplant</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
             <span class="n">y</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">z</span><span class="o">.</span><span class="n">left</span>
             <span class="n">y</span><span class="o">.</span><span class="n">left</span><span class="o">.</span><span class="n">p</span> <span class="o">=</span> <span class="n">y</span>
@@ -12700,7 +12613,7 @@ new contents:  [6, 2, 9, 17, 3]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -12719,10 +12632,10 @@ new contents:  [6, 2, 9, 17, 3]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">inorderwalk</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">inorderwalk</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -12739,7 +12652,17 @@ new contents:  [6, 2, 9, 17, 3]
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>inorderwalking node with key 68
+<pre>inorderwalking node with key 2
+inorderwalking node with key 10
+inorderwalking node with key 14
+inorderwalking node with key 15
+inorderwalking node with key 19
+inorderwalking node with key 28
+inorderwalking node with key 32
+inorderwalking node with key 47
+inorderwalking node with key 54
+inorderwalking node with key 58
+inorderwalking node with key 68
 inorderwalking node with key 81
 inorderwalking node with key 82
 inorderwalking node with key 83
@@ -12754,7 +12677,7 @@ inorderwalking node with key 89
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">unrollsearch</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="mi">45</span><span class="p">)</span>
@@ -12770,7 +12693,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[40]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -12787,7 +12710,7 @@ inorderwalking node with key 89
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">maximum</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -12803,7 +12726,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[41]:</div>
+<div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -12820,7 +12743,7 @@ inorderwalking node with key 89
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">minimum</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -12836,7 +12759,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[42]:</div>
+<div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -12853,7 +12776,7 @@ inorderwalking node with key 89
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
@@ -12885,7 +12808,7 @@ Transplanting 82 with None
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">inorderwalk</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -12940,6 +12863,374 @@ inorderwalking node with key 89
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Insert-Sort">Insert Sort<a class="anchor-link" href="#Insert-Sort">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">insertSort</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+    <span class="c1"># O(n^2) worst case</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
+        <span class="n">key</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">j</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;</span><span class="n">key</span><span class="p">:</span>
+            <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">i</span><span class="o">-=</span><span class="mi">1</span>
+        <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>
+    <span class="k">return</span> <span class="n">A</span>
+
+<span class="n">insertSort</span><span class="p">([</span><span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">45</span> <span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[18]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[-30, 8, 11, 45, 50]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Heap-Sort-from-CLRS">Heap Sort from CLRS<a class="anchor-link" href="#Heap-Sort-from-CLRS">&#182;</a></h3><ul>
+<li>Heap sort: An O(n lg (n) algorithm): Like insert sort, it sorts in place. 
+See pg 152-160 nin CLRS</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
+<span class="kn">import</span> <span class="nn">random</span>
+    
+<span class="k">def</span> <span class="nf">exchange</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">el1</span><span class="p">,</span> <span class="n">el2</span><span class="p">):</span>
+    <span class="n">temp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">el1</span><span class="p">]</span>
+    <span class="n">A</span><span class="p">[</span><span class="n">el1</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">el2</span><span class="p">]</span>
+    <span class="n">A</span><span class="p">[</span><span class="n">el2</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span>
+
+<span class="k">def</span> <span class="nf">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
+    <span class="c1"># runs in O(lg n) time</span>
+    <span class="k">global</span> <span class="n">heapsize</span>
+    <span class="n">l</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
+    <span class="c1">#print(&#39;i: {}, l: {}, r: {}, heapsize: {} A: {}&#39;.format(i, l, r,  heapsize, A))</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">l</span> <span class="o">&lt;</span> <span class="n">heapsize</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">l</span><span class="p">]</span><span class="o">&gt;</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span> 
+        <span class="n">largest</span> <span class="o">=</span> <span class="n">l</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">largest</span> <span class="o">=</span> <span class="n">i</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">r</span> <span class="o">&lt;</span> <span class="n">heapsize</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">r</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">A</span><span class="p">[</span><span class="n">largest</span><span class="p">]):</span>
+        <span class="n">largest</span> <span class="o">=</span> <span class="n">r</span>
+    <span class="k">if</span> <span class="n">largest</span> <span class="o">!=</span> <span class="n">i</span><span class="p">:</span>
+        <span class="n">exchange</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">largest</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">heapsize</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+            <span class="n">heapsize</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+        <span class="n">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">largest</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">build_max_heap</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+    <span class="c1">#O(n) algorithm</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">floor</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">heapsort</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+    <span class="c1"># O(n lg(n)) algorithm</span>
+    <span class="k">global</span> <span class="n">heapsize</span>
+    <span class="n">build_max_heap</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">exchange</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+        <span class="n">heapsize</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="n">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+        
+<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A before: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
+
+<span class="n">heapsize</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="n">heapsort</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A after: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>A before:  [20, 9, 1, 9, 12, 10, 3, 0, 1, 13]
+A after:  [0, 1, 1, 3, 9, 9, 10, 12, 13, 20]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Merge-Sort">Merge Sort<a class="anchor-link" href="#Merge-Sort">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;MergeSort&#39;</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="k">def</span> <span class="nf">merge</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">):</span>
+    <span class="n">L</span><span class="p">,</span> <span class="n">R</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">p</span><span class="p">:</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="n">p</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">L</span><span class="p">)</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">R</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">R</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span>
+            <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">R</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
+        <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">j</span><span class="o">==</span><span class="nb">len</span><span class="p">(</span><span class="n">R</span><span class="p">):</span>
+        <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">:</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">:]</span>
+
+<span class="k">def</span> <span class="nf">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">r</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">p</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
+        <span class="n">q</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">((</span><span class="n">p</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
+        <span class="n">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span>
+        <span class="n">merge</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="o">-</span><span class="mi">102</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;B4 &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
+<span class="n">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">))</span> 
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;after: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>B4  [-31, 25, -16, -11, -74, 52, -50, 34, -13, 22]
+after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Counting-Sort">Counting Sort<a class="anchor-link" href="#Counting-Sort">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39; Counting sort: See pg 195, CLRS.</span>
+<span class="sd">    Note this only works for nonegative array elements</span>
+<span class="sd">    Sorts in O(k+n) time</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="c1"># import numpy as </span>
+<span class="k">def</span> <span class="nf">count_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
+    <span class="n">C</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">)]</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
+        <span class="n">C</span><span class="p">[</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="c1"># C[i] now contains num of elements equal to i</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">C</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+=</span><span class="n">C</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="c1"># C[i] now contains number of elements less than or equal to i</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">B</span><span class="p">[</span><span class="n">C</span><span class="p">[</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]]]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+        <span class="n">C</span><span class="p">[</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]]</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>        
+<span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">))]</span>
+<span class="n">k</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="n">count_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[0, 0, 2, 2, 3, 3, 3, 5]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Radix-Sort">Radix-Sort<a class="anchor-link" href="#Radix-Sort">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;See 8.3 in CLRS&#39;</span>
+
+<span class="k">def</span> <span class="nf">radix_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">d</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        assume each element in the n-element array A has d digits, </span>
+<span class="sd">        where digit 1 is the lowest-order digit and digit d is the </span>
+<span class="sd">        highest-order digit.</span>
+<span class="sd">        </span>
+<span class="sd">        Radix-sort sorts n d-digit numbers in which each digit can </span>
+<span class="sd">        take on up to k possible values in O(d(n+k)) time if stable</span>
+<span class="sd">        sort takes O(n+k) time</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">))]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
+        <span class="c1"># use a stable sort such as count-sort to sort A on digit i</span>
+        <span class="n">count_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">B</span>
+<span class="n">B</span> <span class="o">=</span> <span class="n">radix_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>       
+<span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[0, 0, 2, 2, 3, 3, 3, 5]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Bucket-Sort">Bucket Sort<a class="anchor-link" href="#Bucket-Sort">&#182;</a></h3><p>See my implementation from CLRS 8.4/pg 201
+Bucket sort assumes that the input is drawn from a uniform distribution and has an average-case running time of O(n)</p>
+<p>Bucket sort runs in O(n) time in the average case. 
+All lines except the inserttion sort line  take O(n)time
+in the worst case. The time taken by the calls to insertion sort is 
+O(n as well.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
+<span class="c1"># fix this later on</span>
+<span class="k">def</span> <span class="nf">bucket_sort</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+    <span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)]</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">B</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+        <span class="n">B</span><span class="p">[</span><span class="n">floor</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">])]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">insertSort</span><span class="p">(</span><span class="n">B</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">ret</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">ret</span><span class="o">+=</span><span class="n">B</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">B</span>
+
+<span class="c1"># print(bucket_sort(A))</span>
+    
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="FB-Questions">FB Questions<a class="anchor-link" href="#FB-Questions">&#182;</a></h1><ul>
 <li><p><a href="https://www.interviewbit.com/facebook-interview-questions/">InterviewBit</a></p>
 </li>
@@ -12965,7 +13256,7 @@ turn around and head in the other direction</li>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -12974,7 +13265,7 @@ turn around and head in the other direction</li>
     <span class="k">return</span> <span class="p">((</span><span class="n">r</span><span class="o">&lt;</span><span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">c</span><span class="o">&lt;</span><span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">r</span><span class="o">&gt;=</span><span class="nb">len</span><span class="p">(</span><span class="n">out</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="n">c</span><span class="o">&gt;=</span><span class="nb">len</span><span class="p">(</span><span class="n">out</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="n">out</span><span class="p">[</span><span class="n">r</span><span class="p">][</span><span class="n">c</span><span class="p">]</span><span class="o">!=</span><span class="mi">0</span><span class="p">))</span>
 
 <span class="k">def</span> <span class="nf">spiral</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="n">out</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int8</span><span class="p">)</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">n</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span> <span class="c1">#np.zeros((n,n), dtype=np.int8)</span>
     <span class="n">r</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
     <span class="n">direc</span><span class="p">,</span> <span class="n">val</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
     <span class="n">dr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
@@ -13014,20 +13305,9 @@ turn around and head in the other direction</li>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[ 1  2  3  4  5]
- [16 17 18 19  6]
- [15 24 25 20  7]
- [14 23 22 21  8]
- [13 12 11 10  9]]
+<pre>[[1, 2, 3, 4, 5], [16, 17, 18, 19, 6], [15, 24, 25, 20, 7], [14, 23, 22, 21, 8], [13, 12, 11, 10, 9]]
 
-[[ 1  2  3  4  5  6  7  8]
- [28 29 30 31 32 33 34  9]
- [27 48 49 50 51 52 35 10]
- [26 47 60 61 62 53 36 11]
- [25 46 59 64 63 54 37 12]
- [24 45 58 57 56 55 38 13]
- [23 44 43 42 41 40 39 14]
- [22 21 20 19 18 17 16 15]]
+[[1, 2, 3, 4, 5, 6, 7, 8], [28, 29, 30, 31, 32, 33, 34, 9], [27, 48, 49, 50, 51, 52, 35, 10], [26, 47, 60, 61, 62, 53, 36, 11], [25, 46, 59, 64, 63, 54, 37, 12], [24, 45, 58, 57, 56, 55, 38, 13], [23, 44, 43, 42, 41, 40, 39, 14], [22, 21, 20, 19, 18, 17, 16, 15]]
 </pre>
 </div>
 </div>
@@ -13430,20 +13710,17 @@ Walk through histogram to get highest population.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
     <span class="s1">&#39;N tree levels; 2 kids/node; Num Nodes: 1*2*2*2...==&gt; TC: O(2^N), SC: O(N)&#39;</span>
-    <span class="k">if</span> <span class="n">n</span><span class="o">&lt;</span><span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">0</span>
-    <span class="k">elif</span> <span class="n">n</span><span class="o">&lt;=</span><span class="mi">1</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">n</span><span class="o">==</span><span class="mi">0</span> <span class="ow">or</span> <span class="n">n</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">n</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
-
 <span class="c1">#test    </span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+<span class="p">[</span><span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 </pre></div>
 
 </div>
@@ -13456,17 +13733,15 @@ Walk through histogram to get highest population.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+<div class="prompt output_prompt">Out[49]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0 1
-1 1
-2 2
-3 3
-4 5
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</pre>
 </div>
+
 </div>
 
 </div>
@@ -13483,7 +13758,7 @@ Walk through histogram to get highest population.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">memo</span><span class="p">):</span>
@@ -13498,9 +13773,7 @@ Walk through histogram to get highest population.</p>
 
 <span class="c1">#test    </span>
 <span class="n">memo</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span> 
-    <span class="n">memo</span> <span class="o">=</span> <span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">memo</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">memo</span><span class="p">))</span>
+<span class="p">[</span><span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">memo</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 </pre></div>
 
 </div>
@@ -13513,17 +13786,15 @@ Walk through histogram to get highest population.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+<div class="prompt output_prompt">Out[51]:</div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0 1
-1 1
-2 2
-3 3
-4 5
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]</pre>
 </div>
+
 </div>
 
 </div>
@@ -14090,374 +14361,6 @@ True
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Insert-Sort">Insert Sort<a class="anchor-link" href="#Insert-Sort">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">insertSort</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
-    <span class="c1"># O(n^2) worst case</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
-        <span class="n">key</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-        <span class="n">i</span> <span class="o">=</span> <span class="n">j</span> <span class="o">-</span><span class="mi">1</span>
-        <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;</span><span class="n">key</span><span class="p">:</span>
-            <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-            <span class="n">i</span><span class="o">-=</span><span class="mi">1</span>
-        <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span>
-    <span class="k">return</span> <span class="n">A</span>
-
-<span class="n">insertSort</span><span class="p">([</span><span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">45</span> <span class="p">])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[18]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[-30, 8, 11, 45, 50]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Heap-Sort-from-CLRS">Heap Sort from CLRS<a class="anchor-link" href="#Heap-Sort-from-CLRS">&#182;</a></h3><ul>
-<li>Heap sort: An O(n lg (n) algorithm): Like insert sort, it sorts in place. 
-See pg 152-160 nin CLRS</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
-<span class="kn">import</span> <span class="nn">random</span>
-    
-<span class="k">def</span> <span class="nf">exchange</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">el1</span><span class="p">,</span> <span class="n">el2</span><span class="p">):</span>
-    <span class="n">temp</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">el1</span><span class="p">]</span>
-    <span class="n">A</span><span class="p">[</span><span class="n">el1</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">el2</span><span class="p">]</span>
-    <span class="n">A</span><span class="p">[</span><span class="n">el2</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span>
-
-<span class="k">def</span> <span class="nf">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
-    <span class="c1"># runs in O(lg n) time</span>
-    <span class="k">global</span> <span class="n">heapsize</span>
-    <span class="n">l</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
-    <span class="c1">#print(&#39;i: {}, l: {}, r: {}, heapsize: {} A: {}&#39;.format(i, l, r,  heapsize, A))</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">l</span> <span class="o">&lt;</span> <span class="n">heapsize</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">l</span><span class="p">]</span><span class="o">&gt;</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]):</span> 
-        <span class="n">largest</span> <span class="o">=</span> <span class="n">l</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">largest</span> <span class="o">=</span> <span class="n">i</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">r</span> <span class="o">&lt;</span> <span class="n">heapsize</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">r</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">A</span><span class="p">[</span><span class="n">largest</span><span class="p">]):</span>
-        <span class="n">largest</span> <span class="o">=</span> <span class="n">r</span>
-    <span class="k">if</span> <span class="n">largest</span> <span class="o">!=</span> <span class="n">i</span><span class="p">:</span>
-        <span class="n">exchange</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">largest</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">heapsize</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
-            <span class="n">heapsize</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-        <span class="n">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">largest</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">build_max_heap</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
-    <span class="c1">#O(n) algorithm</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">floor</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">heapsort</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
-    <span class="c1"># O(n lg(n)) algorithm</span>
-    <span class="k">global</span> <span class="n">heapsize</span>
-    <span class="n">build_max_heap</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">exchange</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
-        <span class="n">heapsize</span> <span class="o">-=</span> <span class="mi">1</span>
-        <span class="n">max_heapify</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-        
-<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A before: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
-
-<span class="n">heapsize</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-<span class="n">heapsort</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A after: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>A before:  [20, 9, 1, 9, 12, 10, 3, 0, 1, 13]
-A after:  [0, 1, 1, 3, 9, 9, 10, 12, 13, 20]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Merge-Sort">Merge Sort<a class="anchor-link" href="#Merge-Sort">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;MergeSort&#39;</span>
-<span class="kn">import</span> <span class="nn">math</span>
-<span class="k">def</span> <span class="nf">merge</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">):</span>
-    <span class="n">L</span><span class="p">,</span> <span class="n">R</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">p</span><span class="p">:</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">:</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
-    <span class="n">k</span> <span class="o">=</span> <span class="n">p</span>
-    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">L</span><span class="p">)</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">R</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">R</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span>
-            <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-            <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">R</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-            <span class="n">j</span><span class="o">+=</span><span class="mi">1</span>
-        <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">j</span><span class="o">==</span><span class="nb">len</span><span class="p">(</span><span class="n">R</span><span class="p">):</span>
-        <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">:</span><span class="n">r</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">:]</span>
-
-<span class="k">def</span> <span class="nf">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">r</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">p</span><span class="o">&lt;</span><span class="n">r</span><span class="p">:</span>
-        <span class="n">q</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">((</span><span class="n">p</span><span class="o">+</span><span class="n">r</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
-        <span class="n">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
-        <span class="n">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span>
-        <span class="n">merge</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span>
-
-<span class="kn">import</span> <span class="nn">random</span>
-<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="o">-</span><span class="mi">102</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;B4 &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
-<span class="n">mergesort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">))</span> 
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;after: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>B4  [-31, 25, -16, -11, -74, 52, -50, 34, -13, 22]
-after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Counting-Sort">Counting Sort<a class="anchor-link" href="#Counting-Sort">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39; Counting sort: See pg 195, CLRS.</span>
-<span class="sd">    Note this only works for nonegative array elements</span>
-<span class="sd">    Sorts in O(k+n) time</span>
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="c1"># import numpy as </span>
-<span class="k">def</span> <span class="nf">count_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">k</span><span class="p">):</span>
-    <span class="n">C</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">)]</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)):</span>
-        <span class="n">C</span><span class="p">[</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="c1"># C[i] now contains num of elements equal to i</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">C</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+=</span><span class="n">C</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-    <span class="c1"># C[i] now contains number of elements less than or equal to i</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">B</span><span class="p">[</span><span class="n">C</span><span class="p">[</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]]]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-        <span class="n">C</span><span class="p">[</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">]]</span> <span class="o">-=</span> <span class="mi">1</span>
-<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>        
-<span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">))]</span>
-<span class="n">k</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-<span class="n">count_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0, 0, 2, 2, 3, 3, 3, 5]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Radix-Sort">Radix-Sort<a class="anchor-link" href="#Radix-Sort">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;See 8.3 in CLRS&#39;</span>
-
-<span class="k">def</span> <span class="nf">radix_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">d</span><span class="p">):</span>
-    <span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">        assume each element in the n-element array A has d digits, </span>
-<span class="sd">        where digit 1 is the lowest-order digit and digit d is the </span>
-<span class="sd">        highest-order digit.</span>
-<span class="sd">        </span>
-<span class="sd">        Radix-sort sorts n d-digit numbers in which each digit can </span>
-<span class="sd">        take on up to k possible values in O(d(n+k)) time if stable</span>
-<span class="sd">        sort takes O(n+k) time</span>
-<span class="sd">    &#39;&#39;&#39;</span>
-    <span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">))]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
-        <span class="c1"># use a stable sort such as count-sort to sort A on digit i</span>
-        <span class="n">count_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">B</span>
-<span class="n">B</span> <span class="o">=</span> <span class="n">radix_sort</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>       
-<span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0, 0, 2, 2, 3, 3, 3, 5]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Bucket-Sort">Bucket Sort<a class="anchor-link" href="#Bucket-Sort">&#182;</a></h3><p>See my implementation from CLRS 8.4/pg 201
-Bucket sort assumes that the input is drawn from a uniform distribution and has an average-case running time of O(n)</p>
-<p>Bucket sort runs in O(n) time in the average case. 
-All lines except the inserttion sort line  take O(n)time
-in the worst case. The time taken by the calls to insertion sort is 
-O(n as well.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">floor</span>
-<span class="c1"># fix this later on</span>
-<span class="k">def</span> <span class="nf">bucket_sort</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
-    <span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)]</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">B</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
-        <span class="n">B</span><span class="p">[</span><span class="n">floor</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">])]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">insertSort</span><span class="p">(</span><span class="n">B</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-    <span class="n">ret</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-        <span class="n">ret</span><span class="o">+=</span><span class="n">B</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-    <span class="k">return</span> <span class="n">B</span>
-
-<span class="c1"># print(bucket_sort(A))</span>
-    
-</pre></div>
-
-</div>
 </div>
 </div>
 
