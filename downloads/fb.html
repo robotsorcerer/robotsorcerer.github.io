@@ -13246,6 +13246,101 @@ O(n as well.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Facebook-phone-screening-question,-Nov-14">Facebook phone screening question, Nov 14<a class="anchor-link" href="#Facebook-phone-screening-question,-Nov-14">&#182;</a></h3><p>For a 2D array whose rows are made up of tuples, and
+the tuples contain the tax amount and a tax bracket.</p>
+<p>If you are given an income, find out what the tax should be</p>
+<p>TaxBracket: [
+             [10000, 0.1],
+             [20000, 0.2],
+             [30000, 0.3],
+             [None, 0.4]
+            ]</p>
+<p>TaxBracket 2: [
+             [None, 0.4]
+            ]</p>
+<p>If someone has an income of 50k, their tax would be
+100+
+def getTax(income, bracket): # I gave an O(n) algorithm</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">getTax</span><span class="p">(</span><span class="n">income</span><span class="p">,</span> <span class="n">bracket</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="n">tax</span> <span class="o">+=</span> <span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">tax</span> <span class="o">+=</span> <span class="n">income</span><span class="o">*</span><span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">tax</span>
+            
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Facebook-phone-screening-question-2,-Nov-14">Facebook phone screening question 2, Nov 14<a class="anchor-link" href="#Facebook-phone-screening-question-2,-Nov-14">&#182;</a></h3><p>Given a binary tree, find the total number of paths in the tree that add up to a target</p>
+<ul>
+<li>I came up witha recursive inorder walk algorithm</li>
+</ul>
+
+</div>
+</div>
+</div>
+   6
+  / \
+  4  4
+ /    \ 
+ 2    -4
+ 
+ You may assume the tree is balanced; the nodes of the tree have a similarity to
+ Node (){
+ val = val
+ left = left
+ right = right
+ }
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">num_paths</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">target</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">root</span><span class="p">:</span> <span class="c1"># in case node is empty</span>
+        <span class="k">return</span>
+    
+    <span class="n">paths</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">target_check</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="n">val</span>
+    <span class="n">target_check</span><span class="o">+=</span><span class="p">(</span><span class="n">num_paths</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">left</span><span class="o">.</span><span class="n">val</span><span class="p">,</span> <span class="n">target</span><span class="p">))</span>
+    <span class="n">target_check</span><span class="o">+=</span><span class="p">(</span><span class="n">num_paths</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">right</span><span class="o">.</span><span class="n">val</span><span class="p">,</span> <span class="n">target</span><span class="p">))</span>
+    
+    <span class="k">if</span> <span class="n">target_check</span><span class="o">==</span><span class="n">target</span><span class="p">:</span>
+        <span class="n">paths</span><span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">target_check</span> <span class="o">=</span> <span class="mi">0</span>
+    
+    <span class="k">return</span> <span class="n">paths</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Spiral-Array-Elements">Spiral Array Elements<a class="anchor-link" href="#Spiral-Array-Elements">&#182;</a></h3><ul>
 <li>spiral an array elements: greedily traverse 
 in each direction until you must stop, then 
