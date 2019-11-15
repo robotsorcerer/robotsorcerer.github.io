@@ -35,7 +35,7 @@ title: Lekan
 
 + <a href="https://github.com/lakehanne/screws" target="blank"> screw theory and elastic deformations: </a> screws (in mathematica and matlab) applied to continuum dynamics, codes and  examples.
 + <a href="https://github.com/lakehanne/gps" target="blank">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ros indigo.
-+ <a href="/SWEngr" target="blank"> data structure commons</a>: my solutions (in python) to a collection of interesting software engineering questions at the FAANG. <a href="">source code.</a> 
++ <a href="/downloads/fb" target="blank"> data structure commons</a>: my solutions (in python) to a collection of interesting software engineering questions at the FAANG. <a href="">source code.</a> 
 + <a href="https://github.com/lakehanne/ensenso" target="blank">ensenso</a>: ros and point cloud library bridges to the <a href="https://www.ensenso.com/" target="blank">ensenso 3D N35 camera factory api</a>.
 + <a href="https://github.com/lakehanne/awesome-screw-theory" target="blank"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
 + <a href="https://github.com/lakehanne/awesome-neurocontrol" target="blank">awesome neuro-control</a>: a curated list of papers that apply neural dynamics to control systems.
