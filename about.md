@@ -8,24 +8,24 @@ mathjax: true
 
 ### Intro
 
-Welcome to my web presence: the material, the referential, the spatial and the relative! 
+Welcome to my web presence: the material, the referential, the spatial, and the relative!<sup>Rational Continuum Mechaniscs, Truesdell, 1977.</sup> 
 
 #### Tell me what you got
 
-I am an interdisciplinary researcher who combines the scientific elegance of `machine learning` and `control theory` with the practical impact of `robotics` to create technological solutions for cancer  patients' healthcare. I am currently a postdoctoral researcher in the Wiersma lab at the `University of Pennsylvania's School of Medicine` and I was previously with the group at the `University of Chicago's School of Medicine`. During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](https://utdallas.edu/~ngans) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/). If you would like to collaborate, please email me.
+I am an interdisciplinary researcher who combines the scientific elegance of `machine learning` and `control theory` with the practical impact of `robotics` to create technological solutions for cancer  patients' healthcare. I am currently a postdoctoral researcher in the Wiersma lab at the `University of Pennsylvania's School of Medicine` and I was previously with the group at the `University of Chicago's School of Medicine.` During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](https://utdallas.edu/~ngans) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/). If you would like to collaborate, please email me.
 
 I have been working and still work on problems spanning `conceptualization` of new `hardware`  and `software` tools for improving the `treatment planning` process in `cancer radiation therapy`. I am largely an independent researcher who enjoys self-direction at my own projects/goals. Yet, I value collaboration across domains and with people of diverse expertise. I read widely and study avidly: my interests span the sciences, technical disciplines (hello, chemistry, physics and engineering) to history and public affairs (really?). A big believer in open science and reproducible research, I try to make my publications and codes public to the extent that I can: see my [publications page](/pubs) and  [github repos](https://github.com/lakehanne). **I am not a robot**. My PGP key on most public key servers is 03E3 58FB 1D98 869E 8ABE 1EF0 E6A1 2F95 B720 BBB5.  
 
-<!--
-### On the Origin of this Specie
+
+#### On the Origin of this Specie
 
 
 I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres. I do have an electric guitar, which I lazily play when I'm depressed. Someday, I do hope to be a street entertainer (_wouldn't that be fun?_).
 There are many places I call home including [Chicago](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), [Lagos](https://en.wiktionary.org/wiki/Lagosian),  [Sheffield](https://www.urbandictionary.com/define.php?term=Sheffielder), and Boston. 
-At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_.  -->
+At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_.  
 
 
-### Miscellaneous
+#### Miscellaneous
 
 +   I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
