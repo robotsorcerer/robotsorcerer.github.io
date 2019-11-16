@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>fb</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+
+<title>fb</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
 
 <style type="text/css">
     /*!
@@ -199,7 +204,6 @@ th {
   *:before,
   *:after {
     background: transparent !important;
-    color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -6744,15 +6748,15 @@ button.close {
 *
 */
 /*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0');
-  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../components/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../components/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -6809,6 +6813,19 @@ button.close {
   border: solid 0.08em #eee;
   border-radius: .1em;
 }
+.fa-pull-left {
+  float: left;
+}
+.fa-pull-right {
+  float: right;
+}
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+.fa.fa-pull-right {
+  margin-left: .3em;
+}
+/* Deprecated as of 4.4.0 */
 .pull-right {
   float: right;
 }
@@ -6824,6 +6841,10 @@ button.close {
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
+}
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
 }
 @-webkit-keyframes fa-spin {
   0% {
@@ -6846,31 +6867,31 @@ button.close {
   }
 }
 .fa-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .fa-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .fa-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 .fa-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
@@ -7355,6 +7376,7 @@ button.close {
 .fa-twitter:before {
   content: "\f099";
 }
+.fa-facebook-f:before,
 .fa-facebook:before {
   content: "\f09a";
 }
@@ -7367,6 +7389,7 @@ button.close {
 .fa-credit-card:before {
   content: "\f09d";
 }
+.fa-feed:before,
 .fa-rss:before {
   content: "\f09e";
 }
@@ -8004,7 +8027,8 @@ button.close {
 .fa-male:before {
   content: "\f183";
 }
-.fa-gittip:before {
+.fa-gittip:before,
+.fa-gratipay:before {
   content: "\f184";
 }
 .fa-sun-o:before {
@@ -8108,7 +8132,7 @@ button.close {
 .fa-digg:before {
   content: "\f1a6";
 }
-.fa-pied-piper:before {
+.fa-pied-piper-pp:before {
   content: "\f1a7";
 }
 .fa-pied-piper-alt:before {
@@ -8234,6 +8258,7 @@ button.close {
   content: "\f1ce";
 }
 .fa-ra:before,
+.fa-resistance:before,
 .fa-rebel:before {
   content: "\f1d0";
 }
@@ -8247,6 +8272,8 @@ button.close {
 .fa-git:before {
   content: "\f1d3";
 }
+.fa-y-combinator-square:before,
+.fa-yc-square:before,
 .fa-hacker-news:before {
   content: "\f1d4";
 }
@@ -8414,6 +8441,657 @@ button.close {
 }
 .fa-meanpath:before {
   content: "\f20c";
+}
+.fa-buysellads:before {
+  content: "\f20d";
+}
+.fa-connectdevelop:before {
+  content: "\f20e";
+}
+.fa-dashcube:before {
+  content: "\f210";
+}
+.fa-forumbee:before {
+  content: "\f211";
+}
+.fa-leanpub:before {
+  content: "\f212";
+}
+.fa-sellsy:before {
+  content: "\f213";
+}
+.fa-shirtsinbulk:before {
+  content: "\f214";
+}
+.fa-simplybuilt:before {
+  content: "\f215";
+}
+.fa-skyatlas:before {
+  content: "\f216";
+}
+.fa-cart-plus:before {
+  content: "\f217";
+}
+.fa-cart-arrow-down:before {
+  content: "\f218";
+}
+.fa-diamond:before {
+  content: "\f219";
+}
+.fa-ship:before {
+  content: "\f21a";
+}
+.fa-user-secret:before {
+  content: "\f21b";
+}
+.fa-motorcycle:before {
+  content: "\f21c";
+}
+.fa-street-view:before {
+  content: "\f21d";
+}
+.fa-heartbeat:before {
+  content: "\f21e";
+}
+.fa-venus:before {
+  content: "\f221";
+}
+.fa-mars:before {
+  content: "\f222";
+}
+.fa-mercury:before {
+  content: "\f223";
+}
+.fa-intersex:before,
+.fa-transgender:before {
+  content: "\f224";
+}
+.fa-transgender-alt:before {
+  content: "\f225";
+}
+.fa-venus-double:before {
+  content: "\f226";
+}
+.fa-mars-double:before {
+  content: "\f227";
+}
+.fa-venus-mars:before {
+  content: "\f228";
+}
+.fa-mars-stroke:before {
+  content: "\f229";
+}
+.fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+.fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+.fa-neuter:before {
+  content: "\f22c";
+}
+.fa-genderless:before {
+  content: "\f22d";
+}
+.fa-facebook-official:before {
+  content: "\f230";
+}
+.fa-pinterest-p:before {
+  content: "\f231";
+}
+.fa-whatsapp:before {
+  content: "\f232";
+}
+.fa-server:before {
+  content: "\f233";
+}
+.fa-user-plus:before {
+  content: "\f234";
+}
+.fa-user-times:before {
+  content: "\f235";
+}
+.fa-hotel:before,
+.fa-bed:before {
+  content: "\f236";
+}
+.fa-viacoin:before {
+  content: "\f237";
+}
+.fa-train:before {
+  content: "\f238";
+}
+.fa-subway:before {
+  content: "\f239";
+}
+.fa-medium:before {
+  content: "\f23a";
+}
+.fa-yc:before,
+.fa-y-combinator:before {
+  content: "\f23b";
+}
+.fa-optin-monster:before {
+  content: "\f23c";
+}
+.fa-opencart:before {
+  content: "\f23d";
+}
+.fa-expeditedssl:before {
+  content: "\f23e";
+}
+.fa-battery-4:before,
+.fa-battery:before,
+.fa-battery-full:before {
+  content: "\f240";
+}
+.fa-battery-3:before,
+.fa-battery-three-quarters:before {
+  content: "\f241";
+}
+.fa-battery-2:before,
+.fa-battery-half:before {
+  content: "\f242";
+}
+.fa-battery-1:before,
+.fa-battery-quarter:before {
+  content: "\f243";
+}
+.fa-battery-0:before,
+.fa-battery-empty:before {
+  content: "\f244";
+}
+.fa-mouse-pointer:before {
+  content: "\f245";
+}
+.fa-i-cursor:before {
+  content: "\f246";
+}
+.fa-object-group:before {
+  content: "\f247";
+}
+.fa-object-ungroup:before {
+  content: "\f248";
+}
+.fa-sticky-note:before {
+  content: "\f249";
+}
+.fa-sticky-note-o:before {
+  content: "\f24a";
+}
+.fa-cc-jcb:before {
+  content: "\f24b";
+}
+.fa-cc-diners-club:before {
+  content: "\f24c";
+}
+.fa-clone:before {
+  content: "\f24d";
+}
+.fa-balance-scale:before {
+  content: "\f24e";
+}
+.fa-hourglass-o:before {
+  content: "\f250";
+}
+.fa-hourglass-1:before,
+.fa-hourglass-start:before {
+  content: "\f251";
+}
+.fa-hourglass-2:before,
+.fa-hourglass-half:before {
+  content: "\f252";
+}
+.fa-hourglass-3:before,
+.fa-hourglass-end:before {
+  content: "\f253";
+}
+.fa-hourglass:before {
+  content: "\f254";
+}
+.fa-hand-grab-o:before,
+.fa-hand-rock-o:before {
+  content: "\f255";
+}
+.fa-hand-stop-o:before,
+.fa-hand-paper-o:before {
+  content: "\f256";
+}
+.fa-hand-scissors-o:before {
+  content: "\f257";
+}
+.fa-hand-lizard-o:before {
+  content: "\f258";
+}
+.fa-hand-spock-o:before {
+  content: "\f259";
+}
+.fa-hand-pointer-o:before {
+  content: "\f25a";
+}
+.fa-hand-peace-o:before {
+  content: "\f25b";
+}
+.fa-trademark:before {
+  content: "\f25c";
+}
+.fa-registered:before {
+  content: "\f25d";
+}
+.fa-creative-commons:before {
+  content: "\f25e";
+}
+.fa-gg:before {
+  content: "\f260";
+}
+.fa-gg-circle:before {
+  content: "\f261";
+}
+.fa-tripadvisor:before {
+  content: "\f262";
+}
+.fa-odnoklassniki:before {
+  content: "\f263";
+}
+.fa-odnoklassniki-square:before {
+  content: "\f264";
+}
+.fa-get-pocket:before {
+  content: "\f265";
+}
+.fa-wikipedia-w:before {
+  content: "\f266";
+}
+.fa-safari:before {
+  content: "\f267";
+}
+.fa-chrome:before {
+  content: "\f268";
+}
+.fa-firefox:before {
+  content: "\f269";
+}
+.fa-opera:before {
+  content: "\f26a";
+}
+.fa-internet-explorer:before {
+  content: "\f26b";
+}
+.fa-tv:before,
+.fa-television:before {
+  content: "\f26c";
+}
+.fa-contao:before {
+  content: "\f26d";
+}
+.fa-500px:before {
+  content: "\f26e";
+}
+.fa-amazon:before {
+  content: "\f270";
+}
+.fa-calendar-plus-o:before {
+  content: "\f271";
+}
+.fa-calendar-minus-o:before {
+  content: "\f272";
+}
+.fa-calendar-times-o:before {
+  content: "\f273";
+}
+.fa-calendar-check-o:before {
+  content: "\f274";
+}
+.fa-industry:before {
+  content: "\f275";
+}
+.fa-map-pin:before {
+  content: "\f276";
+}
+.fa-map-signs:before {
+  content: "\f277";
+}
+.fa-map-o:before {
+  content: "\f278";
+}
+.fa-map:before {
+  content: "\f279";
+}
+.fa-commenting:before {
+  content: "\f27a";
+}
+.fa-commenting-o:before {
+  content: "\f27b";
+}
+.fa-houzz:before {
+  content: "\f27c";
+}
+.fa-vimeo:before {
+  content: "\f27d";
+}
+.fa-black-tie:before {
+  content: "\f27e";
+}
+.fa-fonticons:before {
+  content: "\f280";
+}
+.fa-reddit-alien:before {
+  content: "\f281";
+}
+.fa-edge:before {
+  content: "\f282";
+}
+.fa-credit-card-alt:before {
+  content: "\f283";
+}
+.fa-codiepie:before {
+  content: "\f284";
+}
+.fa-modx:before {
+  content: "\f285";
+}
+.fa-fort-awesome:before {
+  content: "\f286";
+}
+.fa-usb:before {
+  content: "\f287";
+}
+.fa-product-hunt:before {
+  content: "\f288";
+}
+.fa-mixcloud:before {
+  content: "\f289";
+}
+.fa-scribd:before {
+  content: "\f28a";
+}
+.fa-pause-circle:before {
+  content: "\f28b";
+}
+.fa-pause-circle-o:before {
+  content: "\f28c";
+}
+.fa-stop-circle:before {
+  content: "\f28d";
+}
+.fa-stop-circle-o:before {
+  content: "\f28e";
+}
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+.fa-shopping-basket:before {
+  content: "\f291";
+}
+.fa-hashtag:before {
+  content: "\f292";
+}
+.fa-bluetooth:before {
+  content: "\f293";
+}
+.fa-bluetooth-b:before {
+  content: "\f294";
+}
+.fa-percent:before {
+  content: "\f295";
+}
+.fa-gitlab:before {
+  content: "\f296";
+}
+.fa-wpbeginner:before {
+  content: "\f297";
+}
+.fa-wpforms:before {
+  content: "\f298";
+}
+.fa-envira:before {
+  content: "\f299";
+}
+.fa-universal-access:before {
+  content: "\f29a";
+}
+.fa-wheelchair-alt:before {
+  content: "\f29b";
+}
+.fa-question-circle-o:before {
+  content: "\f29c";
+}
+.fa-blind:before {
+  content: "\f29d";
+}
+.fa-audio-description:before {
+  content: "\f29e";
+}
+.fa-volume-control-phone:before {
+  content: "\f2a0";
+}
+.fa-braille:before {
+  content: "\f2a1";
+}
+.fa-assistive-listening-systems:before {
+  content: "\f2a2";
+}
+.fa-asl-interpreting:before,
+.fa-american-sign-language-interpreting:before {
+  content: "\f2a3";
+}
+.fa-deafness:before,
+.fa-hard-of-hearing:before,
+.fa-deaf:before {
+  content: "\f2a4";
+}
+.fa-glide:before {
+  content: "\f2a5";
+}
+.fa-glide-g:before {
+  content: "\f2a6";
+}
+.fa-signing:before,
+.fa-sign-language:before {
+  content: "\f2a7";
+}
+.fa-low-vision:before {
+  content: "\f2a8";
+}
+.fa-viadeo:before {
+  content: "\f2a9";
+}
+.fa-viadeo-square:before {
+  content: "\f2aa";
+}
+.fa-snapchat:before {
+  content: "\f2ab";
+}
+.fa-snapchat-ghost:before {
+  content: "\f2ac";
+}
+.fa-snapchat-square:before {
+  content: "\f2ad";
+}
+.fa-pied-piper:before {
+  content: "\f2ae";
+}
+.fa-first-order:before {
+  content: "\f2b0";
+}
+.fa-yoast:before {
+  content: "\f2b1";
+}
+.fa-themeisle:before {
+  content: "\f2b2";
+}
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before {
+  content: "\f2b3";
+}
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: "\f2b4";
+}
+.fa-handshake-o:before {
+  content: "\f2b5";
+}
+.fa-envelope-open:before {
+  content: "\f2b6";
+}
+.fa-envelope-open-o:before {
+  content: "\f2b7";
+}
+.fa-linode:before {
+  content: "\f2b8";
+}
+.fa-address-book:before {
+  content: "\f2b9";
+}
+.fa-address-book-o:before {
+  content: "\f2ba";
+}
+.fa-vcard:before,
+.fa-address-card:before {
+  content: "\f2bb";
+}
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: "\f2bc";
+}
+.fa-user-circle:before {
+  content: "\f2bd";
+}
+.fa-user-circle-o:before {
+  content: "\f2be";
+}
+.fa-user-o:before {
+  content: "\f2c0";
+}
+.fa-id-badge:before {
+  content: "\f2c1";
+}
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: "\f2c2";
+}
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: "\f2c3";
+}
+.fa-quora:before {
+  content: "\f2c4";
+}
+.fa-free-code-camp:before {
+  content: "\f2c5";
+}
+.fa-telegram:before {
+  content: "\f2c6";
+}
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: "\f2c7";
+}
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: "\f2c8";
+}
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: "\f2c9";
+}
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: "\f2ca";
+}
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: "\f2cb";
+}
+.fa-shower:before {
+  content: "\f2cc";
+}
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: "\f2cd";
+}
+.fa-podcast:before {
+  content: "\f2ce";
+}
+.fa-window-maximize:before {
+  content: "\f2d0";
+}
+.fa-window-minimize:before {
+  content: "\f2d1";
+}
+.fa-window-restore:before {
+  content: "\f2d2";
+}
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: "\f2d3";
+}
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: "\f2d4";
+}
+.fa-bandcamp:before {
+  content: "\f2d5";
+}
+.fa-grav:before {
+  content: "\f2d6";
+}
+.fa-etsy:before {
+  content: "\f2d7";
+}
+.fa-imdb:before {
+  content: "\f2d8";
+}
+.fa-ravelry:before {
+  content: "\f2d9";
+}
+.fa-eercast:before {
+  content: "\f2da";
+}
+.fa-microchip:before {
+  content: "\f2db";
+}
+.fa-snowflake-o:before {
+  content: "\f2dc";
+}
+.fa-superpowers:before {
+  content: "\f2dd";
+}
+.fa-wpexplorer:before {
+  content: "\f2de";
+}
+.fa-meetup:before {
+  content: "\f2e0";
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
 }
 /*!
 *
@@ -8694,6 +9372,10 @@ div.traceback-wrapper {
   max-width: 800px;
   margin: auto;
 }
+div.traceback-wrapper pre.traceback {
+  max-height: 600px;
+  overflow: auto;
+}
 /**
  * Primary styles
  *
@@ -8719,6 +9401,10 @@ body > #header {
   z-index: 100;
 }
 body > #header #header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
   box-sizing: border-box;
@@ -8750,13 +9436,16 @@ body > #header .header-bar {
   padding-top: 1px;
   padding-bottom: 1px;
 }
-@media (max-width: 991px) {
-  #ipython_notebook {
-    margin-left: 10px;
-  }
-}
 [dir="rtl"] #ipython_notebook {
+  margin-right: 10px;
+  margin-left: 0;
+}
+[dir="rtl"] #ipython_notebook.pull-left {
   float: right !important;
+  float: right;
+}
+.flex-spacer {
+  flex: 1;
 }
 #noscript {
   width: auto;
@@ -8791,8 +9480,14 @@ body > #header .header-bar {
 input.ui-button {
   padding: 0.3em 0.9em;
 }
+span#kernel_logo_widget {
+  margin: 0 10px;
+}
 span#login_widget {
   float: right;
+}
+[dir="rtl"] span#login_widget {
+  float: left;
 }
 span#login_widget > .button,
 #logout {
@@ -8908,6 +9603,9 @@ span#login_widget > .button .badge,
   overflow: auto;
   flex: 1;
 }
+.modal-header {
+  cursor: move;
+}
 @media (min-width: 768px) {
   .modal .modal-dialog {
     width: 700px;
@@ -8928,6 +9626,19 @@ span#login_widget > .button .badge,
   display: inline-block;
   margin-bottom: -4px;
 }
+[dir="rtl"] .center-nav form.pull-left {
+  float: right !important;
+  float: right;
+}
+[dir="rtl"] .center-nav .navbar-text {
+  float: right;
+}
+[dir="rtl"] .navbar-inner {
+  text-align: right;
+}
+[dir="rtl"] div.text-left {
+  text-align: right;
+}
 /*!
 *
 * IPython tree view
@@ -8944,34 +9655,42 @@ span#login_widget > .button .badge,
   margin: 0;
 }
 .alternate_upload input.fileinput {
-  text-align: center;
-  vertical-align: middle;
-  display: inline;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
   opacity: 0;
   z-index: 2;
-  width: 12ex;
-  margin-right: -12ex;
+}
+.alternate_upload .btn-xs > input.fileinput {
+  margin: -1px -5px;
 }
 .alternate_upload .btn-upload {
+  position: relative;
   height: 22px;
+}
+::-webkit-file-upload-button {
+  cursor: pointer;
 }
 /**
  * Primary styles
  *
  * Author: Jupyter Development Team
  */
-[dir="rtl"] #tabs li {
-  float: right;
-}
 ul#tabs {
   margin-bottom: 4px;
-}
-[dir="rtl"] ul#tabs {
-  margin-right: 0px;
 }
 ul#tabs a {
   padding-top: 6px;
   padding-bottom: 4px;
+}
+[dir="rtl"] ul#tabs.nav-tabs > li {
+  float: right;
+}
+[dir="rtl"] ul#tabs.nav.nav-tabs {
+  padding-right: 0;
 }
 ul.breadcrumb a:focus,
 ul.breadcrumb a:hover {
@@ -8991,15 +9710,13 @@ ul.breadcrumb span {
 .list_toolbar .tree-buttons {
   padding-top: 1px;
 }
-[dir="rtl"] .list_toolbar .tree-buttons {
+[dir="rtl"] .list_toolbar .tree-buttons .pull-right {
   float: left !important;
+  float: left;
 }
-[dir="rtl"] .list_toolbar .pull-right {
-  padding-top: 1px;
-  float: left !important;
-}
-[dir="rtl"] .list_toolbar .pull-left {
-  float: right !important;
+[dir="rtl"] .list_toolbar .col-sm-4,
+[dir="rtl"] .list_toolbar .col-sm-8 {
+  float: right;
 }
 .dynamic-buttons {
   padding-top: 3px;
@@ -9055,7 +9772,7 @@ ul.breadcrumb span {
 .list_item > div input {
   margin-right: 7px;
   margin-left: 14px;
-  vertical-align: baseline;
+  vertical-align: text-bottom;
   line-height: 22px;
   position: relative;
   top: -1px;
@@ -9065,6 +9782,9 @@ ul.breadcrumb span {
   margin-left: -1px;
   vertical-align: baseline;
   line-height: 22px;
+}
+[dir="rtl"] .list_item > div input {
+  margin-right: 0;
 }
 .new-file input[type=checkbox] {
   visibility: hidden;
@@ -9080,6 +9800,14 @@ ul.breadcrumb span {
   margin-left: 7px;
   line-height: 22px;
   vertical-align: baseline;
+}
+.item_modified {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+[dir="rtl"] .item_modified.pull-right {
+  float: left !important;
+  float: left;
 }
 .item_buttons {
   line-height: 1em;
@@ -9108,6 +9836,14 @@ ul.breadcrumb span {
   margin-right: 7px;
   float: left;
 }
+[dir="rtl"] .item_buttons.pull-right {
+  float: left !important;
+  float: left;
+}
+[dir="rtl"] .item_buttons .kernel-name {
+  margin-left: 7px;
+  float: right;
+}
 .toolbar_info {
   height: 24px;
   line-height: 24px;
@@ -9133,18 +9869,32 @@ ul.breadcrumb span {
   background-color: transparent;
   font-weight: bold;
 }
+.sort_button {
+  display: inline-block;
+  padding-left: 7px;
+}
+[dir="rtl"] .sort_button.pull-right {
+  float: left !important;
+  float: left;
+}
 #tree-selector {
   padding-right: 0px;
-}
-[dir="rtl"] #tree-selector a {
-  float: right;
 }
 #button-select-all {
   min-width: 50px;
 }
+[dir="rtl"] #button-select-all.btn {
+  float: right ;
+}
 #select-all {
   margin-left: 7px;
   margin-right: 2px;
+  margin-top: 2px;
+  height: 16px;
+}
+[dir="rtl"] #select-all.pull-left {
+  float: right !important;
+  float: right;
 }
 .menu_icon {
   margin-right: 2px;
@@ -9162,6 +9912,12 @@ ul.breadcrumb span {
   -moz-osx-font-smoothing: grayscale;
   content: "\f114";
 }
+.folder_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.folder_icon:before.fa-pull-right {
+  margin-left: .3em;
+}
 .folder_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9178,6 +9934,12 @@ ul.breadcrumb span {
   content: "\f02d";
   position: relative;
   top: -1px;
+}
+.notebook_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.notebook_icon:before.fa-pull-right {
+  margin-left: .3em;
 }
 .notebook_icon:before.pull-left {
   margin-right: .3em;
@@ -9197,6 +9959,12 @@ ul.breadcrumb span {
   top: -1px;
   color: #5cb85c;
 }
+.running_notebook_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.running_notebook_icon:before.fa-pull-right {
+  margin-left: .3em;
+}
 .running_notebook_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9214,6 +9982,12 @@ ul.breadcrumb span {
   position: relative;
   top: -2px;
 }
+.file_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.file_icon:before.fa-pull-right {
+  margin-left: .3em;
+}
 .file_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -9228,8 +10002,11 @@ ul#new-menu {
   left: auto;
   right: 0;
 }
-[dir="rtl"] #new-menu {
-  text-align: right;
+#new-menu .dropdown-header {
+  font-size: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 0 3px;
+  margin: -3px 20px 0;
 }
 .kernel-menu-icon {
   padding-right: 12px;
@@ -9276,9 +10053,6 @@ ul#new-menu {
 #running .panel-group .panel .panel-body .list_container .list_item:last-child {
   border-bottom: 0px;
 }
-[dir="rtl"] #running .col-sm-8 {
-  float: right !important;
-}
 .delete-button {
   display: none;
 }
@@ -9286,6 +10060,12 @@ ul#new-menu {
   display: none;
 }
 .rename-button {
+  display: none;
+}
+.move-button {
+  display: none;
+}
+.download-button {
   display: none;
 }
 .shutdown-button {
@@ -9328,6 +10108,12 @@ ul#new-menu {
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
 }
+.dirty-indicator.fa-pull-left {
+  margin-right: .3em;
+}
+.dirty-indicator.fa-pull-right {
+  margin-left: .3em;
+}
 .dirty-indicator.pull-left {
   margin-right: .3em;
 }
@@ -9342,6 +10128,12 @@ ul#new-menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
+}
+.dirty-indicator-dirty.fa-pull-left {
+  margin-right: .3em;
+}
+.dirty-indicator-dirty.fa-pull-right {
+  margin-left: .3em;
 }
 .dirty-indicator-dirty.pull-left {
   margin-right: .3em;
@@ -9358,6 +10150,12 @@ ul#new-menu {
   -moz-osx-font-smoothing: grayscale;
   width: 20px;
 }
+.dirty-indicator-clean.fa-pull-left {
+  margin-right: .3em;
+}
+.dirty-indicator-clean.fa-pull-right {
+  margin-left: .3em;
+}
 .dirty-indicator-clean.pull-left {
   margin-right: .3em;
 }
@@ -9372,6 +10170,12 @@ ul#new-menu {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f00c";
+}
+.dirty-indicator-clean:before.fa-pull-left {
+  margin-right: .3em;
+}
+.dirty-indicator-clean:before.fa-pull-right {
+  margin-left: .3em;
 }
 .dirty-indicator-clean:before.pull-left {
   margin-right: .3em;
@@ -9417,14 +10221,132 @@ ul#new-menu {
     box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
   }
 }
+.CodeMirror-dialog {
+  background-color: #fff;
+}
 /*!
 *
 * IPython notebook
 *
 */
-/* CSS font colors for translated ANSI colors. */
+/* CSS font colors for translated ANSI escape sequences */
+/* The color values are a mix of
+   http://www.xcolors.net/dl/baskerville-ivorylight and
+   http://www.xcolors.net/dl/euphrasia */
+.ansi-black-fg {
+  color: #3E424D;
+}
+.ansi-black-bg {
+  background-color: #3E424D;
+}
+.ansi-black-intense-fg {
+  color: #282C36;
+}
+.ansi-black-intense-bg {
+  background-color: #282C36;
+}
+.ansi-red-fg {
+  color: #E75C58;
+}
+.ansi-red-bg {
+  background-color: #E75C58;
+}
+.ansi-red-intense-fg {
+  color: #B22B31;
+}
+.ansi-red-intense-bg {
+  background-color: #B22B31;
+}
+.ansi-green-fg {
+  color: #00A250;
+}
+.ansi-green-bg {
+  background-color: #00A250;
+}
+.ansi-green-intense-fg {
+  color: #007427;
+}
+.ansi-green-intense-bg {
+  background-color: #007427;
+}
+.ansi-yellow-fg {
+  color: #DDB62B;
+}
+.ansi-yellow-bg {
+  background-color: #DDB62B;
+}
+.ansi-yellow-intense-fg {
+  color: #B27D12;
+}
+.ansi-yellow-intense-bg {
+  background-color: #B27D12;
+}
+.ansi-blue-fg {
+  color: #208FFB;
+}
+.ansi-blue-bg {
+  background-color: #208FFB;
+}
+.ansi-blue-intense-fg {
+  color: #0065CA;
+}
+.ansi-blue-intense-bg {
+  background-color: #0065CA;
+}
+.ansi-magenta-fg {
+  color: #D160C4;
+}
+.ansi-magenta-bg {
+  background-color: #D160C4;
+}
+.ansi-magenta-intense-fg {
+  color: #A03196;
+}
+.ansi-magenta-intense-bg {
+  background-color: #A03196;
+}
+.ansi-cyan-fg {
+  color: #60C6C8;
+}
+.ansi-cyan-bg {
+  background-color: #60C6C8;
+}
+.ansi-cyan-intense-fg {
+  color: #258F8F;
+}
+.ansi-cyan-intense-bg {
+  background-color: #258F8F;
+}
+.ansi-white-fg {
+  color: #C5C1B4;
+}
+.ansi-white-bg {
+  background-color: #C5C1B4;
+}
+.ansi-white-intense-fg {
+  color: #A1A6B2;
+}
+.ansi-white-intense-bg {
+  background-color: #A1A6B2;
+}
+.ansi-default-inverse-fg {
+  color: #FFFFFF;
+}
+.ansi-default-inverse-bg {
+  background-color: #000000;
+}
+.ansi-bold {
+  font-weight: bold;
+}
+.ansi-underline {
+  text-decoration: underline;
+}
+/* The following styles are deprecated an will be removed in a future version */
 .ansibold {
   font-weight: bold;
+}
+.ansi-inverse {
+  outline: 0.5px dotted;
 }
 /* use dark versions for foreground, to improve visibility */
 .ansiblack {
@@ -9503,12 +10425,20 @@ div.cell {
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
   outline: none;
-  border-left-width: 1px;
-  padding-left: 5px;
-  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+  position: relative;
+  overflow: visible;
+}
+div.cell:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: transparent;
 }
 div.cell.jupyter-soft-selected {
-  border-left-color: #90CAF9;
   border-left-color: #E3F2FD;
   border-left-width: 1px;
   padding-left: 5px;
@@ -9521,27 +10451,39 @@ div.cell.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected {
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
   border-color: #ababab;
-  border-left-width: 0px;
-  padding-left: 6px;
-  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+div.cell.selected:before,
+div.cell.selected.jupyter-soft-selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #42A5F5;
 }
 @media print {
-  div.cell.selected {
+  div.cell.selected,
+  div.cell.selected.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected.jupyter-soft-selected {
-  border-left-width: 0;
-  padding-left: 6px;
-  background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 7px, #E3F2FD 7px, #E3F2FD 100%);
-}
 .edit_mode div.cell.selected {
   border-color: #66BB6A;
-  border-left-width: 0px;
-  padding-left: 6px;
-  background: linear-gradient(to right, #66BB6A -40px, #66BB6A 5px, transparent 5px, transparent 100%);
+}
+.edit_mode div.cell.selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #66BB6A;
 }
 @media print {
   .edit_mode div.cell.selected {
@@ -9737,7 +10679,9 @@ div.input_area > div.highlight > pre {
 .CodeMirror-lines {
   /* In CM2, this used to be 0.4em, but in CM3 it went to 4px. We need the em value because */
   /* we have set a different line-height and want this to scale with that. */
-  padding: 0.4em;
+  /* Note that this should set vertical padding only, since CodeMirror assumes
+       that horizontal padding will be set on CodeMirror pre */
+  padding: 0.4em 0;
 }
 .CodeMirror-linenumber {
   padding: 0 8px 0 4px;
@@ -9747,11 +10691,24 @@ div.input_area > div.highlight > pre {
   border-top-left-radius: 2px;
 }
 .CodeMirror pre {
-  /* In CM3 this went to 4px from 0 in CM2. We need the 0 value because of how we size */
-  /* .CodeMirror-lines */
-  padding: 0;
+  /* In CM3 this went to 4px from 0 in CM2. This sets horizontal padding only,
+    use .CodeMirror-lines for vertical */
+  padding: 0 0.4em;
   border: 0;
   border-radius: 0;
+}
+.CodeMirror-cursor {
+  border-left: 1.4px solid black;
+}
+@media screen and (min-width: 2138px) and (max-width: 4319px) {
+  .CodeMirror-cursor {
+    border-left: 2px solid black;
+  }
+}
+@media screen and (min-width: 4320px) {
+  .CodeMirror-cursor {
+    border-left: 4px solid black;
+  }
 }
 /*
 
@@ -10005,6 +10962,9 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
+div.output_area .mglyph > img {
+  max-width: none;
+}
 /* This is needed to protect the pre formating from global settings such
    as that of bootstrap */
 .output {
@@ -10043,7 +11003,7 @@ div.output_area svg.unconfined {
 }
 div.output_area pre {
   margin: 0;
-  padding: 0;
+  padding: 1px 0 1px 0;
   border: 0;
   vertical-align: baseline;
   color: black;
@@ -10203,39 +11163,35 @@ div.output_unrecognized a:hover {
 .rendered_html h6:first-child {
   margin-top: 1em;
 }
+.rendered_html ul:not(.list-inline),
+.rendered_html ol:not(.list-inline) {
+  padding-left: 2em;
+}
 .rendered_html ul {
   list-style: disc;
-  margin: 0em 2em;
-  padding-left: 0px;
 }
 .rendered_html ul ul {
   list-style: square;
-  margin: 0em 2em;
+  margin-top: 0;
 }
 .rendered_html ul ul ul {
   list-style: circle;
-  margin: 0em 2em;
 }
 .rendered_html ol {
   list-style: decimal;
-  margin: 0em 2em;
-  padding-left: 0px;
 }
 .rendered_html ol ol {
   list-style: upper-alpha;
-  margin: 0em 2em;
+  margin-top: 0;
 }
 .rendered_html ol ol ol {
   list-style: lower-alpha;
-  margin: 0em 2em;
 }
 .rendered_html ol ol ol ol {
   list-style: lower-roman;
-  margin: 0em 2em;
 }
 .rendered_html ol ol ol ol ol {
   list-style: decimal;
-  margin: 0em 2em;
 }
 .rendered_html * + ul {
   margin-top: 1em;
@@ -10249,14 +11205,23 @@ div.output_unrecognized a:hover {
 }
 .rendered_html pre {
   margin: 1em 2em;
+  padding: 0px;
+  background-color: #fff;
+}
+.rendered_html code {
+  background-color: #eff0f1;
+}
+.rendered_html p code {
+  padding: 1px 5px;
+}
+.rendered_html pre code {
+  background-color: #fff;
 }
 .rendered_html pre,
 .rendered_html code {
   border: 0;
-  background-color: #fff;
   color: #000;
   font-size: 100%;
-  padding: 0px;
 }
 .rendered_html blockquote {
   margin: 1em 2em;
@@ -10264,24 +11229,36 @@ div.output_unrecognized a:hover {
 .rendered_html table {
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  border: none;
   border-collapse: collapse;
+  border-spacing: 0;
+  color: black;
+  font-size: 12px;
+  table-layout: fixed;
+}
+.rendered_html thead {
+  border-bottom: 1px solid black;
+  vertical-align: bottom;
 }
 .rendered_html tr,
 .rendered_html th,
 .rendered_html td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: 1em 2em;
-}
-.rendered_html td,
-.rendered_html th {
-  text-align: left;
+  text-align: right;
   vertical-align: middle;
-  padding: 4px;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
 }
 .rendered_html th {
   font-weight: bold;
+}
+.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
 }
 .rendered_html * + table {
   margin-top: 1em;
@@ -10308,6 +11285,15 @@ div.output_unrecognized a:hover {
 .rendered_html img.unconfined,
 .rendered_html svg.unconfined {
   max-width: none;
+}
+.rendered_html .alert {
+  margin-bottom: initial;
+}
+.rendered_html * + .alert {
+  margin-top: 1em;
+}
+[dir="rtl"] .rendered_html p {
+  text-align: right;
 }
 div.text_cell {
   /* Old browsers */
@@ -10362,8 +11348,17 @@ h6:hover .anchor-link {
   overflow-x: auto;
   overflow-y: hidden;
 }
+.text_cell.rendered .rendered_html tr,
+.text_cell.rendered .rendered_html th,
+.text_cell.rendered .rendered_html td {
+  max-width: none;
+}
 .text_cell.unrendered .text_cell_render {
   display: none;
+}
+.text_cell .dropzone .input_area {
+  border: 2px dashed #bababa;
+  margin: -1px;
 }
 .cm-header-1,
 .cm-header-2,
@@ -10500,6 +11495,28 @@ kbd {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+.jupyter-keybindings {
+  padding: 1px;
+  line-height: 24px;
+  border-bottom: 1px solid gray;
+}
+.jupyter-keybindings input {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.jupyter-keybindings i {
+  padding: 6px;
+}
+.well code {
+  background-color: #ffffff;
+  border-color: #ababab;
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 /* CSS for the cell toolbar */
 .celltoolbar {
   border: thin solid #CFCFCF;
@@ -10632,6 +11649,152 @@ select[multiple].celltoolbar select {
   margin-left: 5px;
   margin-right: 5px;
 }
+.tags_button_container {
+  width: 100%;
+  display: flex;
+}
+.tag-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+.tag-container > * {
+  margin: 0 4px;
+}
+.remove-tag-btn {
+  margin-left: 4px;
+}
+.tags-input {
+  display: flex;
+}
+.cell-tag:last-child:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  /* Fade to background color of cell toolbar */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #EEE);
+}
+.tags-input > * {
+  margin-left: 4px;
+}
+.cell-tag,
+.tags-input input,
+.tags-input button {
+  display: block;
+  width: 100%;
+  height: 32px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 1px;
+  box-shadow: none;
+  width: inherit;
+  font-size: inherit;
+  height: 22px;
+  line-height: 22px;
+  padding: 0px 4px;
+  display: inline-block;
+}
+.cell-tag:focus,
+.tags-input input:focus,
+.tags-input button:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.cell-tag::-moz-placeholder,
+.tags-input input::-moz-placeholder,
+.tags-input button::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.cell-tag:-ms-input-placeholder,
+.tags-input input:-ms-input-placeholder,
+.tags-input button:-ms-input-placeholder {
+  color: #999;
+}
+.cell-tag::-webkit-input-placeholder,
+.tags-input input::-webkit-input-placeholder,
+.tags-input button::-webkit-input-placeholder {
+  color: #999;
+}
+.cell-tag::-ms-expand,
+.tags-input input::-ms-expand,
+.tags-input button::-ms-expand {
+  border: 0;
+  background-color: transparent;
+}
+.cell-tag[disabled],
+.tags-input input[disabled],
+.tags-input button[disabled],
+.cell-tag[readonly],
+.tags-input input[readonly],
+.tags-input button[readonly],
+fieldset[disabled] .cell-tag,
+fieldset[disabled] .tags-input input,
+fieldset[disabled] .tags-input button {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+.cell-tag[disabled],
+.tags-input input[disabled],
+.tags-input button[disabled],
+fieldset[disabled] .cell-tag,
+fieldset[disabled] .tags-input input,
+fieldset[disabled] .tags-input button {
+  cursor: not-allowed;
+}
+textarea.cell-tag,
+textarea.tags-input input,
+textarea.tags-input button {
+  height: auto;
+}
+select.cell-tag,
+select.tags-input input,
+select.tags-input button {
+  height: 30px;
+  line-height: 30px;
+}
+textarea.cell-tag,
+textarea.tags-input input,
+textarea.tags-input button,
+select[multiple].cell-tag,
+select[multiple].tags-input input,
+select[multiple].tags-input button {
+  height: auto;
+}
+.cell-tag,
+.tags-input button {
+  padding: 0px 4px;
+}
+.cell-tag {
+  background-color: #fff;
+  white-space: nowrap;
+}
+.tags-input input[type=text]:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ccc;
+}
 .completions {
   position: absolute;
   z-index: 110;
@@ -10657,16 +11820,28 @@ select[multiple].celltoolbar select {
 .completions select option.context {
   color: #286090;
 }
-#kernel_logo_widget {
-  float: right !important;
-  float: right;
-}
 #kernel_logo_widget .current_kernel_logo {
   display: none;
   margin-top: -1px;
   margin-bottom: -1px;
   width: 32px;
   height: 32px;
+}
+[dir="rtl"] #kernel_logo_widget {
+  float: left !important;
+  float: left;
+}
+.modal .modal-body .move-path {
+  display: flex;
+  flex-direction: row;
+  justify-content: space;
+  align-items: center;
+}
+.modal .modal-body .move-path .server-root {
+  padding-right: 20px;
+}
+.modal .modal-body .move-path .path-input {
+  flex: 1;
 }
 #menubar {
   box-sizing: border-box;
@@ -10688,11 +11863,41 @@ select[multiple].celltoolbar select {
 #menubar .navbar-collapse {
   clear: left;
 }
+[dir="rtl"] #menubar .navbar-toggle {
+  float: right;
+}
+[dir="rtl"] #menubar .navbar-collapse {
+  clear: right;
+}
+[dir="rtl"] #menubar .navbar-nav {
+  float: right;
+}
+[dir="rtl"] #menubar .nav {
+  padding-right: 0px;
+}
+[dir="rtl"] #menubar .navbar-nav > li {
+  float: right;
+}
+[dir="rtl"] #menubar .navbar-right {
+  float: left !important;
+}
+[dir="rtl"] ul.dropdown-menu {
+  text-align: right;
+  left: auto;
+}
+[dir="rtl"] ul#new-menu.dropdown-menu {
+  right: auto;
+  left: 0;
+}
 .nav-wrapper {
   border-bottom: 1px solid #e7e7e7;
 }
 i.menu-icon {
   padding-top: 4px;
+}
+[dir="rtl"] i.menu-icon.pull-right {
+  float: left !important;
+  float: left;
 }
 ul#help_menu li a {
   overflow: hidden;
@@ -10700,6 +11905,17 @@ ul#help_menu li a {
 }
 ul#help_menu li a i {
   margin-right: -1.2em;
+}
+[dir="rtl"] ul#help_menu li a {
+  padding-left: 2.2em;
+}
+[dir="rtl"] ul#help_menu li a i {
+  margin-right: 0;
+  margin-left: -1.2em;
+}
+[dir="rtl"] ul#help_menu li a i.pull-right {
+  float: left !important;
+  float: left;
 }
 .dropdown-submenu {
   position: relative;
@@ -10709,6 +11925,10 @@ ul#help_menu li a i {
   left: 100%;
   margin-top: -6px;
   margin-left: -1px;
+}
+[dir="rtl"] .dropdown-submenu > .dropdown-menu {
+  right: 100%;
+  margin-right: -1px;
 }
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
@@ -10727,11 +11947,23 @@ ul#help_menu li a i {
   margin-top: 2px;
   margin-right: -10px;
 }
+.dropdown-submenu > a:after.fa-pull-left {
+  margin-right: .3em;
+}
+.dropdown-submenu > a:after.fa-pull-right {
+  margin-left: .3em;
+}
 .dropdown-submenu > a:after.pull-left {
   margin-right: .3em;
 }
 .dropdown-submenu > a:after.pull-right {
   margin-left: .3em;
+}
+[dir="rtl"] .dropdown-submenu > a:after {
+  float: left;
+  content: "\f0d9";
+  margin-right: 0;
+  margin-left: -10px;
 }
 .dropdown-submenu:hover > a:after {
   color: #262626;
@@ -10748,6 +11980,10 @@ ul#help_menu li a i {
   float: right;
   z-index: 10;
 }
+[dir="rtl"] #notification_area {
+  float: left !important;
+  float: left;
+}
 .indicator_area {
   float: right !important;
   float: right;
@@ -10758,6 +11994,10 @@ ul#help_menu li a i {
   z-index: 10;
   text-align: center;
   width: auto;
+}
+[dir="rtl"] .indicator_area {
+  float: left !important;
+  float: left;
 }
 #kernel_indicator {
   float: right !important;
@@ -10775,6 +12015,12 @@ ul#help_menu li a i {
   padding-left: 5px;
   padding-right: 5px;
 }
+[dir="rtl"] #kernel_indicator {
+  float: left !important;
+  float: left;
+  border-left: 0;
+  border-right: 1px solid;
+}
 #modal_indicator {
   float: right !important;
   float: right;
@@ -10785,6 +12031,10 @@ ul#help_menu li a i {
   z-index: 10;
   text-align: center;
   width: auto;
+}
+[dir="rtl"] #modal_indicator {
+  float: left !important;
+  float: left;
 }
 #readonly-indicator {
   float: right !important;
@@ -10815,6 +12065,12 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f040";
 }
+.edit_mode .modal_indicator:before.fa-pull-left {
+  margin-right: .3em;
+}
+.edit_mode .modal_indicator:before.fa-pull-right {
+  margin-left: .3em;
+}
 .edit_mode .modal_indicator:before.pull-left {
   margin-right: .3em;
 }
@@ -10829,6 +12085,12 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: ' ';
+}
+.command_mode .modal_indicator:before.fa-pull-left {
+  margin-right: .3em;
+}
+.command_mode .modal_indicator:before.fa-pull-right {
+  margin-left: .3em;
 }
 .command_mode .modal_indicator:before.pull-left {
   margin-right: .3em;
@@ -10845,6 +12107,12 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f10c";
 }
+.kernel_idle_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.kernel_idle_icon:before.fa-pull-right {
+  margin-left: .3em;
+}
 .kernel_idle_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -10859,6 +12127,12 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f111";
+}
+.kernel_busy_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.kernel_busy_icon:before.fa-pull-right {
+  margin-left: .3em;
 }
 .kernel_busy_icon:before.pull-left {
   margin-right: .3em;
@@ -10875,6 +12149,12 @@ ul#help_menu li a i {
   -moz-osx-font-smoothing: grayscale;
   content: "\f1e2";
 }
+.kernel_dead_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.kernel_dead_icon:before.fa-pull-right {
+  margin-left: .3em;
+}
 .kernel_dead_icon:before.pull-left {
   margin-right: .3em;
 }
@@ -10889,6 +12169,12 @@ ul#help_menu li a i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "\f127";
+}
+.kernel_disconnected_icon:before.fa-pull-left {
+  margin-right: .3em;
+}
+.kernel_disconnected_icon:before.fa-pull-right {
+  margin-left: .3em;
 }
 .kernel_disconnected_icon:before.pull-left {
   margin-right: .3em;
@@ -11279,27 +12565,46 @@ div#pager .ui-resizable-handle::after {
   flex: 1;
 }
 span.save_widget {
-  margin-top: 6px;
+  height: 30px;
+  margin-top: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 50%;
+  flex: 1;
 }
 span.save_widget span.filename {
-  height: 1em;
+  height: 100%;
   line-height: 1em;
-  padding: 3px;
   margin-left: 16px;
   border: none;
   font-size: 146.5%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   border-radius: 2px;
 }
 span.save_widget span.filename:hover {
   background-color: #e6e6e6;
 }
+[dir="rtl"] span.save_widget.pull-left {
+  float: right !important;
+  float: right;
+}
+[dir="rtl"] span.save_widget span.filename {
+  margin-left: 0;
+  margin-right: 16px;
+}
 span.checkpoint_status,
 span.autosave_status {
   font-size: small;
+  white-space: nowrap;
+  padding: 0 5px;
 }
 @media (max-width: 767px) {
   span.save_widget {
     font-size: small;
+    padding: 0 0 0 5px;
   }
   span.checkpoint_status,
   span.autosave_status {
@@ -11343,6 +12648,9 @@ span.autosave_status {
   margin-top: 0px;
   margin-left: 5px;
 }
+.toolbar-btn-label {
+  margin-left: 6px;
+}
 #maintoolbar {
   margin-bottom: -3px;
   margin-top: -8px;
@@ -11362,6 +12670,10 @@ span.autosave_status {
 }
 .select-xs {
   height: 24px;
+}
+[dir="rtl"] .btn-group > .btn,
+.btn-group-vertical > .btn {
+  float: right;
 }
 .pulse,
 .dropdown-menu > li > a.pulse,
@@ -11512,6 +12824,10 @@ ul.typeahead-list i {
   margin-left: -10px;
   width: 18px;
 }
+[dir="rtl"] ul.typeahead-list i {
+  margin-left: 0;
+  margin-right: -10px;
+}
 ul.typeahead-list {
   max-height: 80vh;
   overflow: auto;
@@ -11520,6 +12836,13 @@ ul.typeahead-list > li > a {
   /** Firefox bug **/
   /* see https://github.com/jupyter/notebook/issues/559 */
   white-space: normal;
+}
+ul.typeahead-list  > li > a.pull-right {
+  float: left !important;
+  float: left;
+}
+[dir="rtl"] .typeahead-list {
+  text-align: right;
 }
 .cmd-palette .modal-body {
   padding: 7px;
@@ -11531,10 +12854,19 @@ ul.typeahead-list > li > a {
   outline: none;
 }
 .no-shortcut {
-  display: none;
+  min-width: 20px;
+  color: transparent;
+}
+[dir="rtl"] .no-shortcut.pull-right {
+  float: left !important;
+  float: left;
+}
+[dir="rtl"] .command-shortcut.pull-right {
+  float: left !important;
+  float: left;
 }
 .command-shortcut:before {
-  content: "(command)";
+  content: "(command mode)";
   padding-right: 3px;
   color: #777777;
 }
@@ -11543,6 +12875,10 @@ ul.typeahead-list > li > a {
   padding-right: 3px;
   color: #777777;
 }
+[dir="rtl"] .edit-shortcut.pull-right {
+  float: left !important;
+  float: left;
+}
 #find-and-replace #replace-preview .match,
 #find-and-replace #replace-preview .insert {
   background-color: #BBDEFB;
@@ -11550,6 +12886,12 @@ ul.typeahead-list > li > a {
   border-style: solid;
   border-width: 1px;
   border-radius: 0px;
+}
+[dir="ltr"] #find-and-replace .input-group-btn + .form-control {
+  border-left: none;
+}
+[dir="rtl"] #find-and-replace .input-group-btn + .form-control {
+  border-right: none;
 }
 #find-and-replace #replace-preview .replace .match {
   background-color: #FFCDD2;
@@ -11772,16 +13114,21 @@ div#notebook {
     <div class="container" id="notebook-container">
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><h3 id="Linked-Lists"><a href="#Node-of-a-Doubly-Linked-List">Linked Lists</a><a class="anchor-link" href="#Linked-Lists">&#182;</a></h3><h5 id="Singly-Linked-List-Impl"><a href="#Singly-Linked-List">Singly Linked List Impl</a><a class="anchor-link" href="#Singly-Linked-List-Impl">&#182;</a></h5><h5 id="Doubly-Linked-List-Node"><a href="#Node-of-a-Doubly-Linked-List">Doubly Linked List Node</a><a class="anchor-link" href="#Doubly-Linked-List-Node">&#182;</a></h5><h5 id="Doubly-Linked-List-Impl"><a href="#Doubly-Linked-List">Doubly Linked List Impl</a><a class="anchor-link" href="#Doubly-Linked-List-Impl">&#182;</a></h5><h5 id="Doubly-Linked-List-with-Sentinel-Impl"><a href="#Doubly-Linked-List-With-Sentinel">Doubly Linked List with Sentinel Impl</a><a class="anchor-link" href="#Doubly-Linked-List-with-Sentinel-Impl">&#182;</a></h5><h5 id="Doubly-Linked-List-in-C++"><a href="#Doubly-Linked-List-in-C++">Doubly Linked List in C++</a><a class="anchor-link" href="#Doubly-Linked-List-in-C++">&#182;</a></h5><h5 id="Reverse-Lists-Sums-One-Pass"><a href="#Reverse-sum-of-linked-lists">Reverse Lists Sums One Pass</a><a class="anchor-link" href="#Reverse-Lists-Sums-One-Pass">&#182;</a></h5><h5 id="Add-two-linked-lists,-reverse-the-results"><a href="#Reverse-sum-of-linked-lists">Add two linked lists, reverse the results</a><a class="anchor-link" href="#Add-two-linked-lists,-reverse-the-results">&#182;</a></h5><h3 id="On-Stacks-and-Queues"><a href="#Stacks-and-Queues">On Stacks and Queues</a><a class="anchor-link" href="#On-Stacks-and-Queues">&#182;</a></h3><h5 id="On-Stacks"><a href="#Stacks-and-Queues">On Stacks</a><a class="anchor-link" href="#On-Stacks">&#182;</a></h5><h5 id="On-Queues"><a href="#Queues">On Queues</a><a class="anchor-link" href="#On-Queues">&#182;</a></h5><h3 id="On-Hash-Tables"><a href="#Hash-Tables">On Hash Tables</a><a class="anchor-link" href="#On-Hash-Tables">&#182;</a></h3><h3 id="Binary-Search-Trees-Impl"><a href="#Binary-Search-Trees">Binary Search Trees Impl</a><a class="anchor-link" href="#Binary-Search-Trees-Impl">&#182;</a></h3><h4 id="Bundler-(NamedTuple)"><a href="#Bundle">Bundler (NamedTuple)</a><a class="anchor-link" href="#Bundler-(NamedTuple)">&#182;</a></h4><h4 id="Binary-Search-Tree,-C++-Implementation"><a href="#Binary-Search-Tree-in-C++">Binary Search Tree, C++ Implementation</a><a class="anchor-link" href="#Binary-Search-Tree,-C++-Implementation">&#182;</a></h4><h3 id="Comparison-Sort-Algorithms"><a href="#Insert-Sort">Comparison Sort Algorithms</a><a class="anchor-link" href="#Comparison-Sort-Algorithms">&#182;</a></h3><h5 id="Insert-Sort-from-CLRS"><a href="#Insert-Sort">Insert Sort from CLRS</a><a class="anchor-link" href="#Insert-Sort-from-CLRS">&#182;</a></h5><h5 id="Heap-Sort-CLRS-Impl"><a href="#Heap-Sort-from-CLRS">Heap Sort CLRS Impl</a><a class="anchor-link" href="#Heap-Sort-CLRS-Impl">&#182;</a></h5><h5 id="Merge-Sort-from-GZC"><a href="#Merge-Sort">Merge Sort from GZC</a><a class="anchor-link" href="#Merge-Sort-from-GZC">&#182;</a></h5><h3 id="Linear-Time-Sort-Algorithms"><a href="#Counting-Sort">Linear Time Sort Algorithms</a><a class="anchor-link" href="#Linear-Time-Sort-Algorithms">&#182;</a></h3><h4 id="Counting-Sort-Algorithm"><a href="#Counting-Sort">Counting Sort Algorithm</a><a class="anchor-link" href="#Counting-Sort-Algorithm">&#182;</a></h4><h4 id="Radix-Sort-Algorithm"><a href="#Radix-Sort">Radix Sort Algorithm</a><a class="anchor-link" href="#Radix-Sort-Algorithm">&#182;</a></h4><h4 id="Bucket-Sort-Algorithm"><a href="#Bucket-Sort">Bucket Sort Algorithm</a><a class="anchor-link" href="#Bucket-Sort-Algorithm">&#182;</a></h4><h2 id="Facebook"><a href="#FB-Questions">Facebook</a><a class="anchor-link" href="#Facebook">&#182;</a></h2><h5 id="Spiral-array-elements"><a href="#Spiral-Array-Elements">Spiral array elements</a><a class="anchor-link" href="#Spiral-array-elements">&#182;</a></h5><h5 id="PDF-Viewer-Area"><a href="#Designer-PDF-Viewer">PDF Viewer Area</a><a class="anchor-link" href="#PDF-Viewer-Area">&#182;</a></h5><h5 id="Look-and-Say"><a href="#Look-And-Say-with-Groupby">Look and Say</a><a class="anchor-link" href="#Look-and-Say">&#182;</a></h5><h5 id="Look-And-Say-with-List-Comprehension"><a href="#Look-And-Say-with-Groupby">Look And Say with List Comprehension</a><a class="anchor-link" href="#Look-And-Say-with-List-Comprehension">&#182;</a></h5><h5 id="Look-And-Say-with-Non-List-Comprehension"><a href="#Look-And-Say-with-Non-List-Comprehension">Look And Say with Non-List Comprehension</a><a class="anchor-link" href="#Look-And-Say-with-Non-List-Comprehension">&#182;</a></h5><h5 id="Return-bool-if-two-words-are-one-edit-apart"><a href="#One-Edit-Apart">Return bool if two words are one edit apart</a><a class="anchor-link" href="#Return-bool-if-two-words-are-one-edit-apart">&#182;</a></h5><h5 id="Left-Rotation-of-Arrays"><a href="#Arrays-Left-Rotation">Left Rotation of Arrays</a><a class="anchor-link" href="#Left-Rotation-of-Arrays">&#182;</a></h5><h5 id="Insert-Node-at-a-Specific-Position-in-a-Linked-List"><a href="#Node-at-a-position">Insert Node at a Specific Position in a Linked List</a><a class="anchor-link" href="#Insert-Node-at-a-Specific-Position-in-a-Linked-List">&#182;</a></h5><h5 id="Max-Death-Year"><a href="#Max-Population">Max Death Year</a><a class="anchor-link" href="#Max-Death-Year">&#182;</a></h5><h5 id="Fibonacci-Numbers,-Recursion"><a href="#Fibonacci-Numbers">Fibonacci Numbers, Recursion</a><a class="anchor-link" href="#Fibonacci-Numbers,-Recursion">&#182;</a></h5><h5 id="Fibonacci-Numbers,-Memoization"><a href="#Fibonacci-Numbers-Memoization">Fibonacci Numbers, Memoization</a><a class="anchor-link" href="#Fibonacci-Numbers,-Memoization">&#182;</a></h5><h5 id="Unique-Paths-in-a-Grid,-Dynamic-Programming"><a href="#Unique-Paths-in-a-Grid">Unique Paths in a Grid, Dynamic Programming</a><a class="anchor-link" href="#Unique-Paths-in-a-Grid,-Dynamic-Programming">&#182;</a></h5><h5 id="Maximum-Subarray-Problem,-Dynamic-Programming"><a href="#Maximum-Subarray-Problem">Maximum Subarray Problem, Dynamic Programming</a><a class="anchor-link" href="#Maximum-Subarray-Problem,-Dynamic-Programming">&#182;</a></h5><h2 id="LeetCode-Questions"><a href="#Leet-Code">LeetCode Questions</a><a class="anchor-link" href="#LeetCode-Questions">&#182;</a></h2><h5 id="Determine-Trapped-Rain-Water-Area"><a href="#Trapping-Rain-Water">Determine Trapped Rain Water Area</a><a class="anchor-link" href="#Determine-Trapped-Rain-Water-Area">&#182;</a></h5><h5 id="Regex-Pattern-with-Kleene-Stars"><a href="#Regex-Pattern">Regex Pattern with Kleene Stars</a><a class="anchor-link" href="#Regex-Pattern-with-Kleene-Stars">&#182;</a></h5><h5 id="Multiply-Square-matrices"><a href="#Multiply-two-square-matrices">Multiply Square matrices</a><a class="anchor-link" href="#Multiply-Square-matrices">&#182;</a></h5><h5 id="Strassen's-Recursive-Matrix-Multiplication"><a href="#Strassen's-algorithm">Strassen's Recursive Matrix Multiplication</a><a class="anchor-link" href="#Strassen's-Recursive-Matrix-Multiplication">&#182;</a></h5><h5 id="Candy-Crush"><a href="#Greedily-remove-string">Candy Crush</a><a class="anchor-link" href="#Candy-Crush">&#182;</a></h5><h5 id="Find-Indices-of-an-array-adding-to-a-target"><a href="#Indices-of-array-to-a-target">Find Indices of an array adding to a target</a><a class="anchor-link" href="#Find-Indices-of-an-array-adding-to-a-target">&#182;</a></h5><h5 id="Factorial-Recursion"><a href="#Factorial">Factorial Recursion</a><a class="anchor-link" href="#Factorial-Recursion">&#182;</a></h5><h2 id="Techie-Delight"><a href="#Techie-Delight">Techie Delight</a><a class="anchor-link" href="#Techie-Delight">&#182;</a></h2><h5 id="Array-Duplicates-in-a-Given-Range"><a href="#Array-Duplicates">Array Duplicates in a Given Range</a><a class="anchor-link" href="#Array-Duplicates-in-a-Given-Range">&#182;</a></h5><h5 id="Find-the-median-of-two-sorted-arrays-of-size-m-and-n"><a href="#Median-of-two-sorted-arrays">Find the median of two sorted arrays of size m and n</a><a class="anchor-link" href="#Find-the-median-of-two-sorted-arrays-of-size-m-and-n">&#182;</a></h5>
+<h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><h3 id="Linked-Lists"><a href="#Node-of-a-Doubly-Linked-List">Linked Lists</a><a class="anchor-link" href="#Linked-Lists">&#182;</a></h3><h5 id="Singly-Linked-List-Impl"><a href="#Singly-Linked-List">Singly Linked List Impl</a><a class="anchor-link" href="#Singly-Linked-List-Impl">&#182;</a></h5><h5 id="Doubly-Linked-List-Node"><a href="#Node-of-a-Doubly-Linked-List">Doubly Linked List Node</a><a class="anchor-link" href="#Doubly-Linked-List-Node">&#182;</a></h5><h5 id="Doubly-Linked-List-Impl"><a href="#Doubly-Linked-List">Doubly Linked List Impl</a><a class="anchor-link" href="#Doubly-Linked-List-Impl">&#182;</a></h5><h5 id="Doubly-Linked-List-with-Sentinel-Impl"><a href="#Doubly-Linked-List-With-Sentinel">Doubly Linked List with Sentinel Impl</a><a class="anchor-link" href="#Doubly-Linked-List-with-Sentinel-Impl">&#182;</a></h5><h5 id="Doubly-Linked-List-in-C++"><a href="#Doubly-Linked-List-in-C++">Doubly Linked List in C++</a><a class="anchor-link" href="#Doubly-Linked-List-in-C++">&#182;</a></h5><h5 id="Reverse-Lists-Sums-One-Pass"><a href="#Reverse-sum-of-linked-lists">Reverse Lists Sums One Pass</a><a class="anchor-link" href="#Reverse-Lists-Sums-One-Pass">&#182;</a></h5><h5 id="Add-two-linked-lists,-reverse-the-results"><a href="#Reverse-sum-of-linked-lists">Add two linked lists, reverse the results</a><a class="anchor-link" href="#Add-two-linked-lists,-reverse-the-results">&#182;</a></h5><h3 id="On-Stacks-and-Queues"><a href="#Stacks-and-Queues">On Stacks and Queues</a><a class="anchor-link" href="#On-Stacks-and-Queues">&#182;</a></h3><h5 id="On-Stacks"><a href="#Stacks-and-Queues">On Stacks</a><a class="anchor-link" href="#On-Stacks">&#182;</a></h5><h5 id="On-Queues"><a href="#Queues">On Queues</a><a class="anchor-link" href="#On-Queues">&#182;</a></h5><h3 id="On-Hash-Tables"><a href="#Hash-Tables">On Hash Tables</a><a class="anchor-link" href="#On-Hash-Tables">&#182;</a></h3><h3 id="Binary-Search-Trees-Impl"><a href="#Binary-Search-Trees">Binary Search Trees Impl</a><a class="anchor-link" href="#Binary-Search-Trees-Impl">&#182;</a></h3><h4 id="Bundler-(NamedTuple)"><a href="#Bundle">Bundler (NamedTuple)</a><a class="anchor-link" href="#Bundler-(NamedTuple)">&#182;</a></h4><h4 id="Binary-Search-Tree,-C++-Implementation"><a href="#Binary-Search-Tree-in-C++">Binary Search Tree, C++ Implementation</a><a class="anchor-link" href="#Binary-Search-Tree,-C++-Implementation">&#182;</a></h4><h3 id="Comparison-Sort-Algorithms"><a href="#Insert-Sort">Comparison Sort Algorithms</a><a class="anchor-link" href="#Comparison-Sort-Algorithms">&#182;</a></h3><h5 id="Insert-Sort-from-CLRS"><a href="#Insert-Sort">Insert Sort from CLRS</a><a class="anchor-link" href="#Insert-Sort-from-CLRS">&#182;</a></h5><h5 id="Heap-Sort-CLRS-Impl"><a href="#Heap-Sort-from-CLRS">Heap Sort CLRS Impl</a><a class="anchor-link" href="#Heap-Sort-CLRS-Impl">&#182;</a></h5><h5 id="Merge-Sort-from-GZC"><a href="#Merge-Sort">Merge Sort from GZC</a><a class="anchor-link" href="#Merge-Sort-from-GZC">&#182;</a></h5><h3 id="Linear-Time-Sort-Algorithms"><a href="#Counting-Sort">Linear Time Sort Algorithms</a><a class="anchor-link" href="#Linear-Time-Sort-Algorithms">&#182;</a></h3><h4 id="Counting-Sort-Algorithm"><a href="#Counting-Sort">Counting Sort Algorithm</a><a class="anchor-link" href="#Counting-Sort-Algorithm">&#182;</a></h4><h4 id="Radix-Sort-Algorithm"><a href="#Radix-Sort">Radix Sort Algorithm</a><a class="anchor-link" href="#Radix-Sort-Algorithm">&#182;</a></h4><h4 id="Bucket-Sort-Algorithm"><a href="#Bucket-Sort">Bucket Sort Algorithm</a><a class="anchor-link" href="#Bucket-Sort-Algorithm">&#182;</a></h4><h2 id="Facebook"><a href="#FB-Questions">Facebook</a><a class="anchor-link" href="#Facebook">&#182;</a></h2><h5 id="Determine-Taxable-Income"><a href="#Taxable-Income">Determine Taxable Income</a><a class="anchor-link" href="#Determine-Taxable-Income">&#182;</a></h5><h5 id="Spiral-array-elements"><a href="#Spiral-Array-Elements">Spiral array elements</a><a class="anchor-link" href="#Spiral-array-elements">&#182;</a></h5><h5 id="Determine-Paths-in-a-Binary-Tree-adding-up-to-a-Target"><a href="#Paths-in-a-Binary-Tree">Determine Paths in a Binary Tree adding up to a Target</a><a class="anchor-link" href="#Determine-Paths-in-a-Binary-Tree-adding-up-to-a-Target">&#182;</a></h5><h5 id="PDF-Viewer-Area"><a href="#Designer-PDF-Viewer">PDF Viewer Area</a><a class="anchor-link" href="#PDF-Viewer-Area">&#182;</a></h5><h5 id="Look-and-Say"><a href="#Look-And-Say-with-Groupby">Look and Say</a><a class="anchor-link" href="#Look-and-Say">&#182;</a></h5><h5 id="Look-And-Say-with-List-Comprehension"><a href="#Look-And-Say-with-Groupby">Look And Say with List Comprehension</a><a class="anchor-link" href="#Look-And-Say-with-List-Comprehension">&#182;</a></h5><h5 id="Look-And-Say-with-Non-List-Comprehension"><a href="#Look-And-Say-with-Non-List-Comprehension">Look And Say with Non-List Comprehension</a><a class="anchor-link" href="#Look-And-Say-with-Non-List-Comprehension">&#182;</a></h5><h5 id="Return-bool-if-two-words-are-one-edit-apart"><a href="#One-Edit-Apart">Return bool if two words are one edit apart</a><a class="anchor-link" href="#Return-bool-if-two-words-are-one-edit-apart">&#182;</a></h5><h5 id="Left-Rotation-of-Arrays"><a href="#Arrays-Left-Rotation">Left Rotation of Arrays</a><a class="anchor-link" href="#Left-Rotation-of-Arrays">&#182;</a></h5><h5 id="Insert-Node-at-a-Specific-Position-in-a-Linked-List"><a href="#Node-at-a-position">Insert Node at a Specific Position in a Linked List</a><a class="anchor-link" href="#Insert-Node-at-a-Specific-Position-in-a-Linked-List">&#182;</a></h5><h5 id="Max-Death-Year"><a href="#Max-Population">Max Death Year</a><a class="anchor-link" href="#Max-Death-Year">&#182;</a></h5><h5 id="Fibonacci-Numbers,-Recursion"><a href="#Fibonacci-Numbers">Fibonacci Numbers, Recursion</a><a class="anchor-link" href="#Fibonacci-Numbers,-Recursion">&#182;</a></h5><h5 id="Fibonacci-Numbers,-Memoization"><a href="#Fibonacci-Numbers-Memoization">Fibonacci Numbers, Memoization</a><a class="anchor-link" href="#Fibonacci-Numbers,-Memoization">&#182;</a></h5><h5 id="Unique-Paths-in-a-Grid,-Dynamic-Programming"><a href="#Unique-Paths-in-a-Grid">Unique Paths in a Grid, Dynamic Programming</a><a class="anchor-link" href="#Unique-Paths-in-a-Grid,-Dynamic-Programming">&#182;</a></h5><h5 id="Maximum-Subarray-Problem,-Dynamic-Programming"><a href="#Maximum-Subarray-Problem">Maximum Subarray Problem, Dynamic Programming</a><a class="anchor-link" href="#Maximum-Subarray-Problem,-Dynamic-Programming">&#182;</a></h5><h2 id="LeetCode-Questions"><a href="#Leet-Code">LeetCode Questions</a><a class="anchor-link" href="#LeetCode-Questions">&#182;</a></h2><h5 id="Determine-Trapped-Rain-Water-Area"><a href="#Trapping-Rain-Water">Determine Trapped Rain Water Area</a><a class="anchor-link" href="#Determine-Trapped-Rain-Water-Area">&#182;</a></h5><h5 id="Regex-Pattern-with-Kleene-Stars"><a href="#Regex-Pattern">Regex Pattern with Kleene Stars</a><a class="anchor-link" href="#Regex-Pattern-with-Kleene-Stars">&#182;</a></h5><h5 id="Multiply-Square-matrices"><a href="#Multiply-two-square-matrices">Multiply Square matrices</a><a class="anchor-link" href="#Multiply-Square-matrices">&#182;</a></h5><h5 id="Strassen's-Recursive-Matrix-Multiplication"><a href="#Strassen's-algorithm">Strassen's Recursive Matrix Multiplication</a><a class="anchor-link" href="#Strassen's-Recursive-Matrix-Multiplication">&#182;</a></h5><h5 id="Candy-Crush"><a href="#Greedily-remove-string">Candy Crush</a><a class="anchor-link" href="#Candy-Crush">&#182;</a></h5><h5 id="Find-Indices-of-an-array-adding-to-a-target"><a href="#Indices-of-array-to-a-target">Find Indices of an array adding to a target</a><a class="anchor-link" href="#Find-Indices-of-an-array-adding-to-a-target">&#182;</a></h5><h5 id="Factorial-Recursion"><a href="#Factorial">Factorial Recursion</a><a class="anchor-link" href="#Factorial-Recursion">&#182;</a></h5><h2 id="Techie-Delight"><a href="#Techie-Delight">Techie Delight</a><a class="anchor-link" href="#Techie-Delight">&#182;</a></h2><h5 id="Array-Duplicates-in-a-Given-Range"><a href="#Array-Duplicates">Array Duplicates in a Given Range</a><a class="anchor-link" href="#Array-Duplicates-in-a-Given-Range">&#182;</a></h5><h5 id="Find-the-median-of-two-sorted-arrays-of-size-m-and-n"><a href="#Median-of-two-sorted-arrays">Find the median of two sorted arrays of size m and n</a><a class="anchor-link" href="#Find-the-median-of-two-sorted-arrays-of-size-m-and-n">&#182;</a></h5>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
 </div>
-<div class="inner_cell">
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Node-of-a-Doubly-Linked-List">Node of a Doubly Linked List<a class="anchor-link" href="#Node-of-a-Doubly-Linked-List">&#182;</a></h3>
 </div>
@@ -11803,14 +13150,13 @@ div#notebook {
         <span class="k">return</span> <span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">val</span><span class="p">))</span> <span class="c1">#if self.val else &#39; &#39;</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Singly-Linked-List">Singly Linked List<a class="anchor-link" href="#Singly-Linked-List">&#182;</a></h3>
 </div>
@@ -11862,14 +13208,13 @@ div#notebook {
         <span class="k">return</span> <span class="n">count</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Doubly-Linked-List">Doubly Linked List<a class="anchor-link" href="#Doubly-Linked-List">&#182;</a></h3>
 </div>
@@ -11940,7 +13285,7 @@ div#notebook {
 <span class="nb">print</span><span class="p">(</span><span class="n">ll</span><span class="o">.</span><span class="n">walk</span><span class="p">())</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -11950,7 +13295,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -11970,8 +13315,7 @@ None
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Doubly-Linked-List-With-Sentinel">Doubly Linked List With Sentinel<a class="anchor-link" href="#Doubly-Linked-List-With-Sentinel">&#182;</a></h3>
 </div>
@@ -12061,22 +13405,20 @@ None
             <span class="n">cur</span> <span class="o">=</span> <span class="n">cur</span><span class="o">.</span><span class="n">next</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Doubly-Linked-List-in-C++"><a href="https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/lists/listDoublyLinked.cxx">Doubly Linked List in C++</a><a class="anchor-link" href="#Doubly-Linked-List-in-C++">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Reverse-sum-of-linked-lists">Reverse sum of linked lists<a class="anchor-link" href="#Reverse-sum-of-linked-lists">&#182;</a></h3><ul>
 <li>You are given two non-empty linked lists representing two non-negative integers. 
@@ -12147,7 +13489,7 @@ Explanation: 342 + 465 = 807.</p>
           <span class="s1">&#39; res: &#39;</span><span class="p">,</span> <span class="n">res</span><span class="o">.</span><span class="n">walk</span><span class="p">(),</span> <span class="s1">&#39; res reversed: &#39;</span><span class="p">,</span> <span class="n">res</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span><span class="o">.</span><span class="n">walk</span><span class="p">())</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12157,7 +13499,7 @@ Explanation: 342 + 465 = 807.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -12173,8 +13515,7 @@ l1:  342 l2:  465  res:  807  res reversed:  708
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Stacks-and-Queues">Stacks and Queues<a class="anchor-link" href="#Stacks-and-Queues">&#182;</a></h1><ul>
 <li><p>Stack: LIFO Policies</p>
@@ -12227,7 +13568,7 @@ l1:  342 l2:  465  res:  807  res reversed:  708
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new contents: &#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">.</span><span class="n">contents</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12237,7 +13578,7 @@ l1:  342 l2:  465  res:  807  res reversed:  708
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -12254,8 +13595,7 @@ new contents:  [15, 6, 2, 9, 17]
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Queues">Queues<a class="anchor-link" href="#Queues">&#182;</a></h3>
 </div>
@@ -12289,7 +13629,7 @@ new contents:  [15, 6, 2, 9, 17]
         <span class="k">return</span> <span class="n">x</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12312,7 +13652,7 @@ new contents:  [15, 6, 2, 9, 17]
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;new contents: &#39;</span><span class="p">,</span> <span class="n">q</span><span class="o">.</span><span class="n">Q</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12322,7 +13662,7 @@ new contents:  [15, 6, 2, 9, 17]
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -12343,8 +13683,7 @@ new contents:  [6, 2, 9, 17, 3]
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Hash-Tables">Hash Tables<a class="anchor-link" href="#Hash-Tables">&#182;</a></h1><p>An effective data structure for implementing dictionaries. While searching for an element in a hash table might take as long as O(n) just as a linked list in worst case, in practice, hashing performs extremely well. Under reasonable assumptions, the average time to search for an element in a hash table is O(1). Directly addressing into an ordinary array makes effective use of our ability to examine an arbitrary position in an array in O(1) time. When the number of keys actually stored is small relative to the total number of possible keys, hash tables become an effective alternative to directly addressing an array, since a hash table typically uses an array of size proportional to the number of keys actually stored. Instead of using the key as an array index directly, the array index is computed from the key. Basic ops require only O(1) time on average. Perfect hashing can support O(1) worst case time, when set of keys being stored is static</p>
 
@@ -12420,14 +13759,13 @@ new contents:  [6, 2, 9, 17, 3]
         <span class="k">return</span> <span class="kc">None</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Binary-Search-Trees">Binary Search Trees<a class="anchor-link" href="#Binary-Search-Trees">&#182;</a></h3><p>For any node x, the keys in the left subtree of x are at most x.key, and the keys in the right subtree of x are at least x.key. This is the so-called binary search tree property: For a node x in the tree, if y is a node in the left subtree of x, then y.key &lt;= x.key. If y is a node in the right subtree of x, then y.key &gt;= x.key</p>
 
@@ -12435,8 +13773,7 @@ new contents:  [6, 2, 9, 17, 3]
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Bundle">Bundle<a class="anchor-link" href="#Bundle">&#182;</a></h3><p>Bundles many types similar to a named tuple</p>
 
@@ -12454,7 +13791,7 @@ new contents:  [6, 2, 9, 17, 3]
             <span class="nb">object</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">var</span><span class="p">,</span> <span class="n">val</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12607,7 +13944,7 @@ new contents:  [6, 2, 9, 17, 3]
             
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12626,7 +13963,7 @@ new contents:  [6, 2, 9, 17, 3]
     <span class="n">binary_tree</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12639,7 +13976,7 @@ new contents:  [6, 2, 9, 17, 3]
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">inorderwalk</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12649,7 +13986,7 @@ new contents:  [6, 2, 9, 17, 3]
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -12684,7 +14021,7 @@ inorderwalking node with key 89
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">unrollsearch</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="mi">45</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12694,7 +14031,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -12717,7 +14054,7 @@ inorderwalking node with key 89
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">maximum</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12727,7 +14064,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -12750,7 +14087,7 @@ inorderwalking node with key 89
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">minimum</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12760,7 +14097,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -12783,7 +14120,7 @@ inorderwalking node with key 89
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12793,7 +14130,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -12815,7 +14152,7 @@ Transplanting 82 with None
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">binary_tree</span><span class="o">.</span><span class="n">inorderwalk</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12825,7 +14162,7 @@ Transplanting 82 with None
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -12853,16 +14190,21 @@ inorderwalking node with key 89
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Binary-Search-Tree-in-C++"><a href="https://github.com/lakehanne/CLRS/blob/master/src/DataStructures/binaryTrees/binaryTree.cxx">Binary Search Tree in C++</a><a class="anchor-link" href="#Binary-Search-Tree-in-C++">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
 </div>
-<div class="inner_cell">
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Insert-Sort">Insert Sort<a class="anchor-link" href="#Insert-Sort">&#182;</a></h3>
 </div>
@@ -12887,7 +14229,7 @@ inorderwalking node with key 89
 <span class="n">insertSort</span><span class="p">([</span><span class="mi">50</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">45</span> <span class="p">])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12897,7 +14239,7 @@ inorderwalking node with key 89
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -12913,8 +14255,7 @@ inorderwalking node with key 89
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Heap-Sort-from-CLRS">Heap Sort from CLRS<a class="anchor-link" href="#Heap-Sort-from-CLRS">&#182;</a></h3><ul>
 <li>Heap sort: An O(n lg (n) algorithm): Like insert sort, it sorts in place. 
@@ -12976,7 +14317,7 @@ See pg 152-160 nin CLRS</li>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A after: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -12986,7 +14327,7 @@ See pg 152-160 nin CLRS</li>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13001,8 +14342,7 @@ A after:  [0, 1, 1, 3, 9, 9, 10, 12, 13, 20]
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Merge-Sort">Merge Sort<a class="anchor-link" href="#Merge-Sort">&#182;</a></h3>
 </div>
@@ -13044,7 +14384,7 @@ A after:  [0, 1, 1, 3, 9, 9, 10, 12, 13, 20]
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;after: &#39;</span><span class="p">,</span> <span class="n">A</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13054,7 +14394,7 @@ A after:  [0, 1, 1, 3, 9, 9, 10, 12, 13, 20]
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13069,8 +14409,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Counting-Sort">Counting Sort<a class="anchor-link" href="#Counting-Sort">&#182;</a></h3>
 </div>
@@ -13104,7 +14443,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 <span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13114,7 +14453,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13128,8 +14467,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Radix-Sort">Radix-Sort<a class="anchor-link" href="#Radix-Sort">&#182;</a></h3>
 </div>
@@ -13161,7 +14499,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 <span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13171,7 +14509,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13185,8 +14523,7 @@ after:  [-74, -50, -31, -16, -13, -11, 22, 25, 34, 52]
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Bucket-Sort">Bucket Sort<a class="anchor-link" href="#Bucket-Sort">&#182;</a></h3><p>See my implementation from CLRS 8.4/pg 201
 Bucket sort assumes that the input is drawn from a uniform distribution and has an average-case running time of O(n)</p>
@@ -13223,14 +14560,13 @@ O(n as well.</p>
     
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="FB-Questions">FB Questions<a class="anchor-link" href="#FB-Questions">&#182;</a></h1><ul>
 <li><p><a href="https://www.interviewbit.com/facebook-interview-questions/">InterviewBit</a></p>
@@ -13243,10 +14579,9 @@ O(n as well.</p>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Facebook-phone-screening-question,-Nov-14">Facebook phone screening question, Nov 14<a class="anchor-link" href="#Facebook-phone-screening-question,-Nov-14">&#182;</a></h3><p>For a 2D array whose rows are made up of tuples, and
+<h3 id="Taxable-Income">Taxable Income<a class="anchor-link" href="#Taxable-Income">&#182;</a></h3><p>For a 2D array whose rows are made up of tuples, and
 the tuples contain the tax amount and a tax bracket.</p>
 <p>If you are given an income, find out what the tax should be</p>
 <p>TaxBracket: [
@@ -13282,64 +14617,13 @@ def getTax(income, bracket): # I gave an O(n) algorithm</p>
             
 </pre></div>
 
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Facebook-phone-screening-question-2,-Nov-14">Facebook phone screening question 2, Nov 14<a class="anchor-link" href="#Facebook-phone-screening-question-2,-Nov-14">&#182;</a></h3><p>Given a binary tree, find the total number of paths in the tree that add up to a target</p>
-<ul>
-<li>I came up witha recursive inorder walk algorithm</li>
-</ul>
-
-</div>
-</div>
-</div>
-   6
-  / \
-  4  4
- /    \ 
- 2    -4
- 
- You may assume the tree is balanced; the nodes of the tree have a similarity to
- Node (){
- val = val
- left = left
- right = right
- }
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">num_paths</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">target</span><span class="p">):</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">root</span><span class="p">:</span> <span class="c1"># in case node is empty</span>
-        <span class="k">return</span>
-    
-    <span class="n">paths</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">target_check</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="n">val</span>
-    <span class="n">target_check</span><span class="o">+=</span><span class="p">(</span><span class="n">num_paths</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">left</span><span class="o">.</span><span class="n">val</span><span class="p">,</span> <span class="n">target</span><span class="p">))</span>
-    <span class="n">target_check</span><span class="o">+=</span><span class="p">(</span><span class="n">num_paths</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">right</span><span class="o">.</span><span class="n">val</span><span class="p">,</span> <span class="n">target</span><span class="p">))</span>
-    
-    <span class="k">if</span> <span class="n">target_check</span><span class="o">==</span><span class="n">target</span><span class="p">:</span>
-        <span class="n">paths</span><span class="o">+=</span> <span class="mi">1</span>
-    <span class="n">target_check</span> <span class="o">=</span> <span class="mi">0</span>
-    
-    <span class="k">return</span> <span class="n">paths</span>
-</pre></div>
-
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Spiral-Array-Elements">Spiral Array Elements<a class="anchor-link" href="#Spiral-Array-Elements">&#182;</a></h3><ul>
 <li>spiral an array elements: greedily traverse 
@@ -13387,7 +14671,7 @@ turn around and head in the other direction</li>
 <span class="nb">print</span><span class="p">(</span><span class="n">spiral</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13397,7 +14681,7 @@ turn around and head in the other direction</li>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13413,8 +14697,56 @@ turn around and head in the other direction</li>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Paths-in-a-Binary-Tree">Paths in a Binary Tree<a class="anchor-link" href="#Paths-in-a-Binary-Tree">&#182;</a></h3><p>Given a binary tree, find the total number of paths in the tree that add up to a target</p>
+<ul>
+<li>I came up witha recursive inorder walk algorithm</li>
+</ul>
+
 </div>
+</div>
+</div>
+   6
+  / \
+  4  4
+ /    \ 
+ 2    -4
+ 
+ You may assume the tree is balanced; the nodes of the tree have a similarity to
+ Node (){
+ val = val
+ left = left
+ right = right
+ }
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">num_paths</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">target</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">root</span><span class="p">:</span> <span class="c1"># in case node is empty</span>
+        <span class="k">return</span>
+    
+    <span class="n">paths</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">target_check</span> <span class="o">=</span> <span class="n">root</span><span class="o">.</span><span class="n">val</span>
+    <span class="n">target_check</span><span class="o">+=</span><span class="p">(</span><span class="n">num_paths</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">left</span><span class="o">.</span><span class="n">val</span><span class="p">,</span> <span class="n">target</span><span class="p">))</span>
+    <span class="n">target_check</span><span class="o">+=</span><span class="p">(</span><span class="n">num_paths</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">right</span><span class="o">.</span><span class="n">val</span><span class="p">,</span> <span class="n">target</span><span class="p">))</span>
+    
+    <span class="k">if</span> <span class="n">target_check</span><span class="o">==</span><span class="n">target</span><span class="p">:</span>
+        <span class="n">paths</span><span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">target_check</span> <span class="o">=</span> <span class="mi">0</span>
+    
+    <span class="k">return</span> <span class="n">paths</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Designer-PDF-Viewer">Designer PDF Viewer<a class="anchor-link" href="#Designer-PDF-Viewer">&#182;</a></h3><p>See: <a href="https://www.hackerrank.com/challenges/designer-pdf-viewer/problem">https://www.hackerrank.com/challenges/designer-pdf-viewer/problem</a></p>
 <p>When you select a contiguous block of text in a PDF viewer, the selection is highlighted with a blue rectangle. In this PDF viewer, each word is highlighted independently. For example:</p>
@@ -13452,7 +14784,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 <span class="nb">print</span><span class="p">(</span><span class="n">designerPdfViewer</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">word</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13462,7 +14794,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13476,8 +14808,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Look-And-Say-with-Groupby">Look And Say with Groupby<a class="anchor-link" href="#Look-And-Say-with-Groupby">&#182;</a></h3>
 </div>
@@ -13499,7 +14830,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 	<span class="n">numberstring</span> <span class="o">=</span> <span class="n">lookandsay</span><span class="p">(</span><span class="n">numberstring</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13509,7 +14840,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13532,8 +14863,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Look-And-Say-with-Non-List-Comprehension">Look And Say with Non-List Comprehension<a class="anchor-link" href="#Look-And-Say-with-Non-List-Comprehension">&#182;</a></h3>
 </div>
@@ -13568,7 +14898,7 @@ The second line contains a single word, consisting of lowercase English alphabet
     <span class="n">num</span> <span class="o">=</span> <span class="n">lookandsay</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13578,7 +14908,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13606,8 +14936,7 @@ The second line contains a single word, consisting of lowercase English alphabet
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="One-Edit-Apart">One Edit Apart<a class="anchor-link" href="#One-Edit-Apart">&#182;</a></h3><ul>
 <li><p>Write a function that returns whether two words are exactly 
@@ -13668,7 +14997,7 @@ An edit is:</p>
     <span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s2</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">OneEditApart</span><span class="p">(</span><span class="n">s1</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s2</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13678,7 +15007,7 @@ An edit is:</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13698,8 +15027,7 @@ wondeer wonder True
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Arrays-Left-Rotation">Arrays Left Rotation<a class="anchor-link" href="#Arrays-Left-Rotation">&#182;</a></h3><p>See <a href="https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem">https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem</a></p>
 <p>A left rotation operation on an array shifts each of the array's elements  unit to the left. For example, if  left rotations are performed on array , then the array would become .</p>
@@ -13735,14 +15063,13 @@ The second line contains  space-separated integers .</p>
     <span class="k">return</span> <span class="n">a</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Node-at-a-position">Node at a position<a class="anchor-link" href="#Node-at-a-position">&#182;</a></h3><p>See <a href="https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem">https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem</a>
 You’re given the pointer to the head node of a linked list, an integer to add to the list and the position at which the integer must be inserted. Create a new node with the given integer, insert this node at the desired position and return the head node.</p>
@@ -13752,8 +15079,7 @@ You’re given the pointer to the head node of a linked list, an integer to add 
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Max-Population">Max Population<a class="anchor-link" href="#Max-Population">&#182;</a></h3><p>Q5: Given list of people with birth years and death years (so population changes over time), find highest population.</p>
 <h4 id="Solution">Solution<a class="anchor-link" href="#Solution">&#182;</a></h4><p>Get last death year.
@@ -13791,14 +15117,13 @@ Walk through histogram to get highest population.</p>
     <span class="k">return</span> <span class="n">highest_pop</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Fibonacci-Numbers">Fibonacci Numbers<a class="anchor-link" href="#Fibonacci-Numbers">&#182;</a></h3>
 </div>
@@ -13819,7 +15144,7 @@ Walk through histogram to get highest population.</p>
 <span class="p">[</span><span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13829,7 +15154,7 @@ Walk through histogram to get highest population.</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[49]:</div>
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -13845,8 +15170,7 @@ Walk through histogram to get highest population.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Fibonacci-Numbers-Memoization">Fibonacci Numbers Memoization<a class="anchor-link" href="#Fibonacci-Numbers-Memoization">&#182;</a></h3>
 </div>
@@ -13872,7 +15196,7 @@ Walk through histogram to get highest population.</p>
 <span class="p">[</span><span class="n">fib</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">memo</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13882,7 +15206,7 @@ Walk through histogram to get highest population.</p>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[51]:</div>
+    <div class="prompt output_prompt">Out[51]:</div>
 
 
 
@@ -13898,8 +15222,7 @@ Walk through histogram to get highest population.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Unique-Paths-in-a-Grid">Unique Paths in a Grid<a class="anchor-link" href="#Unique-Paths-in-a-Grid">&#182;</a></h3><p>Given a grid of size m * n, let's assume you are starting at (1,1) and your goal is to reach (m,n). 
 At any instance, if you are on (x,y), you can either go to (x, y + 1) or (x + 1, y).</p>
@@ -13942,7 +15265,7 @@ An obstacle and empty space is marked as 1 and 0 respectively in the grid.</p>
     
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -13952,7 +15275,7 @@ An obstacle and empty space is marked as 1 and 0 respectively in the grid.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -13966,8 +15289,7 @@ An obstacle and empty space is marked as 1 and 0 respectively in the grid.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Maximum-Subarray-Problem">Maximum Subarray Problem<a class="anchor-link" href="#Maximum-Subarray-Problem">&#182;</a></h3><p>Find the longest increasing subsequence of a given array of integers, A.</p>
 <p><a href="https://www.interviewbit.com/problems/longest-increasing-subsequence/">Problem Link</a></p>
@@ -13982,16 +15304,14 @@ In this case, we only care about the length of the longest increasing subsequenc
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Leet-Code">Leet Code<a class="anchor-link" href="#Leet-Code">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Trapping-Rain-Water">Trapping Rain Water<a class="anchor-link" href="#Trapping-Rain-Water">&#182;</a></h3>
 </div>
@@ -14026,7 +15346,7 @@ In this case, we only care about the length of the longest increasing subsequenc
 <span class="nb">print</span><span class="p">(</span><span class="n">findWater</span><span class="p">(</span><span class="n">array</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14036,7 +15356,7 @@ In this case, we only care about the length of the longest increasing subsequenc
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14050,8 +15370,7 @@ In this case, we only care about the length of the longest increasing subsequenc
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Regex-Pattern">Regex Pattern<a class="anchor-link" href="#Regex-Pattern">&#182;</a></h3><p>Given an input string (s) and a pattern (p), 
 implement regular expression matching with 
@@ -14107,7 +15426,7 @@ support for '.' and '*'.</p>
                        <span class="n">Solution</span><span class="p">()</span><span class="o">.</span><span class="n">isMatch</span><span class="p">(</span><span class="s2">&quot;mississippi&quot;</span><span class="p">,</span> <span class="s2">&quot;mis*is*p*.&quot;</span><span class="p">)]])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14117,7 +15436,7 @@ support for '.' and '*'.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14131,8 +15450,7 @@ support for '.' and '*'.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Multiply-two-square-matrices">Multiply two square matrices<a class="anchor-link" href="#Multiply-two-square-matrices">&#182;</a></h3>
 </div>
@@ -14181,7 +15499,7 @@ support for '.' and '*'.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14191,7 +15509,7 @@ support for '.' and '*'.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14211,8 +15529,7 @@ support for '.' and '*'.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Strassen's-algorithm">Strassen's algorithm<a class="anchor-link" href="#Strassen's-algorithm">&#182;</a></h3>
 </div>
@@ -14226,8 +15543,7 @@ support for '.' and '*'.</p>
     else: # partition the three matrices
         pass # to be finished
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Indices-of-array-to-a-target">Indices of array to a target<a class="anchor-link" href="#Indices-of-array-to-a-target">&#182;</a></h3>
 </div>
@@ -14267,7 +15583,7 @@ support for '.' and '*'.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14277,7 +15593,7 @@ support for '.' and '*'.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14291,8 +15607,7 @@ support for '.' and '*'.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Greedily-remove-string">Greedily remove string<a class="anchor-link" href="#Greedily-remove-string">&#182;</a></h3>
 </div>
@@ -14328,7 +15643,7 @@ support for '.' and '*'.</p>
 <span class="nb">print</span><span class="p">([</span><span class="n">drop</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;aaabbbc&quot;</span><span class="p">,</span> <span class="s2">&quot;aabbbacd&quot;</span><span class="p">,</span> <span class="s2">&quot;aabbccddeeedcba&quot;</span><span class="p">,</span> <span class="s2">&quot;aaabbbacd&quot;</span><span class="p">,</span> <span class="s2">&quot;aaabbbacd&quot;</span><span class="p">)])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14338,7 +15653,7 @@ support for '.' and '*'.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14352,8 +15667,7 @@ support for '.' and '*'.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Factorial">Factorial<a class="anchor-link" href="#Factorial">&#182;</a></h3>
 </div>
@@ -14372,7 +15686,7 @@ support for '.' and '*'.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">fact</span><span class="p">(</span><span class="mi">6</span><span class="p">),</span> <span class="n">fact</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14382,7 +15696,7 @@ support for '.' and '*'.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14396,8 +15710,7 @@ support for '.' and '*'.</p>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Array-Duplicates">Array Duplicates<a class="anchor-link" href="#Array-Duplicates">&#182;</a></h3><p>Given an array and a positive number k, check whether the array contains any duplicate elements within range k. If k is more than the size of the array, the solution should check for duplicates in the complete array</p>
 
@@ -14436,7 +15749,7 @@ support for '.' and '*'.</p>
 <span class="nb">print</span><span class="p">(</span><span class="n">hasDuplicates</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -14446,7 +15759,7 @@ support for '.' and '*'.</p>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -14462,8 +15775,7 @@ True
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Median-of-two-sorted-arrays">Median of two sorted arrays<a class="anchor-link" href="#Median-of-two-sorted-arrays">&#182;</a></h3>
 </div>
@@ -14501,7 +15813,7 @@ True
         <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">nums1</span> <span class="o">+</span> <span class="n">nums2</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
