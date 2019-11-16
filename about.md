@@ -8,7 +8,7 @@ mathjax: true
 
 ### Intro
 
-Welcome to my web presence: the material, the referential, the spatial, and the relative<sup>Truesdell, '77</sup>! So as not to confuse my material and referential description, at least _locally_, I have some more info for you below. Please read along!
+Welcome to my web presence: the material, the referential, the spatial, and the relative<sup>Truesdell, '77</sup>! So as not to confuse my material and referential descriptions, at least _locally_, please read on!
 
 #### Tell me what you got
 
