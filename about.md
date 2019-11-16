@@ -8,7 +8,7 @@ mathjax: true
 
 ### Intro
 
-Welcome to my web presence: the material, the referential, the spatial, and the relative!<sup>Rational Continuum Mechaniscs, Truesdell, 1977.</sup> 
+Welcome to my web presence: the material, the referential, the spatial, and the relative!<sup>Rational Continuum Mechanics, Truesdell, 1977.</sup> 
 
 #### Tell me what you got
 
