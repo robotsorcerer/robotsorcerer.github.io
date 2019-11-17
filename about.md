@@ -8,7 +8,7 @@ mathjax: true
 
 ### Intro
 
-> _It is assumed that the reader speaks the basic kinematics language of rational continuum mechanics._
+> _It is assumed that the reader speaks basic kinematics of rational continuum mechanics._
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative<sup>Truesdell, '77</sup>! So you do not confuse my material and referential descriptions, at least _locally_, please read on!
 
@@ -31,7 +31,7 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 
 **Backtracking through space-time some more**: Before my PhD, many years ago, I was in [Sheffield ACSE](https://www.sheffield.ac.uk/acse). There, I was mentored in robotics by [Tony Dodd](http://www.catch.org.uk/team-member/prof-tony-dodd/).
 
-**Current Configuration:** I work on problems spanning conceptualization of new hardware  and software tools for improving the **treatment planning** process in **cancer radiation therapy**. I am largely an independent researcher who enjoys self-direction at my own projects/goals. Yet, I value collaboration across domains and with people of diverse expertise. I read widely and study avidly: my interests span the sciences, technical disciplines (hello, chemistry, physics and engineering) to history and public affairs (really?). A big believer in open science and reproducible research, I try to make my publications and codes public to the extent that I can: see my [publications page](/pubs) and  [github repos](https://github.com/lakehanne). **I am not a robot**. My PGP key on most public key servers is 03E3 58FB 1D98 869E 8ABE 1EF0 E6A1 2F95 B720 BBB5.  If you would like to collaborate, please email me.
+**Current Configuration:** I work on problems spanning conceptualization of new hardware  and software tools for improving the **treatment planning** process in **cancer radiation therapy**. I am largely an independent researcher who enjoys self-direction at my own projects/goals. Yet, I value collaboration across domains and with people of diverse expertise. I read widely and study avidly: my interests span the sciences, technical disciplines (hello, chemistry, physics and engineering) to history and public affairs (really?). A big believer in open science and reproducible research, I try to make my publications and codes public to the extent that I can: see my [publications page](/pubs) and  [github repos](https://github.com/lakehanne). **I am not a robot**. My PGP key on most public key servers is 03E3 58FB 1D98 869E 8ABE 1EF0 E6A1 2F95 B720 BBB5.  If you are a ~~Russian~~ Researcher, and you would like to ~~collude~~ collaborate, please <a href="mailto:{{ site.email }}">email</a> me.
 
 
 #### Miscellaneous

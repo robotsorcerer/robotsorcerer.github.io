@@ -4,6 +4,8 @@ permalink: blog
 ---
 <?php include_once("analyticstracking.php") ?>
 
+> Musings of this 'gin' tleman.
+
 <ul class="posts">
   {% for post in site.posts %}
   <br>
