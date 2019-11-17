@@ -8,7 +8,7 @@ mathjax: true
 
 ### Intro
 
-> It is assumed that the reader speaks basic rational continuum mechanics.
+> It is assumed that the reader speaks basic kinematics of rational continuum mechanics.
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative<sup>Truesdell, '77</sup>! So you do not confuse my material and referential descriptions, at least _locally_, please read on!
 
