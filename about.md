@@ -8,7 +8,7 @@ mathjax: true
 
 ### Intro
 
-> It is assumed that the reader speaks basic kinematics of rational continuum mechanics.
+> _It is assumed that the reader speaks the basic kinematics language of rational continuum mechanics._
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative<sup>Truesdell, '77</sup>! So you do not confuse my material and referential descriptions, at least _locally_, please read on!
 
@@ -25,9 +25,9 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 
 #### Spatial Description: Present _placement_ of this body
 
-**Eulerian Form**: I am currently a postdoctoral researcher in the Wiersma lab at the *University of Pennsylvania's School of Medicine* and I was previously with the group at the *University of Chicago's School of Medicine.* 
+**Eulerian Placement**: I am currently a postdoctoral researcher in the Wiersma lab at the *University of Pennsylvania's School of Medicine* and I was previously with the group at the *University of Chicago's School of Medicine.* 
 
-**Lagrangean Form**: During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](https://utdallas.edu/~ngans) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/). 
+**Lagrangean Placement**: During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](https://utdallas.edu/~ngans) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/). 
 
 **Backtracking through space-time some more**: Before my PhD, many years ago, I was in [Sheffield ACSE](https://www.sheffield.ac.uk/acse). There, I was mentored in robotics by [Tony Dodd](http://www.catch.org.uk/team-member/prof-tony-dodd/).
 
