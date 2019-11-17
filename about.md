@@ -36,27 +36,14 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 
 #### Miscellaneous
 
-+   I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
++   I like to think I take a lot of pain in my duties since I do derive pleasures in them. Each day, I gird my loins with strength and apply myself to my work: I lay my hand to the spindle and my hands hold to the distaff (like the proverbial virtuous woman :-) ).  To the end that when I am old and tired, I shall be able to reflect with comfort that I was not idle or useless when I was young.
 
-<!-- + I regularly peer-review for the following academic conferences and journals:
++ I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
-    &nbsp; &nbsp; &nbsp; &nbsp; - Institute of Physics: Measurement Science and Technology (Journal)
+<!-- 
++ I had my Bachelors in Physics. Specifically, my thesis was on the single fractional parentage coefiicients in the sd-shell nuclei, advised by [Prof. Ademola Amusa](https://www.linkedin.com/in/ademola-amusa-b40812122/). 
 
-    &nbsp; &nbsp; &nbsp; &nbsp; - International Conference on Robotics and Automation (ICRA)
-
-    &nbsp; &nbsp; &nbsp; &nbsp; - International Conference on Intelligent Robots and Systems (IROS)
-
-    &nbsp; &nbsp; &nbsp; &nbsp; - Neural Computing and Applications (NCAA Journal)
-
-    &nbsp; &nbsp; &nbsp; &nbsp; - International Federation of Automatic Control (IFAC) World Congress
-
-    &nbsp; &nbsp; &nbsp; &nbsp; - American Control Conference (ACC) -->
-
-<!-- + I had my masters degree in Control Systems from Sheffield Uni in the UK.
-
-+ I had my Bachelors in Physics. Specifically, my thesis was on the single fractional parentage coefiicients in the sd-shell nuclei, advised by [Prof. Ademola Amusa](https://www.linkedin.com/in/ademola-amusa-b40812122/). -->
-
-<!-- + In a previous life, I was a manager at Coca-Cola HBC. The thrill of discovery and the joy  of creative achievement led me to embrace the limited earning prospects of an academic life. -->
++ In a previous life, I was a manager at Coca-Cola HBC. The thrill of discovery and the joy  of creative achievement led me to embrace the limited earning prospects of an academic life. -->
 
 + ~~I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.~~ Too busy eating cheap seminar foods on campus. [Strong Reject!](http://strongreject.com/)
 

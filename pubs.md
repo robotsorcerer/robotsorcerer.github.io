@@ -4,7 +4,7 @@ permalink: pubs
 ---
 <?php include_once("analyticstracking.php") ?>
 
-> Contributions of this 'gin' tleman as he shineth his little light more and more upon the unknown until our collective knowledge is as bright as the perfect day. 
+> Intent upon giving as much as I have gotten, here are my contributions, given freely and cheerfully, as I shine my little light more and more upon the unknown until our collective knowledge is as bright as the perfect day. 
 
 
 © 2019 IEEE.  Personal use of the IEEE materials here is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing any of these materials for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of these works in other works.<br><br>
