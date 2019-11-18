@@ -76,7 +76,7 @@
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
   - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
   - [ICML, International Conference on Machine Learning](https://icml.cc/)
-  - External Grants Reviewer, [AI for Species Discovery, National Geographic Society](https://www.nationalgeographic.org/).
+  - External Grants Reviewer, [National Geographic Society](https://www.nationalgeographic.org/).
 
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
