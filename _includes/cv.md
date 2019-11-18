@@ -58,9 +58,9 @@
  -  Ericsson Graduate Fellowship, 2015
  -  President’s Teaching Excellence Award for Teaching Assistants, Nom. 2017
  -  Jonsson Scholarship, 2014
+ -  IEEE Robotics and Automation Society (RAS) Travel Award, 2018
  -  Golden Key Honor, 2016
- -  IEEE Robotics and Automation Society/International Symposium on Assembly and Manufacturing (ISAM) Travel Award, 2016
- -  IEEE Robotics and Automation Society Travel Award, 2018
+ -  IEEE RAS/ISAM<sup>International Symposium on Assembly and Manufacturing</sup>Travel Award, 2016
  -  Google AI Travel and Conference Grant, 2018
  -  ROSCon Scholarship, 2017
 
