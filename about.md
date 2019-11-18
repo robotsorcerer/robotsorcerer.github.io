@@ -18,7 +18,7 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 
 #### Spatial Description: Present _placement_ of this body
 
-**Eulerian Placement**: I am currently a postdoctoral researcher in the Wiersma lab at the *University of Pennsylvania's School of Medicine* and I was previously with the group at the *University of Chicago's School of Medicine.* 
+**Eulerian Placement**: I am currently a postdoctoral researcher in the Wiersma lab at the [Penn Medicine](https://www.med.upenn.edu/) and I was previously with the group at the [UChicago Medicine](https://www.uchicagomedicine.org/).
 
 **Lagrangean Placement**: During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](https://utdallas.edu/~ngans) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/). 
 
