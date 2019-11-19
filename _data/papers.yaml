@@ -49,7 +49,7 @@ publications:
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
                 Modulated Radiation Therapy'
-        location: 'https://easychair.org/publications/preprint/LGsv'
+        location: https://easychair.org/publications/preprint_open/b6vM #'https://easychair.org/publications/preprint/LGsv'
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Michael Folkerts,

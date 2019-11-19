@@ -8,9 +8,9 @@ mathjax: true
 
 ### Intro
 
-> _It is assumed that the reader speaks rational continuum mechanics._
+<!-- > _It is assumed that the reader speaks rational continuum mechanics._ -->
 
-Welcome to my web presence: the material, the referential, the spatial, and the relative<sup>Truesdell, '77</sup>! So you do not confuse my material and referential descriptions, at least _locally_, please read on!
+Welcome to my web presence: the material, the referential, the spatial, and the relative<sup></sup>! 
 
 #### Material Description: Tell me what you got
 
