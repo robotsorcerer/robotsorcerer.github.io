@@ -35,14 +35,14 @@ title: Lekan
 
 + <a href="https://github.com/lakehanne/screws" target="blank"> screw theory and elastic deformations: </a> screws (in mathematica and matlab) applied to continuum dynamics, codes and  examples.
 + <a href="https://github.com/lakehanne/gps" target="blank">gps</a>: a re-implementation of Levine et al's guided policy search algorithm in ros indigo.
-+ <a href="/downloads/fbb" target="blank"> data structure commons</a>: my solutions (in python) to a collection of interesting software engineering questions at the FAANG. <a href="">source code.</a> 
 + <a href="https://github.com/lakehanne/ensenso" target="blank">ensenso</a>: ros and point cloud library bridges to the <a href="https://www.ensenso.com/" target="blank">ensenso 3D N35 camera factory api</a>.
 + <a href="https://github.com/lakehanne/awesome-screw-theory" target="blank"> awesome screw theory</a>: a curated list of papers that apply screw theory for soft and rigid robots control.
 + <a href="https://github.com/lakehanne/awesome-neurocontrol" target="blank">awesome neuro-control</a>: a curated list of papers that apply neural dynamics to control systems.
 + <a href="https://github.com/lakehanne/shells.git" target="blank"> bourne again shells</a>: short & fun bash scripts.
 + <a href="https://github.com/lakehanne/Savitzky-Golay" target="blank">savgol</a>: a c++11 implementation of the vandermonde matrix as well as savityzky-golay differentiation filter and smoothing coefficients.
 + <a href="https://github.com/lakehanne/keyence" target="blank">keyence</a>: basic api in c and c++ for streaming sensed data from the <a href="https://www.keyence.com/landing/measure/lp_blp_ljv_1079.jsp?aw=google-kaenLJ213101bb-br&k_clickid=0b5a6233-6a63-4e33-9721-b8207086947a&gclid=CjwKCAjwo9rtBRAdEiwA_WXcFvZDgBqvXU8-yPeZJrXOrhdXY-t-cM62PvMffbMwAmovJDj-uPjSIhoCyAEQAvD_BwE" target="blank">keyence LJV-7300 line scanners</a>.
-+ <a href="/chemrob" target="blank"> the chemistry of robotics:</a> ideas and tips for mixing sh#t up out of various chemical compounds in order to create useful elastomers for your soft robot components.
++ <a href="/chemrob" target="blank"> the chemistry of robotics:</a> ideas and tips for cooking things up out of various chemical compounds in order to create useful elastomers for your soft robot components.
++ <a href="/downloads/fb" target="blank"> data structure commons</a>: a collection of solutions to interesting software engineering questions. <a href="https://github.com/lakehanne/SWEngr">source code.</a> 
 + <a href="https://github.com/lakehanne/gocator" target="blank">gocator</a>: ros and point cloud library bridges to the <a href="https://lmi3d.com/products/gocator-3D-smart-sensors" target="blank"> LMI gocator line scanning sensor</a>.
 + <a href="{{ site.url }}/readlist"> reading list</a>:  a collection of papers I am currently reading/implementing.
 +    <a href="/downloads/save_dijs" target="blank">radiation therapy dose influence matrices </a>: extracting fluence based on the varian medical systems c#/python api from eclipse. core api courtesy of mike folkerts over at UCSD/UTSW/Varian. 
