@@ -4,7 +4,7 @@ permalink: pubs
 ---
 <?php include_once("analyticstracking.php") ?>
 
-> Intent upon giving as much as I have gotten, here are my contributions, given freely and cheerfully
+> Intent upon giving as much as I have gotten, here are my contributions, given freely and cheerfully.
 
 <!-- , as I shine my little light more and more upon the unknown until our collective knowledge is as bright as the perfect day.  -->
 
