@@ -40,11 +40,7 @@ At various times in my little time on this planet, I have been a [_Shikaakwaan_]
 
 + I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 
-
-+ ~~I am a co-owner of the Linux, OpenStack, and Unix Networking video tutorials on [this](https://www.youtube.com/channel/UC-0PMn0rKV_ZOHF-qX6N3fQ/videos) youtube page.~~ Too busy eating cheap seminar foods on campus. [Strong Reject!](http://strongreject.com/)
-
 + ~~I am a member of North Texas Drone Users Group. We fly our drones, micro-UAVs, and mini-planes around the DFW area every Saturday just to disturb the peace and quiet of boring citizens.~~ I am no longer active with this group.
-
 
 + I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision, control, and robotics.
 
