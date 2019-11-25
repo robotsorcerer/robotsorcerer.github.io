@@ -2,7 +2,7 @@ publications:
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot Manipulator: Application to Cranial Cancer Radiosurgery'
-        location: /downloads/Papers/kinecontrol.pdf
+        location: #/downloads/Papers/kinecontrol.pdf
         authors: 
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
@@ -35,7 +35,7 @@ publications:
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
-        location: /downloads/Papers/ContinuumI.pdf
+        location: #/downloads/Papers/ContinuumI.pdf
         authors: 
           - <b>Olalekan Ogunmolu</b>,
           - Xinmin Liu,
