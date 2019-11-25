@@ -2,23 +2,23 @@ publications:
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot Manipulator: Application to Cranial Cancer Radiosurgery'
-        location: /downloads/Papers/kinecontrol.pdf
+        location: #/downloads/Papers/kinecontrol.pdf
         authors: 
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: IEEE Transactions on Robotics (T-RO).
         paper_status: Working Manuscript
         year: Winter 2020    
-  - items: 'TRO2019!'
-    paperitems:
-      - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
-        location: /downloads/Papers/ijrr.pdf
-        authors: 
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: https://journals.sagepub.com/home/ijr
-        venue: The International Journal of Robotics Research (IJRR).
-        paper_status: Working Manuscript
-        year: Winter 2020       
+  # - items: 'TRO2019!'
+  #   paperitems:
+  #     - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
+  #       location: /downloads/Papers/ijrr.pdf
+  #       authors: 
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: https://journals.sagepub.com/home/ijr
+  #       venue: The International Journal of Robotics Research (IJRR).
+  #       paper_status: Working Manuscript
+  #       year: Winter 2020       
 
   # - items: 'RAL/IROS2020!'
   #   paperitems:
@@ -32,19 +32,17 @@ publications:
   #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
   #       paper_status: Working Manuscript
   #       year: 2020
-  - items: 'RAL/ICRA2019!'
-    paperitems:
-      - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
-        location: /downloads/Papers/ContinuumI.pdf
-        authors: 
-          - <b>Olalekan Ogunmolu</b>,
-          - Xinmin Liu,
-          - Nick Gans, and
-          - Rodney Wiersma.
-        venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE Robotics and Automation Letters (RAL/ICRA), Paris, France
-        paper_status: Submitted
-        year: September 2019  
+  # - items: 'RAL/ICRA2019!'
+  #   paperitems:
+  #     - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
+  #       location: /downloads/Papers/ContinuumI.pdf
+  #       authors: 
+  #         - <b>Olalekan Ogunmolu</b>, and
+  #         - Rodney Wiersma.
+  #       venue_web: https://www.ieee-ras.org/publications/ra-l
+  #       venue: IEEE Robotics and Automation Letters (RAL/ICRA), Paris, France
+  #       paper_status: Submitted
+  #       year: September 2019  
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
