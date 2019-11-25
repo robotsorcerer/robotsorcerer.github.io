@@ -8,7 +8,7 @@ mathjax: true
 
 ## Intro
 
-> _It is assumed that the reader speaks rational continuum mechanics._
+> _It is assumed that the reader speaks [rational continuum mechanics](https://www.amazon.com/First-Course-Rational-Continuum-Mechanics/dp/1483207056)._
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative! 
 
