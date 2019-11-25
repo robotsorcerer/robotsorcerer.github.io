@@ -8,7 +8,7 @@ mathjax: true
 
 ## Intro
 
-> _It is assumed that the reader speaks rational continuum mechanics._
+> _It is assumed that the reader speaks [rational continuum mechanics](https://www.amazon.com/First-Course-Rational-Continuum-Mechanics/dp/1483207056)._
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative! 
 
@@ -24,7 +24,7 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 
  
 
-**Backtracking through time**: Many years ago, I was part of [Sheffield ACSE](https://www.sheffield.ac.uk/acse). There, I was mentored in robotics by [Tony Dodd](http://www.catch.org.uk/team-member/prof-tony-dodd/). Prior to that, I had my Bachelors in Physics with a minor in Electronics. My thesis was on the single [fractional parentage coefiicients](https://aip.scitation.org/doi/10.1063/1.527930) in the sd-shell nuclei, advised by [Ademola Amusa](https://prabook.com/web/ademola.amusa/473412). 
+**Backtracking through time**: Many years ago, I was part of [Sheffield ACSE](https://www.sheffield.ac.uk/acse). There, I was mentored in robotics by [Tony Dodd](http://www.catch.org.uk/team-member/prof-tony-dodd/). Prior to that, I had my Bachelors in Physics with a minor in Electronics. My thesis was on the single [fractional parentage coeficients](https://aip.scitation.org/doi/10.1063/1.527930) in the sd-shell nuclei, advised by [Ademola Amusa](https://prabook.com/web/ademola.amusa/473412). 
 
 **Current Configuration:** I work on problems spanning conceptualization of new hardware  and software tools for improving the **treatment planning** process in **cancer radiation therapy**. I am largely an independent researcher who enjoys self-direction at my own projects/goals. Yet, I value collaboration across domains and with people of diverse expertise. I read widely and study avidly: my interests span the sciences, technical disciplines (hello, chemistry, physics and engineering) to history and public affairs (really?). A big believer in open science and reproducible research, I try to make my publications and codes public to the extent that I can: see my [publications page](/pubs) and  [github repos](https://github.com/lakehanne). **I am not a robot**. My PGP key on most public key servers is 03E3 58FB 1D98 869E 8ABE 1EF0 E6A1 2F95 B720 BBB5.  If you are ~~Russian and you would like to collude~~ a researcher and you would like to collaborate, please <a href="mailto:{{ site.email }}">email</a> me.
 
