@@ -14,7 +14,7 @@ publications:
       - title: 'An Automated Universal Phantom Analyzer of XML Style'
         location: #/downloads/Papers/kinecontrol.pdf
         authors: 
-          - <b>Olalekan Ogunmolu</b>, and
+          - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
         venue_web: https://icml.cc
         venue: International Conference on Machine Learning.
