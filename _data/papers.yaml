@@ -8,6 +8,17 @@ publications:
         venue_web: https://www.ieee-ras.org/publications/t-ro
         venue: IEEE Transactions on Robotics (T-RO).
         paper_status: Working Manuscript
+        year: Winter 2020   
+  - items: 'ICML2020!'
+    paperitems:
+      - title: 'An Automated Universal Phantom Analyzer of XML Style'
+        location: #/downloads/Papers/kinecontrol.pdf
+        authors: 
+          - <b>Olalekan Ogunmolu</b>, and
+          - Rodney Wiersma.
+        venue_web: https://icml.cc
+        venue: International Conference on Machine Learning.
+        paper_status: Working Manuscript
         year: Winter 2020    
   # - items: 'TRO2019!'
   #   paperitems:
