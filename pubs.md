@@ -29,6 +29,7 @@ permalink: pubs
 <a name="unpubs"></a>
 <table  class="table table-hover" >	
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Working Papers</a></b></h3></center>
+		These papers are working manuscripts of ideas I am actively exploring in my head or rapidly prototyping, machines I have built and now tearing apart in order to build more robustness and and explore underactuation and more natural dynamics. I would be happy to hear from you on how to improve them etc.
 		{% for item in site.data.papers.publications %}
 	    	{% for paper in item.paperitems %}
 	          	{% if paper.paper_status contains "Manuscript" %}
