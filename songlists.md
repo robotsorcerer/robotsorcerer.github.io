@@ -8,6 +8,8 @@
 
 + [What A Savior, Lauura Story]()
 
++ [Rise up and praise him - Women of Faith]()
+
 ### Sick Country Beats
 
 + [Head over boots, Jon Pardi](https://www.youtube.com/watch?v=3odIdmuFfEY)
