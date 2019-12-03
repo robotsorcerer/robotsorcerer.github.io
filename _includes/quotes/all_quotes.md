@@ -30,6 +30,15 @@ constantly the ground in their garden._" ~ Ramón y Cajal, Letters to a Young In
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
 
+"_All that is gold does not glitter,
+Not all those who wander are lost;
+The old that is strong does not wither,
+Deep roots are not reached by the frost.
+From the ashes, a fire shall be woken,
+A light from the shadows shall spring;
+Renewed shall be blade that was broken,
+The crownless again shall be king._" ~ J.R.R. Tolkien
+
 "_Classical mathematics concentrated on linear equations for a sound pragmatic reason: it could not solve anything else._" ~ Ian Stewart
 
 _"Instead of applying observation to the things we wished to know, we have chosen rather to imagine them. Advancing from one ill founded supposition to another, we have at last bewildered ourselves amidst a multitude of errors. These errors becoming prejudices, are, of course, adopted as principles, and we thus bewilder ourselves more and more. The method, too, by which we conduct our reasonings is as absurd; we abuse words which we do not understand, and call this the art of reasoning. When matters have been brought this length, when errors have been thus accumulated, there is but one remedy by which order can be restored to the faculty of thinking; this is, to forget all that we have learned, to trace back our ideas to their source, to follow the train in which they rise, and, as my Lord Bacon says, to frame the human understanding anew._" ~ Abbé de Condillac
