@@ -10,4 +10,3 @@ permalink: chemrob
 
 + [Polymers and Chemical Elements for Robotics and Electronics, Applied Physics Letters, American Physical Society](https://aip.scitation.org/topic/aipthesaurusv2.0/p2736p5231?SeriesKey=apl)
 
-+ A very cheap constant current source power supply: 
