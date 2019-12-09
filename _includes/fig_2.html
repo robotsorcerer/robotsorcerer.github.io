@@ -1,19 +1,14 @@
 <figure>
    <div class="imgContainer">
-   <img src="{{ include.file }}" style="max-width: {{ include.max-width }};"
-      alt="{{ include.alt }}" align = "{{ include.align }}"
-	float="{{ include.float; }}"
-	border="{{ include.border }}"
-	margin="{{ include.margin }}" />
-   <figcaption>{{ include.caption }}</figcaption>
+   <img src="{{ include.file }}" 
+	width="{{ include.width }}"
+	height="{{ include.height }}"/>
 	</div>
 
    <div class="imgContainer">
-	<img src="{{ include.file2 }}" style="max-width: {{ include.max-width }};"
-      alt="{{ include.alt2 }}" align = "{{ include.align2 }}"
-	float="{{ include.float; }}"
-	border="{{ include.border }}"
-	margin="{{ include.margin }}" /><br>
-   <figcaption>{{ include.caption2 }}</figcaption>
+	<img src="{{ include.file2 }}" 
+	width="{{ include.width }}"
+	height="{{ include.height }}" /><br>
+   <figcaption>{{ include.caption }}</figcaption>
 	</div>
 </figure>

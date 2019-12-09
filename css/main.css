@@ -321,6 +321,9 @@ a:visited { color: #205caa; }
   font-size: 14px;
   text-align: center;
 }
+.imgContainer{
+    float:left;
+}
 
 .svgdiv {
   width: 100%;
