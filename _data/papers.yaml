@@ -29,7 +29,7 @@ publications:
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
         venue_web: #
-        venue: 'IOP: Physics in Medicine and Biology'
+        venue: 'Physics in Medicine and Biology, Institute of Physics (IOP) Science.'
         paper_status: Working Manuscript
         year: 2020    
 
@@ -120,6 +120,20 @@ publications:
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         year: Vancouver, BC. 2017
         paper_status: Accepted   
+  - items: 'MedPhys!'
+    paperitems:
+      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
+        location: https://arxiv.org/abs/1905.00523 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
+        authors: 
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: https://www.medphys.org/
+        venue: Medical Physics (An AAPM Journal)
+        year: December, 2019
+        paper_status: Accepted
+  
   - items: 'AIRT2019!'
     paperitems:
       - title: Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
@@ -133,19 +147,6 @@ publications:
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature 
         paper_status: Accepted
         year: Switzerland AG 2019  
-  - items: 'MedPhys!'
-    paperitems:
-      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
-        location: https://arxiv.org/abs/1905.00523 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
-        authors: 
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen.
-        venue_web: https://www.medphys.org/
-        venue: Medical Physics (An AAPM Journal)
-        year: May, 2019
-        paper_status: Accepted
   - items: 'Thesis!'
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and 
