@@ -12,7 +12,7 @@ publications:
 
   - items: 'TRO2019!'
     paperitems:
-      - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot: Application to Cranial Cancer Radiosurgery'
+      - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot: Application to Cranial Cancer Radiation Therapy'
         location: /downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b>
@@ -29,7 +29,7 @@ publications:
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
         venue_web: #
-        venue: 'IOP: Physics in Medicine and Biology'
+        venue: 'IOP: Physics in Medicine and Biology.'
         paper_status: Working Manuscript
         year: 2020
 
