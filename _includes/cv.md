@@ -66,17 +66,17 @@
  -  ROSCon Scholarship, 2017
 -->
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Research Reviewing Activities</h4>
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Review Service</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
-  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
-  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
-  - [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521).
   - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
   - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/)
   - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
   - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
-  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
+  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers](https://event.asme.org/DSCC).
   - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
+  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
+  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
+  - [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521).
   - [ICML, International Conference on Machine Learning](https://icml.cc/)
   - External Grants Reviewer, [National Geographic Society](https://www.nationalgeographic.org/).
 
