@@ -56,17 +56,19 @@ publications:
   #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
   #       paper_status: Working Manuscript
   #       year: 2020
-  # - items: 'RAL/ICRA2019!'
-  #   paperitems:
-  #     - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
-  #       location: /downloads/Papers/ContinuumI.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>, and
-  #         - Rodney Wiersma.
-  #       venue_web: https://www.ieee-ras.org/publications/ra-l
-  #       venue: IEEE Robotics and Automation Letters (RAL/ICRA), Paris, France
-  #       paper_status: Submitted
-  #       year: September 2019
+  - items: 'RAL/ICRA2019!'
+    paperitems:
+      - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
+        location: /downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>, 
+          - Xinmin Liu,
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue: IEEE International Conference on Robotics and Automation (ICRA), Paris, France
+        paper_status: Accepted
+        year: January 2020
   - items: 'Springer2019!'
     paperitems:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
