@@ -14,7 +14,8 @@
 
 "_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck
 
-"_If we do not succeed in solving a mathematical problem, it is often because we have failed to recognize the more general standpoint from which the problem before us appears only as a single link in a chain of related problems. ... This way to find general methods is certainly the most practicable and the surest, for he who seeks for methods without having a definite problem in mind seeks in vain. _" ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
+"_If we do not succeed in solving a mathematical problem, it is often because we have failed to recognize the more general standpoint from which the problem before us appears only as a single link in a chain of related problems. ... This way to find general methods is certainly the most practicable and the surest, for he who seeks for methods without having a definite problem in mind seeks in vain._" ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
+
 
 "_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
 
