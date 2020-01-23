@@ -3,6 +3,8 @@
 
 "_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier
 
+"_...it is wrong to think that rigor is the enemy of simplicity. Numerous examples establish the opposite, that the rigorous method is also the simpler and easier to grasp. The pursuit of rigor compels us to discover simpler arguments; also, often it clears the path to methods susceptible of more development than were the old, less rigorous ones. ... _" ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
+
 "_But, after all, the sciences have made progress, because philosophers have applied themselves with more attention to observe, and have communicated to their language that precision and accuracy which they have employed in their observations: In correcting their language they reason better._" ~ Abbé de Condillac
 
 "_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
@@ -11,6 +13,8 @@
 "_Robotics is not a single idea. It is a substantial body of scientific and engineering results, accumulated over centuries. It draws primarily from mathematics, physics, mechanical engineering, and computer science, but also from philosophy, psychology, biology and other fields. Robotics is the gathering place of these ideas. Robotics provides motivation. Robotics tests ideas and steers continuing research. Finally, robotics is the proof. Observing a robot’s behavior is the nearly compelling proof that machines can be aware of their surroundings, can develop meaningful goals, and can act effectively to accomplish those goals._" ~ Matthew Mason
 
 "_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck
+
+"_If we do not succeed in solving a mathematical problem, it is often because we have failed to recognize the more general standpoint from which the problem before us appears only as a single link in a chain of related problems. ... This way to find general methods is certainly the most practicable and the surest, for he who seeks for methods without having a definite problem in mind seeks in vain. _" ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
 
 "_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
 
