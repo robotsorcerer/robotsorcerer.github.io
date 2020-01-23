@@ -3,7 +3,7 @@
 
 "_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier
 
-"_...it is wrong to think that rigor is the enemy of simplicity. Numerous examples establish the opposite, that the rigorous method is also the simpler and easier to grasp. The pursuit of rigor compels us to discover simpler arguments; also, often it clears the path to methods susceptible of more development than were the old, less rigorous ones. ... _" ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
+"..._it is wrong to think that rigor is the enemy of simplicity. Numerous examples establish the opposite, that the rigorous method is also the simpler and easier to grasp. The pursuit of rigor compels us to discover simpler arguments; also, often it clears the path to methods susceptible of more development than were the old, less rigorous ones._ ... " ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
 
 "_But, after all, the sciences have made progress, because philosophers have applied themselves with more attention to observe, and have communicated to their language that precision and accuracy which they have employed in their observations: In correcting their language they reason better._" ~ Abbé de Condillac
 
