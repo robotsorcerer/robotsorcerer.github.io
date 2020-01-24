@@ -35,12 +35,12 @@
 
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Invited Talks</h2>
+
  - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
 
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
-<!-- - A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and Beam Orientation Selection  in Cancer Radiation Therapy.  -->
 
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
   
