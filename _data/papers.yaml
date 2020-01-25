@@ -13,7 +13,7 @@ publications:
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot: Application to Cranial Cancer Radiation Therapy'
-        location: /downloads/Papers/kinecontrol.pdf
+        location: #/downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
@@ -152,7 +152,7 @@ publications:
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
                 Beam Orientation Selection  in Cancer Radiation Therapy
-        location: /downloads/Papers/PhDThesis.pdf
+        location: #/downloads/Papers/PhDThesis.pdf
         authors: <b>Olalekan Ogunmolu</b>
         venue_web: https://www.utsouthwestern.edu/
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
