@@ -41,6 +41,16 @@ Frameless and Maskless (F&M) positioning systems are an emerging non-invasive im
 
 ## Proposed Soft Robot Mechanism
 
+
+{% 
+    include fig.html 
+        file='assets/setup.png' 
+        max-width='100%' 
+        align='middle'
+        caption='<b>Fig 5: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. © Lekan Molu, 2019. Thanks to Erik Pearson of UChicago RadOnc for the CAD Model of the Gantry and Turntable.'
+%}
+<br>
+
 ### Soft Robot Actuators
 
 {% 
@@ -66,13 +76,31 @@ Frameless and Maskless (F&M) positioning systems are an emerging non-invasive im
 <b>Fig 3</b>: <i>(Left)</i> Cross section of the Soft Robot and its Cover. <i>(Right)</i>  Bottom View of Hollow Base for Pipe and Hose Fittings.
 
 {% 
-    include fig.html 
-        file='downloads/soro/soro_top.png'  
+    include fig_2.html 
+        file='downloads/soro/ds_3mm_l1.jpg' 
+        file2='downloads/soro/ds_3mm_l2.jpg' 
+        height=350
+        width=360
+%}
+
+<br>
+
+{% 
+    include fig_2.html 
+        file='downloads/soro/ds_3mm_l3.jpg' 
+        file2='downloads/soro/ds_3mm_l4.jpg' 
+        height=350
+        width=360
+%}
+
+<br>
+
+{% 
+    include fig_2.html 
+        file='downloads/soro/soro_top.png'
+        file2='downloads/soro/ds_3mm_l4_touch.jpg'
         height=340
         width=360
-        float='middle'
-        align='middle'
-        max-width='80%'
 %}
 
 <br>
@@ -81,16 +109,8 @@ Frameless and Maskless (F&M) positioning systems are an emerging non-invasive im
 
 <br>
 
-{% 
-    include fig.html 
-        file='assets/setup.png' 
-        max-width='100%' 
-        align='middle'
-        caption='<b>Fig 5: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. © Lekan Molu, 2019. Thanks to Erik Pearson of UChicago RadOnc for the CAD Model of the Gantry and Turntable.'
-%}
-<br>
 
-
+### Videos 
 
 <iframe src="/assets/zero_to_hero.mp4" width="455" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 <br>
