@@ -89,3 +89,8 @@ Frameless and Maskless (F&M) positioning systems are an emerging non-invasive im
         caption='<b>Fig 5: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. © Lekan Molu, 2019. Thanks to Erik Pearson of UChicago RadOnc for the CAD Model of the Gantry and Turntable.'
 %}
 <br>
+
+
+
+<iframe src="/assets/zero_to_hero.mp4" width="455" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<br>
