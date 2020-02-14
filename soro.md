@@ -111,9 +111,21 @@ Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-inv
 <br>
 
 
-#### Videos 
+#### Deformation Videos 
+
+##### Equiaxial Deformation
+
+<iframe src="/assets/soro/circ_bulge_real.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/assets/soro/circ_bulge_real2.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/assets/soro/circ_bulge_real3.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<br>
+
+##### CCOARSE Deformation
 
 <iframe src="/assets/soro/zero_to_hero.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
 
-<iframe src="/assets/soro/circ_bulge_real.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+<iframe src="/assets/soro/puncture_resist.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe> 
 <br>
