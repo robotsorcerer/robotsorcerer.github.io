@@ -8,7 +8,7 @@ mathjax: true
 
 
 <a name="research"></a>
-# Mechanism Synthesis
+###### MRI-compatible Linear Accelerator-based Patient Motion Control with  Compliant Soft Actuators
 
 <!-- > Soft Robot Motion Compensators.
 
@@ -54,7 +54,7 @@ Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-inv
 %}
 <br> -->
 
-### Soft Robot Actuators: Model
+#### Soft Robot Actuators: Computational Deformation Model
 
 {% 
     include fig_5.html 
@@ -72,7 +72,7 @@ Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-inv
 <br><br><br>
 
 
-### Circumferential bulge
+#### Circumferential Deformation 
 
 {% 
     include fig_5.html 
@@ -111,7 +111,7 @@ Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-inv
 <br>
 
 
-### Videos 
+#### Videos 
 
 <iframe src="/assets/soro/zero_to_hero.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
 
