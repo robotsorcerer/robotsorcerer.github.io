@@ -63,7 +63,7 @@ Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-inv
         file3='downloads/soro/soro_cross.png' 
         file4='downloads/soro/soro_cover.png' 
         file5='downloads/soro/soro_top.png' 
-        height=145
+        height=115
         width=145
 %}
 
