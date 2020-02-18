@@ -56,6 +56,22 @@ publications:
   #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
   #       paper_status: Working Manuscript
   #       year: 2020
+  - items: 'AAPM18'
+    paperitems:
+      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>, 
+          - Dan Nguyen,
+          - Chenyang Shen,
+          - Xun Jia, 
+          - Weiguo Lu, 
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: 
+        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN 
+        paper_status: Accepted
+        year: July 2018
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
@@ -83,7 +99,7 @@ publications:
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
-        location: https://arxiv.org/abs/1905.00523 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
+        location: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.13986 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
         authors:
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
@@ -91,7 +107,7 @@ publications:
           - Dan Nguyen.
         venue_web: https://www.medphys.org/
         venue: Medical Physics, The International Journal of Medical Physics Research and Practice
-        year: May, 2019
+        year: December, 2019
         paper_status: Accepted
   - items: 'WAFR18!'
     paperitems:
@@ -158,19 +174,19 @@ publications:
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
         paper_status: Accepted
         year: May, 2019
-  # - items: 'ICCR19!'
-  #   paperitems:
-  #     - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
-  #       location: '/404'
-  #       authors:
-  #         - Azar Sadeghnejad Barkousaraie,
-  #         - <b>Olalekan Ogunmolu</b>,
-  #         - Steve Jiang, and
-  #         - Dan Nguyen.
-  #       venue_web: http://iccr-mcma.org/iccr2019/
-  #       venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
-  #       year:  Montreal, CA. June 2019
-  #       paper_status: Accepted
+  - items: 'ICCR19!'
+    paperitems:
+      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
+        location: '/404'
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: http://iccr-mcma.org/iccr2019/
+        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
+        year:  Montreal, CA. June 2019
+        paper_status: Accepted
   - items: 'SPIE18!'
     paperitems:
       - title: 'Design and Development of A Soft Robot for Head and Neck Cancer Radiotherapy'
@@ -187,18 +203,18 @@ publications:
         venue: 'SPIE: Smart Structures + Nondestructive Evaluation'
         year: Denver, CO, U.S.A. March 2018
         paper_status: Accepted
-  # - items: 'ZeroSum!'
-  #   paperitems:
-  #     - title: 'Robust Zero-Sum Deep Reinforcement Learning'
-  #       location: 'https://arxiv.org/abs/1710.00491v5'
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>,
-  #         - Nick Gans, and
-  #         - Tyler Summers.
-  #       venue_web: https://arxiv.org
-  #       venue: arXiv
-  #       year:  2017
-  #       paper_status: Technical Report
+  - items: 'ZeroSum!'
+    paperitems:
+      - title: 'Robust Zero-Sum Deep Reinforcement Learning'
+        location: 'https://arxiv.org/abs/1710.00491v5'
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans, and
+          - Tyler Summers.
+        venue_web: https://arxiv.org
+        venue: arXiv
+        year:  2017
+        paper_status: Technical Report
   - items: 'Ident!'
     paperitems:
       - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
@@ -238,6 +254,20 @@ publications:
         venue_web: 'http://ewh.ieee.org/soc/ras/conf/FullySponsored/CASE/2015/case2015.org/index.html'
         venue: IEEE Conference on Automation Science and Engineering (CASE)
         year: Gothenburg, Sweden, August 2015
+        paper_status: Accepted
+  - items: 'AAPM15!'
+    paperitems:
+      - title: 'An Image-Guided Soft Robotic Patient Positioning System for Maskless Head  And Neck Cancer Radiotherapy: A Proof of Concept Study'
+        location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
+        authors:
+          - <b>Olalekan P. Ogunmolu</b>,
+          - Nick Gans,
+          - Steve Jiang, and
+          - Xuejun Gu
+        venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
+        venue: Medical Physics, The International Journal of Medical Physics Research and Practice. 
+                Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
+        year: Annaheim, CA, August 2015
         paper_status: Accepted
 
   # authors: <a href="http://scriptedonachip.com"><b>Olalekan Ogunmolu</b></a>, <a href="http://home.uchicago.edu/~xmliu/">Xinmin Liu</a>,
