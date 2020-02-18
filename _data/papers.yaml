@@ -1,19 +1,8 @@
 publications:
-  - items: 'WAFR20!'
-    paperitems:
-      - title: 'A Generalized Contitutive Framework for the Kinematics and Kinetics of In-Parallel-Actuated Soft Robots'
-        location: /downloads/Papers/WAFR20.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: https://robotics.cs.rutgers.edu/wafr2020/Contribute
-        venue:
-        paper_status: Working Manuscript
-        year: 2020
-
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Dynamics of an In-Parallel-Actuated Soft Robot: Application to Cranial Cancer Radiation Therapy'
-        location: #/downloads/Papers/kinecontrol.pdf
+        location: /downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
