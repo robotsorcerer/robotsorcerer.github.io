@@ -27,8 +27,9 @@ mathjax: true
 
 #### **Goals** 
 
-- [x] Non-magnetic patient motion stabilizer mechanism for magnetic resonance imaging (MRI) machines  
+- [x] Non-magnetic patient motion stabilizing mechanism compatible with magnetic resonance imaging (MRI) machines  
 - [x] Radio-transparent patient motion stabilizer for _real-time_ and _precise_ cancer radiation therapy modalities
+- [x] Verify our leading hypothesis to see if a 6-DOF target motion of a patient is <= 0.5 mm and <= 0.5 deg for greater than 95% of the treatment time.
 
 #### **Aims**
 - [ ] Simulation of an advanced 6-DOF motion compensation system soft robot for MRI-LINACs
@@ -37,9 +38,18 @@ mathjax: true
 
 - [ ] Phantom-based and healthy human volunteer trials
 
+These exploratory experiments are relevant to public health and have transformational clinical potential because they may provide:
+
+- proof-of-concept evidence that soft robots are compatible with standalone MRI imaging modalities;
+
+- evidence of precise and automatic motion management with non-magnetic and radiation-transparent soft robots in emerging hybrid MRI-accelerator RT; 
+
+- an emergence of a better brain and head and neck (H&N) cancer management technology that can be adapted to confined spaces under MRI coils. 
+
+
 #### **Applications**
 
-This tyechnology shall be applicable for the following use-cases:
+This technology shall be applicable for the following use-cases:
 
 - [x]  Standalone MRIs
 
