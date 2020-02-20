@@ -10,11 +10,36 @@ mathjax: true
 <a name="research"></a>
 ## Patient Motion Control in MRI-LINACs with Soft Robots
 
-**Goal** 
+### [Table of Contents](#table-of-contents)
+- [Goals](#goals)
+- [Aims](#aims)
+- [Applications](#applications)
+- [Advantages](#advantages)
+- [Proposed Setup](#proposed-setup)
+- [Background/Motivation](#motivation)
+- [Existing Technologies amd Limitations](#existing-technologies)
+- [System Design and Contruction](#system-design-and-contruction)
+    - [Soft Actuator Geometrical Model](#actuators-geometrical-model)
+    - [Equiaxial Deformation](#deforms)
+    - [CCOOARSE Deformation](#ccoarse)
+- [Preliminary Experimental Videos](#videos)
 
-- [x] Non-magnetic and radio-transparent patient motion control for real-time and _precise_ cancer therapy
 
-**Applications**
+#### **Goals** 
+
+- [x] Non-magnetic patient motion stabilizer mechanism for magnetic resonance imaging (MRI) machines  
+- [x] Radio-transparent patient motion stabilizer for _real-time_ and _precise_ cancer radiation therapy modalities
+
+#### **Aims**
+- [ ] Simulation of an advanced 6-DOF motion compensation system soft robot for MRI-LINACs
+
+- [ ] Design and construction of an MRI-LINAC soft robotic motion correction mechanism
+
+- [ ] Phantom-based and healthy human volunteer trials
+
+#### **Applications**
+
+This tyechnology shall be applicable for the following use-cases:
 
 - [x]  Standalone MRIs
 
@@ -24,7 +49,7 @@ mathjax: true
 
 - [x] Brain Cancer Radiation Therapy
 
-**Advantages**
+#### **Advantages**
 
 - [x] Negate the deleterious effects of **interfractional** setup variation on patients; 
 
@@ -36,7 +61,7 @@ mathjax: true
 
 - [x] Do **not interfere with the MRI's magnetic field**.
 
-**Proposed Setup**
+#### **Proposed Setup**
 
 {% 
     include fig_4.html 
@@ -50,9 +75,10 @@ mathjax: true
 %}
 
 <br>
-_Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mask in classical RT (c) a thermoplastic facemask with add-on MRI coils in MRI imaging (d) the Wiersma Stewart-Gough model (e) the Ostyn robot_
+_Fig 1. Systematic parallel configuation of hollow soft domes around the patient's cranium._
 
-### **Motivation**
+<a name='motivation' />
+### **Background and Motivation**
 
 - Current radiation therapy (RT) treatment modalities use computed tomography scans of body tissues to segment organs before treatment. 
 
@@ -65,7 +91,8 @@ _Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mas
 - **_What if we could automatically correct patient motion during MRI imaging/RT/stereotactic radiosurgery so that we can eliminate the deleterious effects of patient motion uncertainities in MRIs, and photon/proton-based therapies? How do we negate patient motion?_**
 
 
-### **Existing Technologies**
+<a name='existing-technologies' />
+### **Existing Technologies and Limitations**
 
 - Currently in clinics, we use a frame or an immobilization mask to render the patient static while they lie supine on a couch
     - &#9746; This is incapable of real-time closed-loop feedback head motion corrections when the treatment beam is on (See Fig. 1).
@@ -84,6 +111,7 @@ _Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mas
         height=115
         width=146
 %}
+_Fig 2. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mask in classical RT (c) a thermoplastic facemask with add-on MRI coils in MRI imaging (d) the Wiersma Stewart-Gough model (e) the Ostyn robot_
 
 - Recent research directions
     - &#9746; Explorative robotic positioning research studies have  demonstrated the feasibility of maintaining stable patient cranial motion consistent with treatment plans. For example, the  Wiersma Lab's Stewart-Gough platform, illustrated in Fig 1d, achieves <= 0.5mm and <= 0.5 deg positioning accuracy 90% of the time, while the Ostyn six degrees-of-freedom (DOF) plastic Stewart-Gough platform (Fig. 1e) uses stepper motors to actuate the legs of its parallel plastic platform. 
@@ -99,9 +127,9 @@ _Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mas
         align='middle'
 %}
 <br>
-_Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation Oncology. L-R (a) Patient immobilization with thermoplastic masks under the MRI tube (b) the MRI coils are typically overlaid on the mask above the patient's face (c) owing to the large magnetic fields of the MRI machine, metallic objects are not admissible. Hence, parallel rigid mechanisms such as the Wiersma or Ostyn robot would not be feasible. These lack soft compliance necessary in such advanced imaging modalities._
+_Fig 3. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation Oncology. L-R (a) Patient immobilization with thermoplastic masks under the MRI tube (b) the MRI coils are typically overlaid on the mask above the patient's face (c) owing to the large magnetic fields of the MRI machine, metallic objects are not admissible. Hence, parallel rigid mechanisms such as the Wiersma or Ostyn robot would not be feasible. These lack soft compliance necessary in such advanced imaging modalities._
 
-- The CyberKnife Synchrony, while capable of precise, non-surgical tumor and lesions treatment in SRS and stereotactic body radiotherapy (SBRT), only executes _a-priori_ trajectories (see Fig 3).
+- The CyberKnife Synchrony, while capable of precise, non-surgical tumor and lesions treatment in SRS and stereotactic body radiotherapy (SBRT), only executes _a-priori_ trajectories (see Fig 4).
 
 - Real-time closed-loop head motion compensation for the CyberKnife system is inhibited by its high load-to-weight ratio which indirectly affects its repeatability
     - Given its stiffness (it weighs 160kg), it has a complicated actuation system so that its passive bending stiffness overwhelms the degree of deformation for rapid patient repositioning. 
@@ -115,14 +143,12 @@ _Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
         width=370
 %}
 <br>
-_Fig 3. The Cyberknife system ©Cyberknife._
-
-<!-- Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-invasive immobilization technology in radiosurgery; they work without utilizing rigid masks and frames -- reducing side effects and optimizing patient comfort without giving away too much in efficiency or effectiveness. The goal is to correct patient motion, ideally with a closed-loop feedback controller implemented  in real-time on a high-precision robotic system -- improving the satisfaction of patients and clinicians, and maximizing dose delivered to a tumor whilst minimizing healthy tissues' exposure to radiation. 
- -->
+_Fig 4. The Cyberknife system ©Cyberknife._
 
 <!-- **Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.** -->
 
 
+### System Design and Contruction
 
 #### Actuators Geometrical Model
 
@@ -138,11 +164,11 @@ _Fig 3. The Cyberknife system ©Cyberknife._
 %}
 
 <br> 
-_Fig. 2. Actuator Model_
+_Fig. 5. Actuator Model_
 
 <br><br><br>
 
-
+<a name="deforms">
 #### Circumferential Deformation 
 
 {% 
@@ -157,9 +183,10 @@ _Fig. 2. Actuator Model_
 %}
 
 <br>
-_Fig. 3. Bulge upon pneumatic actuation._
+_Fig. 6. Bulge upon pneumatic actuation._
 <br>
 
+<a name='ccoarse' />
 #### CCOARSE Deformation
 
 {% 
@@ -174,12 +201,13 @@ _Fig. 3. Bulge upon pneumatic actuation._
 %}
 
 <br>
-_Fig 4. Circumferentially-Constrained and Radially Symmetric Fiber-Elastomer (CCOARSE)._
+_Fig 7. Circumferentially-Constrained and Radially Symmetric Fiber-Elastomer (CCOARSE)._
 
 
 <br>
 
 
+<a name="videos"/>
 ### Deformation Videos 
 
 **Equiaxial Deformation**
