@@ -45,22 +45,6 @@ publications:
   #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
   #       paper_status: Working Manuscript
   #       year: 2020
-  - items: 'AAPM18'
-    paperitems:
-      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>, 
-          - Dan Nguyen,
-          - Chenyang Shen,
-          - Xun Jia, 
-          - Weiguo Lu, 
-          - Nick Gans, and
-          - Rodney Wiersma.
-        venue_web: 
-        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN 
-        paper_status: Accepted
-        year: July 2018
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
@@ -153,6 +137,22 @@ publications:
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
         paper_status: Accepted
         year: Switzerland AG 2019
+  - items: 'AAPM18'
+    paperitems:
+      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>, 
+          - Dan Nguyen,
+          - Chenyang Shen,
+          - Xun Jia, 
+          - Weiguo Lu, 
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: 
+        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN 
+        paper_status: Accepted
+        year: July 2018
   - items: 'Thesis!'
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
