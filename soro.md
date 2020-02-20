@@ -50,6 +50,7 @@ mathjax: true
 %}
 
 <br>
+_Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mask in classical RT (c) a thermoplastic facemask with add-on MRI coils in MRI imaging (d) the Wiersma Stewart-Gough model (e) the Ostyn robot_
 
 ### **Motivation**
 
@@ -89,9 +90,6 @@ mathjax: true
     - &#9746; These systems, while aiding better clinical accuracy, utilize rigid metallic components, electric motors and linear actuators which are not suitable for MRI imaging: they interfere with the magnets of the MRI machine and can lead to patient fatality or significant damage to the MRI machine.
 
 
-<br>
-_Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mask in classical RT (c) a thermoplastic facemask with add-on MRI coils in MRI imaging (d) the Wiersma Stewart-Gough model (e) the Ostyn robot_
-
 
 {% 
     include fig.html 
@@ -114,16 +112,15 @@ _Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
         file='assets/cyberknife.jpg' 
         file2='assets/cyberknife_rotating.jpg' 
         height=240
-        width=340
-        caption='<b>Fig 3:</b> The Cyberknife system ©Cyberknife.'
+        width=370
 %}
-
 <br>
+_Fig 3. The Cyberknife system ©Cyberknife._
 
 <!-- Fig. 1. Frameless and Maskless (F&M) positioning systems are an emerging non-invasive immobilization technology in radiosurgery; they work without utilizing rigid masks and frames -- reducing side effects and optimizing patient comfort without giving away too much in efficiency or effectiveness. The goal is to correct patient motion, ideally with a closed-loop feedback controller implemented  in real-time on a high-precision robotic system -- improving the satisfaction of patients and clinicians, and maximizing dose delivered to a tumor whilst minimizing healthy tissues' exposure to radiation. 
  -->
 
-**Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.**
+<!-- **Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.** -->
 
 
 
@@ -140,7 +137,8 @@ _Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
         width=145
 %}
 
-<br> <center>Fig. 2. Actuator Model</center>
+<br> 
+_Fig. 2. Actuator Model_
 
 <br><br><br>
 
@@ -159,9 +157,7 @@ _Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
 %}
 
 <br>
-<br>
-<center><b>Fig 3</b>. Bulge upon pneumatic actuation.</center>
-<br>
+_Fig. 3. Bulge upon pneumatic actuation._
 <br>
 
 #### CCOARSE Deformation
@@ -178,7 +174,7 @@ _Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
 %}
 
 <br>
-<center><b>Fig 4.</b> Circumferentially-Constrained and Radially Symmetric Fiber-Elastomer (CCOARSE). </center>
+_Fig 4. Circumferentially-Constrained and Radially Symmetric Fiber-Elastomer (CCOARSE)._
 
 
 <br>
