@@ -18,7 +18,7 @@ mathjax: true
 
 - [x]  Standalone MRIs
 
-- [x]  Emerging MRI-LINAC technogies
+- [x]  Emerging MRI-LINAC technologies
 
 - [x]  Head and Neck Cancer Radiation Therapy
 
