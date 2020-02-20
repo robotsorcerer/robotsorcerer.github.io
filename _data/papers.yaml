@@ -77,7 +77,7 @@ publications:
   - items: 'Springer2019!'
     paperitems:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
-        location: /downloads/Papers/Springer19.pdf
+        location: #/downloads/Papers/Springer19.pdf
         authors:
           - <b>Olalekan Ogunmolu</b> and
           - Rodney Wiersma.
@@ -255,7 +255,7 @@ publications:
           - Xuejun Gu
         venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
         venue: Medical Physics, The International Journal of Medical Physics Research and Practice. 
-                Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
+                #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: Annaheim, CA, August 2015
         paper_status: Accepted
 
