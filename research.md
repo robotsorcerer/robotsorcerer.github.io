@@ -105,9 +105,13 @@ To improve the treatment planning process, these drawbacks need to be addressed.
 
 - Currently in clinics, we use a frame or an immobilization mask to render the patient static while they lie supine on a couch
     - &#9746; This is incapable of real-time closed-loop feedback head motion corrections when the treatment beam is on (See Fig. 1).
+
     - &#9746; The invasiveness, inconvenience and discomfort associated with the frame are a principal cause of poor patient compliance and poor clinical efficacy.
+
     - &#9746; For some patients, frame placement is not possible due to extreme cranial anatomy or prior surgical bone flaps. In addition, the frame prohibits cases when multiple RT deliveries are needed as patients cannot be subjected to daily attachment and removal of the frame.
-    - &#9746; The limitations of frames has spurred clinics using thermoplastic face masks. These result in decreased accuracy arising from mask flex (drift of up to 2-6mm), and changes in the mask from repeated application and shrinking
+
+    - &#9746; The limitations of frames has spurred clinics using thermoplastic face masks. These result in decreased accuracy arising from mask flex (drift of up to 2-6mm), and changes in the mask from repeated application and shrinking.
+
     - &#9746; Such inaccuracies are not suitable for deep tumors located near critical structures such as the brain stem or for newer treatment modalities such as single isocenter multiple-target stereotactic radiosurgery (SRS), which are highly sensitive to rotational head motions.
 
 {%
@@ -172,7 +176,7 @@ _Fig 4. The Cyberknife system ©Cyberknife._
 
 - [ ] Phantom-based and healthy human volunteer trials
 
-These exploratory experiments are relevant to public health and have transformational clinical potential because they may provide:
+These exploratory lines of research inquiry are relevant to public health and have transformational clinical potential because they may provide:
 
 - proof-of-concept evidence that soft robots are compatible with standalone MRI imaging modalities;
 
@@ -194,6 +198,8 @@ This technology shall be applicable for the following use-cases:
 - [x] Brain Cancer Radiation Therapy
 
 #### **Advantages**
+
+This proposed technology shall have the following advantage over rigid immobilization systems:
 
 - [x] Negate the deleterious effects of **interfractional** setup variation on patients;
 
