@@ -88,10 +88,16 @@ To improve the treatment planning process, these drawbacks need to be addressed.
 - Accurate radiation dose targeting requires subdegree and submillimeter patient motion correction.
 
 
-- These CT images lack fine contrast that distinguish bony-tissues from non-bony and soft tissues. High contrast delineation of cancerous tissues from healthy surrounding tissues can further improve dose escalation to the tumor while simultaneously sparing surrounding healthy tissues; this is especially true for brain or head and neck (H\&N) cancers.
-- Magnetic resonance imaging (MRI) is an advanced imaging modality of internal body organs. Combined with RT, MRI-based RT is becoming an emerging technology with the potential for improving target and organs-at-risk (OAR) contrast for brain and H\&N cancers.
-- Recent research directions have demonstrated the compatibility of MRI with linear accelerator (LINAC)-based photon treatment of cancers.  Unfortunately, the quality of MRI imaging is limited by the artifacts caused by patient head motion.  
-- **_What if we could automatically correct patient motion during MRI imaging/RT/stereotactic radiosurgery so that we can eliminate the deleterious effects of patient motion uncertainities in MRIs, and photon/proton-based therapies? How do we negate patient motion?_**
+- These CT images lack fine contrast that distinguish bony-tissues from non-bony and soft tissues.
+
+- High contrast delineation of cancerous tissues from healthy surrounding tissues can further improve dose escalation to the tumor while simultaneously sparing surrounding healthy tissues; this is especially true for brain or head and neck (H&N) cancers.
+
+- Magnetic resonance imaging (MRI) is an advanced imaging modality for internal body organs. Combined with RT, MRI-based RT is becoming an emerging technology with the potential for improving target and organs-at-risk (OAR) contrast for brain and H&N cancers.
+
+- Recent research directions have demonstrated the compatibility of MRI with linear accelerator (LINAC)-based photon treatment of cancers. <u>_Unfortunately, the quality of MRI imaging is limited by the artifacts caused by patient head motion._</u>  
+
+- **_What if we could automatically correct patient motion during MRI imaging/RT/stereotactic radiosurgery so that we can eliminate the deleterious effects of patient motion uncertainities in MRIs, and photon/proton-based therapies?_**
+
 
 
 <a name='existing-technologies' />
