@@ -80,69 +80,6 @@ To improve the treatment planning process, these drawbacks need to be addressed.
         caption='<b>Fig 3: </b>C<sup>3</sup> SoRos in a parallel kinematic configuration around the Head and Neck Region. © Lekan Molu, 2019. Thanks to Erik Pearson of UChicago RadOnc for the CAD Model of the Gantry and Turntable.'
 %}
 <br> -->
-
-#### **Goals**
-
-- [x] Non-magnetic patient motion stabilizing mechanism compatible with magnetic resonance imaging (MRI) machines  
-- [x] Radio-transparent patient motion stabilizer for _real-time_ and _precise_ cancer radiation therapy modalities
-- [x] Verify that a 6-DOF target motion of a patient is <= 0.5 mm and <= 0.5 deg for greater than 95% of the treatment time.
-
-#### **Aims**
-- [ ] Simulation of a 6-DOF motion compensation system soft robot for MRI-LINACs
-
-- [ ] Design and construction of an MRI-LINAC soft robotic motion correction mechanism
-
-- [ ] Phantom-based and healthy human volunteer trials
-
-These exploratory experiments are relevant to public health and have transformational clinical potential because they may provide:
-
-- proof-of-concept evidence that soft robots are compatible with standalone MRI imaging modalities;
-
-- evidence of precise and automatic motion management with non-magnetic and radiation-transparent soft robots in emerging hybrid MRI-accelerator RT;
-
-- an emergence of a better brain and head and neck (H&N) cancer management technology that can be adapted to confined spaces under MRI coils.
-
-
-#### **Applications**
-
-This technology shall be applicable for the following use-cases:
-
-- [x]  Standalone MRIs
-
-- [x]  Emerging MRI-LINAC technologies
-
-- [x]  Head and Neck Cancer Radiation Therapy
-
-- [x] Brain Cancer Radiation Therapy
-
-#### **Advantages**
-
-- [x] Negate the deleterious effects of **interfractional** setup variation on patients;
-
-- [x] Correct the complex **intrafractional geometric uncertainties** such as posture changes, and body deformation with minimal invasiveness;
-
-- [x] Eliminate **radiation attenuation** associated with the metallic components of frames and rigid robotic patient motion compensation systems;
-
-- [x] Correct the **flex drifting errors** associated with thermoplastic face masks;
-
-- [x] Do **not interfere with the MRI's magnetic field**.
-
-#### **Proposed Setup**
-
-{%
-    include fig_4.html
-        file='downloads/soro/setup_nogantry_sv.png'
-        file2='downloads/soro/setup_nogantry_fv.png'
-        file4='downloads/soro/setup_flexi.png'
-        file3='downloads/soro/patient_no_gantry_closeup.jpg'
-        height=200
-        width=180
-        align='middle'
-%}
-
-<br>
-_Fig 1. Systematic parallel configuation of hollow soft domes around the patient's cranium._
-
 <a name='motivation' />
 ### **Background and Motivation**
 
@@ -210,6 +147,69 @@ _Fig 3. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
 %}
 <br>
 _Fig 4. The Cyberknife system ©Cyberknife._
+
+
+#### **Goals**
+
+- [x] Non-magnetic patient motion stabilizing mechanism compatible with magnetic resonance imaging (MRI) machines  
+- [x] Radio-transparent patient motion stabilizer for _real-time_ and _precise_ cancer radiation therapy modalities
+- [x] Verify that a 6-DOF target motion of a patient is <= 0.5 mm and <= 0.5 deg for greater than 95% of the treatment time.
+
+#### **Aims**
+- [ ] Simulation of a 6-DOF motion compensation system soft robot for MRI-LINACs
+
+- [ ] Design and construction of an MRI-LINAC soft robotic motion correction mechanism
+
+- [ ] Phantom-based and healthy human volunteer trials
+
+These exploratory experiments are relevant to public health and have transformational clinical potential because they may provide:
+
+- proof-of-concept evidence that soft robots are compatible with standalone MRI imaging modalities;
+
+- evidence of precise and automatic motion management with non-magnetic and radiation-transparent soft robots in emerging hybrid MRI-accelerator RT;
+
+- an emergence of a better brain and head and neck (H&N) cancer management technology that can be adapted to confined spaces under MRI coils.
+
+
+#### **Applications**
+
+This technology shall be applicable for the following use-cases:
+
+- [x]  Standalone MRIs
+
+- [x]  Emerging MRI-LINAC technologies
+
+- [x]  Head and Neck Cancer Radiation Therapy
+
+- [x] Brain Cancer Radiation Therapy
+
+#### **Advantages**
+
+- [x] Negate the deleterious effects of **interfractional** setup variation on patients;
+
+- [x] Correct the complex **intrafractional geometric uncertainties** such as posture changes, and body deformation with minimal invasiveness;
+
+- [x] Eliminate **radiation attenuation** associated with the metallic components of frames and rigid robotic patient motion compensation systems;
+
+- [x] Correct the **flex drifting errors** associated with thermoplastic face masks;
+
+- [x] Do **not interfere with the MRI's magnetic field**.
+
+#### **Proposed Setup**
+
+{%
+    include fig_4.html
+        file='downloads/soro/setup_nogantry_sv.png'
+        file2='downloads/soro/setup_nogantry_fv.png'
+        file4='downloads/soro/setup_flexi.png'
+        file3='downloads/soro/patient_no_gantry_closeup.jpg'
+        height=200
+        width=180
+        align='middle'
+%}
+
+<br>
+_Fig 1. Systematic parallel configuation of hollow soft domes around the patient's cranium._
 
 <!-- **Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.** -->
 
