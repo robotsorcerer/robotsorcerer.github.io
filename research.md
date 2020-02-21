@@ -195,7 +195,7 @@ This technology shall be applicable for the following use-cases:
 
 - [x] Do **not interfere with the MRI's magnetic field**.
 
-#### **Proposed Setup**
+<!-- #### **Proposed Setup**
 
 {%
     include fig_4.html
@@ -209,7 +209,7 @@ This technology shall be applicable for the following use-cases:
 %}
 
 <br>
-_Fig 1. Systematic parallel configuation of hollow soft domes around the patient's cranium._
+_Fig 1. Systematic parallel configuation of hollow soft domes around the patient's cranium._ -->
 
 <!-- **Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.** -->
 
@@ -240,7 +240,7 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. -->
 
 
-
+<!-- 
 ### References
 
 [IARC2019]: https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf
@@ -273,4 +273,4 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 + [Hunt, K. H. "Structural kinematics of in-parallel-actuated robot-arms." (1983): 705-712.][Hunt1983]
 
-[Hunt1983]: https://scholar.google.com/scholar_url?url=https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/105/4/705/434199&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=13895107842347352799&ei=Gz3AXa-3LYSSmAHvzKuQBA&scisig=AAGBfm1KATfuWQu50FZC-2s-pgn4qw-VIw
+[Hunt1983]: https://scholar.google.com/scholar_url?url=https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/105/4/705/434199&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=13895107842347352799&ei=Gz3AXa-3LYSSmAHvzKuQBA&scisig=AAGBfm1KATfuWQu50FZC-2s-pgn4qw-VIw -->
