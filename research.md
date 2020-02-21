@@ -85,7 +85,7 @@ To improve the treatment planning process, these drawbacks need to be addressed.
 
 - [x] Non-magnetic patient motion stabilizing mechanism compatible with magnetic resonance imaging (MRI) machines  
 - [x] Radio-transparent patient motion stabilizer for _real-time_ and _precise_ cancer radiation therapy modalities
-- [x] Verify our leading hypothesis to see if a 6-DOF target motion of a patient is <= 0.5 mm and <= 0.5 deg for greater than 95% of the treatment time.
+- [x] Verify that a 6-DOF target motion of a patient is <= 0.5 mm and <= 0.5 deg for greater than 95% of the treatment time.
 
 #### **Aims**
 - [ ] Simulation of a 6-DOF motion compensation system soft robot for MRI-LINACs
