@@ -292,7 +292,7 @@ _Fig. 5. Actuator Model_
 
 
 <a name="deforms">
-#### **Circumferential Deformation**
+#### **Equiaxial Deformation**
 
 Suppose we inflate the unconstrained planar rubber material, we would notice a deformation along the circumferential and axial directions as shown below. The constitutive relation that governs the deformation behavior along 2-DOFs is very involved would waste a lot of computational resources in solving for the kinematics of the overall system. 
 
@@ -310,6 +310,14 @@ Suppose we inflate the unconstrained planar rubber material, we would notice a d
 <br>
 _Fig. 6. Bulge upon pneumatic actuation._
 
+
+**Equiaxial Deformation Videos**
+
+<iframe src="/downloads/soro/circ_bulge_real.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/downloads/soro/circ_bulge_real2.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/downloads/soro/circ_bulge_real3.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
 
 <a name='ccoarse' />
 #### **CCOARSE Deformation**
@@ -330,29 +338,18 @@ To circumvent the complicated constitutive law, we constrained the axes of the d
 <br>
 _Fig 7. Circumferentially-Constrained and Radially Symmetric Fiber-Elastomer (CCOARSE)._
 
-<a name="videos"/>
-### **Deformation Videos**
+**CCOARSE Deformation Videos**
 
-Below are some preliminary videos I made during recent experiments to confirm my hypothesis about the CCOARSE deformation.
-
-**Equiaxial Deformation**
-
-<iframe src="/downloads/soro/circ_bulge_real.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
-
-<iframe src="/downloads/soro/circ_bulge_real2.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
-
-<iframe src="/downloads/soro/circ_bulge_real3.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
-
-
-**CCOARSE Deformation**
+It is my experience that the richness of the fiber layers within the soft material's body helps preserve the CCOARSE structure after deformation. This is a nice and attractive property as it provides a means of improving the stiffness of low shore-hardness rubber materials while not dealing with overwhelming nonlinearity at the patient contact surface.
 
 <iframe src="/downloads/soro/zero_to_hero.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
 
 <iframe src="/downloads/soro/puncture_resist.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
 
+
 #### **Actuators' Mechanoreceptive Sensors**
 
-Cephalopods have a very rich sensing mechanism made out of afferent neural networks. In fact, little work has been done, to the best of my knowledge in nanoelectronics and soft robotics, to attempt to reproduce such afferent sensing mechanisms on artificial robots. Note that the ones recently produced by Shepherd's group is a fiber-sensing afferent network that encumbers the soft mechanism. We are integrating a thin-layered, electronics-free exteroceptive afferent network on the material body of the soift actuatirs in order to provide volumetric feedback to the proportional solenoid valves. This would allow us to realize better and precise volume control of the CCOARSE deformation.  
+Cephalopods have a very rich sensing mechanism made out of afferent neural networks. In fact, little work has been done, to the best of my knowledge in nanoelectronics or soft robotics, to attempt to reproduce such afferent sensing mechanisms on artificial robots. The ones used on the Shadow robot hand is electromechanical and prohibitively expensive (one sensor costs $10,000). Note that the ones recently produced by Shepherd's group is a fiber-sensing afferent network whose optically-laced afferent networks would affect the soft contact kinematics at the boundary of the patient's epidermis and robot -- hence little applicable for this research. We are integrating a thin-layered, electronics-free exteroceptive afferent network on the material body of the soft actuators in order to provide volumetric feedback to the proportional solenoid valves. 
 
 <!--
 For more background on this research, head over to [our group page](https://radonc.uchicago.edu/) and see our publications. -->
