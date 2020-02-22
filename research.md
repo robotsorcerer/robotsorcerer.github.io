@@ -107,7 +107,7 @@ To improve the treatment planning process, these drawbacks need to be addressed.
     - &#9746; This is incapable of real-time closed-loop feedback head motion corrections when the treatment beam is on (See Fig. 1).
     - &#9746; The invasiveness, inconvenience and discomfort associated with the frame are a principal cause of poor patient compliance and poor clinical efficacy.
     - &#9746; For some patients, frame placement is not possible due to extreme cranial anatomy or prior surgical bone flaps. In addition, the frame prohibits cases when multiple RT deliveries are needed as patients cannot be subjected to daily attachment and removal of the frame.
-    - &#9746; The limitations of frames has spurred clinics using thermoplastic face masks. These result in decreased accuracy arising from mask flex (drift of up to 2-6mm), and changes in the mask from repeated application and shrinking
+    - &#9746; The limitations of frames have spurred clinics using thermoplastic face masks. These result in decreased accuracy arising from mask flex (drift of up to 2-6mm), and changes in the mask from repeated application and shrinking
     - &#9746; Such inaccuracies are not suitable for deep tumors located near critical structures such as the brain stem or for newer treatment modalities such as single isocenter multiple-target stereotactic radiosurgery (SRS), which are highly sensitive to rotational head motions.
 
 {%
@@ -120,7 +120,7 @@ To improve the treatment planning process, these drawbacks need to be addressed.
         height=115
         width=146
 %}
-_Fig 2. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mask in classical RT (c) a thermoplastic facemask with add-on MRI coils in MRI imaging (d) the Wiersma Stewart-Gough model (e) the Ostyn robot_
+_Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) A thermoplastic face mask in RT (c) A thermoplastic facemask with add-on MRI coils in MRI imaging (d) The Wiersma Stewart-Gough platform (e) The Ostyn platform_
 
 #### **Recent Research Directions**
 
@@ -138,11 +138,11 @@ _Fig 2. L-R (a) The Brown-Robert-Wells SRS frame; (b) the thermoplastic face mas
         align='middle'
 %}
 <br>
-_Fig 3. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation Oncology. L-R (a) Patient immobilization with thermoplastic masks under the MRI tube (b) the MRI coils are typically overlaid on the mask above the patient's face (c) owing to the large magnetic fields of the MRI machine, metallic objects are not admissible. Hence, parallel rigid mechanisms such as the Wiersma or Ostyn robot would not be feasible. These lack soft compliance necessary in such advanced imaging modalities._
+_Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation Oncology. L-R (a) Patient immobilization with thermoplastic masks under the MRI tube (b) the MRI coils are typically overlaid on the mask above the patient's face (c) owing to the large magnetic fields of the MRI machine, metallic objects are not admissible. Hence, parallel rigid mechanisms such as the Wiersma or Ostyn robot would not be feasible. These lack soft compliance necessary in such advanced imaging modalities._
 
 #### **Other Technologies**
 
-- The CyberKnife Synchrony, while capable of precise, non-surgical tumor and lesions treatment in SRS and stereotactic body radiotherapy (SBRT), only executes _a-priori_ trajectories (see Fig 4).
+- The CyberKnife Synchrony, while capable of precise, non-surgical tumor and lesions treatment in SRS and stereotactic body radiotherapy (SBRT), only executes _a-priori_ trajectories (see Fig 3).
 
 - Real-time closed-loop head motion compensation for the CyberKnife system is inhibited by its high load-to-weight ratio which indirectly affects its repeatability
     - Given its stiffness (it weighs 160kg), it has a complicated actuation system so that its passive bending stiffness overwhelms the degree of deformation for rapid patient repositioning.
@@ -156,7 +156,7 @@ _Fig 3. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation On
         width=370
 %}
 <br>
-_Fig 4. The Cyberknife system ©Cyberknife._
+_Fig 3. The Cyberknife system ©Cyberknife._
 
 
 #### **Goals**
