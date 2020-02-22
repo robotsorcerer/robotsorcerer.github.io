@@ -135,11 +135,10 @@ _Fig 1. L-R (a) The Brown-Robert-Wells SRS frame; (b) A thermoplastic face mask 
 {%
     include fig.html
         file='downloads/soro/mri_coils.jpg'
-        height=420
+        height=200
         max-width='100%'
         align='middle'
 %}
-<br>
 _Fig 2. MRI Treatment Setup. &copy; Kevin Teo/Rodney Wiersma, UPenn Radiation Oncology. L-R (a) Patient immobilization with thermoplastic masks under the MRI tube (b) the MRI coils are typically overlaid on the mask above the patient's face (c) owing to the large magnetic fields of the MRI machine, metallic objects are not admissible. Hence, parallel rigid mechanisms such as the Wiersma or Ostyn robot would not be feasible. These lack soft compliance necessary in such advanced imaging modalities._
 
 #### **Other Technologies**
@@ -209,7 +208,53 @@ This proposed technology shall have the following advantage over rigid immobiliz
 
 - [x] Do **not interfere with the MRI's magnetic field**.
 
-<!-- #### **Proposed Setup**
+
+<!-- **Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.** -->
+### **Preliminary Experiments**
+
+#### **3-DOF Head Motion Control**
+
+What I describe in what follows is based on our Gen. 1 soft actuators.  A head phantom was 3D printed from stereolithography using fused deposition modeling (FDM) technmology. To model the neck's free motion, we 3d printed a ball and socket joint, and attach it to the hollow end of the head phantom, which  lies supine on a couch. 
+
+The soft actuators are made from silicone. In the reference configuration, they are flat and rectangular in physical texture. We connect silicone hose fitiings to each end of the soft silicone (these convey compressed air in and out of the actuators) and we then encased the robot in breathable foam pads for patient comfort.  These actuators are in a cuboidal shape in their current configuration. We use air to inflate the actuators because it is 
+
+- cheaply available; 
+- clinically-friendly ;
+- inviscid; and 
+- it allows us to rapidly iterate different prototypes in realizing our objectives. 
+
+Proportional solenoid valves, controlled by PWM voltages generated from our microcontroller, regulated the volume of air within each actuator. We use a high-fidelity 3D depth vision sensor to measure the head position in real-time after point clouds processing. This information is fed back in a feedback loop to the proportional solenoid valves.
+
+With a combination of indirect adaptive control and system identification, we derive an asymptotically-stable Lyapunov controller<sup>[IROS17]</sup> to stabilize the head motion along three axes of motion, viz., z, pitch and roll. The figures below depict our setup and results along the axes of motion.
+
+{%
+    include fig.html
+        file='downloads/soro/testbed.jpg'
+        width=280px
+        height=240px
+        margin=20px
+        align='middle'
+%}
+_Fig 4: System Setup [Old IAB Model]_
+
+<br>
+{%
+    include fig_2.html
+        file='downloads/soro/expt2a.jpg'
+        file2='downloads/soro/roll_nice.jpg'
+        width=370
+        height=260
+        align='middle'
+%}
+_Fig 5: 3-DOF Head motion control example [Old IAB Model]_
+
+
+<br>
+
+<!-- ![3dof-z/pitch](downloads/soro/expt2a.jpg) -->
+
+
+#### **6-DOF Head Motion Control Proposed Setup**
 
 {%
     include fig_4.html
@@ -223,12 +268,91 @@ This proposed technology shall have the following advantage over rigid immobiliz
 %}
 
 <br>
-_Fig 1. Systematic parallel configuation of hollow soft domes around the patient's cranium._ -->
+_Fig 6. Parallel configuation of hollow C3 soft domes around the patient's cranium._ 
 
-<!-- **Proposal: A 6-DOF Soft Robot Patient Motion Correction Mechanism for MRI-guided Adaptive Radiation Therapy.** -->
+<!-- ### System Design and Contruction -->
+
+#### **New Actuators Geometrical Model**
+
+we now propose a new class of continuum, compliant and configurable (C3) soft actuators which only deform along the radial direction (see computer model in Fig. 5.) based on the physical constraints baked into the elastomer-fabric matrix. Inspired by the behavior of  the skin papillae of certain cephalopods (octopus, cuttlefish, bivalves and mollusks) which can transform their physical texture from 2D to 3D in less than  2 seconds, we have fabricated   bio-inspired soft elastomers that are planar in their reference configuration and exhibit a radially symmetric deformation when constrained along their circumferential axis under pneumatic actuation in their current configuration.  There is no electrical wirings or electronic circuits involved in reaching a desired configuration.
+
+{%
+    include fig_5.html
+        file='downloads/soro/discrete_soro.png'
+        file2='downloads/soro/soro_chamber.png'
+        file3='downloads/soro/soro_cross.png'
+        file4='downloads/soro/soro_cover.png'
+        file5='downloads/soro/soro_top.png'
+        height=130
+        width=145
+%}
+
+<br>
+_Fig. 5. Actuator Model_
 
 
+<a name="deforms">
+#### **Circumferential Deformation**
 
+Suppose we inflate the unconstrained planar rubber material, we would notice a deformation along the circumferential and axial directions as shown below. The constitutive relation that governs the deformation behavior along 2-DOFs is very involved would waste a lot of computational resources in solving for the kinematics of the overall system. 
+
+{%
+    include fig_5.html
+        file='downloads/soro/circ_bulge1.jpg'
+        file2='downloads/soro/circ_bulge2.jpg'
+        file3='downloads/soro/circ_bulge3.jpg'
+        file4='downloads/soro/circ_bulge4.jpg'
+        file5='downloads/soro/circ_bulge5.jpg'
+        height=145
+        width=145
+%}
+
+<br>
+_Fig. 6. Bulge upon pneumatic actuation._
+
+
+<a name='ccoarse' />
+#### **CCOARSE Deformation**
+
+To circumvent the complicated constitutive law, we constrained the axes of the deformation by baking a fiber matrix into the rubber material during manufacture. We laser-cut concentrically circular fibers, and lay them on the uncured silicone. I further added a silicone topcoat and then allowed the rubber material to cure. Upon inflation, we notice a deformation along the radial direction only as illustrated in the figures below. Similar to Pikul et al's<sup>[PikulCCOARSE]</sup> terminology, we call this a circumferentially constrained and radially symmetric elastomeric deformation (CCOARSE). The choice of the silicone material is important for this experiment. It should be soft enough for patient comfort yet strong enough to withstand nonlinear deformation that may further have the right material properties that give us the deformation behavior we want. 
+
+{%
+    include fig_5.html
+        file='downloads/soro/ds_3mm_l1.jpg'
+        file2='downloads/soro/ds_3mm_l2.jpg'
+        file3='downloads/soro/ds_3mm_l3.jpg'
+        file4='downloads/soro/ds_3mm_l4.jpg'
+        file5='downloads/soro/ds_3mm_l4_touch.jpg'
+        height=145
+        width=145
+%}
+
+<br>
+_Fig 7. Circumferentially-Constrained and Radially Symmetric Fiber-Elastomer (CCOARSE)._
+
+<a name="videos"/>
+### **Deformation Videos**
+
+Below are some preliminary videos I made during recent experiments to confirm my hypothesis about the CCOARSE deformation.
+
+**Equiaxial Deformation**
+
+<iframe src="/downloads/soro/circ_bulge_real.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/downloads/soro/circ_bulge_real2.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/downloads/soro/circ_bulge_real3.mp4" width="240" height="240" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+
+**CCOARSE Deformation**
+
+<iframe src="/downloads/soro/zero_to_hero.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+<iframe src="/downloads/soro/puncture_resist.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
+
+#### **Actuators' Mechanoreceptive Sensors**
+
+Cephalopods have a very rich sensing mechanism made out of afferent neural networks. In fact, little work has been done, to the best of my knowledge in nanoelectronics and soft robotics, to attempt to reproduce such afferent sensing mechanisms on artificial robots. Note that the ones recently produced by Shepherd's group is a fiber-sensing afferent network that encumbers the soft mechanism. I am currently integrating a thin-layered, electronics-free exteroceptive afferent network on the material body of the soift actuatirs in order to provide volumetric feedback to the proportional solenoid valves. This would allow us to realize better and precise volume control of the CCOARSE deformation.  **Details coming soon.**
 
 <!--
 For more background on this research, head over to [our group page](https://radonc.uchicago.edu/) and see our publications. -->
@@ -254,7 +378,7 @@ float="right"  border="1px dotted black"  margin="0px 0px 15px 20px" align="righ
 The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as the head or neck), one can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. -->
 
 
-<!--
+
 ### References
 
 [IARC2019]: https://www.iarc.fr/wp-content/uploads/2019/07/IARC-brochure-EN-June_2019.pdf
@@ -287,4 +411,14 @@ The idea is that by actuating elastomeric polymer enclosures that inflate or def
 
 + [Hunt, K. H. "Structural kinematics of in-parallel-actuated robot-arms." (1983): 705-712.][Hunt1983]
 
-[Hunt1983]: https://scholar.google.com/scholar_url?url=https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/105/4/705/434199&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=13895107842347352799&ei=Gz3AXa-3LYSSmAHvzKuQBA&scisig=AAGBfm1KATfuWQu50FZC-2s-pgn4qw-VIw -->
+[Hunt1983]: https://scholar.google.com/scholar_url?url=https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/105/4/705/434199&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=13895107842347352799&ei=Gz3AXa-3LYSSmAHvzKuQBA&scisig=AAGBfm1KATfuWQu50FZC-2s-pgn4qw-VIw 
+
++ [Stretchable surfaces with programmable texture, James Pikul, Itai Cohen, Robert Shepherd][PikulCCOARSE]
+
+
+[PikulCCOARSE]: https://patentimages.storage.googleapis.com/e5/2c/d8/128343a494f6a7/US20190126516A1.pdf
+
++ [Olalekan Ogunmolu, Adwait Kulkarn, Yonas Tadesse, Xuejun Gu, Steve Jiang, and Nick Gans. Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose Correction System For Frameless and Maskless Cancer Radiotherapy. 
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). Vancouver, BC. 2017.][IROS17]
+
+[IROS17]: https://ieeexplore.ieee.org/abstract/document/8206211
