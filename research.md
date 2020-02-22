@@ -352,7 +352,7 @@ Below are some preliminary videos I made during recent experiments to confirm my
 
 #### **Actuators' Mechanoreceptive Sensors**
 
-Cephalopods have a very rich sensing mechanism made out of afferent neural networks. In fact, little work has been done, to the best of my knowledge in nanoelectronics and soft robotics, to attempt to reproduce such afferent sensing mechanisms on artificial robots. Note that the ones recently produced by Shepherd's group is a fiber-sensing afferent network that encumbers the soft mechanism. I am currently integrating a thin-layered, electronics-free exteroceptive afferent network on the material body of the soift actuatirs in order to provide volumetric feedback to the proportional solenoid valves. This would allow us to realize better and precise volume control of the CCOARSE deformation.  **Details coming soon.**
+Cephalopods have a very rich sensing mechanism made out of afferent neural networks. In fact, little work has been done, to the best of my knowledge in nanoelectronics and soft robotics, to attempt to reproduce such afferent sensing mechanisms on artificial robots. Note that the ones recently produced by Shepherd's group is a fiber-sensing afferent network that encumbers the soft mechanism. We are integrating a thin-layered, electronics-free exteroceptive afferent network on the material body of the soift actuatirs in order to provide volumetric feedback to the proportional solenoid valves. This would allow us to realize better and precise volume control of the CCOARSE deformation.  
 
 <!--
 For more background on this research, head over to [our group page](https://radonc.uchicago.edu/) and see our publications. -->
