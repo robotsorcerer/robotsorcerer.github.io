@@ -47,7 +47,7 @@ publications:
   #       year: 2020
   - items: 'RAL/ICRA2019!'
     paperitems:
-      - title: Mechanism and Constitutive Model of a Continuum Robot for Head and Neck Cancer Radiotherapy
+      - title: Mechanism and Constitutive Model of a Continuum Robot for Head Stabilization in Cancer Radiation Therapy.
         location: /downloads/Papers/ContinuumI.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>, 
