@@ -296,6 +296,36 @@ It is my experience that the richness of the fiber layers within the soft materi
 
 <iframe src="/downloads/soro/puncture_resist.mp4" width="250" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 48%;" allowfullscreen> </iframe>
 
+<a name="open-loop-control"/>
+#### **Open-loop Head Control**
+
+Here, we independently control the patient's displacement above a treatment table in an open-loop setting using first, the base actuators to control the translations and secondly the side actuators to control the yaw and roll rotations of the head about a reference axis.
+
+
+<figure>
+   <div class="imgContainer">
+   <img src="downloads/soro/x-disp.jpg" 
+    width="240"
+    height="200"
+    align="left"/>
+    </div>
+
+    <div class="imgContainer">
+    <img src="downloads/soro/y-disp.jpg" 
+     width="240"
+     height="200"
+     align="middle"/>
+     </div>
+
+     <div class="imgContainer">
+     <img src="downloads/soro/z-only.jpg" 
+      width="240"
+      height="200"
+      align="middle"/>
+      </div>
+      
+   <figcaption><center>Translational Control</center></figcaption>
+</figure>
 
 #### **Actuators' Mechanoreceptive Sensors**
 
