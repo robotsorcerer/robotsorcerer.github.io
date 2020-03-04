@@ -118,7 +118,7 @@ This technology shall be applicable to the following treatment modalities:
 
 #### **Advantages**
 
-This proposed technology shall have the following advantage over rigid immobilization systems:
+This proposed technology shall have the following advantages over rigid immobilization systems:
 
 - [x] Negate the deleterious effects of **interfractional** setup variation on patients;
 
