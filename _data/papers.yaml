@@ -137,6 +137,28 @@ publications:
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
         paper_status: Accepted
         year: Switzerland AG 2019
+  - items: 'AAPM20'
+    paperitems:
+      - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>,  and
+          - Rodney Wiersma.
+        venue_web: 
+        venue: 2020 AAPM/COMP Meeting
+        paper_status: Submitted
+        year: July 2020  
+  - items: 'AAPM20Workspace'
+    paperitems:
+      - title: 'Auto-Determination of the Dextrous WorkSpace in Robotic Stereotactic Radiosurgery'
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>,  and
+          - Rodney Wiersma.
+        venue_web: 
+        venue: 2020 AAPM/COMP Meeting
+        paper_status: Submitted
+        year: July 2020      
   - items: 'AAPM18'
     paperitems:
       - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
@@ -146,9 +168,8 @@ publications:
           - Dan Nguyen,
           - Chenyang Shen,
           - Xun Jia, 
-          - Weiguo Lu, 
-          - Nick Gans, and
-          - Rodney Wiersma.
+          - Weiguo Lu, and
+          - Nick Gans,
         venue_web: 
         venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN 
         paper_status: Accepted
