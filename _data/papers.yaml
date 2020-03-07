@@ -81,7 +81,7 @@ publications:
         venue_web: https://www.ieee-ras.org/publications/ra-l
         venue: IEEE International Conference on Robotics and Automation (ICRA), Paris, France
         paper_status: Accepted
-        year: January 2020
+        year: May 2020
   - items: 'Springer2019!'
     paperitems:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy

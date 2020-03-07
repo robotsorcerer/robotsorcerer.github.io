@@ -25,7 +25,7 @@ permalink: pubs
 
 <a name="unpubs"></a>
 <table  class="table table-hover" >	
-  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Working Papers</a></b></h3></center>
+  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
   	{% for paper in item.paperitems %}
 	          	{% if paper.paper_status contains "Manuscript" %}
