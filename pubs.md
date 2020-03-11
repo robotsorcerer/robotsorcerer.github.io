@@ -17,15 +17,15 @@ permalink: pubs
 
 
 <center>
-<a href="#unpubs"><font size="4">Working Papers / </font></a>
-<a href="#revs"><font size="4">Papers Under Review / </font></a>
-<a href="#pubs"><font size="4">Published Papers / </font></a>
+<a href="#unpubs"><font size="4">Evolving Drafts / </font></a>
+<a href="#revs"><font size="4">Submitted / </font></a>
+<a href="#pubs"><font size="4">Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports.</font></a>
 </center>
 
 <a name="unpubs"></a>
 <table  class="table table-hover" >	
-  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Working Papers</a></b></h3></center>
+  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
   	{% for paper in item.paperitems %}
 	          	{% if paper.paper_status contains "Manuscript" %}
@@ -34,40 +34,39 @@ permalink: pubs
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %} 
-		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i></a> {{ paper.year }}.
+		      				Evolving Draft. 
 			      		</td>
 		      		</tr>
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}	
 </table>
-<!-- 
-<a name="revs"></a>
+
+<a name="pubs"></a>
 <table  class="table table-hover" >	
-  	<center><h3><b>Papers Under Review</b></h3></center>
+<center><h3><b>Submitted Works</b></h3></center>
 		{% for item in site.data.papers.publications %}
 	    	{% for paper in item.paperitems %}
-	          	{% if paper.paper_status contains "Submit" %}
+	          	{% if paper.paper_status contains "Submitted" %}
 		        	<tr>
 		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %}<br>
-		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> ({{ paper.paper_status }}) {{ paper.year }}.
+		      				<a href="{{ paper.venue_web }}" target="blank"><i>Submitted to {{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
 			      		</td>
 		      		</tr>
 		      	{% endif %}
 	    	{% endfor %}
-	  	{% endfor %}	
-</table>
- -->
+	  	{% endfor %} 
 
 <a name="pubs"></a>
 <table  class="table table-hover" >	
 <center><h3><b>Published Works</b></h3></center>
 
-Premier IEEE Robotics and Automation Society, Algorithmic Foundations of Robotics, and Medical Physics publications (WAFR, IROS, NIPS, PhysMed, and ICRA) are highly selective venues for archival papers, similar to selective IEEE journals in visibility and strong scientific/engineering communications.
+<!-- Premier IEEE Robotics and Automation Society, Algorithmic Foundations of Robotics, and Medical Physics publications (WAFR, IROS, NIPS, PhysMed, and ICRA) are highly selective venues for archival papers, similar to selective IEEE journals in visibility and strong scientific/engineering communications.
 
+ -->
 		{% for item in site.data.papers.publications %}
 	    	{% for paper in item.paperitems %}
 	          	{% if paper.paper_status contains "Accepted" %}
@@ -102,3 +101,5 @@ Premier IEEE Robotics and Automation Society, Algorithmic Foundations of Robotic
 	    	{% endfor %}
 	  	{% endfor %}	
 </table>
+
+
