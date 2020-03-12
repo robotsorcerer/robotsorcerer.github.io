@@ -2,7 +2,7 @@ publications:
   - items: 'TRO2019!'
     paperitems:
       - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/kinecontrol.pdf
+        location: #/downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b>
         venue_web: https://www.ieee-ras.org/publications/t-ro
