@@ -4,11 +4,12 @@ publications:
       - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
         location: #/downloads/Papers/kinecontrol.pdf
         authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: https://www.ieee-ras.org/publications/t-ro
-        venue: IEEE Transactions on Robotics (T-RO).
-        paper_status: Working Manuscript
-        year: 2020
+          - <b>Olalekan Ogunmolu</b> and
+          - Others
+        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
+        venue: Journal of Mechanism and Robotics, American Society of Mechanical Engineers (ASME) 
+        paper_status: Submitted
+        year: March 2020
 
   - items: 'PMB2020!'
     paperitems:
