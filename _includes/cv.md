@@ -2,7 +2,7 @@
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
-  - **Core**: Control Theory. Robotics. Machine Learning. (Not in that order).
+   **Control Theory** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine Learning** (Not in that order).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
