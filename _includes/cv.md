@@ -2,7 +2,11 @@
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
-   **Control Theory** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning** (Not in that order).
+   <a href="https://en.wikipedia.org/wiki/Ikigai">**Ikigai**</a>: **Control Theory** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning** (Not in that order). <br>
+   .<br>
+   .<br>
+   **Fund-my-research buzzwords**: Artificial Intelligence, Big Data, Data Science.<br>
+   **Antiquated buzzwords**: System Identification, Data Mining.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
@@ -16,6 +20,12 @@
   -  [Amazon Robotics](https://www.amazonrobotics.com/#/) (Advanced Robotics Lab), Greater Boston Area, MA (Ended 2016).
   - [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
   - [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities</h4>
+- [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member 
+- [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member
+- [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member
+- [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member
 
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
@@ -80,7 +90,6 @@
   - [ICML, International Conference on Machine Learning](https://icml.cc/)
   - External Grants Reviewer, [National Geographic Society](https://www.nationalgeographic.org/).
 
-
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
   -  Google AI Travel and Conference Grant (2018)
   - IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016)
@@ -96,8 +105,7 @@
 
    Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>.
 
-  - **Fund-my-startup buzzwords**: Artificial Intelligence, Big Data, Data Science.
-  - **Antiquated buzzwords**: System Identification, Data Mining.
+
 
   - [Brandeis University](https://www.brandeis.edu/gps/), [Adjunct Instructor, Robot Manipulation, Planning and Control](https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100) (2019 - Present).
 -->
