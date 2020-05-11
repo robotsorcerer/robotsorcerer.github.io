@@ -34,7 +34,6 @@ permalink: pubs
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %} 
-		      				Evolving Draft. 
 			      		</td>
 		      		</tr>
 		      	{% endif %}
