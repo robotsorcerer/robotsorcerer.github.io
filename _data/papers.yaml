@@ -60,7 +60,7 @@ publications:
         year: July 2020
   - items: 'AAPM20Workspace'
     paperitems:
-      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery.'
+      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
         location: #/downloads/Papers/ContinuumI.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>,
