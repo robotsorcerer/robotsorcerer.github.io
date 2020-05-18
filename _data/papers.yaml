@@ -55,12 +55,12 @@ publications:
           - <b>Olalekan Ogunmolu</b>,  and
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: The John R. Cameron Young Investigator Symposium @ The 2020 AAPM/COMP Meeting
-        paper_status: Submitted
+        venue: J.R. Cameron and J.R. Cunningham Young Investigator Symposium, AAPM/COMP Meeting
+        paper_status: Accepted
         year: July 2020
   - items: 'AAPM20Workspace'
     paperitems:
-      - title: 'Suitability of Stewart-Gough Platforms for Head and Neck Motion Correction in Robotic Stereotactic Radiosurgery'
+      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
         location: #/downloads/Papers/ContinuumI.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>,
@@ -68,7 +68,7 @@ publications:
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
         venue: 2020 AAPM/COMP Meeting
-        paper_status: Submitted
+        paper_status: Accepted
         year: July 2020
   - items: 'AAPM18'
   - items: 'RAL/ICRA2019!'
@@ -84,17 +84,17 @@ publications:
         venue: IEEE International Conference on Robotics and Automation (ICRA), Paris, France
         paper_status: Accepted
         year: May 2020
-  - items: 'Springer2019!'
-    paperitems:
-      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
-        location: #/downloads/Papers/Springer19.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b> and
-          - Rodney Wiersma.
-        venue_web:
-        venue: © Springer (Invited Book Chapter)
-        paper_status: Submitted
-        year: November 2019
+  # - items: 'Springer2019!'
+  #   paperitems:
+  #     - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
+  #       location: #/downloads/Papers/Springer19.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b> and
+  #         - Rodney Wiersma.
+  #       venue_web:
+  #       venue: © Springer (Invited Book Chapter)
+  #       paper_status: Submitted
+  #       year: November 2019
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
