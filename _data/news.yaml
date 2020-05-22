@@ -1,8 +1,8 @@
 news_items:
   - items: AAPM20
     subnewsitems:
-      - content: "Along with Rod, our new soft robot proposal for motion correction in emerging MRI-LINAC RT systems got 
-                accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium</i>. 
+      - content: "Along with Rod, I am excited to share that my new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got 
+                accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i>. 
                 Please attend my talk if you plan to e-attend AAPM's annual meeting this year."
         highlight: true
         date: May 16, 2020
