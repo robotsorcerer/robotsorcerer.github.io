@@ -1,11 +1,11 @@
 news_items:
-  - items: Brandeis
+  - items: AAPM20
     subnewsitems:
-      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring 
-                of 2020 as an Adjunct Faculty. I am keeping the lecture notes 
-                <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses.'
+      - content: "Along with Rod, our new soft robot proposal for motion correction in emerging MRI-LINAC RT systems got 
+                accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium</i>. 
+                Please attend my talk if you plan to e-attend AAPM's annual meeting this year."
         highlight: true
-        date: Nov 07, 2019 
+        date: May 16, 2020
   - items: 'PHinisheD!'
     subnewsitems:
       - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.,  
@@ -13,8 +13,15 @@ news_items:
                         <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>, 
                         and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, 
                         T. Summers, Y. Tadesse and D. Bhatia.'
-        highlight: true
+        highlight: false
         date: May 16, 2019 
+  - items: Brandeis
+    subnewsitems:
+      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring 
+                of 2020 as an Adjunct Faculty. I am keeping the lecture notes 
+                <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses.'
+        highlight: true
+        date: Nov 07, 2019 
   - items: ATR Labs
     subnewsitems:
       - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
