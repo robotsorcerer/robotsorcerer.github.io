@@ -8,6 +8,7 @@
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
+  - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019 - Present).
   - Adjunct Instructor, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), Robot Manipulation, Motion Planning and Control,  (2019 - Present).
   - Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
   - Visiting Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019).
@@ -57,6 +58,22 @@
 
 - A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
 
+<!-- 
+- Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
+ -  NSF Doctoral Consortium Award, 2017
+ -  Mary and Richard Templeton Graduate Fellowship, 2017 
+ -  Ericsson Graduate Fellowship, 2015
+ -  President’s Teaching Excellence Award for Teaching Assistants, Nom. 2017
+ -  Jonsson Scholarship, 2014
+ -  IEEE Robotics and Automation Society (RAS) Travel Award, 2018
+ -  Golden Key Honor, 2016
+ -  IEEE RAS/ISAM<sup>International Symposium on Assembly and Manufacturing</sup>Travel Award, 2016
+ -  Google AI Travel and Conference Grant, 2018
+ -  ROSCon Scholarship, 2017
+-->
+
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Review Service</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
   - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
@@ -70,3 +87,23 @@
   - [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521).
   - [ICML, International Conference on Machine Learning](https://icml.cc/)
   - External Grants Reviewer, [National Geographic Society](https://www.nationalgeographic.org/).
+
+<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
+  -  Google AI Travel and Conference Grant (2018)
+  - IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016)
+  - NSF Doctoral Consortium Award (2017)
+  - Mary and Richard Templeton Graduate Fellowship (2017)
+  - Open Software for Robotics Foundation Scholarship (2017)
+  - President’s Excellence Award for Teaching Assistants (Nom. 2017)
+  - Golden Key International Honour Society (2016)
+  - Ericsson Graduate Fellowship (2015)
+  - Jonsson Scholarship (2014)
+  - PTDF Overseas Fellowship (2012).
+  - Best Chemistry Student (West African Senior School Examinations -- Two Years in a Row). -
+
+   Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>.
+
+
+
+  - [Brandeis University](https://www.brandeis.edu/gps/), [Adjunct Instructor, Robot Manipulation, Planning and Control](https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100) (2019 - Present).
+-->
