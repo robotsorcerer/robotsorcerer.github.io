@@ -23,7 +23,7 @@ permalink: pubs
 <a href="#reps"><font size="4">Technical Reports.</font></a>
 </center>
 
-<a name="unpubs"></a>
+<!-- <a name="unpubs"></a>
 <table  class="table table-hover" >	
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
@@ -39,7 +39,7 @@ permalink: pubs
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}	
-</table>
+</table> -->
 
 Premier Robotics and Automation Society, Algorithmic Foundations of Robotics, ASME, and Medical Physics publications (WAFR, IROS, JMR, NIPS, PhysMed, and ICRA) are highly selective venues for archival papers, similar to selective IEEE journals in visibility and strong scientific/engineering communications.
 

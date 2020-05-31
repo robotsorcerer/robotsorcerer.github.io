@@ -2,8 +2,8 @@
 title: Lekan Molu #(ぇかん オグンモゥ)
 locale: en_US
 email: olalekan.ogunmolu@pennmedicine.upenn.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Rerum Cognoscere Causas
+description: > # this means to ignore newlines until "baseurl:"  > # Rerum Cognoscere Causas
+  Still Attacking Cancer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scriptedonachip.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: morethanaunit
