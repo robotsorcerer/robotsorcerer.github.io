@@ -1,17 +1,19 @@
-### All Worship
+---
+layout: post
+permalink: wellness
+---
+<?php include_once("analyticstracking.php") ?>
 
-+ Any Given Day -- Light the fire again
 
-+ Hear Us From Heaven -- Ross Parsley (Open the blind eyes, unlock the deaf ears, hear us from heaven, touch our generation, we are your people crying out in desperation)
+## Cultivating All-Around Wellness
 
-+ All I Have (Oh How You Love Me) -- Rita Springer
++ [Cultivating empathy during COVID and for those sufering from trauma owing to police brutality.](/downloads/msgs/HillsongNYCJakesLentz.mp3)
 
-+ [What A Savior, Lauura Story]()
++ [Devi Parikh: Calendar. Not to-do lists.](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd)
 
-+ [Rise up and praise him - Women of Faith]()
++ [Cultivating empathy during COVID and for those sufering from trauma owing to police brutality.](/downloads/msgs/HillsongNYCJakesLentz.mp3)
 
-### Sick Country Beats
-
-+ [Head over boots, Jon Pardi](https://www.youtube.com/watch?v=3odIdmuFfEY)
-
-+ [Stand at your window, Jim Reeves](https://www.youtube.com/watch?v=tBeBn5-3_x0)
++ Hillsong on Sundays
+  - [05/16/2020](/downloads/msgs/BrianHouston05/16.mp3)
+  - [05/23/2020](/downloads/msgs/BrianHouston05/23.mp3)
+  - [05/23/2020 Part II](/downloads/msgs/BrianHouston05/23PartII.mp3)

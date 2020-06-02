@@ -49,6 +49,8 @@ title: Lekan
 <!-- + <a href="{{ site.url }}/scholternships"> advice for fellowships, internships, conference grants applications</a> -->
 + <a href="{{ site.url }}/readlist18" target="blank"> summer'18 reading list</a>:  Bellman and Optimal Control.
 
+<br><br>
+
 <!-- Strava summary -->
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h2>
 <!-- <p><b>News:</b><i> Come next Summer, I will be participating in the <a href="https://www.greenway.org/new-york-to-philadelphia-greenway-ride?fbclid=IwAR3lxRjYiwy0hL1mVJJ8QZ7GnN5zKJge4O1pcNq9GwkpthQe8tXO2y3bPxY">NYC-to-Philly Greenway Ride</a> together with cyclists from all over the United States and France in a 130-mile ride over two days, starting from Manhattan, through Princeton, and ending in Philadelphia. As part of my contribution to green travel, I ask that if you are able, to please consider donating in my name on the following <a href="https://www.greenway.org/new-york-to-philadelphia-greenway-ride?fbclid=IwAR3lxRjYiwy0hL1mVJJ8QZ7GnN5zKJge4O1pcNq9GwkpthQe8tXO2y3bPxY">webpage.</a></i> 
@@ -59,8 +61,6 @@ title: Lekan
 
 States where I have ridden so far include Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey. Below is a screenshot of my recent activities summary. </p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
-
-
 
 <br><br>
 Last updated on {% include last-updated.txt %}
