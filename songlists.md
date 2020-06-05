@@ -13,6 +13,7 @@ permalink: wellness
 
 + [Understanding race and police aggressiveness in America -- Carl Lentz and T.D. Jakes.](/downloads/msgs/HillsongNYCJakesLentz.mp3)
 
++ [MJohnson K99/R00  Review](/downloads/msgs/MJohnson0605.mp3)
 + Hillsong Sydney
   - [05/16/2020](/downloads/msgs/BrianHouston05/16.mp3)
   - [05/23/2020](/downloads/msgs/BrianHouston05/23.mp3)
