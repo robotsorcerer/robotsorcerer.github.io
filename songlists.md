@@ -18,4 +18,5 @@ permalink: wellness
   - [05/16/2020](/downloads/msgs/BrianHouston05/16.mp3)
   - [05/23/2020 - When Faith is now](/downloads/msgs/NowFaith.mp3)
   - [06/06/2020 - Pressured Not Stressed](/downloads/msgs/PressuredNotStressed.mp3)
-  - [06/06/2020 - C3 Philly Race Convo with Zaza, Alyssa Vasquez and Colin Blpos](/downloads/msgs/C3PhillyRaceConvo.mp3)
++ C3 Philly
+  - [06/06/2020 - C3 Philly Race Convo with S. Zaza, Alyssa Vasquez and Colin Blois](/downloads/msgs/C3PhillyRaceConvo.mp3)
