@@ -18,3 +18,4 @@ permalink: wellness
   - [05/16/2020](/downloads/msgs/BrianHouston05/16.mp3)
   - [05/23/2020](/downloads/msgs/BrianHouston05/23.mp3)
   - [05/23/2020 Part II](/downloads/msgs/BrianHouston05/23PartII.mp3)
+  - [06/06/2020 - Pressured Not Stressed](/downloads/msgs/PressuredNotStressed.mp3)
