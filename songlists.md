@@ -16,6 +16,6 @@ permalink: wellness
 + [MJohnson K99/R00  Review](/downloads/msgs/MJohnson0605.mp3)
 + Hillsong Sydney
   - [05/16/2020](/downloads/msgs/BrianHouston05/16.mp3)
-  - [05/23/2020](/downloads/msgs/BrianHouston05/23.mp3)
-  - [05/23/2020 Part II](/downloads/msgs/BrianHouston05/23PartII.mp3)
+  - [05/23/2020 - When Faith is now](/downloads/msgs/NowFaith.mp3)
   - [06/06/2020 - Pressured Not Stressed](/downloads/msgs/PressuredNotStressed.mp3)
+  - [06/06/2020 - C3 Philly Race Convo with Zaza, Alyssa Vasquez and Colin Blpos](/downloads/msgs/C3PhillyRaceConvo.mp3)
