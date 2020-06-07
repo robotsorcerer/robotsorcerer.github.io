@@ -164,6 +164,7 @@ publications:
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
         paper_status: Accepted
         year: Switzerland AG 2019
+  - items: 'AAPM2019'
     paperitems:
       - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
         location: #/downloads/Papers/ContinuumI.pdf
