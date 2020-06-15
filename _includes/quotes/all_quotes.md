@@ -1,3 +1,5 @@
+"_The aim of science is to make difficult things understandable in a simpler way; the aim of poetry is to state simple things in an incomprehensible way. The two are incompatible._" ~ Paul Dirac, criticizing J. Robert Oppenheimer's love for poetry.
+
 "_...Deduction [and] Induction ... render the indefinite definite; Deduction explicates; Induction evaluates: that is all. Over the chasm that yawns between the ultimate goal of science and such ideas of Man's environment as ... he managed to communicate to some fellow, we are building a cantilever bridge of induction, held together by scientific struts and ties. Yet every plank of its advance is first laid by Retroduction alone, that is to say, by the spontaneous conjectures of instinctive reason ..._" ~ C.S. Peirce, Scientific Metaphysics (1908), S475
 
 
