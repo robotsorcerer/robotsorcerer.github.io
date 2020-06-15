@@ -2,7 +2,7 @@
 
 "_...Deduction [and] Induction ... render the indefinite definite; Deduction explicates; Induction evaluates: that is all. Over the chasm that yawns between the ultimate goal of science and such ideas of Man's environment as ... he managed to communicate to some fellow, we are building a cantilever bridge of induction, held together by scientific struts and ties. Yet every plank of its advance is first laid by Retroduction alone, that is to say, by the spontaneous conjectures of instinctive reason ..._" ~ C.S. Peirce, Scientific Metaphysics (1908), S475
 
-"_'Why do you dance?' Dirac asked his Heisenberg. 'When there are nice girls, it is a pleasure,' Heisenberg replied. Dirac pondered this notion, then blurted out: 'But, Heisenberg, how do you know beforehand that the girls are nice?'_"
+"_'Why do you dance?' Dirac asked his companion, Heisenberg. 'When there are nice girls, it is a pleasure,' Heisenberg replied. Dirac pondered this notion, then blurted out: 'But, Heisenberg, how do you know beforehand that the girls are nice?'_"
 
 
 "_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier
