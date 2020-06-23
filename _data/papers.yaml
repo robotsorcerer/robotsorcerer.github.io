@@ -55,9 +55,9 @@ publications:
           - <b>Olalekan Ogunmolu</b>,  and
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: J.R. Cameron and J.R. Cunningham Young Investigator Symposium, AAPM/COMP Meeting
+        venue: Oral Presentation at the J.R. Cameron and J.R. Cunningham Young Investigator Symposium, AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
         paper_status: Accepted
-        year: July 2020
+        year: June 2020
   - items: 'AAPM20Workspace'
     paperitems:
       - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
@@ -67,9 +67,9 @@ publications:
           - Xinmin Liu, and
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: 2020 AAPM/COMP Meeting
+        venue: ePoster Presentation at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
         paper_status: Accepted
-        year: July 2020
+        year: June 2020
   - items: 'AAPM18'
   - items: 'RAL/ICRA2019!'
     paperitems:
@@ -164,6 +164,7 @@ publications:
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
         paper_status: Accepted
         year: Switzerland AG 2019
+  - items: 'AAPM2019'
     paperitems:
       - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
         location: #/downloads/Papers/ContinuumI.pdf
@@ -279,7 +280,7 @@ publications:
           - Steve Jiang, and
           - Xuejun Gu
         venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
-        venue: Medical Physics, The International Journal of Medical Physics Research and Practice.
+        venue: Online only publication in the Medical Physics Journal.
                 #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: Annaheim, CA, August 2015
         paper_status: Accepted
