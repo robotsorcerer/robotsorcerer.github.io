@@ -20,3 +20,5 @@ permalink: wellness
   - [06/06/2020 - Pressured Not Stressed](/downloads/msgs/PressuredNotStressed.mp3)
 + C3 Philly
   - [06/06/2020 - C3 Philly Race Convo with S. Zaza, Alyssa Vasquez and Colin Blois](/downloads/msgs/C3PhillyRaceConvo.mp3)
+
++ [Emancipation Proclamation, NPR Narrative on Juneteenth 2020](downloads/msgs/Emancipation_ProclamationNPR2020.mp3)
