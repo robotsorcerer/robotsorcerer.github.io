@@ -26,23 +26,7 @@
 - [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member
 
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
-<table class="table table-hover">
-    {% for item in site.data.news.news_items %}
-    {% for subitem in item.subnewsitems %}
-        {% unless subitem.highlight == false %}
-        <tr>
-          <td>{{ subitem.content }} </td>
-          <td class="col-md-3" style="text-align: right;">{{ subitem.date | date: "%B %e, %Y" }}</td>
-        </tr>
-      {% endunless %}
-    {% endfor %}
-  {% endfor %}
-<h4><a href="{{ sites }}/news">Archived news</a></h4>
-</table>
-
-
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Invited Talks</h2>
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Invited Talks</h2>
 
  - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 
@@ -73,6 +57,21 @@
  -  Google AI Travel and Conference Grant, 2018
  -  ROSCon Scholarship, 2017
 -->
+
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
+<table class="table table-hover">
+    {% for item in site.data.news.news_items %}
+    {% for subitem in item.subnewsitems %}
+        {% unless subitem.highlight == false %}
+        <tr>
+          <td>{{ subitem.content }} </td>
+          <td class="col-md-3" style="text-align: right;">{{ subitem.date | date: "%B %e, %Y" }}</td>
+        </tr>
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+<h4><a href="{{ sites }}/news">Archived news</a></h4>
+</table>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Review Service</h4>
   - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
