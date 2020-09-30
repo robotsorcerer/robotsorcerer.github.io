@@ -35,37 +35,3 @@ Is there anything else you would like the selection committee to know? (Optional
 
 N/A
 
-Additional Required Resources
-
-Radcliffe Fellows receive a furnished private office and a Mac or PC desktop computer (with Microsoft Office 2016, Adobe Acrobat Professional, Skype, Dropbox, and ESET Antivirus). Fellows also receive $5,000 in project funds for the year. If your project requires additional hardware, software, or equipment that you are not able to bring or purchase, please list them here.
-
-+ Gaming Tower Desktop - $2500
-+ Craftsman toolbox - $500
-+ Passive and Active Electronic Components/Supplies - $500
-+ Liquid metal Sensors - $2000
-+ Vision Sensors (optical cameras etc.) - $2,000
-+ Miscellaneous - $2,000
-
-
-2) Project Proposal:
-=====================
-
-Proposals should contain no more than 1,400 words, including the abstract. The project proposal must be in a 12-point typeface and double-spaced, with a 1-inch margin. Please submit only one project.
-
-All applicants should begin their proposal with thier name and project title, followed by a 150-word abstract summarizing their proposed project.
-
-The body of the proposal should describe the project, explaining the significance of the topic, placing the work in the context of your discipline, and indicating how the project would contribute to your discipline. Be clear about the theory and methodology. Cite the work of others, if relevant; indicate the status of any project already begun and any data already collected.
-
-All applicants should write for an informed but broad disciplinary audience but provide sufficient details for an expert in the field to evaluate the project. All proposals will be evaluated by peers in relevant areas of expertise. Finalists are reviewed by a multidisciplinary committee of scientists.
-
-While we cannot provide an example of a "successful proposal," every fellow that has been in residence at Radcliffe has a brief description of their fellowship project on our website, and we encourage applicants to review these for examples of the types of projects we support.
-
-3) Writing Sample:
-======================
-
-Applicants should submit three reprints.
-
-Written supporting materials must be in a field relevant to the proposal.
-
-All written materials must be in English.
-
