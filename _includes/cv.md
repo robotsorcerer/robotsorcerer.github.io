@@ -20,6 +20,7 @@
   - [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities</h4>
+- [IEEE International Conference on Robotics and Automation](https://icra2021.org), Associate Editor
 - [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member 
 - [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member
 - [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member
