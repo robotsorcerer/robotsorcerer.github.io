@@ -11,7 +11,7 @@ github_username:  lakehanne
 docker_username:  lakehanne
 phone: +1-215-898-5088
 timezone:         America/Chicago
-quora_username:   Olalekan-Ogunmolu
+quora_username:   . #Olalekan-Ogunmolu
 sass:
   sass_dir: _sass
   style: compressed
