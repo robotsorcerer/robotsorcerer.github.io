@@ -42,18 +42,18 @@
 </table>
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services </h2>
-  - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/) (2020 - Now).
-  - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/), (2020-2021).
-  - Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica")(2017 - Now).
-  - Reviewer, [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020), 2017 - Now.  
+  - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - Present.
+  - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/), 2020-2021.
+  - Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica"), 2017 - Present.
+  - Reviewer, [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020), 2017 - Present.  
   - Reviewer, [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
-  - Reviewer, [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and SyReviewer, stems](https://www.iros2019.org/), 2017 - Now. 
+  - Reviewer, [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems Reviewer](https://www.iros2019.org/), 2017 - Present. 
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers](https://event.asme.org/DSCC).
-  - Reviewer, [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), 2017 - Now. 
-  - Reviewer, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), 2019 - Now. 
-  - Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), 2018 - Now. 
-  - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Now. 
-  - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Now. 
+  - Reviewer, [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), 2017 - Present. 
+  - Reviewer, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), 2019 - Present. 
+  - Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), 2018 - Present. 
+  - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Present. 
+  - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Present. 
 
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
