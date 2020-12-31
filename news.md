@@ -2,7 +2,6 @@
 layout: post
 permalink: news
 ---
-<?php include_once("analyticstracking.php") ?>
 
 
 <table class="table table-hover">

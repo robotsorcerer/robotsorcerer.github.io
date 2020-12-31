@@ -179,16 +179,16 @@ publications:
         venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
         paper_status: Accepted
         year: July 2018
-  - items: 'Thesis!'
-    paperitems:
-      - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
-                Beam Orientation Selection  in Cancer Radiation Therapy
-        location: /downloads/Papers/PhDThesis.pdf
-        authors: <b>Olalekan Ogunmolu</b>
-        venue_web: https://www.utsouthwestern.edu/
-        venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
-        paper_status: Accepted
-        year: May, 2019
+  # - items: 'Thesis!'
+  #   paperitems:
+  #     - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
+  #               Beam Orientation Selection  in Cancer Radiation Therapy
+  #       location: /downloads/Papers/PhDThesis.pdf
+  #       authors: <b>Olalekan Ogunmolu</b>
+  #       venue_web: https://www.utsouthwestern.edu/
+  #       venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
+  #       paper_status: Accepted
+  #       year: May, 2019
   - items: 'ICCR19!'
     paperitems:
       - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
