@@ -43,7 +43,7 @@
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services </h2>
   - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - Present.
-  - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/), 2020-2021.
+  - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation](https://www.icra2020.org/), 2020-2021.
   - Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica"), 2017 - Present.
   - Reviewer, [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020), 2017 - Present.  
   - Reviewer, [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
@@ -58,9 +58,9 @@
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
 
-- The Mathematical Foundations of Robotics ([RBOT 101](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021
+- The Mathematical Foundations of Robotics ([RBOT 101](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021.
 
-- Robot Manipulation, Planning and Control ([RBOT 250](/downloads/Papers/RBOT250.pdf)), Brandeis University, Spring 2020
+- Robot Manipulation, Planning and Control ([RBOT 250](/downloads/Papers/RBOT250.pdf)), Brandeis University, Spring 2020.
 
  - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 
