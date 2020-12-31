@@ -41,7 +41,11 @@
 <h4><a href="{{ sites }}/news">Archived news</a></h4>
 </table>
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Invited Talks</h2>
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, Conferences</h2>
+
+- The Mathematical Foundations of Robotics ([RBOT 101](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021
+
+- Robot Manipulation, Planning and Control ([RBOT 250](/downloads/Papers/RBOT250.pdf)), Brandeis University, Spring 2020
 
  - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 
@@ -52,6 +56,7 @@
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
   
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
+
 
 - SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
 
