@@ -41,7 +41,22 @@
 <h4><a href="{{ sites }}/news">Archived news</a></h4>
 </table>
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, Conferences</h2>
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services </h2>
+  - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/) (2020 - Now).
+  - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/), (2020-2021).
+  - Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica")(2017 - Now).
+  - Reviewer, [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020), 2017 - Now.  
+  - Reviewer, [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
+  - Reviewer, [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and SyReviewer, stems](https://www.iros2019.org/), 2017 - Now. 
+  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers](https://event.asme.org/DSCC).
+  - Reviewer, [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), 2017 - Now. 
+  - Reviewer, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), 2019 - Now. 
+  - Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), 2018 - Now. 
+  - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Now. 
+  - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Now. 
+
+
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
 
 - The Mathematical Foundations of Robotics ([RBOT 101](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021
 
@@ -60,12 +75,11 @@
 
 - SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
 
-- A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
+- A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute (UTARI), Fort Worth, Texas, USA. May 2019.
 
-<!-- 
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
+<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
  -  NSF Doctoral Consortium Award, 2017
  -  Mary and Richard Templeton Graduate Fellowship, 2017 
  -  Ericsson Graduate Fellowship, 2015
@@ -75,22 +89,8 @@
  -  Golden Key Honor, 2016
  -  IEEE RAS/ISAM<sup>International Symposium on Assembly and Manufacturing</sup>Travel Award, 2016
  -  Google AI Travel and Conference Grant, 2018
- -  ROSCon Scholarship, 2017
--->
+ -  ROSCon Scholarship, 2017 -->
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Peer Review Service</h4>
-  - [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
-  - [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).  
-  - [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/)
-  - [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
-  - [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
-  - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers](https://event.asme.org/DSCC).
-  - [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
-  - [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
-  - [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
-  - [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521).
-  - [ICML, International Conference on Machine Learning](https://icml.cc/)
-  - External Grants Reviewer, [National Geographic Society](https://www.nationalgeographic.org/).
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
   -  Google AI Travel and Conference Grant (2018)
