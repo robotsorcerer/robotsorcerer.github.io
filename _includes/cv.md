@@ -58,9 +58,9 @@
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
 
-- The Mathematical Foundations of Robotics ([RBOT 101](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021.
+- The Mathematical Foundations of Robotics ([RBOT 101 WIP Notes](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021.
 
-- Robot Manipulation, Planning and Control ([RBOT 250](/downloads/Papers/RBOT250.pdf)), Brandeis University, Spring 2020.
+- Robot Manipulation, Planning and Control ([RBOT 250 Notes](/downloads/Papers/RBOT250.pdf)), Brandeis University, Spring 2020.
 
  - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 

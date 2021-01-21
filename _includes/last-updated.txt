@@ -1,2 +1,2 @@
-<!--"now" | date: "%Y-%m-%d %H:%M"-->
-2020-01-24
+2021-01-21
+<!--{{ article.published_at | date: "%a, %b %d, %y" }}-->

@@ -4,7 +4,6 @@ permalink: about
 mathjax: true
 ---
 
-<?php include_once("analyticstracking.php") ?>
 
 ## Intro
 
