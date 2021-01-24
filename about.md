@@ -7,7 +7,14 @@ mathjax: true
 
 ## Intro
 
-> _It is assumed that the reader speaks [rational continuum mechanics](https://www.amazon.com/First-Course-Rational-Continuum-Mechanics/dp/1483207056)._
+Summary: A technology background (PhD in Electrical and Computer Engineering -- Robotics) coupled with years of experience in supply chain management, and the financial services industry create a set of niche skills that enables working closely with partnership teams, and external vendors by optimizing business value chains for scale-up. I fancy conceptualization, finding issues and directions, developing definitions, exposition, and critical insight. In model/notion-development, I love synergizing ideas and concepts from disparate fields, and then developing algorithms and analyses which ultimately lead to the solution. The opportunity to feast on ideas -- to investigate the physics behind machines and to understand the interconnectedness of components, hearing people's opinions, seeing the flaws in their arguments, and improvising upon them to find better solutions is an intrinsic component of my thought-actions. Experience working with/leading teams to create and execute plans to bring-up, and validate designs to achieve system level functionalities. Managing by positive influence.
+
+Innovation: Experience solving complex system issues, developing system requirements, driving technical roadmap. Experience gathering requirements, defining high level architecture, executing hardware design, and product validation. Experience in companies and universities (Europe, Asia, and Africa), across disciplines and industries.
+
+Technical Skills and management: Integration, testing and calibration methodology for automation/manufacturing at lowest cost; iterating on ideas: prototype, test, refine cycle. Components selection (design and verification of programmable soft, and linear actuators), sensors selection and integration (MEMs, liquid metals, eGaIn, cameras, and optical systems); micro-controllers integration, active/passive electronic components specifications, schematic design, PCB layout and bring up. Experience with design of embedded systems, completing board layouts, assembling, testing, debugging, and integrating designs into opto-electro-mechanical systems. Communication protocols (e.g. SPI, I2C, TCP/IP, UDP), Linux/Python scripting, and C++. Enjoy being hands-on in the lab, in the details (soldering, oscilloscopes, data acquisition), and a thriving passion for science/engineering/education.
+
+
+## Jovial Trivia 
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative!
 
