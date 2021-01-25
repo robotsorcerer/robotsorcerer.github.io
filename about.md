@@ -14,6 +14,8 @@ I fancy conceptualization, finding issues and directions, developing definitions
 
 ## Continuum Mechanics Jovial Trivia 
 
+> It is assumed that the reader speaks [rational continuum mechanics](https://www.elsevier.com/books/a-first-course-in-rational-continuum-mechanics/truesdell/978-0-12-701301-5).
+
 Welcome to my web presence: the material, the referential, the spatial, and the relative!
 
 **Material Description**
