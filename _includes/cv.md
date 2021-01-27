@@ -57,26 +57,16 @@
 
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
-
-- The Mathematical Foundations of Robotics ([RBOT 101 WIP Notes](/downloads/Papers/RBOT101.pdf)), Brandeis University, Spring 2021.
-
-- Robot Manipulation, Planning and Control ([RBOT 250 Notes](/downloads/Papers/RBOT250.pdf)), Brandeis University, Spring 2020.
-
- - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
-
+- [Towards frameless and maskless robotic cancer radiosurgery, Johnson and Johnson (Auris Health Inc.)](/downloads/Papers/AurisHealth.pdf), San Francisco, CA, Feb 2021.
+- [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
+- [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
+- Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
-
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
-
-- Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
-  
+- Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.  
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
-
-
-- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
-
+- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA (Presented by Nick Gans). September 2017. 
 - A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute (UTARI), Fort Worth, Texas, USA. May 2019.
-
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
