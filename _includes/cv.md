@@ -19,13 +19,6 @@
   - [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
   - [Coca-Cola](https://coca-colahellenic.com/), Lagos/Athens (Ended 2011).
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities</h4>
-- [IEEE International Conference on Robotics and Automation](https://icra2021.org), Associate Editor
-- [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member 
-- [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member
-- [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member
-- [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member
-
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h2>
 <table class="table table-hover">
     {% for item in site.data.news.news_items %}
@@ -41,6 +34,27 @@
 <h4><a href="{{ sites }}/news">Archived news</a></h4>
 </table>
 
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
+- [Towards frameless and maskless robotic cancer radiosurgery, Johnson and Johnson (Auris Health Inc.)](/downloads/Papers/AurisHealth.pdf), San Francisco, CA, Feb 2021.
+- [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
+- [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
+- Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
+- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
+- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
+- Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.  
+- Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
+- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA (Presented by Nick Gans). September 2017. 
+- A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute (UTARI), Fort Worth, Texas, USA. May 2019.
+- Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
+
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities</h4>
+- [IEEE International Conference on Robotics and Automation](https://icra2021.org), Associate Editor
+- [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member 
+- [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member
+- [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member
+- [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member
+
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services </h2>
   - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - Present.
   - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation](https://www.icra2020.org/), 2020-2021.
@@ -54,20 +68,6 @@
   - Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), 2018 - Present. 
   - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Present. 
   - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Present. 
-
-
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
-- [Towards frameless and maskless robotic cancer radiosurgery, Johnson and Johnson (Auris Health Inc.)](/downloads/Papers/AurisHealth.pdf), San Francisco, CA, Feb 2021.
-- [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
-- [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
-- Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
-- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
-- Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
-- Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.  
-- Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
-- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA (Presented by Nick Gans). September 2017. 
-- A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute (UTARI), Fort Worth, Texas, USA. May 2019.
-- Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
  -  NSF Doctoral Consortium Award, 2017
