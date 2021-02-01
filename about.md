@@ -4,11 +4,17 @@ permalink: about
 mathjax: true
 ---
 
-<?php include_once("analyticstracking.php") ?>
 
-## Intro
+## Summary
 
-> _It is assumed that the reader speaks [rational continuum mechanics](https://www.amazon.com/First-Course-Rational-Continuum-Mechanics/dp/1483207056)._
+I am a roboticist (ML/Control specialist) with strong research thrusts in translational medical physics research. I currently research robotic therapeutic outcomes in radiation oncology at Penn School of Medicine. For the last 12 years, I have worked in several aspects of the automation research and development value chain in various capacities: this includes the consumer robots, supply chain, and process automation industries (Amazon Robotics, PFN Inc Japan, Coca-Cola). As a PhD (UT Dallas, UTSW) and a Postdoc (UChicago, UPenn), I'm exploring open-ended questions in head and neck immobilization during photon-based head and neck surgery and magnetic resonance imaging -- with soft and rigid parallel robots. These create a niche skill-set that spans machine learning, control and motion-planning that improve partnership with teams and external vendors.
+
+I fancy conceptualization, finding issues and directions, developing definitions, exposition, and critical insight. I love synergizing concepts from disparate fields, and then develop algorithms and analyses which ultimately lead to the solution. The opportunity to feast on ideas -- to investigate the physics behind machines and to understand the interconnectedness of components, hear people's opinions, see their arguments' flaws, and to improvise upon them to find better solutions is an essential component of my thought-actions. I enjoy managing by positive influence.
+
+
+## Continuum Mechanics Jovial Trivia 
+
+> It is assumed that the reader speaks [rational continuum mechanics](https://www.elsevier.com/books/a-first-course-in-rational-continuum-mechanics/truesdell/978-0-12-701301-5).
 
 Welcome to my web presence: the material, the referential, the spatial, and the relative!
 
