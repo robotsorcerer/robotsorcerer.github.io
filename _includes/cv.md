@@ -35,7 +35,7 @@
 </table>
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
-- [Rapidly Exploring Sparse Trees With Neuro-Dynamic Programming and Head Immobilization in External Beam Radiation Therapy](#), Microsoft Research, New York, NY, March 2021.
+<!-- - [Rapidly Exploring Sparse Trees With Neuro-Dynamic Programming and Head Immobilization in External Beam Radiation Therapy](#), Microsoft Research, New York, NY, March 2021. -->
 - [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, CA, Feb 2021.
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
