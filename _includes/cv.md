@@ -7,8 +7,8 @@
    **Antiquated buzzwords**: System Identification, Data Mining.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
-  - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - Present).
-  - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019 - Present).
+  - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
+  - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
   - Adjunct Instructor, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), Robot Manipulation, Motion Planning and Control,  (2019 - Present).
   - Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (Ended 2019).
   - Visiting Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (Ended 2019).
