@@ -7,6 +7,7 @@
    **Antiquated buzzwords**: System Identification, Data Mining.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Current/Past University Affiliations</h4>
+  <!-- - Senior Research Scientist,  -->
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
   - Adjunct Instructor, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), Robot Manipulation, Motion Planning and Control,  (2019 - Present).
@@ -35,8 +36,8 @@
 </table>
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
-<!-- - [Rapidly Exploring Sparse Trees With Neuro-Dynamic Programming and Head Immobilization in External Beam Radiation Therapy](#), Microsoft Research, New York, NY, March 2021. -->
-- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, CA, Feb 2021.
+- [Rapidly Exploring Sparse Trees With Neuro-Dynamic Programming and Head Immobilization in External Beam Radiation Therapy](/assets/presentations/MSR_.pdf), Microsoft Research, New York, NY, March 2021.
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth_.pdf), Auris Health, Johnson & Johnson, San Francisco, CA, Feb 2021.
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
 - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
