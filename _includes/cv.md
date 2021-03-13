@@ -36,8 +36,8 @@
 </table>
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
-<!-- - [Rapidly Exploring Sparse Trees With Neuro-Dynamic Programming and Head Immobilization in External Beam Radiation Therapy](/assets/presentations/MSR_.pdf), Microsoft Research, New York, NY, March 2021. -->
-- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth_.pdf), Auris Health, Johnson & Johnson, San Francisco, CA, Feb 2021.
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/MSR.pdf), Microsoft Research NYC Seminar, New York City, March 2021.
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth.pdf), Auris Health, Johnson & Johnson, San Francisco, Feb 2021.
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
 - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
