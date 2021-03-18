@@ -1,4 +1,9 @@
 news_items:
+  - items: 'MSR!'
+    subnewsitems:
+      - content: 'I am leaving Penn SOM for <a href="https://www.microsoft.com/en-us/research/">MSR-NYC</a>  as a Senior Researcher.'
+        highlight: true
+        date: March 18, 2021
   - items: 'AEICRA!'
     subnewsitems:
       - content: "Invited to serve as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA)."

@@ -52,12 +52,12 @@
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
 
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities</h4>
-- [IEEE International Conference on Robotics and Automation](https://icra2021.org), Associate Editor
-- [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member 
-- [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member
-- [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member
-- [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities.</h4>
+- [IEEE International Conference on Robotics and Automation](https://icra2021.org), Associate Editor.
+- [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member.
+- [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member.
+- [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member.
+- [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member.
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services </h2>
   - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - Present.
