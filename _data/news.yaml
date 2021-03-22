@@ -41,7 +41,7 @@ news_items:
     subnewsitems:
       - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!
         date: 'August 2017' 
-        highlight: true
+        highlight: false
   - items: 'Postdoc!'
     subnewsitems:
       - content: Starting in the summer of 2019, after I shall have defended my PhD thesis, 
