@@ -1,7 +1,7 @@
 news_items:
   - items: 'MSR!'
     subnewsitems:
-      - content: 'After a crazy past few months of interviews, I am joining <a href="https://www.microsoft.com/en-us/research/">Microsoft Research.</a> 
+      - content: 'After a crazy past few months of interviews, I have accepted a Senior Researcher role at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research.</a> 
         <i>Ceteris paribus</i>, I will be resuming in the MSR New York office post-pandemic.'
         highlight: true
         date: March 18, 2021
