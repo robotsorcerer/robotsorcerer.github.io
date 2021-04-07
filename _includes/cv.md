@@ -75,20 +75,6 @@
   - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Present. 
   - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Present. 
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Recent Blog Posts</h4>
-
-<table class="table table-hover">
-  {% for post in site.posts limit: 3 %}
-    {% unless post.draft %}
-    <tr>
-      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
-    </tr>
-    {% endunless %}
-  {% endfor %}
-</table>
-<h4><a href="/blog">View all blog posts </a></h4>
-<br>
 
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h4>
 
@@ -147,5 +133,23 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
 
 
 
+
   - [Brandeis University](https://www.brandeis.edu/gps/), [Adjunct Instructor, Robot Manipulation, Planning and Control](https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100) (2019 - Present).
+-->
+
+<!-- 
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Recent Blog Posts</h4>
+
+<table class="table table-hover">
+  {% for post in site.posts limit: 3 %}
+    {% unless post.draft %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
+    </tr>
+    {% endunless %}
+  {% endfor %}
+</table>
+<h4><a href="/blog">View all blog posts </a></h4> 
+<br>
 -->
