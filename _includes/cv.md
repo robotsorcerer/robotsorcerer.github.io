@@ -36,10 +36,13 @@
 </table>
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h2>
-- Job Talk (Accepted Offer): [Automating Treatment Planning in Radiation Therapy](/assets/presentations/MSR.pdf ), Microsoft Research NYC Seminar, New York City, March 2021. 
-- Job Talk (Declined Offer): [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth.pdf), Auris Health, Johnson & Johnson, San Francisco, Feb 2021.
+<h6>Recent Job Talks</h6>
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/MSR.pdf), Senior Researcher (Reinforcement Learning), Microsoft Research NYC Seminar, New York City, March 2021. 
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth.pdf), Senior Research Scientist (Robotic Radiosurgery), Auris Health, Johnson & Johnson, San Francisco, Feb 2021. 
+<h6>Recent Class Notes</h6>
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
+<h6>Antiquated Talks</h6>
 - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
