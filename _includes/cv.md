@@ -37,8 +37,8 @@
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h6>Recent Job Talks</h6>
-- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/MSR.pdf), Senior Researcher (Reinforcement Learning), Microsoft Research NYC Seminar, New York City, March 2021. 
-- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth.pdf), Senior Research Scientist (Robotic Radiosurgery), Auris Health, Johnson & Johnson, San Francisco, Feb 2021. 
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/MSR.pdf), Microsoft Research NYC Seminar (Senior Researcher -- Reinforcement Learning), New York City, March 2021. 
+- [Automating Treatment Planning in Radiation Therapy](/assets/presentations/AurisHealth.pdf), Auris Health, Johnson & Johnson (Senior Research Scientist -- Robotic Radiosurgery), San Francisco, Feb 2021. 
 <h6>Recent Class Notes</h6>
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
@@ -51,7 +51,7 @@
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
 - SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA (Presented by Nick Gans). September 2017. 
 - A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute (UTARI), Fort Worth, Texas, USA. May 2019.
-- Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
+- Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, Vancouver, BC, Canada. September 2017.
 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities.</h4>
