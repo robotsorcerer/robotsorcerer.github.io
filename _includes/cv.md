@@ -7,7 +7,7 @@
    **Antiquated buzzwords**: System Identification, Data Mining.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Experience</h4>
-  <!-- - Senior Researcher, Microsoft Research Lab (New York City), 2021 - Present -->
+  - Senior Researcher, Microsoft Research Lab (New York City), 2021 - Present
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
   - Research Intern (Robot Learning), [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
@@ -79,6 +79,20 @@
   - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Present. 
 
 
+<br>
+
+<!-- Strava summary -->
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
+
+<p>Regular mortal on two wheels here. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week -- during cycling season. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard. If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email. 
+
+Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider. Below is a screenshot of my recent activities summary. </p>
+  <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
+
+
+
+<br>
+
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Side Projects</h4>
 
 + <a href="https://github.com/lakehanne/screws" target="blank"> Screw theory and elastic deformations: </a> Screws (in Mathematica and Matlab) applied to continuum dynamics. Codes and  examples.
@@ -95,64 +109,12 @@
 + <a href="{{ site.url }}/readlist"> Reading list (Old, very old, and so deprecated)</a>:  A collection of papers I <strike>am currently</strike> reading/implementing.
 +    <a href="/downloads/save_dijs" target="blank">Radiation therapy dose influence matrices </a>: Extracting fluence based on the Varian Medical Systems' C#/Python API from Eclipse. Core API courtesy of Mike Folkerts (Varian). 
 
-<br><br>
 
-<!-- Strava summary -->
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
-
-<p>Regular mortal on two wheels here. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week -- during cycling season. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard. If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email. 
-
-Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider. Below is a screenshot of my recent activities summary. </p>
-  <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
-
-
-<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
- -  NSF Doctoral Consortium Award, 2017
- -  Mary and Richard Templeton Graduate Fellowship, 2017 
- -  Ericsson Graduate Fellowship, 2015
- -  President’s Teaching Excellence Award for Teaching Assistants, Nom. 2017
- -  Jonsson Scholarship, 2014
- -  IEEE Robotics and Automation Society (RAS) Travel Award, 2018
- -  Golden Key Honor, 2016
- -  IEEE RAS/ISAM<sup>International Symposium on Assembly and Manufacturing</sup>Travel Award, 2016
- -  Google AI Travel and Conference Grant, 2018
- -  ROSCon Scholarship, 2017 -->
-
-
-<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Awards and Honors</h4>
-  -  Google AI Travel and Conference Grant (2018)
-  - IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016)
-  - NSF Doctoral Consortium Award (2017)
-  - Mary and Richard Templeton Graduate Fellowship (2017)
-  - Open Software for Robotics Foundation Scholarship (2017)
-  - President’s Excellence Award for Teaching Assistants (Nom. 2017)
-  - Golden Key International Honour Society (2016)
-  - Ericsson Graduate Fellowship (2015)
-  - Jonsson Scholarship (2014)
-  - PTDF Overseas Fellowship (2012).
-  - Best Chemistry Student (West African Senior School Examinations -- Two Years in a Row). -
-
-   Thanks to my committee members, <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, <a href=""> Tyler Summers</a>, <a href="">Yonas Tadesse</a> and <a href=""> Nick Gans</a>, and my UTSW mentor, <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>.
-
-
-
-
-  - [Brandeis University](https://www.brandeis.edu/gps/), [Adjunct Instructor, Robot Manipulation, Planning and Control](https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100) (2019 - Present).
--->
-
-<!-- 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Recent Blog Posts</h4>
-
-<table class="table table-hover">
-  {% for post in site.posts limit: 3 %}
-    {% unless post.draft %}
-    <tr>
-      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
-    </tr>
-    {% endunless %}
-  {% endfor %}
-</table>
-<h4><a href="/blog">View all blog posts </a></h4> 
 <br>
--->
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
+
+ -  1776 -- David McCullough.
+ -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
+ -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
+ -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
