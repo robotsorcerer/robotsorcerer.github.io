@@ -2,14 +2,12 @@ publications:
   - items: 'ASME!'
     paperitems:
       - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
-        location: #/downloads/Papers/kinecontrol.pdf
+        location: /downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>,
-          - James Pikul, and
-          - Rodney Wiersma
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: Journal of Mechanisms and Robotics, American Society of Mechanical Engineers (ASME)
-        paper_status: Manuscript
+        venue: Technical Report
+        paper_status: Accepted
         year: March 2020
 
   - items: 'PMB2020!'
@@ -34,6 +32,19 @@ publications:
         venue: #The International Journal of Robotics Research (IJRR).
         paper_status: Working Manuscript
         year: 2020
+  - items: 'AIRT2019!'
+    paperitems:
+      - title: Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
+        location: https://link.springer.com/chapter/10.1007/978-3-030-32486-5_1
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
+        venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
+        paper_status: Accepted
+        year: Switzerland AG 2019
 
   # - items: 'RAL/IROS2020!'
   #   paperitems:
@@ -85,17 +96,6 @@ publications:
         paper_status: Accepted
         year: May 2020
         video: /downloads/Papers/icra20.mp4
-  # - items: 'Springer2019!'
-  #   paperitems:
-  #     - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
-  #       location: #/downloads/Papers/Springer19.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b> and
-  #         - Rodney Wiersma.
-  #       venue_web:
-  #       venue: © Springer (Invited Book Chapter)
-  #       paper_status: Submitted
-  #       year: November 2019
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
@@ -109,6 +109,17 @@ publications:
         venue: The International Journal of Medical Physics Research and Practice
         year: December, 2019
         paper_status: Accepted
+  # - items: 'Springer2019!'
+  #   paperitems:
+  #     - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
+  #       location: #/downloads/Papers/Springer19.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b> and
+  #         - Rodney Wiersma.
+  #       venue_web:
+  #       venue: © Springer (Invited Book Chapter)
+  #       paper_status: Submitted
+  #       year: November 2019
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
@@ -151,19 +162,6 @@ publications:
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         year: Vancouver, BC. 2017
         paper_status: Accepted
-  - items: 'AIRT2019!'
-    paperitems:
-      - title: Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
-        location: https://link.springer.com/chapter/10.1007/978-3-030-32486-5_1
-        authors:
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen.
-        venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
-        venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
-        paper_status: Accepted
-        year: Switzerland AG 2019
   - items: 'AAPM2019'
     paperitems:
       - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
