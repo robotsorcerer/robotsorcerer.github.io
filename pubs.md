@@ -2,7 +2,6 @@
 layout: post
 permalink: pubs
 ---
-<?php include_once("analyticstracking.php") ?>
 
 > Intent upon giving as much as I have gotten, here are my contributions, given freely and cheerfully.
 
