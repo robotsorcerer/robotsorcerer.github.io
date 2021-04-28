@@ -50,14 +50,13 @@ At various times in my little time on this planet, I have been a [_Shikaakwaan_]
 
 + I enjoy mentoring committed undergraduates, masters students, and occasionally high school students that are interested in computer vision, control, and robotics.
 
-    &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Robotics Software Engineer at Samsung Research, America.
-
-    &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is an Engineer at [Drov. Tech, MN](http://drovtech.com).
-
     &nbsp; &nbsp; &nbsp; &nbsp; -   [Rachel](https://github.com/rsthomp) is currently an undergrad at MIT's CSAIL department.
 
-    &nbsp; &nbsp; &nbsp; &nbsp; -   [Blessing]() is resuming as a CS PhD student at Tufts in the Fall.
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Ajith](https://www.linkedin.com/in/ajithvenkateswaran) is a Senior Software Engineer at Jphnson & Johnson.
 
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Adwait](https://www.linkedin.com/in/adwaitkulkarni93) is a Senior Automotive Engineer at [Drov. Tech, MN](http://drovtech.com).
+
+    &nbsp; &nbsp; &nbsp; &nbsp; -   [Blessing](https://www.linkedin.com/in/blessingkolawole/) is a CS PhD student at Tufts.
 
 
 Outside of research, I am a cyclist, a runner, an hiker, and my friends tell me that I am an encourager. I did not start competitive cycling (mountain-biking) since about 2011. I graduated myself to road bikes in 2014. I've been part of various cycling clubs through the years, notably the [University of Sheffield Cycling Club](https://www.sport-sheffield.com/clubs/cycling), , [Plano Cycling Club](https://planobicycle.org/) and the [University of Chicago Velo Club](https://www.uchicagovelo.com/) among others.  When running, I mostly stick to 5 and 10k’s either with my friends at [Somerville road runners](https://www.srr.org/), [Frisco running club](https://friscorunningclub.com/) or alone. Whether I am running, cycling or back-packing, my happy place is time out in Mother Earth, marveling in creation's grand design.
