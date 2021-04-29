@@ -20,7 +20,7 @@ Starting in the Summer 2021, other things being equal, I will be helping La Sall
 
 #### **EECS 4342: Introduction to Robotics, Fall 2016.**
 
-This was a course I helped teach back in grad school to a mixture of Seniors and first-year ECE students.The website I made in 2016 is highlighted below.
+This was a course I helped teach back in grad school to a mixture of Seniors and first-year ECE Masters students.The website I made in 2016 is highlighted below.
 
 + [Introduction to Robotics - EECS 5375](http://service-lab.github.io/)
 
