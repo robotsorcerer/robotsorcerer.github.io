@@ -28,7 +28,7 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 
 **Eulerian Placement**: I am currently a postdoctoral researcher in the Wiersma lab at [Penn Medicine](https://www.med.upenn.edu/) and I was previously with the group at [UChicago Medicine](https://www.uchicagomedicine.org/). Here, I am foraging for knowledge and understanding. <i>Felix, qui potuit rerum cognoscere causas!</i>
 
-**Lagrangean Placement**: During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](https://utdallas.edu/~ngans) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/).
+**Lagrangean Placement**: During my [PhD]( https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html), I was co-advised by [Steve Jiang](https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html) in the Medical Physics and Engineering program at [UT Southwestern](https://www.utsouthwestern.edu) and [Nick Gans](/about) in the Electrical Engineering program at [UT Dallas](https://www.utdallas.edu/).
 
 
 
