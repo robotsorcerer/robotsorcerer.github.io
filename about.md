@@ -5,14 +5,22 @@ mathjax: true
 ---
 
 
+## Introduction
+
 Welcome to my web presence, where theory meets practice, and where scientific elegance meets creative practical impact.
+
+#### Minimal
 
 I am a roboticist (ML/Control specialist) with strong research thrusts in translational medical physics research. For the last 12 years, I have worked in several aspects of the automation research and development value chain in various capacities: this includes the consumer robots, supply chain, and process automation industries (Amazon Robotics, PFN Inc Japan, Coca-Cola). As a PhD (UT Dallas, UTSW) and a Postdoc (UChicago, UPenn), I explored open-ended questions in head and neck immobilization during photon-based head and neck surgery and magnetic resonance imaging -- with soft and rigid parallel robots alike. These create a niche skill-set that spans machine learning, control and motion-planning that improve partnership with teams and external vendors. 
 
+
+#### Research Main Matter 
+
 Matter-of-factly, so far, the body of my research contributions have spanned approximate dynamic programming, robust optimal control/reinforcement learning, adaptive control, and soft robot hardware design, a little flavor of computer vision and optimal state estimation, as well as robot manipulation -- which I engaged in on two internships in industry.  During my time at UChicago and Penn, I proposed a Cephalopods-inpired parallel soft robot for improving photon-based radiation therapy cancer treatments in intensity-modulated radiation therapy, stereo-tactic radiosurgery, and emerging magnetic resonance+linear accelerator systems. Some of these details are covered in my [Winter 2021 Johnson and Johnson Talk](/assets/presentations/AurisHealth.pdf). In essence, from 30,000ft above, this is my message: I fancy conceptualization, finding issues and directions, developing definitions, exposition, and critical insight -- all towards real-world impactful technological solutions. I love synergizing concepts from disparate fields, and then develop algorithms and analyses which ultimately lead to the solution. The opportunity to feast on ideas -- to investigate the physics behind machines and to understand the interconnectedness of components, hear people's opinions, see their arguments' flaws, and to improvise upon them to find better solutions is an essential component of my thought-actions. 
 
+#### Research Community Services
 
-I regularly peer-review [NeurIPS](https://nips.cc/) , [Conference on Decision and Control](https://2021.ieeecdc.org/), [IROS](https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems), [American Control Conference](https://acc2021.a2c2.org/),  ASME's [Dynamic Systems and Control Conference (DSCC)](https://event.asme.org/DSCC), [International Federation of Automatic Control](https://www.ifac-control.org/) -- World Congress and Automatica alike, [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), [ICML](https://icml.cc/),  [Institute of Physics](https://www.iop.org/), IEEE Access, and [Neural Computing and Applications](https://www.springer.com/journal/521) among others. Since 2019, I have been a reviewer for for NatGeo's AI for Species Discovery Project Grant Applications. Last winter, I was Associate Editor for the Soft Robotics track at ICRA 2021.
+I regularly peer-review for [NeurIPS](https://nips.cc/), [International Federation of Automatic Control](https://www.ifac-control.org/) -- World Congress and Automatica alike, [Institute of Physics](https://www.iop.org/),  [ICML](https://icml.cc/), IEEE Access, [Conference on Decision and Control](https://2021.ieeecdc.org/), [IROS](https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems), [American Control Conference](https://acc2021.a2c2.org/),  ASME's [DSCC](https://event.asme.org/DSCC),  [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), and [Neural Computing and Applications](https://www.springer.com/journal/521) among others. Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). Last winter, I was Associate Editor for the Soft Robotics track at ICRA 2021.
 
 ## Continuum Mechanics Jovial Trivia 
 
