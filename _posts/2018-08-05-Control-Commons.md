@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-08-04 13:10:00
+date: 2021-05-31 13:10:00
 title: "Control Commons"
 excerpt: "Just a random collection of stability, continuity, existence, and uniqueness theorems for nonlinear control"
 permalink: control-commons
@@ -8,12 +8,21 @@ comments: true
 category: [control, stability, nonlinear-control]
 ---
 {% include mathjax.md %}
+First version online: August 8, 2018. Wrote it up late one night after I took the JR train all the way to Sendai from Tokyo.
+
+Last updated: May 31, 2021
+
 
 - [Table of Contents](#table-o-conts)
 - [Introduction](#intro)
 - [Definitions, Theorems, Lemmas etc](#defs)
 - [Nonlinear Control Theory](#nlnr)
 - [Stability](#stab)
+- [Control Barrier Functions](#CBFs)
+  - [Invariant Sets](#Invariance)
+  - [Forward Invariant Sets, Safety](#safety)
+  - [Class Kappa Functions](#class-kappa)
+  - [Control Barrier Functions Definition](#cbf-proper)
 
 
 <a name="intro"></a>
@@ -25,7 +34,7 @@ Here are a few control theorems, concepts and diagrams that I think every contro
 ### Definitions, Theorems, Lemmas and such.
 
 <a name="nlnr"></a>
-#### Nonlinear Control Theory
+#### **Nonlinear Control Theory**
 
 + A differential equation of the form
 
@@ -123,7 +132,7 @@ By the Gronwall-Bellman lemma,
 which is less than \\(\infty \\) for any finite \\((t - t\_0)\\).
 
 <a name="stab"></a>
-### Stability
+### **Stability**
 
 My definitions follow from R.E Kalman's 1960 seminal paper since they are clearer to understand compared to the myriad of definitions that exist in many texts today. **Stability concerns the deviation about some fixed motion**. So, we will be considering the deviations from the equilibrium state \\(x\_e\\) of a free dynamic system.
 
@@ -161,7 +170,7 @@ Put differently, the system trajectory can be kept arbitrarily close to the orig
 
   <div class="fig figcenter fighighlight">
     <img src="/assets/control/asymptotic_stability.png" width="80%" height="350" align="middle">  
-    <div class="figcaption" align="left">Fig. 1. Definition of asymptotic stability. Courtesy of R.E. Kalman
+    <div class="figcaption" align="left">Fig. 2. Definition of asymptotic stability. Courtesy of R.E. Kalman
     </div>
   </div>
 
@@ -176,7 +185,7 @@ Asymptotic stability is also a local concept since we do not know aforetime how 
 
       <div class="fig figcenter fighighlight">
         <img src="/assets/control/control_concepts.png" width="100%" height="450" align="middle">  
-        <div class="figcaption" align="middle">Fig. 1. Interrelations between stability concepts. Courtesy of R.E. Kalman
+        <div class="figcaption" align="middle">Fig. 3. Interrelations between stability concepts. Courtesy of R.E. Kalman
         </div>
       </div>
 
@@ -188,17 +197,94 @@ Asymptotic stability is also a local concept since we do not know aforetime how 
 
 
 
+<a name="CBFs"></a>
+### **Control Barrier Functions**
+
+For the nonlinear control affine function,
+
+\begin{align}
+    \dot{\boldsymbol{x}} = \boldsymbol{f}(\boldsymbol{x}) + \boldsymbol{g}(\boldsymbol{x})\boldsymbol{u}
+    \label{eq:cbfs::control_affine}
+\end{align}
+
+where \\(\boldsymbol{x} \in \mathbb{R}^n\\), \\(\boldsymbol{u} \in \mathbb{R}^m\\), and \\(\boldsymbol{f}: \mathbb{R}^n \rightarrow \mathbb{R}^n\\), and \\(\boldsymbol{g}: \mathbb{R}^n \rightarrow \mathbb{R}^n \times \mathbb{R}^m\\) are locally Lipschitz functions, with continuity on \\(\mathbb{R}^n\\). For a Lipschitz continuous state feedback \\(\boldsymbol{k}: \mathbb{R}^n \rightarrow \mathbb{R}^m\\), we can write the closed-loop system dynamics as 
+
+\begin{align}
+    \dot{\boldsymbol{x}} = \boldsymbol{f}_{cl} \triangleq \boldsymbol{f}(\boldsymbol{x}) + \boldsymbol{g}(\boldsymbol{x})\boldsymbol{k}(\boldsymbol{x}).
+    \label{eq:cbf::closed_loop}
+\end{align}
+
+whereupon the locally Lipschitz continuous property  of \\(\boldsymbol{f}, \boldsymbol{g} \\), and  \\(\boldsymbol{k}\\) implies that \\( \boldsymbol{f}\_{cl} \\) takes the local Lipzchitz continuity property. Thus, for any initial condition \\(\boldsymbol{x}\_0: \boldsymbol{x}(0) \in \mathbb{R}^n\\), we must have a maximum time interval \\(I(\boldsymbol{x}\_0) = [0, t\_{max})\\)  such that \\(\boldsymbol{x}(t)\\) is the solution of \eqref{eq:cbf::closed_loop} on \\(I(\boldsymbol{x}(0))\\). Here, \\(\boldsymbol{f}_{cl}\\) is forward complete, \\(t\_{max} = \infty\\).
+
+
+<a name="Invariance"></a>
+#### **Safe Sets, and Invariance**
+
+Safety with CBFs are in general realized with the notion of safe sets within the state space that the system must remain in order for it to be considered safe. 
+
+We define a zero-superlevel set \\(\mathcal{C} \subset \mathbb{R}^n\\) of a continuously differentiable function \\(h: \mathbb{R}^n \rightarrow \mathbb{R}\\), i.e.
+
+\begin{align}
+  \mathcal{C} = \\{ \boldsymbol{x} \in \mathbb{R}^n: h(x) \ge 0 \\},
+\end{align}
+
+such that on the boundary of the superlevel set, \\(\partial \mathcal{C} \triangleq \\{ \boldsymbol{x} \in \mathbb{R}^n: h(x) = 0 \\} \\); and in the interior of the \\(0\\)-superlevel set, we have \\(Int (\mathcal{C}) \triangleq \\{ \boldsymbol{x} \in \mathbb{R}^n: h(x) > 0 \\} \\). It is generally assumed that \\(\mathcal{C}\\) is nonempty (\i.e. \\(\mathcal{C} \neq \emptyset \\)) and it contains no isolated points, (i.e. \\(Int (\mathcal{C}) = \mathcal{C}\\)).  **\\(\mathcal{C}\\) defines the safe set.** Let us now define the concept of forward invariance and safety:
+
+<a name="safety"></a>
+#### **Forward Invariance and Safety**
+
+A set \\(\mathcal{C} \subset \mathbb{R}^n \\) is said to be **forward invariant** if for every \\(\boldsymbol{x}\_0 \in \mathcal{C}\\), the solution \\(\boldsymbol{x}(t)\\) of \eqref{eq:cbf::closed_loop} satisfies \\(\boldsymbol{x}(t) \subset \mathcal{C}\\) for all \\(t \in I(\boldsymbol{x\_0}\\). The system in \eqref{eq:cbf::closed_loop} is said to be **safe** if it exists on the \\(0\\)-superlevel set \\(\mathcal{C}\\) such that the set \\(\mathcal{C}\\) is forward invariant.
+
+<a name="class-kappa"></a>
+#### **Digression: Class \\(\mathcal{K}\\) functions**
+
+Here, I give a few background definitions that will enable us to define control barrier functions adequately.
+
++ **Class \\(\mathcal{K}\\) Function**: Supose we have a continuous function \\(\alpha: [0, a) \rightarrow \mathbb{R}\_+\\), where \\(a>0\\), we say \\(\alpha\\) is a **_class \\(\mathcal{K}\\) (\\(\alpha \in \mathcal{K}\\))_** function if \\(\alpha(0) = 0\\) and \\(\alpha\\) is strictly monotonically increasing.
+
++ **Class \\(\mathcal{K}\_\infty\\) Function**: Supose we have a continuous function \\(\alpha: [0, a) \rightarrow \mathbb{R}\_+, a = \infty\\), we say \\(\alpha\\) is a **_class \\(\mathcal{K}\_\infty \, (\alpha \in \mathcal{K}\_\infty\\))_** function if \\(\alpha(0) = 0\\) and \\(\lim\_{r\rightarrow \infty}\alpha(r)=\infty\\) is strictly monotonically increasing.
+
++ **Extended class \\(\mathcal{K}\\)**: A continuous function \\(\alpha: (-b, a) \rightarrow \mathbb{R} \\) with \\(a, b > 0\\), belongs to the _**extended class**_ \\(\mathcal{K}\\) (\\(\alpha \in \mathcal{K}\_e\\) ) if \\(\alpha(0) = 0\\) and \\(\alpha\\) is strictly monotonically increasing. 
+
++ **Extended class \\(\mathcal{K}\_\infty\\)**: If \\(a, b = \infty, \, \lim\_{r\rightarrow -\infty} \alpha(r) = -\infty\\),  and \\(\lim_{r\rightarrow \infty} \alpha(r) = \infty \\), then \\(\alpha\\)  is said to belong to an _**extended class**_  \\(\mathcal{K}\_\infty (\alpha \in  \mathcal{K}\_{\infty, e}). \\) 
 
 
 
+ <div class="fig figcenter fighighlight">
+        <img src="/assets/control/class-kappa.jpg" width="100%" height="450" align="middle">  
+        <div class="figcaption" align="middle">Fig. 4.  Naive Representation of Class Kappa functions. For CBFs, we are generally interested in the class-kappa infinity-extended functions.
+        </div>
+      </div>
 
+<a name="cbf-proper"></a>
+### **Control Barrier Functions**
 
+Now that we have an understanding of the prerequisites, we can give a statement that describes CBFs
 
+Suppose that \\(\mathcal{C} \subset \mathbb{R}^n\\) is a \\(0\\)-superlevel set of a continuously differentiable function \\(h: \mathbb{R}^n \rightarrow \mathbb{R} \\) with \\(0\\) a regular value. The function \\(h\\) is a **control barrier function** for \eqref{eq:cbfs::control_affine} on the superlevel set \\(\mathcal{C}\\) if there exists \\(\alpha \in \mathcal{K}\_{\infty,e}\\) such that for all \\(\boldsymbol{x} \in \mathbb{R}^n\\), we have
 
+\begin{align}
+  \sup\_{\boldsymbol{u} \in \mathbb{R}^m} \dot{h}(\boldsymbol{x}, \boldsymbol{u}) &\triangleq \nabla h(\boldsymbol{x}) (\boldsymbol{f}(\boldsymbol{x}) + \boldsymbol{g}(\boldsymbol{x})) 
+  &= \boldsymbol{L_f} h(\boldsymbol(x)) + \boldsymbol{L_g} h(\boldsymbol(x)) \boldsymbol{u} \ge -\alpha(h(\boldsymbol{x}))
+  %
+  \label{eq:cbfs::cbf-def}
+\end{align}
+%
+with \\(\boldsymbol{L_f} h(\boldsymbol(x))\\) and \\(\boldsymbol{L_g} h(\boldsymbol(x))\\) being [Lie derivatives](https://en.wikipedia.org/wiki/Lie_derivative).
 
+It follows that for a CBF \\(h\\) for system \eqref{eq:cbfs::control_affine} and an \\(\alpha \in \mathcal{K}\_{\infty, e}\\), the point-wise set of all control values that satisfies \eqref{eq:cbfs::cbf-def} is given by,
 
+\begin{align}
+  K_{cbf}(\boldsymbol{x}) \triangleq \\{ \boldsymbol{u} \in \mathbb{R}^m  | \dot{h}(\boldsymbol{x, u}) \ge -\alpha(h(\boldsymbol{x}))
+  \\}.
+\end{align}
 
+### **Optimization-based Control** 
 
+The question of unifying optimality in a control theoretical sense with stability guarantees such as the ones that Lyapunov analyses provide is a fascinating one. The beauty of CBFs is that we can elegantly write out our feedback control term for a control affine system dynamics such that we can create a safety-critical controller, as provided by the bound of the class-\\(\mathcal{K}\_{\infty, e}\\) in the definition of our CBF as given earlier as follows:
 
+Oh, by the way, CBFs provide necessary and sufficient conditions on safety. I may flesh this out in a future post in the future. But for kicks, you may have a look at this hot damn paper: [A. D. Ames, X. Xu, J. W. Grizzle and P. Tabuada, "Control Barrier Function Based Quadratic Programs for Safety Critical Systems," in IEEE Transactions on Automatic Control, vol. 62, no. 8, pp. 3861-3876, Aug. 2017, doi: 10.1109/TAC.2016.2638961.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7782377).
 
-**To be Continued**
+**Safety-Critical Control**
+
+[To be continued]
