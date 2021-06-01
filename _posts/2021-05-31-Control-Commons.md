@@ -31,6 +31,8 @@ Personal collection of theorems, lemmas, notes, and diagrams helped me grasp the
 <a name='feedback-linearization'></a>
 ### **Feedback Linearization**
 
+What follows closely follows Sastry and Bodson's Adaptive Control: Stabilty, Convergence, and Robustness definitions; as well as Ioannis's Adaptive Control Tutorial book (I noticed a few mistakes in the version of his book that I have, in Chapter 9 to be exact, and I've tried to state definitions as correctly as my senses can make them here).
+
 Feedback linearization consists in changing the coordinates of a system so as to cancel all or most of the unknown nonlinear terms so that the system behaves as a linear or partly linear system. Consider the following system
 
 \begin{align}
@@ -45,25 +47,36 @@ Feedback linearization consists in changing the coordinates of a system so as to
 where \\(x \in \mathbb{R}^n, u,y \in \mathbb{R} \text{ and } f,g,h, \\) are smooth nonlinear functions. Differentiating \\(y\\) in \eqref{eq:nlnr1} with respect to time, we find that
 
 \begin{align}
-\dot{y} = \dfrac{\partial{h}}{\partial{x}}(x) f(x) +     \dfrac{\partial{h}}{\partial{x}}(x) g(x) u \triangleq L\_f h(x) + L\_g h(x),
+\dot{y} = \dfrac{\partial{h}}{\partial{x}}(x) f(x) +     \dfrac{\partial{h}}{\partial{x}}(x) g(x) u,
 \label{eq:ydot}
 \end{align}
 
-where
-
+Define
 \begin{align}
-L_f \, h \triangleq \dfrac{\partial{h}}{\partial{x}}(x) f = \dfrac{\partial{h}}{\partial{x}_1}(x) f_1 + \cdots + \dfrac{\partial{h}}{\partial{x}_n}(x) f_n.
+L_f \, h \triangleq \dfrac{\partial{h}}{\partial{x}}(x) f = \dfrac{\partial{h}}{\partial{x}_1}(x) f_1 + \cdots + \dfrac{\partial{h}}{\partial{x}_n}(x) f_n,
 \label{eq:Lie}
 \end{align}
 
-We shall call \\(L\_f h\\) the [Lie derivative](https://en.wikipedia.org/wiki/Lie_derivative) of \\(h(x)\\) w.r.t \\(f(x)\\), so that we can rewrite \eqref{eq:ydot} as
+called the [Lie derivative](https://en.wikipedia.org/wiki/Lie_derivative) of \\(h(x)\\) w.r.t \\(f(x)\\), so that we can rewrite \eqref{eq:ydot} as
 
 \begin{align}
-\dot{y} = L_f \, h +    L\_g h(x) u.
+\dot{y} \triangleq L_f \, h +    L\_g h(x) u.
 \label{eq:ydot_lie}
 \end{align}
 
-If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x\_0) \neq 0\\) (i.e. \\(L\_g h(x\_0) \neq 0\\)) at some point \\(x\_0\\), then the system \eqref{eq:nlnr1} is said to be of _**relative degree**_ 1 at \\(x\_0\\). For an LTI system, this means the output is different from the input by one integrator only. __This would be a strictly proper tranfer function__. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression.
+If \\(\frac{\partial{h}}{\partial{x}}(x_0) \, g(x\_0) \neq 0\\) (i.e. \\(L\_g h(x\_0) \neq 0\\)) at some point \\(x\_0\\), then the system \eqref{eq:nlnr1} is said to be of _**relative degree**_ 1 at \\(x\_0\\). For an LTI system, this means the output is different from the input by one integrator only. __This would be a strictly proper tranfer function__. A good way of thinking about this is that the output has to be differentiated by the number of the relative degree(s) until the input appears in the output expression. If \\(L\_g h(x)\\) is bounded away from \\(0\\) for all \\(x\\), the feedback control law can be written as
+
+\begin{align}
+  u = \dfrac{1}{L\_g}h(-L\_f h + \nu)
+\end{align}
+
+allowing us to write a linear system from \\(\nu\\) to output \\(y\\) as
+
+\begin{align}
+  \dot{y} = \nu
+\end{align}
+
+which can render the \\((n-1)\\) states of \eqref{eq:nlnr1} unobservable by a feedback choice.
 
 If \\(L\_g h(x) = 0 \, \forall \, x \in {B\_x}\_0 \text{ in some neighborhood } {B\_x}\_0 \\), then one can take the second derivative of \\(y\\) to obtain (abusing notation and dropping the terms in parentheses),
 
