@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2018-08-02 14:21:00
-title: "What Good Research is Not"
-excerpt: "Curated quotes from the 'good citizen of CVPR' session at CVPR 2018."
+title: "How not to be a bad researcher."
+excerpt: "Curated quotes from around the web."
 permalink: good-research
 comments: true
 category: [research, good-research]
@@ -95,3 +95,20 @@ I hope you find time to enjoy reading them.
 ### [David Mermin](http://www.ai.mit.edu/courses/6.899/papers/mermin.pdf)
 
 Always punctuate your equations. Math is prose. Number all equations in your text. It helps your readers.
+
+
+#### [Daniel Liberzon Research Quotes](http://liberzon.csl.illinois.edu/quote-research.html)
+
+#### [Daniel Liberzon - How to write a good paper](http://liberzon.csl.illinois.edu/writing-guidelines.html)
+
+#### [Daniel Liberzon - How to peer review](http://liberzon.csl.illinois.edu/peer-review.pdf)
+
+#### [George M. Whitesides -- Writing a Paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.200400767)
+
+#### [Dmitri Bertsekas -- Ten Simple Rules for Mathematical Writing](http://newslab.ece.ohio-state.edu/for%20students/resources/tenrules.pdf)
+
+#### [Don Knuth --Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
+
+#### [Don Knuth -- The Elements of Mathematical Writing](https://www.mendeley.com/viewer/?fileId=36fa79c8-f907-0861-18b9-db563e2ef45f&documentId=7933d91e-f248-3103-9132-4657a82411f2)
+
+#### [N. David Mermin -- What's Wrong With These Equations](https://www.mendeley.com/viewer/?fileId=6a8199f8-2d25-e7ef-28ac-579137975e93&documentId=779c442f-635a-3d6a-b64f-7ee8315d8aa2)

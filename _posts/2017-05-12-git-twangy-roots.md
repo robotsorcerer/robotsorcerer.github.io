@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-05-12 11:37:00
-title: "Twanging git pull, push and clone"
+title: "Twanging git pull, push and clone."
 excerpt: "It is useful being able to share one's work among different computers using native git commands such as merge, fetch, push, clone, or pull without resolving to using ssh, scp which are without the benefits of diff and merge strategies of git."
 comments: true
 mathjax: true
