@@ -26,7 +26,7 @@ category: [control, stability, nonlinear-control]
 <a name="intro"></a>
 ### **Introduction**
 
-Personal collection of theorems, lemmas, notes, and diagrams helped me grasp the fundamentals of the literature of the past seventy-some years. I keep updating this post time after time. **Mostly deals with nonlinear control, as the world is nonlinear**.
+Personal collection of theorems, lemmas, notes, and diagrams fundamental to the control literature of the past seventy-some years. I keep updating this post time after time. **Mostly deals with nonlinear control, as the world is nonlinear**.
 
 <a name='feedback-linearization'></a>
 ### **Feedback Linearization**
@@ -488,9 +488,9 @@ Here, I give a few background definitions that will enable us to define control 
       </div>
 
 <a name="cbf-proper"></a>
-### **Control Barrier Functions**
+### **Control Barrier Functions: A Definition**
 
-Now that we have an understanding of the prerequisites, we can give a statement that describes CBFs
+Now that we have an understanding of the prerequisites, we can give a statement that describes CBFs.
 
 Suppose that \\(\mathcal{C} \subset \mathbb{R}^n\\) is a \\(0\\)-superlevel set of a continuously differentiable function \\(h: \mathbb{R}^n \rightarrow \mathbb{R} \\) with \\(0\\) a regular value. The function \\(h\\) is a **control barrier function** for \eqref{eq:cbfs::control_affine} on the superlevel set \\(\mathcal{C}\\) if there exists \\(\alpha \in \mathcal{K}\_{\infty,e}\\) such that for all \\(\boldsymbol{x} \in \mathbb{R}^n\\), we have
 
@@ -500,7 +500,7 @@ Suppose that \\(\mathcal{C} \subset \mathbb{R}^n\\) is a \\(0\\)-superlevel set 
   %
   \label{eq:cbfs::cbf-def}
 \end{align}
-%
+
 with \\(\boldsymbol{L_f} h(\boldsymbol(x))\\) and \\(\boldsymbol{L_g} h(\boldsymbol(x))\\) being [Lie derivatives](https://en.wikipedia.org/wiki/Lie_derivative).
 
 It follows that for a CBF \\(h\\) for system \eqref{eq:cbfs::control_affine} and an \\(\alpha \in \mathcal{K}\_{\infty, e}\\), the point-wise set of all control values that satisfies \eqref{eq:cbfs::cbf-def} is given by,
@@ -514,7 +514,7 @@ It follows that for a CBF \\(h\\) for system \eqref{eq:cbfs::control_affine} and
 
 The question of unifying optimality in a control theoretical sense with stability guarantees such as the ones that Lyapunov analyses provide is a fascinating one. The beauty of CBFs is that we can elegantly write out our feedback control term for a control affine system dynamics such that we can create a safety-critical controller, as provided by the bound of the class-\\(\mathcal{K}\_{\infty, e}\\) in the definition of our CBF as given earlier as follows:
 
-Oh, by the way, CBFs provide necessary and sufficient conditions on safety. I may flesh this out in a future post in the future. But for kicks, you may have a look at this hot damn paper: [A. D. Ames, X. Xu, J. W. Grizzle and P. Tabuada, "Control Barrier Function Based Quadratic Programs for Safety Critical Systems," in IEEE Transactions on Automatic Control, vol. 62, no. 8, pp. 3861-3876, Aug. 2017, doi: 10.1109/TAC.2016.2638961.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7782377).
+Oh, by the way, CBFs provide necessary and sufficient conditions on safety. I may flesh this out in a future post in the future. But for kicks, you may have a look at this paper: [A. D. Ames, X. Xu, J. W. Grizzle and P. Tabuada, "Control Barrier Function Based Quadratic Programs for Safety Critical Systems," in IEEE Transactions on Automatic Control, vol. 62, no. 8, pp. 3861-3876, Aug. 2017, doi: 10.1109/TAC.2016.2638961.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7782377).
 
 **Safety-Critical Control**
 
