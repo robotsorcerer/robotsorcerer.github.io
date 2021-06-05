@@ -15,7 +15,7 @@ category: [research, good-research]
 - [Main Matter](#main)
   - [Research Quotes Compilation, Daniel Liberzon](#liberzon_good_research)
   - [Doing Good Research, Daniel Liberzon](#liberzon_good_research)
-  - [Doing Good Research, Vladelen Koltun](#koltun_good_research)
+  - [Doing Good Research, Vladlen Koltun](#koltun_good_research)
   - [How to write a good research paper, Bill Freeman](#good_paper_freeman)
   - [How to have a bad research career, David Patterson](#bad_career_patterson)
   - [How to do good research, Bill freeman](#good_research_freeman)
@@ -31,19 +31,19 @@ category: [research, good-research]
   - [Mathematical Writing, Donald Knuth](#knuth_math_writing)
 
 <a name="intro"></a>
-#### Introduction
+### Introduction
 
 This post includes curated links/pdf frames of advice on doing good research from people I respect.
 
 I hope you enjoy reading them.
 
 <a name="log"></a>
-#### Changelog
+### Changelog
 + First Online: August 02, 2018
 + Updated with pdf and web iframes: June 04, 2021
 
 <a name="main"></a>
-#### Main Matter
+### Main Matter
 
 <a name="liberzon_good_research"></a>
 + [Daniel Liberzon:](http://liberzon.csl.illinois.edu/quote-research.html)
@@ -53,7 +53,7 @@ I hope you enjoy reading them.
     <hr/>
 
 <a name="koltun_good_research"></a>
-+ [Doing (good) research, Vladen Koltun](assets/research/Koltun.pdf)
++ [Doing (good) research, Vladlen Koltun](assets/research/Koltun.pdf)
 
     <iframe src="assets/research/Koltun.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
     <p></p>
