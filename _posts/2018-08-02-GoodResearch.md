@@ -1,23 +1,50 @@
 ---
 layout: post
-date: 2018-08-02 14:21:00
+date: 2021-06-04 20:49:00
 title: "How not to be a bad researcher."
-excerpt: "Curated quotes from around the web."
+excerpt: "Curated good research practices from the gatekeepers of knowledge in Control, computer Vision, Robotics, Mathematics and Machine Learning."
 permalink: good-research
 comments: true
 category: [research, good-research]
 ---
-This post includes curated links to advice on doing good research from people I respect.
+This post includes curated links/pdf frames of advice on doing good research from people I respect.
 
-I hope you find time to enjoy reading them.
+I hope you enjoy reading them.
 
-+ [How to write a good research paper ~ Bill Freiman](https://www.cc.gatech.edu/~parikh/citizenofcvpr/static/slides/freeman_how_to_write_papers.pdf)
+#### Changelog
++ First Online: August 02, 2018
++ Updated with pdf and web iframes: June 04, 2021
+
+#### Main Matter
+
++ [Daniel Liberzon:](http://liberzon.csl.illinois.edu/quote-research.html)
+
+    <iframe src="http://liberzon.csl.illinois.edu/quote-research.html" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
+
++ [Doing (good) research, Vladen Koltun](assets/Koltun.pdf)
+
+    <iframe src="assets/Koltun.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
+
+
++ [How to write a good research paper ~ Bill Freiman](assets/freeman_write.pdf)
+
+  <iframe src="assets/freeman_write.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+  <p></p>
+<hr/>
 
   > Many readers will skim over formulas on their first reading of your exposition. Therefore, your sentences should flow smoothly when all but the simplest formulas are replaced by "blah" or some other grunting noise.
 
-+ [How to do good research ~ Bill Freiman](http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf)
++ [How to do good research, Bill Freeman, MIT CSAIL.](http://people.csail.mit.edu/billf/publications/How_To_Do_Research.pdf)
 
-    > Sometimes it’s useful to think that everyone else is an idiot. This lets you do things that no one else is doing. It’s best not to be too vocal about that. You can say something like “Oh, I just thought I’d try out this direction”
+  <iframe src="assets/good_research.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+  <p></p>
+<hr/>
+
+  > Sometimes it’s useful to think that everyone else is an idiot. This lets you do things that no one else is doing. It’s best not to be too vocal about that. You can say something like “Oh, I just thought I’d try out this direction”
 
 + [Elements of a Successful Graduate Career](http://people.csail.mit.edu/billf/talks/10minFreeman2013.pdf)
 
@@ -25,6 +52,9 @@ I hope you find time to enjoy reading them.
 
     > The best students are possessed by a problem. They're independent. They teach their advisors. They don't do what they're told...they do something more interesting. ~ Leslie Kaelbling
 
+    <iframe src="assets/research_freeman.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
     > Don't tell your advisor you're doing what they advised against until you’ve solved the problem. ~ Manolis Kellis
 
     > Which brings us to the moral of the story: More important than your thesis topic is who your advisor is. ~ Charles Leiserson  
@@ -32,83 +62,53 @@ I hope you find time to enjoy reading them.
     > Eat, sleep, and breathe a problem until you crack it. Become the world’s foremost expert on your thesis topic. Surpass your advisor.  ~ Daniel Jackson
 
 + [On how to write papers, Ted Adelson](http://www.ai.mit.edu/courses/6.899/papers/ted.htm)
-    >  Start by stating which problem you are addressing, keeping the audience in mind.  They must care about it, which means that sometimes you must tell them why they should care about the problem.  Then state briefly what the other solutions are to the problem, and why they aren't satisfactory.  If they were satisfactory, you wouldn't need to do the work.  Then explain your own solution, compare it with other solutions, and say why it's bettter.  At the end, talk about related work where similar techniques and experiments have been used, but applied to a different problem.  Since I developed this formula, it seems that all the papers I've written have been accepted.
 
-### [Vladen Koltun's Advice](https://www.cc.gatech.edu/~parikh/citizenofcvpr/static/slides/koltun_doing_good_research.pdf)
-+ Picking a problem
-  - Formulate a larger goal
-  - Personally meaningful
-  - Fits into the scheme of collective progress
-+ Analyze bottlenecks
-+ Understand the state of the art
-
-+ Making a contribution:
-  - Read the papers
-  - Look for unwarranted assumptions
-  - What are the limitations? When will this break? How could this be done better?
-
-+ Reimplement a state-of-the-art technique  
-  - Reproduce the results
-  - Then bombard it with controlled experiments
-  - Look for surprises, cracks that lead to deeper realizations
-
-+ Be on the lookout for interesting contributions
-+ Many important findings are not what the researchers set out to find
-  - “Scheele happened upon chlorine while trying to isolate manganese; Claude Bernard planned experiments to characterize the destructive agent in sugar but instead discovered the glycogenic function of the liver; and so on"
-     ~ Ramón y Cajal, Letters to a Young Investigator
+    <iframe src="http://www.ai.mit.edu/courses/6.899/papers/ted.htm" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
 
 
-+ Publications
-  - Quality, not quantity
-  - Do not compromise on methodology or ethics
-  - Be willing to bury drafts and move on
++ [What's wrong with these equations? -- N. David Mermin](http://www.ai.mit.edu/courses/6.899/papers/mermin.pdf)
 
-+ Publication portfolio
-  - Most are prosaic
-  - Some are significant
-  - None are sloppy
+    <iframe src="assets/mermin.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
 
-+ High standards
-  - Bury the weak, boring, and sloppy results
-  - Weak and sloppy work is a drain on the community. Can mislead. Goes against the goal of contributing something useful to the community
-  - Quantity is easy. The community doesn't need more quantity.
++ [Daniel Liberzon - How to write a good paper](http://liberzon.csl.illinois.edu/writing-guidelines.html)
 
-+ Research over time
-  - Research begets research
-  - Keep track of favorite problems, revisit occassionally
-  - Go back to the larger goals
-  - Read. A lot.
-  - Write down ideas. Talk to people.
-  - Quiet time for reading, writing, thinking.
+    <iframe src="http://liberzon.csl.illinois.edu/writing-guidelines.html" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
 
-+ For pete's sake, get a good work ethic
-  - I do not believe a person can ever leave their business. They ought to think of it by day and dream of it by night. […] if they intend to go forward and do anything, the whistle is only a signal to start thinking over the day’s work in order to discover how it might be done better. […] The person who has the largest capacity for work and thought is the person who is bound to succeed.
-      ~ Henry Ford, My Life and Work
++ [Daniel Liberzon - How to peer review](http://liberzon.csl.illinois.edu/peer-review.pdf)
 
-  - In science as in the lottery, luck favors those who wager the most – that is, by another analogy, those who are tilling constantly the ground in their garden.
-        ~ Ramón y Cajal, Letters to a Young Investigator
-
-  -  Successful people exhibit more activity, more energy, than most people do. They look more places, they work harder, they think longer than less successful people. Knowledge and ability are much like compound interest – the more you do the more you can do, and the more opportunities are open for you.
-        ~ Hamming, Striving for Greatness in All You Do
+    <iframe src="assets/research/liberzon_peer_review.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
 
 
-### [David Mermin](http://www.ai.mit.edu/courses/6.899/papers/mermin.pdf)
++ [George M. Whitesides -- Writing a Paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.200400767)
 
-Always punctuate your equations. Math is prose. Number all equations in your text. It helps your readers.
+    <iframe src="assets/research/whitesides.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
+
++ [Dmitri Bertsekas -- Ten Simple Rules for Mathematical Writing](http://newslab.ece.ohio-state.edu/for%20students/resources/tenrules.pdf)
+
+    <iframe src="assets/research/Bertsekas.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
+
++ [Don Knuth -- The Elements of Mathematical Writing](https://www.mendeley.com/viewer/?fileId=36fa79c8-f907-0861-18b9-db563e2ef45f&documentId=7933d91e-f248-3103-9132-4657a82411f2)
+
+    <iframe src="assets/research/math_writing_elems.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
 
 
-#### [Daniel Liberzon Research Quotes](http://liberzon.csl.illinois.edu/quote-research.html)
 
-#### [Daniel Liberzon - How to write a good paper](http://liberzon.csl.illinois.edu/writing-guidelines.html)
++ [Don Knuth --Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
 
-#### [Daniel Liberzon - How to peer review](http://liberzon.csl.illinois.edu/peer-review.pdf)
-
-#### [George M. Whitesides -- Writing a Paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.200400767)
-
-#### [Dmitri Bertsekas -- Ten Simple Rules for Mathematical Writing](http://newslab.ece.ohio-state.edu/for%20students/resources/tenrules.pdf)
-
-#### [Don Knuth --Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
-
-#### [Don Knuth -- The Elements of Mathematical Writing](https://www.mendeley.com/viewer/?fileId=36fa79c8-f907-0861-18b9-db563e2ef45f&documentId=7933d91e-f248-3103-9132-4657a82411f2)
-
-#### [N. David Mermin -- What's Wrong With These Equations](https://www.mendeley.com/viewer/?fileId=6a8199f8-2d25-e7ef-28ac-579137975e93&documentId=779c442f-635a-3d6a-b64f-7ee8315d8aa2)
+    <iframe src="assets/research/knuth_math_writing.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
