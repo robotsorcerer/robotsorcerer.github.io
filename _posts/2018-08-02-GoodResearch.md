@@ -2,7 +2,7 @@
 layout: post
 date: 2021-06-04 20:49:00
 title: "How not to be a bad researcher."
-excerpt: "Curated good research practices from the gatekeepers of knowledge in Control, computer Vision, Robotics, Mathematics and Machine Learning."
+excerpt: "Curated good research practices from the gatekeepers of knowledge in Control, Computer Vision, Robotics, Mathematics and Machine Learning."
 permalink: good-research
 comments: true
 category: [research, good-research]
