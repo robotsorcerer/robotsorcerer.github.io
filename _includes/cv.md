@@ -118,3 +118,4 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
  -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
  -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
  -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
+ -  Profiles in Courage -- John Fitzgerald Kennedy.
