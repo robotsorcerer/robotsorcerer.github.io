@@ -4,9 +4,6 @@ permalink: about
 mathjax: true
 ---
 
-
-## Introduction
-
 Welcome to my web presence, where theory meets practice, and where scientific elegance meets creative practical impact.
 
 #### Minimal

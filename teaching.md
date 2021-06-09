@@ -2,11 +2,7 @@
 layout: post
 ---
 
-## **Introduction**
-
-I mostly teach a mixture of undergrad and graduate level classes in Robotics at Brandeis University.
-
-Starting in the Summer 2021, other things being equal, I will be helping La Salle University in developing some of the applied Engineering courses for the cohort of undergrads resuming in Fall 2021. 
+I mostly teach a mixture of undergrad and graduate level classes in Robotics at Brandeis.
 
 
 #### **RBOT250: The Mathematical Foundations of Robotics, Spring 2021.**
