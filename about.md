@@ -6,20 +6,22 @@ mathjax: true
 
 Welcome to my web presence, where theory meets practice, and where scientific elegance meets creative practical impact.
 
-#### Minimal
+#### **Minimal**
 
 I am a roboticist (ML/Control specialist) with strong research thrusts in translational medical physics research. For the last 12 years, I have worked in several aspects of the automation research and development value chain in various capacities: this includes the consumer robots, supply chain, and process automation industries (Amazon Robotics, PFN Inc Japan, Coca-Cola). As a PhD (UT Dallas, UTSW) and a Postdoc (UChicago, UPenn), I explored open-ended questions in head and neck immobilization during photon-based head and neck surgery and magnetic resonance imaging -- with soft and rigid parallel robots alike. These create a niche skill-set that spans machine learning, control and motion-planning that improve partnership with teams and external vendors.
 
 
-#### Research Main Matter
+#### **Research Main Matter**
 
 Matter-of-factly, so far, the body of my research contributions have spanned approximate dynamic programming, robust optimal control/reinforcement learning, adaptive control, and soft robot hardware design, a little flavor of computer vision and optimal state estimation, as well as robot manipulation -- which I engaged in on two internships in industry.  During my time at UChicago and Penn, I proposed a Cephalopods-inpired parallel soft robot for improving photon-based radiation therapy cancer treatments in intensity-modulated radiation therapy, stereo-tactic radiosurgery, and emerging magnetic resonance+linear accelerator systems. Some of these details are covered in my [Winter 2021 Johnson and Johnson Talk](/assets/presentations/AurisHealth.pdf). In essence, from 30,000ft above, this is my message: I fancy conceptualization, finding issues and directions, developing definitions, exposition, and critical insight -- all towards real-world impactful technological solutions. I love synergizing concepts from disparate fields, and then develop algorithms and analyses which ultimately lead to the solution. The opportunity to feast on ideas -- to investigate the physics behind machines and to understand the interconnectedness of components, hear people's opinions, see their arguments' flaws, and to improvise upon them to find better solutions is an essential component of my thought-actions.
 
-#### Community Service
+#### **Community Service**
 
-I regularly peer-review for [NeurIPS](https://nips.cc/), [International Federation of Automatic Control](https://www.ifac-control.org/) -- World Congress and Automatica alike, [Institute of Physics](https://www.iop.org/),  [ICML](https://icml.cc/), IEEE Access, [Conference on Decision and Control](https://2021.ieeecdc.org/), [IROS](https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems), [American Control Conference](https://acc2021.a2c2.org/),  ASME's [DSCC](https://event.asme.org/DSCC),  [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), and [Neural Computing and Applications](https://www.springer.com/journal/521) among others. Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). **This one has been on my early-stage research career bucket list since I was a PhD student: in winter 2021, I got to serve as Associate Editor for ICRA 2021.** It was a lot of fun coordinating different discipline experts and recommending worthwhile papers tenable at the flagship robotics conference on the planet. Whew, what a multitude of projects for the salvation of robots!
+I regularly peer-review for [NeurIPS](https://nips.cc/), [International Federation of Automatic Control](https://www.ifac-control.org/) -- World Congress and Automatica alike, [Institute of Physics](https://www.iop.org/),  [ICML](https://icml.cc/), IEEE Access, [Conference on Decision and Control](https://2021.ieeecdc.org/), [IROS](https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems), [American Control Conference](https://acc2021.a2c2.org/),  ASME's [DSCC](https://event.asme.org/DSCC),  [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), and [Neural Computing and Applications](https://www.springer.com/journal/521) among others. 
 
-## Continuum Mechanics Jovial Trivia
+Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). **This one has been on my early-stage research career bucket list since I was a PhD student: in winter 2021, I got to serve as Associate Editor for ICRA 2021.** It was a lot of fun coordinating different discipline experts and recommending worthwhile papers tenable at the flagship robotics conference on the planet. Whew, what a multitude of projects for the salvation of robots!
+
+## **Continuum Mechanics Jovial Trivia**
 
 > It is assumed that the reader speaks [rational continuum mechanics](https://www.elsevier.com/books/a-first-course-in-rational-continuum-mechanics/truesdell/978-0-12-701301-5).
 
@@ -48,7 +50,7 @@ I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_lang
 <!-- I do have a base electric guitar I've played so hard that my forearm went through the drum. This led my acquaintance to suggest to me that I might benefit from going to a therapist, whom I visited. First session with the therapist, I was asked what my purpose was for being there. I told her I was angry at the world and its people.  -->
 At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_.  
 
-#### Miscellaneous
+#### **Miscellaneous**
 
 <!-- +   I like to think I take a lot of pain in my duties since I do derive pleasures in them. Each day, I gird my loins with strength and apply myself to my work: I lay my hand to the spindle and my hands hold to the distaff (like the proverbial virtuous woman :-) ).  To the end that when I am old and tired, I shall be able to reflect with comfort that I was not idle or useless when I was young. -->
 
