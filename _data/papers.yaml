@@ -4,34 +4,35 @@ publications:
       - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/kinecontrol.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Technical Report
-        paper_status: Accepted
-        year: March 2020
+        paper_status: Manuscript
+        year: March 2021
 
-  - items: 'PMB2020!'
+  - items: 'PMB2021!'
     paperitems:
       - title: 'An Automated Universal Phantom Analyzer of XML Style'
         location: #/downloads/Papers/kinecontrol.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b> and
+          - Alexander Van Slyke,
+          - <b>Olalekan Ogunmolu</b>, and
           - Rodney Wiersma.
         venue_web: #
         venue: 'IOP: Physics in Medicine and Biology'
-        paper_status: Manuscript
-        year: 2020
+        paper_status: Submitted
+        year: 2021
 
-  - items: 'TRO2019!'
-    paperitems:
-      - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
-        location: /downloads/Papers/ijrr.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: #https://journals.sagepub.com/home/ijr
-        venue: #The International Journal of Robotics Research (IJRR).
-        paper_status: Working Manuscript
-        year: 2020
+  # - items: 'TRO2019!'
+  #   paperitems:
+  #     - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
+  #       location: /downloads/Papers/ijrr.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: #https://journals.sagepub.com/home/ijr
+  #       venue: #The International Journal of Robotics Research (IJRR).
+  #       paper_status: Working Manuscript
+  #       year: 2020
   - items: 'AIRT2019!'
     paperitems:
       - title: Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy

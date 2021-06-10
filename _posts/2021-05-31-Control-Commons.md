@@ -475,7 +475,7 @@ Here, I give a few background definitions that will enable us to define control 
 
 + **Class \\(\mathcal{K}\_\infty\\) Function**: Supose we have a continuous function \\(\alpha: [0, a) \rightarrow \mathbb{R}\_+, a = \infty\\), we say \\(\alpha\\) is a **_class \\(\mathcal{K}\_\infty \, (\alpha \in \mathcal{K}\_\infty\\))_** function if \\(\alpha(0) = 0\\) and \\(\lim\_{r\rightarrow \infty}\alpha(r)=\infty\\) is strictly monotonically increasing.
 
-+ **Class \\(\mathcal{KL}\\) Function**: Supose we have a continuous function \\(\beta: [0, a) \times [0, \infty) \rightarrow [0, \infty) \\), we say \\(\beta\\) is **_class \\(\mathcal{KL} \\))_** if for each fixed \\(s\\), the mapping \\(\beta(r, s)\\) belongs to class \\(\mathcal{K}\\) with respect to \\(r\\) and, for each fixed \\(r\\), the mapping \\(\beta(r, s)\\)  is decreasing with respect to \\(s\\) and \\(\beta(r,s)\rightarrow 0\\) as \\(s\rightarrow\infty\\).
++ **Class \\(\mathcal{KL}\\) Function**: Supose we have a continuous function \\(\beta: [0, a) \times [0, \infty) \rightarrow [0, \infty) \\), we say \\(\beta\\) is **_class \\(\mathcal{KL} \\)_** if for each fixed \\(s\\), the mapping \\(\beta(r, s)\\) belongs to class \\(\mathcal{K}\\) with respect to \\(r\\) and, for each fixed \\(r\\), the mapping \\(\beta(r, s)\\)  is decreasing with respect to \\(s\\) and \\(\beta(r,s)\rightarrow 0\\) as \\(s\rightarrow\infty\\).
 
 + **Extended class \\(\mathcal{K}\\) Function**: A continuous function \\(\alpha: (-b, a) \rightarrow \mathbb{R} \\) with \\(a, b > 0\\), belongs to the _**extended class**_ \\(\mathcal{K}\\) (\\(\alpha \in \mathcal{K}\_e\\) ) if \\(\alpha(0) = 0\\) and \\(\alpha\\) is strictly monotonically increasing.
 
@@ -483,7 +483,7 @@ Here, I give a few background definitions that will enable us to define control 
 
 <div class="fig figcenter fighighlight">
        <img src="/assets/control/class-kappa-matlab.jpg" width="100%" height="100%" align="middle">  
-       <div class="figcaption" align="middle">Fig. 4: Class Kappa and Kappa-Ell functions. See <a href="https://gist.github.com/lakehanne/07333714a3f15ce1728d0ec6225c41a5">source script.</a>
+       <div class="figcaption" align="middle">Fig. 4: Class Kappa, Kappa-ell and Kappa-Infinity functions. See <a href="https://gist.github.com/lakehanne/07333714a3f15ce1728d0ec6225c41a5" target="blank">source script for this diagram.</a>
        </div>
      </div>
 
@@ -502,7 +502,9 @@ Now that we have an understanding of the prerequisites, we can give a statement 
 Suppose that \\(\mathcal{C} \subset \mathbb{R}^n\\) is a \\(0\\)-superlevel set of a continuously differentiable function \\(h: \mathbb{R}^n \rightarrow \mathbb{R} \\) with \\(0\\) a regular value. The function \\(h\\) is a **control barrier function** for \eqref{eq:cbfs::control_affine} on the superlevel set \\(\mathcal{C}\\) if there exists \\(\alpha \in \mathcal{K}\_{\infty,e}\\) such that for all \\(\boldsymbol{x} \in \mathbb{R}^n\\), we have
 
 \begin{align}
-  \sup\_{\boldsymbol{u} \in \mathbb{R}^m} \dot{h}(\boldsymbol{x}, \boldsymbol{u}) &\triangleq \nabla h(\boldsymbol{x}) (\boldsymbol{f}(\boldsymbol{x}) + \boldsymbol{g}(\boldsymbol{x}))
+  \sup\_{\boldsymbol{u} \in \mathbb{R}^m} \dot{h}(\boldsymbol{x}, \boldsymbol{u}) \triangleq \nabla h(\boldsymbol{x}) \boldsymbol{\dot{x}} \equiv \nabla h(\boldsymbol{x}) (\boldsymbol{f}(\boldsymbol{x}) + \boldsymbol{g}(\boldsymbol{x}))
+\end{align}
+\begin{align}
   &= \boldsymbol{L_f} h(\boldsymbol(x)) + \boldsymbol{L_g} h(\boldsymbol(x)) \boldsymbol{u} \ge -\alpha(h(\boldsymbol{x}))
   %
   \label{eq:cbfs::cbf-def}
