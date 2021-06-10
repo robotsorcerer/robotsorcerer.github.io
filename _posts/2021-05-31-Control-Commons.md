@@ -475,13 +475,15 @@ Here, I give a few background definitions that will enable us to define control 
 
 + **Class \\(\mathcal{K}\_\infty\\) Function**: Supose we have a continuous function \\(\alpha: [0, a) \rightarrow \mathbb{R}\_+, a = \infty\\), we say \\(\alpha\\) is a **_class \\(\mathcal{K}\_\infty \, (\alpha \in \mathcal{K}\_\infty\\))_** function if \\(\alpha(0) = 0\\) and \\(\lim\_{r\rightarrow \infty}\alpha(r)=\infty\\) is strictly monotonically increasing.
 
++ **Class \\(\mathcal{KL}\\) Function**: Supose we have a continuous function \\(\beta: [0, a) \times [0, \infty) \rightarrow [0, \infty) \\), we say \\(\beta\\) is **_class \\(\mathcal{KL} \\))_** if for each fixed \\(s\\), the mapping \\(\beta(r, s)\\) belongs to class \\(\mathcal{K}\\) with respect to \\(r\\) and, for each fixed \\(r\\), the mapping \\(\beta(r, s)\\)  is decreasing with respect to \\(s\\) and \\(\beta(r,s)\rightarrow 0\\) as \\(s\rightarrow\infty\\).
+
 + **Extended class \\(\mathcal{K}\\) Function**: A continuous function \\(\alpha: (-b, a) \rightarrow \mathbb{R} \\) with \\(a, b > 0\\), belongs to the _**extended class**_ \\(\mathcal{K}\\) (\\(\alpha \in \mathcal{K}\_e\\) ) if \\(\alpha(0) = 0\\) and \\(\alpha\\) is strictly monotonically increasing.
 
 + **Extended class \\(\mathcal{K}\_\infty\\) Function**: If \\(a, b = \infty, \, \lim\_{r\rightarrow -\infty} \alpha(r) = -\infty\\),  and \\(\lim_{r\rightarrow \infty} \alpha(r) = \infty \\), then \\(\alpha\\)  is said to belong to an _**extended class**_  \\(\mathcal{K}\_\infty (\alpha \in  \mathcal{K}\_{\infty, e}). \\)
 
 <div class="fig figcenter fighighlight">
        <img src="/assets/control/class-kappa-matlab.jpg" width="100%" height="100%" align="middle">  
-       <div class="figcaption" align="middle">Fig. 4: Class Kappa and Kappa-Ell functions. <a href="https://gist.github.com/lakehanne/07333714a3f15ce1728d0ec6225c41a5">See source script.</a>
+       <div class="figcaption" align="middle">Fig. 4: Class Kappa and Kappa-Ell functions. See <a href="https://gist.github.com/lakehanne/07333714a3f15ce1728d0ec6225c41a5">source script.</a>
        </div>
      </div>
 
