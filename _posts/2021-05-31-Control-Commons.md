@@ -469,7 +469,7 @@ A set \\(\mathcal{C} \subset \mathbb{R}^n \\) is said to be **forward invariant*
 <a name="class-kappa"></a>
 #### **Digression: Class \\(\mathcal{K}\\) functions**
 
-Here, I give a few background definitions that will enable us to define control barrier functions adequately.
+Here, I give a few background definitions that will enable us to define control barrier functions adequately. This [matlab script gist](https://gist.github.com/lakehanne/07333714a3f15ce1728d0ec6225c41a5) describes a few class-\\(\mathcal{K}\\) functions that you may find helpful to aid the understanding.
 
 + **Class \\(\mathcal{K}\\) Function**: Supose we have a continuous function \\(\alpha: [0, a) \rightarrow \mathbb{R}\_+\\), where \\(a>0\\), we say \\(\alpha\\) is a **_class \\(\mathcal{K}\\) (\\(\alpha \in \mathcal{K}\\))_** function if \\(\alpha(0) = 0\\) and \\(\alpha\\) is strictly monotonically increasing.
 
@@ -479,11 +479,16 @@ Here, I give a few background definitions that will enable us to define control 
 
 + **Extended class \\(\mathcal{K}\_\infty\\) Function**: If \\(a, b = \infty, \, \lim\_{r\rightarrow -\infty} \alpha(r) = -\infty\\),  and \\(\lim_{r\rightarrow \infty} \alpha(r) = \infty \\), then \\(\alpha\\)  is said to belong to an _**extended class**_  \\(\mathcal{K}\_\infty (\alpha \in  \mathcal{K}\_{\infty, e}). \\)
 
+<div class="fig figcenter fighighlight">
+       <img src="/assets/control/class-kappa-matlab.jpg" width="100%" height="100%" align="middle">  
+       <div class="figcaption" align="middle">Fig. 4: Class Kappa and Kappa-Ell functions. <a href="https://gist.github.com/lakehanne/07333714a3f15ce1728d0ec6225c41a5">See source script.</a>
+       </div>
+     </div>
 
 
  <div class="fig figcenter fighighlight">
         <img src="/assets/control/class-kappa.jpg" width="100%" height="450" align="middle">  
-        <div class="figcaption" align="middle">Fig. 4.  Naive Representation of Class Kappa functions. For CBFs, we are generally interested in the class-kappa infinity-extended functions.
+        <div class="figcaption" align="middle">Fig. 5.  Naive Representation of Class Kappa and class kappa infinity extended functions. For CBFs, we are generally interested in the class-kappa infinity-extended functions.
         </div>
       </div>
 
