@@ -3,8 +3,8 @@
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
    <a href="https://en.wikipedia.org/wiki/Ikigai">**Ikigai**</a>: **Control Theory** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning** (Not in that order). <br>
-   **Fund-my-research buzzwords**: Artificial Intelligence, Big Data, Data Science.<br>
-   **Antiquated buzzwords**: System Identification, Data Mining.
+   **Fund-my-research buzzwords**: Artificial Intelligence, Machine Learning, Data Science.<br>
+   **Expert buzzwords**: System Identification, Control Theory, State Estimation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Experience</h4>
   - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present 
