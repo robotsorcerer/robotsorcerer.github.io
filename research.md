@@ -4,7 +4,7 @@ layout: page
 
 Hi there! I am a Researcher at Microsoft Research, New York. My work exists at the intersection of control systems, machine learning (mostly RL), and robotics -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems.
 
-My close collaborations currently are with [John Langford](https://en.wikipedia.org/wiki/John_Langford_(computer_scientist)) and [Rafah Hosn](https://www.microsoft.com/en-us/research/people/raaboulh/).
+<!-- My close collaborations currently are with [John Langford](https://en.wikipedia.org/wiki/John_Langford_(computer_scientist)) and [Rafah Hosn](https://www.microsoft.com/en-us/research/people/raaboulh/). -->
 
 In the past, I have worked on topics spanning Nash and Saddle equilibriums in game theory; robotic manipulation with soft, semi-rigid, and rigid robots; as well as approximate dynamic programming for minimizing decision-making time for the feasible set of beam angle choices in the classic beam orientation selection problem that exists in photon-based cancer radiation therapy.
 
