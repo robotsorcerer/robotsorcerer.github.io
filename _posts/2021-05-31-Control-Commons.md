@@ -21,6 +21,7 @@ category: [control, stability, nonlinear-control]
   - [Forward Invariant Sets, Safety](#safety)
   - [Class Kappa Functions](#class-kappa)
   - [Control Barrier Functions Definition](#cbf-proper)
+  - [Safety-Critical Control](#safety-critical)
 
 
 <a name="intro"></a>
@@ -525,7 +526,15 @@ The question of unifying optimality in a control theoretical sense with stabilit
 
 Oh, by the way, CBFs provide necessary and sufficient conditions on safety. I may flesh this out in a future post in the future. But for kicks, you may have a look at this paper: [A. D. Ames, X. Xu, J. W. Grizzle and P. Tabuada, "Control Barrier Function Based Quadratic Programs for Safety Critical Systems," in IEEE Transactions on Automatic Control, vol. 62, no. 8, pp. 3861-3876, Aug. 2017, doi: 10.1109/TAC.2016.2638961.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7782377).
 
+<a name='safety-critical'/>
 **Safety-Critical Control**
+
+Given a nominal (but not necessarily safe) locally Lipschitz continuous controller \\(\boldsymbol{k}\_d: \mathbb{R}^n \rightarrow \mathbb{R}^m\\), we say controllers within the \\(K_{cbf}\\) set is the safety-critical CBF-QP:
+
+\begin{align}
+  \arg \min\_{\boldsymbol{u}\in \mathbb{R}^m} \frac{1}{2} \|\|\boldsymbol{u} - \boldsymbol{k}_d(\boldsymbol{x})\|\|\_2^2 \quad \text{such that} \,\, \dot{\boldsymbol{h}(\boldsymbol{x, u})} \ge -\alpha(h(\boldsymbol(x))).
+\end{align}
+
 
 [To be continued]
 
