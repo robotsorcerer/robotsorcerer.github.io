@@ -23,7 +23,8 @@ category: [research, good-research]
   - [Writing papers, Ted Adelson](#Adelson)
   - [What's wrong with these equations? -- N. David Mermin](#Equations_malaise)
   - [Tips for a good research paper, Daniel Liberzon](#Liberzon_Papers)
-  - [Tips for a doing a good peer review](#Liberzon_Reviews)
+  - [Thoughts on the peer review process -- Daniel Liberzon](#Liberzon_Reviews)
+  - [Peer Review -- Dennis Bernstein (UMich)](#Dernstein_Reviews)
   - [Tips for a good research paper, Daniel Liberzon](#Liberzon_Papers)
   - [Writing a good paper, George Whitesides](#whitesides_Paper)
   - [Mathematical Writing, D. Bertsekas](#Bertsekas_Math_Writing)
@@ -118,6 +119,15 @@ I hope you enjoy reading them.
     <iframe src="assets/research/liberzon_peer_review.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
     <p></p>
     <hr/>
+
+<a name="Bernstein_Review"></a>
++ [Dennis Bernstein -- Peer Review](http://www-personal.umich.edu/~dsbaero/others/21-PeerReview.pdf)
+
+    <iframe src="assets/research/bernstein-review.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
+
+
 
 <a name="whitesides_Paper"></a>
 + [George M. Whitesides -- Writing a Paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/adma.200400767)
