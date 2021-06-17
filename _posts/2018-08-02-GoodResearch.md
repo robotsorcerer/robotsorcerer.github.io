@@ -24,6 +24,7 @@ category: [research, good-research]
   - [What's wrong with these equations? -- N. David Mermin](#Equations_malaise)
   - [Tips for a good research paper, Daniel Liberzon](#Liberzon_Papers)
   - [Thoughts on the peer review process -- Daniel Liberzon](#Liberzon_Reviews)
+  - [The Task of the Referee -- Alan Jay Smith](#smith-advice)
   - [Peer Review -- Dennis Bernstein (UMich)](#Dernstein_Reviews)
   - [Tips for a good research paper, Daniel Liberzon](#Liberzon_Papers)
   - [Writing a good paper, George Whitesides](#whitesides_Paper)
@@ -117,6 +118,13 @@ I hope you enjoy reading them.
 + [Daniel Liberzon - How to peer review](http://liberzon.csl.illinois.edu/peer-review.pdf)
 
     <iframe src="assets/research/liberzon_peer_review.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    <p></p>
+    <hr/>
+
+<a name="smith-advice"></a>
++ [The Task of the Referee - Alan Jay Smith](assets/research/smith-referee.pdf)
+
+    <iframe src="assets/research/smith-referee.pdf" width="855" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
     <p></p>
     <hr/>
 
