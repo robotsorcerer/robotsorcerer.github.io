@@ -7,7 +7,7 @@
    **Expert buzzwords**: System Identification, Control Theory, State Estimation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Experience</h4>
-  - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present 
+  <!-- - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present  -->
   - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - Present).
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
@@ -36,9 +36,9 @@
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h6>Recent Job Talks</h6>
-- [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC Seminar (Senior Researcher -- Reinforcement Learning), New York City, March 2021. 
-- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson (Senior Research Scientist -- Robotic Radiosurgery), San Francisco, Feb 2021. 
-<!-- 
+- [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC Seminar (Senior Researcher -- Reinforcement Learning), New York City, March 2021.
+- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson (Senior Research Scientist -- Robotic Radiosurgery), San Francisco, Feb 2021.
+<!--
     /assets/presentations/MSR.pdf
     /assets/presentations/AurisHealth.pdf
  -->
@@ -52,7 +52,7 @@
 <h6>Antiquated Talks</h6>
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.  
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
-- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA (Presented by Nick Gans). September 2017. 
+- SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA (Presented by Nick Gans). September 2017.
 - A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute (UTARI), Fort Worth, Texas, USA. May 2019.
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, Vancouver, BC, Canada. September 2017.
 
@@ -70,13 +70,13 @@
   - Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica"), 2017 - Present.
   - Reviewer, [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020), 2017 - Present.  
   - Reviewer, [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/)
-  - Reviewer, [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems Reviewer](https://www.iros2019.org/), 2017 - Present. 
+  - Reviewer, [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems Reviewer](https://www.iros2019.org/), 2017 - Present.
   - [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers](https://event.asme.org/DSCC).
-  - Reviewer, [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), 2017 - Present. 
-  - Reviewer, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), 2019 - Present. 
-  - Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), 2018 - Present. 
-  - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Present. 
-  - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Present. 
+  - Reviewer, [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), 2017 - Present.
+  - Reviewer, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), 2019 - Present.
+  - Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), 2018 - Present.
+  - Reviewer, [NCAA, Neural Computing and Applications, A Springer Journal](https://link.springer.com/journal/521), 2017 - Present.
+  - Reviewer, [ICML, International Conference on Machine Learning](https://icml.cc/), 2017 - Present.
 
 
 <br>
@@ -84,7 +84,7 @@
 <!-- Strava summary -->
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
 
-<p>Regular mortal on two wheels here. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week -- during cycling season. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard. If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email. 
+<p>Regular mortal on two wheels here. As often as I can get away from the lab, I like to pedal the metals of my bike, often logging approximately 120 miles a week -- during cycling season. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard. If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email.
 
 Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider. Below is a screenshot of my recent activities summary. </p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
@@ -107,7 +107,7 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
 <!-- + <a href="/downloads/fb" target="blank"> data structure commons</a>: a collection of solutions to interesting software engineering questions. <a href="https://github.com/lakehanne/SWEngr">source code.</a>  -->
 + <a href="https://github.com/lakehanne/gocator" target="blank">Gocator</a>: ROS and PCL bridges to the <a href="https://lmi3d.com/products/gocator-3D-smart-sensors" target="blank"> LMI Gocator Line Scanning Sensor</a>.
 + <a href="{{ site.url }}/readlist"> Reading list (Old, very old, and so deprecated)</a>:  A collection of papers I <strike>am currently</strike> reading/implementing.
-+    <a href="/downloads/save_dijs" target="blank">Radiation therapy dose influence matrices </a>: Extracting fluence based on the Varian Medical Systems' C#/Python API from Eclipse. Core API courtesy of Mike Folkerts (Varian). 
++    <a href="/downloads/save_dijs" target="blank">Radiation therapy dose influence matrices </a>: Extracting fluence based on the Varian Medical Systems' C#/Python API from Eclipse. Core API courtesy of Mike Folkerts (Varian).
 
 
 <br>
