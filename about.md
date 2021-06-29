@@ -8,8 +8,9 @@ Welcome to my web presence, where theory meets practice, and where scientific el
 
 #### **Minimal**
 
-I am a roboticist (ML/Control specialist) with strong research thrusts in translational medical physics research. For the last 12 years, I have worked in several aspects of the automation research and development value chain in various capacities: this includes the consumer robots, supply chain, and process automation industries (Amazon Robotics, PFN Inc Japan, Coca-Cola). As a PhD (UT Dallas, UTSW) and a Postdoc (UChicago, UPenn), I explored open-ended questions in head and neck immobilization during photon-based head and neck surgery and magnetic resonance imaging -- with soft and rigid parallel robots alike. These create a niche skill-set that spans machine learning, control and motion-planning that improve partnership with teams and external vendors.
+I am a roboticist (ML/Control specialist) with strong research thrusts in translational medical physics research. For the last 12 years, I have worked in several aspects of the automation research and development value chain in various capacities: this includes the consumer robots, supply chain, and process automation industries (Amazon Robotics, PFN Inc Japan, Coca-Cola).
 
+After my doctorate in Electrical and Computer Engineering (Robotics Concentration), I held a brief postdoc stint at University of Chicago’s Duchossois Center for Advanced Medicine (DCAM) before moving to the Perelman School of Medicine (PSOM) at The University of Pennsylvania. At DCAM and PSOM, I proposed the design, and control of a Cephalopods-inspired parallel soft robot mechanism for real-time patient motion correction in intensity-modulated radiation therapy, stereo-tactic radiosurgery, and in emerging magnetic resonance-linear accelerator photon-based cancer therapy.
 
 
 ## **Continuum Mechanics Jovial Trivia**
