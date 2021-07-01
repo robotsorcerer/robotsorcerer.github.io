@@ -7,7 +7,7 @@
    **Expert buzzwords**: System Identification, Control Theory, State Estimation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Experience</h4>
-  <!-- - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present  -->
+  - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present 
   - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - Present).
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
