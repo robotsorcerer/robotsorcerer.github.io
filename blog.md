@@ -3,6 +3,8 @@ layout: post
 permalink: blog
 ---
 
+  > Musings of an Engineer-Researcher.
+
 <ul class="posts">
   {% for post in site.posts %}
   <br>
