@@ -4,10 +4,14 @@
 
 "_...Deduction [and] Induction ... render the indefinite definite; Deduction explicates; Induction evaluates: that is all. Over the chasm that yawns between the ultimate goal of science and such ideas of Man's environment as ... he managed to communicate to some fellow, we are building a cantilever bridge of induction, held together by scientific struts and ties. Yet every plank of its advance is first laid by Retroduction alone, that is to say, by the spontaneous conjectures of instinctive reason ..._" ~ C.S. Peirce, Scientific Metaphysics (1908), S475
 
+"_ ...Don't apply any model until you understand the simplifying assumptions on which it is based, and you can test their validity. Catch phrase: Use only as directed. Don't believe that the model is the reality. Catch phrase: You will never strike oil by drilling through the map._" ~ Saul Golomb, "Mathematical Models -- Uses and Limitations." 1970
+
 "_'Why do you dance?' Dirac asked his companion, Heisenberg. 'When there are nice girls, it is a pleasure,' Heisenberg replied. Dirac pondered this notion, then blurted out: 'But, Heisenberg, how do you know beforehand that the girls are nice?'_"
 
 
 "_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier
+
+
 
 "..._it is wrong to think that rigor is the enemy of simplicity. Numerous examples establish the opposite, that the rigorous method is also the simpler and easier to grasp. The pursuit of rigor compels us to discover simpler arguments; also, often it clears the path to methods susceptible of more development than were the old, less rigorous ones._ ... " ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
 
