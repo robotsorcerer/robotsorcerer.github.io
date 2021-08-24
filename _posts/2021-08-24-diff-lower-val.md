@@ -30,10 +30,10 @@ and not
 The authors omitted the control term \\( y(s) \in Y \vert y \\)  is measurable.
 
 
-In a similar vein, \\(W(t,x) \\) on page 778 should have the supremum before the definite integral i.e.,
+<!-- In a similar vein, \\(W(t,x) \\) on page 778 should have the supremum before the definite integral i.e.,
 
 \begin{align}
   W(t,x) \ge \sup\_{y \in M(t)} \{ \int\_t^T h \left(s, x(s), y(s), \beta \[y\](s) \right)  ds +g(x(T))  \} - 2 \epsilon
 \end{align}
 
- I'm assuming this was a sloppy error from the authors.
+ I'm assuming this was a sloppy error from the authors. -->
