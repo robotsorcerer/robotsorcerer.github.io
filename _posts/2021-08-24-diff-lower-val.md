@@ -18,13 +18,13 @@ The text below concerns the proof derived by Evans and Souganidis in their 1984 
 Specifically, equation 3.4 under Theorem 3.1  should read,
 
 \begin{align}
-  W(t,x) \ge \sup\_{y \in M(t)} \left{ \int\_t^{t+\sigma} h\left((s, x(s), y(s), \delta[y](s)\right) ds + V\left((t+\sigma), x(t+\sigma)\right)\right} - \epsilon
+  W(t,x) \ge \sup\_{y \in M(t)} \left{ \int\_t^{t+\sigma} h\left(s, x(s), y(s), \delta[y](s)\right) ds + V\left((t+\sigma), x(t+\sigma)\right) \right} - \epsilon
 \end{align}
 
 and not
 
 \begin{align}
-  W(t,x) \ge \sup\_{y \in M(t)} \left{ \int\_t^{t+\sigma} h\left((s, x(s), \delta[y](s)\right) ds + V\left((t+\sigma), x(t+\sigma)\right)\right} - \epsilon
+  W(t,x) \ge \sup\_{y \in M(t)} \left{ \int\_t^{t+\sigma} h\left(s, x(s), \delta[y](s)\right) ds + V\left((t+\sigma), x(t+\sigma)\right)\right} - \epsilon
 \end{align}
 
 The authors omitted the control term \\(y(s) \in Y\\).  
