@@ -30,10 +30,12 @@ and not
 The authors omitted the control term \\( y(s) \in Y \vert y \\)  is measurable.
 
 
-<!-- In a similar vein, \\(W(t,x) \\) on page 778 should have the supremum before the definite integral i.e.,
+  In a similar vein, \\(W(t,x) \\) on page 778 should have the supremum before the definite integral i.e.,
 
-\begin{align}
-  W(t,x) \ge \sup\_{y \in M(t)} \{ \int\_t^T h \left(s, x(s), y(s), \beta \[y\](s) \right)  ds +g(x(T))  \} - 2 \epsilon
-\end{align}
+  \begin{align}
+    W(t,x) \ge \sup\_{y \in M(t)} \{ \int\_t^T h \left(s, x(s), y(s), \beta \[y\](s) \right)  ds +g(x(T))  \} - 2 \epsilon
+  \end{align}
 
- I'm assuming this was a sloppy error from the authors. -->
+Otherwise, the conclusion regarding the bound on (3.6) would not make sense.
+
+A similar  logic would apply to the proof of the upper value of the Cauchy HJ equation i.e., (3.2).
