@@ -7,7 +7,7 @@
    **Expert buzzwords**: System Identification, Control Theory, State Estimation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Experience</h4>
-  - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present 
+  - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present
   - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - Present).
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
@@ -119,3 +119,4 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
  -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
  -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
  -  Profiles in Courage -- John Fitzgerald Kennedy.
+ -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.

@@ -1,9 +1,9 @@
 ---
 layout: post
 date: 2021-08-24 11:51:00
-title: "Re: On Souganidis and Evans' proof of the optimality condition for the lower value of the Cauchy problem HJ Equation."
-excerpt: "Necessary and sufficiency conditions, differentiability and continuity assumptions, and analytical solutions to optimal control problems."
-permalink: optimal-control
+title: "On Souganidis and Evans' proof of the optimality condition for the lower value of the Cauchy problem HJ Equation."
+excerpt: "Fix to lower value of Cauchy problem HJ equation proof."
+permalink: Souganidis
 comments: true
 mathjax: true
 category: [control,optimal-control]
@@ -27,4 +27,4 @@ and not
   W(t,x) \ge \sup\_{y \in M(t)} \left{ \int\_t^{t+\sigma} h\left((s, x(s), \delta[y](s)\right) ds + V\left((t+\sigma), x(t+\sigma)\right)\right} - \epsilon
 \end{align}
 
-The authors omitted the controls term \\(y(s) \in Y\\).  
+The authors omitted the control term \\(y(s) \in Y\\).  
