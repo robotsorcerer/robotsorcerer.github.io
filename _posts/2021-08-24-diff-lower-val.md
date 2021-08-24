@@ -13,7 +13,7 @@ category: [control,optimal-control]
 
 The text below concerns the proof derived by Evans and Souganidis in their 1984 seminal paper that related the "weaker" (or viscosity) solution to the _cauchy problem_ of HJ equations' lower value, viz.,
 
-Evans, L. C., & Souganidis, P. E. (1984). Differential games and representation formulas for solutions of Hamilton-Jacobi-Isaacs equations. Indiana Univ. Math. J, 33(5), 773–797.
+> Evans, L. C., & Souganidis, P. E. (1984). Differential games and representation formulas for solutions of Hamilton-Jacobi-Isaacs equations. Indiana Univ. Math. J, 33(5), 773–797.
 
 Specifically, equation 3.4 under Theorem 3.1  should read,
 
