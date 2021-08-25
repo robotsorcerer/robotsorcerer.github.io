@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-08-24 11:51:00
-title: "On the lower value bounds of the Cauchy problem HJ Equation."
+title: "On the lower value optimality of the Cauchy problem HJ Equation."
 excerpt: "Fix to lower value of Cauchy problem HJ equation proof."
 permalink: Souganidis
 comments: true
@@ -36,6 +36,6 @@ The authors omitted the control term \\( y(s) \in Y \vert y \\)  is measurable.
     W(t,x) \ge \sup\_{y \in M(t)} \{ \int\_t^T h \left(s, x(s), y(s), \beta \[y\](s) \right)  ds +g(x(T))  \} - 2 \epsilon
   \end{align}
 
-Otherwise, the conclusion regarding the bound on (3.6) would not make sense.
+<!-- Otherwise, the conclusion regarding the bound on (3.6) would not make sense. -->
 
 A similar  logic would apply to the proof of the upper value of the Cauchy HJ equation i.e., (3.2).
