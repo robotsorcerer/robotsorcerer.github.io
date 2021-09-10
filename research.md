@@ -2,11 +2,7 @@
 layout: page
 ---
 
-Hi there! I am a Researcher at Microsoft Research, New York My work combines the scientific elegance of machine learning and control theory with the practical impact of robotics -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems.
-
-
-Heretofore, I have applied my machine learning and control expertise to real-world clinical applications in medical physics as well as the consumer robotics industry.
-My close collaborations currently are with [John Langford](https://en.wikipedia.org/wiki/John_Langford_(computer_scientist)) and [Rafah Hosn](https://www.microsoft.com/en-us/research/people/raaboulh/)'s teams as well as fellow researchers with similar interests in the lab. Currently, I am focused on a range of topics spanning safety-critical machine-learning systems, embodied intelligence for soft robotics, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
+Hi there! I am a Researcher at Microsoft Research, New York. My work combines the scientific elegance of machine learning and control theory with the practical impact of robotics -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems. Currently, I am focused on a range of topics spanning safety-critical machine-learning systems, embodied intelligence for soft robotics, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
 
 #### **Community Service**
 
