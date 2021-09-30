@@ -45,6 +45,18 @@ publications:
         paper_status: Manuscript
         year: March 2021
 
+  - items: 'eScience!'
+    paperitems:
+      - title: 'Recent Trends in Frameless and Maskless Patient Motion Compensation in External Beam Radiation Therapy'
+        location: #/downloads/Papers/kinecontrol.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>, and
+          - Rodney Wiersma.
+        venue_web: #
+        venue: #'IOP: Physics in Medicine and Biology'
+        paper_status: Submitted
+        year: 2021
+
   - items: 'PMB2021!'
     paperitems:
       - title: 'An Automated Universal Phantom Analyzer of XML Style'
