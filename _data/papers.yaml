@@ -47,7 +47,7 @@ publications:
 
   - items: 'eScience!'
     paperitems:
-      - title: 'Recent Trends in Frameless and Maskless Patient Motion Compensation in External Beam Radiation Therapy'
+      - title: 'Recent Trends in Robotic Frameless and Maskless Patient Motion Compensation in External Beam Radiation Therapy'
         location: #/downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>, and
