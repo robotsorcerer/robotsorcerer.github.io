@@ -4,18 +4,18 @@ publications:
       - title: 'Decoupling Rewards Intervention from Reinforcement Learning Design' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/RobustTaskMoPlan.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, and Other MSR Awesome Authors. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>, and Others # MSR Awesome Authors. #Ian Abraham, and Sylvia Herbert
         venue_web: #https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Journal of Machine Learning Research
         paper_status: Manuscript
         year: Spring 2022
-        
+
   - items: 'TAC22!'
     paperitems:
       - title: 'A Constitutive Framework For Solving Hamilton-Jacobi Cauchy Problems in Continuous Spaces' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>, and Others #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
         venue_web: #https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Transactions on Automatic Control
         paper_status: Manuscript
@@ -26,7 +26,7 @@ publications:
       - title: 'Robust Task and Motion Planning with Safety Guarantees in Constrained High-Dimensional Spaces' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/RobustTaskMoPlan.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>, and Others #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
         venue_web: #https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Transactions on Robotics
         paper_status: Manuscript
