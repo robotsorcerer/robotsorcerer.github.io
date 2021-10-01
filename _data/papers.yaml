@@ -5,7 +5,7 @@ publications:
         location: /downloads/Papers/PGDReach.pdf
         authors:
           - <b>Lekan Molu</b>, Ian Abraham, Sylvia Herbert + (Other MSR Authors). #Ian Abraham, and Sylvia Herbert
-        venue_web:
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions on Automatic Control
         paper_status: Manuscript
         year: Spring 2022
