@@ -15,11 +15,11 @@ publications:
       - title: 'A Constitutive Framework For The Resolution of Dirichlet-type Hamilton-Jacobi Problems' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, and Other Yet Unknown Co-Authors #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>, and Other Yet Unknown Co-Authors. #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Computational Physics
         paper_status: Manuscript
-        year: Spring 2022
+        year: Summer 2022
 
   - items: 'Science!'
     paperitems:

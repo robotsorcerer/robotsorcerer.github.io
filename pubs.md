@@ -33,7 +33,7 @@ permalink: pubs
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %}
-		      				<a href="{{ paper.venue_web }}" target="blank">For <i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
+		      				For <a href="{{ paper.venue_web }}" target="blank"> <i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
 			      		</td>
 		      		</tr>
 		      	{% endif %}
