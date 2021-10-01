@@ -1,10 +1,21 @@
 publications:
+  - items: 'TRO22!'
+    paperitems:
+      - title: 'Proper General Decomposition for Resolving a class of Hamilton-Jacobi-Bellman Equations' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/PGDReach.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b> #, Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+        venue_web: #https://asmedigitalcollection.asme.org/mechanismsrobotics
+        venue: Transactions on Robotics
+        paper_status: Manuscript
+        year: February 2022
+
   - items: 'JMLR!'
     paperitems:
       - title: 'Decoupling Rewards Intervention from Reinforcement Learning Design' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/RobustTaskMoPlan.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, and Others # MSR Awesome Authors. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>, and Other MSR Awesome Authors. #Ian Abraham, and Sylvia Herbert
         venue_web: #https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Journal of Machine Learning Research
         paper_status: Manuscript
@@ -12,7 +23,7 @@ publications:
 
   - items: 'TAC22!'
     paperitems:
-      - title: 'A Constitutive Framework For Solving Hamilton-Jacobi Cauchy Problems in Continuous Spaces' #: Application to Cranial Cancer Radiation Therap
+      - title: 'A New Constitutive Framework For  Dirichlet-type Hamilton-Jacobi Problems' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>, and Others #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
@@ -21,16 +32,6 @@ publications:
         paper_status: Manuscript
         year: January 2022
 
-  - items: 'TRO22!'
-    paperitems:
-      - title: 'Robust Task and Motion Planning with Safety Guarantees in Constrained High-Dimensional Spaces' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/RobustTaskMoPlan.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>, and Others #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
-        venue_web: #https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: Transactions on Robotics
-        paper_status: Manuscript
-        year: February 2022
 
 
 
