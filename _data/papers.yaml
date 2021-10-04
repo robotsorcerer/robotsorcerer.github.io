@@ -1,7 +1,7 @@
 publications:
   - items: 'TAC!'
     paperitems:
-      - title: 'Proper Generalized Decomposition for Resolving a class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Proper Generalized Decomposition in Hilbert Spaces for Resolving a class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/PGDReach.pdf
         authors:
           - <b>Lekan Molu</b>, Ian Abraham, Sylvia Herbert + (Other MSR Authors). #Ian Abraham, and Sylvia Herbert
