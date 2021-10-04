@@ -1,36 +1,36 @@
 publications:
-  - items: 'TAC!'
-    paperitems:
-      - title: 'Proper Generalized Decomposition in Hilbert Spaces for Resolving a Class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/PGDReach.pdf
-        authors:
-          - <b>Lekan Molu</b> #, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions on Automatic Control
-        paper_status: Manuscript
-        year: Spring 2022
-
-  - items: 'CompPhys!'
-    paperitems:
-      - title: 'A Constitutive Framework For The Resolution of Dirichlet-type Hamilton-Jacobi Problems' #: Application to Cranial Cancer Radiation Therap
-        location: /downloads/Papers/ConsitutiveContinuum.pdf
-        authors:
-          - <b>Lekan Molu</b>, and Other Yet Unknown Co-Authors. #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
-        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Journal of Computational Physics
-        paper_status: Manuscript
-        year: Summer 2022
-
-  - items: 'Science!'
-    paperitems:
-      - title: 'Reinforcement Learning Without Explicit Specification of Intermediate Rewards' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/RLWO.pdf
-        authors:
-          - <b>Lekan Molu</b>, Other Awesome MSR Authors, and John Langford. #Ian Abraham, and Sylvia Herbert
-        venue_web: https://www.science.org/journal/science
-        venue: Science
-        paper_status: Manuscript
-        year: Spring 2022
+  # - items: 'TAC!'
+  #   paperitems:
+  #     - title: 'Proper Generalized Decomposition in Hilbert Spaces for Resolving a Class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/PGDReach.pdf
+  #       authors:
+  #         - <b>Lekan Molu</b> #, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions on Automatic Control
+  #       paper_status: Manuscript
+  #       year: Spring 2022
+  #
+  # - items: 'CompPhys!'
+  #   paperitems:
+  #     - title: 'A Constitutive Framework For The Resolution of Dirichlet-type Hamilton-Jacobi Problems' #: Application to Cranial Cancer Radiation Therap
+  #       location: /downloads/Papers/ConsitutiveContinuum.pdf
+  #       authors:
+  #         - <b>Lekan Molu</b>, and Other Yet Unknown Co-Authors. #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+  #       venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
+  #       venue: Journal of Computational Physics
+  #       paper_status: Manuscript
+  #       year: Summer 2022
+  #
+  # - items: 'Science!'
+  #   paperitems:
+  #     - title: 'Reinforcement Learning Without Explicit Specification of Intermediate Rewards' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/RLWO.pdf
+  #       authors:
+  #         - <b>Lekan Molu</b>, Other Awesome MSR Authors, and John Langford. #Ian Abraham, and Sylvia Herbert
+  #       venue_web: https://www.science.org/journal/science
+  #       venue: Science
+  #       paper_status: Manuscript
+  #       year: Spring 2022
 
   - items: 'ASME!'
     paperitems:
