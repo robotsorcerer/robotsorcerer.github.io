@@ -4,7 +4,7 @@ publications:
       - title: 'Proper Generalized Decomposition in Hilbert Spaces for Resolving a Class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/PGDReach.pdf
         authors:
-          - <b>Lekan Molu</b>, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+          - <b>Lekan Molu</b> #, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions on Automatic Control
         paper_status: Manuscript
