@@ -21,6 +21,17 @@ publications:
         paper_status: Manuscript
         year: Summer 2022
 
+  - items: 'LevConstitutive!'
+    paperitems:
+      - title: 'A Python Toolbox for the Scalable Analysis of Hamilton-Jacobi PDE Solvers' #: Application to Cranial Cancer Radiation Therap
+        location: /downloads/Papers/LevelSetsPy.pdf
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
+        venue: Journal of Scientific Computing
+        paper_status: Manuscript
+        year: Summer 2022
+
   - items: 'Science!'
     paperitems:
       - title: 'Reinforcement Learning Without Explicit Specification of Intermediate Rewards' #: Application to Cranial Cancer Radiation Therapy
