@@ -11,14 +11,4 @@ permalink: wellness
 
 + [Devi Parikh: Calendar. Not to-do lists.](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd)
 
-+ [Understanding race and police aggressiveness in America -- Carl Lentz and T.D. Jakes.](/downloads/msgs/HillsongNYCJakesLentz.mp3)
-
-+ [MJohnson K99/R00  Review](/downloads/msgs/MJohnson0605.mp3)
-+ Hillsong Sydney
-  - [05/16/2020](/downloads/msgs/BrianHouston05/16.mp3)
-  - [05/23/2020 - When Faith is now](/downloads/msgs/NowFaith.mp3)
-  - [06/06/2020 - Pressured Not Stressed](/downloads/msgs/PressuredNotStressed.mp3)
-+ C3 Philly
-  - [06/06/2020 - C3 Philly Race Convo with S. Zaza, Alyssa Vasquez and Colin Blois](/downloads/msgs/C3PhillyRaceConvo.mp3)
-
 + [Emancipation Proclamation, NPR Narrative on Juneteenth 2020](downloads/msgs/Emancipation_ProclamationNPR2020.mp3)
