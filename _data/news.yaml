@@ -4,8 +4,15 @@ news_items:
       - content: 'Presented <a href="https://www.microsoft.com/en-us/research/theme/reinforcement-learning-group/#people">our team's</a> recent findings
         on <a href="https://arxiv.org/abs/2106.04887">grounded interactive learning</a> at
         the real-world reinforcement learning track for the 2021 <a href="https://researchsummit.microsoft.com/home_public">Microsoft Research Summit.</a>'
-        highlight: true
+        highlight: false
         date: October 21, 2021
+  - items: 'LyapunovSolver!'
+    subnewsitems:
+      - content: 'Made cosmetic updates to my <a href="https://github.com/lakehanne/LyapunovLearner">Lyapunov Functions Learner in Python</a>.
+                  The robot imitation learning example is further sanitized and cleaner to read.
+                  More robot learning examples coming soon. Thanks to my collaborator, Rodrigo Pérez-Dattari.'
+        date: October 10, 2021
+        highlight: true
   - items: 'MSR!'
     subnewsitems:
       - content: 'After a crazy past few months of interviews, I have accepted a Senior Researcher role at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research.</a>
