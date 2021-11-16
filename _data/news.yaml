@@ -6,14 +6,14 @@ news_items:
   #       the real-world reinforcement learning track for the 2021 <a href="https://researchsummit.microsoft.com/home_public">Microsoft Research Summit.</a>'
   #       highlight: false
   #       date: October 21, 2021
-  - items: 'LyapunovSolver!'
-    subnewsitems:
-      - content: 'Open-sourced <a href="https://github.com/lakehanne/LyapunovLearner">'Learning Control Lyapunov Functions'</a>
-                  for the stability of dynamical systems. Thanks to
-                  <a href="https://www.tudelft.nl/en/staff/r.j.perezdattari/?cHash=5828cee4bdebfb6a575f00793a2566d5>"Rodrigo Pérez-Dattari, who helped clean up
-                  the nolinear optimization portion of the code; and my former student, Rachel Thompson, who helped in the early stages of the project.</a>'
-        date: October 10, 2021
-        highlight: true
+  # - items: 'LyapunovSolver!'
+  #   subnewsitems:
+  #     - content: 'Open-sourced <a href="https://github.com/lakehanne/LyapunovLearner">'Learning Control Lyapunov Functions'</a>
+  #                 for the stability of dynamical systems. Thanks to
+  #                 <a href="https://www.tudelft.nl/en/staff/r.j.perezdattari/?cHash=5828cee4bdebfb6a575f00793a2566d5>"Rodrigo Pérez-Dattari, who helped clean up
+  #                 the nolinear optimization portion of the code; and my former student, Rachel Thompson, who helped in the early stages of the project.</a>'
+  #       date: October 10, 2021
+  #       highlight: true
   - items: 'MSR!'
     subnewsitems:
       - content: 'After a crazy past few months of interviews, I have accepted a Senior Researcher role at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research.</a>
