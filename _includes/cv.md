@@ -37,7 +37,7 @@
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h6>Recent Job Talks</h6>
 - [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC Seminar (Senior Researcher -- Reinforcement Learning), New York City, March 2021.
-- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson (Senior Research Scientist -- Robotic Radiosurgery), San Francisco, Feb 2021.
+- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, Feb 2021.
 <!--
     /assets/presentations/MSR.pdf
     /assets/presentations/AurisHealth.pdf
@@ -120,3 +120,4 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
  -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
  -  Profiles in Courage -- John Fitzgerald Kennedy.
  -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
+ -  Managing Up -- Rosanne Badowski.
