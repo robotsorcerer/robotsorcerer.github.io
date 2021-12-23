@@ -114,10 +114,10 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
 
+ -  Managing Up -- Rosanne Badowski.
+ -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
+ -  Profiles in Courage -- John Fitzgerald Kennedy.
  -  1776 -- David McCullough.
  -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
  -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
  -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
- -  Profiles in Courage -- John Fitzgerald Kennedy.
- -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
- -  Managing Up -- Rosanne Badowski.

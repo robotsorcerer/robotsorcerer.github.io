@@ -14,6 +14,14 @@ news_items:
   #                 the nolinear optimization portion of the code; and my former student, Rachel Thompson, who helped in the early stages of the project.</a>'
   #       date: October 10, 2021
   #       highlight: true
+  - items: 'Interns!'
+    subnewsitems:
+      - content: 'Our group at MSR NYC is recruiting <a href="https://careers.microsoft.com/us/en/job/1183184/Research-Intern-Real-World-Reinforcement-Learning">interns</a>, postdocs, and researchers for the 2021/2022 season in reinforcement learning.
+      I am not a single-issue researcher. If you are looking for internship or postdoc opportunities,
+       and you think our interests are aligned (have a peek around the working drafts section of my publications page), please do not hesitate to shoot me
+      an email.'
+        highlight: true
+        date: December 22, 2021
   - items: 'MSR!'
     subnewsitems:
       - content: 'After a crazy past few months of interviews, I have accepted a Senior Researcher role at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research.</a>
