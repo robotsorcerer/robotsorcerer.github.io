@@ -8,7 +8,7 @@
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Experience</h4>
   - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present
-  - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - Present).
+  - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
   - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
   - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
   - Research Intern (Robot Learning), [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
@@ -37,7 +37,7 @@
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h6>Recent Job Talks</h6>
 - [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC Seminar (Senior Researcher -- Reinforcement Learning), New York City, March 2021.
-- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson (Senior Research Scientist -- Robotic Radiosurgery), San Francisco, Feb 2021.
+- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, Feb 2021.
 <!--
     /assets/presentations/MSR.pdf
     /assets/presentations/AurisHealth.pdf
@@ -114,9 +114,10 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
 
+ -  Managing Up -- Rosanne Badowski.
+ -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
+ -  Profiles in Courage -- John Fitzgerald Kennedy.
  -  1776 -- David McCullough.
  -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
  -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
  -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
- -  Profiles in Courage -- John Fitzgerald Kennedy.
- -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.

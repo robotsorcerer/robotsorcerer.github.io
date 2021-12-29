@@ -2,7 +2,9 @@
 layout: post
 ---
 
-I mostly teach a mixture of undergrad and graduate level classes in Robotics at Brandeis.
+~~I mostly teach a mixture of undergrad and graduate level classes in Robotics at Brandeis.~~
+
+I have left Brandeis.
 
 
 #### **RBOT250: The Mathematical Foundations of Robotics, Spring 2021.**
