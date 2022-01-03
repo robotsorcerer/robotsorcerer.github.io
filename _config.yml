@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"  > #  Still Atta
         Rerum Cognoscere Causas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scriptedonachip.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: MSFTResearch #therobosorcerer
+twitter_username: robotsorcerer
 github_username:  robotsorcerer
 docker_username:  robotsorcerer
 timezone:         America/New-York
