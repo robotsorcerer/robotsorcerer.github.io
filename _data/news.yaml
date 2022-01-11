@@ -8,7 +8,7 @@ news_items:
   #       date: October 21, 2021
   - items: 'LyapunovSolver!'
     subnewsitems:
-      - content: 'Open-sourced <a href="https://github.com/lakehanne/LyapunovLearner">'Learning Control Lyapunov Functions'</a>
+      - content: 'Open-sourced Khansari-Zadeh's <a href="https://github.com/robotsorcerer/LyapunovLearner">'Learning Control Lyapunov Functions'</a>
                   for the stability of dynamical systems.</a>'
         date: January 10, 2022
         highlight: true
