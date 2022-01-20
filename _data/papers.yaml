@@ -10,6 +10,17 @@ publications:
         paper_status: Manuscript
         year: Spring 2022
 
+  - items: 'LargeBRAT!'
+    paperitems:
+      - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective.' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/LBRAT.pdf
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Algorithm Foundations of Robotics, XV
+        paper_status: Manuscript
+        year: February 2022
+
   - items: 'CompPhys!'
     paperitems:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
@@ -39,7 +50,7 @@ publications:
         authors:
           - <b>Lekan Molu</b>, and Other Awesome MSR Authors #, and John Langford. #Ian Abraham, and Sylvia Herbert
         venue_web: https://www.science.org/journal/science
-        venue: Science
+        venue: Unknown
         paper_status: Manuscript
         year: Spring 2022
 
