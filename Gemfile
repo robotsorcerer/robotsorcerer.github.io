@@ -32,4 +32,4 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
-spec.add_dependency "bundler", ">= 2.2.33"
+spec.add_dependency "bundler", ">=2.2.33"
