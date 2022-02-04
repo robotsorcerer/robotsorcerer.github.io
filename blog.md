@@ -2,7 +2,8 @@
 layout: post
 permalink: blog
 ---
-<?php include_once("analyticstracking.php") ?>
+
+  > Musings of an Engineer-Researcher.
 
 <ul class="posts">
   {% for post in site.posts %}

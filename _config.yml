@@ -1,15 +1,15 @@
 
-title: Lekan Molu # ぇかん オグンモゥ (
+title: Lekan Molu #(ぇかん オグンモゥ)
 locale: en_US
-email: ogunmolo@pennmedicine.upenn.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Rerum Cognoscere Causas
+email: patlekno@icloud.com #olalekan.ogunmolu@pennmedicine.upenn.edu
+description: > # this means to ignore newlines until "baseurl:"  > #  Still Attacking Cancer
+        Rerum Cognoscere Causas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scriptedonachip.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: patmeansnoble
-github_username:  lakehanne
-docker_username:  lakehanne
-timezone:         America/Chicago
+twitter_username: robotsorcerer
+github_username:  robotsorcerer
+docker_username:  robotsorcerer
+timezone:         America/New-York
 quora_username:   Olalekan-Ogunmolu
 sass:
   sass_dir: _sass

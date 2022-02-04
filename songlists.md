@@ -1,15 +1,14 @@
-### All Worship
+---
+layout: post
+permalink: wellness
+---
+<?php include_once("analyticstracking.php") ?>
 
-+ Any Given Day -- Light the fire again
 
-+ Hear Us From Heaven -- Ross Parsley (Open the blind eyes, unlock the deaf ears, hear us from heaven, touch our generation, we are your people crying out in desperation)
+## Cultivating All-Around Wellness
 
-+ All I Have (Oh How You Love Me) -- Rita Springer
++ [Mental wellness --  Heather Hersh](/downloads/msgs/HeatherHershWellness.mp3)
 
-+ [What A Savior, Lauura Story]()
++ [Devi Parikh: Calendar. Not to-do lists.](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd)
 
-### Sick Country Beats
-
-+ [Head over boots, Jon Pardi](https://www.youtube.com/watch?v=3odIdmuFfEY)
-
-+ [Stand at your window, Jim Reeves](https://www.youtube.com/watch?v=tBeBn5-3_x0)
++ [Emancipation Proclamation, NPR Narrative on Juneteenth 2020](downloads/msgs/Emancipation_ProclamationNPR2020.mp3)

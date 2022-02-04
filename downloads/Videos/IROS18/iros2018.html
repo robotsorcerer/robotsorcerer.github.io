@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<!-- Mathjax script -->
+	<head>
+		<script type="text/x-mathjax-config">
+				MathJax.Hub.Config({
+					  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+				});
+		</script>
+
+		<script type="text/javascript" src="MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+
+		<meta charset="utf-8">
+
+		<title>Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks.</title>
+
+		<meta name="description" content="Minimax Iterative Dynamic Game">
+		<meta name="author" content="Olalekan Ogunmolu">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../dfwslides/css/reveal.css">
+		<link rel="stylesheet" href="../dfwslides/css/theme/league.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/serif.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="https://static.wixstatic.com/media/09d8d3_e986187724e3d7d844afe427c1254c63.jpg/v1/fill/w_1048,h_699,al_c,q_90/09d8d3_e986187724e3d7d844afe427c1254c63.webp" style="display:block; background:#000; opacity: 0.56" slide-background="#000">
+					<!-- <h3>Vision-based Control of a Soft Robot for Maskless Head and Neck Cancer Radiotherapy</h3> -->
+					<br>
+					<h3>Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks.</h3>
+						<br></br>
+						<small>Authors: <a href="http://scriptedonachip.com">Olalekan Ogunmolu,</a>
+									 <a href="http://ecs.utdallas.edu/~ngans"> Nick Gans,</a>
+									 <a href="http://me.utdallas.edu/people/summers.html"> and Tyler Summers </a></small>
+							<br><a font color="magenta"><small>The Departments of Electrical and Mechanical Engineering, </small></a>
+							<a font color="magenta"><small>University of Texas at Dallas, TX, USA</small></a>
+				</section>
+
+				<section data-background="https://static.wixstatic.com/media/09d8d3_e986187724e3d7d844afe427c1254c63.jpg/v1/fill/w_1048,h_699,al_c,q_90/09d8d3_e986187724e3d7d844afe427c1254c63.webp">
+					<h3>Robustness Margins Experiment</h3>
+					<iframe width="900" height="520" src="https://www.youtube.com/embed/AtVd5sFe33I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</section>
+
+				<section data-background="https://static.wixstatic.com/media/09d8d3_e986187724e3d7d844afe427c1254c63.jpg/v1/fill/w_1048,h_699,al_c,q_90/09d8d3_e986187724e3d7d844afe427c1254c63.webp">
+					<h3>iLQG Experiment</h3>
+					<video src="../media/iros18/ilqg/ilqg.mp4" width="900" height="520" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen controls> </video>
+				</section>
+
+				<section data-background="https://static.wixstatic.com/media/09d8d3_e986187724e3d7d844afe427c1254c63.jpg/v1/fill/w_1048,h_699,al_c,q_90/09d8d3_e986187724e3d7d844afe427c1254c63.webp">
+					<h3>iDG Experiment I</h3>
+					<video src="../media/iros18/idg/expt_I_full.mp4" width="900" height="520" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen controls> </video>
+				</section>
+
+				<section data-background="https://static.wixstatic.com/media/09d8d3_e986187724e3d7d844afe427c1254c63.jpg/v1/fill/w_1048,h_699,al_c,q_90/09d8d3_e986187724e3d7d844afe427c1254c63.webp">
+					<h3>iDG Experiment II</h3>
+					<video src="../media/iros18/idg/expt_II_full.mp4" width="900" height="520" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen controls> </video>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="../dfwslides/lib/js/head.min.js"></script>
+		<script src="../dfwslides/js/reveal.js"></script>
+
+		<script>
+
+			// // Full list of configuration options available at:
+			// // https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				// Display the page number of the current slide
+				slideNumber: true,
+
+				// Push each slide change to the browser history
+				history: true,
+
+				// Enable keyboard shortcuts for navigation
+				keyboard: true,
+				// Turns fragments on and off globally
+				fragments: true,
+				// Flags if speaker notes should be visible to all viewers
+				// showNotes: false,
+				// Number of milliseconds between automatically proceeding to the
+				// next slide, disabled when set to 0, this value can be overwritten
+				// by using a data-autoslide attribute on your slides
+				 autoSlide: 0,
+				// Stop auto-sliding after user input
+				autoSlideStoppable: true,
+				// Enable slide navigation via mouse wheel
+				// mouseWheel: true
+				// // Hides the address bar on mobile devices
+				 hideAddressBar: true,
+
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../dfwslides/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../dfwslides/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../dfwslides/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../dfwslides/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../dfwslides/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../dfwslides/plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
