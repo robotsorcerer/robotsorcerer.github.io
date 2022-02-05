@@ -1,21 +1,53 @@
 news_items:
-  - items: Brandeis
+  # - items: 'LyapunovSolver!'
+  #   subnewsitems:
+  #     - content: "Open-sourced <a href="https://github.com/robotsorcerer/LyapunovLearner">Learning Control Lyapunov Functions
+  #                 for the stability of dynamical systems.</a>"
+  #       date: January 10, 2022
+  #       highlight: true
+  # - items: 'Interns!'
+  #   subnewsitems:
+  #     - content: 'Our group at MSR NYC is recruiting <a href="https://careers.microsoft.com/us/en/job/1183184/Research-Intern-Real-World-Reinforcement-Learning">interns</a>,
+  #     <a href="https://www.microsoft.com/en-us/research/theme/reinforcement-learning-group/opportunities/">postdocs, and researchers</a> for the 2021/2022 season in reinforcement learning.
+  #     I am not a single-issue researcher. If you are looking for internship or postdoc opportunities,
+  #      and you think our interests are aligned (have a peek around the working drafts section of my publications page), please do not hesitate to shoot me
+  #     an email.'
+  #       highlight: true
+  #       date: December 22, 2021
+  # - items: 'MSR!'
+  #   subnewsitems:
+  #     - content: 'After a crazy past few months of interviews, I have accepted a Senior Researcher role at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research.</a>
+  #       <i>Ceteris paribus</i>, I will be resuming in the MSR New York office post-pandemic.'
+  #       highlight: false
+  #       date: March 18, 2021
+  - items: 'AEICRA!'
     subnewsitems:
-      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring of 2020 as an Adjunct Faculty. Basically, I will be synthesizing
-                  robot statics and kinematics, robot dynamics and control, along with  deep reinforcement learning for trajectory optimization. 
-                  I will strive to have all lecture notes and software available on the <a href="https://www.brandeis.edu/gps/current-students/academic-information/course?acad_year=2020&crse_id=014100">
-                  RBOT250 website</a> to the extent that my employer allows.'
+      - content: "Invited to serve as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA)."
         highlight: true
-        date: Nov 07, 2019 
+        date: September 30, 2020
+  - items: AAPM20
+    subnewsitems:
+      - content: "Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got
+                accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i>
+                Please e-attend my talk if you can at AAPM's annual meeting this year."
+        highlight: false
+        date: May 16, 2020
   - items: 'PHinisheD!'
     subnewsitems:
-      - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.,  
-                        <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and 
-                        <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>, 
-                        and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, 
+      - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.,
+                        <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and
+                        <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>,
+                        and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>,
                         T. Summers, Y. Tadesse and D. Bhatia.'
-        highlight: true
-        date: May 16, 2019 
+        highlight: false
+        date: May 16, 2019
+  - items: Brandeis
+    subnewsitems:
+      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring
+                of 2020 as an Adjunct Faculty. I am keeping the lecture notes
+                <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses.'
+        highlight: false
+        date: Nov 07, 2019
   - items: ATR Labs
     subnewsitems:
       - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
@@ -24,13 +56,13 @@ news_items:
   - items: 'Venture capitalists and robotics'
     subnewsitems:
       - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!
-        date: 'August 2017' 
+        date: 'August 2017'
         highlight: true
   - items: 'Postdoc!'
     subnewsitems:
-      - content: Starting in the summer of 2019, after I shall have defended my PhD thesis, 
+      - content: Starting in the summer of 2019, after I shall have defended my PhD thesis,
                   I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/">
-                  The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> 
+                  The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/">
                   Pritzker school of medicine.</a>
         highlight: false
         date: January 31, 2019
@@ -39,18 +71,18 @@ news_items:
       - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>.
                   Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
         highlight: false
-        date: August 20, 2019 
+        date: August 20, 2019
   - items: 'Thanks Google!'
     subnewsitems:
-      - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials, 
+      - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials,
       workshops, and program sessions at NIPS 2018. Bonjour Montréal!'
         highlight: false
-        date: 'October 07, 2018' 
+        date: 'October 07, 2018'
   - items: 'Madrid!'
     subnewsitems:
-      - content: I had a reyt good great time at this year's IROS and ROSCon in Madrid. 
-                 Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>, 
-                 <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>, 
+      - content: I had a reyt good great time at this year's IROS and ROSCon in Madrid.
+                 Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>,
+                 <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>,
                  and video of Marc Raibert's <a href="https://www.instagram.com/p/BobgQPMhuKCrqy9OjV01K9-0cH6kmFZXcB6kgk0/">mini-spot demo</a>
         highlight: false
         date: October 6, 2018
@@ -61,45 +93,45 @@ news_items:
         highlight: false
   - items: 'Nonlinear NeuroControl Talk'
     subnewsitems:
-      - content: 'I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.' 
-        date: 'July 05, 2018' 
+      - content: 'I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.'
+        date: 'July 05, 2018'
         highlight: false
   - items: 'Robust control via game theory'
     subnewsitems:
-      - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept. 
-                  Codes <a href="https://github.com/lakehanne/youbot">here</a>. 
-                  Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!' 
-        date: 'June 2018' 
+      - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept.
+                  Codes <a href="https://github.com/lakehanne/youbot">here</a>.
+                  Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
+        date: 'June 2018'
         highlight: false
   - items: 'Minimax iterative dynamic game'
     subnewsitems:
-      - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018. 
-                Codes <a href="https://github.com/lakehanne/youbot">here</a>. 
-                Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!' 
-        date: 'April 24, 2018' 
+      - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018.
+                Codes <a href="https://github.com/lakehanne/youbot">here</a>.
+                Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
+        date: 'April 24, 2018'
         highlight: false
   - items: 'NSF'
     subnewsitems:
       - content: Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=false">NSF Doctoral Consortium Award.</a>
-        date: 'August 2017' 
-        highlight: false  
+        date: 'August 2017'
+        highlight: false
   - items: 'SNA'
     subnewsitems:
       - content: The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a>
-        date: 'August 2017' 
-        highlight: false  
+        date: 'August 2017'
+        highlight: false
   - items: 'iDGv1'
     subnewsitems:
       - content: Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a>
-        date: 'July 2017' 
-        highlight: false          
+        date: 'July 2017'
+        highlight: false
   - items: 'OSRF'
     subnewsitems:
       - content: Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.
-        date: 'July 2017' 
-        highlight: false     
+        date: 'July 2017'
+        highlight: false
   - items: 'ICML'
     subnewsitems:
       - content: Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.
-        date: 'June 2017' 
-        highlight: false                   
+        date: 'June 2017'
+        highlight: false
