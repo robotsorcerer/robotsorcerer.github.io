@@ -37,75 +37,27 @@
 <h6>Recent Talks</h6>
 
 - [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC Seminar, New York City, March 2021.
-
 - [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, Feb 2021.
-
 - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA. January 2019.
-
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA. November 2018.
-
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
-
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.  
-
 - SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
-
 - A Wearable Soft Robot Modular System for Head and Neck Motion Correction in Intensity-Modulated Radiation Therapy. University of Texas at Arlington Research Institute, Fort Worth, Texas, USA. May 2019.
-
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada. September 2017.
-
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
 
-<br>
 <h6>Classes</h6>
-
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
-
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
 
-<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
- -  NSF Doctoral Consortium Award, 2017
- -  Mary and Richard Templeton Graduate Fellowship, 2017
- -  Ericsson Graduate Fellowship, 2015
- -  President’s Teaching Excellence Award for Teaching Assistants, Nom. 2017
- -  Jonsson Scholarship, 2014
- -  Golden Key Honor, 2016
- -  IEEE Robotics and Automation Society/International Symposium on Assembly and Manufacturing (ISAM) Travel Award, 2016
- -  IEEE Robotics and Automation Society Travel Award, 2018
- -  Google AI Travel and Conference Grant, 2018
- -  ROSCon Scholarship, 2017 -->
-
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>>
-
 - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
-
 - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation](https://www.icra2020.org/), 2020-2021.
-
-- Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica").
-
-- Reviewer, Robotics and Automation Letters, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/).
-
-- Reviewer, [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/).
-
-- Reviewer, [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521), [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020).
-
-- Reviewer, [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/).
-
--  [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/).
-
-- [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/).
-
-- [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC).
-
-- [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/).
-
-- [ICML, International Conference on Machine Learning](https://icml.cc/).
+- Reviewer, [Automatica, A Journal of IFAC, The International Federation of Automatic Control](https://www.journals.elsevier.com/automatica"), Robotics and Automation Letters, [JBHI, An IEEE Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), [Access, An IEEE Journal](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521), [World Congress, The IFAC, The International Federation of Automatic Control](https://www.ifac-control.org/events/ifac-world-congress-21th-wc-2020), [ICRA, An IEEE International Conference on Robotics and Automation.](https://www.icra2020.org/), [CDC, An IEEE International Conference on Decision and Control.](https://cdc2020.ieeecss.org/), [IROS, An IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems](https://www.iros2019.org/), [DSCC, Dynamic Systems and Control Conference, The American Society of Mechanical Engineers Conference](https://event.asme.org/DSCC), [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), [ICML, International Conference on Machine Learning](https://icml.cc/)
 
 <br>
-
-
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities.</h4>
-
  - [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member.
  - [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member.
  - [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member.
@@ -137,6 +89,17 @@ Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider
 + <a href="{{ site.url }}/readlist"> Reading list (Old, very old, and so deprecated)</a>:  A collection of papers I <strike>am currently</strike> reading/implementing.
 +    <a href="/downloads/save_dijs" target="blank">Radiation therapy dose influence matrices </a>: Extracting fluence based on the Varian Medical Systems' C#/Python API from Eclipse. Core API courtesy of Mike Folkerts (Varian).
 
+ <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
+  -  NSF Doctoral Consortium Award, 2017
+  -  Mary and Richard Templeton Graduate Fellowship, 2017
+  -  Ericsson Graduate Fellowship, 2015
+  -  President’s Teaching Excellence Award for Teaching Assistants, Nom. 2017
+  -  Jonsson Scholarship, 2014
+  -  Golden Key Honor, 2016
+  -  IEEE Robotics and Automation Society/International Symposium on Assembly and Manufacturing (ISAM) Travel Award, 2016
+  -  IEEE Robotics and Automation Society Travel Award, 2018
+  -  Google AI Travel and Conference Grant, 2018
+  -  ROSCon Scholarship, 2017
 
 <br>
 
