@@ -4,7 +4,7 @@ publications:
   #     - title: 'Proper Generalized Decomposition in Hilbert Space for a Class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
   #       location: /downloads/Papers/PGDReach.pdf
   #       authors:
-  #         - <b>Lekan Ogunmolu</b>, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+  #         - <b>Olalekan Ogunmolu</b>, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
   #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
   #       venue: Transactions on Automatic Control
   #       paper_status: Manuscript
@@ -15,7 +15,7 @@ publications:
       - title: 'Differential Dynamic Programming for Backward Reachability.' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/DDPBRAT.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Control Systems Letters
         paper_status: Submitted
@@ -26,9 +26,9 @@ publications:
       - title: 'LargeBRAT! Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LBRAT.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Algorithm Foundations of Robotics, XV
+        venue: Algorithm Foundations of Robotics, XV (WAFR)
         paper_status: Submitted
         year: February 2022
 
@@ -37,7 +37,7 @@ publications:
       - title: 'Further Results in Complex Backward Reach-Avoid Tubes' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LBRAT-TAC.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control, XV
         paper_status: Manuscript
@@ -48,7 +48,7 @@ publications:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>. #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>. #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Computational Physics
         paper_status: Manuscript
@@ -59,7 +59,7 @@ publications:
       - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/LevelSetsScale.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>.
+          - <b>Olalekan Ogunmolu</b>.
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Scientific Computing
         paper_status: Manuscript
@@ -70,7 +70,7 @@ publications:
   #     - title: 'Reinforcement Learning Without Explicit Specification of Intermediate Rewards' #: Application to Cranial Cancer Radiation Therapy
   #       location: /downloads/Papers/RLWO.pdf
   #       authors:
-  #         - <b>Lekan Ogunmolu</b>, and Other Awesome MSR Authors #, and John Langford. #Ian Abraham, and Sylvia Herbert
+  #         - <b>Olalekan Ogunmolu</b>, and Other Awesome MSR Authors #, and John Langford. #Ian Abraham, and Sylvia Herbert
   #       venue_web: https://www.science.org/journal/science
   #       venue: Unknown
   #       paper_status: Manuscript
@@ -81,43 +81,18 @@ publications:
       - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/kinecontrol.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Technical Report
         paper_status: Technical Report
         year: March 2021
-
-  - items: 'eScience!'
-    paperitems:
-      - title: 'Recent Trends in Robotic Frameless and Maskless Patient Motion Compensation in External Beam Radiation Therapy'
-        location: #/downloads/Papers/kinecontrol.pdf
-        authors:
-          - <b>Lekan Ogunmolu</b>, and
-          - Rodney Wiersma.
-        venue_web: #
-        venue: #'IOP: Physics in Medicine and Biology'
-        paper_status: Submitted
-        year: September 2021
-
-  - items: 'PMB2021!'
-    paperitems:
-      - title: 'An Automated Universal Phantom Analyzer of XML Style'
-        location: #/downloads/Papers/kinecontrol.pdf
-        authors:
-          - Alexander Van Slyke,
-          - <b>Lekan Ogunmolu</b>, and
-          - Rodney Wiersma.
-        venue_web: #
-        venue: 'IOP: Physics in Medicine and Biology'
-        paper_status: Submitted
-        year: 2021
 
   # - items: 'TRO2019!'
   #   paperitems:
   #     - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
   #       location: /downloads/Papers/ijrr.pdf
   #       authors:
-  #         - <b>Lekan Ogunmolu.</b>
+  #         - <b>Olalekan Ogunmolu.</b>
   #       venue_web: #https://journals.sagepub.com/home/ijr
   #       venue: #The International Journal of Robotics Research (IJRR).
   #       paper_status: Working Manuscript
@@ -128,7 +103,7 @@ publications:
         location: https://link.springer.com/chapter/10.1007/978-3-030-32486-5_1
         authors:
           - Azar Sadeghnejad Barkousaraie,
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Steve Jiang, and
           - Dan Nguyen.
         venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
@@ -141,7 +116,7 @@ publications:
   #     - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
   #       location: #/downloads/Papers/ContinuumI.pdf
   #       authors:
-  #         - <b>Lekan Ogunmolu</b>
+  #         - <b>Olalekan Ogunmolu</b>
   #         - Ayaka Kume and
   #         - Jethro Tan.
   #       venue_web: https://www.ieee-ras.org/publications/ra-l
@@ -153,7 +128,7 @@ publications:
       - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
         location: #/downloads/Papers/ContinuumI.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>,  and
+          - <b>Olalekan Ogunmolu</b>,  and
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
         venue: Oral Presentation at the J.R. Cameron and J.R. Cunningham Young Investigator Symposium, AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
@@ -164,7 +139,7 @@ publications:
       - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
         location: #/downloads/Papers/ContinuumI.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Xinmin Liu, and
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
@@ -177,7 +152,7 @@ publications:
       - title: Mechanism and Model of a Soft Robot for Head Stabilization in Cancer Radiation Therapy.
         location: /downloads/Papers/ContinuumI.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Xinmin Liu,
           - Nick Gans, and
           - Rodney Wiersma.
@@ -192,7 +167,7 @@ publications:
         location: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.13986 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
         authors:
           - Azar Sadeghnejad Barkousaraie,
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Steve Jiang, and
           - Dan Nguyen.
         venue_web: https://www.medphys.org/
@@ -204,7 +179,7 @@ publications:
   #     - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
   #       location: #/downloads/Papers/Springer19.pdf
   #       authors:
-  #         - <b>Lekan Ogunmolu</b> and
+  #         - <b>Olalekan Ogunmolu</b> and
   #         - Rodney Wiersma.
   #       venue_web:
   #       venue: © Springer (Invited Book Chapter)
@@ -216,7 +191,7 @@ publications:
                 Modulated Radiation Therapy'
         location: https://easychair.org/publications/preprint_open/b6vM #'https://easychair.org/publications/preprint/LGsv'
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Michael Folkerts,
           - Dan Nguyen, and
           - Steve Jiang.
@@ -229,7 +204,7 @@ publications:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
         location: 'downloads/Papers/IROS18.pdf' #'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/'
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
           - Tyler Summers.
         venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
@@ -242,7 +217,7 @@ publications:
                 Correction System For Frameless and Maskless Cancer Radiotherapy'
         location: https://ieeexplore.ieee.org/abstract/document/8206211
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Adwait Kulkarn,
           - Yonas Tadesse,
           - Xuejun Gu,
@@ -257,7 +232,7 @@ publications:
       - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
         location: #/downloads/Papers/ContinuumI.pdf
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Dan Nguyen,
           - Chenyang Shen,
           - Xun Jia,
@@ -272,7 +247,7 @@ publications:
   #     - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
   #               Beam Orientation Selection  in Cancer Radiation Therapy
   #       location: /downloads/Papers/PhDThesis.pdf
-  #       authors: <b>Lekan Ogunmolu</b>
+  #       authors: <b>Olalekan Ogunmolu</b>
   #       venue_web: https://www.utsouthwestern.edu/
   #       venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
   #       paper_status: Accepted
@@ -283,7 +258,7 @@ publications:
         location: '/404'
         authors:
           - Azar Sadeghnejad Barkousaraie,
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Steve Jiang, and
           - Dan Nguyen.
         venue_web: http://iccr-mcma.org/iccr2019/
@@ -297,7 +272,7 @@ publications:
         authors:
           - Yara Almubarak,
           - Joshi Aniket,
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Xuejun Gu,
           - Steve Jiang,
           - Nicholas Gans, and
@@ -311,7 +286,7 @@ publications:
       - title: 'Robust Zero-Sum Deep Reinforcement Learning'
         location: 'https://arxiv.org/abs/1710.00491v5'
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
           - Tyler Summers.
         venue_web: https://arxiv.org
@@ -323,7 +298,7 @@ publications:
       - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
         location: 'https://arxiv.org/abs/1610.01439'
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Xuejun Gu,
           - Steve Jiang, and
           - Nick Gans.
@@ -336,7 +311,7 @@ publications:
       - title: 'Vision-based Control of a Soft Robot for Maskless Cancer Radiotherapy'
         location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf'
         authors:
-          - <b>Lekan Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Xuejun Gu,
           - Steve Jiang, and
           - Nick Gans.
@@ -350,7 +325,7 @@ publications:
                 System for Maskless Head-and-Neck Cancer Radiotherapy'
         location: https://ieeexplore.ieee.org/document/7294318 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
         authors:
-          - <b>Olalekan P. Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Xuejun Gu,
           - Steve Jiang, and
           - Nick Gans.
@@ -363,7 +338,7 @@ publications:
       - title: 'An Image-Guided Soft Robotic Patient Positioning System for Maskless Head  And Neck Cancer Radiotherapy: A Proof of Concept Study'
         location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
         authors:
-          - <b>Olalekan P. Ogunmolu</b>,
+          - <b>Olalekan Ogunmolu</b>,
           - Nick Gans,
           - Steve Jiang, and
           - Xuejun Gu
@@ -373,6 +348,6 @@ publications:
         year: Annaheim, CA, August 2015
         paper_status: Accepted
 
-  # authors: <a href="http://scriptedonachip.com"><b>Lekan Ogunmolu</b></a>, <a href="http://home.uchicago.edu/~xmliu/">Xinmin Liu</a>,
+  # authors: <a href="http://scriptedonachip.com"><b>Olalekan Ogunmolu</b></a>, <a href="http://home.uchicago.edu/~xmliu/">Xinmin Liu</a>,
   #           <a href="https://www.uta.edu/utari/contact-us/staff-member.php?staffid=nicholas-gans-phd">Nick Gans</a>, and
   #           <a href="https://radonc.uchicago.edu/">Rodney Wiersma</a>
