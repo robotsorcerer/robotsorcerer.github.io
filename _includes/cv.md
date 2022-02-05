@@ -7,16 +7,15 @@
    **Expert buzzwords**: System Identification, Control Theory, State Estimation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
-  - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present
-  - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
-  - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
-  - Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
-  - Research Intern (Robot Learning), [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
-  - Mechatronics Intern, [Amazon Robotics](https://www.amazonrobotics.com/#/) (Advanced Robotics Lab), Greater Boston, MA (2016).
-  - Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (2014 - 2019).
-  - Visiting Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (2014 - 2019).
-  - Student, [The University of Sheffield, Automatic Control and Systems Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012/2013).
-  <!-- - Supply Chain Manager, [Coca-Cola Hellenic Bottilng Co.](https://coca-colahellenic.com/), Lagos/Athens (2009 - 2011). -->
+- Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present
+- Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
+- Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
+- Postdoctoral Scholar, [The University of Chicago, Pritzker School of Medicine](https://pritzker.uchicago.edu/) (2019).
+- Research Intern (Robot Learning), [Preferred Networks](https://www.preferred-networks.jp/en/), Tokyo, Japan (Ended 2018).
+- Mechatronics Intern, [Amazon Robotics](https://www.amazonrobotics.com/#/) (Advanced Robotics Lab), Greater Boston, MA (2016).
+- Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (2014 - 2019).
+- Visiting Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (2014 - 2019).  
+- Student, [The University of Sheffield, Automatic Control and Systems Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012/2013).
 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Select News Highlights</h4>
@@ -51,7 +50,7 @@
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, Spring 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, Spring 2020.
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
+<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
  -  NSF Doctoral Consortium Award, 2017
  -  Mary and Richard Templeton Graduate Fellowship, 2017
  -  Ericsson Graduate Fellowship, 2015
@@ -61,7 +60,7 @@
  -  IEEE Robotics and Automation Society/International Symposium on Assembly and Manufacturing (ISAM) Travel Award, 2016
  -  IEEE Robotics and Automation Society Travel Award, 2018
  -  Google AI Travel and Conference Grant, 2018
- -  ROSCon Scholarship, 2017
+ -  ROSCon Scholarship, 2017 -->
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>>
   - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
