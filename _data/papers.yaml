@@ -10,6 +10,17 @@ publications:
   #       paper_status: Manuscript
   #       year: Spring 2022
 
+  - items: 'DDPVEr!'
+    paperitems:
+      - title: 'Differential Dynamic Programming for Backward Reachability.' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/DDPBRAT.pdf
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Control Systems Letters
+        paper_status: Submitted
+        year: February 2022
+
   - items: 'LargeBRAT!'
     paperitems:
       - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective.' #: Application to Cranial Cancer Radiation Therapy
@@ -18,7 +29,7 @@ publications:
           - <b>Lekan Molu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Algorithm Foundations of Robotics, XV
-        paper_status: Manuscript
+        paper_status: Submitted
         year: February 2022
 
   - items: 'LargeBRAT!'
@@ -30,7 +41,7 @@ publications:
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control, XV
         paper_status: Manuscript
-        year: February 2022
+        year: March 2022
 
   - items: 'CompPhys!'
     paperitems:
