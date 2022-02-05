@@ -1,16 +1,39 @@
+"_Logic, after all, is a trick devised by the human mind to solve certain types of problems. But mathematics is more than logic, it is logic plus the creative process. How the logical devices that constitute the tools of mathematics are to be combined to yield the desired results is not necessarily logical, no more than the writing of a symphony is a logical exercise, or the painting of a picture an exercise in syllogisms._" ~ Richard Bellman, 1972
+
+"_The aim of science is to make difficult things understandable in a simpler way; the aim of poetry is to state simple things in an incomprehensible way. The two are incompatible._" ~ Paul Dirac, criticizing J. Robert Oppenheimer's love for poetry.
+
 "_...Deduction [and] Induction ... render the indefinite definite; Deduction explicates; Induction evaluates: that is all. Over the chasm that yawns between the ultimate goal of science and such ideas of Man's environment as ... he managed to communicate to some fellow, we are building a cantilever bridge of induction, held together by scientific struts and ties. Yet every plank of its advance is first laid by Retroduction alone, that is to say, by the spontaneous conjectures of instinctive reason ..._" ~ C.S. Peirce, Scientific Metaphysics (1908), S475
+
+"_ ...Don't apply any model until you understand the simplifying assumptions on which it is based, and you can test their validity. Catch phrase: Use only as directed. Don't believe that the model is the reality. Catch phrase: You will never strike oil by drilling through the map._" ~ Saul Golomb, "Mathematical Models -- Uses and Limitations." 1970
+
+"_'Why do you dance?' Dirac asked his companion, Heisenberg. 'When there are nice girls, it is a pleasure,' Heisenberg replied. Dirac pondered this notion, then blurted out: 'But, Heisenberg, how do you know beforehand that the girls are nice?'_"
 
 
 "_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier
+
+
+
+"..._it is wrong to think that rigor is the enemy of simplicity. Numerous examples establish the opposite, that the rigorous method is also the simpler and easier to grasp. The pursuit of rigor compels us to discover simpler arguments; also, often it clears the path to methods susceptible of more development than were the old, less rigorous ones._ ... " ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
+
+"_I have an equation. Do you have one too?_" ~ Paul Dirac, to a young Feynman
 
 "_But, after all, the sciences have made progress, because philosophers have applied themselves with more attention to observe, and have communicated to their language that precision and accuracy which they have employed in their observations: In correcting their language they reason better._" ~ Abbé de Condillac
 
 "_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman
 
 
+"_I cannot understand why we idle discussing religion. If we are honest—and scientists have to be—we must admit that religion is a jumble of false assertions, with no basis in reality. The very idea of God is a product of the human imagination. It is quite understandable why primitive people, who were so much more exposed to the overpowering forces of nature than we are today, should have personified these forces in fear and trembling. But nowadays, when we understand so many natural processes, we have no need for such solutions. I can't for the life of me see how the postulate of an Almighty God helps us in any way. What I do see is that this assumption leads to such unproductive questions as why God allows so much misery and injustice, the exploitation of the poor by the rich and all the other horrors He might have prevented. If religion is still being taught, it is by no means because its ideas still convince us, but simply because some of us want to keep the lower classes quiet. Quiet people are much easier to govern than clamorous and dissatisfied ones. They are also much easier to exploit. Religion is a kind of opium that allows a nation to lull itself into wishful dreams and so forget the injustices that are being perpetrated against the people. Hence the close alliance between those two great political forces, the State and the Church. Both need the illusion that a kindly God rewards—in heaven if not on earth—all those who have not risen up against injustice, who have done their duty quietly and uncomplainingly. That is precisely why the honest assertion that God is a mere product of the human imagination is branded as the worst of all mortal sins._" ~ Paul Dirac
+
+"_It seems to be one of the fundamental features of nature that fundamental physical laws are described in terms of a mathematical theory of great beauty and power, needing quite a high standard of mathematics for one to understand it. You may wonder: Why is nature constructed along these lines? One can only answer that our present knowledge seems to show that nature is so constructed. We simply have to accept it. One could perhaps describe the situation by saying that God is a mathematician of a very high order, and He used very advanced mathematics in constructing the universe. Our feeble attempts at mathematics enable us to understand a bit of the universe, and as we proceed to develop higher and higher mathematics we can hope to understand the universe better._" ~ Paul Dirac, later in his life.
+
+"_It could be that it is extremely difficult to start life. It might be that it is so difficult to start life that it has happened only once among all the planets... Let us consider, just as a conjecture, that the chance life starting when we have got suitable physical conditions is 10−100. I don't have any logical reason for proposing this figure, I just want you to consider it as a possibility. Under those conditions ... it is almost certain that life would not have started. And I feel that under those conditions it will be necessary to assume the existence of a god to start off life. I would like, therefore, to set up this connexion between the existence of a god and the physical laws: if physical laws are such that to start off life involves an excessively small chance, so that it will not be reasonable to suppose that life would have started just by blind chance, then there must be a god, and such a god would probably be showing his influence in the quantum jumps which are taking place later on. On the other hand, if life can start very easily and does not need any divine influence, then I will say that there is no god._" ~ Paul Dirac, 1971
+
 "_Robotics is not a single idea. It is a substantial body of scientific and engineering results, accumulated over centuries. It draws primarily from mathematics, physics, mechanical engineering, and computer science, but also from philosophy, psychology, biology and other fields. Robotics is the gathering place of these ideas. Robotics provides motivation. Robotics tests ideas and steers continuing research. Finally, robotics is the proof. Observing a robot’s behavior is the nearly compelling proof that machines can be aware of their surroundings, can develop meaningful goals, and can act effectively to accomplish those goals._" ~ Matthew Mason
 
 "_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck
+
+"_If we do not succeed in solving a mathematical problem, it is often because we have failed to recognize the more general standpoint from which the problem before us appears only as a single link in a chain of related problems. ... This way to find general methods is certainly the most practicable and the surest, for he who seeks for methods without having a definite problem in mind seeks in vain._" ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901)
+
 
 "_The basic idea is that machine tools obey cause and effect relationships that are within our ability to understand and control and that there is nothing random or probabilistic about their behavior. Everything happens for a reason and the list of reasons is small enough to manage._" ~ Jim Bryan
 
@@ -29,6 +52,15 @@ constantly the ground in their garden._" ~ Ramón y Cajal, Letters to a Young In
 "_It is one of the first duties of a professor, for example, in any subject, to exaggerate a litle both the importance of his subject and his own importance in it_” ~ G. H. Hardy, 1940
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech
+
+"_All that is gold does not glitter,
+Not all those who wander are lost;
+The old that is strong does not wither,
+Deep roots are not reached by the frost.
+From the ashes, a fire shall be woken,
+A light from the shadows shall spring;
+Renewed shall be blade that was broken,
+The crownless again shall be king._" ~ J.R.R. Tolkien
 
 "_Classical mathematics concentrated on linear equations for a sound pragmatic reason: it could not solve anything else._" ~ Ian Stewart
 
