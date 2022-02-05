@@ -42,9 +42,19 @@
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA. November 2018.
 <!-- - A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and Beam Orientation Selection  in Cancer Radiation Therapy.  -->
 
+<<<<<<< HEAD
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan. August 2018.
   
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan. August 2018.
+=======
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Current Reading Stack </h4>
+  - Michael Jordan: The Life -- Roland Lazenby.
+  - Richard Feynmann: A Life in Science -- John and MAry Gribbin.
+  - Eisenhower: In war and peace -- Jean Edward Smith.
+  - Henry Ford.
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
+>>>>>>> 3c389e7... added reading stack and updated job talks
 
 - SoftNeuroAdapt: A 3-DoF Neuro-Adaptive Healthcare System.  Google Robotics, Mountain View, CA. USA. September 2017. [Work presented by Nick Gans].
 
