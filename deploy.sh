@@ -1,5 +1,5 @@
 #! /bin/sh
 
-bundle exec jekyll build;
-bundle exec jekyll serve #--no-watch
+bundle exec jekyll build -- trace;
+bundle exec jekyll serve --trace
 
