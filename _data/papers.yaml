@@ -10,36 +10,47 @@ publications:
   #       paper_status: Manuscript
   #       year: Spring 2022
 
+  - items: 'BRATCapture!'
+    paperitems:
+      - title: 'On the Capture Surface of the Pursuit-Evasion Game of Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/CaptureBRAT.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Transactions in Automatic Control.
+        paper_status: Submitted
+        year: March 2022
+
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'Differential Dynamic Programming for Backward Reachability.' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Differential Dynamic Programming for Backward Reachability' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/DDPBRAT.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Control Systems Letters
+        venue: Letters, Control Systems Society.
         paper_status: Submitted
         year: February 2022
 
   - items: 'LargeBRAT!'
     paperitems:
-      - title: 'LargeBRAT! Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LBRAT.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Algorithm Foundations of Robotics, XV (WAFR)
-        paper_status: Submitted
+        paper_status: Manuscript
         year: February 2022
 
-  - items: 'LargeBRAT!'
+  - items: 'BRAT2!'
     paperitems:
       - title: 'Further Results in Complex Backward Reach-Avoid Tubes' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LBRAT-TAC.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control, XV
+        venue: Transactions in Automatic Control
         paper_status: Manuscript
         year: March 2022
 
