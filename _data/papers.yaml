@@ -17,8 +17,8 @@ publications:
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control.
-        paper_status: Submitted
+        venue: Transactions in Automatic Control
+        paper_status: Manuscript
         year: March 2022
 
   - items: 'DDPVEr!'
@@ -28,7 +28,7 @@ publications:
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Letters, Control Systems Society.
+        venue: Letters, Control Systems Society
         paper_status: Submitted
         year: February 2022
 
