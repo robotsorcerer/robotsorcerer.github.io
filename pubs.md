@@ -33,7 +33,13 @@ permalink: pubs
 		          			{% for author in paper.authors %}
 		          				{{ author  }}
 		          			{% endfor %}<br>
-		      				<a href="{{ paper.venue_web }}" target="blank"><i>Submitted to {{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
+		          			<details><summary>BibTeX</summary><pre>
+								@article{DDPBRAT,
+								title   = "{{ paper.title }}",
+								author  = "{{ paper.author }}",
+								journal = "{{ paper.venue }}",
+								year    = "{{ paper.year }}",
+								}</pre></details><br>
 			      		</td>
 		      		</tr>
 	      	{% endif %}
