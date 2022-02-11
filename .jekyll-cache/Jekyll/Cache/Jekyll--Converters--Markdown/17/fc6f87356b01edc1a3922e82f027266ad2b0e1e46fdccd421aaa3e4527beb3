@@ -1,0 +1,209 @@
+I"�2
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<!--Mathjax Parser -->
+<script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<!-- ### <center>Optimal Controllers: </center> -->
+<p>This post deals with understanding the necessary and sufficient conditions, fundamental Lipschitz continuity assumptions and the terminal boundary conditions imposed on the Hamilton-Jacobi equation to assure that the problem of minimizing an integral performance index is well-posed.</p>
+
+<h4 id="problem-statement">Problem Statement</h4>
+
+<p>Suppose we have the following nonlinear dynamical system</p>
+
+<p>\begin{equation}            \label{eq:system}
+  \dot{x}  =f(x, u, t), \qquad \qquad x(t_0) = x_0
+\end{equation}</p>
+
+<p>which starts at state, \(x_0\) and time, \(t_0\).</p>
+
+<h5 id="assumption-i"><strong>Assumption I</strong></h5>
+
+<p>If the function \(f(\centerdot)\) is
+continuously differentiable in all its arguments, then the initial value problem (IVP) of \eqref{eq:system} has a <u>unique solution</u> on a finite time interval; this is a sufficient assumption (Khalil, 1976).</p>
+
+<h5 id="assumption-ii"><strong>Assumption II</strong></h5>
+
+<p>\(T\) is sufficiently small enough to reside within the time interval where the system’s solutions are defined.</p>
+
+<p>Qualitatively, our goal is to <strong>optimally</strong> control the system when it starts in a state \(x_0\), at time \(t_0\), to a neighborhood of the terminal manifold \(T\), whilst exerting as minimal a control energy as possible. Quantitatively, we can define this goal in terms of an index of performance evaluation defined thus:</p>
+
+<p>\begin{equation}            \label{eq:cost}
+  J = J(x(t_0, u(\centerdot), t_0)  = \int\limits_{t=t_0}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))
+\end{equation}</p>
+
+<p>where \(J\) is evaluated along the trajectories of the system \(x(t)\), based on an applied control \(u(\centerdot)|_{t_0 \le t \le T} \).
+With \(L\left(x(\tau), u(\tau), \tau\right)\) as the instantaneous cost and \(V(x(T))\) as the terminal cost (which are nonnegative funtions of their arguments), we can think of \(J\) as the total amount of actions we take (controls) and the state energy utilized in bearing the states from \(x_0\) to a neighborhood of the terminal manifold \(V(x(T)) = 0\).</p>
+
+<p>The question to ask then is that given the cost of performance index \(J\), how do we find a control law \(u^\star\) that is optimal along a unique state trajectory, \(x^\star\), in the interval \([t_0, T]\)? This optimal cost would be the minimum of all the possible costs that we could possibly incur when we implement the optimal control law \(u^\star\). Mathematically, we can express this cost as:</p>
+
+<p>\begin{gather}
+  J^\star(x(t_0), t_0)  = \int\limits_{t=t_0}^{T} L \left(x^{\star}(\tau), u^\star(\tau), \tau \right) d\tau + V(x^\star(T)) <br />
+                 = \min_{ u_{[t_0, T]}} J(x_0, u, t_0)
+\end{gather}</p>
+
+<p>Therefore, the optimal cost is a function of the starting state and time so that we can write:</p>
+
+<p>\begin{equation}
+  J^\star(x(t_0), t_0) = \min_{ u_{[t_0, T]}} J(x(t_0), u(\centerdot), t_0) = \min_{ u_{[t_0, T]}} \int\limits_{t_0}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))
+\end{equation}</p>
+
+<p>Now, assume that we start at an arbitrary initial condition \(x\), at time \(t\), it follows that the optimal cost-to-go from \(x(t)\) to \(x(T)\) is (abusing notation and dropping the templated arguments in \(J\)):</p>
+
+<p>\begin{equation}          \label{eq:cost-to-go}
+  J^\star(x, t) = \min_{ u_{[t, T]}} \left[\int\limits_{t}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau\right] + V(x(T))
+\end{equation}</p>
+
+<p>Things get a little bit interesting when we splice up the integral kernel in \eqref{eq:cost-to-go} along two different time-paths, namely:</p>
+
+<p>\begin{equation}        \label{eq:spliced}
+  J^\star(x, t) = \min_{ u_{[t, T]}} \left[\int\limits_{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau + \int\limits_{t_1}^{t_2} L\left(x(\tau), u(\tau), \tau\right)d\tau\right] + V(x(T))
+\end{equation}</p>
+
+<p>We can split the minimization over two time intervals, e.g.,</p>
+
+<p>\begin{equation}        \label{eq:two_mins}
+  J^\star(x, t) = \min_{ u_{[t, t_1]}} \min_{ u_{[t_1, t_2]}} \left[\int\limits_{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau + \int\limits_{t_1}^{t_2} L\left(x(\tau), u(\tau), \tau\right)d\tau\right] + V(x(T))
+\end{equation}</p>
+
+<p>Equation \eqref{eq:two_mins} gives the beautiful intuition that one can divide the integration into two or more time slices, solve the optimal control problem for each time slice and in the overall, minimize the effective cost function \(J\) of the overall system. This in essence is a statement of <a href="https://en.wikipedia.org/wiki/Richard_E._Bellman">Richard E. Bellman</a>’s principle of optimality:</p>
+
+<blockquote>
+  <p>Bellman’s Principle of Optimality: An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision.</p>
+</blockquote>
+
+<blockquote>
+  <p>– Bellman, Richard. Dynamic Programming, 1957, Chap. III.3.</p>
+</blockquote>
+
+<p>With the principle of optimality, the problem takes a more intuitive meaning, namely that the cost to go from \(x\) at time \(t\) to a terminal state \(x(T)\) can be computed by minimizing the sum of the cost to go from \(x = x(t)\) to \(x_1 = x(t_1)\) and then, the  optimal cost-to-go from \(x_1\) onwards.</p>
+
+<p>Therefore, \eqref{eq:two_mins} can be restated as:</p>
+
+<p>\begin{equation}        \label{eq:two_mins_sep}
+  J^\star(x, t) = \min_{ u_{[t, t_1]}} \left[\int\limits_{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau +  \underbrace{\min_{ u_{[t_1, t_2]}} \int\limits_{t_1}^{t_2} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))}_{J^\star(x_1, \, t_1)} \right]
+\end{equation}</p>
+
+<p>\(J^\star(x_1, \, t_1)\) in \eqref{eq:two_mins_sep} can be seen as the optimal cost-to-go from \(x_1\) to \(x(T)\), with the overall cost given by</p>
+
+<p>\begin{equation}         \label{eq:optimal_pre}
+  J^\star(x, t) = \min_{ u_{[t, t_1]}} \left[\int\limits_{t}^{t_1} L\left(x(\tau), u(\tau), \tau\right)d\tau +  J^\star(x_1, \, t_1)  \right]
+\end{equation}</p>
+
+<p>Replacing \(t_1\) by \(t + \delta t\) and with the assumption that \(J^\star(x, t)\) is differentiable, we can expand \eqref{eq:optimal_pre} into a first-order Taylor series around \((\delta t, x)\) as follows:</p>
+
+<p>\begin{equation}        \label{eq:taylor}
+  J^\star(x, t) = \min_{ u_{[t, t + \delta]}} \left[ L\left(x, u, \tau\right)\delta t  +  J^\star(x, \, t) + \left(\dfrac{\partial J^\star(x, t)}{\partial t}\right) \delta t + \left(\dfrac{\partial J^\star(x, t)}{\partial x} \right) \delta x + o(\delta)  \right]
+\end{equation}</p>
+
+<p>where \(o(\delta)\) denotes higher order terms satisfying \(\lim_{\delta \rightarrow 0}\dfrac{o(\delta)}{\delta} = 0\).</p>
+
+<p>Refactoring \eqref{eq:taylor}, we find that</p>
+
+<p>\begin{equation}        \label{eq:hamiltonian_pre}
+  \dfrac{\partial J^\star(x, t)}{\partial t}  = -\min_{ u_{[t, t + \delta]}} \left[ L\left(x, u, \tau\right)  +   \left(\dfrac{\partial J^\star(x, t)}{\partial x} \right) \underbrace{\dot{x}(\centerdot)}_{f(x,u,t)}  \right]
+\end{equation}</p>
+
+<p>We shall define the components in the square column of the above equation as the <strong>Hamiltonian</strong>, \(H(\centerdot)\) such that  \eqref{eq:hamiltonian_pre} can be thus rewritten:</p>
+
+<p>\begin{equation}        \label{eq:hamiltonian}
+  \dfrac{\partial J^\star(x, t)}{\partial t}  = -\min_{ u_{[t, t + \delta]}} H\left(x, \nabla_x J^\star (x, t), u, t \right)
+\end{equation}</p>
+
+<p>Based on the smoothness assumption of all function arguments in \eqref{eq:system},
+when the linear sensitivity of the Hamiltonian to changes in \(u\) is zero, then
+\(\nabla H_u\) <strong>must</strong> vanish at the optimal point i.e.,</p>
+
+<p>\begin{equation}      \label{eq:hamiltonian_deri}
+  \nabla H_u(x, \nabla_x J^\star (x, t), u, t) = 0
+\end{equation}</p>
+
+<p>ensuring that we satisfy the <strong>local optimality</strong> property of the controller. In addition, if the Hessian of the Hamiltonian is positive definite along the trajectories of the solution, i.e.,</p>
+
+<p>\begin{equation} <br />
+  \dfrac{\partial^2 H}{\partial^2 u} &gt; 0
+\end{equation}</p>
+
+<p>then we have the sufficient condition for global optimality. These conditions are referred to as the <a href="https://en.wikipedia.org/wiki/Legendre%E2%80%93Clebsch_condition">Legendre-Clebsch</a> conditions, essentially guaranteeing that over a singular arc, the Hamiltonian is minimized.</p>
+
+<p>You begin to see the beauty of optimal control in that \eqref{eq:hamiltonian_deri} allows us to translate the complicated functional minimization integral of \eqref{eq:cost} into a minimization problem that can be solved by ordinary calculus.</p>
+
+<p>If we let</p>
+
+<p>\begin{equation}    <br />
+  H^\star(x, \nabla_x J^\star (x, t), t) = \min_u \left[H(x, \nabla_x J^\star (x, t), u, t)\right]
+\end{equation}</p>
+
+<p>then it follows that solving \eqref{eq:hamiltonian_deri} for the optimal \(u = u^\star\) and putting the result in \eqref{eq:hamiltonian}, one obtains the <em><strong>Hamilton-Jacobi-Bellman</strong></em> pde whose solution is the optimal cost \(J^\star(x(t), t)\) such that</p>
+
+<p>\begin{equation}        \label{eq:optimal_cost}
+  \dfrac{\partial J^\star(x, t)}{\partial t}  = -H^\star \left(x, \nabla_x J^\star (x, t), u, t \right)
+\end{equation}</p>
+
+<p>We can introduce a boundary condition that assures that the cost function of \eqref{eq:cost} is well-posed viz,</p>
+
+<p>\begin{equation}        \label{eq:boundary_cost}
+  J^\star(x(T), T)  = V(x(T))
+\end{equation}</p>
+
+<p>Taken together, equations \eqref{eq:optimal_cost} allows us to analytically solve for the instanteneous <code class="language-plaintext highlighter-rouge">kinetic energy</code> of the cost function in \eqref{eq:cost} and \eqref{eq:boundary_cost}  allows us to solve for the boundary condition that assure the sufficiency of an optimal control law to exist. If we can solve for \(u^\star\) from \(J^\star(x,t)\), then \eqref{eq:boundary_cost} must constitute the optimal control policy for the nonlinear dynamical system in \eqref{eq:system} given the cost index \eqref{eq:cost}.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>Notice that the optimal policy \(u^\star(t)\) is basically an open-loop control strategy. Why so? \(u^\star\) was derived as a function of time \(t\). As a result, the strategy may not be robust to uncertainties and may be very sensitive. For practical applications, we generally want to have a feedback control policy that is state dependent in order to guarantee robustness to parametric variations and achieve robust stability and performance. Such a \(u = u^\star(x)\) would be helpful in analyzing the stability of states and convergence of system dynamics to equilibrium for all future times. Will post such methods in the future.</p>
+
+<h3 id="summary">Summary</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Properties</th>
+      <th style="text-align: right">Equations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Dynamics:</td>
+      <td style="text-align: right">\(\dot{x}  =f(x, u, t), \quad x(t_0) = x_0 \)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Cost:</td>
+      <td style="text-align: right">\(J(x,u,\tau) = \int\limits_{t=t_0}^{T} L\left(x(\tau), u(\tau), \tau\right)d\tau + V(x(T))\)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Optimal cost :</td>
+      <td style="text-align: right">\(J^\star(x,t) = \min_{u[t,T]}J\)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hamiltonian:</td>
+      <td style="text-align: right">\(H(x,u,t) =  L\left(x, u, \tau\right)  +   \left(\dfrac{\partial J^\star(x, t)}{\partial x} \right) f(x,u,t)\)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Optimal Control:</td>
+      <td style="text-align: right">\(u^\star(t) =  H^\star(x,u,t) =  \nabla H_u(x,u,t)\)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">HJB Equation:</td>
+      <td style="text-align: right">\(-\dfrac{\partial J^\star(x,t)}{\partial t} = H^\star(x, \nabla_x J^\star(x,t),t) )\)  and   \(J^\star(x(T), T)  = V(x(T))\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="further-readings">Further Readings</h3>
+
+<p><a href="https://web.archive.org/web/20050110161049/http://www.wu-wien.ac.at/usr/h99c/h9951826/bellman_dynprog.pdf">Richard Bellman: On The Birth Of Dynamic Programming</a></p>
+
+<p><a href="https://www.amazon.com/Optimal-Control-Quadratic-Methods-Engineering/dp/0486457664">Optimal Control: Linear Quadratic Methods</a></p>
+
+:ET

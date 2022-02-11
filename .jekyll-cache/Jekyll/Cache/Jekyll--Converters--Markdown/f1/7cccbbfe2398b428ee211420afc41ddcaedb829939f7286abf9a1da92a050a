@@ -1,0 +1,69 @@
+I"�	<h4 id="introduction">Introduction</h4>
+
+<p>NVIDIA libraries are notorious for breaking Xserver particularly in the ubuntu Linux distro. Here’s my installation guide on how to do a clean install without breaking display drivers. Hope it helps.</p>
+
+<h4 id="installation">Installation</h4>
+
+<p>Pull Ubuntu 8.0 from <a href="https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run">here</a></p>
+
+<ul>
+  <li>Add a <code class="language-plaintext highlighter-rouge">blacklist-nouveau.conf</code> file to your <code class="language-plaintext highlighter-rouge">etc/modprobe.d</code> directory like so:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">sudo touch</span> /etc/modprobe.d/blacklist-nouveau.conf
+</code></pre></div></div>
+
+<ul>
+  <li>Add the following contents to the file you just created using your fave editor:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>blacklist nouveau
+options nouveau <span class="nv">modeset</span><span class="o">=</span>0
+</code></pre></div></div>
+
+<ul>
+  <li>Turn off X server</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">sudo </span>service lightdm stop
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Install Cuda 8.0</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cd</code> to the directory where the cuda install file was stored and run it with admin rights e.g.</li>
+    </ul>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span> ./cuda_8.0.61_375.26_linux.run
+</code></pre></div>    </div>
+
+    <ul>
+      <li>
+        <p>Accept the EULA Licence agreement</p>
+      </li>
+      <li>
+        <p>Accept yes for NVIDIA drivers install</p>
+      </li>
+      <li>
+        <p>Accept yes for cuda-8.0 and cuda symlink</p>
+      </li>
+      <li>
+        <p>Decline the installation of OpenGL Libraries (this breaks Xserver)</p>
+      </li>
+      <li>
+        <p>Install Samples</p>
+      </li>
+      <li>
+        <p>Decline the installation of nvidia-xconfig (you wouldn’t need it)</p>
+      </li>
+      <li>
+        <p>Reboot your system after installation</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Voila! We’re set to start developing with cuda.</p>
+:ET
