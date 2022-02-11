@@ -49,8 +49,8 @@
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, 2020.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>
-- External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
 - Associate Editor, [ICRA, An IEEE International Conference on Robotics and Automation](https://www.icra2020.org/), 2020-2021.
+- External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
 - Reviewer, [Automatica (The International Federation of Automatic Control)](https://www.journals.elsevier.com/automatica"), Robotics and Automation Letters, [JBHI, (Journal of Biomedical and Health Informatics)](https://jbhi.embs.org/), [IEEE Access](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), [NCAA, Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521), [ICRA (IEEE International Conference on Robotics and Automation).](https://www.icra2020.org/), [CDC (IEEE International Conference on Decision and Control)](https://cdc2020.ieeecss.org/), [IROS (IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems)](https://www.iros2019.org/), [DSCC (Dynamic Systems and Control Conference -- The American Society of Mechanical Engineers)](https://event.asme.org/DSCC), [ACC, An IEEE Control Systems Society/American Control Conference](http://acc2020.a2c2.org/), [ICML (International Conference on Machine Learning)](https://icml.cc/), [ICLR (International Conference on Learning Representations.)](https://iclr.cc/).
 
 <!-- <br> -->
@@ -61,8 +61,8 @@
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities.</h4>
  - [NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member.
  - [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member.
- - [AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member.
- - [ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member.
+ - ~~[AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member.~~
+ - ~~[ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member~~.
 
 
 <!-- Strava summary -->

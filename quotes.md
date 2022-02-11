@@ -2,12 +2,8 @@
 layout: post
 ---
 
-<!-- <?php include_once("analyticstracking.php") ?> -->
-<!-- 
-###### [Science Luminaries](#sci-lum)
-###### [Worst Predictions](#worst-preds) -->
 
-> Good for the soul. Quotes that youse can use. 
+> Curated from various sources through the years. 
 
 <br>
 <a name="sci-lum"></a>
