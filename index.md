@@ -16,4 +16,7 @@ title: Lekan
 
 
 <br><br>
-Last updated on  {% include last-updated.txt %}
+
+
+This web presence was last updated on {{ "now" | date: "%a, %b %d, %Y" }}.
+

@@ -37,8 +37,8 @@ publications:
       - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/CaptureBRAT.pdf
         authors:
-          - Jason Choi, Sylvia Herbert, <b>Olalekan Ogunmolu</b>
-          # - <b>Olalekan Ogunmolu</b>
+          # - Jason Choi, Sylvia Herbert, <b>Olalekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control
         paper_status: Manuscript
