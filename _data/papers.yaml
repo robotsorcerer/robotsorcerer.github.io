@@ -24,7 +24,7 @@ publications:
   - items: 'ComplexBRATFurther!'
     paperitems:
       - title: 'Complex Backward Reach-Avoid Tubes under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/CBRATFurtehr.pdf
+        location: /downloads/Papers/CBRATFurther.pdf
         authors:
           - Yonathan Effroni, Ethan D. Dong, Ian Abraham, <b>Olalekan Ogunmolu</b>
         venue_web: https://www.ieee-ras.org/publications/ra-l
@@ -58,7 +58,7 @@ publications:
   - items: 'ComplexBRAT!'
     paperitems:
       - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/LBRAT.pdf
+        location: /downloads/Papers/CBRAT.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
