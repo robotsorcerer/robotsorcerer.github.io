@@ -68,8 +68,8 @@ permalink: pubs
 <center><h3><b>Published Works</b></h3></center>
 
 
-Premier Robotics and Automation Society, Algorithmic Foundations of Robotics, ASME, and Medical Physics publications (WAFR, IROS, JMR, NIPS, PhysMed, and ICRA) are highly selective venues for archival papers, similar to selective IEEE journals in visibility and strong scientific/engineering communications.
-
+<!-- Premier Robotics and Automation Society, Algorithmic Foundations of Robotics, ASME, and Medical Physics publications (WAFR, IROS, JMR, NIPS, PhysMed, and ICRA) are highly selective venues for archival papers, similar to selective IEEE journals in visibility and strong scientific/engineering communications.
+ -->
 
 		{% for item in site.data.papers.publications %}
 	    	{% for paper in item.paperitems %}
