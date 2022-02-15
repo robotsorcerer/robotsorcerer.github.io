@@ -1,0 +1,105 @@
+I"9Q<p>&lt;?php include_once(“analyticstracking.php”) ?&gt;</p>
+
+<!-- [Table of Contents](#tableau)
+- [Introduction](#intro)
+- [Example Write-ups](#example)
+  - [NASA FDL PhD/PostDocs Internship Application 2017](#nasa17)
+  - [ROSCon Scholarship Application 2017](#roscon)
+  - [NSF Doctoral Consortium Award](#iros)
+  - [Fellowship 2017](#utfellowship) -->
+
+<!-- http://forum.thegradcafe.com/topic/32920-advice-for-a-first-year-phd-student/ -->
+
+<p><a name="intro"></a>
+<!-- ### Introduction --></p>
+
+<p>This post is my attempt, based on my finite experience of the past three years, to guide newly minted PhD students in their new career trajectory. You’ve been fortunate enough to get admitted. Congrats. Now, how do you intend for the next five-some years to unfold?</p>
+
+<p>From day one of your PhD program, always be on the look-out for career-enhancement skills. Scour job advertorials for what’s hot in your field, what skills venture capitalists or senior tech executives are emphasizing. Then build on these skills gradually and consistently. For me, it helps that I spend the first or two hours of my waking hours reading relevant new papers and project codes on github. I have found that over time, this helps me with latent skills that are powerful and distinguishing when employers are looking for reasons to hire me over other smart students.</p>
+
+<p>If you are considering the remote chance of working outside of academe, step out of your comfort zone and apply to internships, even for co-ops if you can handle them. Figure out what research problems people are trying to solve in industry and not just in academe. Oftentimes, they are so disparate and have varying degree of importance to society. And by going to good tech companies for internships, you get to meet other top-notch grad students and leading minds that are solving important problems in your field from around the world, develop invaluable friendships, and broaden your worldview about the state-of-the-art in science and technology. Trust me, no one goes for an internship in a tech top-four and keeps the same outlook. You will have a whole new perspective about the problems you decide to spend your energy on, you will choose conferences you go to more carefully, and your thoughts will become more organized around a crytallized central purpose on what you want to do with your life.</p>
+
+<p>If you are looking forward to an academic career (indeed, even if you are not), you should look for opportunities to present and publish your work at choice venues and professional societies. A presentation at a top school or professional society looks great on your CV. When you write papers, write them well-ahead of conference deadlines and while the problem is still looming large on your mind. Why is this? Your thoughts are well-formed about the nature of the problem, the alleys you have tried that did not work are still fresh in your mind, and you know how best to cast your solution in light of the existing frontiers in your field. The content of your work is very lucid in your mind and you can go as big as life in crafting the technical language for your paper in this state. Richard Bellman, from what I have read, did this every so often. Not a surprise he produced short, crisp papers that were easy to understand by any inquiring mind. When you finally have your results, the paper looks so flawless and eager to read as the flow becomes so carefully orchestrated and engaging to the reader. In the end, people read papers that they <em><strong>want</strong></em> to read, not the ones they <em><strong>have</strong></em> to read. You should give them enough reason to stay engaged till the last period in your paper. Give your paper to trusted colleagues within and outside of your university and get their honest opinion about your paper; then send a manuscript to your advisor. For me, this is a model that works very well.</p>
+
+<p>If you can afford it, go to the premiere conferences in your field. If you do not have the money, apply for travel grants from the conference organizers or the school department to which you belong. Meeting the right people at the right time will more often than not happen at that great conference that all the rock-star professors and industry leaders attend. See conferences as an occasion to get familiar with what people are doing, but more importantly, as an occasion to socialize and forge friendships that will last a lifetime.</p>
+
+<p>Teaching experience is good if you intend to spend your career in academe. Apply to TA roles within your department. If you are very good in a subject, over time, as you continue to put in your best effort into good TA duties, they will offer you an instructor’s role within the department. This has happend to people I know. Being a TA for a popular course is good. Being awarded your university president’s teaching excellence award is better. What is supreme is teaching a course that generates a buzz in the community and interests from students and researchers from the outside.</p>
+
+<p>Lastly, it does help to look out for money. Participate in intellectually stimulating competitions that reward winners with boatloads of money. Apply to scholarships: $50 scholarships, $100 scholarships, $1000 scholarships etcetera. With scholarships, grants and fellowships, here is the rule: less is more, and more is more – money begets money. If you can fund yourself, you can do what you want within reason. Your university will be thrilled. You have nothing to lose. Look out for scholarships, and apply by drafting your fellowship essay well-ahead of time. Typically, I start out two weeks before deadline iterating over my write-up several times a day. I test various words to ensure they sustain the attention and interest of the reader. When the final day arrives, I give it a once-over, send it to my friends to give me honest opinions of my essay, and then do a final review before submitting. This is my winning-formula. Your mileage may vary.</p>
+
+<!-- Enough with my jibber-jabber already. I have some posts below that show example applications I have written in the past that may guide you in writing a coherent essay for your grant/scholarship/fellowship applications.
+
+Good luck, my badasses!
+
+<a name="example"></a>
+### Example Write-ups
+ <a name="nasa17"></a>
+### NASA Application 2017
+
+This was my application to the NASA frontier development lab last spring. The
+application was well-reviewed. I was verbally offered the job but it was later
+rescinded due to reasons I still do not know all about.
+
+>Why should you be a part of Frontier Development Labs? Share with the selection committee a little bit about yourself, your interests, and your capabilities.
+
+>(Limit 200 words)
+
+I am a control systems engineer who applies deep learning concepts in solving nonlinear dynamical control systems problems. My work explores better model representation using state-of-the-art neural network function approximators to determine accurate system models, for example in adaptive control or model predictive control of complex nonlinear systems. My background is in Physics and Control theory and I spend my PhD research exploring better ways of automating motion alignment correction systems in clinical cancer radiotherapy of malignant cancers of the head and neck region. The novelty of my work includes the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment. As these soft actuators are nonlinear, a lot of effort goes into formulating the model properties of the hardware in order to obtain an effective controller that can deliver the required sub-millimeter and sub-degree accuracy. Owing to the recent advances in sequential deep learning frameworks in terms of their accuracy and precision in generating powerful models for tasks including speech recognition and machine language translation, I leverage on these technologies to create dynamic models of the patient testbed and to design appropriate adaptive controllers to scale.
+
+>5.2 Your Work and/or Research Concept Note
+>Tells us about the research and/or work that you do. Why is it important? What aspects of it involve Planetary Science, Heliophysics, Exogeology, Data Science or Computer Science?
+Most importantly, what are your ideas on how AI technologies can be applied to either Space Weather, ISRU Prospecting and Planetary Defense? Either in terms of better information gathering, better insight or better decisions.
+(Limit 500 words)
+
+In radiotherapy treatment of cancer of the head and neck (H&N) region, patients are typically positioned in a supine manner on a 6-DOF robotic couch for motion alignment with respect to an incident radiation which is used to target malignant tumors. As such, the precision of delivery of the radiation dose to target tumor is extremely important. Target miss in dosimetry angle or position arising from patient have been known to cause eczema, brain complications and the exposure of organs at risks. To prevent the patient from drifting from pre-calibrated pose on the 6-DOF robotic treatment couch, clinicians fixate metallic rings/frames or elastic plastic masks on the patient's head and neck region so that involuntary motion by the patient is greatly minimized. But the use of such rings or masks have undesirable effects such as attenuating the radiation beam (thus minimizing incident dose and treatment efficacy) or making the patient uncomfortable. The majority of such masks employed do not compensate for real-time patient deviation from planned targets. To compensate for such drifts, I have formulated a neuro-adaptive controller for a network of compliant soft-robot systems to automatically move the patient's head and neck to desired pose based on a learning based finite-state machine.
+
+The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as head or neck), we can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing technologies allow. This is a revolutionizing approach to the current way frameless radiotherapy is practiced. My solution is the only one so far that achieves desired actuation in closed-loop control and in real time without sacrificing time, treatment efficiency or patient comfort -- all based on a data-driven modeling approach and a mathematically proven stable neural-network based controller to compensate for the dynamics of the system.
+
+I have expertise in modeling physical systems, biomedical systems using a supervised learning approach with domains spanning classical system identification, deep learning, machine learning and adaptive control theory. I believe my skills would be relevant to the challenges the Frontier Development Labs is trying to solve with respect to leveraging on AI technologies to solve the important problems facing the planet and outer space. The nonlinear autoregressive moving average with exogenous inputs (NARMAX) method, popularly used in system identification techniques has been successful in the modeling and analysis of geospatial data,particularly in the understanding of space and weather forecasts. With the error reduction ratio, a user has to find the Lipschitz basis functions that can well represent the underlying model through an extensive expert-driven process. I am interested in using recursive Bayesian neural networks, deep learning models and directed acyclic graphs to further simplify such modeling methods in geospace data analysis. In a Monte Carlo framework, whereby patterns in space weather data are formulated in a probabilistic Bayesian setting, and minding the designing stability theorems for such networks, we can automate the pattern discovery and analysis in complex systems without resolving to complicated methods such as NARMAX models currently allow. My goal is to explore better model representation by designing efficient algorithms for complex systems analysis and control.
+
+
+<a name="roscon"></a>
+#### ROSCon Application 2017
+
+And below is my application submission to ROSCon 2017
+
+> Describe how you are involved with ROS and the robotics community and what you
+hope to get out of attending ROSCon. *
+
+> Please limit your response to 500 words.
+
+I spend my PhD research automating motion alignment systems in radiotherapy treatment of malignant cancers of the head and neck region. The novelty of my work includes the design and use of soft robots with morphological computation properties to dynamically adjust patient motion along desired degrees of freedom during cancer radiotherapy treatment. I have found ROS to be a middleware that helps me get more work done efficiently: whether I am integrating multiple hardware, designing synchronized, reliable robot controller software, needing special unix system calls to assure the security of exchanged data, or interfacing a deep vision model to a robot system, ROS is the middleware of choice that helps me get more work done in a fast and cheap manner. I love its capacity for distributed computation on multiple threads/processes, its well-tested robot algorithm libraries, and its robust mechanisms for managing, troubleshooting, and visualizing workflow. I am an active participant on the answers.ros.org forum where I answer forum questions -- improving the quality of the ROS ecosystem -- and help users to clarify documentation questions, as well as help debug bugs in users' codes as I see fit. I also follow developments within the core ROS community of developers on the ros email lists at discourse.ros.org.
+
+I believe open sourcing one's codes is the key to advancing the field of robotics -- pushing the research envelope through quick and reproducible research. Open-sourcing one's code spurs force multipliers that help get more work done faster and cheaper. OSRF understands these fundamental principles and it maintains a vanguard of neat robot software that have proven very useful to robotics practitioners everywhere -- academe and industry practitioners alike. I passionately share OSRF's philosophy on open-software for robotics and I actively post codes of my research on git. I also contribute to open-sourced ros codes online. Among the select contributions I have made include the crazyswarm ros wrapper (from USC ACT Lab), pcl, the kinect2 ros wrapper, and my farnn, ral, and ensenso open-sourced projects etc.
+
+I am applying for this scholarship because of the opportunity to learn new ros tools and libraries as well as refresh my knowledge of the ones I already know. Attending this conference will be a great opportunity for me to learn the cutting/bleeding-edge ROS tools from the greatest minds in robotics on the planet. I believe my attendance will create a rich exchange of ideas, widening my horizon as I gain better insight from technical talks and tutorials. Gaining in-depth insight, I will be equipped with greater discipline knowledge as I continue to hone well-rounded skills for a future career; this will stimulate rapid growth in my career path, helping me assume bigger responsibilities in automation projects. As I acquire new skills, cascaded on existing skills, I will be better equipped at solving more complex projects being tackled by the research community. My contributions to the larger robotics community will only become more invaluable and more impactful, thus improving the ROS ecosystem and functionality along the way.
+
+
+<a name="iros"></a>
+#### US NSF Doctoral Consortium Application 2017
+
+Here is my travel award application to the NSF Doctoral Consortium
+
+> Please briefly describe why you are interested in attending IROS. Please touch on how your attendace will impact your research experience and how you will be involved in the conference (e.g., IROS paper co-author, primary presentor of an IROS paper, presenter at an IROS workshop (state which one), IROS workshop attendee, etc.). 1000 Characters Remaining
+
+I am attending IROS to present my paper with id 2181, and to learn the state-of-the-art in robotics from the best researchers on the planet. I see my attendance as an opportunity to engage fellow researchers, gaining new insight on solving difficult automation problems, and broadening my understanding of the problems that are important to the research community. From the rich exchange of ideas at the technical talks and workshops, I hope to gain cutting/bleeding-edge skills for deconstructing difficult research problems; this will equip me with greater discipline capacity as I continue to hone well-rounded friendly robots research skills. Stimulating rapid growth in my career path, I will be equipped for bigger automation research responsibilities that positively impact the world on a grand scale. My contributions to the larger robotics community will thus become more invaluable and impactful -- improving the quality of the robotics research ecosystem.
+
+
+<a name="utfellowship"></a>
+#### Fellowship Application 2017 Round
+
+
+>In your particular field of study, briefly discuss (in less than 500 words):
+- What you consider to be the most important advance in the past 10 years.
+- What you speculate might be the most important advance in the next 20 years.
+- How you fit in with this trajectory of progress.
+
+Robotics has witnessed the formalization of algorithms and computation necessary to carry out simple dynamic tasks over the past six decades. We have closed-form and iterative-based algorithms for analyzing the dynamical behavior of rigid bodies and these methods are well-established for relatively coupled nonlinear dynamics. Nowadays, the research community is exploring the use of soft robots in achieving complex locomotion and manipulation tasks that ubiquitous rigid robots cannot manipulate. Correctly applying the morphological computation properties of these nonlinear, compliant soft robots requires rethinking our way of modeling such dynamical systems -- closed form solutions , when they exist, are often  not physically realizable or have a very narrow scope in the real world.
+
+I conjecture that the solution to modeling such complicated nonlinear dynamics of soft robots will come from learning the dynamics of such systems from a lot of data, rather than devising clever calculations that more often than not do not scale well to our expectation of the system’s behavior based on our calculations. In recent years, computational models composed of multiple processing layers have been shown to be capable of efficiently inferring nonlinear structure from data with the aid of multiple stages of abstraction. These models, termed deep networks, have dramatically pushed the envelope in modeling the latent  spatial, temporal and spatio-temporal properties of nonlinear systems in domains with applications ranging from speech recognition, visual object recognition, object detection, drug discovery and genomics. While we know that deep networks work, progress in theory has been slow and much work remains before a reasonably complete and coherent theory is available.
+
+I am on a quest, exploring the theoretical stability and analysis of these deep networks in order to find useful features from data that can coherently and consistently model nonlinear compliant devices such as soft robots for the purpose of the intelligent control of nonlinear systems. I am currently working on adaptive neuro-control applications that scale models that are learned from data to controllers that enable reachability and intelligent human-like grasp, articulation and control of objects. My specific application motivation is in the radiotherapy treatment of cancer of the head and neck (H&N) region.
+
+I envision a network of compliant soft-robot systems that automatically compensate for the patient's head and neck motion deviation using adaptive deep neuro-control algorithms to compute  robust models and generate controllers that scale well to task. The idea is that by actuating elastomeric polymer enclosures that inflate or deflate based on the amount of air that is sent into them or by the amount of pressure that is exerted on them by a human-body part (such as head or neck), we can achieve a desired level of pose in frameless or maskless radiotherapy without sacrificing patient comfort or treatment efficacy as existing rigid robotic motion compensations technologies allow. This would be a revolutionizing approach with applications to other domains of engineering where accuracy in modeling is important.
+ -->
+:ET
