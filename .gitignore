@@ -1,6 +1,6 @@
 .DS_Store
 child/
-
+.jekyll-cache/
 _site/
 
 _posts/2015-07-28-Kinect-for-Windows-Sensor.md
