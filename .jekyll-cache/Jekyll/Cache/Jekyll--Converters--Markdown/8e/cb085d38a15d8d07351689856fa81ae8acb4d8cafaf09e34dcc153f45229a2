@@ -1,0 +1,144 @@
+I"<table class="table table-hover">
+    
+     
+        <tr>
+          <td>Check out this Gaussian-based learning of the <a href="https://github.com/robotsorcerer/LyapunovLearner">Control Lyapunov Function for the stability of a dynamical system in Python.</a> </td>
+          <td class="col-md-3" style="text-align: right;">January 10, 2022</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Invited to serve as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA). </td>
+          <td class="col-md-3" style="text-align: right;">September 30, 2020</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i> Please e-attend my talk if you can at AAPM's annual meeting this year. </td>
+          <td class="col-md-3" style="text-align: right;">May 16, 2020</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz., <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>, and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, T. Summers, Y. Tadesse and D. Bhatia. </td>
+          <td class="col-md-3" style="text-align: right;">May 16, 2019</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>I am teaching a robot manipulation course at Brandeis in the winter and spring of 2020 as an Adjunct Faculty. I am keeping the lecture notes <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses. </td>
+          <td class="col-md-3" style="text-align: right;">November  7, 2019</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work. </td>
+          <td class="col-md-3" style="text-align: right;">August 29, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue! </td>
+          <td class="col-md-3" style="text-align: right;">August  1, 2017</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Starting in the summer of 2019, after I shall have defended my PhD thesis, I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/"> The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/"> Pritzker school of medicine.</a> </td>
+          <td class="col-md-3" style="text-align: right;">January 31, 2019</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>. Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it. </td>
+          <td class="col-md-3" style="text-align: right;">August 20, 2019</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Thanks to the generous support of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal! </td>
+          <td class="col-md-3" style="text-align: right;">October  7, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>I had a reyt good great time at this year's IROS and ROSCon in Madrid. Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>, <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>, and video of Marc Raibert's <a href="https://www.instagram.com/p/BobgQPMhuKCrqy9OjV01K9-0cH6kmFZXcB6kgk0/">mini-spot demo</a> </td>
+          <td class="col-md-3" style="text-align: right;">October  6, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td><a href="/assets/papers/wafr.pdf"> Deep BOO!</a> gets accepted to the Workshop on the Algorithm Foundations of Robotics (WAFR). WAFR has an <a href="https://parasol.tamu.edu/wafr/wafr2018/authors.php">"established reputation as one, if not the most, important venue for presenting algorithmic work related to robotics"</a>. </td>
+          <td class="col-md-3" style="text-align: right;">September  6, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon. </td>
+          <td class="col-md-3" style="text-align: right;">July  5, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept. Codes <a href="https://github.com/lakehanne/youbot">here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane! </td>
+          <td class="col-md-3" style="text-align: right;">June  1, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018. Codes <a href="https://github.com/lakehanne/youbot">here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane! </td>
+          <td class="col-md-3" style="text-align: right;">April 24, 2018</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&amp;HistoricalAwards=false">NSF Doctoral Consortium Award.</a> </td>
+          <td class="col-md-3" style="text-align: right;">August  1, 2017</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a>, is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github</a> </td>
+          <td class="col-md-3" style="text-align: right;">August  1, 2017</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&amp;t=14s"> here.</a> </td>
+          <td class="col-md-3" style="text-align: right;">July  1, 2017</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship. </td>
+          <td class="col-md-3" style="text-align: right;">July  1, 2017</td>
+        </tr>
+    
+  
+     
+        <tr>
+          <td>Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>. </td>
+          <td class="col-md-3" style="text-align: right;">June  1, 2017</td>
+        </tr>
+    
+  
+</table>
+:ET
