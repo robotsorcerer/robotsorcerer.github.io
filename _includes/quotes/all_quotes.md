@@ -1,3 +1,5 @@
+"_Theories stand or fall,  ultimately, upon numbers_." ~ Richard Bellman,
+
 
 "_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck.
 
