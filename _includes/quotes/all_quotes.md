@@ -1,4 +1,6 @@
-"_Theories stand or fall,  ultimately, upon numbers_." ~ Richard Bellman,
+"_Theories stand or fall,  ultimately, upon numbers_." ~ Richard Bellman.
+
+"_Because right is on his side, the innovator will quickly attract the young, who obviously have no past to defend. And those impartial scholars who, in the midst of the smothering torrent of current doctrine, have learned how to keep their minds clear and their judgment independent will also gather on his side._" ~ Ramon Santiago y Cajal.
 
 
 "_From him and his example, I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The ideal is to be able to paint a landscape in which the proof is obvious. I admire how often he succeeded in reaching this ideal._" ~ Pierre Deligne, AMS Notices, Vol 63, #3, speaking of Alexandre Grothendieck.
@@ -12,13 +14,14 @@
 
 "_...Deduction [and] Induction ... render the indefinite definite; Deduction explicates; Induction evaluates: that is all. Over the chasm that yawns between the ultimate goal of science and such ideas of Man's environment as ... he managed to communicate to some fellow, we are building a cantilever bridge of induction, held together by scientific struts and ties. Yet every plank of its advance is first laid by Retroduction alone, that is to say, by the spontaneous conjectures of instinctive reason ..._" ~ C.S. Peirce, Scientific Metaphysics (1908), S475.
 
-"_ ...Don't apply any model until you understand the simplifying assumptions on which it is based, and you can test their validity. Catch phrase: Use only as directed. Don't believe that the model is the reality. Catch phrase: You will never strike oil by drilling through the map._" ~ Saul Golomb, "Mathematical Models -- Uses and Limitations." 1970.
+"_[sic] Don't apply any model until you understand the simplifying assumptions on which it is based, and you can test their validity. Catch phrase: Use only as directed. Don't believe that the model is the reality. Catch phrase: You will never strike oil by drilling through the map._" ~ Saul Golomb, "Mathematical Models -- Uses and Limitations." 1970.
 
 <!-- "_'Why do you dance?' Dirac asked his companion, Heisenberg. 'When there are nice girls, it is a pleasure,' Heisenberg replied. Dirac pondered this notion, then blurted out: 'But, Heisenberg, how do you know beforehand that the girls are nice?'_" -->
 
 
 "_We think only through the medium of words -- languages are true analytical methods -- algebra, which is adapted to its purpose in every species of expression, in the most simple, most exact, and best manner possible, is at the same time a language and an analytical method. The art of reasoning is nothing more than a language well-arranged._" ~ Antoine Lavoisier.
 
+"_[sic] all outstanding work, in art as well as in science, results from immense zeal applied to a great idea._" ~ Ramon Santiago y Cajal.
 
 
 "..._it is wrong to think that rigor is the enemy of simplicity. Numerous examples establish the opposite, that the rigorous method is also the simpler and easier to grasp. The pursuit of rigor compels us to discover simpler arguments; also, often it clears the path to methods susceptible of more development than were the old, less rigorous ones._ ... " ~ Hilbert, Mathematical Problems, Archiv fur Mathematik und Physik (3) 1, 44-63, 213-237 (1901).
@@ -29,11 +32,13 @@
 
 "_Knowing that no mathematical model can yield a complete description of reality, we must resign ourselves to the task of using a succession of models of greater and greater complexity in our efforts to understand. If we observe similar structural features possessed by the solutions of a sequence of models, then we may feel that we have an approximation to what is called a "law of nature."_" ~ R.E. Bellman.
 
+"_Do not accept as true anything that is not obvious, divide a problem into as many parts as necessary to attack it in the best way, and start an analysis by examining the simplest and most easily understood parts before ascending gradually to an understanding of the most complex_." ~ Descartes
 
 "_Curiosity demands that we ask questions, that we try to put things together and try to understand this multitude of aspects as perhaps resulting from the action of a relatively small number of elemental things and forces acting in an infinite variety of combinations._" ~ Feynman, Lectures on Physics, Caltech.
 
 "_Academia has largely become a small-idea factory. Rewarded for publishing more frequently, we search for "minimum publishable units." Not surprisingly, many papers turn out to be early "progress reports", quickly superseded. At the same time, there is a hugely increased pressure to secure outside funding, converting most of our best scientisis into government contractors_" ~ PNAS Report.
 
+"_[sic] all outstanding work, in art as well as in science, results from immense zeal applied to a great idea._" ~ Ramon Santiago y Cajal.
 
 “_We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil._” ~ Knuth, Donald.
 
