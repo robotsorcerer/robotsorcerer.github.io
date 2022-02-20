@@ -51,8 +51,8 @@ publications:
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: In Letters, Control Systems Society
-        paper_status: Manuscript
+        venue: In Letters, Control Systems Society with CDC Option
+        paper_status: Submitted
         year: February 2022
 
   - items: 'ComplexBRAT!'
