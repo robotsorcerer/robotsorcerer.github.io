@@ -10,39 +10,39 @@ publications:
   #       paper_status: Manuscript
   #       year: Spring 2022
 
-  - items: 'BRATHInfity!'
-    paperitems:
-      - title: 'An Homicidal-Chauffeur Game of Two Players Under an H-\infty-Norm Bound For Robust Deep Policies' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/Chauffeur.pdf
-        authors:
-          - Leilei Cui, Zhongping Jiang, and <b>Olalekan Ogunmolu</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control
-        paper_status: Manuscript
-        year: February 2022
+  # - items: 'BRATHInfity!'
+  #   paperitems:
+  #     - title: 'An Homicidal-Chauffeur Game of Two Players Under an H-\infty-Norm Bound For Robust Deep Policies' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/Chauffeur.pdf
+  #       authors:
+  #         - Leilei Cui, Zhongping Jiang, and <b>Olalekan Ogunmolu</b>
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions in Automatic Control
+  #       paper_status: Manuscript
+  #       year: February 2022
 
-  - items: 'ComplexBRATFurther!'
-    paperitems:
-      - title: 'Complex Backward Reach-Avoid Tubes under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/CBRATFurther.pdf
-        authors:
-          - Yonathan Effroni, Ethan D. Dong, Ian Abraham, <b>Olalekan Ogunmolu</b>
-        venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: Robotics and Automation Letters (IROS option)
-        paper_status: Manuscript
-        year: February 2022
+  # - items: 'ComplexBRATFurther!'
+  #   paperitems:
+  #     - title: 'Complex Backward Reach-Avoid Tubes under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/CBRATFurther.pdf
+  #       authors:
+  #         - Yonathan Effroni, Ethan D. Dong, Ian Abraham, <b>Olalekan Ogunmolu</b>
+  #       venue_web: https://www.ieee-ras.org/publications/ra-l
+  #       venue: Robotics and Automation Letters (IROS option)
+  #       paper_status: Manuscript
+  #       year: February 2022
 
-  - items: 'BRATCapture!'
-    paperitems:
-      - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/CaptureBRAT.pdf
-        authors:
-          # - Jason Choi, Sylvia Herbert, <b>Olalekan Ogunmolu</b>
-          - <b>Olalekan Ogunmolu</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control
-        paper_status: Manuscript
-        year: March 2022
+  # - items: 'BRATCapture!'
+  #   paperitems:
+  #     - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/CaptureBRAT.pdf
+  #       authors:
+  #         # - Jason Choi, Sylvia Herbert, <b>Olalekan Ogunmolu</b>
+  #         - <b>Olalekan Ogunmolu</b>
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions in Automatic Control
+  #       paper_status: Manuscript
+  #       year: March 2022
 
   - items: 'DDPVEr!'
     paperitems:
