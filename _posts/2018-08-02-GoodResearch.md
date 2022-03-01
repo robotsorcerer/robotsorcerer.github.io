@@ -104,6 +104,7 @@ Always punctuate your equations. Math is prose. Number all equations in your tex
 #### [Daniel Liberzon Research Quotes](http://liberzon.csl.illinois.edu/quote-research.html).
 
 #### [How to write Mathematics](https://sites.math.washington.edu/~lind/Resources/Halmos.pdf).
+    + [Alternative downloads website](downloads/Halmos.pdf)
 
 #### [Daniel Liberzon - How to write a good paper](http://liberzon.csl.illinois.edu/writing-guidelines.html).
 
