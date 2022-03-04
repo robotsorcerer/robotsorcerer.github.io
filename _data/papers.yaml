@@ -46,10 +46,10 @@ publications:
 
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'A Second-Order Reachable Sets Computational Scheme via Cauchy-type  Hamilton-Jacobi Equations.' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'A Second-Order Reachable Sets Computational Scheme.' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/DDPBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: In Letters, Control Systems Society with CDC Option
         paper_status: Submitted
