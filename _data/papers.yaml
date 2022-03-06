@@ -44,16 +44,16 @@ publications:
   #       paper_status: Manuscript
   #       year: March 2022
 
-  - items: 'DDPVEr!'
-    paperitems:
-      - title: 'A Second-Order Reachable Sets Computational Scheme.' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/DDPBRAT.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: In Letters, Control Systems Society with CDC Option
-        paper_status: Submitted
-        year: February 2022
+  # - items: 'DDPVEr!'
+  #   paperitems:
+  #     - title: 'A Successive Approximation Scheme For Reachable Sets Computation via a Cauchy-type  Hamilton-Jacobi Equation.'
+  #       location: /downloads/Papers/DDPBRAT.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>, and Sylvia Herbert.
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: In Letters, Control Systems Society with CDC Option
+  #       paper_status: Submitted
+  #       year: February 2022
 
   - items: 'ComplexBRAT!'
     paperitems:
