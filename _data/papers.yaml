@@ -60,7 +60,7 @@ publications:
       - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/CBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Algorithm Foundations of Robotics, XV (WAFR)
         paper_status: Submitted
@@ -82,7 +82,7 @@ publications:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>. #Ian Abraham, and Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>. #. #Ian Abraham, and Sylvia Herbert
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Computational Physics
         paper_status: Manuscript
