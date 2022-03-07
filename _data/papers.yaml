@@ -44,16 +44,16 @@ publications:
   #       paper_status: Manuscript
   #       year: March 2022
 
-  # - items: 'DDPVEr!'
-  #   paperitems:
-  #     - title: 'A Successive Approximation Scheme For Reachable Sets Computation via a Cauchy-type  Hamilton-Jacobi Equation.'
-  #       location: /downloads/Papers/DDPBRAT.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>, and Sylvia Herbert.
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: In Letters, Control Systems Society with CDC Option
-  #       paper_status: Submitted
-  #       year: February 2022
+  - items: 'DDPVEr!'
+    paperitems:
+      - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
+        location: /downloads/Papers/DDPBRAT.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>, and others.
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: In Letters, Control Systems Society (with CDC Option)
+        paper_status: Submitted
+        year: March 2022
 
   - items: 'ComplexBRAT!'
     paperitems:
@@ -118,7 +118,7 @@ publications:
           - <b>Olalekan Ogunmolu</b>
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Technical Report
-        paper_status: Technical Report
+        paper_status: Manuscript
         year: March 2021
 
   # - items: 'TRO2019!'
@@ -168,18 +168,18 @@ publications:
         venue: Oral Presentation at the J.R. Cameron and J.R. Cunningham Young Investigator Symposium, AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
         paper_status: Accepted
         year: June 2020
-  - items: 'AAPM20Workspace'
-    paperitems:
-      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Xinmin Liu, and
-          - Rodney Wiersma.
-        venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: ePoster Presentation at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
-        paper_status: Accepted
-        year: June 2020
+  # - items: 'AAPM20Workspace'
+  #   paperitems:
+  #     - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
+  #       location: #/downloads/Papers/ContinuumI.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>,
+  #         - Xinmin Liu, and
+  #         - Rodney Wiersma.
+  #       venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
+  #       venue: ePoster Presentation at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
+  #       paper_status: Accepted
+  #       year: June 2020
   - items: 'AAPM18'
   - items: 'RAL/ICRA2019!'
     paperitems:
