@@ -49,7 +49,7 @@ publications:
       - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
         location: /downloads/Papers/DDPBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, and others.
+          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: In Letters, Control Systems Society (with CDC Option)
         paper_status: Submitted
@@ -60,7 +60,7 @@ publications:
       - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/CBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert
+          - <b>Olalekan Ogunmolu</b>.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Algorithm Foundations of Robotics, XV (WAFR)
         paper_status: Submitted
