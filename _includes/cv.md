@@ -68,7 +68,8 @@
  -  PTDF Overseas Scholarship Scheme (2011); 
     -  GBP25,500 for one year.
  -  FederalGovernment (of Nigeria) Scholarship (3.6% acceptance).
- -  Ondo State (Nigeria) Scholarship (»10% acceptance) (2004). -->
+ -  Ondo State (Nigeria) Scholarship (»10% acceptance) (2004). 
+-->
 
 
 <br>
