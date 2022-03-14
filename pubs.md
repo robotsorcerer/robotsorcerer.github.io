@@ -12,14 +12,15 @@ permalink: pubs
 
 <table class="table table-hover" >
 
-	<hr>
+<hr>
 
 
 <center>
 <a href="#unpubs"><font size="4">Evolving Drafts / </font></a>
 <a href="#revs"><font size="4">Submitted / </font></a>
 <a href="#pubs"><font size="4">Published / </font></a>
-<a href="#reps"><font size="4">Technical Reports.</font></a>
+<a href="#reps"><font size="4">Technical Reports /</font></a>
+<a href="#abstracts"><font size="4">Abstracts. </font></a>
 </center>
 
 
@@ -67,24 +68,20 @@ permalink: pubs
 <table  class="table table-hover" >
 <center><h3><b>Published Works</b></h3></center>
 
-
-<!-- Premier Robotics and Automation Society, Algorithmic Foundations of Robotics, ASME, and Medical Physics publications (WAFR, IROS, JMR, NIPS, PhysMed, and ICRA) are highly selective venues for archival papers, similar to selective IEEE journals in visibility and strong scientific/engineering communications.
- -->
-
-		{% for item in site.data.papers.publications %}
-	    	{% for paper in item.paperitems %}
-	          	{% if paper.paper_status contains "Accepted" %}
-		        	<tr>
-		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
-		          			{% for author in paper.authors %}
-		          				{{ author  }}
-		          			{% endfor %}<br>
-		      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
-			      		</td>
-		      		</tr>
-		      	{% endif %}
-	    	{% endfor %}
-	  	{% endfor %} 	
+{% for item in site.data.papers.publications %}
+	{% for paper in item.paperitems %}
+      	{% if paper.paper_status contains "Accepted" %}
+        	<tr>
+          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
+          			{% for author in paper.authors %}
+          				{{ author  }}
+          			{% endfor %}<br>
+      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
+	      		</td>
+      		</tr>
+      	{% endif %}
+	{% endfor %}
+	{% endfor %} 	
 </table>
 
 <a name="reps"></a>
@@ -105,3 +102,25 @@ permalink: pubs
 	    	{% endfor %}
 	  	{% endfor %}
 </table>
+
+<hr>
+<a name="abstracts"></a>
+<table  class="table table-hover" >
+<center><h3><b>Abstracts</b></h3></center>
+
+{% for item in site.data.papers.publications %}
+	{% for paper in item.paperitems %}
+      	{% if paper.paper_status contains "Abstract" %}
+        	<tr>
+          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
+          			{% for author in paper.authors %}
+          				{{ author  }}
+          			{% endfor %}<br>
+      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
+	      		</td>
+      		</tr>
+      	{% endif %}
+	{% endfor %}
+	{% endfor %} 	
+</table>
+

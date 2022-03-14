@@ -165,21 +165,21 @@ publications:
           - <b>Olalekan Ogunmolu</b>,  and
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: Oral Presentation at the J.R. Cameron and J.R. Cunningham Young Investigator Symposium, AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
-        paper_status: Accepted
+        venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
+        paper_status: Accepted Abstract
         year: June 2020
-  # - items: 'AAPM20Workspace'
-  #   paperitems:
-  #     - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
-  #       location: #/downloads/Papers/ContinuumI.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>,
-  #         - Xinmin Liu, and
-  #         - Rodney Wiersma.
-  #       venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-  #       venue: ePoster Presentation at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
-  #       paper_status: Accepted
-  #       year: June 2020
+  - items: 'AAPM20Workspace'
+    paperitems:
+      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Xinmin Liu, and
+          - Rodney Wiersma.
+        venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
+        venue: ePoster at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
+        paper_status: Accepted Abstract
+        year: June 2020
   - items: 'AAPM18'
   - items: 'RAL/ICRA2019!'
     paperitems:
@@ -274,7 +274,7 @@ publications:
           - Nick Gans,
         venue_web:
         venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
-        paper_status: Accepted
+        paper_status: Accepted Abstract
         year: July 2018
   # - items: 'Thesis!'
   #   paperitems:
@@ -366,7 +366,101 @@ publications:
         venue_web: 'http://ewh.ieee.org/soc/ras/conf/FullySponsored/CASE/2015/case2015.org/index.html'
         venue: IEEE Conference on Automation Science and Engineering (CASE)
         year: Gothenburg, Sweden, August 2015
-        paper_status: Accepted
+        paper_status: Accepted        
+  - items: 'AAPM19!'
+    paperitems:
+      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Using Supervised Learning with Column Generation on IMRT Prostate Cancer Patients'
+        location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans,
+          - Steve Jiang, and
+          - Dan Nguyen
+        venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E237-E237. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
+                #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
+        year: San Antonio, TX, July 2019.
+        paper_status: Accepted Abstract
+  - items: 'AAPM19Az!'
+    paperitems:
+      - title: 'A Reinforcement Learning Application of Guided Monte Carlo Tree Search Algorithm for Beam Orientation Selection in Radiation Therapy'
+        location: 
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen
+        venue_web: 
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E236-E236. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
+        year: San Antonio, TX, July 2019.
+        paper_status: Accepted Abstract
+  - items: 'AAPM19Myne!'
+    paperitems:
+      - title: 'An Approximate Policy Iteration Scheme for Beam Orientation Selection in Radiation Therapy'
+        location: #https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Azar Sadeghnejad Barkousaraie,
+          - Nick Gans,
+          - Steve Jiang, and
+          - Dan Nguyen
+        venue_web: 
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E386-E386. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
+        year: San Antonio, TX, July 2019.
+        paper_status: Accepted Abstract
+  - items: 'IROS18!'
+    paperitems:
+      - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
+        location: 
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans, and
+          - Tyler Summers
+        venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
+        venue: Machine Learning for Planning and Control Workshop, Extended Abstract, IROS 2018 
+        year: Madrid, Spain. October 2018
+        paper_status: Accepted Abstract
+  - items: 'ICRA18!'
+    paperitems:
+      - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
+        location: 
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans, and
+          - Tyler Summers
+        venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
+        venue: IEEE International Conference on Robotics and Automation, Late Breaking Result Abstract
+        year:  Brisbane, Australia, May 2018
+        paper_status: Accepted Abstract
+  # - items: 'SPIE18!'
+  #     paperitems:
+  #       - title: 'Design and Development of Soft Robots for Head and Neck Cancer Radiotherapy: SPIE: Smart Structures + Nondestructive Evaluation'
+  #         location: 
+  #         authors:
+  #           - Yara Almubarak, 
+  #           - Joshi Aniket, 
+  #           - <b>Olalekan Ogunmolu</b>,
+  #           - Xuejun Gu, 
+  #           - Steve Jiang, 
+  #           - Nicholas Gans, and 
+  #           - Yonas Tadesse
+  #         venue_web: http://spie.org/conferences-and-exhibitions/smart-structures/nde?SSO=1
+  #         venue: #IEEE International Conference on Robotics and Automation, Late Breaking Result Abstract
+  #         year:  Denver, CO, U.S.A. March 2018.
+  #         paper_status: Accepted Abstract        
+  - items: 'IROS17!'
+    paperitems:
+      - title: 'Robustness Margins and Robust Guided Policy Search for Deep Reinforcement Learning'
+        location: 
+        authors:
+          - Tyler Summers
+          - <b>Olalekan Ogunmolu</b>, and
+          - Nick Gans, and
+        venue_web: #http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
+        venue: IROS 2017 Abstract Only Track
+        year:  Vancouver, BC, Canada. September 2017
+        paper_status: Accepted Abstract
   - items: 'AAPM15!'
     paperitems:
       - title: 'An Image-Guided Soft Robotic Patient Positioning System for Maskless Head  And Neck Cancer Radiotherapy: A Proof of Concept Study'
@@ -377,11 +471,6 @@ publications:
           - Steve Jiang, and
           - Xuejun Gu
         venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
-        venue: Online only publication in the Medical Physics Journal.
-                #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
+        venue: Oral Presentation at AAPM. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: Annaheim, CA, August 2015
-        paper_status: Accepted
-
-  # authors: <a href="http://scriptedonachip.com"><b>Olalekan Ogunmolu</b></a>, <a href="http://home.uchicago.edu/~xmliu/">Xinmin Liu</a>,
-  #           <a href="https://www.uta.edu/utari/contact-us/staff-member.php?staffid=nicholas-gans-phd">Nick Gans</a>, and
-  #           <a href="https://radonc.uchicago.edu/">Rodney Wiersma</a>
+        paper_status: Accepted Abstract
