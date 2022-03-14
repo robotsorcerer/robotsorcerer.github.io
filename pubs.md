@@ -70,7 +70,7 @@ permalink: pubs
 
 {% for item in site.data.papers.publications %}
 	{% for paper in item.paperitems %}
-      	{% if paper.paper_status contains "Accepted" %}
+      	{% if paper.paper_status=="Accepted" %}
         	<tr>
           		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
           			{% for author in paper.authors %}
