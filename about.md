@@ -10,14 +10,14 @@ Welcome to my web presence, where theory meets practice, and where scientific el
 
 Lekan combines the scientific elegance of machine learning and control theory with the practical impact of autonomous systems. After his Masters’ degree in Control Systems at the University of Sheffield, he obtained his PhD in Electrical Engineering at The University of Texas at Dallas in 2019. He was a postdoc at the Perelman School of Medicine (PSOM) at The University of Pennsylvania from 2019 through 2021, where he worked on motion-planning for immobilizing cancer radiotherapy patients on a Stewart-Gough platform, as well as lead the design and control of a soft parallel robot mechanism for real-time patients’ head motion correction in stereo-tactic radiosurgery, and in emerging magnetic resonance-linear accelerator photon-based cancer therapy. Since joining MSR in 2021, his research thrusts revolve around safety-critical learning and motion-planning in constrained high-dimensional systems, with applications broadly towards systems verification and validation.
 
-**Cheesy-Personal**
+<!-- **Cheesy-Personal**
 
-Lekan and Molu are respectively the diminutives of my legal first and last names: Olalekan Ogunmolu. I hail from the only ethnicity on the planet with a rational and sensible work-week -- four working days a week. <!--Each day is dedicated to an ancient demigod: Ogun (the god of iron); Jakuta/Shango (the god of stone); Orisha nla/Obatala (the big-spirited god, Obatala); and Orunmila (the ancestor of the Yoruba people).-->My Calendar is equivalent to 3 June to 2 June of the following year in the Gregorian calendar (2022 A.D. is actually my 10,064th year -- the year since the creation of Ile Ìfẹ̀). Time  for me started in 8042 B.C.   
+Lekan and Molu are respectively the diminutives of my legal first and last names: Olalekan Ogunmolu. I hail from the only ethnicity on the planet with a rational and sensible work-week -- four working days a week. My Calendar is equivalent to 3 June to 2 June of the following year in the Gregorian calendar (2022 A.D. is actually my 10,064th year -- the year since the creation of Ile Ìfẹ̀). Time  for me started in 8042 B.C.    -->
 
 <!-- I am a roboticist (ML/Control specialist) with strong research thrusts in translational medical physics research. For the last 12 years, I have worked in several aspects of the automation research and development value chain in various capacities: this includes the consumer robots, supply chain, and process automation industries (Amazon Robotics, PFN Inc Japan, Coca-Cola).
 
 After my doctorate in Electrical and Computer Engineering (Robotics Concentration), I held a brief postdoc stint at University of Chicago’s Duchossois Center for Advanced Medicine (DCAM) before moving to the Perelman School of Medicine (PSOM) at The University of Pennsylvania. At DCAM and PSOM, I proposed the design, and control of a Cephalopods-inspired parallel soft robot mechanism for real-time patient motion correction in intensity-modulated radiation therapy, stereo-tactic radiosurgery, and in emerging magnetic resonance-linear accelerator photon-based cancer therapy. -->
-
+<!-- 
 
 ## **Continuum Mechanics Jovial Trivia**
 
@@ -45,12 +45,12 @@ I am an interdisciplinary researcher who combines the scientific elegance of **m
 **Referential Description**: On the Origin and Wanderings of this Specie
 
 I speak and write fluently in [Yoruba](https://en.wikipedia.org/wiki/Yoruba_language) and English -- languages I have used throughout my entire life. Having lived in Japan, I acquired a basic understanding of ~~Japaneasy~~ Japanese. I am working on a working-level proficiency (still another mile!). I love to meet people from other places and backgrounds -- it strengthens my understanding of the human culture. My accent has often been compared to the French one, though I have no idea what that is. I enjoy Afro-Jazz, Japanese Jazz, and alternative rock music genres.
-<!-- I do have a base electric guitar I've played so hard that my forearm went through the drum. This led my acquaintance to suggest to me that I might benefit from going to a therapist, whom I visited. First session with the therapist, I was asked what my purpose was for being there. I told her I was angry at the world and its people.  -->
+I do have a base electric guitar I've played so hard that my forearm went through the drum. This led my acquaintance to suggest to me that I might benefit from going to a therapist, whom I visited. First session with the therapist, I was asked what my purpose was for being there. I told her I was angry at the world and its people. 
 At various times in my little time on this planet, I have been a [_Shikaakwaan_](http://www.todayifoundout.com/index.php/2013/07/how-chicago-got-its-name/), a _[Lagosian](https://en.wiktionary.org/wiki/Lagosian)_, a _[Sheffielder](https://www.urbandictionary.com/define.php?term=Sheffielder) (home of my forever friends)_, a _Bostonian_, a _Londoner_, an _[Edokko](https://web-japan.org/tokyo/know/edokko/edo.html)_,  and a  _[Dallasite](https://www.dmagazine.com/frontburner/2012/01/are-we-dallasites-or-dallasonians-fort-worthers-or-fort-worthians-etymology-tells-us-who-we-are/) (Eh!)_.  
 
-#### **Miscellaneous**
+-->
 
-<!-- +   I like to think I take a lot of pain in my duties since I do derive pleasures in them. Each day, I gird my loins with strength and apply myself to my work: I lay my hand to the spindle and my hands hold to the distaff (like the proverbial virtuous woman :-) ).  To the end that when I am old and tired, I shall be able to reflect with comfort that I was not idle or useless when I was young. -->
+#### **Miscellaneous**
 
 + I fancy conceptualization, finding issues and directions, definitions, expositions and critical insight. I like to investigate the physics behind machines, and to understand the interconnectedness of components, seeing design flaws,  and improvising upon them.
 

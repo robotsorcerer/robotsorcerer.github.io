@@ -76,7 +76,6 @@ publications:
   #       venue: Transactions in Automatic Control
   #       paper_status: Manuscript
   #       year: March 2022
-
   - items: 'CompPhys!'
     paperitems:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
@@ -99,38 +98,53 @@ publications:
         paper_status: Manuscript
         year: Summer 2022
 
-  # - items: 'Science!'
-  #   paperitems:
-  #     - title: 'Reinforcement Learning Without Explicit Specification of Intermediate Rewards' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/RLWO.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>, and Other Awesome MSR Authors #, and John Langford. #Ian Abraham, and Sylvia Herbert
-  #       venue_web: https://www.science.org/journal/science
-  #       venue: Unknown
-  #       paper_status: Manuscript
-  #       year: Spring 2022
-
-  - items: 'ASME!'
+  - items: 'AAPM21b!'
     paperitems:
-      - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/kinecontrol.pdf
+      - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
+        location: 
         authors:
-          - <b>Olalekan Ogunmolu</b>
-        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: Technical Report
-        paper_status: Manuscript
-        year: March 2021
+          - <b>Olalekan Ogunmolu</b>, and
+          - Rodney Wiersma
+        venue_web:   
+        venue: Oral Presentation at <i>Medical Physics  47 (6)(AAPM)</i> E328-E328. Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
+        year: May 2021
+        paper_status: Accepted
+  - items: 'RAL/ICRA2019!'
+    paperitems:
+      - title: Mechanism and Model of a Soft Robot for Head Stabilization in Cancer Radiation Therapy
+        location: /downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Xinmin Liu,
+          - Nick Gans, and
+          - Rodney Wiersma.
+        venue_web: https://www.ieee-ras.org/publications/ra-l
+        venue: IEEE International Conference on Robotics and Automation (ICRA), Paris, France
+        paper_status: Accepted
+        year: May 2020
+        video: /downloads/Papers/icra20.mp4
+  - items: 'AAPM20!'
+    paperitems:
+      - title: 'Towards Closed-Loop Control Head Motion Correction with Soft Actuators in MRI-LINAC Systems'
+        location: 
+        authors:
+          - <b>Olalekan Ogunmolu</b>, and
+          - Rodney Wiersma
+        venue_web:   
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6). Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
+        year: May 2020
+        paper_status: Accepted
 
-  # - items: 'TRO2019!'
-  #   paperitems:
-  #     - title: 'Trajectory Optimization on an In-Parallel-Actuated Soft Robot Manipulator'
-  #       location: /downloads/Papers/ijrr.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu.</b>
-  #       venue_web: #https://journals.sagepub.com/home/ijr
-  #       venue: #The International Journal of Robotics Research (IJRR).
-  #       paper_status: Working Manuscript
-  #       year: 2020
+  - items: 'Thesis!'
+    paperitems:
+      - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
+                Beam Orientation Selection  in Cancer Radiation Therapy
+        location: /downloads/Papers/PhDThesis.pdf
+        authors: <b>Olalekan Ogunmolu</b>
+        venue_web: https://www.utsouthwestern.edu/
+        venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
+        paper_status: Accepted
+        year: May, 2019
   - items: 'AIRT2019!'
     paperitems:
       - title: Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
@@ -145,18 +159,34 @@ publications:
         paper_status: Accepted
         year: Switzerland AG 2019
 
-  # - items: 'RAL/IROS2020!'
-  #   paperitems:
-  #     - title: A stable Lyapunov approach for designing deep policies for complex robot motion tasks
-  #       location: #/downloads/Papers/ContinuumI.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>
-  #         - Ayaka Kume and
-  #         - Jethro Tan.
-  #       venue_web: https://www.ieee-ras.org/publications/ra-l
-  #       venue: IEEE Robotics and Automation Letters (RAL/IROS)
-  #       paper_status: Working Manuscript
-  #       year: 2020
+  - items: 'AAPM2019'
+    paperitems:
+      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach'
+        location: #/downloads/Papers/ContinuumI.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Dan Nguyen,
+          - Chenyang Shen,
+          - Xun Jia,
+          - Weiguo Lu, and
+          - Nick Gans,
+        venue_web:
+        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
+        paper_status: Accepted Abstract
+        year: July 2018
+  - items: 'ICCR19!'
+    paperitems:
+      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
+        location: '/404'
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: http://iccr-mcma.org/iccr2019/
+        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
+        year:  Montreal, CA. June 2019
+        paper_status: Accepted
   - items: 'AAPM20'
     paperitems:
       - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
@@ -166,7 +196,7 @@ publications:
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
         venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
-        paper_status: Accepted Abstract
+        paper_status: Accepted
         year: June 2020
   - items: 'AAPM20Workspace'
     paperitems:
@@ -180,21 +210,6 @@ publications:
         venue: ePoster at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
         paper_status: Accepted Abstract
         year: June 2020
-  - items: 'AAPM18'
-  - items: 'RAL/ICRA2019!'
-    paperitems:
-      - title: Mechanism and Model of a Soft Robot for Head Stabilization in Cancer Radiation Therapy.
-        location: /downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Xinmin Liu,
-          - Nick Gans, and
-          - Rodney Wiersma.
-        venue_web: https://www.ieee-ras.org/publications/ra-l
-        venue: IEEE International Conference on Robotics and Automation (ICRA), Paris, France
-        paper_status: Accepted
-        year: May 2020
-        video: /downloads/Papers/icra20.mp4
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
@@ -208,17 +223,6 @@ publications:
         venue: The International Journal of Medical Physics Research and Practice
         year: December, 2019
         paper_status: Accepted
-  # - items: 'Springer2019!'
-  #   paperitems:
-  #     - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
-  #       location: #/downloads/Papers/Springer19.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b> and
-  #         - Rodney Wiersma.
-  #       venue_web:
-  #       venue: © Springer (Invited Book Chapter)
-  #       paper_status: Submitted
-  #       year: November 2019
   - items: 'WAFR18!'
     paperitems:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
@@ -261,44 +265,6 @@ publications:
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
         year: Vancouver, BC. 2017
         paper_status: Accepted
-  - items: 'AAPM2019'
-    paperitems:
-      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach.'
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Dan Nguyen,
-          - Chenyang Shen,
-          - Xun Jia,
-          - Weiguo Lu, and
-          - Nick Gans,
-        venue_web:
-        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
-        paper_status: Accepted Abstract
-        year: July 2018
-  # - items: 'Thesis!'
-  #   paperitems:
-  #     - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
-  #               Beam Orientation Selection  in Cancer Radiation Therapy
-  #       location: /downloads/Papers/PhDThesis.pdf
-  #       authors: <b>Olalekan Ogunmolu</b>
-  #       venue_web: https://www.utsouthwestern.edu/
-  #       venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
-  #       paper_status: Accepted
-  #       year: May, 2019
-  - items: 'ICCR19!'
-    paperitems:
-      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
-        location: '/404'
-        authors:
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen.
-        venue_web: http://iccr-mcma.org/iccr2019/
-        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
-        year:  Montreal, CA. June 2019
-        paper_status: Accepted
   - items: 'SPIE18!'
     paperitems:
       - title: 'Design and Development of A Soft Robot for Head and Neck Cancer Radiotherapy'
@@ -315,6 +281,26 @@ publications:
         venue: 'SPIE: Smart Structures + Nondestructive Evaluation'
         year: Denver, CO, U.S.A. March 2018
         paper_status: Accepted
+  - items: 'Springer2019!'
+    paperitems:
+      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
+        location: #/downloads/Papers/Springer19.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>
+        venue_web:
+        venue: # © Springer (Invited Book Chapter)
+        paper_status: Technical Report
+        year: 2019
+  - items: 'KineCont!'
+    paperitems:
+      - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/kinecontrol.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>
+        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
+        venue: Technical Report
+        paper_status: Technical Report
+        year: March 2021
   - items: 'ZeroSum!'
     paperitems:
       - title: 'Robust Zero-Sum Deep Reinforcement Learning'
@@ -366,7 +352,7 @@ publications:
         venue_web: 'http://ewh.ieee.org/soc/ras/conf/FullySponsored/CASE/2015/case2015.org/index.html'
         venue: IEEE Conference on Automation Science and Engineering (CASE)
         year: Gothenburg, Sweden, August 2015
-        paper_status: Accepted        
+        paper_status: Accepted   
   - items: 'AAPM19!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Using Supervised Learning with Column Generation on IMRT Prostate Cancer Patients'
@@ -381,7 +367,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E237-E237. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
                 #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: San Antonio, TX, July 2019.
-        paper_status: Accepted Abstract
+        paper_status: Accepted
   - items: 'AAPM19Az!'
     paperitems:
       - title: 'A Reinforcement Learning Application of Guided Monte Carlo Tree Search Algorithm for Beam Orientation Selection in Radiation Therapy'
@@ -394,7 +380,7 @@ publications:
         venue_web: 
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E236-E236. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
         year: San Antonio, TX, July 2019.
-        paper_status: Accepted Abstract
+        paper_status: Accepted
   - items: 'AAPM19Myne!'
     paperitems:
       - title: 'An Approximate Policy Iteration Scheme for Beam Orientation Selection in Radiation Therapy'
@@ -473,4 +459,4 @@ publications:
         venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
         venue: Oral Presentation at AAPM. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: Annaheim, CA, August 2015
-        paper_status: Accepted Abstract
+        paper_status: Accepted
