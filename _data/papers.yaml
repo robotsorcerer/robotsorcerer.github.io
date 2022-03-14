@@ -62,20 +62,10 @@ publications:
         authors:
           - <b>Olalekan Ogunmolu</b>.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Algorithm Foundations of Robotics, XV (WAFR)
+        venue: Workshop on Algorithm Foundations of Robotics, XV (WAFR)
         paper_status: Submitted
         year: February 2022
 
-  # - items: 'BRAT2!'
-  #   paperitems:
-  #     - title: 'Further Results in Complex Backward Reach-Avoid Tubes' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/LBRAT-TAC.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: Transactions in Automatic Control
-  #       paper_status: Manuscript
-  #       year: March 2022
   - items: 'CompPhys!'
     paperitems:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
@@ -234,7 +224,7 @@ publications:
           - Dan Nguyen, and
           - Steve Jiang.
         venue_web: 'https://www.medphys.org/'
-        venue: Algorithm Foundations of Robotics, XIII. Published in Springer's Proceedings in Advanced Robotics (SPAR) Book
+        venue: Workshop on Algorithm Foundations of Robotics, XIII. Published in Springer's Proceedings in Advanced Robotics (SPAR) Book
         year: 2019
         paper_status: Accepted
   - items: 'IROS18!'
