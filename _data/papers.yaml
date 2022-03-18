@@ -47,7 +47,7 @@ publications:
   - items: 'DDPVEr!'
     paperitems:
       - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
-        location: /downloads/Papers/DDPBRAT.pdf
+        location: /downloads/Papers/LCSS22.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
@@ -58,7 +58,7 @@ publications:
   - items: 'ComplexBRAT!'
     paperitems:
       - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/CBRAT.pdf
+        location: /downloads/Papers/WAFR.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
