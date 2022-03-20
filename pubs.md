@@ -20,7 +20,7 @@ permalink: pubs
 <a href="#revs"><font size="4">Submitted / </font></a>
 <a href="#pubs"><font size="4">Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
-<a href="#abstracts"><font size="4">Abstracts. </font></a>
+<a href="#abstracts"><font size="4">Oral Presentations. </font></a>
 </center>
 
 
@@ -70,7 +70,7 @@ permalink: pubs
 
 {% for item in site.data.papers.publications %}
 	{% for paper in item.paperitems %}
-      	{% if paper.paper_status=="Accepted" or paper.venue contains "Oral Presentation" %}
+      	{% if paper.paper_status=="Accepted" %}
         	<tr>
           		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
           			{% for author in paper.authors %}
@@ -106,11 +106,11 @@ permalink: pubs
 <hr>
 <a name="abstracts"></a>
 <table  class="table table-hover" >
-<center><h3><b>Abstracts</b></h3></center>
+<center><h3><b>RAS/AAPM Orals</b></h3></center>
 
 {% for item in site.data.papers.publications %}
 	{% for paper in item.paperitems %}
-      	{% if paper.paper_status contains "Abstract" %}
+      	{% if paper.paper_status contains "Abstract"  or paper.venue contains "Oral Presentation" %}
         	<tr>
           		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
           			{% for author in paper.authors %}
@@ -123,4 +123,3 @@ permalink: pubs
 	{% endfor %}
 	{% endfor %} 	
 </table>
-

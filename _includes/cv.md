@@ -53,22 +53,6 @@
 - External Grants Reviewer (AI for Species Discovery), [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
 - Reviewer, [Automatica (The International Federation of Automatic Control)](https://www.journals.elsevier.com/automatica"), Robotics and Automation Letters, [Journal of Biomedical and Health Informatics](https://jbhi.embs.org/), [IEEE Access](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), [Neural Computing and Applications. A Springer Journal](https://link.springer.com/journal/521), [IEEE International Conference on Robotics and Automation (ICRA)).](https://www.icra2020.org/), [IEEE International Conference on Decision and Control(CDC))](https://cdc2020.ieeecss.org/), [IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems(IROS)](https://www.iros2019.org/), [Dynamic Systems and Control Conference -- The American Society of Mechanical Engineers(DSCC))](https://event.asme.org/DSCC), [American Control Conference (ACC)](http://acc2020.a2c2.org/), [International Conference on Machine Learning(ICML))](https://icml.cc/), [International Conference on Learning Representations (ICLR)](https://iclr.cc/).
 
-<br> 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Awards and Honors</h4>
- -  Finalist at the 3rd Entrepreneurship Forum and Startup Competition (2018).
- -  Google AI Travel and Conference Grant (2018).
- -  IEEE RAS/IROS Travel Award  (2018).
- -  NSF Doctoral Consortium Award (IROS 2017). 
- -  Mary and Richard Templeton Graduate Fellowship (2017). 
- -  ROSCon Scholarship (2017). 
- -  President’s Teaching Excellence Award for Teaching Assistants (2017). 
- -  IEEE RAS/ISAM Travel Award (CASE 2016) (2016). 
- -  Ericsson Graduate Fellowship (2015).
- -  Jonsson Scholarship (2014).
- -  PTDF Overseas Scholarship Scheme (2011), GBP25,500 for one year.
- -  Federal Government (of Nigeria) Scholarship (3.6% acceptance).
- -  Ondo State (Nigeria) Scholarship (»10% acceptance). 
-
 
 <br>
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities.</h4>

@@ -82,7 +82,7 @@ publications:
       - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/LevelSetsScale.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>.
+          - <b>Olalekan Ogunmolu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Scientific Computing
         paper_status: Manuscript
@@ -98,7 +98,7 @@ publications:
         venue_web:   
         venue: Oral Presentation at <i>Medical Physics  47 (6)(AAPM)</i> E328-E328. Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
         year: May 2021
-        paper_status: Accepted
+        paper_status: Oral
   - items: 'RAL/ICRA2019!'
     paperitems:
       - title: Mechanism and Model of a Soft Robot for Head Stabilization in Cancer Radiation Therapy
@@ -123,7 +123,7 @@ publications:
         venue_web:   
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6). Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
         year: May 2020
-        paper_status: Accepted
+        paper_status: Oral
 
   - items: 'Thesis!'
     paperitems:
@@ -186,7 +186,7 @@ publications:
           - Rodney Wiersma.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
         venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
-        paper_status: Accepted
+        paper_status: Oral
         year: June 2020
   - items: 'AAPM20Workspace'
     paperitems:
@@ -357,7 +357,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E237-E237. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
                 #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: San Antonio, TX, July 2019.
-        paper_status: Accepted
+        paper_status: Oral
   - items: 'AAPM19Az!'
     paperitems:
       - title: 'A Reinforcement Learning Application of Guided Monte Carlo Tree Search Algorithm for Beam Orientation Selection in Radiation Therapy'
@@ -370,7 +370,7 @@ publications:
         venue_web: 
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E236-E236. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
         year: San Antonio, TX, July 2019.
-        paper_status: Accepted
+        paper_status: Oral
   - items: 'AAPM19Myne!'
     paperitems:
       - title: 'An Approximate Policy Iteration Scheme for Beam Orientation Selection in Radiation Therapy'
@@ -384,7 +384,7 @@ publications:
         venue_web: 
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E386-E386. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
         year: San Antonio, TX, July 2019.
-        paper_status: Accepted Abstract
+        paper_status: Oral
   - items: 'IROS18!'
     paperitems:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
@@ -449,4 +449,4 @@ publications:
         venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
         venue: Oral Presentation at AAPM. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
         year: Annaheim, CA, August 2015
-        paper_status: Accepted
+        paper_status: Oral
