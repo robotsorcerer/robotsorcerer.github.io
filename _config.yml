@@ -10,7 +10,7 @@ twitter_username: robotsorcerer
 github_username:  robotsorcerer
 docker_username:  robotsorcerer
 timezone:         America/New-York
-quora_username:   Olalekan-Ogunmolu
+quora_username:   Lekan-Molu
 sass:
   sass_dir: _sass
   style: compressed
@@ -20,11 +20,8 @@ defaults:
     values:
       static: "true"
 markdown: kramdown
-#theme: minima
 plugins:
-#  - jekyll-feed
   - jekyll-watch
-  # - jekyll-last-modified-at
 exclude:
   - Gemfile
   - Gemfile.lock
