@@ -2,7 +2,7 @@
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
-   <a href="https://en.wikipedia.org/wiki/Ikigai">**Ikigai**</a>: **Control Theory** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**. <br>
+   <a href="https://en.wikipedia.org/wiki/Ikigai">**Ikigai**</a>: **Automatic Control** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**. <br>
    **Fund-my-research buzzwords**: Artificial Intelligence, Machine Learning, Data Science.<br>
    **Expert buzzwords**: System Identification, Control Theory, State Estimation.
 
