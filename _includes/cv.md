@@ -34,23 +34,24 @@
 </table>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
-<!-- <h6>Recent Talks</h6> -->
-- [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC Seminar, New York City, 2021.
+<h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
+- Learning without Rewards, [Microsoft Research Summit](https://www.microsoft.com/en-us/research/event/microsoft-research-summit-2021/), Fall 2021.
+- [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC, New York City, Winter 2021.
 - [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, CA, 2021.
 - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA, 2019.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA, 2018.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA, 2018.
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan, 2018.  
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada, 2017.
-- Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018.
+<!-- - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018. -->
 
-<h6>Classes</h6>
+<h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Classes</h5>
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, 2020.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>
 - **Associate Editor**, [IEEE International Conference on Robotics and Automation (ICRA)](https://www.icra2020.org/), 2020-2021.
-- **External Grants Reviewer**: AI for Species Discovery, [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
+- **External Grants Reviewer**, AI for Species Discovery, [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
 - **Journal Reviewer**: [Automatica (The International Federation of Automatic Control)](https://www.journals.elsevier.com/automatica"), IEEE Letters to Control Systems Society (L-CSS), IEEE Robotics and Automation Letters (RA-L), [Journal of Biomedical and Health Informatics](https://jbhi.embs.org/) (JBHI), Institute of Physics (IOP): The International Journal of Biomedical Physics and Engineering (PhysMed), [IEEE Access](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), [Neural Computing and Applications (A Springer Journal)](https://link.springer.com/journal/521).
 - **Conference Reviewer**: IEEE International Conference on Robotics and Automation (ICRA), IEEE International Conference on Decision and Control (CDC), IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems (IROS), [Dynamic Systems and Control Conference -- The American Society of Mechanical Engineers (DSCC)](https://event.asme.org/DSCC), [American Control Conference (ACC)](http://acc2020.a2c2.org/), [International Conference on Machine Learning (ICML)](https://icml.cc/), [International Conference on Learning Representations (ICLR)](https://iclr.cc/).
 
@@ -66,8 +67,6 @@
  - ~~[ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member~~.
  - ~~[NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member~~.
 
-
-<!-- Strava summary -->
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
 
 <p>As often as I can get away from the lab, I like to ride my bike. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard (Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider here). If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email.
@@ -76,8 +75,6 @@ Below is a screenshot of my recent activities summary. </p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 <br>
-
-
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
 
  -  Managing Up -- Rosanne Badowski.
