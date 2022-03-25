@@ -70,9 +70,9 @@
 <!-- Strava summary -->
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
 
-<p>As often as I can get away from the lab, I like to ride my bike. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard. If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email.
+<p>As often as I can get away from the lab, I like to ride my bike. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard (Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider here). If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email.
 
-Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider here. Below is a screenshot of my recent activities summary. </p>
+Below is a screenshot of my recent activities summary. </p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 <br>
