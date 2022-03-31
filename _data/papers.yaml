@@ -55,16 +55,16 @@ publications:
         paper_status: Submitted
         year: March 2022
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/WAFR22.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Workshop on Algorithm Foundations of Robotics, XV (WAFR)
-        paper_status: Submitted
-        year: February 2022
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/WAFR22.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>.
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Workshop on Algorithm Foundations of Robotics, XV (WAFR)
+  #       paper_status: Submitted
+  #       year: February 2022
 
   - items: 'CompPhys!'
     paperitems:
