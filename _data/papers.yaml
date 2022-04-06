@@ -44,16 +44,16 @@ publications:
   #       paper_status: Manuscript
   #       year: March 2022
 
-  - items: 'DDPVEr!'
-    paperitems:
-      - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
-        location: /downloads/Papers/LCSS22.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: In Letters, Control Systems Society (with CDC Option)
-        paper_status: Submitted
-        year: March 2022
+  # - items: 'DDPVEr!'
+  #   paperitems:
+  #     - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
+  #       location: /downloads/Papers/LCSS22.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: In Letters, Control Systems Society (with CDC Option)
+  #       paper_status: Submitted
+  #       year: March 2022
 
   # - items: 'ComplexBRAT!'
   #   paperitems:
