@@ -1,14 +1,14 @@
 publications:
-  # - items: 'TAC!'
-  #   paperitems:
-  #     - title: 'Proper Generalized Decomposition in Hilbert Space for a Class of Reachability Problems' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/PGDReach.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>, Ian Abraham, Sylvia Herbert. #Ian Abraham, and Sylvia Herbert
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: Transactions on Automatic Control
-  #       paper_status: Manuscript
-  #       year: Spring 2022
+  - items: 'TAC!'
+    paperitems:
+      - title: 'Proper Generalized Decomposition for a Class of Complex Control Problems' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/PGDReach.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b> #Ian Abraham, and Sylvia Herbert
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Transactions on Automatic Control
+        paper_status: Manuscript
+        year: Spring 2022
 
   # - items: 'BRATHInfity!'
   #   paperitems:
@@ -21,50 +21,38 @@ publications:
   #       paper_status: Manuscript
   #       year: February 2022
 
-  # - items: 'ComplexBRATFurther!'
-  #   paperitems:
-  #     - title: 'Complex Backward Reach-Avoid Tubes under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/CBRATFurther.pdf
-  #       authors:
-  #         - Yonathan Effroni, Ethan D. Dong, Ian Abraham, <b>Olalekan Ogunmolu</b>
-  #       venue_web: https://www.ieee-ras.org/publications/ra-l
-  #       venue: Robotics and Automation Letters (IROS option)
-  #       paper_status: Manuscript
-  #       year: February 2022
+  - items: 'BRATCapture!'
+    paperitems:
+      - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/CaptureBRAT.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Transactions in Automatic Control
+        paper_status: Manuscript
+        year: March 2022
 
-  # - items: 'BRATCapture!'
-  #   paperitems:
-  #     - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/CaptureBRAT.pdf
-  #       authors:
-  #         # - Jason Choi, Sylvia Herbert, <b>Olalekan Ogunmolu</b>
-  #         - <b>Olalekan Ogunmolu</b>
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: Transactions in Automatic Control
-  #       paper_status: Manuscript
-  #       year: March 2022
+  - items: 'DDPVEr!'
+    paperitems:
+      - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
+        location: /downloads/Papers/LCSS22.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: In Letters, Control Systems Society (with CDC Option)
+        paper_status: Submitted
+        year: March 2022
 
-  # - items: 'DDPVEr!'
-  #   paperitems:
-  #     - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
-  #       location: /downloads/Papers/LCSS22.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: In Letters, Control Systems Society (with CDC Option)
-  #       paper_status: Submitted
-  #       year: March 2022
-
-  # - items: 'ComplexBRAT!'
-  #   paperitems:
-  #     - title: 'Complex Backward Reach-Avoid Tubes: An Emergent Collective Behavior Perspective' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/WAFR22.pdf
-  #       authors:
-  #         - <b>Olalekan Ogunmolu</b>.
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: Workshop on Algorithm Foundations of Robotics, XV (WAFR)
-  #       paper_status: Submitted
-  #       year: February 2022
+  - items: 'ComplexBRAT!'
+    paperitems:
+      - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/WAFR22.pdf
+        authors:
+          - <b>Olalekan Ogunmolu</b>.
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Automatica
+        paper_status: Submitted
+        year: April 2022
 
   - items: 'CompPhys!'
     paperitems:
