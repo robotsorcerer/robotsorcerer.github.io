@@ -62,10 +62,10 @@
  - [IEEE](https://www.ieee.org/), Member.
  - [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member.
  - [IEEE CSS, Control Systems Society](https://www.ieeecss.org/), Member.
+ <font size=2>(Strikethroughs signify societies I was a part of but whose membership I no longer belong).</font>
  - ~~[AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member.~~
  - ~~[ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member~~.
  - ~~[NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member~~.
- <font size=2>(Strikethroughs signify societies I was a part of but whose membership I no longer belong).</font>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
 
