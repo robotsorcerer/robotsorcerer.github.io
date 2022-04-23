@@ -52,13 +52,12 @@
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>
 - **Associate Editor**, [IEEE International Conference on Robotics and Automation (ICRA)](https://www.icra2020.org/), 2020-2021.
 - **External Grants Reviewer**, AI for Species Discovery, [National Geographic Society](https://www.nationalgeographic.org/), 2020 - 2021.
-- **Journal Reviewer**: [Automatica (The International Federation of Automatic Control)](https://www.journals.elsevier.com/automatica"), IEEE Letters to Control Systems Society (L-CSS), IEEE Robotics and Automation Letters (RA-L), [Journal of Biomedical and Health Informatics](https://jbhi.embs.org/) (JBHI), Institute of Physics (IOP): The International Journal of Biomedical Physics and Engineering (PhysMed), [IEEE Access](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), [Neural Computing and Applications (A Springer Journal)](https://link.springer.com/journal/521).
-- **Conference Reviewer**: IEEE International Conference on Robotics and Automation (ICRA), IEEE International Conference on Decision and Control (CDC), IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems (IROS), [Dynamic Systems and Control Conference -- The American Society of Mechanical Engineers (DSCC)](https://event.asme.org/DSCC), [American Control Conference (ACC)](http://acc2020.a2c2.org/), [International Conference on Machine Learning (ICML)](https://icml.cc/), [International Conference on Learning Representations (ICLR)](https://iclr.cc/).
+- **Journal Reviewer**: [Automatica (IFAC -- The International Federation of Automatic Control)](https://www.journals.elsevier.com/automatica"), IEEE Letters to Control Systems Society (L-CSS), IEEE Robotics and Automation Letters (RA-L), [Journal of Biomedical and Health Informatics](https://jbhi.embs.org/) (JBHI), Institute of Physics (IOP): The International Journal of Biomedical Physics and Engineering (PhysMed), [IEEE Access](https://ieeeaccess.ieee.org/?http://ieeeaccess.ieee.org/), [Neural Computing and Applications (NCAA)](https://link.springer.com/journal/521).
+- **Conference Reviewer**: IEEE International Conference on Robotics and Automation (ICRA), IEEE International Conference on Decision and Control (CDC), IEEE/Robotics Society of Japan International Conference on Intelligent Robots and Systems (IROS), [Dynamic Systems and Control Conference -- The American Society of Mechanical Engineers (DSCC)](https://event.asme.org/DSCC), [American Control Conference (ACC)](http://acc2020.a2c2.org/), [International Conference on Machine Learning (ICML)](https://icml.cc/), [International Conference on Learning Representations (ICLR)](https://iclr.cc/), IFAC -- World Congress, Neural Information Processing Systems (NeurIPS).
 
 
 <br>
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Professional Activities.</h4>
- (Strikethroughs signify societies I was a part of but whose membership I no longer belong).
 
  - [IEEE](https://www.ieee.org/), Member.
  - [IEEE RAS, Robotics and Automation Society](https://www.ieee-ras.org/), Member.
@@ -66,10 +65,11 @@
  - ~~[AAPM: The American Association of Physicists in Medicine](https://w3.aapm.org/my_aapm/index.php), Junior Member.~~
  - ~~[ASTRO, The American Society for Radiation Oncology](https://www.astro.org/), Member~~.
  - ~~[NYAS, The New York Academy of Sciences](https://www.nyas.org/), Member~~.
+ <font size=2>(Strikethroughs signify societies I was a part of but whose membership I no longer belong).</font>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Strava Activities Summary</h4>
 
-<p>As often as I can get away from the lab, I like to ride my bike. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard (Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider here). If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email.
+<p>As often as I can get away from the lab, I like to ride my (road/mountain/Grandma's) bike. I ride rain or shine, hell or highwater -- in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard (Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider here). If you are in my area and would love to tag along on a ride, do not hesitate to shoot me an email.
 
 Below is a screenshot of my recent activities summary. </p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
@@ -81,9 +81,9 @@ Below is a screenshot of my recent activities summary. </p>
  -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
  -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
  -  Richard Feynmann: A Life in Science -- John and Mary Gribblin.
+ -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
  -  Profiles in Courage -- John Fitzgerald Kennedy.
  -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
- -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
  -  1776 -- David McCullough.
 
 
