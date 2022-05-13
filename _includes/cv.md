@@ -4,7 +4,7 @@
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
    <a href="https://en.wikipedia.org/wiki/Ikigai">**Ikigai**</a>: **Automatic Control** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**. <br>
    **Fund-my-research buzzwords**: Artificial Intelligence, Machine Learning, Data Science.<br>
-   **Expert buzzwords**: System Identification, Control Theory, State Estimation.
+   **Expert buzzwords**: System Identification, Control Theory, Optimal State Estimation.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present.
