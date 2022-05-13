@@ -34,7 +34,7 @@ publications:
 
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'A Cauchy-type  Hamilton-Jacobi Successive Approximation Scheme For Reachable Sets Computation'
+      - title: 'A Second-Order Reachable Sets Computational Scheme via a Variational Cauchy-Type Hamilton-Jacobi-Isaacs Equation.'
         location: /downloads/Papers/LCSS22.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
