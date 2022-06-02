@@ -1,14 +1,14 @@
 publications:
-  - items: 'TAC!'
-    paperitems:
-      - title: 'Proper Generalized Decomposition for a Class of Complex Control Problems' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/PGDReach.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b> #Ian Abraham, and Sylvia Herbert
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions on Automatic Control
-        paper_status: Manuscript
-        year: Spring 2022
+  # - items: 'TAC!'
+  #   paperitems:
+  #     - title: 'Proper Generalized Decomposition for a Class of Complex Control Problems' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/PGDReach.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b> #Ian Abraham, and Sylvia Herbert
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions on Automatic Control
+  #       paper_status: Manuscript
+  #       year: Spring 2022
 
   # - items: 'BRATHInfity!'
   #   paperitems:
@@ -21,16 +21,16 @@ publications:
   #       paper_status: Manuscript
   #       year: February 2022
 
-  - items: 'BRATCapture!'
-    paperitems:
-      - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/CaptureBRAT.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control
-        paper_status: Manuscript
-        year: March 2022
+  # - items: 'BRATCapture!'
+  #   paperitems:
+  #     - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/CaptureBRAT.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions in Automatic Control
+  #       paper_status: Manuscript
+  #       year: March 2022
 
   - items: 'DDPVEr!'
     paperitems:
@@ -43,38 +43,38 @@ publications:
         paper_status: Submitted
         year: March 2022
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/WAFR22.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Automatica
-        paper_status: Submitted
-        year: April 2022
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/WAFR22.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>.
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Automatica
+  #       paper_status: Submitted
+  #       year: April 2022
 
-  - items: 'CompPhys!'
-    paperitems:
-      - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
-        location: /downloads/Papers/ConsitutiveContinuum.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>. #. #Ian Abraham, and Sylvia Herbert
-        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Journal of Computational Physics
-        paper_status: Manuscript
-        year: Summer 2022
+  # - items: 'CompPhys!'
+  #   paperitems:
+  #     - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
+  #       location: /downloads/Papers/ConsitutiveContinuum.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>. #. #Ian Abraham, and Sylvia Herbert
+  #       venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
+  #       venue: Journal of Computational Physics
+  #       paper_status: Manuscript
+  #       year: Summer 2022
 
-  - items: 'LevConstitutive!'
-    paperitems:
-      - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
-        location: /downloads/Papers/LevelSetsScale.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
-        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Journal of Scientific Computing
-        paper_status: Manuscript
-        year: Summer 2022
+  # - items: 'LevConstitutive!'
+  #   paperitems:
+  #     - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
+  #       location: /downloads/Papers/LevelSetsScale.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
+  #       venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
+  #       venue: Journal of Scientific Computing
+  #       paper_status: Manuscript
+  #       year: Summer 2022
 
   - items: 'AAPM21b!'
     paperitems:
