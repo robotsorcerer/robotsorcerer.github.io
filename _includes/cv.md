@@ -46,6 +46,7 @@
 <!-- - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018. -->
  
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Classes and Useful PResentations</h5>
+- [A Short Treatise on the Kinematics and Kinetics of Robots -- Slides](/downloads/Papers/screw_slides.pdf), MSR NYC, 2022.
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, 2020.
 - [L1 Adaptive Control. Presented by Dr. Naira Hovakimyan. 10/1/2015](/downloads/Papers/L1Adaptive.pdf)
