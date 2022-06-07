@@ -6,6 +6,12 @@ layout: post
 
 I have left Brandeis.
 
+#### A Short Treatise on Robots' Kinematic Geometry and Kinetics.
+
++ [Course Resources]
++ [Mechanisms and Screw Theory Slides](/downloads/Papers/screw_slides.pdf)
+	+ Being a tutorial organized for the RL Group at MSR NYC. June, 2022. 
+
 
 #### **RBOT250: The Mathematical Foundations of Robotics, Spring 2021.**
 
