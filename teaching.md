@@ -6,11 +6,19 @@ layout: post
 
 I have left Brandeis.
 
-#### A Short Treatise on Robots' Kinematic Geometry and Kinetics.
+#### A Short Treatise on Robots' Kinematics and Kinetics.
+
++ Being a tutorial organized for my colleagues in the MSR NYC RL Group. June, 2022. 
 
 + [Course Resources]
-+ [Mechanisms and Screw Theory Slides](/downloads/Papers/screw_slides.pdf)
-	+ Being a tutorial organized for the RL Group at MSR NYC. June, 2022. 
+	+ [Introduction and Kinematic Geometry](/downloads/Papers/robots_slides/intro_linkages.pdf)
+		- Mechanics and Mechanisms, Pairs and Linkages, Serial, Parallel and Hyperredundant Robots
+	+ [Mobility of Kinematic Structures](/downloads/Papers/robots_slides/robots_slides/mobility.pdf)
+		- Freedoms, Constraints, The General (Relative) Mobility Criterion.
+	+ [Rigid Body Motions in R^3](/downloads/Papers/robots_slides/rbm_euler.pdf)
+		- Motions in R^3, Euler and Fick Angle Parameterizations; Axis/Angle Parameterizations, Composition of Rotations.
+	+ [Rigid Body Motions with Screw Theory](/downloads/Papers/robots_slides/rbm_screws.pdf)
+		- Screws: Displacement, Twists, Wrench. Group Theory Brief Intro. Connections of Screws with Rotations. The Exponential Map.
 
 
 #### **RBOT250: The Mathematical Foundations of Robotics, Spring 2021.**
