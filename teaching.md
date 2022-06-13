@@ -13,7 +13,7 @@ I have left Brandeis.
 + [Course Resources]
 	+ [Introduction and Kinematic Geometry](/downloads/Papers/robots_slides/intro_linkages.pdf)
 		- Mechanics and Mechanisms, Pairs and Linkages, Serial, Parallel and Hyperredundant Robots
-	+ [Mobility of Kinematic Structures](/downloads/Papers/robots_slides/robots_slides/mobility.pdf)
+	+ [Mobility of Kinematic Structures](/downloads/Papers/robots_slides/mobility.pdf)
 		- Freedoms, Constraints, The General (Relative) Mobility Criterion.
 	+ [Rigid Body Motions in R^3](/downloads/Papers/robots_slides/rbm_euler.pdf)
 		- Motions in R^3, Euler and Fick Angle Parameterizations; Axis/Angle Parameterizations, Composition of Rotations.
