@@ -45,11 +45,11 @@
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada, 2017.
 <!-- - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018. -->
  
-<h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Classes and Useful PResentations</h5>
+<h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Classes and Useful Presentations</h5>
 - [A Short Treatise on the Kinematics and Kinetics of Robots -- Slides](/downloads/Papers/screw_slides.pdf), MSR NYC, 2022.
 - [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, 2021.
 - [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, 2020.
-- [L1 Adaptive Control. Presented by Dr. Naira Hovakimyan. 10/1/2015](/downloads/Papers/L1Adaptive.pdf)
+- [L1 Adaptive Control -- Courtesy of Naira Hovakimyan. 10/1/2015](/downloads/Papers/L1Adaptive.pdf)
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>
 - **Associate Editor**, [IEEE International Conference on Robotics and Automation (ICRA)](https://www.icra2020.org/), 2020-2021.
