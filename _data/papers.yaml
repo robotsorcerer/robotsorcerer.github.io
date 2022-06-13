@@ -15,7 +15,7 @@ publications:
       - title: 'An Homicidal-Chauffeur Game of Two Players Under an H-\infty-Norm Bound For Robust Deep Policies' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/Chauffeur.pdf
         authors:
-          - Leilei Cui, Zhongping Jiang, and <b>Olalekan Ogunmolu</b>
+          - <b>Olalekan Ogunmolu</b>, Leilei Cui, Zhongping Jiang 
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control
         paper_status: Manuscript
