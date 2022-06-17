@@ -20,6 +20,30 @@ publications:
         venue: Transactions in Automatic Control
         paper_status: Manuscript
         year: February 2022
+  # - items: LSD
+  #   paperitems:
+  #     - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
+  #       location: /#
+  #       authors:
+  #         - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
+  #           Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, 
+  #           Akshay Krishnamurthy, and John Langford.
+  #       venue_web: https://www.science.org/journals
+  #       venue: In Science, Journals
+  #       paper_status: Submitted
+  #       year: June 2022     
+
+  - items: IGL2
+    paperitems:
+      - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
+        location: Neurips 2022
+        authors:
+          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Lekan Molu</b>, 
+            Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
+        venue_web: https://arxiv.org/abs/2206.08364
+        venue: Neurips
+        paper_status: Submitted
+        year: May 2022  
 
   - items: 'BRATCapture!'
     paperitems:
@@ -34,14 +58,15 @@ publications:
 
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'A Second-Order Reachable Sets Computational Scheme via a Variational Cauchy-Type Hamilton-Jacobi-Isaacs Equation.'
+      - title: 'A Second-Order Reachable Sets Computational Scheme via a Variational
+         Cauchy-Type Hamilton-Jacobi-Isaacs Equation'
         location: /downloads/Papers/LCSS22.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: In Letters, Control Systems Society (with CDC Option)
         paper_status: Submitted
-        year: March 2022
+        year: March 2022   
 
   - items: 'ComplexBRAT!'
     paperitems:
@@ -271,13 +296,13 @@ publications:
         year: 2019
   - items: 'KineCont!'
     paperitems:
-      - title: 'Kinematics and Kinetics of an In-Parallel-Actuated Soft Manipulator' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/kinecontrol.pdf
         authors:
           - <b>Olalekan Ogunmolu</b>
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: Technical Report
-        paper_status: Technical Report
+        venue: Transactions in Robotics
+        paper_status: Manuscript
         year: March 2021
   - items: 'ZeroSum!'
     paperitems:
