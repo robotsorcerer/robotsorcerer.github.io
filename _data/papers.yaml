@@ -10,6 +10,17 @@ publications:
         paper_status: Manuscript
         year: Spring 2022
 
+  - items: 'KineCont!'
+    paperitems:
+      - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/kinecontrol.pdf
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
+        venue: Transactions in Robotics
+        paper_status: Manuscript
+        year: September 2021
+        
   - items: 'BRATHInfity!'
     paperitems:
       - title: 'An Homicidal-Chauffeur Game of Two Players Under an H-\infty-Norm Bound For Robust Deep Policies' #: Application to Cranial Cancer Radiation Therapy
@@ -294,16 +305,6 @@ publications:
         venue: # © Springer (Invited Book Chapter)
         paper_status: Technical Report
         year: 2019
-  - items: 'KineCont!'
-    paperitems:
-      - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/kinecontrol.pdf
-        authors:
-          - <b>Lekan Molu</b>
-        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: Transactions in Robotics
-        paper_status: Manuscript
-        year: March 2021
   - items: 'ZeroSum!'
     paperitems:
       - title: 'Robust Zero-Sum Deep Reinforcement Learning'
