@@ -4,7 +4,7 @@ publications:
       - title: 'Proper Generalized Decomposition for a Class of Complex Control Problems' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/PGDReach.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b> #Ian Abraham, and Sylvia Herbert
+          - <b>Lekan Molu</b> #Ian Abraham, and Sylvia Herbert
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions on Automatic Control
         paper_status: Manuscript
@@ -15,7 +15,7 @@ publications:
       - title: 'An Homicidal-Chauffeur Game of Two Players Under an H-\infty-Norm Bound For Robust Deep Policies' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/Chauffeur.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, Leilei Cui, Zhongping Jiang 
+          - <b>Lekan Molu</b>, Leilei Cui, Zhongping Jiang 
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control
         paper_status: Manuscript
@@ -50,7 +50,7 @@ publications:
       - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/CaptureBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>
+          - <b>Lekan Molu</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control
         paper_status: Manuscript
@@ -62,7 +62,7 @@ publications:
          Cauchy-Type Hamilton-Jacobi-Isaacs Equation'
         location: /downloads/Papers/LCSS22.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>, Ian Abraham, and Sylvia Herbert.
+          - <b>Lekan Molu</b>, Ian Abraham, and Sylvia Herbert.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: In Letters, Control Systems Society (with CDC Option)
         paper_status: Submitted
@@ -73,7 +73,7 @@ publications:
       - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LargeBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>.
+          - <b>Lekan Molu</b>.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Automatica
         paper_status: Submitted
@@ -84,7 +84,7 @@ publications:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>. #. #Ian Abraham, and Sylvia Herbert
+          - <b>Lekan Molu</b>. #. #Ian Abraham, and Sylvia Herbert
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Computational Physics
         paper_status: Manuscript
@@ -95,7 +95,7 @@ publications:
       - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/LevelSetsScale.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
+          - <b>Lekan Molu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
         venue: Journal of Scientific Computing
         paper_status: Manuscript
@@ -299,7 +299,7 @@ publications:
       - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/kinecontrol.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>
+          - <b>Lekan Molu</b>
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Transactions in Robotics
         paper_status: Manuscript
