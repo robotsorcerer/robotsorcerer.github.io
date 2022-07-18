@@ -15,7 +15,7 @@ publications:
       - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/kinecontrol.pdf
         authors:
-          - <b>Lekan Molu</b>
+          - <b>Olalekan Ogunmolu</b>,
         venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
         venue: Transactions in Robotics
         paper_status: Manuscript
@@ -73,7 +73,7 @@ publications:
          Cauchy-Type Hamilton-Jacobi-Isaacs Equation'
         location: /downloads/Papers/LCSS22.pdf
         authors:
-          - <b>Lekan Molu</b>, Ian Abraham, and Sylvia Herbert.
+          - <b>Olalekan Ogunmolu</b>,, Ian Abraham, and Sylvia Herbert.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: In Letters, Control Systems Society (with CDC Option)
         paper_status: Manuscript
@@ -84,7 +84,7 @@ publications:
       - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LargeBRAT.pdf
         authors:
-          - <b>Lekan Molu</b>.
+          - <b>Olalekan Ogunmolu</b>,.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Automatica
         paper_status: Manuscript
