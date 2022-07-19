@@ -39,7 +39,7 @@ publications:
       - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
         location: ttps://arxiv.org/abs/2206.08364
         authors:
-          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Olalekan Ogunmolu<b>, 
+          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Olalekan Ogunmolu</b>, 
             Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
         venue_web: https://arxiv.org/abs/2206.08364
         venue: Neurips
