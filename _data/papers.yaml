@@ -5,8 +5,8 @@ publications:
         location: /downloads/Papers/h2hinf.pdf
         authors:
           - Leilei Cui, Zhongping Jiang, <b>Olalekan Ogunmolu.</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control
+        venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
+        venue: arxiv #Transactions in Automatic Control
         paper_status: Submitted
         year: August 2022
 
@@ -31,7 +31,7 @@ publications:
           - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Olalekan Ogunmolu</b>, 
             Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
         venue_web: https://arxiv.org/abs/2206.08364
-        venue: Neurips
+        venue: arxiv #Neurips
         paper_status: Submitted
         year: May 2022  
 
