@@ -35,16 +35,16 @@ publications:
         paper_status: Submitted
         year: May 2022  
 
-  - items: 'TAC!'
-    paperitems:
-      - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/PGDReach.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions on Automatic Control
-        paper_status: Manuscript
-        year: Spring 2022
+  # - items: 'TAC!'
+  #   paperitems:
+  #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/PGDReach.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions on Automatic Control
+  #       paper_status: Manuscript
+  #       year: Spring 2022
 
   # - items: 'BRATCapture!'
   #   paperitems:
