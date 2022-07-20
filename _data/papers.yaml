@@ -10,18 +10,18 @@ publications:
         paper_status: Submitted
         year: August 2022
 
-  # - items: LSD
-  #   paperitems:
-  #     - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
-  #       location: #https://arxiv.org/abs/2207.08229
-  #       authors:
-  #         - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
-  #           Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
-  #           Akshay Krishnamurthy, and John Langford.
-  #       venue_web: #https://arxiv.org/abs/2207.08229
-  #       venue: arXiv #Proceedings of the National Academy of Sciences (PNAS)
-  #       paper_status: Submitted
-  #       year: July 2022     
+  - items: LSD
+    paperitems:
+      - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
+        location: #https://arxiv.org/abs/2207.08229
+        authors:
+          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
+            Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
+            Akshay Krishnamurthy, and John Langford.
+        venue_web: #https://arxiv.org/abs/2207.08229
+        venue: arXiv #Proceedings of the National Academy of Sciences (PNAS)
+        paper_status: Submitted
+        year: July 2022     
 
   - items: IGL2
     paperitems:
@@ -112,18 +112,18 @@ publications:
   #       paper_status: Manuscript
   #       year: Summer 2022
 
-  # - items: TTIC_LSD
-  #   paperitems:
-  #     - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
-  #       location: /#
-  #       authors:
-  #         - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
-  #           Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, 
-  #           Akshay Krishnamurthy, and John Langford.
-  #       venue_web: https://www.science.org/journals
-  #       venue: BeyondRL TTIC Workshop Poster
-  #       paper_status: Oral
-  #       year: June 2022  
+  - items: TTIC_LSD
+    paperitems:
+      - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
+        location: /#
+        authors:
+          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
+            Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, 
+            Akshay Krishnamurthy, and John Langford.
+        venue_web: https://www.science.org/journals
+        venue: BeyondRL TTIC Workshop Poster
+        paper_status: Oral
+        year: June 2022  
 
   - items: IGL2
     paperitems:
