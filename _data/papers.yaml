@@ -10,19 +10,6 @@ publications:
         paper_status: Submitted
         year: August 2022
 
-  - items: LSD
-    paperitems:
-      - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
-        location: #https://arxiv.org/abs/2207.08229
-        authors:
-          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
-            Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
-            Akshay Krishnamurthy, and John Langford.
-        venue_web: #https://arxiv.org/abs/2207.08229
-        venue: arXiv #Proceedings of the National Academy of Sciences (PNAS)
-        paper_status: Submitted
-        year: July 2022     
-
   - items: IGL2
     paperitems:
       - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
