@@ -75,7 +75,7 @@ publications:
         authors:
           - <b>Olalekan Ogunmolu</b>.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: -
+        venue: #
         paper_status: Manuscript
         year: April 2022
 
