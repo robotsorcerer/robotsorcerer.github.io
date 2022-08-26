@@ -53,7 +53,7 @@ publications:
         authors:
           - Leilei Cui and <b>Olalekan Ogunmolu.</b>
         venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
-        venue: arxiv #Transactions in Automatic Control
+        venue: Transactions in Automatic Control (Regular Papers)
         paper_status: Submitted
         year: August 2022
 
@@ -64,20 +64,9 @@ publications:
         authors:
           - <b>Olalekan Ogunmolu.</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions on Automatic Control
+        venue: Transactions in Automatic Control
         paper_status: Manuscript
         year: Fall 2022
-
-  # - items: 'BRATCapture!'
-  #   paperitems:
-  #     - title: 'On the Capture Surface of the Pursuit-Evasion Game in Certain Emergent Collective Behaviors' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/CaptureBRAT.pdf
-  #       authors:
-  #         - <b>Lekan Molu</b>
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: Transactions in Automatic Control
-  #       paper_status: Manuscript
-  #       year: March 2022
 
   - items: 'DDPVEr!'
     paperitems:
@@ -85,9 +74,9 @@ publications:
          Cauchy-Type Hamilton-Jacobi-Isaacs Equation'
         location: #downloads/Papers/DDPReach.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b> #, Ian Abraham, and Sylvia Herbert.
+          - <b>Olalekan Ogunmolu.</b> #, Ian Abraham, and Sylvia Herbert.
         venue_web: https://arxiv.org/pdf/2203.03865.pdf
-        venue: arXiv
+        venue: IEEE Transactions on Automatic Control (Briefs)
         paper_status: Submitted
         year: September 2022   
 
