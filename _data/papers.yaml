@@ -10,16 +10,16 @@ publications:
         paper_status: Submitted
         year: August 2022
 
-- items: 'MixedH2!'
-  paperitems:
-    - title: 'Mixed H2/H-Infinity Learning-based LQ Games for Robust Policy Optimization Under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
-      location: /downloads/Papers/h2hinf.pdf
-      authors:
-        - Leilei Cui and <b>Olalekan Ogunmolu.</b>
-      venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
-      venue: arxiv #Transactions in Automatic Control
-      paper_status: Submitted
-      year: August 2022
+  - items: 'MixedH2!'
+    paperitems:
+      - title: 'Mixed H2/H-Infinity Learning-based LQ Games for Robust Policy Optimization Under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/h2hinf.pdf
+        authors:
+          - Leilei Cui and <b>Olalekan Ogunmolu.</b>
+        venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
+        venue: arxiv #Transactions in Automatic Control
+        paper_status: Submitted
+        year: August 2022
 
   - items: LSD
     paperitems:
