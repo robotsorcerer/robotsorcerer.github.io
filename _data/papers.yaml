@@ -37,7 +37,7 @@ publications:
 
   - items: 'RPO'
     paperitems:
-      - title: 'Real-Time Robust Policy Optimization on Robots' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Robust Policy Optimization Synthesis for Robots Planning: A Convex Optimization Approach' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/ICRA22.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b>
