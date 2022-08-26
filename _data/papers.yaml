@@ -70,8 +70,7 @@ publications:
 
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'A Second-Order Reachable Sets Computational Scheme via a Variational
-         Cauchy-Type Hamilton-Jacobi-Isaacs Equation'
+      - title: 'A Reachable Sets Computational Scheme for a Class of Hamilton-Jacobi-Isaacs Equations'
         location: #downloads/Papers/DDPReach.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b> #, Ian Abraham, and Sylvia Herbert.
