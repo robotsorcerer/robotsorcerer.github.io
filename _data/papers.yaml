@@ -14,7 +14,7 @@ publications:
   - items: 'CommentsLyapTV!'
     paperitems:
       - title: 'Comments on "Time-Varying Lyapunov Functions for Tracking Control of Mechanical Systems With and Without Frictions"' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/lyaptv.pdf
+        location: /downloads/Papers/LyapAccess
         authors:
           - <b>Olalekan Ogunmolu.</b>
         venue_web: #http://ieeecss.org/publication/transactions-automatic-control
