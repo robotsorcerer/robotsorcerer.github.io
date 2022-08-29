@@ -37,7 +37,7 @@ publications:
 
   - items: 'RPO'
     paperitems:
-      - title: 'End-to-End Synthesis of Learned Robust Policies' # for Trajectory-Tracking with Inverse Dynamics' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Synthesis of Learned Robust Policies' # for Trajectory-Tracking with Inverse Dynamics' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/ICRA22.pdf
         authors:
           - <b>Olalekan Ogunmolu.</b>
