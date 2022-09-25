@@ -8,43 +8,43 @@ publications:
             Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
         venue_web: https://arxiv.org/abs/2206.08364
         venue: arxiv #Neurips
-        paper_status: Submitted
+        paper_status: Accepted
         year: May 2022  
 
-  - items: 'CommentsLyapTV!'
-    paperitems:
-      - title: 'Comments on "Time-Varying Lyapunov Functions for Tracking Control of Mechanical Systems With and Without Frictions"' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/LyapAccess.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: #http://ieeecss.org/publication/transactions-automatic-control
-        venue: IEEE Access #ransactions in Automatic Control
-        paper_status: Submitted
-        year: August 2022
+  # - items: 'CommentsLyapTV!'
+  #   paperitems:
+  #     - title: 'Comments on "Time-Varying Lyapunov Functions for Tracking Control of Mechanical Systems With and Without Frictions"' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/LyapAccess.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: #http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: IEEE Access #ransactions in Automatic Control
+  #       paper_status: Accepted
+  #       year: August 2022
 
-  - items: LSD
-    paperitems:
-      - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
-        location: /#
-        authors:
-          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
-            Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
-            Akshay Krishnamurthy, and John Langford.
-        venue_web: arxiv
-        venue: Proceedings of NAS
-        paper_status: Submitted
-        year: July 2022  
+  # - items: LSD
+  #   paperitems:
+  #     - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
+  #       location: /#
+  #       authors:
+  #         - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
+  #           Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
+  #           Akshay Krishnamurthy, and John Langford.
+  #       venue_web: arxiv
+  #       venue: Proceedings of NAS
+  #       paper_status: Submitted
+  #       year: July 2022  
 
-  - items: 'RPO'
-    paperitems:
-      - title: 'Whole-System Synthesis of Learned Robust Policies' # for Trajectory-Tracking with Inverse Dynamics' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/ICRA22.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: #http://ieeecss.org/publication/transactions-automatic-control
-        venue: IEEE International Conference on Robotics and Automation (ICRA), 2023 #ransactions in Automatic Control
-        paper_status: Submitted
-        year: August 2022
+  # - items: 'RPO'
+  #   paperitems:
+  #     - title: 'Learning the Inertial Parameters of  Parallel Robot Configurations' # for Trajectory-Tracking with Inverse Dynamics' #: Application to Cranial Cancer Radiation Therapy
+  #       location: #/downloads/Papers/ICRA22.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: #http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: IEEE International Conference on Robotics and Automation (ICRA), 2023 #ransactions in Automatic Control
+  #       paper_status: Submitted
+  #       year: August 2022
 
   - items: 'MixedH2!'
     paperitems:
@@ -57,16 +57,16 @@ publications:
         paper_status: Submitted
         year: August 2022
 
-  - items: 'TAC!'
-    paperitems:
-      - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/PGDReach.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control
-        paper_status: Manuscript
-        year: Fall 2022
+  # - items: 'TAC!'
+  #   paperitems:
+  #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/PGDReach.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions in Automatic Control
+  #       paper_status: Manuscript
+  #       year: Fall 2022
 
   - items: 'DDPVEr!'
     paperitems:
@@ -79,16 +79,16 @@ publications:
         paper_status: Submitted
         year: September 2022   
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/LargeBRAT.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: #
-        paper_status: Manuscript
-        year: April 2022
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/LargeBRAT.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu</b>.
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: #
+  #       paper_status: Manuscript
+  #       year: April 2022
 
   - items: 'KineCont!'
     paperitems:
@@ -111,16 +111,16 @@ publications:
   #       paper_status: Manuscript
   #       year: Summer 2022
 
-  - items: 'LevConstitutive!'
-    paperitems:
-      - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
-        location: /downloads/Papers/LevelSetsScale.pdf
-        authors:
-          - <b>Lekan Molu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
-        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Journal of Scientific Computing
-        paper_status: Manuscript
-        year: Summer 2022
+  # - items: 'LevConstitutive!'
+  #   paperitems:
+  #     - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
+  #       location: /downloads/Papers/LevelSetsScale.pdf
+  #       authors:
+  #         - <b>Lekan Molu</b>. Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
+  #       venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
+  #       venue: Journal of Scientific Computing
+  #       paper_status: Manuscript
+  #       year: Summer 2022
 
   - items: TTIC_LSD
     paperitems:
