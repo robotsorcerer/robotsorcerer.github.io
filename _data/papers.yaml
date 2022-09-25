@@ -68,16 +68,16 @@ publications:
   #       paper_status: Manuscript
   #       year: Fall 2022
 
-  - items: 'DDPVEr!'
-    paperitems:
-      - title: 'A Reachable Sets Computational Scheme for a Class of Hamilton-Jacobi-Isaacs Equations'
-        location: #downloads/Papers/DDPReach.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b> #, Ian Abraham, and Sylvia Herbert.
-        venue_web: https://arxiv.org/pdf/2203.03865.pdf
-        venue: IEEE Transactions in Automatic Control (Briefs)
-        paper_status: Submitted
-        year: September 2022   
+  # - items: 'DDPVEr!'
+  #   paperitems:
+  #     - title: 'A Reachable Sets Computational Scheme for a Class of Hamilton-Jacobi-Isaacs Equations'
+  #       location: #downloads/Papers/DDPReach.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b> #, Ian Abraham, and Sylvia Herbert.
+  #       venue_web: https://arxiv.org/pdf/2203.03865.pdf
+  #       venue: IEEE Transactions in Automatic Control (Briefs)
+  #       paper_status: Submitted
+  #       year: September 2022   
 
   # - items: 'ComplexBRAT!'
   #   paperitems:
@@ -90,16 +90,16 @@ publications:
   #       paper_status: Manuscript
   #       year: April 2022
 
-  - items: 'KineCont!'
-    paperitems:
-      - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/kinecontrol.pdf
-        authors:
-          - <b>Olalekan Ogunmolu.</b>
-        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: arxiv
-        paper_status: Manuscript
-        year: September 2021
+  # - items: 'KineCont!'
+  #   paperitems:
+  #     - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/kinecontrol.pdf
+  #       authors:
+  #         - <b>Olalekan Ogunmolu.</b>
+  #       venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
+  #       venue: arxiv
+  #       paper_status: Manuscript
+  #       year: September 2021
   # - items: 'CompPhys!'
   #   paperitems:
   #     - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
