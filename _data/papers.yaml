@@ -40,7 +40,7 @@ publications:
       - title: 'Mixed H2/H-Infinity Learning-based LQ Games for Robust Policy Optimization Under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/h2hinf.pdf
         authors:
-          - Leilei Cui and <b>Olalekan Ogunmolu.</b>
+          - Leilei Cui and <b>Lekan Molu.</b>
         venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control (Regular Papers)
         paper_status: Submitted
