@@ -16,7 +16,7 @@ permalink: pubs
 
 
 <center>
-<a href="#unpubs"><font size="4">Evolving Drafts / </font></a>
+<!-- <a href="#unpubs"><font size="4">Evolving Drafts / </font></a> -->
 <a href="#revs"><font size="4">Submitted / </font></a>
 <a href="#pubs"><font size="4">Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
@@ -24,7 +24,7 @@ permalink: pubs
 </center>
 
 
-<a name="unpubs"></a>
+<!-- <a name="unpubs"></a>
 <table  class="table table-hover" >
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
@@ -40,7 +40,7 @@ permalink: pubs
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}
-</table>
+</table> -->
 
 
 <a name="revs"></a>

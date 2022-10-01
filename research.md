@@ -2,7 +2,7 @@
 layout: page
 ---
 
-Hi there! I am a Researcher at Microsoft Research, New York. My work combines the scientific elegance of machine learning and control theory with the practical impact of autonomous systems -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems. Currently, I am focused on a range of topics spanning safety-critical learning systems, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
+Hi there! I am a Researcher at Microsoft Research, New York. My work combines the elegance of machine learning and control theory with the practical impact of autonomous systems -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems. Currently, I am focused on a range of topics spanning safety-critical learning systems, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
 
 #### **Community Service**
 
