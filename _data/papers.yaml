@@ -1,16 +1,4 @@
 publications:
-  - items: IGL2
-    paperitems:
-      - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
-        location: https://arxiv.org/abs/2206.08364
-        authors:
-          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Olalekan Ogunmolu</b>, 
-            Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
-        venue_web: https://arxiv.org/abs/2206.08364
-        venue: Neural Information Processing Systems (Neurips)
-        paper_status: Accepted
-        year: May 2022  
-
   - items: 'MixedH2IFAC!'
     paperitems:
       - title: 'Further Results in Mixed H2/H-Infinity Learning-based LQ Games' #: Application to Cranial Cancer Radiation Therapy
@@ -18,7 +6,7 @@ publications:
         authors:
           - <b>Lekan Molu.</b>
         venue_web: https://www.ifac2023.org/archives/001/202209/IFAC2023_2ndCFP_20220921_1.pdf
-        venue: IFAC (World Congress)
+        venue: International Federation of Automatic Control, World Congress
         paper_status: Submitted
         year: October 2022
 
@@ -76,6 +64,18 @@ publications:
         venue: #
         paper_status: Manuscript
         year: April 2022
+        
+  - items: IGL2
+    paperitems:
+      - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
+        location: https://arxiv.org/abs/2206.08364
+        authors:
+          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Lekan Molu</b>, 
+            Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
+        venue_web: https://arxiv.org/abs/2206.08364
+        venue: Neural Information Processing Systems (Neurips)
+        paper_status: Accepted
+        year: May 2022  
 
   - items: 'KineCont!'
     paperitems:
@@ -97,7 +97,7 @@ publications:
             Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
             Akshay Krishnamurthy, and John Langford.
         venue_web: arxiv
-        venue: Proceedings of NAS
+        venue: Proceedings of the National Academy of Sciences
         paper_status: Submitted
         year: July 2022  
 
