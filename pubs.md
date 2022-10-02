@@ -17,7 +17,7 @@ permalink: pubs
 
 <center>
 <a href="#revs"><font size="4">Submitted / </font></a>
-<a href="#pubs"><font size="4">Published / </font></a>
+<a href="#pubs"><font size="4"> Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
 <a href="#abstracts"><font size="4">Oral Presentations / </font></a>
 <a href="#unpubs"><font size="4">Evolving Drafts. </font></a>
@@ -46,7 +46,7 @@ permalink: pubs
 
 <a name="pubs"></a>
 <table  class="table table-hover" >
-<center><h3><b>Published Works</b></h3></center>
+<center><h3><b>Published (or recently accepted) Works</b></h3></center>
 
 {% for item in site.data.papers.publications %}
 	{% for paper in item.paperitems %}
