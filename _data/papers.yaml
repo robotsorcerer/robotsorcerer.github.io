@@ -88,19 +88,6 @@ publications:
         paper_status: Manuscript
         year: September 2021
 
-  - items: LSD
-    paperitems:
-      - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
-        location: /#
-        authors:
-          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
-            Dipendra Misra, Dylan Foster, <b>Olalekan Ogunmolu</b>, Rajan Chari, 
-            Akshay Krishnamurthy, and John Langford.
-        venue_web: arxiv
-        venue: Proceedings of the National Academy of Sciences
-        paper_status: Submitted
-        year: July 2022  
-
   - items: 'CompPhys!'
     paperitems:
       - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
@@ -122,19 +109,6 @@ publications:
         venue: Journal of Scientific Computing
         paper_status: Manuscript
         year: Summer 2022
-
-  - items: TTIC_LSD
-    paperitems:
-      - title: 'Guaranteed Discovery of Controllable Latent States with Multi-Step Inverse Models'
-        location: /#
-        authors:
-          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, 
-            Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, 
-            Akshay Krishnamurthy, and John Langford.
-        venue_web: https://www.science.org/journals
-        venue: BeyondRL TTIC Workshop Poster
-        paper_status: Oral
-        year: June 2022  
 
   - items: IGL2
     paperitems:
