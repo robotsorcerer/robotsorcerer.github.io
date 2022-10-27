@@ -19,7 +19,7 @@ Hi there! I am a Senior Researcher at Microsoft Research, New York City. My work
 
 I am an active member of the AI, control, and robotics research communities — regularly engaging in peer reviewing activities for [NeurIPS](https://nips.cc/), [International Federation of Automatic Control](https://www.ifac-control.org/) -- World Congress and Automatica alike, [Institute of Physics](https://www.iop.org/),  [ICML](https://icml.cc/), IEEE Access, [Conference on Decision and Control](https://2021.ieeecdc.org/), [IROS](https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems), [American Control Conference](https://acc2021.a2c2.org/),  ASME's [DSCC](https://event.asme.org/DSCC),  [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), and [Neural Computing and Applications](https://www.springer.com/journal/521) among others.
 
-Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). In addition, I serve regularly as Associate Editor for IEEE Robotics' Flagship conference on the planet -- International Conference on Robotics and Automation (ICRA).
+Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). In addition, I serve regularly as Associate Editor for IEEE Robotics' flagship conference on the planet -- International Conference on Robotics and Automation (ICRA).
 
 
 <a name="mentor"></a>
@@ -29,7 +29,7 @@ I enjoy mentoring young students/scientists in teaching and research capacities 
 
 Current or past students include:
 
-+ Leilei Cui. Tandon School of Engineering, NYU (Research Intern, 2022).
++ Leilei Cui. Microsoft Research Intern, 2022 &rarr; Tandon School of Engineering, NYU PhD Student.
 + Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-Present).
 + Akanksha Saran. Univeristy of Texas at Austin  &rarr;  Microsoft Research (2021-Present).
 + Hosein Hasanbeig. Oxford Control Group, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present).
