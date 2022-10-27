@@ -30,9 +30,10 @@ I enjoy mentoring young students/scientists in teaching and research capacities 
 Current or past students include:
 
 + Leilei Cui. Microsoft Research Intern, 2022 &rarr; Tandon School of Engineering, NYU PhD Student.
-+ Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-Present).
++ Harry Vuong. Brandeis University Masters Student 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S.
 + Akanksha Saran. Univeristy of Texas at Austin  &rarr;  Microsoft Research (2021-Present).
 + Hosein Hasanbeig. Oxford Control Group, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present).
++ Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-Present).
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
 +  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
