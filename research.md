@@ -30,11 +30,12 @@ I enjoy mentoring young students/scientists in teaching and research capacities 
 Current or past students include:
 
 + Leilei Cui. Tandon School of Engineering, NYU (Research Intern, 2022).
-+  [Rachel Thompson](https://github.com/rsthomp), 2017 Undergraduate intern (MIT undergrad -> Brown University PhD).
-+  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern, Senior Software Engineer at Johnson & Johnson.
-+ Shaoru Chen. Penn ESE, University of Pennsylvania, Microsoft Research Postdoc (2021-2023).
-+ Akanksha Saran. Univeristy of Texas at Austin/Microsoft Research (2021-2023).
-+  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern, (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
++ Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-Present).
++ Akanksha Saran. Univeristy of Texas at Austin  &rarr;  Microsoft Research (2021-Present).
++ Hosein Hasanbeig. Oxford Control Group, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present).
++  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
++  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
++  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
 +  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), undergrad assistant. (CS PhD student, Tufts University).
 
 <a name="teaching"></a>
