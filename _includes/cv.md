@@ -88,10 +88,10 @@ Below is a screenshot of my recent activities summary. </p>
  -  Profiles in Courage -- John Fitzgerald Kennedy.
  -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
  -  1776 -- David McCullough.
-
-
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Current Reading Stack</h4>
- - Henry Ford -- Vincent Curcio.
- - A Promised Land -- Barack Obama.
- - Michael Jordan: The Life -- Roland Lazenby.
- - Eisenhower: A Life in War and Peace -- Jean Edward Smith.
+ -  Henry Ford -- Vincent Curcio.
+ -  A Promised Land -- Barack Obama.
+ -  Michael Jordan: The Life -- Roland Lazenby.
+ -  Eisenhower: A Life in War and Peace -- Jean Edward Smith.
+ -  Idea Man -- Paul Allen.
+ -  D-Day: Minute by Minute -- Jonathan Mayo.
+ -  Founding Fathers -- Gordon Leidner.
