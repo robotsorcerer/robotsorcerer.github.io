@@ -1,7 +1,7 @@
 publications:
   - items: 'MixedH2IFAC!'
     paperitems:
-      - title: 'Mixed H2/H-Infinity Policy Learning Synthesis' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Policy Learning Synthesis with Mixed H2/H-Infinity Control' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/h2hinf_ifac.pdf
         authors:
           - <b>Lekan Molu and Hosein Hasanbeig</b>
