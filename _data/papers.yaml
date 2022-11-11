@@ -8,7 +8,30 @@ publications:
         venue_web: https://www.ifac2023.org/archives/001/202209/IFAC2023_2ndCFP_20220921_1.pdf
         venue: International Federation of Automatic Control, World Congress 2023
         paper_status: Submitted
-        year: October 2022
+        year: (submitted) October 2022
+
+  - items: 'ComplexBRAT!'
+    paperitems:
+      - title: 'Reachability Analysis for Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
+        location: /downloads/Papers/LargeBRAT.pdf
+        authors:
+          - Hosein Hasanbeig and <b>Lekan Molu</b>.
+        venue_web: http://ieeecss.org/publication/transactions-automatic-control
+        venue: Learning for Dynamics and Control, 2023
+        paper_status: Submitted
+        year: (submitted) November 2022
+
+  - items: 'LSD!'
+    paperitems:
+      - title: 'Latent States Discovery via Multi-Step Inverse Models' #: Application to Cranial Cancer Radiation Therapy
+        location: https://arxiv.org/abs/2207.08229
+        authors:
+          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, 
+            Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, Akshay Krishnamurthy, John Langford.
+        venue_web: https://www.jmlr.org/tmlr/
+        venue: Transactions in Machine Learning Research, 2023
+        paper_status: Submitted
+        year: (submitted) November 2022
 
   - items: 'RPO'
     paperitems:
@@ -19,7 +42,7 @@ publications:
         venue_web: #http://ieeecss.org/publication/transactions-automatic-control
         venue: IEEE International Conference on Robotics and Automation (ICRA), 2023 #ransactions in Automatic Control
         paper_status: Submitted
-        year: August 2022
+        year: (submitted) August 2022
 
   - items: 'MixedH2!'
     paperitems:
@@ -30,7 +53,7 @@ publications:
         venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control (Regular Papers)
         paper_status: Submitted
-        year: August 2022
+        year: (submitted) August 2022
 
   - items: 'TAC!'
     paperitems:
@@ -53,17 +76,6 @@ publications:
         venue: IEEE Transactions in Automatic Control (Briefs)
         paper_status: Submitted
         year: September 2022   
-
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/LargeBRAT.pdf
-        authors:
-          - Hosein Hasanbeig, and <b>Lekan Molu</b>.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Learning for Dynamics and Control, 2023
-        paper_status: Submitted
-        year: April 2022
 
   - items: IGL2
     paperitems:
