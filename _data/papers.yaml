@@ -59,10 +59,10 @@ publications:
       - title: 'Differential Games for a Class of Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/LargeBRAT.pdf
         authors:
-          - <b>Olalekan Ogunmolu</b>.
+          - Hosein Hasanbeig, and <b>Lekan Molu</b>.
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: #
-        paper_status: Manuscript
+        venue: Learning for Dynamics and Control, 2023
+        paper_status: Submitted
         year: April 2022
 
   - items: IGL2
