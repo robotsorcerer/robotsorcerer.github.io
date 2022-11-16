@@ -1,4 +1,14 @@
 publications:
+  - items: 'ComplexBRAT!'
+    paperitems:
+      - title: 'Multiagent Trajectory Optimization with Level Set Flows'
+        authors:
+          - <b>Lekan Molu</b> and Hosein Hasanbeig.
+        venue_web: http://ijrr.org
+        venue: The International Journal of Robotics Research
+        paper_status: Manuscript
+        year: (submitted) December 2022
+
   - items: 'MixedH2IFAC!'
     paperitems:
       - title: 'Mixed H2/H-Infinity Policy Learning Synthesis' #: Application to Cranial Cancer Radiation Therapy
@@ -9,16 +19,6 @@ publications:
         venue: International Federation of Automatic Control, World Congress 2023
         paper_status: Submitted
         year: (submitted) November 2022
-
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Multiagent Trajectory Optimization with Level Set Flows'
-        authors:
-          - <b>Lekan Molu</b> and Hosein Hasanbeig.
-        venue_web: http://ijrr.org
-        venue: The International Journal of Robotics Research
-        paper_status: Submitted
-        year: (submitted) December 2022
 
   - items: 'RPO'
     paperitems:
