@@ -12,14 +12,13 @@ publications:
 
   - items: 'ComplexBRAT!'
     paperitems:
-      - title: 'Reachability Analysis for Agents Exhibiting Emergent Collective Behavior' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/LargeBRAT.pdf
+      - title: 'Multiagent Trajectory Optimization with Level Set Flows'
         authors:
-          - Hosein Hasanbeig and <b>Lekan Molu</b>.
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Learning for Dynamics and Control, 2023
+          - <b>Lekan Molu</b> and Hosein Hasanbeig.
+        venue_web: http://ijrr.org
+        venue: The International Journal of Robotics Research
         paper_status: Submitted
-        year: (submitted) November 2022
+        year: (submitted) December 2022
 
   - items: 'RPO'
     paperitems:
