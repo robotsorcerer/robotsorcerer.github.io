@@ -12,7 +12,10 @@ layout: page
 </center>
 
 
-Hi there! I am a Senior Researcher at Microsoft Research, New York City. My work combines the elegance of machine learning and control theory with the practical impact of autonomous systems -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems. Currently, I am focused on a range of topics spanning safety-critical learning systems, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
+Hi there! I am a Senior Researcher at Microsoft Research, New York City. My work combines the elegance of machine learning and control theory with the practical impact of autonomous systems -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems. 
+
+During my PhD and postdoc, I worked on developing modeling methods for continuum, compliant, and configurable (C3) soft robots for medical assitive systems in cancer radition therapy. Leveraging the theory of nonlinear elastic deformations and modern machine machine learning methods, I provided mechanisms and methods suitable for the modeling 
+(fiber-reinforced) elastomeric actuators and adapted principles from optimal and adaptive control theory for their manipulation. Nowadays, I worry about scalable modeling and control algorithms for manipulating real-world (physical) and often complex systems. In noo order of particular importance, I am focused on a range of topics spanning safety-critical learning systems, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
 
 <a name="serv"></a>
 #### **Community Service**
