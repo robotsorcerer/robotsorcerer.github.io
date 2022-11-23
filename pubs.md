@@ -24,6 +24,24 @@ permalink: pubs
 </center>
 
 
+<a name="unpubs"></a>
+<table  class="table table-hover" >
+  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
+{% for item in site.data.papers.publications %}
+  	{% for paper in item.paperitems %}
+	          	{% if paper.paper_status contains "Manuscript" %}
+		        	<tr>
+		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
+		          			{% for author in paper.authors %}
+		          				{{ author  }}
+		          			{% endfor %}
+			      		</td>
+		      		</tr>
+		      	{% endif %}
+	    	{% endfor %}
+	  	{% endfor %}
+</table>
+
 <a name="revs"></a>
 <table  class="table table-hover" >
 <center><h3><b>Submitted Works</b></h3></center>
@@ -102,23 +120,4 @@ permalink: pubs
       	{% endif %}
 	{% endfor %}
 	{% endfor %} 	
-</table>
-
-
-<a name="unpubs"></a>
-<table  class="table table-hover" >
-  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
-{% for item in site.data.papers.publications %}
-  	{% for paper in item.paperitems %}
-	          	{% if paper.paper_status contains "Manuscript" %}
-		        	<tr>
-		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
-		          			{% for author in paper.authors %}
-		          				{{ author  }}
-		          			{% endfor %}
-			      		</td>
-		      		</tr>
-		      	{% endif %}
-	    	{% endfor %}
-	  	{% endfor %}
 </table>
