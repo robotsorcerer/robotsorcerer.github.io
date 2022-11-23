@@ -3,7 +3,7 @@ publications:
     paperitems:
       - title: 'Multiagent Trajectory Optimization with Level Set Flows'
         authors:
-          - <b>Lekan Molu</b> and Hosein Hasanbeig.
+          - <b>Lekan Molu</b>
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
         paper_status: Manuscript
@@ -47,7 +47,7 @@ publications:
       - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/PGDReach.pdf
         authors:
-          - <b>Olalekan Ogunmolu.</b>
+          - <b>Lekan Molu.</b>
         venue_web: http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control
         paper_status: Manuscript
@@ -89,7 +89,7 @@ publications:
 
   - items: 'CompPhys!'
     paperitems:
-      - title: 'A Constitutive Framework For The Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
+      - title: 'A Constitutive Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/ConsitutiveContinuum.pdf
         authors:
           - <b>Lekan Molu</b>. #. #Ian Abraham, and Sylvia Herbert
