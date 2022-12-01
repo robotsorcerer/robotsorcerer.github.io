@@ -28,14 +28,15 @@ Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery G
 <a name="mentor"></a>
 #### Mentoring 
 
-I enjoy mentoring and working with young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA.
-Current or past students include:
+I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students and colleagues include:
 
 + Leilei Cui. Microsoft Research Intern, 2022 &rarr; Tandon School of Engineering, NYU PhD Student.
 <!-- + Jason Choi. Microsoft Research Intern, 2023 &rarr; UC Berkeley PhD Student. -->
 + Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
++ Akanksha Saran. CS Department, UT Austin &rarr; Microsoft Research Postdoc (2022-Present).
 + Hosein Hasanbeig. CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present).
-<!-- + Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?). -->
+Anurag Koul, Oregon State University, Microsoft Research Postdoc, 2022 - Present
++ Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
 +  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
