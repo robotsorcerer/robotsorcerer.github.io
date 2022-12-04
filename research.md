@@ -34,8 +34,8 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 <!-- + Jason Choi. Microsoft Research Intern, 2023 &rarr; UC Berkeley PhD Student. -->
 + Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
 + Akanksha Saran. CS Department, UT Austin &rarr; Microsoft Research Postdoc (2022-Present).
-+ Hosein Hasanbeig. CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present).
-Anurag Koul, Oregon State University, Microsoft Research Postdoc, 2022 - Present
+<!-- + Hosein Hasanbeig. CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present). -->
+<!-- Anurag Koul, Oregon State University, Microsoft Research Postdoc, 2022 - Present -->
 + Shaoru Chen. Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
 +  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
