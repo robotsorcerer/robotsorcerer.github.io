@@ -1,7 +1,7 @@
 publications:
   - items: 'ComplexBRAT!'
     paperitems:
-      - title: 'Multiagent Trajectory Optimization with Level Set Flows'
+      - title: 'Safe Multiagent Trajectory Optimization'
         authors:
           - <b>Lekan Molu</b>
         venue_web: http://ijrr.org
