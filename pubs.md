@@ -19,7 +19,7 @@ permalink: pubs
 <a href="#revs"><font size="4">Submitted / </font></a>
 <a href="#pubs"><font size="4"> Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
-<a href="#abstracts"><font size="4">Oral Presentations / </font></a>
+<a href="#abstracts"><font size="4">Presentations / </font></a>
 <a href="#unpubs"><font size="4">Evolving Drafts. </font></a>
 </center>
 
@@ -104,7 +104,7 @@ permalink: pubs
 <hr>
 <a name="abstracts"></a>
 <table  class="table table-hover" >
-<center><h3><b>RAS/AAPM Orals</b></h3></center>
+<center><h3><b>Presentations</b></h3></center>
 
 {% for item in site.data.papers.publications %}
 	{% for paper in item.paperitems %}

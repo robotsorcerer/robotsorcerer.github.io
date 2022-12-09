@@ -5,13 +5,13 @@ publications:
         authors:
           - <b>Lekan Molu</b>
         venue_web: https://roboticsconference.org/
-        venue: Robotics, Science Systems
-        paper_status: Submitted
-        year: February 2023
+        venue: Robotics, Science and Systems
+        paper_status: February
+        year: January 2023
 
   - items: 'Cosserat'
     paperitems:
-      - title: 'Discrete Cosserat Neural Networks for Multi-body Soft Robots'
+      - title: 'Discrete Cosserat Neural Networks for Modeling Multi-body Soft Robots'
         authors:
           - <b>Lekan Molu</b>
         venue_web: https://roboticsconference.org/
@@ -27,7 +27,7 @@ publications:
         venue_web: https://roboticsconference.org/
         venue: International Conference on Machine Learning (ICML)
         paper_status: Submitted
-        year: February 2023
+        year: January 2023
 
   - items: 'ComplexBRAT!'
     paperitems:
