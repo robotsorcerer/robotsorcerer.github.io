@@ -7,7 +7,7 @@ publications:
         venue_web: https://roboticsconference.org/
         venue: Robotics, Science Systems
         paper_status: Submitted
-        year: (submitted) February 2023
+        year: February 2023
 
   - items: 'Cosserat'
     paperitems:
@@ -17,7 +17,7 @@ publications:
         venue_web: https://roboticsconference.org/
         venue: Robotics and Automation Letters (with IROS Option)
         paper_status: Submitted
-        year: (submitted) February 2023
+        year: February 2023
 
   - items: 'SVFLaLearn'
     paperitems:
@@ -27,7 +27,7 @@ publications:
         venue_web: https://roboticsconference.org/
         venue: International Conference on Machine Learning (ICML)
         paper_status: Submitted
-        year: (submitted) February 2023
+        year: February 2023
 
   - items: 'ComplexBRAT!'
     paperitems:
@@ -36,8 +36,8 @@ publications:
           - <b>Lekan Molu</b>
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
-        paper_status: Manuscript
-        year: (submitted) December 2022
+        paper_status: Submitted
+        year: April 2023
 
   - items: 'MixedH2IFAC!'
     paperitems:
@@ -48,7 +48,7 @@ publications:
         venue_web: https://www.ifac2023.org/archives/001/202209/IFAC2023_2ndCFP_20220921_1.pdf
         venue: International Federation of Automatic Control, World Congress 2023
         paper_status: Submitted
-        year: (submitted) November 2022
+        year: November 2022
 
   - items: 'RPO'
     paperitems:
@@ -59,7 +59,7 @@ publications:
         venue_web: #http://ieeecss.org/publication/transactions-automatic-control
         venue: IEEE International Conference on Robotics and Automation (ICRA), 2023 #ransactions in Automatic Control
         paper_status: Submitted
-        year: (submitted) August 2022
+        year: August 2022
 
   - items: 'MixedH2!'
     paperitems:
@@ -70,7 +70,7 @@ publications:
         venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
         venue: Transactions in Automatic Control (Regular Papers)
         paper_status: Submitted
-        year: (submitted) August 2022
+        year: August 2022
 
   - items: 'TAC!'
     paperitems:
