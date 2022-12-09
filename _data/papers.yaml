@@ -1,4 +1,34 @@
 publications:
+  - items: 'Constitutive Neural Networks, <i>Redux</i>!'
+    paperitems:
+      - title: 'Constitutive Neural Networks, <i>Redux</i>'
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: https://roboticsconference.org/
+        venue: Robotics, Science Systems
+        paper_status: Submitted
+        year: (submitted) February 2023
+
+  - items: 'Cosserat'
+    paperitems:
+      - title: 'Discrete Cosserat Neural Networks for Multi-body Soft Robots'
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: https://roboticsconference.org/
+        venue: Robotics and Automation Letters (with IROS Option)
+        paper_status: Submitted
+        year: (submitted) February 2023
+
+  - items: 'SVFLaLearn'
+    paperitems:
+      - title: 'A Stable Vector Field Approach for Principled RGB Latent States Learning'
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: https://roboticsconference.org/
+        venue: International Conference on Machine Learning (ICML)
+        paper_status: Submitted
+        year: (submitted) February 2023
+
   - items: 'ComplexBRAT!'
     paperitems:
       - title: 'Safe Multiagent Trajectory Optimization'
