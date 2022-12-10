@@ -6,7 +6,7 @@ publications:
           - <b>Lekan Molu</b>
         venue_web: https://roboticsconference.org/
         venue: Robotics, Science and Systems
-        paper_status: Submitted
+        paper_status: Manuscript
         year: February 2023
 
   - items: 'Cosserat'
@@ -16,7 +16,7 @@ publications:
           - <b>Lekan Molu</b>
         venue_web: https://roboticsconference.org/
         venue: Robotics and Automation Letters (with IROS Option)
-        paper_status: Submitted
+        paper_status: Manuscript
         year: February 2023
 
   - items: 'SVFLaLearn'
@@ -26,7 +26,7 @@ publications:
           - <b>Lekan Molu</b>
         venue_web: https://roboticsconference.org/
         venue: International Conference on Machine Learning (ICML)
-        paper_status: Submitted
+        paper_status: Manuscript
         year: January 2023
 
   - items: 'ComplexBRAT!'
@@ -36,7 +36,7 @@ publications:
           - <b>Lekan Molu</b>
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
-        paper_status: Submitted
+        paper_status: Manuscript
         year: April 2023
 
   - items: 'MixedH2IFAC!'
