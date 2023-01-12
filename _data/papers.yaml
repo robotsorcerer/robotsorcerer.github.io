@@ -15,7 +15,7 @@ publications:
         authors:
           - <b>Lekan Molu</b>, Jayesh Gupta, Rogerio Bonatti, Sara Malvar, Andrey Kolobhov, and Audrey Sedal
         venue_web: https://roboticsconference.org/
-        venue: Robotics":" Science and Systems
+        venue: 'Robotics: Science and Systems'
         paper_status: Manuscript
         year: February 2023
 
@@ -84,15 +84,15 @@ publications:
   #       paper_status: Submitted
   #       year: September 2022   
 
-  - items: LevPyPDE
-    paperitems:
-      - title: 'A GPU-Accelerated Package for Hamiltion-Jacobi-Isaacs Safety Analysis'
-        location: https://github.com/robotsorcerer/levelsetpy
-        authors: - <b>Lekan Molu</b>
-        venue_web: https://github.com/robotsorcerer/levelsetpy
-        venue: ACM Transactions on Mathematical Software
-        paper_status: Accepted
-        year: Dec 2023  
+  # - items: LevPyPDE
+  #   paperitems:
+  #     - title: 'A GPU-Accelerated Package for Hamiltion-Jacobi-Isaacs Safety Analysis'
+  #       location: 'https://github.com/robotsorcerer/levelsetpy'
+  #       authors: - <b>Lekan Molu</b>
+  #       venue_web: 'https://github.com/robotsorcerer/levelsetpy'
+  #       venue: ACM Transactions on Mathematical Software
+  #       paper_status: Accepted
+  #       year: Dec 2023  
 
   - items: IGL2
     paperitems:

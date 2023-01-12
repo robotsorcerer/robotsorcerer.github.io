@@ -31,14 +31,12 @@ Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery G
 I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, and colleagues include:
 
 + [Hosein Hasanbeig](https://grockious.github.io/). CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-?).
-+ [Simin Liu](https://scholar.google.com/citations?hl=en&user=E0FlukAAAAAJ). Microsoft Research Intern (2023) &#8714; CMU CS PhD.
-+ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). Microsoft Research Intern, 2022   &#8714; NYU Tandon School of Engineering PhD.
-+ Etiosa Omeike. Microsoft Research Intern, 2023  &#8714; Princeton Electrical and Computer Engineering Junior.
-+ Summer 2023. McGill Junior (co-advised with [Prof. Audrey Sedal](#https:audreysedal.net)).
-+ Summer 2023. McGill Senior (co-advised with [Prof. Audrey Sedal](#https:audreysedal.net)).
++ [Simin Liu](https://scholar.google.com/citations?hl=en&user=E0FlukAAAAAJ). CMU CS PhD &rarr; Microsoft Research Intern (2023).
++ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). Microsoft Research Intern, 2022   &rarr; NYU Tandon School of Engineering PhD.
++ Etiosa Omeike. Princeton ECE Junior &rarr;  Microsoft Undergraduate Research Intern, 2023  
 + [Shaoru Chen](https://shaoru.site). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
-+ [Akanksha Saran](https://asaran.github.io/). Microsoft Research Postdoc (2022-Present) &#8714; UT Austin CS.
-Anurag Koul, Oregon State University, Microsoft Research Postdoc, 2022 - Present
++ [Akanksha Saran](https://asaran.github.io/). Microsoft Research Postdoc (2022-Present) &rarr; UT Austin CS.
++ [Anurag Koul](https://koulanurag.dev/), Oregon State University, Microsoft Research Postdoc, 2022 - Present.
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
 +  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
