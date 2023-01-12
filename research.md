@@ -28,19 +28,22 @@ Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery G
 <a name="mentor"></a>
 #### Mentoring 
 
-I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students and colleagues include:
+I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, and colleagues include:
 
-+ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). Microsoft Research Intern, 2022 &rarr; Tandon School of Engineering, NYU PhD Student.
-<!-- + Jason Choi. Microsoft Research Intern, 2023 &rarr; UC Berkeley PhD Student. -->
-+ Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
-+ [Akanksha Saran](https://asaran.github.io/). CS Department, UT Austin &rarr; Microsoft Research Postdoc (2022-Present).
-<!-- + [Hosein Hasanbeig](https://grockious.github.io/). CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-Present). -->
-Anurag Koul, Oregon State University, Microsoft Research Postdoc, 2022 - Present
++ [Hosein Hasanbeig](https://grockious.github.io/). CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-?).
++ [Simin Liu](https://scholar.google.com/citations?hl=en&user=E0FlukAAAAAJ). Microsoft Research Intern (2023) &#8714; CMU CS PhD.
++ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). Microsoft Research Intern, 2022   &#8714; NYU Tandon School of Engineering PhD.
++ Etiosa Omeike. Microsoft Research Intern, 2023  &#8714; Princeton Electrical and Computer Engineering Junior.
++ Summer 2023. McGill Junior (co-advised with [Prof. Audrey Sedal](#https:audreysedal.net)).
++ Summer 2023. McGill Senior (co-advised with [Prof. Audrey Sedal](#https:audreysedal.net)).
 + [Shaoru Chen](https://shaoru.site). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
++ [Akanksha Saran](https://asaran.github.io/). Microsoft Research Postdoc (2022-Present) &#8714; UT Austin CS.
+Anurag Koul, Oregon State University, Microsoft Research Postdoc, 2022 - Present
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
 +  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
-+  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), undergrad assistant. (CS PhD student, Tufts University).
++ Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
++  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), Undergrad Assistant. (CS PhD student, Tufts University).
 
 <a name="teaching"></a>
 #### [Old-ish] Teaching Keepsakes

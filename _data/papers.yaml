@@ -1,39 +1,29 @@
 publications:
-  - items: 'Constitutive Neural Networks, <i>Redux</i>!'
-    paperitems:
-      - title: 'Constitutive Neural Networks, <i>Redux</i>'
-        authors:
-          - <b>Lekan Molu</b>
-        venue_web: https://roboticsconference.org/
-        venue: Robotics, Science and Systems
-        paper_status: Manuscript
-        year: February 2023
+  # - items: 'Constitutive Neural Networks, <i>Redux</i>!'
+  #   paperitems:
+  #     - title: 'Constitutive Neural Networks, <i>Redux</i>'
+  #       authors:
+  #         - <b>Lekan Molu</b>
+  #       venue_web: https://roboticsconference.org/
+  #       venue: Robotics and Automation Letters (with IROS Option)
+  #       paper_status: Manuscript
+  #       year: February 2023
 
   - items: 'Cosserat'
     paperitems:
-      - title: 'Discrete Cosserat Neural Networks for Modeling Multi-body Soft Robots'
+      - title: 'Reduced Order Constitutive-Cosserat Models for Serial Soft Robot Manipulators'
         authors:
-          - <b>Lekan Molu</b>
+          - <b>Lekan Molu</b>, Jayesh Gupta, Rogerio Bonatti, Sara Malvar, Andrey Kolobhov, and Audrey Sedal
         venue_web: https://roboticsconference.org/
-        venue: Robotics and Automation Letters (with IROS Option)
+        venue: Robotics":" Science and Systems
         paper_status: Manuscript
         year: February 2023
 
-  - items: 'SVFLaLearn'
-    paperitems:
-      - title: 'A Stable Vector Field Approach for Principled RGB Latent States Learning'
-        authors:
-          - <b>Lekan Molu</b>
-        venue_web: https://roboticsconference.org/
-        venue: International Conference on Machine Learning (ICML)
-        paper_status: Manuscript
-        year: January 2023
-
   - items: 'ComplexBRAT!'
     paperitems:
-      - title: 'Safe Multiagent Trajectory Optimization'
+      - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium.'
         authors:
-          - <b>Lekan Molu</b>
+          - Jeremiah Etiosa, Shaoru Chen and <b>Lekan Molu</b> 
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
         paper_status: Manuscript
@@ -94,6 +84,16 @@ publications:
   #       paper_status: Submitted
   #       year: September 2022   
 
+  - items: LevPyPDE
+    paperitems:
+      - title: 'A GPU-Accelerated Package for Hamiltion-Jacobi-Isaacs Safety Analysis'
+        location: https://github.com/robotsorcerer/levelsetpy
+        authors: - <b>Lekan Molu</b>
+        venue_web: https://github.com/robotsorcerer/levelsetpy
+        venue: ACM Transactions on Mathematical Software
+        paper_status: Accepted
+        year: Dec 2023  
+
   - items: IGL2
     paperitems:
       - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
@@ -117,20 +117,20 @@ publications:
         paper_status: Manuscript
         year: September 2021
 
-  - items: 'CompPhys!'
-    paperitems:
-      - title: 'A Constitutive Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
-        location: /downloads/Papers/ConsitutiveContinuum.pdf
-        authors:
-          - <b>Lekan Molu</b>. #. #Ian Abraham, and Sylvia Herbert
-        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Journal of Computational Physics
-        paper_status: Manuscript
-        year: Summer 2022
+  # - items: 'CompPhys!'
+  #   paperitems:
+  #     - title: 'A Constitutive Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
+  #       location: /downloads/Papers/ConsitutiveContinuum.pdf
+  #       authors:
+  #         - <b>Lekan Molu</b>. #. #Ian Abraham, and Sylvia Herbert
+  #       venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
+  #       venue: Journal of Computational Physics
+  #       paper_status: Manuscript
+  #       year: Summer 2022
 
   - items: 'LevConstitutive!'
     paperitems:
-      - title: 'A Numerical Toolbox for the Scalable Analysis of Hamilton-Jacobi PDEs' #: Application to Cranial Cancer Radiation Therap
+      - title: 'A Numerical Toolbox for the Analysis of Hamilton-Jacobi PDEs and Their Level Sets' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/LevelSetsScale.pdf
         authors:
           - <b>Lekan Molu</b>. #Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.

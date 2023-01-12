@@ -10,6 +10,9 @@
 
 "_Logic, after all, is a trick devised by the human mind to solve certain types of problems. But mathematics is more than logic, it is logic plus the creative process. How the logical devices that constitute the tools of mathematics are to be combined to yield the desired results is not necessarily logical, no more than the writing of a symphony is a logical exercise, or the painting of a picture an exercise in syllogisms._" ~ Richard Bellman, 1972.
 
+"_Without detailed understanding, confidence can not be attained._" ~ Richard Feynman, "Personal Observations on the Reliability of the
+Shuttle", Appendix F, June 9, 1986
+
 "_The aim of science is to make difficult things understandable in a simpler way; the aim of poetry is to state simple things in an incomprehensible way. The two are incompatible._" ~ Paul Dirac, criticizing J. Robert Oppenheimer's love for poetry.
 
 "_...Deduction [and] Induction ... render the indefinite definite; Deduction explicates; Induction evaluates: that is all. Over the chasm that yawns between the ultimate goal of science and such ideas of Man's environment as ... he managed to communicate to some fellow, we are building a cantilever bridge of induction, held together by scientific struts and ties. Yet every plank of its advance is first laid by Retroduction alone, that is to say, by the spontaneous conjectures of instinctive reason ..._" ~ C.S. Peirce, Scientific Metaphysics (1908), S475.
