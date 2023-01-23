@@ -13,7 +13,7 @@ publications:
     paperitems:
       - title: 'Reduced Order Constitutive-Cosserat Models for Serial Soft Robot Manipulators'
         authors:
-          - <b>Lekan Molu</b>, Jayesh Gupta, Rogerio Bonatti, Sara Malvar, Andrey Kolobhov, and Audrey Sedal
+          - <b>Lekan Molu</b>, Jayesh Gupta, and Audrey Sedal
         venue_web: https://roboticsconference.org/
         venue: 'Robotics: Science and Systems'
         paper_status: Manuscript
