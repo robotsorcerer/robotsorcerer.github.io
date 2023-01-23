@@ -63,7 +63,7 @@
 <a name="mentor"></a>
  <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>  Mentoring Activities.</h4>
 
-I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, and colleagues include:
+I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, and/or colleagues include:
 
 + [Hosein Hasanbeig](https://grockious.github.io/). CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-?).
 + [Simin Liu](https://scholar.google.com/citations?hl=en&user=E0FlukAAAAAJ). CMU CS PhD &rarr; Microsoft Research Intern (2023).
