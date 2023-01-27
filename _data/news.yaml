@@ -5,6 +5,11 @@ news_items:
   #                 for the stability of a dynamical system in Python.</a>'
   #       highlight: true
   #       date: January 10, 2022
+  - items: 'NewMembers!'
+    subnewsitems:
+      - content: "We have several new learning-based control researchers joining our lab this year: Shaoru Chen (Penn ESE PhD), Simin Liu (CMU CS PhD Student), and Gilbert Bahati, Dr. Aaron Ames' student, (as an external collaborator)."
+        highlight: True
+        date: January 23, 2023
   - items: 'AEICRA!'
     subnewsitems:
       - content: "Serving as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA) Workshops."
