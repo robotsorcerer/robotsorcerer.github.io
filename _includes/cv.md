@@ -65,18 +65,18 @@
 
 I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, and/or colleagues include:
 
-+ [Simin Liu](https://scholar.google.com/citations?hl=en&user=E0FlukAAAAAJ). CMU CS PhD &rarr; Microsoft Research Intern (2023).
-+ [Shaoru Chen](https://shaoru.site). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). Microsoft Research Intern, 2022   &rarr; NYU Tandon School of Engineering PhD.
-+ [Akanksha Saran](https://asaran.github.io/).  UT Austin CS  &rarr; Microsoft Research Postdoc (2022-Present).
-+ [Anurag Koul](https://koulanurag.dev/), Oregon State University, Microsoft Research Postdoc, 2022 - Present.
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
-+ [Gilbert Bahati](https://www.gbahati.com/home), Caltech Mechanical Engineering PhD Student (Advised by Dr. Aaron Ames).
-+ Etiosa Omeike. Princeton ECE Junior &rarr;  Microsoft Undergraduate Research Intern, 2023.
-+  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
++ [Shaoru Chen](https://shaoru.site). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
 + Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
 +  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), Undergrad Assistant. (CS PhD student, Tufts University).
++ [Simin Liu](https://scholar.google.com/citations?hl=en&user=E0FlukAAAAAJ). CMU CS PhD &rarr; Microsoft Research Intern (2023).
++ [Akanksha Saran](https://asaran.github.io/).  UT Austin CS  &rarr; Microsoft Research Postdoc (2022-Present).
++ [Anurag Koul](https://koulanurag.dev/), Oregon State University, Microsoft Research Postdoc, 2022 - Present.
++ [Gilbert Bahati](https://www.gbahati.com/home), Caltech Mechanical Engineering PhD Student (Advised by Dr. Aaron Ames).
++ Etiosa Omeike. Princeton ECE Junior &rarr;  Microsoft Undergraduate Research Intern, 2023.
++  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson.
 + [Hosein Hasanbeig](https://grockious.github.io/). CS Department, University of Oxford &rarr; Microsoft Research Postdoc (2022-?).
 
 <br>

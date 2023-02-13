@@ -11,23 +11,23 @@ publications:
 
   - items: 'Cosserat'
     paperitems:
-      - title: 'Reduced Order Constitutive-Cosserat Models for Serial Soft Robot Manipulators'
+      - title: 'A General Adaptive Backstepping Control Scheme for Soft Manipulators Described by Cosserat Dynamics.'
         authors:
-          - <b>Lekan Molu</b>, Jayesh Gupta, and Audrey Sedal
+          - Gilbert Bahati*, Audrey Sedal, Aaron Ames, and  <b>Lekan Molu*</b>.
         venue_web: https://roboticsconference.org/
-        venue: 'Robotics: Science and Systems'
+        venue: 'Letter to the Control Systems Society with Control and Decision Conference Presentation Option'
         paper_status: Manuscript
-        year: February 2023
+        year: March 2023
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium.'
-        authors:
-          - Jeremiah Etiosa Omeike, Shaoru Chen, and <b>Lekan Molu</b> 
-        venue_web: http://ijrr.org
-        venue: The International Journal of Robotics Research
-        paper_status: Manuscript
-        year: April 2023
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium.'
+  #       authors:
+  #         - Jeremiah Etiosa Omeike, Shaoru Chen, and <b>Lekan Molu</b> 
+  #       venue_web: http://ijrr.org
+  #       venue: The International Journal of Robotics Research
+  #       paper_status: Manuscript
+  #       year: April 2023
 
   - items: 'MixedH2IFAC!'
     paperitems:
@@ -40,17 +40,6 @@ publications:
         paper_status: Submitted
         year: November 2022
 
-  - items: 'RPO'
-    paperitems:
-      - title: 'Learning the Inertial Parameters of  Parallel Robot Configurations' # for Trajectory-Tracking with Inverse Dynamics' #: Application to Cranial Cancer Radiation Therapy
-        location: #/downloads/Papers/ICRA22.pdf
-        authors:
-          - <b>Lekan Molu.</b>
-        venue_web: #http://ieeecss.org/publication/transactions-automatic-control
-        venue: IEEE International Conference on Robotics and Automation (ICRA), 2023 #ransactions in Automatic Control
-        paper_status: Submitted
-        year: August 2022
-
   - items: 'MixedH2!'
     paperitems:
       - title: 'Mixed H2/H-Infinity Learning-based LQ Games for Robust Policy Optimization Under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
@@ -62,16 +51,16 @@ publications:
         paper_status: Submitted
         year: August 2022
 
-  - items: 'TAC!'
-    paperitems:
-      - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/PGDReach.pdf
-        authors:
-          - <b>Lekan Molu.</b>
-        venue_web: http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control
-        paper_status: Manuscript
-        year: Fall 2022
+  # - items: 'TAC!'
+  #   paperitems:
+  #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/PGDReach.pdf
+  #       authors:
+  #         - <b>Lekan Molu.</b>
+  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions in Automatic Control
+  #       paper_status: Manuscript
+  #       year: Fall 2022
 
   # - items: 'DDPVEr!'
   #   paperitems:
@@ -84,15 +73,15 @@ publications:
   #       paper_status: Submitted
   #       year: September 2022   
 
-  # - items: LevPyPDE
-  #   paperitems:
-  #     - title: 'A GPU-Accelerated Package for Hamiltion-Jacobi-Isaacs Safety Analysis'
-  #       location: 'https://github.com/robotsorcerer/levelsetpy'
-  #       authors: - <b>Lekan Molu</b>
-  #       venue_web: 'https://github.com/robotsorcerer/levelsetpy'
-  #       venue: ACM Transactions on Mathematical Software
-  #       paper_status: Accepted
-  #       year: Dec 2023  
+    - items: LevPyPDE
+      paperitems:
+        - title: 'A GPU-Accelerated Software Package for the Analyses of Cauchy-Type Hamilton-Jacobi PDEs and Their Level Sets'
+          location: 'https://github.com/robotsorcerer/levelsetpy'
+          authors: - <b>Lekan Molu</b>
+          venue_web: 'https://github.com/robotsorcerer/levelsetpy'
+        venue: Letters to the Control Systems Society with Conference on Decision and Control Presentation Option
+        paper_status: Submitted
+        year: March 2023
 
   - items: IGL2
     paperitems:
@@ -130,14 +119,14 @@ publications:
 
   - items: 'LevConstitutive!'
     paperitems:
-      - title: 'A Numerical Toolbox for the Analysis of Hamilton-Jacobi PDEs and Their Level Sets' #: Application to Cranial Cancer Radiation Therap
+      - title: 'LevelSetPy: A GPU-Accelerated Software Package for the Analysis of Hamilton-Jacobi PDEs and Their Level Sets' #: Application to Cranial Cancer Radiation Therap
         location: /downloads/Papers/LevelSetsScale.pdf
         authors:
           - <b>Lekan Molu</b>. #Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
         venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Journal of Scientific Computing
-        paper_status: Manuscript
-        year: Summer 2022
+        venue: Conference on Decision and Control
+        paper_status: Submitted
+        year: Winter 2023
 
   - items: IGL2
     paperitems:
