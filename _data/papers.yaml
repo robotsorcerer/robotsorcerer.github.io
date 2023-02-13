@@ -1,46 +1,27 @@
 publications:
-  # - items: 'Constitutive Neural Networks, <i>Redux</i>!'
-  #   paperitems:
-  #     - title: 'Constitutive Neural Networks, <i>Redux</i>'
-  #       authors:
-  #         - <b>Lekan Molu</b>
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters (with IROS Option)
-  #       paper_status: Manuscript
-  #       year: February 2023
-
   - items: 'Cosserat'
     paperitems:
       - title: 'A General Adaptive Backstepping Control Scheme for Soft Manipulators Described by Cosserat Dynamics.'
         authors:
-          - Gilbert Bahati*, Audrey Sedal, Aaron Ames, and  <b>Lekan Molu*</b>.
+          - Lekan Molu, Gilbert Bahati, and  Audrey Sedal.
+        location: /downloads/Papers/lcss23.pdf
         venue_web: https://roboticsconference.org/
-        venue: 'Letter to the Control Systems Society with Control and Decision Conference Presentation Option'
+        venue: Transactions in Automatic Control (Regular Papers)
         paper_status: Manuscript
         year: March 2023
 
-  # - items: 'ComplexBRAT!'
-  #   paperitems:
-  #     - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium.'
-  #       authors:
-  #         - Jeremiah Etiosa Omeike, Shaoru Chen, and <b>Lekan Molu</b> 
-  #       venue_web: http://ijrr.org
-  #       venue: The International Journal of Robotics Research
-  #       paper_status: Manuscript
-  #       year: April 2023
-
-  - items: 'MixedH2IFAC!'
+  - items: 'MixedH2IFAC'
     paperitems:
       - title: 'Mixed H2/H-Infinity Policy Learning Synthesis' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/ifac.pdf
         authors:
           - <b>Lekan Molu and Hosein Hasanbeig</b>
         venue_web: https://www.ifac2023.org/archives/001/202209/IFAC2023_2ndCFP_20220921_1.pdf
-        venue: International Federation of Automatic Control, World Congress 2023
+        venue: 'International Federation of Automatic Control, World Congress 2023'
         paper_status: Submitted
         year: November 2022
 
-  - items: 'MixedH2!'
+  - items: 'MixedH2'
     paperitems:
       - title: 'Mixed H2/H-Infinity Learning-based LQ Games for Robust Policy Optimization Under Unknown Dynamics' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/h2hinf.pdf
@@ -50,6 +31,15 @@ publications:
         venue: Transactions in Automatic Control (Regular Papers)
         paper_status: Submitted
         year: August 2022
+  - items: 'ComplexBRAT!'
+    paperitems:
+      - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium.'
+        authors:
+          - <b>Lekan Molu</b> 
+        venue_web: http://ijrr.org
+        venue: The International Journal of Robotics Research
+        paper_status: Manuscript
+        year: April 2023
 
   # - items: 'TAC!'
   #   paperitems:
@@ -62,23 +52,24 @@ publications:
   #       paper_status: Manuscript
   #       year: Fall 2022
 
-  # - items: 'DDPVEr!'
-  #   paperitems:
-  #     - title: 'A Reachable Sets Computational Scheme for a Class of Hamilton-Jacobi-Isaacs Equations'
-  #       location: #downloads/Papers/DDPReach.pdf
-  #       authors:
-  #         - <b>Lekan Molu.</b> 
-  #       venue_web: https://arxiv.org/pdf/2203.03865.pdf
-  #       venue: IEEE Transactions in Automatic Control (Briefs)
-  #       paper_status: Submitted
-  #       year: September 2022   
+  - items: 'DDPVEr!'
+    paperitems:
+      - title: 'A Reachable Sets Computational Scheme for a Class of Hamilton-Jacobi-Isaacs Equations'
+        location: #downloads/Papers/DDPReach.pdf
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: https://arxiv.org/pdf/2203.03865.pdf
+        venue: IEEE Transactions in Automatic Control (Briefs)
+        paper_status: Manuscript
+        year: September 2022   
 
-    - items: LevPyPDE
-      paperitems:
-        - title: 'A GPU-Accelerated Software Package for the Analyses of Cauchy-Type Hamilton-Jacobi PDEs and Their Level Sets'
-          location: 'https://github.com/robotsorcerer/levelsetpy'
-          authors: - <b>Lekan Molu</b>
-          venue_web: 'https://github.com/robotsorcerer/levelsetpy'
+  - items: 'LevPyPDE'
+    paperitems:
+      - title: 'A GPU-Accelerated Software Package for the Analyses of Cauchy-Type Hamilton-Jacobi PDEs and Their Level Sets'
+        location: 'https://github.com/robotsorcerer/levelsetpy'
+        authors: 
+          - <b>Lekan Molu</b>
+        venue_web: 'https://github.com/robotsorcerer/levelsetpy'
         venue: Letters to the Control Systems Society with Conference on Decision and Control Presentation Option
         paper_status: Submitted
         year: March 2023
@@ -116,6 +107,16 @@ publications:
   #       venue: Journal of Computational Physics
   #       paper_status: Manuscript
   #       year: Summer 2022
+
+  # - items: 'Constitutive Neural Networks, <i>Redux</i>!'
+  #   paperitems:
+  #     - title: 'Constitutive Neural Networks, <i>Redux</i>'
+  #       authors:
+  #         - <b>Lekan Molu</b>
+  #       venue_web: https://roboticsconference.org/
+  #       venue: Robotics and Automation Letters (with IROS Option)
+  #       paper_status: Manuscript
+  #       year: February 2023
 
   - items: 'LevConstitutive!'
     paperitems:
