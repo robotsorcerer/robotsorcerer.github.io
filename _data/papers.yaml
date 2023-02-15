@@ -15,7 +15,7 @@ publications:
       - title: 'Mixed H2/H-Infinity Policy Learning Synthesis' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/ifac.pdf
         authors:
-          - <b>Lekan Molu and Hosein Hasanbeig</b>
+          - <b>Lekan Molu</b>
         venue_web: https://www.ifac2023.org/archives/001/202209/IFAC2023_2ndCFP_20220921_1.pdf
         venue: 'International Federation of Automatic Control, World Congress 2023'
         paper_status: Submitted
