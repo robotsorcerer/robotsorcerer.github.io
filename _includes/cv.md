@@ -99,8 +99,10 @@ Below is a screenshot of my recent activities summary. </p>
  -  The Prison Letters of Nelson Mandela -- Edited by Sham Venter.
  -  Mandela, The Authorized Biography  -- Anthony Sampson.
  -  Knowing Mandela -- John Carlin.
- - John Adams -- David McCullough.
- - The Preacher and The Presidents,Billy Graham in the White House - Nancy Gibbs and Michael Duffy.
+ -  Denocracy in America -- Alexis De Toqueville.
+ -  The Sun Also Rises -- Ernest Hemingway.
+ -  John Adams -- David McCullough.
+ -  The Preacher and The Presidents,Billy Graham in the White House - Nancy Gibbs and Michael Duffy.
  -  ~~Managing Up -- Rosanne Badowski~~.
  -  ~~Eye of the Hurricane: An Autobiography -- Richard Bellman~~.
  -  ~~Advice for a Young Investigator -- Santiago Ramon y Cajal~~.
