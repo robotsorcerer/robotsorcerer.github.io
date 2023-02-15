@@ -96,19 +96,22 @@ Below is a screenshot of my recent activities summary. </p>
 
 <br>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
-
- -  Managing Up -- Rosanne Badowski.
- -  Eye of the Hurricane: An Autobiography -- Richard Bellman.
- -  Advice for a Young Investigator -- Santiago Ramon y Cajal.
- -  Richard Feynmann: A Life in Science -- John and Mary Gribblin.
- -  Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.
- -  Profiles in Courage -- John Fitzgerald Kennedy.
+ -  The Prison Letters of Nelson Mandela -- Edited by Sham Venter.
+ -  Mandela, The Authorized Biography  -- Anthony Sampson.
+ -  Knowing Mandela -- John Carlin.
+ - John Adams -- David McCullough.
+ - The Preacher and The Presidents,Billy Graham in the White House - Nancy Gibbs and Michael Duffy.
+ -  ~~Managing Up -- Rosanne Badowski~~.
+ -  ~~Eye of the Hurricane: An Autobiography -- Richard Bellman~~.
+ -  ~~Advice for a Young Investigator -- Santiago Ramon y Cajal~~.
+ -  ~~Richard Feynmann: A Life in Science -- John and Mary Gribblin~~.
+ -  ~~Made to Stick: Why Some Ideas Survive and Others Die -- Chip Heath and Dan Heath.~~
+ -  ~~Profiles in Courage -- John Fitzgerald Kennedy.~~
  -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
  -  1776 -- David McCullough.
  -  Henry Ford -- Vincent Curcio.
- -  A Promised Land -- Barack Obama.
  -  Michael Jordan: The Life -- Roland Lazenby.
  -  Eisenhower: A Life in War and Peace -- Jean Edward Smith.
  -  Idea Man -- Paul Allen.
  -  D-Day: Minute by Minute -- Jonathan Mayo.
- -  Founding Fathers -- Gordon Leidner.
+ -  ~~Founding Fathers -- Gordon Leidner.~~
