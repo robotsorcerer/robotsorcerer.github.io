@@ -99,7 +99,7 @@ Below is a screenshot of my recent activities summary. </p>
  -  The Prison Letters of Nelson Mandela -- Edited by Sham Venter.
  -  Mandela, The Authorized Biography  -- Anthony Sampson.
  -  Knowing Mandela -- John Carlin.
- -  Denocracy in America -- Alexis De Toqueville.
+ -  Democracy in America -- Alexis De Toqueville.
  -  The Sun Also Rises -- Ernest Hemingway.
  -  John Adams -- David McCullough.
  -  The Preacher and The Presidents,Billy Graham in the White House - Nancy Gibbs and Michael Duffy.
