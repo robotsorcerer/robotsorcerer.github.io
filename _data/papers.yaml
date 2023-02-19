@@ -12,7 +12,7 @@ publications:
 
   - items: 'MixedH2IFAC'
     paperitems:
-      - title: 'Mixed H2/H-Infinity Policy Learning Synthesis' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Mixed H2/H-Infinity Policy Learning Synthesis'
         location: /downloads/Papers/ifac.pdf
         authors:
           - <b>Lekan Molu</b>
@@ -54,14 +54,14 @@ publications:
 
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'A Reachable Sets Computational Scheme for a Class of Hamilton-Jacobi-Isaacs Equations'
+      - title: 'A Proximal Operator Scheme for Approximating Hamilton-Jacobi-based Reachable Sets
         location: #downloads/Papers/DDPReach.pdf
         authors:
           - <b>Lekan Molu.</b> 
         venue_web: https://arxiv.org/pdf/2203.03865.pdf
-        venue: IEEE Transactions in Automatic Control (Briefs)
+        venue: Letters to Control Systems Society
         paper_status: Manuscript
-        year: September 2022   
+        year: March 2023 
 
   - items: 'LevPyPDE'
     paperitems:
