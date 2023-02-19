@@ -3,7 +3,7 @@ publications:
     paperitems:
       - title: 'A General Adaptive Backstepping Control Scheme for Soft Manipulators Described by Cosserat Dynamics.'
         authors:
-          - Lekan Molu, Gilbert Bahati, and  Audrey Sedal.
+          - Lekan Molu and Gilbert Bahati.
         location: /downloads/Papers/lcss23.pdf
         venue_web: https://roboticsconference.org/
         venue: Transactions in Automatic Control (Regular Papers)
