@@ -65,7 +65,7 @@ publications:
 
   - items: 'LevPyPDE'
     paperitems:
-      - title: 'A GPU-Accelerated Software Package for the Analyses of Cauchy-Type Hamilton-Jacobi PDEs and Their Level Sets'
+      - title: 'A GPU-Accelerated Software Package for Hamilton-Jacobi-based Reachable Sets Computation'
         location: 'https://github.com/robotsorcerer/levelsetpy'
         authors: 
           - <b>Lekan Molu</b>
@@ -117,17 +117,6 @@ publications:
   #       venue: Robotics and Automation Letters (with IROS Option)
   #       paper_status: Manuscript
   #       year: February 2023
-
-  - items: 'LevConstitutive!'
-    paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Software Package for the Analysis of Hamilton-Jacobi PDEs and Their Level Sets' #: Application to Cranial Cancer Radiation Therap
-        location: /downloads/Papers/LevelSetsScale.pdf
-        authors:
-          - <b>Lekan Molu</b>. #Evolving Code at <a href="https://github.com/robotsorcerer/LevelSetPy">robotsorcerer/LevelSetPy</a>.
-        venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-        venue: Conference on Decision and Control
-        paper_status: Submitted
-        year: Winter 2023
 
   - items: IGL2
     paperitems:
