@@ -8,14 +8,14 @@ publications:
         venue_web: https://roboticsconference.org/
         venue: Robotics and Automation Letters
         paper_status: Manuscript
-        year: March 2023
+        year: March 2023        
 
   - items: 'MixedH2IFAC'
     paperitems:
       - title: 'Mixed H2/H-Infinity Policy Learning Synthesis'
         location: /downloads/Papers/ifac.pdf
         authors:
-          - <b>Lekan Molu</b>
+          - <b>Lekan Molu</b>.
         venue_web: https://www.ifac2023.org/archives/001/202209/IFAC2023_2ndCFP_20220921_1.pdf
         venue: 'World Congress, International Federation of Automatic Control, Yokohama, Japan'
         paper_status: Accepted
@@ -36,7 +36,7 @@ publications:
     paperitems:
       - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
         authors:
-          - Jeremiah Omeike, Simin Liu, and <b>Lekan Molu</b> 
+          - Jeremiah Omeike, Simin Liu, and <b>Lekan Molu</b>.
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
         paper_status: Manuscript
@@ -46,12 +46,22 @@ publications:
     paperitems:
       - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
         authors:
-          - Shaoru Chen*, <b>Lekan Molu*</b>, Alex Lamb, and John Langford
+          - Shaoru Chen*, <b>Lekan Molu*</b>, Alex Lamb, and John Langford.
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
         paper_status: Manuscript
         year: April 2023
 
+  - items: 'DDPReach'
+    paperitems:
+      - title: 'A Second-Order Reachable Sets Computational Scheme for a Cauchy-type Variational Hamilton-Jacobi Isaacs Equation'
+        authors:
+          - <b>Lekan Molu.</b> # and Sylvia Herbert.
+        location: downloads/Papers/ddpreach.pdf
+        venue_web: https://roboticsconference.org/
+        venue: CDC
+        paper_status: Manuscript
+        year: Summer 2023
   # - items: 'TAC!'
   #   paperitems:
   #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
@@ -79,7 +89,7 @@ publications:
       - title: 'A GPU-Accelerated Software Package for Computating Hamilton-Jacobi-based Reachable Sets'
         location: 'https://github.com/robotsorcerer/levelsetpy'
         authors: 
-          - <b>Lekan Molu</b>
+          - <b>Lekan Molu.</b>
         venue_web: 'https://github.com/robotsorcerer/levelsetpy'
         venue: Letters to the Control Systems Society with Conference on Decision and Control Presentation Option
         paper_status: Submitted
