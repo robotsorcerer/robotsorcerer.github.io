@@ -84,16 +84,16 @@ publications:
         paper_status: Submitted
         year: March 2023 
 
-  - items: 'LevPyPDE'
-    paperitems:
-      - title: 'A GPU-Accelerated Software Package for Computating Hamilton-Jacobi-based Reachable Sets'
-        location: 'https://github.com/robotsorcerer/levelsetpy'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: 'https://github.com/robotsorcerer/levelsetpy'
-        venue: Conference on Decision and Control 
-        paper_status: Submitted
-        year: March 2023
+  # - items: 'LevPyPDE'
+  #   paperitems:
+  #     - title: 'A GPU-Accelerated Software Package for Computating Hamilton-Jacobi-based Reachable Sets'
+  #       location: 'https://github.com/robotsorcerer/levelsetpy'
+  #       authors: 
+  #         - <b>Lekan Molu.</b>
+  #       venue_web: 'https://github.com/robotsorcerer/levelsetpy'
+  #       venue: Conference on Decision and Control 
+  #       paper_status: Submitted
+  #       year: March 2023
 
   - items: IGL2
     paperitems:
