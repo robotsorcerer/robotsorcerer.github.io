@@ -32,37 +32,37 @@ publications:
         paper_status: Revision
         year: April 2023
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
-        authors:
-          - Jeremiah Omeike, Simin Liu, and <b>Lekan Molu</b>.
-        venue_web: http://ijrr.org
-        venue: The International Journal of Robotics Research
-        paper_status: Manuscript
-        year: April 2023
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
+  #       authors:
+  #         - Jeremiah Omeike, Simin Liu, and <b>Lekan Molu</b>.
+  #       venue_web: http://ijrr.org
+  #       venue: The International Journal of Robotics Research
+  #       paper_status: Manuscript
+  #       year: April 2023
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
-        authors:
-          -  <b>Lekan Molu*</b>.
-        venue_web: http://ijrr.org
-        venue: The International Journal of Robotics Research
-        paper_status: Manuscript
-        year: April 2023
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
+  #       authors:
+  #         -  <b>Lekan Molu*</b>.
+  #       venue_web: http://ijrr.org
+  #       venue: The International Journal of Robotics Research
+  #       paper_status: Manuscript
+  #       year: April 2023
 
-  - items: 'DDPReach'
-    paperitems:
-      - title: 'A Second-Order Reachable Sets Computational Scheme for a Cauchy-type Variational Hamilton-Jacobi Isaacs Equation'
-        authors:
-          - <b>Lekan Molu.</b> # and Sylvia Herbert.
-        location: downloads/Papers/ddpreach.pdf
-        venue_web: https://roboticsconference.org/
-        venue: CDC
-        paper_status: Manuscript
-        year: Summer 2023
-  # - items: 'TAC!'
+  # - items: 'DDPReach'
+  #   paperitems:
+  #     - title: 'A Second-Order Reachable Sets Computational Scheme for a Cauchy-type Variational Hamilton-Jacobi Isaacs Equation'
+  #       authors:
+  #         - <b>Lekan Molu.</b> # and Sylvia Herbert.
+  #       location: downloads/Papers/ddpreach.pdf
+  #       venue_web: https://roboticsconference.org/
+  #       venue: CDC
+  #       paper_status: Manuscript
+  #       year: Summer 2023
+  # # - items: 'TAC!'
   #   paperitems:
   #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
   #       location: /downloads/Papers/PGDReach.pdf
@@ -73,16 +73,16 @@ publications:
   #       paper_status: Manuscript
   #       year: Fall 2022
 
-  - items: 'DDPVEr!'
-    paperitems:
-      - title: 'A Proximal Operator Scheme for Approximating Hamilton-Jacobi-based Reachable Sets'
-        location: #downloads/Papers/DDPReach.pdf
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: https://arxiv.org/pdf/2203.03865.pdf
-        venue: Letters to Control Systems Society
-        paper_status: Submitted
-        year: March 2023 
+  # - items: 'DDPVEr!'
+  #   paperitems:
+  #     - title: 'A Proximal Operator Scheme for Approximating Hamilton-Jacobi-based Reachable Sets'
+  #       location: #downloads/Papers/DDPReach.pdf
+  #       authors:
+  #         - <b>Lekan Molu.</b> 
+  #       venue_web: https://arxiv.org/pdf/2203.03865.pdf
+  #       venue: Letters to Control Systems Society
+  #       paper_status: Submitted
+  #       year: March 2023 
 
   # - items: 'LevPyPDE'
   #   paperitems:
@@ -107,16 +107,16 @@ publications:
         paper_status: Accepted
         year: May 2022  
 
-  - items: 'KineCont!'
-    paperitems:
-      - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/kinecontrol.pdf
-        authors:
-          - <b>Lekan Molu.</b>
-        venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-        venue: arxiv
-        paper_status: Manuscript
-        year: September 2021
+  # - items: 'KineCont!'
+  #   paperitems:
+  #     - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/kinecontrol.pdf
+  #       authors:
+  #         - <b>Lekan Molu.</b>
+  #       venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
+  #       venue: arxiv
+  #       paper_status: Manuscript
+  #       year: September 2021
 
   # - items: 'CompPhys!'
   #   paperitems:
