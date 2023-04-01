@@ -1,14 +1,14 @@
 publications:
-  # - items: 'Cosserat'
-  #   paperitems:
-  #     - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
-  #       authors:
-  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal, and Aaron Ames.
-  #       location: /downloads/Papers/lcss23.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters
-  #       paper_status: Manuscript
-  #       year: March 2023        
+  - items: 'Cosserat'
+    paperitems:
+      - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
+        authors:
+          - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal, and Aaron Ames.
+        location: /downloads/Papers/lcss23.pdf
+        venue_web: https://roboticsconference.org/
+        venue: Robotics and Automation Letters
+        paper_status: Manuscript
+        year: April 2023        
 
   - items: 'MixedH2IFAC'
     paperitems:
@@ -84,16 +84,16 @@ publications:
   #       paper_status: Submitted
   #       year: March 2023 
 
-  # - items: 'LevPyPDE'
-  #   paperitems:
-  #     - title: 'A GPU-Accelerated Software Package for Computating Hamilton-Jacobi-based Reachable Sets'
-  #       location: 'https://github.com/robotsorcerer/levelsetpy'
-  #       authors: 
-  #         - <b>Lekan Molu.</b>
-  #       venue_web: 'https://github.com/robotsorcerer/levelsetpy'
-  #       venue: Conference on Decision and Control 
-  #       paper_status: Submitted
-  #       year: March 2023
+  - items: 'LevPyPDE'
+    paperitems:
+      - title: 'LevelSetPy: A GPU-Accelerated Python Software Package for Resolving Hamilton-Jacobi PDEs and Level Set Evolutions'
+        location: 'https://github.com/robotsorcerer/levelsetpy'
+        authors: 
+          - <b>Lekan Molu.</b>
+        venue_web: 'https://dl.acm.org/journal/toms'
+        venue: ACM Transactions on Mathematical Software 
+        paper_status: Submitted
+        year: March 2023
 
   - items: IGL2
     paperitems:

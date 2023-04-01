@@ -18,8 +18,8 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 <hr>
 
 <center>
-<a href="#submits"><font size="4">Submitted / </font></a>
-<a href="#revs"><font size="4">Under Revision / </font></a>
+<!-- <a href="#submits"><font size="4">Submitted / </font></a>
+<a href="#revs"><font size="4">Under Revision / </font></a> -->
 <a href="#pubs"><font size="4"> Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
 <a href="#abstracts"><font size="4">Presentations / </font></a>
@@ -27,7 +27,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 </center>
 
 
-<a name="unpubs"></a>
+<!-- <a name="unpubs"></a>
 <table  class="table table-hover" >
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
@@ -43,7 +43,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}
-</table>
+</table> -->
 
 <a name="submits"></a>
 <table  class="table table-hover" >
