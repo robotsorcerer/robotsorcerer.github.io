@@ -1,7 +1,7 @@
 publications:
   - items: 'LevPyPDE'
     paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hamilton-Jacobi PDEs'
+      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
         location: 'downloads/Papers/LevPy.pdf'
         authors: 
           - <b>Lekan Molu.</b>
