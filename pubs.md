@@ -27,7 +27,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 </center>
 
 
-<!-- <a name="unpubs"></a>
+<a name="unpubs"></a>
 <table  class="table table-hover" >
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
@@ -43,7 +43,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}
-</table> -->
+</table>
 
 <a name="submits"></a>
 <table  class="table table-hover" >
