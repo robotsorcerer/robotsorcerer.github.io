@@ -1,4 +1,15 @@
 publications:
+  - items: 'LevPyPDE'
+    paperitems:
+      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hamilton-Jacobi PDEs'
+        location: 'downloads/Papers/LevPy.pdf'
+        authors: 
+          - <b>Lekan Molu.</b>
+        venue_web: 'https://dl.acm.org/journal/toms'
+        venue: ACM Transactions on Mathematical Software 
+        paper_status: Manuscript
+        year: April 2023
+
   - items: 'Cosserat'
     paperitems:
       - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
@@ -83,17 +94,6 @@ publications:
         venue: Letters to Control Systems Society
         paper_status: Manuscript
         year: March 2023 
-
-  - items: 'LevPyPDE'
-    paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hamilton-Jacobi PDEs'
-        location: 'downloads/Papers/levtoms.pdf'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: 'https://dl.acm.org/journal/toms'
-        venue: ACM Transactions on Mathematical Software 
-        paper_status: Manuscript
-        year: March 2023
 
   - items: IGL2
     paperitems:
