@@ -1,15 +1,14 @@
 news_items:
-  # - items: 'LyapunovSolver!'
-  #   subnewsitems:
-  #     - content: 'Check out this Gaussian-based learning of the <a href="https://github.com/robotsorcerer/LyapunovLearner">Control Lyapunov Function
-  #                 for the stability of a dynamical system in Python.</a>'
-  #       highlight: true
-  #       date: January 10, 2022
+  - items: 'LevPy!'
+    subnewsitems:
+      - content: 'New <a href="/downloads/Papers/LevPy.pdf">numerical analysis paper</a> on hyperbolic Hamilton-Jacobi partial differential equations with tons of examples accelerated on modern graphical processing units.'
+        highlight: true
+        date: April 10, 2022
   # - items: 'NewMembers!'
   #   subnewsitems:
   #     - content: "We have several new learning-based control researchers joining our lab this year: Shaoru Chen (Penn ESE PhD), Simin Liu (CMU CS PhD Student), and Gilbert Bahati, (<a href='http://ames.caltech.edu/'>Dr. Ames'</a> student as an external collaborator)."
   #       highlight: True
-  #       date: January 23, 2023
+  #       date: April 10, 2023
   - items: 'AEICRA!'
     subnewsitems:
       - content: "Serving as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA) Workshops."
