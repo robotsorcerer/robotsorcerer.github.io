@@ -1,14 +1,14 @@
 news_items:
   - items: 'LevPy!'
     subnewsitems:
-      - content: 'New <a href="/downloads/Papers/LevPy.pdf">numerical analysis paper</a> on hyperbolic Hamilton-Jacobi partial differential equations with tons of examples accelerated on modern graphical processing units.'
+      - content: 'New <a href="/downloads/Papers/LevPy.pdf" target=blank>numerical analysis paper</a> on hyperbolic Hamilton-Jacobi partial differential equations with tons of examples accelerated on modern graphical processing units.'
         highlight: true
         date: April 10, 2022
-  # - items: 'NewMembers!'
-  #   subnewsitems:
-  #     - content: "We have several new learning-based control researchers joining our lab this year: Shaoru Chen (Penn ESE PhD), Simin Liu (CMU CS PhD Student), and Gilbert Bahati, (<a href='http://ames.caltech.edu/'>Dr. Ames'</a> student as an external collaborator)."
-  #       highlight: True
-  #       date: April 10, 2023
+  - items: 'IFAC!'
+    subnewsitems:
+      - content: New <a href="/downloads/Papers/ifac.pdf" target=blank>robust policy optimization paper</a>, based on H-infinity control principles for accelerating the convergence of traditional policy optimization schemes in infinite-horizon control settings out in IFAC world congress 2023.
+        highlight: True
+        date: Feb 10, 2023
   - items: 'AEICRA!'
     subnewsitems:
       - content: "Serving as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA) Workshops."
