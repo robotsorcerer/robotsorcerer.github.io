@@ -47,6 +47,8 @@
 
 I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, interns and postdocs include:
 
++ [Harley Wiltzer](https://harwiltz.github.io/), Microsoft Research Intern, 2023. McGill PhD Student advised by [David Meger](https://www.cim.mcgill.ca/~dmeger/) and [Marc Bellemare](http://www.marcgbellemare.info/).
++ [Thomas Zhang](https://thomaszh3.github.io/), Microsoft Research Intern, 2023. UPenn PhD Student advised by [Nik Matni](https://nikolaimatni.github.io/).
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (VP of Smart Trailer Engineering, [Drov. Tech, MN](http://drovtech.com)).
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao) (advised by Dr. [Zhong-Ping Jiang](https://engineering.nyu.edu/faculty/zhong-ping-jiang)). Microsoft Research Intern, 2022   &rarr; NYU Tandon School of Engineering PhD Student.
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech Mechanical Engineering PhD Student (Advised by Dr. [Aaron Ames](http://ames.caltech.edu/)).
