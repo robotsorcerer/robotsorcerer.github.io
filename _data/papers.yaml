@@ -78,7 +78,7 @@ publications:
 
   - items: 'MixedH2'
     paperitems:
-      - title: 'Robust Policy Optimization With Mixed H2/H-Infinity Control' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Robust Policy Optimization in  Continuous-time Mixed H2/H-Infinity Stochastic Control' #: Application to Cranial Cancer Radiation Therapy
         location: /downloads/Papers/h2hinf.pdf
         authors:
           - Leilei Cui and <b>Lekan Molu.</b>
