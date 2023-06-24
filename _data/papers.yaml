@@ -21,6 +21,50 @@ publications:
   #       paper_status: Manuscript
   #       year: April 2023        
 
+  # - items: 'DCMPD'
+  #   paperitems:
+  #     - title: 'The Discrete Cosserat Model for Multisection Soft Robots: Structural Properties and Nonlinear Control.'
+  #       authors:
+  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
+  #       location: /downloads/Papers/SoRoPD.pdf
+  #       venue_web: https://roboticsconference.org/
+  #       venue: Robotics and Automation Letters (ICRA2024)
+  #       paper_status: Manuscript
+  #       year: September 2023 
+
+  # - items: 'DCMAC'
+  #   paperitems:
+  #     - title: 'The Discrete Cosserat Model for Multisection Soft Robots, \textit{Redux}: A Case Study in  Adaptive Control.'
+  #       authors:
+  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
+  #       location: /downloads/Papers/SoRoPD.pdf
+  #       venue_web: https://roboticsconference.org/
+  #       venue: Robotics and Automation Letters (ICRA2024)
+  #       paper_status: Manuscript
+  #       year: September 2023 
+
+  # - items: 'DCMAC'
+  #   paperitems:
+  #     - title: 'The Discrete Cosserat Model for Multisection Soft Robots: Hierarchical Predictive Control.'
+  #       authors:
+  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
+  #       location: /downloads/Papers/SoRoPD.pdf
+  #       venue_web: https://roboticsconference.org/
+  #       venue: Robotics and Automation Letters (ICRA2024)
+  #       paper_status: Manuscript
+  #       year: September 2023 
+
+  # - items: 'PCS'
+  #   paperitems:
+  #     - title: 'The Poincare's Equations for Continuum Cosserat Media, \textit{Redux}: A Case Study in Boundary Control.'
+  #       authors:
+  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
+  #       location: /downloads/Papers/SoRoPD.pdf
+  #       venue_web: https://roboticsconference.org/
+  #       venue: Robotics and Automation Letters (ICRA2024)
+  #       paper_status: Manuscript
+  #       year: September 2023 
+
   - items: 'MixedH2IFAC'
     paperitems:
       - title: 'Mixed H2/H-Infinity Policy Learning Synthesis'
