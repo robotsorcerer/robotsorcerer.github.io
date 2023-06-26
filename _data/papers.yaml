@@ -87,6 +87,18 @@ publications:
         paper_status: Revision
         year: April 2023
 
+  - items: 'LSD'
+    paperitems:
+      - title: 'Guaranteed discovery of controllable latent states with multi-step inverse models' #: Application to Cranial Cancer Radiation Therapy
+        location: https://arxiv.org/pdf/2207.08229.pdf
+        authors:
+          - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, Akshay Krishnamurthy, John Langford.
+        venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
+        venue: Transactions in Machine Learning Research
+        paper_status: Accepted
+        year: December 2022        
+
+Authors
   # - items: 'ComplexBRAT!'
   #   paperitems:
   #     - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
