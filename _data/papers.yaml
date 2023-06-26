@@ -97,8 +97,7 @@ publications:
         venue: Transactions in Machine Learning Research
         paper_status: Accepted
         year: December 2022        
-
-Authors
+        
   # - items: 'ComplexBRAT!'
   #   paperitems:
   #     - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
