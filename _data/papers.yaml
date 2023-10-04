@@ -2,7 +2,7 @@ publications:
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
-      - location: 'downloads/papers/SoRoPD.pdf'
+        location: 'downloads/papers/SoRoPD.pdf'
         authors:
           - <b>Lekan Molu</b>, Shaoru Chen, and Audrey Sedal. 
         venue_web: 'https://2024.ieee-icra.org/'
@@ -11,18 +11,18 @@ publications:
         year: September 2023 
   - items: 'PCLAST'
     paperitems:
-      - title: 'PCLAST: Discovering Plannable Latent States'
-        location: 
-          authors:
+      - title: 'Discovering Plannable Latent States'
+        location: 'https://arxiv.org'
+        authors:
             - Shivakanth Sujit, Anurag Koul, Shaoru Chen, Ben Evans, Lili Wu, Byron Xu, Rajan Chari, Yonathan Efroni, Miro Dudik, <b>Lekan Molu</b>, John Langford, Alex Lamb. 
-          venue_web: 'https://iclr.cc/'
-          venue: International Conference on Learning Representations (ICLR)
-          paper_status: Submitted
-          year: September 2023
+        venue_web: 'https://iclr.cc/'
+        venue: International Conference on Learning Representations (ICLR)
+        paper_status: Submitted
+        year: September 2023
   - items: 'VecNN'
     paperitems:
       - title: 'Learning Neural Network Barrier Functions with Termination Guarantees'
-      - location: 'downloads/papers/VecNN.pdf'
+        location: 'downloads/papers/VecNN.pdf'
         authors:
           - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
         venue_web: 'https://acc2024.a2c2.org/'
@@ -59,50 +59,6 @@ publications:
   #       venue: Robotics and Automation Letters
   #       paper_status: Manuscript
   #       year: April 2023        
-
-  # - items: 'DCMPD'
-  #   paperitems:
-  #     - title: 'The Discrete Cosserat Model for Multisection Soft Robots: Structural Properties and Nonlinear Control.'
-  #       authors:
-  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
-  #       location: /downloads/Papers/SoRoPD.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters (ICRA2024)
-  #       paper_status: Manuscript
-  #       year: September 2023 
-
-  # - items: 'DCMAC'
-  #   paperitems:
-  #     - title: 'The Discrete Cosserat Model for Multisection Soft Robots, \textit{Redux}: A Case Study in  Adaptive Control.'
-  #       authors:
-  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
-  #       location: /downloads/Papers/SoRoPD.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters (ICRA2024)
-  #       paper_status: Manuscript
-  #       year: September 2023 
-
-  # - items: 'DCMAC'
-  #   paperitems:
-  #     - title: 'The Discrete Cosserat Model for Multisection Soft Robots: Hierarchical Predictive Control.'
-  #       authors:
-  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
-  #       location: /downloads/Papers/SoRoPD.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters (ICRA2024)
-  #       paper_status: Manuscript
-  #       year: September 2023 
-
-  # - items: 'PCS'
-  #   paperitems:
-  #     - title: 'The Poincare's Equations for Continuum Cosserat Media, \textit{Redux}: A Case Study in Boundary Control.'
-  #       authors:
-  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
-  #       location: /downloads/Papers/SoRoPD.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters (ICRA2024)
-  #       paper_status: Manuscript
-  #       year: September 2023 
 
   - items: 'MixedH2IFAC'
     paperitems:
