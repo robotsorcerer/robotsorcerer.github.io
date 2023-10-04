@@ -1,4 +1,14 @@
 publications:
+  - items: 'PCLAST'
+    paperitems:
+      - title: 'PCLAST: Discovering Plannable Latent States'
+        location: 'https://arxiv.org'
+        authors:
+          - Shivakanth Sujit, Anurag Koul, Shaoru Chen, Ben Evans, Lili Wu, Byron Xu, Rajan Chari, Yonathan Efroni, Miro Dudik, <b>Lekan Molu</b>, John Langford, Alex Lamb. 
+        venue_web: 'https://iclr.cc/'
+        venue: International Conference on Learning Representations (ICLR)
+        paper_status: Submitted
+        year: September 2023
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
@@ -9,16 +19,6 @@ publications:
         venue: IEEE International Conference on Robotics and Automation (ICRA)
         paper_status: Submitted 
         year: September 2023 
-  - items: 'PCLAST'
-    paperitems:
-      - title: 'Discovering Plannable Latent States'
-        location: 'https://arxiv.org'
-        authors:
-          - Shivakanth Sujit, Anurag Koul, Shaoru Chen, Ben Evans, Lili Wu, Byron Xu, Rajan Chari, Yonathan Efroni, Miro Dudik, <b>Lekan Molu</b>, John Langford, Alex Lamb. 
-        venue_web: 'https://iclr.cc/'
-        venue: International Conference on Learning Representations (ICLR)
-        paper_status: Submitted
-        year: September 2023
   - items: 'VecNN'
     paperitems:
       - title: 'Learning Neural Network Barrier Functions with Termination Guarantees'
@@ -48,7 +48,7 @@ publications:
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: IEEE Robotics and Automation Letters 
         paper_status: Submitted
-        year: April 2023
+        year: October 2023
   # - items: 'Cosserat'
   #   paperitems:
   #     - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
