@@ -3,14 +3,8 @@ layout: post
 permalink: pubs
 ---
 
-<!-- > Intent upon giving as much as I have gotten, here are my contributions, given freely and cheerfully. -->
-
-
 
 © {{ "now" | date: "%Y" }} IEEE.  Personal use of the IEEE materials here is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing any of these materials for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of these works in other works. <br><br>
-
-
-NB: The asterisk symbol next to an author's name signifies equal contribution.<br><br>
 
 
 <table class="table table-hover" >
@@ -18,17 +12,17 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 <hr>
 
 <center>
-<!-- <a href="#submits"><font size="4">Submitted / </font></a>
-<a href="#revs"><font size="4">Under Revision / </font></a> -->
+<a href="#submits"><font size="4">Submitted / </font></a>
+<!-- <a href="#revs"><font size="4">Under Revision / </font></a> -->
 <a href="#pubs"><font size="4"> Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
 <a href="#abstracts"><font size="4">Presentations / </font></a>
-<a href="#unpubs"><font size="4">Evolving Drafts. </font></a>
+<!-- <a href="#unpubs"><font size="4">Evolving Drafts. </font></a> -->
 </center>
 
 
 <a name="unpubs"></a>
-<table  class="table table-hover" >
+<!-- <table  class="table table-hover" >
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
 {% for item in site.data.papers.publications %}
   	{% for paper in item.paperitems %}
@@ -43,7 +37,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}
-</table>
+</table> -->
 
 <a name="submits"></a>
 <table  class="table table-hover" >
@@ -66,7 +60,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 
 
 <a name="revs"></a>
-<table  class="table table-hover" >
+<!-- <table  class="table table-hover" >
 <center><h3><b>Revision for Final Decision</b></h3></center>
 		{% for item in site.data.papers.publications %}
 	    	{% for paper in item.paperitems %}
@@ -82,7 +76,7 @@ NB: The asterisk symbol next to an author's name signifies equal contribution.<b
 	      	{% endif %}
     	{% endfor %}
   	{% endfor %}
-</table>
+</table> -->
 
 <a name="pubs"></a>
 <table  class="table table-hover" >
