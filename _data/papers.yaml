@@ -2,7 +2,7 @@ publications:
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
-        location: 'downloads/papers/SoRoPD.pdf'
+        location: 'downloads/Papers/SoRoPD.pdf'
         authors:
           - <b>Lekan Molu</b>, Shaoru Chen, and Audrey Sedal. 
         venue_web: 'https://2024.ieee-icra.org/'
@@ -22,7 +22,7 @@ publications:
   - items: 'VecNN'
     paperitems:
       - title: 'Learning Neural Network Barrier Functions with Termination Guarantees'
-        location: 'downloads/papers/VecNN.pdf'
+        location: 'downloads/Papers/VecNN.pdf'
         authors:
           - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
         venue_web: 'https://acc2024.a2c2.org/'
