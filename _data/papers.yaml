@@ -26,7 +26,7 @@ publications:
         authors:
           - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
         venue_web: 'https://acc2024.a2c2.org/'
-        venue: IEEE American Control Conference (ACC)
+        venue: American Control Conference (ACC)
         paper_status: Submitted 
         year: September 2023 
   - items: 'LevPyPDE'
