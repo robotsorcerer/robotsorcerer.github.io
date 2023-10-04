@@ -14,7 +14,7 @@ publications:
       - title: 'Discovering Plannable Latent States'
         location: 'https://arxiv.org'
         authors:
-            - Shivakanth Sujit, Anurag Koul, Shaoru Chen, Ben Evans, Lili Wu, Byron Xu, Rajan Chari, Yonathan Efroni, Miro Dudik, <b>Lekan Molu</b>, John Langford, Alex Lamb. 
+          - Shivakanth Sujit, Anurag Koul, Shaoru Chen, Ben Evans, Lili Wu, Byron Xu, Rajan Chari, Yonathan Efroni, Miro Dudik, <b>Lekan Molu</b>, John Langford, Alex Lamb. 
         venue_web: 'https://iclr.cc/'
         venue: International Conference on Learning Representations (ICLR)
         paper_status: Submitted
