@@ -501,6 +501,38 @@ publications:
         venue: Machine Learning for Planning and Control Workshop, Extended Abstract, IROS 2018 
         year: Madrid, Spain. October 2018
         paper_status: Accepted Abstract
+  - items: 'NERCSoRoPD!'
+    paperitems:
+      - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods.'
+        location: 
+        authors:
+          - <b>Lekan Molu</b>,
+          - Shaoru Chen, and
+          - Audrey Sedal
+        venue_web: https://yale2023.nerc.io/
+        venue: Northeast Robotics Conference, Extended Abstract, November 2023
+        year: Yale University, New Haven, Connecticut. November  2023
+        paper_status: Accepted Abstract
+  - items: 'NERCSoRoSPT!'
+    paperitems:
+      - title: 'Composite Fast-Slow Backstepping Design for Nonlinear Singularly Perturbed Newton-Euler Dynamics: Application to Soft Robots.'
+        location: 
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: https://yale2023.nerc.io/
+        venue: Northeast Robotics Conference, Extended Abstract, November 2023
+        year: Yale University, New Haven, Connecticut. November  2023
+        paper_status: Accepted Abstract
+  - items: 'PCLAST!'
+    paperitems:
+      - title: 'PcLast: Discovering Plannable Continuous Latent States.'
+        location: 
+        authors:
+          - Anurag Koul (Microsoft); Shivakanth Sujit (ETS Montreal, Mila); Shaoru Chen (Microsoft Research); Ben Evans (NYU); Lili Wu (MSR); <b>Lekan Molu</b> (Microsoft Research); Byron Xu (MSR); Rajan Chari (Microsoft); Riashat Islam (MILA, Mcgill University); Raihan Seraj (McGill); Yonathan Efroni (Meta); Miroslav Dudik (Microsoft); John Langford (Microsoft); Alex Lamb (Microsoft Research)
+        venue_web: https://yale2023.nerc.io/
+        venue: Northeast Robotics Conference, Extended Abstract, November 2023
+        year: Yale University, New Haven, Connecticut. November  2023
+        paper_status: Accepted Abstract
   - items: 'ICRA18!'
     paperitems:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
