@@ -66,7 +66,7 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
 - [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](#), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.
 - [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed $\mathcal{H}_2/\mathcal{H}_\infty$ Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
-- [Modeling and Control of Flexible Structures in Virtual Reality Environments](#), McGill University Engineering/MILA, Winter 2024.
+<!-- - [Modeling and Control of Flexible Structures in Virtual Reality Environments](#), McGill University Engineering/MILA, Winter 2024. -->
 - Learning without Rewards, [Microsoft Research Summit](https://www.microsoft.com/en-us/research/event/microsoft-research-summit-2021/), Fall 2021.
 - [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC, New York City, Winter 2021.
 - [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, CA, 2021.
