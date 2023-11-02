@@ -64,6 +64,9 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
+- [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](#), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.
+- [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed $\mathcal{H}_2/\mathcal{H}_\infty$ Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
+- [Modeling and Control of Flexible Structures in Virtual Reality Environments](#), McGill University Engineering/MILA, Winter 2024.
 - Learning without Rewards, [Microsoft Research Summit](https://www.microsoft.com/en-us/research/event/microsoft-research-summit-2021/), Fall 2021.
 - [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC, New York City, Winter 2021.
 - [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, CA, 2021.
@@ -72,7 +75,7 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA, 2018.
 - Minimax Iterative Dynamic Game, Department of Brain Robot Interface. Computational Neuroscience Labs, ATR, Osaka, Japan, 2018.  
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada, 2017.
-<!-- - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018. -->
+- Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018.
  
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Classes and Useful Presentations</h5>
 - [A Short Treatise on the Kinematics and Kinetics of Robots -- Slides](/downloads/Papers/screw_slides.pdf), MSR NYC, 2022.
