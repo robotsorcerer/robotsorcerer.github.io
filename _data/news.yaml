@@ -1,7 +1,7 @@
 news_items:
   - items: 'YaleMixedTalk'
     subnewsitems:
-      - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> based on our <a href="downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
+      - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> at Yale University based on our <a href="downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
         highlight: true
         date: Nov. 2, 2023
   - items: 'LevPy!'
