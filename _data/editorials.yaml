@@ -1,0 +1,51 @@
+news_items:
+  - items: 'RAL'
+    subnewsitems:
+      - organization: IEEE Robotics and Automation
+        suborg: Cognitive Robotics, Soft Robotics, Algorithms for Planning and Control, Automation in Health Care Management
+        role: Member, Technical Committee
+        highlight: true
+        venue_web: 'https://www.ieee-ras.org/publications/ra-l'
+        date: 
+          - start: 2022
+          - end: present
+  - items: 'ICRA'
+    subnewsitems:
+      - organization: IEEE International Conference on Robotics and Automation (ICRA)
+        suborg: Workshops
+        role: Member, Technical Committee
+        highlight: true
+        venue_web: 'https://www.icra2023.org/'
+        date: 
+          - start: 2022
+          - end: 2023
+  - items: 'ICRA'
+    subnewsitems:
+      - organization: IEEE International Conference on Robotics and Automation (ICRA)
+        suborg: Conference
+        role: Member, Technical Committee
+        highlight: true
+        venue_web: 'https://www.icra2023.org/'
+        date: 
+          - start: 2020
+          - end: 2021
+  - items: 'NatGeo'
+    subnewsitems:
+      - organization: National Geographic Society
+        suborg: AI for Species Discovery
+        role: External Grants Reviewer
+        highlight: true
+        venue_web: 'https://www.icra2023.org/'
+        date: 
+          - start: 2020
+          - end: 2021
+  - items: 'ConfRevs'
+    subnewsitems:
+      - organization: National Geographic Society
+        suborg: AI for Species Discovery
+        role: External Grants Reviewer
+        highlight: true
+        venue_web: 'https://www.icra2023.org/'
+        date: 
+          - start: 2020
+          - end: 2021
