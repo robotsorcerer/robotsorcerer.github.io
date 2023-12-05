@@ -42,7 +42,7 @@ publications:
         year: April 2023
   - items: 'SoRoSPT'
     paperitems:
-      - title: 'Composite Fast-Slow Backstepping Design for Nonlinear Singularly Perturbed Newton-Euler Dynamics: Application to Soft Robots'
+      - title: '  Singularly Perturbed Layered Control of Deformable Bodies.'
         location: 'downloads/Papers/SoRoSPT.pdf'
         authors: 
           - <b>Lekan Molu.</b>
