@@ -1,4 +1,14 @@
 publications:
+  - items: 'SoRoSPT'
+    paperitems:
+      - title: '  Singularly Perturbed Layered Control of Deformable Bodies.'
+        location: 'https://arxiv.org/abs/2312.06039'
+        authors: 
+          - <b>Lekan Molu.</b>
+        venue_web: #'https://dl.acm.org/journal/toms'
+        venue: arXiv # IEEE Robotics and Automation Letters 
+        paper_status: Submitted
+        year: October 2023
   - items: 'PCLAST'
     paperitems:
       - title: 'PCLAST: Discovering Plannable Continuous Latent States'
@@ -40,16 +50,6 @@ publications:
         venue: ACM Transactions on Mathematical Software 
         paper_status: Submitted
         year: April 2023
-  - items: 'SoRoSPT'
-    paperitems:
-      - title: '  Singularly Perturbed Layered Control of Deformable Bodies.'
-        location: 'downloads/Papers/SoRoSPT.pdf'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: 'https://dl.acm.org/journal/toms'
-        venue: IEEE Robotics and Automation Letters 
-        paper_status: Submitted
-        year: October 2023
   # - items: 'Cosserat'
   #   paperitems:
   #     - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
