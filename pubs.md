@@ -59,6 +59,29 @@ permalink: pubs
 </table>
 
 <hr>
+<a name="pubs"></a>
+<table  class="table table-hover" >
+<center><h3><b>Published Works</b></h3></center>
+
+{% for item in site.data.papers.publications %}
+	{% for paper in item.paperitems %}
+      	{% if paper.paper_status=="Accepted" %}
+        	<tr>
+          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
+          			{% for author in paper.authors %}
+          				{{ author  }}
+          			{% endfor %}<br>
+      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
+	      		</td>
+      		</tr>
+      	{% endif %}
+	{% endfor %}
+	{% endfor %} 	
+</table>
+
+
+
+<hr>
 <a name="abstracts"></a>
 <table  class="table table-hover" >
 <center><h3><b>Presentations</b></h3></center>
@@ -97,26 +120,6 @@ permalink: pubs
     	{% endfor %}
   	{% endfor %}
 </table> -->
-
-<a name="pubs"></a>
-<table  class="table table-hover" >
-<center><h3><b>Published Works</b></h3></center>
-
-{% for item in site.data.papers.publications %}
-	{% for paper in item.paperitems %}
-      	{% if paper.paper_status=="Accepted" %}
-        	<tr>
-          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
-          			{% for author in paper.authors %}
-          				{{ author  }}
-          			{% endfor %}<br>
-      				<a href="{{ paper.venue_web }}" target="blank"><i>{{ paper.venue }}</i>.  </a> {{ paper.year }}.<br>
-	      		</td>
-      		</tr>
-      	{% endif %}
-	{% endfor %}
-	{% endfor %} 	
-</table>
 
 <a name="reps"></a>
 <table  class="table table-hover" >
