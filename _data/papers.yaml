@@ -1,15 +1,14 @@
 publications:
-  - items: 'PCLAST'
+  - items: 'SoRoSPT'
     paperitems:
-      - title: 'PCLAST: Discovering Plannable Continuous Latent States'
-        location: 'downloads/Papers/PCLAST.pdf'
-        authors:
-          - Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, <b>Lekan Molu</b>, 
-            Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb
-        venue_web: 'https://iclr.cc/'
-        venue: International Conference on Learning Representations (ICLR)
+      - title: '  Singularly Perturbed Layered Control of Deformable Bodies.'
+        location: 'https://arxiv.org/abs/2312.06039'
+        authors: 
+          - <b>Lekan Molu.</b>
+        venue_web: #'https://dl.acm.org/journal/toms'
+        venue: arXiv # IEEE Robotics and Automation Letters 
         paper_status: Submitted
-        year: September 2023
+        year: October 2023
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
@@ -40,16 +39,17 @@ publications:
         venue: ACM Transactions on Mathematical Software 
         paper_status: Submitted
         year: April 2023
-  - items: 'SoRoSPT'
+  - items: 'PCLAST'
     paperitems:
-      - title: 'Composite Fast-Slow Backstepping Design for Nonlinear Singularly Perturbed Newton-Euler Dynamics: Application to Soft Robots'
-        location: 'downloads/Papers/SoRoSPT.pdf'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: 'https://dl.acm.org/journal/toms'
-        venue: IEEE Robotics and Automation Letters 
+      - title: 'PCLAST: Discovering Plannable Continuous Latent States'
+        location: 'downloads/Papers/PCLAST.pdf'
+        authors:
+          - Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, <b>Lekan Molu</b>, 
+            Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb
+        venue_web: 'https://iclr.cc/'
+        venue: International Conference on Learning Representations (ICLR)
         paper_status: Submitted
-        year: October 2023
+        year: September 2023
   # - items: 'Cosserat'
   #   paperitems:
   #     - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
@@ -500,6 +500,38 @@ publications:
         venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
         venue: Machine Learning for Planning and Control Workshop, Extended Abstract, IROS 2018 
         year: Madrid, Spain. October 2018
+        paper_status: Accepted Abstract
+  - items: 'NERCSoRoPD!'
+    paperitems:
+      - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods.'
+        location: 
+        authors:
+          - <b>Lekan Molu</b>,
+          - Shaoru Chen, and
+          - Audrey Sedal
+        venue_web: https://yale2023.nerc.io/
+        venue: Northeast Robotics Conference, Extended Abstract, November 2023
+        year: Yale University, New Haven, Connecticut. November  2023
+        paper_status: Accepted Abstract
+  - items: 'NERCSoRoSPT!'
+    paperitems:
+      - title: 'Composite Fast-Slow Backstepping Design for Nonlinear Singularly Perturbed Newton-Euler Dynamics: Application to Soft Robots.'
+        location: 
+        authors:
+          - <b>Lekan Molu</b>
+        venue_web: https://yale2023.nerc.io/
+        venue: Northeast Robotics Conference, Extended Abstract, November 2023
+        year: Yale University, New Haven, Connecticut. November  2023
+        paper_status: Accepted Abstract
+  - items: 'PCLAST!'
+    paperitems:
+      - title: 'PcLast: Discovering Plannable Continuous Latent States.'
+        location: 
+        authors:
+          - Anurag Koul (Microsoft); Shivakanth Sujit (ETS Montreal, Mila); Shaoru Chen (Microsoft Research); Ben Evans (NYU); Lili Wu (MSR); <b>Lekan Molu</b> (Microsoft Research); Byron Xu (MSR); Rajan Chari (Microsoft); Riashat Islam (MILA, Mcgill University); Raihan Seraj (McGill); Yonathan Efroni (Meta); Miroslav Dudik (Microsoft); John Langford (Microsoft); Alex Lamb (Microsoft Research)
+        venue_web: https://yale2023.nerc.io/
+        venue: Northeast Robotics Conference, Extended Abstract, November 2023
+        year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
   - items: 'ICRA18!'
     paperitems:
