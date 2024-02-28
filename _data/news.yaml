@@ -1,7 +1,7 @@
 news_items:  
   - items: 'RedmondProjGreen'
     subnewsitems:
-      - content: 'Up next: Lekan is organizing an <a hrefd="<a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a>, bringing folks working on group theory applications in learning together, towards addressing timely model and policy and representation issues in modern learning algorithms.'
+      - content: 'Up next: Lekan is organizing an <a href="<a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a>, bringing folks working on group theory applications in learning together, towards addressing timely model and policy and representation issues in modern learning algorithms.'
         highlight: true
         date: Feb. 24, 2024
   - items: 'YaleMixedTalk'
