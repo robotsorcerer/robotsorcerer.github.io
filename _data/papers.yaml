@@ -1,24 +1,24 @@
 publications:
-  - items: 'SoRoSPT'
+  - items: 'LevPy'
     paperitems:
-      - title: '  Singularly Perturbed Layered Control of Deformable Bodies.'
-        location: 'https://arxiv.org/abs/2312.06039'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: #'https://dl.acm.org/journal/toms'
-        venue: arXiv # IEEE Robotics and Automation Letters 
-        paper_status: Submitted
-        year: October 2023
+      - title: 'The Python LevelSet Toolbox (LevelSetPy)'
+        location: 'downloads/Papers/CDC24.pdf'
+        authors:
+          - <b>Lekan Molu</b>. 
+        venue_web: 'https://cdc2024.ieeecss.org/'
+        venue: Conference on Decision and Control (CDC)
+        paper_status: Submitted 
+        year: March 2024
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
         location: 'downloads/Papers/SoRoPD.pdf'
         authors:
-          - <b>Lekan Molu</b>, Shaoru Chen, and Audrey Sedal. 
-        venue_web: 'https://2024.ieee-icra.org/'
-        venue: IEEE International Conference on Robotics and Automation (ICRA)
+          - <b>Lekan Molu</b>. 
+        venue_web: 'https://cdc2024.ieeecss.org/'
+        venue: Conference on Decision and Control (CDC)
         paper_status: Submitted 
-        year: September 2023 
+        year: March 2024
   - items: 'VecNN'
     paperitems:
       - title: 'Learning Neural Network Barrier Functions with Termination Guarantees'
@@ -29,6 +29,16 @@ publications:
         venue: American Control Conference (ACC)
         paper_status: Submitted 
         year: September 2023 
+  - items: 'SoRoSPT'
+    paperitems:
+      - title: '  Singularly Perturbed Layered Control of Deformable Bodies.'
+        location: 'https://arxiv.org/abs/2312.06039'
+        authors: 
+          - <b>Lekan Molu.</b>
+        venue_web: #'https://dl.acm.org/journal/toms'
+        venue: arXiv # IEEE Robotics and Automation Letters 
+        paper_status: Submitted
+        year: October 2023
   - items: 'LevPyPDE'
     paperitems:
       - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
