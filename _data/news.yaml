@@ -2,7 +2,7 @@ news_items:
   - items: 'MACCFund'
     subnewsitems:
       - content: 'Up next: Organizing a workshop on the neural and model-based control of soft robots at IROS 2024 in Abu-Dhabi. 
-                Late in the Spring, I am also participating in the annual TREK 100 <a href="https://trek100.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=511" target=blank>century ride through Wisconsin</a>. I am helping raise funds for childhood cancer and related blood disorders research. Please do consider <a href="https://trek100.donordrive.com/participant/Lekan-Molu" target=blank>donating here.</a>'
+                Late in the Spring, I am also participating in the annual TREK 100 <a href="https://trek100.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=511" target=blank>century ride through Wisconsin</a>. I am helping raise funds for <a href="https://maccfund.org/blog/">childhood cancer and related blood disorders</a> research. Please do consider <a href="https://trek100.donordrive.com/participant/Lekan-Molu" target=blank>donating.</a>'
         highlight: true
         date: March. 12, 2024
   - items: 'RedmondProjGreen'
