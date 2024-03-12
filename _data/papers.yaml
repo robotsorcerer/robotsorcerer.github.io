@@ -9,16 +9,6 @@ publications:
         venue: Conference on Decision and Control (CDC)
         paper_status: Submitted 
         year: March 2024
-  - items: 'PSDNets'
-    paperitems:
-      - title: 'Structure-Regularized Neural Networks for Hamilton-Jacobi-Bellman Optimal Control Problems'
-        location: 'downloads/Papers/PSDNeurals24.pdf'
-        authors:
-          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-        venue_web: 'https://icml.cc/Conferences/2024/Dates'
-        venue: International Conference on Machine Learning (ICML), 2024
-        paper_status: Submitted 
-        year: January 2024
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
@@ -29,6 +19,16 @@ publications:
         venue: Conference on Decision and Control (CDC)
         paper_status: Submitted 
         year: March 2024
+  - items: 'PSDNets'
+    paperitems:
+      - title: 'Structure-Regularized Neural Networks for Hamilton-Jacobi-Bellman Optimal Control Problems'
+        location: 'downloads/Papers/PSDNeurals.pdf'
+        authors:
+          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+        venue_web: 'https://icml.cc/Conferences/2024/Dates'
+        venue: International Conference on Machine Learning (ICML), 2024
+        paper_status: Submitted 
+        year: January 2024
   - items: 'VecNN'
     paperitems:
       - title: 'Learning Neural Network Barrier Functions with Termination Guarantees'
@@ -37,7 +37,7 @@ publications:
           - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
         venue_web: 'https://acc2024.a2c2.org/'
         venue: American Control Conference (ACC)
-        paper_status: Submitted 
+        paper_status: Accepted 
         year: September 2023 
   - items: 'SoRoSPT'
     paperitems:
