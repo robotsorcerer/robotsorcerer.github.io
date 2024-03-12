@@ -36,9 +36,9 @@ publications:
         authors:
           - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
         venue_web: 'https://acc2024.a2c2.org/'
-        venue: American Control Conference (ACC)
+        venue: American Control Conference (ACC), Toronto, ON
         paper_status: Accepted 
-        year: September 2023 
+        year: May 2024
   - items: 'SoRoSPT'
     paperitems:
       - title: '  Singularly Perturbed Layered Control of Deformable Bodies'
