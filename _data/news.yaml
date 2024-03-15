@@ -1,4 +1,15 @@
-news_items:
+news_items:  
+  # - items: 'MACCFund'
+  #   subnewsitems:
+  #     - content: 'Up next: Organizing a workshop on the neural and model-based control of soft robots at IROS 2024 in Abu-Dhabi. 
+  #               Late in the Spring, I am also participating in the annual TREK 100 <a href="https://trek100.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=511" target=blank>century ride through Wisconsin</a>. I am helping raise funds for <a href="https://maccfund.org/blog/">childhood cancer and related blood disorders</a> research. Please do consider <a href="https://trek100.donordrive.com/participant/Lekan-Molu" target=blank>donating.</a>'
+  #       highlight: true
+  #       date: March. 12, 2024
+  - items: 'RedmondProjGreen'
+    subnewsitems:
+      - content: 'Organizing an <a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
+        highlight: true
+        date: Feb. 24, 2024
   - items: 'YaleMixedTalk'
     subnewsitems:
       - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> at Yale University based on our <a href="downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
@@ -7,12 +18,12 @@ news_items:
   - items: 'LevPy!'
     subnewsitems:
       - content: 'New <a href="/downloads/Papers/LevPy.pdf" target=blank>numerical analysis paper</a> on hyperbolic Hamilton-Jacobi partial differential equations with tons of examples accelerated on modern graphical processing units.'
-        highlight: true
+        highlight: false
         date: April 10, 2022
   - items: 'IFAC!'
     subnewsitems:
       - content: New <a href="/downloads/Papers/ifac.pdf" target=blank>robust policy optimization paper</a>, based on H-infinity control principles for accelerating the convergence of traditional policy optimization schemes in infinite-horizon control settings out in IFAC world congress 2023.
-        highlight: True
+        highlight: false
         date: Feb 10, 2023
   - items: 'AEICRA!'
     subnewsitems:
