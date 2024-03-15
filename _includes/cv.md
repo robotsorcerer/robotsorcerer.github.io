@@ -37,6 +37,7 @@
 
 I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, interns and postdocs include:
 
++ [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD &rarr; MSR Intern 2024; co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/).
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao) (advised by Dr. [Zhong-Ping Jiang](https://engineering.nyu.edu/faculty/zhong-ping-jiang)). Microsoft Research Intern, 2022   &rarr; NYU Tandon School of Engineering PhD Student.
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech Mechanical Engineering PhD Student (Advised by Dr. [Aaron Ames](http://ames.caltech.edu/)).
 + [Shaoru Chen](https://shaoru.site). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
