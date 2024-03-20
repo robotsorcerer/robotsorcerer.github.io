@@ -31,8 +31,8 @@ publications:
         year: January 2024
   - items: 'VecNN'
     paperitems:
-      - title: 'Learning Neural Network Barrier Functions with Termination Guarantees'
-        location: 'downloads/Papers/VecNN.pdf'
+      - title: 'Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees'
+        location: 'https://arxiv.org/pdf/2403.07308.pdf'
         authors:
           - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
         venue_web: 'https://acc2024.a2c2.org/'
