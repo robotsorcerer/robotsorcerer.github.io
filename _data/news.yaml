@@ -5,6 +5,11 @@ news_items:
   #               Late in the Spring, I am also participating in the annual TREK 100 <a href="https://trek100.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=511" target=blank>century ride through Wisconsin</a>. I am helping raise funds for <a href="https://maccfund.org/blog/">childhood cancer and related blood disorders</a> research. Please do consider <a href="https://trek100.donordrive.com/participant/Lekan-Molu" target=blank>donating.</a>'
   #       highlight: true
   #       date: March. 12, 2024
+  - items: 'Abu'
+    subnewsitems:
+      - content: "Lekan is excited to welcome <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en">Abulikemu Abuduweili</a> to the MSFT Research and Incubations community this summer as an intern. This year, I am co-advising with a couple of colleagues, viz., <a href="https://www.elisevanderpol.nl/"> Elise van der Pol</a> in Amsterdam's AI4Science, <a href="https://scholar.google.com/citations?user=U7Mmyc8AAAAJ&hl=en">Qiuyuan Huang</a>, and <a href="https://www.microsoft.com/en-us/research/people/nawake/"> Naoki Wake</a> in Redmond."
+        highlight: true 
+        date: March 22, 2024
   - items: 'RedmondProjGreen'
     subnewsitems:
       - content: 'Organizing an <a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
