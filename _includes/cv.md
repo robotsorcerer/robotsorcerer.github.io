@@ -40,7 +40,7 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 <!--+ [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern 2024; being co-advised together with [Elise van der Pol](https://www.elisevanderpol.nl/), [Qiuyuan Huang](https://scholar.google.com/citations?user=U7Mmyc8AAAAJ&hl=en), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/).-->
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao) (advised by Dr. [Zhong-Ping Jiang](https://engineering.nyu.edu/faculty/zhong-ping-jiang)). Microsoft Research Intern, 2022   &rarr; NYU Tandon School of Engineering PhD Student.
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech Mechanical Engineering PhD Student (Advised by Dr. [Aaron Ames](http://ames.caltech.edu/)).
-+ [Shaoru Chen](https://shaoru.site). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
++ [Shaoru Chen](https://shaoruchen.github.io). Penn ESE, University of Pennsylvania &rarr; Microsoft Research Postdoc (2023-?).
 + Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
 + [Harley Wiltzer](https://harwiltz.github.io/), Microsoft Research Intern, 2023. McGill PhD Student advised by [David Meger](https://www.cim.mcgill.ca/~dmeger/) and [Marc Bellemare](http://www.marcgbellemare.info/).
 + [Thomas Zhang](https://thomaszh3.github.io/), Microsoft Research Intern, 2023. UPenn PhD Student advised by [Nik Matni](https://nikolaimatni.github.io/).
