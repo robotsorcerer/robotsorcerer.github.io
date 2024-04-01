@@ -114,25 +114,25 @@ publications:
         paper_status: Accepted
         year: December 2022        
         
-  # - items: 'ComplexBRAT!'
-  #   paperitems:
-  #     - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
-  #       authors:
-  #         - Jeremiah Omeike, Simin Liu, and <b>Lekan Molu</b>.
-  #       venue_web: http://ijrr.org
-  #       venue: The International Journal of Robotics Research
-  #       paper_status: Manuscript
-  #       year: April 2023
+  - items: 'ComplexBRAT!'
+    paperitems:
+      - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web: http://ijrr.org
+        venue: The International Journal of Robotics Research
+        paper_status: Manuscript
+        year: 2023
 
-  # - items: 'ComplexBRAT!'
-  #   paperitems:
-  #     - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
-  #       authors:
-  #         -  <b>Lekan Molu*</b>.
-  #       venue_web: http://ijrr.org
-  #       venue: The International Journal of Robotics Research
-  #       paper_status: Manuscript
-  #       year: April 2023
+  - items: 'ComplexBRAT!'
+    paperitems:
+      - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
+        authors:
+          -  <b>Lekan Molu*</b>.
+        venue_web: http://ijrr.org
+        venue: The International Journal of Robotics Research
+        paper_status: Manuscript
+        year: April 2023
 
   - items: 'DDPReach'
     paperitems:
@@ -143,7 +143,7 @@ publications:
         venue_web: https://roboticsconference.org/
         venue: CDC
         paper_status: Manuscript
-        year: Summer 2023
+        year: 2023
   # - items: 'TAC!'
   #   paperitems:
   #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy

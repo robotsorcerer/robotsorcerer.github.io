@@ -1,5 +1,5 @@
 #! /bin/sh
 
-bundle exec jekyll build -- trace;
-bundle exec jekyll serve --trace
+bundle exec jekyll build -- trace --incremental;
+bundle exec jekyll serve --trace --incremental
 
