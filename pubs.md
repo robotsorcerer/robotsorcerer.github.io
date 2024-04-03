@@ -13,31 +13,12 @@ permalink: pubs
 
 <center>
 <a href="#submits"><font size="4">Submitted / </font></a>
+<a href="#unpubs"><font size="4">Preprints / </font></a>
 <!-- <a href="#revs"><font size="4">Under Revision / </font></a> -->
 <a href="#pubs"><font size="4"> Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
-<a href="#abstracts"><font size="4">Presentations / </font></a>
-<!-- <a href="#unpubs"><font size="4">Evolving Drafts. </font></a> -->
+<a href="#abstracts"><font size="4">Presentations. / </font></a>
 </center>
-
-
-<a name="unpubs"></a>
-<!-- <table  class="table table-hover" >
-  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Evolving Drafts</a></b></h3></center>
-{% for item in site.data.papers.publications %}
-  	{% for paper in item.paperitems %}
-	          	{% if paper.paper_status contains "Manuscript" %}
-		        	<tr>
-		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
-		          			{% for author in paper.authors %}
-		          				{{ author  }}
-		          			{% endfor %}
-			      		</td>
-		      		</tr>
-		      	{% endif %}
-	    	{% endfor %}
-	  	{% endfor %}
-</table> -->
 
 <a name="submits"></a>
 <table  class="table table-hover" >
@@ -56,6 +37,25 @@ permalink: pubs
 	      	{% endif %}
     	{% endfor %}
   	{% endfor %}
+</table>
+
+<hr>
+<a name="unpubs"></a>
+<table  class="table table-hover" >
+  	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Preprints/Evolving Drafts</a></b></h3></center>
+{% for item in site.data.papers.publications %}
+  	{% for paper in item.paperitems %}
+	          	{% if paper.paper_status contains "Manuscript" %}
+		        	<tr>
+		          		<td width="95%" align="left"><a href="{{ paper.location }}" 	target="blank">{{  paper.title  }}.</a><br>
+		          			{% for author in paper.authors %}
+		          				{{ author  }}
+		          			{% endfor %}
+			      		</td>
+		      		</tr>
+		      	{% endif %}
+	    	{% endfor %}
+	  	{% endfor %}
 </table>
 
 <hr>
