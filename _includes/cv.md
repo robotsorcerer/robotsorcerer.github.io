@@ -100,6 +100,7 @@ Below is a screenshot of my recent activities summary. </p>
 
 <br>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
+ -  The Federalist -- Alexander Hamilton
  -  The Startup Way -- Eric Ries.
  -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
  -  Knowing Mandela -- John Carlin.
