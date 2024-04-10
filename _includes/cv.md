@@ -100,7 +100,7 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
 I support my local libraries and consistently get great books at ridiculously bargain prices from time to time. Below are a list of books in my current reading list collection. Perhaps, you would like to join me in my reading book club? <a href="mailto:patlekno@icloud.com">Reach out</a>.
  <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> 2024 Readings</h5>
- -  The Federalist -- Alexander Hamilton.
+ -  The Federalist -- Alexander Hamilton, John Jay, and James Madison.
  -  The Startup Way -- Eric Ries.
  -  No Ordinary Time -- Doris Kearns Goodwin.
  -  Successful Negotiating: Letting the Other Person Have <i>Your</i> way -- Ginny Pearson Barnes.
