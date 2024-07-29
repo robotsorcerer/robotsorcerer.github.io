@@ -2,12 +2,12 @@ publications:
   - items: 'LevPy'
     paperitems:
       - title: 'The Python LevelSet Toolbox (LevelSetPy)'
-        location: 'downloads/Papers/CDC24.pdf'
+        location: 'downloads/Papers/LevPy_CDC.pdf'
         authors:
           - <b>Lekan Molu</b>. 
         venue_web: 'https://cdc2024.ieeecss.org/'
         venue: Conference on Decision and Control (CDC)
-        paper_status: Submitted 
+        paper_status: Accepted 
         year: March 2024
   - items: 'SoRoPD'
     paperitems:
@@ -17,7 +17,7 @@ publications:
           - <b>Lekan Molu</b> and Shaoru Chen. 
         venue_web: 'https://cdc2024.ieeecss.org/'
         venue: Conference on Decision and Control (CDC)
-        paper_status: Submitted 
+        paper_status: Accepted 
         year: March 2024
   - items: 'PSDNets'
     paperitems:
