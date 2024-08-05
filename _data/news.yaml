@@ -17,7 +17,7 @@ news_items:
         date: Aug. 5, 2024
   - items: 'Shaoru_LinkedIn'
     subnewsitems:
-      - content: 'I raise a crescendo of ecstatic congratulations to <a href="https://shaoruchen.github.io/">Dr. Shaoru Chen</a>, a former postdoc in our lab and a collaborator, who is <s>selling his soul to</s> to join LinkedIn in Sunnyvale, CA. Ohrah!'
+      - content: 'I raise a crescendo of ecstatic congratulations to <a href="https://shaoruchen.github.io/">Dr. Shaoru Chen</a>, a former postdoc in our lab and a collaborator, who is <s>selling his soul</s> to join LinkedIn in Sunnyvale, CA. Ohrah!'
         highlight: true
         date: Aug. 5, 2024
   - items: 'RedmondProjGreen'
