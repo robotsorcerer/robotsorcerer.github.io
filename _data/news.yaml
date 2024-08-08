@@ -22,7 +22,7 @@ news_items:
         date: Aug. 5, 2024
   - items: 'Shaoru_LinkedIn'
     subnewsitems:
-      - content: 'Raising a cheer of congratulations to <a href="https://shaoruchen.github.io/">Drs. Shaoru Chen</a>, a former postdoc in our lab and collaborator, who recently <s>sold his soul to LinkedIn</s> joined LinkedIn!'
+      - content: 'Raising a cheer of congratulations to <a href="https://shaoruchen.github.io/">Dr. Shaoru Chen</a>, a former postdoc in our lab and collaborator, who recently <s>sold his soul to LinkedIn</s> joined LinkedIn!'
         highlight: true
         date: Aug. 3, 2024
   - items: 'RedmondProjGreen'
