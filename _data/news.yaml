@@ -10,6 +10,11 @@ news_items:
   #     - content: "Lekan is excited to welcome <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en">Abulikemu Abuduweili</a> to the MSFT Research and Incubations community this summer as an intern. This year, I am co-advising with a couple of colleagues, viz., <a href="https://www.elisevanderpol.nl/"> Elise van der Pol</a> in Amsterdam's AI4Science, <a href="https://scholar.google.com/citations?user=U7Mmyc8AAAAJ&hl=en">Qiuyuan Huang</a>, and <a href="https://www.microsoft.com/en-us/research/people/nawake/"> Naoki Wake</a> in Redmond."
   #       highlight: true 
   #       date: March 22, 2024
+  - items: 'Anurag_Amazon'
+    subnewsitems:
+      - content: 'Please join the crescendo of ecstatic congratulations to <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into a Senior Research Scientist role at Amazon NYC. Bravissimo!'
+        highlight: true
+        date: Aug. 8, 2024
   - items: 'CDC_Co_Chair'
     subnewsitems:
       - content: 'Together with <a href="https://scholar.google.com/citations?user=F_vrpf0AAAAJ&hl=en"> Volker Pohl</a>, I am co-chairing the computational methods in control theory at the next <a href="https://cdc2024.ieeecss.org/">Conference on Decision and Control, Milan</a> in December 2024. Huzzah!'
@@ -17,9 +22,9 @@ news_items:
         date: Aug. 5, 2024
   - items: 'Shaoru_LinkedIn'
     subnewsitems:
-      - content: 'Please join the crescendo of ecstatic congratulations to <a href="https://shaoruchen.github.io/">Dr. Shaoru Chen</a>, a former postdoc in our lab and a collaborator, who is <s>selling his soul</s> to join LinkedIn in Sunnyvale, CA. Ohrah!'
+      - content: 'A cheer of congratulations to <a href="https://shaoruchen.github.io/">Drs. Shaoru Chen</a>, a former postdoc in our lab and collaborator, who recently <s>sold his soul to LinkedIn</s> joined LinkedIn!'
         highlight: true
-        date: Aug. 5, 2024
+        date: Aug. 3, 2024
   - items: 'RedmondProjGreen'
     subnewsitems:
       - content: 'Organizing an <a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
