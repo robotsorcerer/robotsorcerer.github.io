@@ -17,7 +17,7 @@ news_items:
         date: Aug. 8, 2024
   - items: 'CDC_Co_Chair'
     subnewsitems:
-      - content: 'Together with <a href="https://scholar.google.com/citations?user=F_vrpf0AAAAJ&hl=en"> Volker Pohl</a>, I am co-chairing the computational methods in control theory at the next <a href="https://cdc2024.ieeecss.org/">Conference on Decision and Control, Milan</a> in December 2024. Huzzah!'
+      - content: 'Together with <a href="https://scholar.google.com/citations?user=F_vrpf0AAAAJ&hl=en"> Volker Pohl</a>, I am co-chairing the computational methods in control theory at the next <a href="https://cdc2024.ieeecss.org/">Conference on Decision and Control</a> in Milan (December 2024). Evviva!'
         highlight: true
         date: Aug. 5, 2024
   - items: 'Shaoru_LinkedIn'
