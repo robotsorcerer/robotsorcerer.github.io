@@ -93,16 +93,16 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Life, liberty, and the pursuit of the KOMs</h4>
 
-<p>As often as I can get away from the lab, I like to ride my (road/mountain/Grandma's) bike. I ride rain or shine, hell or highwater -- whether it's in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard (Texas, Illinois, Wisconsin, Indiana, Pennsylvania, Delaware and New Jersey Rider here). Below is a screenshot of my recent activities summary. </p>
+<p>As often as I can get away from the lab, I like to ride my (road/mountain/Grandma's) bike. I ride rain or shine, hell or highwater -- whether it's in the parching heats of sultry Texas, or the blustering cold winds of the  Midwest and the Eastern Seaboard. States I have ridden so far include: NY, NJ, MA, NH, PA, DE, TX, IL, WI, IN, HI, WA. Below is a screenshot of my recent activities summary. </p>
   <iframe height='160' width='400' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29996478/activity-summary/a1ced5c81ee2203640950cbaf24d5fb53d84bafb'></iframe>
 
 <br>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
-I support my local libraries and consistently get great books at ridiculously bargain prices from time to time. Below are a list of books in my current reading list collection. Perhaps, you would like to join me in my reading book club? <a href="mailto:patlekno@icloud.com">Reach out</a>.
+ Below are a list of books in my current reading list.
  <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> 2024 Readings</h5>
  -  The Federalist -- Alexander Hamilton, John Jay, and James Madison.
  -  The Startup Way -- Eric Ries.
- -  No Ordinary Time -- Doris Kearns Goodwin.
+ -  No Ordinary Time, Franklin and Eleanor Roosevelt: The Home Front in World War II -- Doris Kearns Goodwin.
  -  Successful Negotiating: Letting the Other Person Have <i>Your</i> way -- Ginny Pearson Barnes.
  -  On Natural Selection -- Charles Darwin.
  -  Isaac Asimov's Caliban -- Rober MacBride Allen.
