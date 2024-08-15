@@ -1,14 +1,13 @@
 news_items:  
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Are you coming to <a href="https://2025.ieee-icra.org/">ICRA</a> next Summer? I am organizing a workshop on embodied intelligence (EI) where leaders in the soft robotics community will be highlighting the research gaps and strides in EI, as well as coalescing efforts around the theoretical vision of EI via morphological computation in the design, build, precise mathematical and learning-based model and control of soft deformable mechanisms. See the <a href="/embodied_intelligence_icra25">worshop website for details.</a>'
+      - content: 'Are you coming to <a href="https://2025.ieee-icra.org/">ICRA</a> next Summer? I am organizing a workshop  where we will 
+                  be highlighting the gaps and strides in embodied intelligence (EI) for soft robotics automation. 
+                  We shall harness community efforts around the theoretical vision of EI via morphological 
+                  computation in the design, build, precise mathematical/learning-based model and control of soft deformable mechanisms. 
+                  See the <a href="/embodied_intelligence_icra25">workshop website for details.</a>'
         highlight: true
         date: August 14, 2024
-  # - items: 'Abu'
-  #   subnewsitems:
-  #     - content: "Lekan is excited to welcome <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en">Abulikemu Abuduweili</a> to the MSFT Research and Incubations community this summer as an intern. This year, I am co-advising with a couple of colleagues, viz., <a href="https://www.elisevanderpol.nl/"> Elise van der Pol</a> in Amsterdam's AI4Science, <a href="https://scholar.google.com/citations?user=U7Mmyc8AAAAJ&hl=en">Qiuyuan Huang</a>, and <a href="https://www.microsoft.com/en-us/research/people/nawake/"> Naoki Wake</a> in Redmond."
-  #       highlight: false 
-  #       date: March 22, 2024
   - items: 'Anurag_Amazon'
     subnewsitems:
       - content: 'Please join the crescendo of ecstatic congratulations in honor of <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into a Senior Research Scientist role at Amazon NYC. Bravissimo!'
