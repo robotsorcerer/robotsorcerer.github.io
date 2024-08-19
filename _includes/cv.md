@@ -1,10 +1,9 @@
 
 <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
-
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Research Focus</h4>
-   <a href="https://en.wikipedia.org/wiki/Ikigai">**Ikigai**</a>: **Automatic Control** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**. <br>
-   **Fund-my-research buzzwords**: Artificial Intelligence, Machine Learning, Data Science.<br>
-   **Expert buzzwords**: System Identification, Control Theory, Optimal State Estimation.
+<a href="https://en.wikipedia.org/wiki/Ikigai">**Strategic Themes (Ikigai)**</a>: **Automatic Control** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**.
+ - **Safety in decision-making**: HJ equations, and constrained numerical algorithms.
+ - **Machine learning (read: optimization) in control and planning**: Self-aware, situationally-aware systems (e.g. physical robots, augmented, and virtual reality agents) that self-organize by systemic constraints (read: not imposed objectives).
+ - **Emergent embodied intelligence** via morphological computation in modern and futuristic robotic systems (including soft robots and deformables): finite reduced-order, fractional, and learned models, ode- and pde-based control, time-scale separation of heterogeneous dynamics, and layered control.<br>
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present.
