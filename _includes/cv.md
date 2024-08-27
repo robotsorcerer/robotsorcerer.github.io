@@ -65,8 +65,9 @@ I enjoy working with/mentoring young students/scientists in teaching and researc
 - Soft Robotic Modules as Position Correcting Mechanisms in Cancer RT, 3rd Entrepreneurship Forum & Start-up Competition, EFSC'17, Vancouver, BC, Canada, 2017.
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018. 
 
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial Services</h4>
-- **Coordinator**, Reinforcement Learning Discussion Group Series, Microsoft Research, 2023 - Present.
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial/Community Services</h4>
+- **Mentee Lead**, (Microsoft) Technology and Research (T&R) Mentoring Ring FY25, 2024 - 2025.
+- **Co-Coordinator**, Reinforcement Learning Discussion Group Series, Microsoft Research, 2023 - 2024.
 - **Member**, IEEE Robotics and Automation Technical Committee on (i) Soft Robotics; (ii) Cognitive Robotics; (iii) Algorithms for Planning and Control; (iv) Automation in Health Care Management; (v) Aerial Robotics and Unmanned Aerial Vehicles. 2023 - Present.
 - **Associate Editor**, [IEEE International Conference on Robotics and Automation (ICRA) Workshops](https://www.icra2023.org/), 2022-2023.
 - **Associate Editor**, [IEEE International Conference on Robotics and Automation (ICRA)](https://www.icra2020.org/), 2020-2021.
