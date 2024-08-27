@@ -37,7 +37,7 @@ This page is the one-stop shop for all information regarding all workshop activi
 - <a href="mailto:crsung@seas.upenn.edu" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>  [Cynthia Sung](https://sung.seas.upenn.edu): Associate Professor, Mechanical Engineering & Applied Mechanics, University of Pennsylvania, Philadelphia, USA.
 
 	
-- <a href="mailto:federico.renda@ku.ac.ae" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a> [Federico Renda: Associate Professor](https://www.ku.ac.ae/college-people/federico-renda), Department of Mechanical Engineering, Khalifa University, Abu Dhabi, UAE. 
+- <a href="mailto:federico.renda@ku.ac.ae" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a> [Federico Renda](https://www.ku.ac.ae/college-people/federico-renda): Associate Professor, Department of Mechanical Engineering, Khalifa University, Abu Dhabi, UAE. 
 
 - <a href="mailto:jessica.burgnerkahrs@utoronto.ca" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-o"></i></a>  [Jessica Burgner-Kahrs](https://www.cs.toronto.edu/~jbk/):  Professor of Mathematical and Computer Sciences, University of Toronto, Ontario, Canada.
 
