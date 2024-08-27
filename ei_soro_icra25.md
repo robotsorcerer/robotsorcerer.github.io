@@ -6,20 +6,18 @@ permalink: eisoro_icra25
 
 <table class="table table-hover" > </table>
 
-### **ICRA 2025 Workshop Proposal**
+### **ICRA 2025 Workshop on Soft Robotics**
 
-This page is the one-stop shop for all information regarding the call for extended abstracts, workshop activities including invited speakers, panel debates, spotlight talks, cutting-edge and bleeding-edge ideas that will engender the community of soft roboticists in reviving the (perhaps dormant?) promise of embodied intelligence, realized via morphological computation, as envisioned by Helmut Hauser and colleagues fourteen years ago in his seminal [outlook publication on morphological computation via embodied intelliegence](doi:
-10.1007/s00422-012-0471-0). An equally powerful vision was delineated by [Zambrano and colleagues at about the same time](#).
+This page is the one-stop shop for all information regarding all workshop activities including invited speakers, panel debates, spotlight talks, the call for extended abstracts, and cutting- and bleeding-edge ideas that will engender the community of soft roboticists in reviving the (age-old) promise of embodied intelligence, realized via morphological computation, for realizing robotic designs with adaptive motion strategies. This was originally envisioned by Helmut Hauser and colleagues a decade ago in their seminal [opinions and outlook on morphological computation](https://philpapers.org/rec/HAUOAO). See [Zambrano and colleagues](https://www.iris.sssup.it/handle/11382/461975)'s work for a more well-balanced and ballasted elucidation on using these schemes for robotic designs.
 
-### **Concise Abridgment**
+### **Abridgment**
 
-Embodied intelligence enabled by morphological computation in natural organisms is the foundational principle that buoys the design, manufacture, model-based, and model-free control of soft robots under the influence of internal and environmental interactions[1]. This workshop will bring together researchers at  the cutting-edge of morphological computation as an embodied intelligence design principle in the build, precise mathematical- and learning-based characterization of the deformation and control of soft robots in everyday automation research.  Research themes will focus on compositional designs for sensing and motor actuation efficacy,  reduced-order approximate mathematical models for continuum bodies, supervised, semi-supervised, and reinforced learning-based models, morphological computation for control that tame the modeling complexity associated with their complex kinematics or forward/inverse dynamics, and time-scale separation and layered architecture for (near) real-time control. We will reiterate the foundational vision of morphological computation for compliant bodies, examine the state-of-the-art in their design, control and modeling techniques, highlight mission gaps so far, and coalesce community efforts around the possibilities of compliant bodies’ morphological computation, not as problems, but rather as useful computational resources to be leveraged throughout the design, modeling, control, and execution process cycle.
+**Embodied intelligence**, enabled by **morphological computation** in natural organisms, is the foundational principle that buoys the design, manufacture, model-based, and model-free control of soft robots [1]. This workshop will bring together researchers working at  the bleeding-edge of morphological computation as an embodied intelligence design principle for the build, precise mathematical- and learning-based characterization of the deformation and control of soft robots in everyday automation tasks.  Research themes will focus on **compositional designs for sensing and motor actuation efficacy**,  **reduced-order approximate mathematical models** for continuum bodies, **supervised, and reinforced learning** models, **morphological computation for control** that tame the modeling complexity associated with continuums' complex kinematics or forward/inverse dynamics, and the **time-scale separation and layered architecture for (near) real-time control**. We will reiterate the **foundational vision of morphological computation for compliant bodies**, examine the state-of-the-art in their **design, control and modeling techniques**, highlight mission gaps so far, and <u>coalesce community efforts around the possibilities of compliant bodies’ morphological computation, not as problems, but rather as useful computational resources to be leveraged throughout the design, modeling, control, and execution process cycle</u>.
 
 ### **Organizers, panelists, and speakers**
 
 <div class="fig figcenter fighighlight">
   <img src="downloads/soro/ei_logos.jpg" width="100%" height="400" align="middle">  
-  <!-- <div class="figcaption" align="middle">Organizers and Speakers</div> -->
 </div>
 
 <!-- ![Organizers](downloads/soro/ei_logos.jpg) -->
