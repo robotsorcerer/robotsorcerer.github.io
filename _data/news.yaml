@@ -1,11 +1,10 @@
 news_items:  
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Are you coming to <a href="https://2025.ieee-icra.org/">ICRA</a> next Summer? I am organizing a workshop  where we will 
-                  be highlighting the gaps and strides in embodied intelligence (EI) for soft robotics automation. 
-                  We shall harness community efforts around the theoretical vision of EI via morphological 
-                  computation in the design, build, precise mathematical/learning-based model and control of soft deformable mechanisms. 
-                  See the <a href="/embodied_intelligence_icra25">workshop website for details.</a>'
+      - content: 'Are you coming to <a href="https://2025.ieee-icra.org/">ICRA</a> next Summer?Along with other excellent researchers, I am co-organizing a workshop on
+                  soft robotics where we will be highlighting the gaps and strides in embodied intelligence (EI), realized via morphological computation, for compliant
+                  robotics automation. We shall harness community efforts around the theoretical vision of EI towards better design, build, precise mathematical and 
+                  learning-based model and control of soft deformable mechanisms. Please see our (under development) <a href="/eisoro_icra25">workshop webpage for details.</a>'
         highlight: true
         date: August 14, 2024
   - items: 'Anurag_Amazon'
