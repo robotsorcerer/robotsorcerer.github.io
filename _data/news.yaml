@@ -1,7 +1,7 @@
 news_items:  
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/">ICRA</a> conference? I am but one of the excellent tapestry of leaders in the soft robotics community organizing a workshop around biologically-inspired embodied intelligence for modern robots and devices. Please see our <a href="/eisoro_icra25">workshop webpage</a> (currently under active development) for details.'
+      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/">ICRA</a> conference? I am but a weave among the wonderful tapestry of excellent leaders in the soft robotics community organizing a workshop around biologically-inspired embodied intelligence for modern robots and devices. Please see our <a href="/eisoro_icra25">workshop webpage</a> (currently under active development) for details.'
         highlight: true
         date: August 14, 2024
   - items: 'Anurag_Amazon'
