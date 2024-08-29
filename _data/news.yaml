@@ -1,10 +1,10 @@
 news_items:  
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/">ICRA</a> conference? I am but a weave within the wonderful tapestry of excellent leaders in the soft robotics community, fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models, and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots and devices. Please see our <a href="/eisoro_icra25">workshop webpage</a> (currently under active development) for details.'
+      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/">ICRA</a> conference? I am but a weave within the rich tapestry of excellent leaders in the soft robotics community, fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models, and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots and devices. Please see our <a href="/eisoro_icra25">workshop webpage</a> for details.'
         highlight: true
         date: August 14, 2024
-  - items: 'Anurag_Amazon'
+  - items: 'Anurag_Amazon
     subnewsitems:
       - content: 'Please join the crescendo of ecstatic congratulations in honor of <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into a Senior Research Scientist role at Amazon NYC. Bravissimo!'
         highlight: true
