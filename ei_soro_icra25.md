@@ -108,7 +108,7 @@ Submissions rated just below excellent by reviewers shall be assigned to a poste
 Our organizing committee and speakers list are composed of a diverse mix of first-rate researchers that cut across gender, geography, academia and industry and various career stages. This will engender participation from a very broad audience during and before the workshop event. We will actively target participation from underrepresented communities by soliciting such groups to help disseminate the workshop plans among their members.
 
 
-### **Compliance with Robotics and Automation Society (RAS) Guidelines**
+### **Compliance with RAS Guidelines**
 
 This workshop will serve the robotics community with up-to-date best design practices inspired by improvements in materials science and engineering, often aided by design principles from biological systems; recent precise mathematical and learning-based modeling tools that integrate the morphological computation concept; and the emerging control schemes such as fractional-order control methods [4] coupled with advances in learning-based approaches for the modeling and control of soft robots.
 
