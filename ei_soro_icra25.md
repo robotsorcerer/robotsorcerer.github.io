@@ -69,6 +69,30 @@ We will have sessions that focus on supervised learning approaches for modeling 
 
 Soft robot control techniques abound from model-based designs [3, 4] on reduced-order finite-dimensional models [4], PDE-based control, to learning-based control approaches [5]. In their control applications alone, the number of publications in soft robotics has witnessed a meteoric rise from a measly 104 in 2012 to 2,358 publications in 2021 [5]. We will take an all-of-the-above strategy in exploring the control schemes that have found success stories in physical applications so far. Themes under consideration include but are not limited to fractional-order calculus-based methods, reduced-order approximate ODE models, Cosserat models, constant curvature and constant strain optimal. Adaptive, and learning-based control methods among others.
 
+
+#### **Speakers**
+
+We have strived for inclusivity in speakers from diverse academic backgrounds, thoughgt-leadership, geography, demographics, career stages, and gender across academia and industry. We have honed our focus in particular on speakers that have high-impact work in the research community -- prominent examples include Professors Federico Renda, Carmel Majidi, Monje Micharet, and Fumiya Lida. 
+
+- **Professor Audrey Sedal** 
+
+- **Professor Josie Hughes**
+
+- **Professor Cossimo Dellla Santina** 
+
+- **Professor Monje Micharet** 
+
+- **Professor Cynthia Sung** 
+
+
+- **Professor Federico Renda** pioneered the geometrically exact Cosserat beam model as an approximate reduced-order ODE modeling scheme for soft slender robots undergoing finite deformations. His piecewise constant strain model and variable strain models based onCosserat rod theory are widely employed in the modeling and model-based control of soft robots.  His models have been extensively used in the optimal control and motion understanding of popular soft robots such as Professor. Cecilia Laschi's [Octopus robot](https://spectrum.ieee.org/robot-octopus-points-the-way-to-soft-robotics-with-eight-wiggly-arms). 
+
+- **Professor Fumiya Lida** is a well-regarded international leader in the robotics community; his research efforts are centered around natural biological inspiration for developing core competences in the the rapid prototyping of dynamic mechatronics systems, bionic sensor and motor technologies, and computational control optimization techniques. His focus is to leverage the adaptivity and autonomy of animals for engineering novel robotic applications which are more adaptive, resilient, and energy efficient.
+
+- **Professor Carmel Majidi** is an accomplished materials science and engineering researcher with broad recognisedaltion in the academic community for bringing novel materials, hardware architectures, and fabrication methods to fruition for the safe execution of soft biological organisms behaviors during human interactions. His lab focusses on replacing bulky, rigid hardware with low stiffness-to-weight ratio soft robots that leverage the embodied intelligence of functional living tissues. Towards rapid prototyping and robotics implementation of automation ideas, his lab is focussed on filled-elastomer composites and soft microfluidic systems that exhibit unique combinations of mechanical, electrical, and thermal properties and can function as “artificial” skin, nervous tissue, and muscle for soft robotics and wearables.
+
+Azu
+
 ### **Format**
 
 We propose an exciting workshop with audience participation engaged via panel debates amongst key speakers; intentional diversity of high-profile speakers that cut across gender, race, geography, industry, and academe. This will draw a well-balanced and ballasted participation from the robotics and automation society, bringing representation of women and underrepresented members of the community together as we catalyze interest in our proposed themes. A hybrid mode meeting option (in-person and online) with contemporary interactive software tools including Teams and Gather.Town will help engage online registered participants and speakers who cannot travel in person; we will coordinate extensively with the ICRA organizers audio-visual team so that we have a seamless delivery of content to the hybrid audience/participants. 
@@ -106,15 +130,6 @@ This workshop will serve the robotics community with up-to-date best design prac
 We confirm that the organizers will be present at the workshop (in person and online) and that the workshop will comply with the [RAS Guidelines](https://www.ieee-ras.org/conferences-workshops/resources-for-workshop-organizers).
 
 
-#### **Speakers**
-
-We have strived to for inclusivity in speakers from diverse academic backgrounds, thoughgt-leadership, geography, demographics, career stages, and gender across academia and industry. We have honed our focus in particular on speakers that have high-impact work in the research community -- prominent examples include Professors Federico Renda, Carmel Majidi, Monje Micharet, and Fumiya Lida. 
-
-- **Professor Federico Renda** pioneered the geometrically exact Cosserat beam model as an approximate reduced-order ODE modeling scheme for soft slender robots undergoing finite deformations. His piecewise constant strain model and variable strain models based onCosserat rod theory are widely employed in the modeling and model-based control of soft robots.  His models have been extensively used in the optimal control and motion understanding of popular soft robots such as Professor. Cecilia Laschi's [Octopus robot](https://spectrum.ieee.org/robot-octopus-points-the-way-to-soft-robotics-with-eight-wiggly-arms). 
-
-- **Professor Fumiya Lida** is a well-regarded international leader in the robotics community; his research efforts are centered around natural biological inspiration for developing core competences in the the rapid prototyping of dynamic mechatronics systems, bionic sensor and motor technologies, and computational control optimization techniques. His focus is to leverage the adaptivity and autonomy of animals for engineering novel robotic applications which are more adaptive, resilient, and energy efficient.
-
-- **Professor Carmel Majidi** is an accomplished materials science and engineering researcher with broad recognition in the academic community for bringing novel materials, hardware architectures, and fabrication methods to fruition for the safe execution of soft biological organisms behaviors during human interactions. His lab focusses on replacing bulky, rigid hardware with low stiffness-to-weight ratio soft robots that leverage the embodied intelligence of functional living tissues. Towards rapid prototyping and robotics implementation of automation ideas, his lab is focussed on filled-elastomer composites and soft microfluidic systems that exhibit unique combinations of mechanical, electrical, and thermal properties and can function as “artificial” skin, nervous tissue, and muscle for soft robotics and wearables.
 
 
 ### **References**

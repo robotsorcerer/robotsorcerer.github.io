@@ -6,7 +6,12 @@ news_items:
                   robotics automation. We shall harness community efforts around the theoretical vision of EI towards better design, build, precise mathematical and 
                   learning-based model and control of soft deformable mechanisms. Please see our (under development) <a href="/eisoro_icra25">workshop webpage for details.</a>'
         highlight: true
-        date: August 14, 2024
+        date: August 24, 2024
+  - items: 'CDC_Accepts'
+    subnewsitems:
+      - content: 'Two papers accepted to <a href="https://cdc2024.ieeecss.org/">CDC 2024</a>, Milan!'
+        highlight: true
+        date: Aug. 27, 2024
   - items: 'Anurag_Amazon'
     subnewsitems:
       - content: 'Please join the crescendo of ecstatic congratulations in honor of <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into a Senior Research Scientist role at Amazon NYC. Bravissimo!'
