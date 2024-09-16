@@ -1,10 +1,18 @@
 news_items:  
+  - items: 'McGillLayeredControl'
+    subnewsitems:
+      - content: 'At McGill's Mechanical Engineering department and MILA, I am giving a talk on layered 
+                  models and time-scale separation mechanisms in the quest towards the real-time control of 
+                  heterogeneous soft robotics devices in October 2024. Come in and argue!'
+        highlight: true
+        date: September 16, 2024
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Are you coming to <a href="https://2025.ieee-icra.org/">ICRA</a> next Summer?Along with other excellent researchers, I am co-organizing a workshop on
-                  soft robotics where we will be highlighting the gaps and strides in embodied intelligence (EI), realized via morphological computation, for compliant
-                  robotics automation. We shall harness community efforts around the theoretical vision of EI towards better design, build, precise mathematical and 
-                  learning-based model and control of soft deformable mechanisms. Please see our (under development) <a href="/eisoro_icra25">workshop webpage for details.</a>'
+      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/">ICRA</a> conference? 
+                  I am but a weave within the rich tapestry of excellent leaders in the soft robotics community, 
+                  fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models, 
+                  and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots 
+                  and devices. Please see the <a href="/eisoro_icra25">workshop webpage</a> for details.'
         highlight: true
         date: August 24, 2024
   - items: 'CDC_Accepts'
