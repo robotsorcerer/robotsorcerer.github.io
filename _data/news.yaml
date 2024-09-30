@@ -1,7 +1,12 @@
 news_items:  
   - items: 'SoRoSPT'
     subnewsitems:
-      - content: "Could we be getting closer to the point where continum soft robots are a shoo-in for everyday automationtasks? My new paper argues for and demonstrates the efficacy of a decentralized dynamical system whose whole-body strain dynamics is controlled in an adaptive and hierarchical nonlinear fashion, towards realizing the promise of embodied intelligence in robots that mimic the behavior of functional living organisms. <a href="downloads/Papers/SoRoSPT.pdf">Come on in and inquire!</a>"
+      - content: "Could we be getting closer to the point where continum soft robots are a shoo-in for
+                 everyday automation tasks? My new paper argues for and demonstrates the efficacy of a 
+                 decentralized dynamical system whose whole-body strain dynamics is controlled in an 
+                 adaptive and hierarchical nonlinear fashion, towards realizing the promise of embodied 
+                 intelligence in robots that mimic the behavior of functional living organisms. 
+                 <a href='downloads/Papers/SoRoSPT.pdf'>Come on in and inquire!</a>"
         highlight: true
         date: September 30, 2024
   - items: 'McGillLayeredControl'
