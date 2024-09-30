@@ -1,11 +1,10 @@
 news_items:  
   - items: 'SoRoSPT'
     subnewsitems:
-      - content: "Could we be at the precipice of continum soft robots that mimic the behavior of functional living 
-                 organisms being versatile shoo-in for everyday automation tasks? My <a href='downloads/Papers/SoRoSPT.pdf'>new paper</a> 
+      - content: "Pray tell, could we be at the precipice of continum soft robots that mimic the behavior of functional living 
+                 organisms being versatile shoo-in for everyday robotic automation tasks? My <a href='downloads/Papers/SoRoSPT.pdf'>new paper</a> 
                  argues for and demonstrates the efficacy of a decentralized continuum dynamical system whose whole-body strain dynamics is resolved in an 
-                 adaptive and hierarchical nonlinear control fashion. Pray tell, we might just soon realize the 
-                 promise of embodied intelligence in robots that mimic the behavior of functional living organisms." 
+                 adaptive and hierarchical nonlinear control fashion." 
         highlight: true
         date: September 30, 2024
   - items: 'McGillLayeredControl'
