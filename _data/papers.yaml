@@ -1,4 +1,14 @@
 publications:
+  - items: 'SoRoSPT'
+    paperitems:
+      - title: 'Fast Whole-Body Strain Regulation in Continuum Robots'
+        location: 'downloads/Papers/SoRoSPT.pdf'
+        authors:
+          - <b>Lekan Molu</b>. 
+        venue_web: 'https://acc2025.a2c2.org/'
+        venue: American Control Conference (ACC)
+        paper_status: Submitted
+        year: September 2024
   - items: 'LevPy'
     paperitems:
       - title: 'The Python LevelSet Toolbox (LevelSetPy)'
