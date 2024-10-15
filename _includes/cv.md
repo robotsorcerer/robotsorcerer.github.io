@@ -36,9 +36,9 @@
 
 I enjoy working with/mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA. Current or past students, interns and postdocs include:
 
++ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao) (advised by Dr. [Zhong-Ping Jiang](https://engineering.nyu.edu/faculty/zhong-ping-jiang)). MSR Intern, 2022   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT.
 + [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern 2024; being co-advised together with [Elise van der Pol](https://www.elisevanderpol.nl/), [Qiuyuan Huang](https://scholar.google.com/citations?user=U7Mmyc8AAAAJ&hl=en), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/).
 + [Anurag Koul](https://koulanurag.dev/), Oregon State University, Microsoft Research Postdoc, 2022 - 2024.  Present: Senior Research Scientist, Amazon NYC.
-+ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao) (advised by Dr. [Zhong-Ping Jiang](https://engineering.nyu.edu/faculty/zhong-ping-jiang)). Microsoft Research Intern, 2022   &rarr; NYU Tandon School of Engineering PhD Student.
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech Mechanical Engineering PhD Student (Advised by Dr. [Aaron Ames](http://ames.caltech.edu/)).
 + Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
 + [Harley Wiltzer](https://harwiltz.github.io/), Microsoft Research Intern, 2023. McGill PhD Student advised by [David Meger](https://www.cim.mcgill.ca/~dmeger/) and [Marc Bellemare](http://www.marcgbellemare.info/).
