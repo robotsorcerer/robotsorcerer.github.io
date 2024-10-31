@@ -9,9 +9,9 @@ news_items:
         date: September 30, 2024
   - items: 'McGillLayeredControl'
     subnewsitems:
-      - content: "At McGill's Mechanical Engineering department and MILA, I am giving a talk on my recent layered 
+    - content: "At McGill's <a href='/downloads/Papers/McGillFlyer24.pdf'>Mechanical Engineering department and MILA</a>, I am <a href='/downloads/Papers/McGill.pdf'>giving a talk</a> on my recent layered 
                   architecture and time-scale separation schemes in the quest towards the real-time control 
-                  of heterogeneous soft robotics devices in October 2024. Come in and argue!"
+                  of heterogeneous soft robotics devices in October 2024."
         highlight: true
         date: September 16, 2024
   - items: 'ICRA25EmbodiedIntelligence'
