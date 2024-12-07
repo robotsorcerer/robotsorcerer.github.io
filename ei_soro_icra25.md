@@ -19,7 +19,7 @@ This page is the one-stop shop for all workshop information including invited sp
 ### **Organizers, panelists, and speakers**
 
 <div class="fig figcenter fighighlight">
-  <img src="downloads/soro/ei_logos.jpg" width="100%" height="400" align="middle">  
+  <img src="downloads/soro/ei_logos.jpg" width="100%" height="100%" align="middle">  
 </div>
 
 <!-- ![Organizers](downloads/soro/ei_logos.jpg) -->
@@ -80,7 +80,7 @@ A technical portion of the program shall be discharged by the organizers highlig
 ### **Tentative schedule**
 
 <div class="fig figcenter fighighlight">
-  <img src="downloads/soro/tentative_schedule.jpg" width="100%" height="400" align="middle">  
+  <img src="downloads/soro/tentative_schedule.jpg" width="100%" height="120%" align="middle">  
 </div>
 
 ### **Plan to encourage interaction among participants**
