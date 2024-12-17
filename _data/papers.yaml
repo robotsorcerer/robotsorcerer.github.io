@@ -12,7 +12,7 @@ publications:
   - items: 'LevPy'
     paperitems:
       - title: 'The Python LevelSet Toolbox (LevelSetPy)'
-        location: 'downloads/Papers/LevPy_CDC.pdf'
+        location: 'downloads/Papers/levelsetpy_cdc.pdf'
         authors:
           - <b>Lekan Molu</b>. 
         venue_web: 'https://cdc2024.ieeecss.org/'
@@ -29,16 +29,16 @@ publications:
         venue: Conference on Decision and Control (CDC)
         paper_status: Accepted 
         year: March 2024
-  - items: 'PSDNets'
-    paperitems:
-      - title: 'Structure-Regularized Neural Networks for Hamilton-Jacobi-Bellman Optimal Control Problems'
-        location: 'downloads/Papers/PSDNeurals.pdf'
-        authors:
-          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-        venue_web: 'https://icml.cc/Conferences/2024/Dates'
-        venue: International Conference on Machine Learning (ICML), 2024
-        paper_status: Submitted 
-        year: January 2024
+#  - items: 'PSDNets'
+#    paperitems:
+#      - title: 'Structure-Regularized Neural Networks for Hamilton-Jacobi-Bellman Optimal Control Problems'
+#        location: 'downloads/Papers/PSDNeurals.pdf'
+#        authors:
+#          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+#        venue_web: 'https://icml.cc/Conferences/2024/Dates'
+#        venue: International Conference on Machine Learning (ICML), 2024
+#        paper_status: Submitted 
+#        year: January 2024
   - items: 'VecNN'
     paperitems:
       - title: 'Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees'
@@ -49,20 +49,10 @@ publications:
         venue: American Control Conference (ACC), Toronto, ON
         paper_status: Accepted 
         year: May 2024
-  - items: 'SoRoSPT'
-    paperitems:
-      - title: '  Singularly Perturbed Layered Control of Deformable Bodies'
-        location: 'https://arxiv.org/abs/2312.06039'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: #'https://dl.acm.org/journal/toms'
-        venue: arXiv # IEEE Robotics and Automation Letters 
-        paper_status: Submitted
-        year: October 2023
   - items: 'LevPyPDE'
     paperitems:
       - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
-        location: 'downloads/Papers/LevPy.pdf'
+        location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
           - <b>Lekan Molu.</b>
         venue_web: 'https://dl.acm.org/journal/toms'
@@ -78,7 +68,7 @@ publications:
             Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb
         venue_web: 'https://iclr.cc/'
         venue: International Conference on Learning Representations (ICLR)
-        paper_status: Submitted
+        paper_status: Accepted
         year: September 2023
   # - items: 'Cosserat'
   #   paperitems:
