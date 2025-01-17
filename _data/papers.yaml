@@ -6,8 +6,8 @@ publications:
         authors:
           - <b>Lekan Molu</b>. 
         venue_web: 'https://acc2025.a2c2.org/'
-        venue: American Control Conference (ACC)
-        paper_status: Submitted
+        venue: American Control Conference (ACC), Denver, CO
+        paper_status: Accepted
         year: September 2024
   - items: 'LevPy'
     paperitems:
