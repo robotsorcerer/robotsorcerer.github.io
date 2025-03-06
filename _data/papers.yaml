@@ -1,4 +1,14 @@
 publications:
+ - items: 'PSDNets'
+   paperitems:
+     - title: 'Is the Bellman Equation Enough for Learning Control?'
+       location: 'https://arxiv.org/abs/2503.02171'
+       authors:
+         - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+       venue_web: 'https://irl-conference.cc'
+       venue: Reinforcement Learning Theory Conference, 2025
+       paper_status: Submitted 
+       year: March 2025
   - items: 'SoRoSPT'
     paperitems:
       - title: 'Fast Whole-Body Strain Regulation in Continuum Robots'
@@ -8,7 +18,7 @@ publications:
         venue_web: 'https://acc2025.a2c2.org/'
         venue: American Control Conference (ACC), Denver, CO
         paper_status: Accepted
-        year: September 2024
+        year: June 2025
   - items: 'LevPy'
     paperitems:
       - title: 'The Python LevelSet Toolbox (LevelSetPy)'
@@ -18,7 +28,7 @@ publications:
         venue_web: 'https://cdc2024.ieeecss.org/'
         venue: Conference on Decision and Control (CDC)
         paper_status: Accepted 
-        year: March 2024
+        year: December 2024
   - items: 'SoRoPD'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
@@ -29,16 +39,6 @@ publications:
         venue: Conference on Decision and Control (CDC)
         paper_status: Accepted 
         year: March 2024
-#  - items: 'PSDNets'
-#    paperitems:
-#      - title: 'Structure-Regularized Neural Networks for Hamilton-Jacobi-Bellman Optimal Control Problems'
-#        location: 'downloads/Papers/PSDNeurals.pdf'
-#        authors:
-#          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-#        venue_web: 'https://icml.cc/Conferences/2024/Dates'
-#        venue: International Conference on Machine Learning (ICML), 2024
-#        paper_status: Submitted 
-#        year: January 2024
   - items: 'VecNN'
     paperitems:
       - title: 'Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees'
