@@ -1,4 +1,24 @@
 publications:
+  - items: 'SoRoIdent!'
+    paperitems:
+      - title: 'On the number synthesis for deformable robots parameters identification.'
+        location: Rio de Janeirio, Brazil
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/SoRoIdent.pdf
+        venue: IEEE 64th Conference on Control and Decision
+        paper_status: Submitted
+        year: March 2025
+  - items: 'SampleReach!'
+    paperitems:
+      - title: 'A Sampling Scheme for  Reachable Sets Computation'
+        location: Rio de Janeirio, Brazil
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/ProxSampReach.pdf
+        venue: IEEE 64th Conference on Control and Decision
+        paper_status: Submitted
+        year: March 2025
   - items: 'PSDNets'
     paperitems:
       - title: 'Is the Bellman Equation Enough for Learning Control?'
@@ -58,7 +78,7 @@ publications:
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software 
         paper_status: Submitted
-        year: April 2023
+        year: April 2024
   - items: 'PCLAST'
     paperitems:
       - title: 'PCLAST: Discovering Plannable Continuous Latent States'
@@ -155,16 +175,6 @@ publications:
   #       paper_status: Manuscript
   #       year: Fall 2022
 
-  - items: 'DDPVEr!'
-    paperitems:
-      - title: 'A Sampling Scheme for  Reachable Sets Computation'
-        location: #downloads/Papers/DDPReach.pdf
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/proxSampReach.pdf
-        venue: Letters to Control Systems Society
-        paper_status: Manuscript
-        year: March 2025
 
   - items: IGL2
     paperitems:
