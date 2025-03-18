@@ -1,14 +1,14 @@
 publications:
   - items: 'PSDNets'
-   paperitems:
-     - title: 'Is the Bellman Equation Enough for Learning Control?'
-       location: 'https://arxiv.org/abs/2503.02171'
-       authors:
-         - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-       venue_web: 'https://irl-conference.cc'
-       venue: Reinforcement Learning Theory Conference, 2025
-       paper_status: Submitted 
-       year: March 2025
+    paperitems:
+      - title: 'Is the Bellman Equation Enough for Learning Control?'
+        location: 'https://arxiv.org/abs/2503.02171'
+        authors:
+          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+        venue_web: 'https://irl-conference.cc'
+        venue: Reinforcement Learning Theory Conference, 2025
+        paper_status: Submitted 
+        year: March 2025
   - items: 'SoRoSPT'
     paperitems:
       - title: 'Fast Whole-Body Strain Regulation in Continuum Robots'
