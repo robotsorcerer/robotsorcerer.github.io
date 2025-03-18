@@ -1,4 +1,21 @@
 publications:
+  - items: 'LatentDiffusionACD!'
+    paperitems:
+      - title: 'A Latent Diffusion Generative Model for Approximate Convex Decomposition'
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/GNEP_PNAS.pdf
+        venue: ACM Transactions on Graphics
+        paper_status: Submitted
+        year: April 2025
+  - items: 'LatentDiffusionCFRee!'
+    paperitems:
+      - title: 'Mastering Collision-free computation via convex decomposition and neural networks'
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue: Nature
+        paper_status: Submitted
+        year: May 2025
   - items: 'GNEP!'
     paperitems:
       - title: 'A Generalized Nash Equilibrium Policy for Large Scale Multi-agent Systems'
