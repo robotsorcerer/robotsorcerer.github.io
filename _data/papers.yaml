@@ -1,7 +1,7 @@
 publications:
   - items: 'LatentDiffusionACD!'
     paperitems:
-      - title: 'A Latent Diffusion Generative Model for Approximate Convex Decomposition'
+      - title: 'A Latent Diffusion Generative Model for Approximate Convex Decompositionin Complex Spaces'
         authors:
           - <b>Lekan Molu.</b> 
         venue_web: /downloads/Papers/GNEP_PNAS.pdf
