@@ -13,7 +13,7 @@ permalink: pubs
 
 <center>
 <a href="#submits"><font size="4">Submitted / </font></a>
-<a href="#unpubs"><font size="4">Preprints / </font></a>
+<!-- <a href="#unpubs"><font size="4">Preprints / </font></a> -->
 <!-- <a href="#revs"><font size="4">Under Revision / </font></a> -->
 <a href="#pubs"><font size="4"> Published / </font></a>
 <a href="#reps"><font size="4">Technical Reports /</font></a>
@@ -39,7 +39,7 @@ permalink: pubs
   	{% endfor %}
 </table>
 
-<hr>
+<!-- <hr>
 <a name="unpubs"></a>
 <table  class="table table-hover" >
   	<center><h3><b><a href="https://en.wikipedia.org/wiki/Working_paper">Preprints/Evolving Drafts</a></b></h3></center>
@@ -56,7 +56,7 @@ permalink: pubs
 		      	{% endif %}
 	    	{% endfor %}
 	  	{% endfor %}
-</table>
+</table> -->
 
 <hr>
 <a name="pubs"></a>

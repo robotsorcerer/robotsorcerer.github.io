@@ -92,16 +92,16 @@ publications:
         paper_status: Accepted
         year: July 2023
 
-  - items: 'MixedH2'
-    paperitems:
-      - title: 'Robust Policy Optimization in  Continuous-time Mixed H2/H-Infinity Stochastic Control' #: Application to Cranial Cancer Radiation Therapy
-        location: /downloads/Papers/h2hinf.pdf
-        authors:
-          - Leilei Cui and <b>Lekan Molu.</b>
-        venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control (Technical Notes)
-        paper_status: Submitted
-        year: April 2023
+  # - items: 'MixedH2'
+  #   paperitems:
+  #     - title: 'Robust Policy Optimization in  Continuous-time Mixed H2/H-Infinity Stochastic Control' #: Application to Cranial Cancer Radiation Therapy
+  #       location: /downloads/Papers/h2hinf.pdf
+  #       authors:
+  #         - Leilei Cui and <b>Lekan Molu.</b>
+  #       venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
+  #       venue: Transactions in Automatic Control (Technical Notes)
+  #       paper_status: Submitted
+  #       year: April 2023
 
   - items: 'LSD'
     paperitems:
@@ -122,28 +122,28 @@ publications:
         venue_web: http://ijrr.org
         venue: The International Journal of Robotics Research
         paper_status: Manuscript
-        year: 2023
+        year: 2025
 
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
-        authors:
-          -  <b>Lekan Molu*</b>.
-        venue_web: http://ijrr.org
-        venue: The International Journal of Robotics Research
-        paper_status: Manuscript
-        year: April 2023
+  # - items: 'ComplexBRAT!'
+  #   paperitems:
+  #     - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
+  #       authors:
+  #         -  <b>Lekan Molu*</b>.
+  #       venue_web: http://ijrr.org
+  #       venue: The International Journal of Robotics Research
+  #       paper_status: Manuscript
+  #       year: April 2023
 
-  - items: 'DDPReach'
-    paperitems:
-      - title: 'A Second-Order Reachable Sets Computational Scheme for a Cauchy-type Variational Hamilton-Jacobi Isaacs Equation'
-        authors:
-          - <b>Lekan Molu.</b> # and Sylvia Herbert.
-        location: downloads/Papers/ddpreach.pdf
-        venue_web: https://roboticsconference.org/
-        venue: CDC
-        paper_status: Manuscript
-        year: 2023
+  # - items: 'DDPReach'
+  #   paperitems:
+  #     - title: 'A Second-Order Reachable Sets Computational Scheme for a Cauchy-type Variational Hamilton-Jacobi Isaacs Equation'
+  #       authors:
+  #         - <b>Lekan Molu.</b> # and Sylvia Herbert.
+  #       location: downloads/Papers/ddpreach.pdf
+  #       venue_web: https://roboticsconference.org/
+  #       venue: CDC
+  #       paper_status: Manuscript
+  #       year: 2023
   # - items: 'TAC!'
   #   paperitems:
   #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
@@ -157,14 +157,14 @@ publications:
 
   - items: 'DDPVEr!'
     paperitems:
-      - title: 'A Proximal Operator Scheme for Approximating Hamilton-Jacobi-based Reachable Sets'
+      - title: 'A Sampling Scheme for  Reachable Sets Computation'
         location: #downloads/Papers/DDPReach.pdf
         authors:
           - <b>Lekan Molu.</b> 
-        venue_web: https://arxiv.org/pdf/2203.03865.pdf
+        venue_web: /downloads/Papers/proxSampReach.pdf
         venue: Letters to Control Systems Society
         paper_status: Manuscript
-        year: March 2023 
+        year: March 2025
 
   - items: IGL2
     paperitems:
