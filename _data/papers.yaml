@@ -1,5 +1,5 @@
 publications:
- - items: 'PSDNets'
+  - items: 'PSDNets'
    paperitems:
      - title: 'Is the Bellman Equation Enough for Learning Control?'
        location: 'https://arxiv.org/abs/2503.02171'
