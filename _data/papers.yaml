@@ -1,14 +1,14 @@
 publications:
-  - items: 'SoRoIdent!'
+  - items: 'GNEP!'
     paperitems:
-      - title: 'On the number synthesis for deformable robots parameters identification.'
+      - title: 'A Generalized Nash Equilibrium Policy for Large Scale Multi-agent Systems'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/SoRoIdent.pdf
-        venue: IEEE 64th Conference on Control and Decision
+        venue_web: /downloads/Papers/GNEP_PNAS.pdf
+        venue: Proceedings of the National Academy of Sciences
         paper_status: Submitted
-        year: March 2025
+        year: April 2025
   - items: 'SampleReach!'
     paperitems:
       - title: 'A Sampling Scheme for  Reachable Sets Computation'
@@ -16,6 +16,16 @@ publications:
         authors:
           - <b>Lekan Molu.</b> 
         venue_web: /downloads/Papers/ProxSampReach.pdf
+        venue: IEEE 64th Conference on Control and Decision
+        paper_status: Submitted
+        year: March 2025
+  - items: 'SoRoIdent!'
+    paperitems:
+      - title: 'On the number synthesis for deformable robots parameters identification'
+        location: Rio de Janeirio, Brazil
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/SoRoIdent.pdf
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
         year: March 2025
