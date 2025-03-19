@@ -9,10 +9,10 @@ layout: page
 
 <h4><a>A Research North Star</a></h4>
 <a href="#expose"><font size="4"> Research Exposé / </font></a>
-<a href="#incubate"><font size="4"> R&T Incubations / </font></a>
+<a href="#incubate"><font size="4"> R&T Incubations  </font></a>
 <br>
-<h4><a>Automation, Physics, Algorithmics, & AI</a></h4>
-<a href="#safety"><font size="4"> Between Bellman and Isaacs </font></a>
+<h4><a>Automation, Physics, Algorithmics, and AI</a></h4>
+<a href="#safety"><font size="4"> Between Bellman and Isaacs / </font></a>
 <a href="#explore"><font size="4"> Not Cumbersome Robots Again! / </font></a>
 <a href="#cumbersome"><font size="4"> Explorative Learning  </font></a>
 <br>
