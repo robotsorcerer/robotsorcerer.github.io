@@ -13,7 +13,7 @@ layout: page
 <br>
 <h4><a>Automation, Physics, Algorithmics, and AI</a></h4>
 <a href="#safety"><font size="4"> Between Bellman and Isaacs / </font></a>
-<a href="#explore"><font size="4"> Not Cumbersome Robots Again! / </font></a>
+<a href="#explore"><font size="4"> Towards natural robots / </font></a>
 <a href="#cumbersome"><font size="4"> Explorative Learning  </font></a>
 <br>
 <h4><a>Miscellaneous</a></h4>
@@ -24,7 +24,7 @@ layout: page
 <!-- </center> -->
 
 <a name="expose"></a>
-##### Research Exposé
+#### Research Exposé
 
 The rise in computational power together with the pervasiveness of big data has created new computing modalities which has spurred an emergent digital economy, and has spawned new business value chains. Across these spates of recent developments, the question of resilience and reliability, safety and robustness, as well as the assured predictability of behavior in the (autonomous) systems that we design and build has become timely and crucial. Emergent autonomous AI systems must make decisions under imperfect circumstances based on environment information that is available from an array of perceptual inputs and their representation, reason through self-enumerated possible actions, and safetly execute the ones that provide a meaningful state transition in the environment in which they act --- all the while guaranteeing safety, stability, and resilience under external disturbances. Broadly, one can think of autonomous AI systems along two general threads: (i) situated autonomy, such as an automated airline ticket reservation system that reserves and makes decisions based on provided input by an external agent; and (ii) embodied autonomy, that is agents with perceptual sensors and proprioceptive actuators that make a physical change in their environment; an example in this latter category are physical robots that sense the world directorly through contact, and react adaptively to effect a change in representation of their environment bvia feedback. In both situated and embodied autonomy, we expect algrithms to deliver performance specifications without a glitch as we automate away tasks that humans have traditionally performed for over a century. My core research exists at the intersection of three intertwined fields that encapsulate important questions surrounding situatedness and embodiments: **robotics**, **control theory**, and **machine learning**. Robotics is crucial for the automation of physical embodiments. Control theory offers the strong scientific rigor that establishes strong robustness and resilient foundations in flimsy AI models and policies (that encompass situatedness and embodiments). And machine learning provides the relaxation to devise generalist algorithmics that transcend narrow applications to general usage in contemporary society. Motivated by what is possible with hitherto unexplored and large-scale engineering feats across these three disciplnes, my research seeks to deconstruct the challenges that modern technology presents viz., (i) combining the elegance of mathematical rigor in imbuing resilience and robustness into the little margins that exist in safety-critical embodiments; (ii) reasoning possible automation capabilities into existence through abstract sub-task modules in a hierarchy of system architectural principles; this is guided by clear conceptual analyses baked in the tradition of classical scientific rigor; and (iii) leveraging bio-inspiration to build emergent agent-centric situated AI and embodied robotic systems as we continue to usher in a safe and desired haven for future technologies that can co-exist with human beings in everyday living.
 
@@ -36,7 +36,7 @@ The rise in computational power together with the pervasiveness of big data has 
 To accelerate the turn-around time from research ideation to formalized incubation and products, we strive to realize these visions via systematic and strategic missions (within and outside Microsoft) that connect diverse workstreams and teams through cross-geographic community-building and cross-discipline collaborations. Our goal is to smother conventions (when needed), mother new inventions, and accelerate the realization of lava-stage technologies. The threads under investigation are further described in what follows.
 
 <a name="safe"></a>
-##### Between Messrs Bellman and Isaacs: Safety-Critical Systems?
+#### Between Messrs Bellman and Isaacs: Safety-Critical Systems?
 
 The digital, electronic, and cyberphysical interfaces in the modern systems that we develop are growing ever more complex. The need to guarantee performance as envisioned by the systems architect in the face of uncertainty has become ever more timely. To deploy modern systems in the wild, modern software must process generated data at multiple levels of abstraction within reasonable time, and guarantee consistency in system performance in spite of the dangers that may evolve if nominally envisioned system performance falter. To address this concern, we take the approach that considers software architectures for the numerical analysis of the safety assurance (ascertaining the freedom of a system from harm) in a _verification_ sense. By verification, we mean generating evidence that a system, or any its components satisfy all specified requirements and functional and allocated baselines. An ensuing approach considered validation systems, that is, providing certifiable evidence that system capabilities comply with an end-user's performance requirements and satisfy its intended operational environment's specifications. 
 
@@ -51,8 +51,36 @@ Our efforts in this space involve exploiting various angles-of-attack assault on
 +  The Python LevelSet Toolbox (LevelSetPy), Lekan Molu. IEEE 63rd Conference on Decision and Control (CDC), Milano, Italia. December 2024.
 +  Mixed H2/H-Infinity Policy Learning Synthesis. Lekan Molu. World Congress, International Federation of Automatic Control, Yokohama, Japan. July 2023.
 
+##### Learning to Explore in Unstructured Spaces
 
-##### On contemporary robots being cumbersome (in size and to operate)?
+The emergence of powerful foundation models has improved the reasoning capability of many AI systems leading to their wide adoption in solving a variety of problems including question-answering and vision processing tasks. In embodied two-dimensional and three-dimensional (3D) vision-enabled planning and control systems (often within hazardous environments) however, wrong (model) predictions or mis-specified (vision-language) actions during tasks’ execution can lead to deleterious consequences (in money, time, health, or even lives). Disciplined modularity in physical and virtual embodied reasoning systems is one way to imbue stability, robustness, and safety into embodied decision-making systems. Such systems must be amenable to efficient optimization -- combining discrete high-level abstraction modules (for reliably predicting and delineating environmental structure) with continuous low-level decision-making modules (that inform stable and safe world exploration). This hierarchical planning scheme in successive combinations of discrete and continuous modules, informed by the power of large foundation models that encapsulate combinatorial optimization within large application-relevant datasets  will make them generalizable. This will inform robustness in agent-centric, environment-agnostic, decision-making, and guarantee safety during tasks’ executions via designed error-checking mechanisms.
+
+Our efforts in this space leverage modularization for automatic geometry delineation of component objects within any generic three-dimensional world. This is followed by an efficient obstacle-free space computational supervised learning module that first decomposes every detected structural component into convex structures. An iterative semi-definite convex programming algorithm, in an incrementally building of the collision-free configuration space of the entire environment, then follows. Making fast optimal decisions is important in many engineering systems and virtual three-dimensional systems. A bottleneck to such optimal decisions is determining what areas of space to explore. By having an automated algorithm that determines what regions of the environment is worth exploring, the problem of optimal decision-making is significantly reduced to a subset of the entire C-space. This scheme twill help engineers and planners reduce time to explore, gather data, or reason about an environment before making decision.
+
+
+Connection to existing planning schemes: 
+
++ Going beyond kinodynamical reasoning that is the mainstay of classical planning systems towards an ensemble of large models for abstract world models including objects segmentation, c-free computation, and low-level shortest path planning, minimum spanning tree problems,  and low-level control for hierarchical decision-making;
+
++ Connecting the output of the ensemble of eclectic models above to scaled network-based (combinatorial/convex) optimization framework that allows formulating decision-making at the intercept of high-level abstract reasoning about the world and low-level controller actions;
+
++ Incorporating safety-based controllers at this lower level for real-time, and modular decision-making. Building accessible and robust software systems that encapsulate this modular pipeline for general-purpose agents – physical (including robotics), virtual, mixed-reality, and simulated-reality alike.
+
+
+**Relevant Papers:**
+
++ Mastering Collision-free computation via convex decomposition and neural networks. Lekan Molu. Nature. May 2025.
+
++ PCLAST: Discovering Plannable Continuous Latent States.
+Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, Lekan Molu, Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb. International Conference on Learning Representations (ICLR). September 2023.
+
++ Guaranteed discovery of controllable latent states with multi-step inverse models. Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, Lekan Molu, Rajan Chari, Akshay Krishnamurthy, John Langford. Transactions in Machine Learning Research. December 2022.
+
+
++ Interaction-Grounded Learning with Action-inclusive Feedback. Tengyang Xie, Akanksha Saran, Dylan J Foster, Lekan Molu, Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
+Neural Information Processing Systems (Neurips). May 2022.
+
+#### Should my robots behave like a living organism?
 
 
 Most robot manipulator mechanisms that are largely used in academe and industry today emerged from the anthropomorphic design of Harry Asada at CMU in the early '80s. Designed to act the way humans do, they were built with rigid mechanical links that enforce dexterity and reasonably accurate manipulability. To avoid large hysteresis during repeated operations, they are manufactured to be sturdy, with parts made of rigid metals. This introduces hazards in human-robot environments. In addition, being a collection of rigid metals, adjoined by mostly rotary joints, they magnify errors from shoulder all the way out to the end effector, making precision intractable in precision automation. I can anticipate the question on the top of your mind: if modern robot manipulators were designed to behave like human arms, why has the community given up on making robots with improved stiffness-to-weight ratios, improved bending, and twisting capabilities, and manipulability beyond the geometric primitives that the workspace of rigid robots provide? Practically every AI stack built for robots nowadays is premised on the assumption that models and policies will evolve on the anthropomorphic kinematically redundant robot arm configuration. 
@@ -118,7 +146,7 @@ This was a course I helped teach back in grad school to a mixture of Seniors and
 
 
 <a name="fdbks"></a>
-##### **In the words of my students:**
+#### **In the words of my students:**
 
 _"Thank you again Lekan. [Taking RBOT 250 with you] was quite a journey. But I feel more confident now with ROS because I figured all of the ROS system. I'll be looking forward to see you run the class again."_
 
