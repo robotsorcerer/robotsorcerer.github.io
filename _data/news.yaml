@@ -9,7 +9,7 @@ news_items:
         date: September 30, 2024
   - items: 'McGillLayeredControl'
     subnewsitems:
-      - content: "Recent <a href='downloads/Papers/McGill.pdf'>giving a talk</a>  at McGill's Mechanical Engineering and MILA</a>, on a layered 
+      - content: "Recent <a href='downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered 
                   architecture and time-scale separation control scheme in the quest towards the real-time control 
                   of heterogeneous soft robotics devices."
         highlight: true
