@@ -13,7 +13,7 @@ layout: page
 <br>
 <h4><a>Automation, Physics, Algorithmics, and AI</a></h4>
 <a href="#safety"><font size="4"> Between Bellman and Isaacs / </font></a>
-<a href="#explore"><font size="4"> Towards natural robots / </font></a>
+<a href="#explore"><font size="4"> Towards living and functional robots / </font></a>
 <a href="#cumbersome"><font size="4"> Explorative Learning  </font></a>
 <br>
 <h4><a>Miscellaneous</a></h4>
@@ -73,7 +73,7 @@ Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, Lekan Molu, Byro
 + Interaction-Grounded Learning with Action-inclusive Feedback. Tengyang Xie, Akanksha Saran, Dylan J Foster, Lekan Molu, Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
 Neural Information Processing Systems (Neurips). May 2022.
 
-#### Should my robots behave like a living organism?
+#### For the love of life: Should my robots behave like a living organism?
 
 
 Most robot manipulator mechanisms that are largely used in academe and industry today emerged from the anthropomorphic design of Harry Asada at CMU in the early '80s. Designed to act the way humans do, they were built with rigid mechanical links that enforce dexterity and reasonably accurate manipulability. To avoid large hysteresis during repeated operations, they are manufactured to be sturdy, with parts made of rigid metals. This introduces hazards in human-robot environments. In addition, being a collection of rigid metals, adjoined by mostly rotary joints, they magnify errors from shoulder all the way out to the end effector, making precision intractable in precision automation. I can anticipate the question on the top of your mind: if modern robot manipulators were designed to behave like human arms, why has the community given up on making robots with improved stiffness-to-weight ratios, improved bending, and twisting capabilities, and manipulability beyond the geometric primitives that the workspace of rigid robots provide? Practically every AI stack built for robots nowadays is premised on the assumption that models and policies will evolve on the anthropomorphic kinematically redundant robot arm configuration. 
