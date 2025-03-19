@@ -51,32 +51,25 @@ Our efforts in this space involve exploiting various angles-of-attack assault on
 +  The Python LevelSet Toolbox (LevelSetPy), Lekan Molu. IEEE 63rd Conference on Decision and Control (CDC), Milano, Italia. December 2024.
 +  Mixed H2/H-Infinity Policy Learning Synthesis. Lekan Molu. World Congress, International Federation of Automatic Control, Yokohama, Japan. July 2023.
 
-##### Learning to Explore in Unstructured Spaces
+<a name="explore"></a>
+#### Learning to Explore in Unstructured Spaces
 
 The emergence of powerful foundation models has improved the reasoning capability of many AI systems leading to their wide adoption in solving a variety of problems including question-answering and vision processing tasks. In embodied two-dimensional and three-dimensional (3D) vision-enabled planning and control systems (often within hazardous environments) however, wrong (model) predictions or mis-specified (vision-language) actions during tasks’ execution can lead to deleterious consequences (in money, time, health, or even lives). Disciplined modularity in physical and virtual embodied reasoning systems is one way to imbue stability, robustness, and safety into embodied decision-making systems. Such systems must be amenable to efficient optimization -- combining discrete high-level abstraction modules (for reliably predicting and delineating environmental structure) with continuous low-level decision-making modules (that inform stable and safe world exploration). This hierarchical planning scheme in successive combinations of discrete and continuous modules, informed by the power of large foundation models that encapsulate combinatorial optimization within large application-relevant datasets  will make them generalizable. This will inform robustness in agent-centric, environment-agnostic, decision-making, and guarantee safety during tasks’ executions via designed error-checking mechanisms.
 
 Our efforts in this space leverage modularization for automatic geometry delineation of component objects within any generic three-dimensional world. This is followed by an efficient obstacle-free space computational supervised learning module that first decomposes every detected structural component into convex structures. An iterative semi-definite convex programming algorithm, in an incrementally building of the collision-free configuration space of the entire environment, then follows. Making fast optimal decisions is important in many engineering systems and virtual three-dimensional systems. A bottleneck to such optimal decisions is determining what areas of space to explore. By having an automated algorithm that determines what regions of the environment is worth exploring, the problem of optimal decision-making is significantly reduced to a subset of the entire C-space. This scheme twill help engineers and planners reduce time to explore, gather data, or reason about an environment before making decision.
 
-
-Connection to existing planning schemes: 
+**Connection to existing planning schemes**
 
 + Going beyond kinodynamical reasoning that is the mainstay of classical planning systems towards an ensemble of large models for abstract world models including objects segmentation, c-free computation, and low-level shortest path planning, minimum spanning tree problems,  and low-level control for hierarchical decision-making;
-
 + Connecting the output of the ensemble of eclectic models above to scaled network-based (combinatorial/convex) optimization framework that allows formulating decision-making at the intercept of high-level abstract reasoning about the world and low-level controller actions;
-
 + Incorporating safety-based controllers at this lower level for real-time, and modular decision-making. Building accessible and robust software systems that encapsulate this modular pipeline for general-purpose agents – physical (including robotics), virtual, mixed-reality, and simulated-reality alike.
-
 
 **Relevant Papers:**
 
 + Mastering Collision-free computation via convex decomposition and neural networks. Lekan Molu. Nature. May 2025.
-
 + PCLAST: Discovering Plannable Continuous Latent States.
 Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, Lekan Molu, Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb. International Conference on Learning Representations (ICLR). September 2023.
-
 + Guaranteed discovery of controllable latent states with multi-step inverse models. Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, Lekan Molu, Rajan Chari, Akshay Krishnamurthy, John Langford. Transactions in Machine Learning Research. December 2022.
-
-
 + Interaction-Grounded Learning with Action-inclusive Feedback. Tengyang Xie, Akanksha Saran, Dylan J Foster, Lekan Molu, Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
 Neural Information Processing Systems (Neurips). May 2022.
 
