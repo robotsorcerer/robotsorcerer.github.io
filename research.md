@@ -12,17 +12,19 @@ layout: page
 </center>
 
 
-Hi there! I am a Senior Researcher at Microsoft Research, New York City. My work combines the elegance of machine learning and control theory with the practical impact of autonomous systems -- to the end of developing principled data-driven analysis and synthesis for real-world dynamical systems. 
+#### Research Abridgment
 
-During my PhD and postdoc, I worked on developing modeling methods for continuum, compliant, and configurable (C3) soft robots for medical assitive systems in cancer radition therapy. Leveraging the theory of nonlinear elastic deformations and modern machine machine learning methods, I provided mechanisms and methods suitable for the modeling 
-(fiber-reinforced) elastomeric actuators and adapted principles from optimal and adaptive control theory for their manipulation. Nowadays, I worry about scalable modeling and control algorithms for manipulating real-world (physical) and often complex systems. In noo order of particular importance, I am focused on a range of topics spanning safety-critical learning systems, interactive machine learning, and devising optimally robust learning schemes for the control of nonlinear dynamical systems.
+
+The rise in computational power together with the pervasiveness of big data has created new computing possbilities, technologicl innovations, and has spurned new business value chains including the evolving and emergent digital economy. Across these spates of development in modern society, the question of resilience and reliability, safety and robustness, as well as the assured predictability of behavior in the (autonomous) systems that we design and build has become timely and crucial. Emergent autonomous AI systems must make decisions with imperfect information, reason about the world through situated data (such as an automated airline ticket reservation system) and embodiments alike (such as a physical robot). In all these, we expect many automation systems to deliver without glitch as we automate away tasks that humans have traditionally done for over a century. My core research exists at the intersection of three intertwined fields (robotics, control theory, and machine learning). My research asks questions aimed at answering the challenges that modern technology presents to humanity viz., combining the elegance of strong mathematical rigor in imbuing resilience and robustness into the little margins that exist in emerging autonomous systems; reasoning future technologies into existence though clear conceptual analyses baked in strong scientific rigor, and leveraging bioinspiration to build emergent agent-centric systems as we continue to usher in a safe and desired haven for new technologies.
+
+
 
 <a name="serv"></a>
 #### **Community Service**
 
 I am an active member of the AI, control, and robotics research communities — regularly engaging in peer reviewing activities for [NeurIPS](https://nips.cc/), [International Federation of Automatic Control](https://www.ifac-control.org/) -- World Congress and Automatica alike, [Institute of Physics](https://www.iop.org/),  [ICML](https://icml.cc/), IEEE Access, [Conference on Decision and Control](https://2021.ieeecdc.org/), [IROS](https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems), [American Control Conference](https://acc2021.a2c2.org/),  ASME's [DSCC](https://event.asme.org/DSCC),  [ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), and [Neural Computing and Applications](https://www.springer.com/journal/521) among others.
 
-Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). In addition, I serve regularly as Associate Editor for IEEE Robotics' flagship conference -- International Conference on Robotics and Automation (ICRA).
+Since January 2020, I have been a judge for NatGeo's [AI for Species Discovery Grant Applications](https://www.nationalgeographic.org/funding-opportunities/grants/). I am an active member of the Control Systems Society, often serving as session chair at our leading conferences on the planet -- Control and Decision Conference and the American Control Conference. In addition, I serve regularly as Associate Editor for IEEE Robotics' flagship conference -- International Conference on Robotics and Automation (ICRA).
 
 
 <a name="teaching"></a>
