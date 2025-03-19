@@ -9,7 +9,7 @@ layout: page
 
 <a href="#expose"><font size="4"> Research Exposé / </font></a>
 <a href="#incubate"><font size="4"> R&T Incubations / </font></a>
-<a href="#safety"><font size="4"> Safety-critical Systems </font></a>
+<a href="#safety"><font size="4"> Between Bellman and Isaacs </font></a>
 <br>
 <a href="#explore"><font size="4"> Not Cumbersome Robots Again! / </font></a>
 <a href="#cumbersome"><font size="4"> Explorative Learning  </font></a>
@@ -33,7 +33,7 @@ The rise in computational power together with the pervasiveness of big data has 
 To accelerate the turn-around time from research ideation to formalized incubation and products, we strive to realize these visions via systematic and strategic missions (within and outside Microsoft) that connect diverse workstreams and teams through cross-geographic community-building and cross-discipline collaborations. Our goal is to smother conventions (when needed), mother new inventions, and accelerate the realization of lava-stage technologies. The threads under investigation are further described in what follows.
 
 <a name="safe"></a>
-##### What do Messrs Bellman and Isaacs have to do with Safety-Critical Systems?
+##### Between Messrs Bellman and Isaacs: Safety-Critical Systems?
 
 The digital, electronic, and cyberphysical interfaces in the modern systems that we develop are growing ever more complex. The need to guarantee performance as envisioned by the systems architect in the face of uncertainty has become ever more timely. To deploy modern systems in the wild, modern software must process generated data at multiple levels of abstraction within reasonable time, and guarantee consistency in system performance in spite of the dangers that may evolve if nominally envisioned system performance falter. To address this concern, we take the approach that considers software architectures for the numerical analysis of the safety assurance (ascertaining the freedom of a system from harm) in a _verification_ sense. By verification, we mean generating evidence that a system, or any its components satisfy all specified requirements and functional and allocated baselines. An ensuing approach considered validation systems, that is, providing certifiable evidence that system capabilities comply with an end-user's performance requirements and satisfy its intended operational environment's specifications. 
 
