@@ -5,6 +5,13 @@
  - **Machine learning (read: optimization) in control and planning**: Self-aware, situationally-aware systems (e.g. physical robots, augmented, and virtual reality agents) that self-organize by systemic constraints (read: not imposed objectives).
  - **Emergent embodied intelligence** via morphological computation in modern and futuristic robotic systems (including soft robots and deformables): finite reduced-order, fractional, and learned models, ode- and pde-based control, time-scale separation of heterogeneous dynamics, and layered control.<br>
 
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Exposé</h4>
+
+
+The rise in computational power together with the pervasiveness of big data has created new computing possibilities, technological innovations, and has spawned new business value chains including the evolving and emergent digital economy. Across these spates of development in modern society, the question of resilience and reliability, safety and robustness, as well as the assured predictability of behavior in the (autonomous) systems that we design and build has become timely and crucial. Emergent autonomous AI systems must make decisions with imperfect information, reason about the world through situated data (such as an automated airline ticket reservation system) and embodiments alike (such as a physical robot). In all these, we expect many automation systems to deliver without glitch as we automate away tasks that humans have traditionally done for over a century. My core research exists at the intersection of three intertwined fields, that is, robotics, control theory, and machine learning. My research, often motivated by within large scale engineering possibilities, seeks to deconstruct the challenges that modern technology presents: combining the elegance of strong mathematical rigor in imbuing resilience and robustness into the little margins that exist in emerging autonomous systems; reasoning future technologies into existence though clear conceptual analyses baked in strong scientific rigor, and leveraging bio-inspiration to build emergent agent-centric systems as we continue to usher in a safe and desired haven for new technologies.
+
+
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present.
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
