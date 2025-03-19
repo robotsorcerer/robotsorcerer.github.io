@@ -1,7 +1,37 @@
 publications:
+  - items: 'SampleReach!'
+    paperitems:
+      - title: 'A Sampling Scheme for  Reachable Sets Computation'
+        location: Rio de Janeirio, Brazil
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/ProxSampReach.pdf
+        venue: IEEE 64th Conference on Control and Decision
+        paper_status: Submitted
+        year: March 2025
+  - items: 'SoRoIdent!'
+    paperitems:
+      - title: 'On the number synthesis for  parameters identification in deformable robots'
+        location: Rio de Janeirio, Brazil
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/SoRoIdent.pdf
+        venue: IEEE 64th Conference on Control and Decision
+        paper_status: Submitted
+        year: March 2025
+  - items: 'PSDNets'
+    paperitems:
+      - title: 'Is the Bellman Equation Enough for Learning Control?'
+        location: 'https://arxiv.org/abs/2503.02171'
+        authors:
+          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+        venue_web: 'https://irl-conference.cc'
+        venue: Reinforcement Learning Theory Conference, 2025
+        paper_status: Submitted 
+        year: March 2025
   - items: 'LatentDiffusionACD!'
     paperitems:
-      - title: 'A Latent Diffusion Generative Model for Approximate Convex Decompositionin Complex Spaces'
+      - title: 'A Latent Diffusion Generative Model for Approximate Convex Decompositionin in Complex Spaces'
         authors:
           - <b>Lekan Molu.</b> 
         venue_web: /downloads/Papers/GNEP_PNAS.pdf
@@ -26,36 +56,6 @@ publications:
         venue: Proceedings of the National Academy of Sciences
         paper_status: Submitted
         year: April 2025
-  - items: 'SampleReach!'
-    paperitems:
-      - title: 'A Sampling Scheme for  Reachable Sets Computation'
-        location: Rio de Janeirio, Brazil
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/ProxSampReach.pdf
-        venue: IEEE 64th Conference on Control and Decision
-        paper_status: Submitted
-        year: March 2025
-  - items: 'SoRoIdent!'
-    paperitems:
-      - title: 'On the number synthesis for deformable robots parameters identification'
-        location: Rio de Janeirio, Brazil
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/SoRoIdent.pdf
-        venue: IEEE 64th Conference on Control and Decision
-        paper_status: Submitted
-        year: March 2025
-  - items: 'PSDNets'
-    paperitems:
-      - title: 'Is the Bellman Equation Enough for Learning Control?'
-        location: 'https://arxiv.org/abs/2503.02171'
-        authors:
-          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-        venue_web: 'https://irl-conference.cc'
-        venue: Reinforcement Learning Theory Conference, 2025
-        paper_status: Submitted 
-        year: March 2025
   - items: 'SoRoSPT'
     paperitems:
       - title: 'Fast Whole-Body Strain Regulation in Continuum Robots'
