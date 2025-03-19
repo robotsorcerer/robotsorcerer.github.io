@@ -7,13 +7,16 @@ layout: page
 <!-- <a href="#revs"><font size="4">Introduction / </font></a> -->
 ### Contents
 
+<h4><a>A Research North Star</a></h4>
 <a href="#expose"><font size="4"> Research Exposé / </font></a>
 <a href="#incubate"><font size="4"> R&T Incubations / </font></a>
-<a href="#safety"><font size="4"> Between Bellman and Isaacs </font></a>
 <br>
+<h4><a>Automation, Physics, Algorithmics, & AI</a></h4>
+<a href="#safety"><font size="4"> Between Bellman and Isaacs </font></a>
 <a href="#explore"><font size="4"> Not Cumbersome Robots Again! / </font></a>
 <a href="#cumbersome"><font size="4"> Explorative Learning  </font></a>
 <br>
+<h4><a>Miscellaneous</a></h4>
 <a href="#service"><font size="4"> Service / </font></a>
 <a href="#mentor"><font size="4">Mentoring  / </font></a>
 <a href="#teaching"><font size="4">Teaching  / </font></a>
