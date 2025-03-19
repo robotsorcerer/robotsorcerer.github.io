@@ -1,15 +1,9 @@
 
-<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet </h2>
-<a href="https://en.wikipedia.org/wiki/Ikigai">**Strategic Themes (Ikigai)**</a>: **Automatic Control** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**.
- - **Safety in decision-making**: HJ equations, and constrained numerical algorithms.
- - **Machine learning (read: optimization) in control and planning**: Self-aware, situationally-aware systems (e.g. physical robots, augmented, and virtual reality agents) that self-organize by systemic constraints (read: not imposed objectives).
- - **Emergent embodied intelligence** via morphological computation in modern and futuristic robotic systems (including soft robots and deformables): finite reduced-order, fractional, and learned models, ode- and pde-based control, time-scale separation of heterogeneous dynamics, and layered control.<br>
+<h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i><a href="https://en.wikipedia.org/wiki/Ikigai">Ikigai</a></h2>
+**Automatic Control** <span>&#8745;</span> **Robotics** <span>&#8745;</span> **Machine <del>L</del>Earning**.
+ 
 
-
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Exposé</h4>
-
-
-The rise in computational power together with the pervasiveness of big data has created new computing possibilities, technological innovations, and has spawned new business value chains including the evolving and emergent digital economy. Across these spates of development in modern society, the question of resilience and reliability, safety and robustness, as well as the assured predictability of behavior in the (autonomous) systems that we design and build has become timely and crucial. Emergent autonomous AI systems must make decisions with imperfect information, reason about the world through situated data, such as an automated airline ticket reservation system, and embodiment alike, such as a physical robot. In all these, we expect many automation systems to deliver without glitch as we automate away tasks that humans have traditionally done for over a century. My core research exists at the intersection of three intertwined fields, that is, robotics, control theory, and machine learning. Motivated by what is possible with hitherto unexplored and large-scale engineering feats, my research seeks to deconstruct the challenges that modern technology presents: combining the elegance of strong mathematical rigor in imbuing resilience and robustness into the little margins that exist in emerging autonomous AI systems; reasoning future technologies into existence though clear conceptual analyses baked in the tradition of strong scientific rigor, and leveraging bio-inspiration to build emergent agent-centric AI systems as we continue to usher in a safe and desired haven for new technologies that ca co-exist with human beings in everyday living.
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> <a href="/research">Research Exposé</a></h4>
 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
