@@ -31,7 +31,7 @@ The rise in computational power together with the pervasiveness of big data has 
 
 Connection to existing planning schemes: 
 
-+ Going beyond kinodynamical reasoning that is the mainstay of classical planning systems towards an ensemble of foundation models for abstract world models including objects detection and segmentation, c-free computation, and low-level shortest path planning, minimum spanning tree problems,  and low-level control for hierarchical decision-making;
++ Going beyond kinodynamical reasoning that is the mainstay of classical planning systems towards an ensemble of large models for abstract world models including objects segmentation, c-free computation, and low-level shortest path planning, minimum spanning tree problems,  and low-level control for hierarchical decision-making;
 
 + Connecting the output of the ensemble of eclectic models above to scaled network-based (combinatorial/convex) optimization framework that allows formulating decision-making at the intercept of high-level abstract reasoning about the world and low-level controller actions;
 
@@ -51,7 +51,7 @@ Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, Lekan Molu, Byro
 Neural Information Processing Systems (Neurips). May 2022.
 
 
-##### What do Mr. Bellman or Isaacs have to do with Safety-Critical Systems?
+##### What do Messrs Bellman and Isaacs have to do with Safety-Critical Systems?
 
 Okay, let's talk about current AI decision-making systems. 
 
