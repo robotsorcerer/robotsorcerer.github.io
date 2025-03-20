@@ -1,11 +1,21 @@
 publications:
   - items: 'SampleReach!'
     paperitems:
-      - title: 'A Sampling Scheme for  Reachable Sets Computation'
+      - title: 'A Learning-based Cole-Hopf Sampling Scheme for Resolving Reachable Sets on viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
         venue_web: /downloads/Papers/ProxSampReach.pdf
+        venue: IEEE 64th Conference on Control and Decision
+        paper_status: Submitted
+        year: March 2025
+  - items: 'SampleReachHopf-Lax!'
+    paperitems:
+      - title: 'A Learning-based Hopf-Lax Sampling Scheme for Resolving Reachable Sets on non-viscous Hamilton-Jacobi PDEs'
+        location: Rio de Janeirio, Brazil
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/ProxSampReachNonHJ.pdf
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
         year: March 2025
