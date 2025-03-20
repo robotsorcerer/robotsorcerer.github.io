@@ -42,11 +42,11 @@ The [cyberphysical interfaces](https://www.nsf.gov/funding/opportunities/cps-cyb
 Our efforts in this space involve sustaining various angles-of-attack assault (learning and physics-based) on the Hamilton-Jacobi-Bellman and Hamilton-Jacobi-Isaacs equation in recommending and building S23R into modern AI and cntrol systems. 
 
 **Relevant papers**
-+  [Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees](https://arxiv.org/pdf/2403.07308.pdf), Shaoru Chen, Lekan Molu, and Mahyar Fazlyab. American Control Conference (ACC), Toronto, ON. May 2024.
 +  [A Learning-based Cole-Hopf Sampling Scheme for Resolving Reachable Sets on viscous Hamilton-Jacobi PDEs](/downloads/Papers/ProxSampReach.pdf), Lekan Molu. IEEE 64th Conference on Control and Decision. (Submitted)  March 2025.
 +  [A Learning-based Hopf-Lax Scheme for Resolving Reachable Sets on non-viscous Hamilton-Jacobi PDEs](/downloads/Papers/ProxSampReachNonViscous.pdf), Lekan Molu. IEEE 64th Conference on Control and Decision. (Submitted) March 2025.
 +  [Is the Bellman Equation Enough for Learning Control?](https://arxiv.org/abs/2503.02171) Haoxiang You, Lekan Molu, and Ian Abraham, Reinforcement Learning Theory Conference, 2025. (Submitted) March 2025.
 +  A Generalized Nash Equilibrium Policy for Large Scale Multi-agent Systems, Lekan Molu. Proceedings of the National Academy of Sciences. May 2025.
++  [Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees](https://arxiv.org/pdf/2403.07308.pdf), Shaoru Chen, Lekan Molu, and Mahyar Fazlyab. American Control Conference (ACC), Toronto, ON. May 2024.
 +  [LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations](https://dl.acm.org/journal/toms), Lekan Molu. ACM Transactions on Mathematical Software. April 2024.
 +  [The Python LevelSet Toolbox (LevelSetPy)](downloads/Papers/levelsetpy_cdc.pdf), Lekan Molu. IEEE 63rd Conference on Decision and Control (CDC), Milano, Italia. December 2024.
 +  [Mixed H2/H-Infinity Policy Learning Synthesis](/downloads/Papers/ifac.pdf). Lekan Molu. World Congress, International Federation of Automatic Control, Yokohama, Japan. July 2023.
