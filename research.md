@@ -12,7 +12,7 @@ layout: page
 <a href="#incubate"><font size="4"> R&T Incubations  </font></a>
 <br>
 <h4><a>Automation, Physics, Algorithmics, and AI</a></h4>
-<a href="#safety"><font size="4"> Between Bellman and Isaacs / </font></a>
+<a href="#safety"><font size="4"> An S23R Agora / </font></a>
 <a href="#explore"><font size="4"> Towards living and functional robots / </font></a>
 <a href="#cumbersome"><font size="4"> Explorative Learning  </font></a>
 <br>

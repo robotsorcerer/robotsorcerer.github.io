@@ -1,4 +1,14 @@
 publications:
+  - items: 'LevPyPDE'
+    paperitems:
+      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
+        location: 'downloads/Papers/levelsetpy.pdf'
+        authors: 
+          - <b>Lekan Molu.</b>
+        venue_web: 'https://dl.acm.org/journal/toms'
+        venue: ACM Transactions on Mathematical Software 
+        paper_status: Accepted
+        year: March 2025
   - items: 'SampleReach!'
     paperitems:
       - title: 'Cole-Hopf nonconvex optimization for reachable sets on viscous Hamilton-Jacobi PDEs'
@@ -106,16 +116,6 @@ publications:
         venue: American Control Conference (ACC), Toronto, ON
         paper_status: Accepted 
         year: May 2024
-  - items: 'LevPyPDE'
-    paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
-        location: 'downloads/Papers/levelsetpy.pdf'
-        authors: 
-          - <b>Lekan Molu.</b>
-        venue_web: 'https://dl.acm.org/journal/toms'
-        venue: ACM Transactions on Mathematical Software 
-        paper_status: Accepted
-        year: March 2025
   - items: 'PCLAST'
     paperitems:
       - title: 'PCLAST: Discovering Plannable Continuous Latent States'
