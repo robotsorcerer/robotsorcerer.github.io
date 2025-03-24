@@ -93,7 +93,7 @@ publications:
         authors:
           - <b>Lekan Molu</b>. 
         venue_web: 'https://cdc2024.ieeecss.org/'
-        venue: Conference on Decision and Control (CDC)
+        venue: Conference on Decision and Control (CDC), Milano, Italia
         paper_status: Accepted 
         year: December 2024
   - items: 'SoRoPD'
@@ -103,9 +103,9 @@ publications:
         authors:
           - <b>Lekan Molu</b> and Shaoru Chen. 
         venue_web: 'https://cdc2024.ieeecss.org/'
-        venue: Conference on Decision and Control (CDC)
+        venue: Conference on Decision and Control (CDC), Milano, Italia
         paper_status: Accepted 
-        year: March 2024
+        year: December 2024
   - items: 'VecNN'
     paperitems:
       - title: 'Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees'
