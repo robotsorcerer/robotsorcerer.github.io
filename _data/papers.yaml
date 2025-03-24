@@ -1,7 +1,7 @@
 publications:
   - items: 'SampleReach!'
     paperitems:
-      - title: 'A Learning-based Cole-Hopf Sampling Scheme for Resolving Reachable Sets on viscous Hamilton-Jacobi PDEs'
+      - title: 'Cole-Hopf nonconvex optimization for reachable sets on viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -11,7 +11,7 @@ publications:
         year: March 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
-      - title: 'A Learning-based Hopf-Lax Sampling Scheme for Resolving Reachable Sets on non-viscous Hamilton-Jacobi PDEs'
+      - title: 'Hopf-Lax nonconvex optimization for reachable sets on non-viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -114,8 +114,8 @@ publications:
           - <b>Lekan Molu.</b>
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software 
-        paper_status: Submitted
-        year: April 2024
+        paper_status: Accepted
+        year: March 2025
   - items: 'PCLAST'
     paperitems:
       - title: 'PCLAST: Discovering Plannable Continuous Latent States'
