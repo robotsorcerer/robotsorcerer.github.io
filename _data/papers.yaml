@@ -11,7 +11,7 @@ publications:
         year: March 2025
   - items: 'SampleReach!'
     paperitems:
-      - title: 'Cole-Hopf nonconvex optimization for reachable sets on viscous Hamilton-Jacobi PDEs'
+      - title: 'Cole-Hopf Nonconvex Optimization for Reachable Sets on Viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -21,7 +21,7 @@ publications:
         year: March 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
-      - title: 'Hopf-Lax nonconvex optimization for reachable sets on non-viscous Hamilton-Jacobi PDEs'
+      - title: 'Hopf-Lax Nonconvex Optimization for Reachable Sets on  Non-viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -31,7 +31,7 @@ publications:
         year: March 2025
   - items: 'SoRoIdent!'
     paperitems:
-      - title: 'On the number synthesis for  parameters identification in deformable robots'
+      - title: 'On the Number Synthesis for  Parameters Identification in Deformable Robots'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -60,7 +60,7 @@ publications:
         year: April 2025
   - items: 'LatentDiffusionCFRee!'
     paperitems:
-      - title: 'Mastering Collision-free computation via convex decomposition and neural networks'
+      - title: 'Mastering Collision-free Navigation via Convex Decomposition and Neural Networks'
         authors:
           - <b>Lekan Molu.</b> 
         venue: Nature
