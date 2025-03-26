@@ -4,14 +4,14 @@ publications:
       - title: 'The Python Levelset Software Package'
         location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
-          - <b>Lekan Molu</b> (Reviews round 1, acceptable with minor revision).
+          - <b>Lekan Molu</b> (Reviews round 1 -- acceptable with minor revision).
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software 
         paper_status: Accepted
         year: (Research Paper), March 2025
   - items: 'SampleReach!'
     paperitems:
-      - title: 'Cole-Hopf Nonconvex Optimization for Reachable Sets on Viscous Hamilton-Jacobi PDEs'
+      - title: 'Cole-Hopf Optimally Learned Reachable Sets on viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -21,7 +21,7 @@ publications:
         year: March 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
-      - title: 'Hopf-Lax Nonconvex Optimization for Reachable Sets on  Non-viscous Hamilton-Jacobi PDEs'
+      - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
