@@ -6,9 +6,9 @@ publications:
         authors: 
           - <b>Lekan Molu</b>.
         venue_web: 'https://dl.acm.org/journal/toms'
-        venue: ACM Transactions on Mathematical Software 
+        venue: ACM Transactions on Mathematical Software | Research Paper
         paper_status: Accepted
-        year: (Research Paper), March 2025
+        year: March 2025
   - items: 'SampleReach!'
     paperitems:
       - title: 'Cole-Hopf Optimally Learned Reachable Sets on viscous Hamilton-Jacobi PDEs'
