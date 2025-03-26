@@ -4,7 +4,7 @@ publications:
       - title: 'The Python Levelset Software Package'
         location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
-          - <b>Lekan Molu</b> (Reviews round 1 -- acceptable with minor revision).
+          - <b>Lekan Molu</b>.
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software 
         paper_status: Accepted
