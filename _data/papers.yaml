@@ -1,14 +1,14 @@
 publications:
   - items: 'LevPyPDE'
     paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
+      - title: 'The Python Levelset Software Package'
         location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
-          - <b>Lekan Molu.</b>
+          - <b>Lekan Molu</b> (Reviews round 1, acceptable with minor revision).
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software 
         paper_status: Accepted
-        year: March 2025
+        year: (Research Paper), March 2025
   - items: 'SampleReach!'
     paperitems:
       - title: 'Cole-Hopf Nonconvex Optimization for Reachable Sets on Viscous Hamilton-Jacobi PDEs'
