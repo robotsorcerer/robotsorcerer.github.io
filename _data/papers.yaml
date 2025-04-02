@@ -11,10 +11,10 @@ publications:
         year: March 2025
   - items: 'SampleReach!'
     paperitems:
-      - title: 'Cole-Hopf Optimally Learned Reachable Sets on viscous Hamilton-Jacobi PDEs'
+      - title: 'Towards Scalable Reachability: Global Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
-          - <b>Lekan Molu.</b> 
+          - <b>Lekan Molu</b>, Haoxiang You, and Ian Abraham
         venue_web: /downloads/Papers/ProxSampReach.pdf
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
