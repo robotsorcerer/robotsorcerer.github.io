@@ -11,7 +11,7 @@ publications:
         year: March 2025
   - items: 'SampleReach!'
     paperitems:
-      - title: 'Cole-Hopf nonconvex optimization for reachable sets on viscous Hamilton-Jacobi PDEs'
+      - title: 'Towards Scalable Reachability: Global Global Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
