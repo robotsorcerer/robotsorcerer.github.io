@@ -1,27 +1,27 @@
 publications:
   - items: 'LevPyPDE'
     paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Package for Resolving Hyperbolic Hamilton-Jacobi Partial Differential Equations'
+      - title: 'The Python Levelset Software Package'
         location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
-          - <b>Lekan Molu.</b>
+          - <b>Lekan Molu</b>.
         venue_web: 'https://dl.acm.org/journal/toms'
-        venue: ACM Transactions on Mathematical Software 
+        venue: ACM Transactions on Mathematical Software | Research Paper
         paper_status: Accepted
         year: March 2025
   - items: 'SampleReach!'
     paperitems:
-      - title: 'Towards Scalable Reachability: Global Global Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
+      - title: 'Towards Scalable Reachability: Global Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
-          - <b>Lekan Molu.</b> 
+          - <b>Lekan Molu</b>, Haoxiang You, and Ian Abraham
         venue_web: /downloads/Papers/ProxSampReach.pdf
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
         year: March 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
-      - title: 'Hopf-Lax nonconvex optimization for reachable sets on non-viscous Hamilton-Jacobi PDEs'
+      - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -31,7 +31,7 @@ publications:
         year: March 2025
   - items: 'SoRoIdent!'
     paperitems:
-      - title: 'On the number synthesis for  parameters identification in deformable robots'
+      - title: 'On the Number Synthesis for  Parameters Identification in Deformable Robots'
         location: Rio de Janeirio, Brazil
         authors:
           - <b>Lekan Molu.</b> 
@@ -60,7 +60,7 @@ publications:
         year: April 2025
   - items: 'LatentDiffusionCFRee!'
     paperitems:
-      - title: 'Mastering Collision-free computation via convex decomposition and neural networks'
+      - title: 'Mastering Collision-free Navigation via Convex Decomposition and Neural Networks'
         authors:
           - <b>Lekan Molu.</b> 
         venue: Nature
@@ -93,7 +93,7 @@ publications:
         authors:
           - <b>Lekan Molu</b>. 
         venue_web: 'https://cdc2024.ieeecss.org/'
-        venue: Conference on Decision and Control (CDC)
+        venue: Conference on Decision and Control (CDC), Milano, Italia
         paper_status: Accepted 
         year: December 2024
   - items: 'SoRoPD'
@@ -103,9 +103,9 @@ publications:
         authors:
           - <b>Lekan Molu</b> and Shaoru Chen. 
         venue_web: 'https://cdc2024.ieeecss.org/'
-        venue: Conference on Decision and Control (CDC)
+        venue: Conference on Decision and Control (CDC), Milano, Italia
         paper_status: Accepted 
-        year: March 2024
+        year: December 2024
   - items: 'VecNN'
     paperitems:
       - title: 'Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees'

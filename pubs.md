@@ -61,7 +61,7 @@ permalink: pubs
 <hr>
 <a name="pubs"></a>
 <table  class="table table-hover" >
-<center><h3><b>Published Works</b></h3></center>
+<center><h3><b>Accepted or Published Works</b></h3></center>
 
 {% for item in site.data.papers.publications %}
 	{% for paper in item.paperitems %}
