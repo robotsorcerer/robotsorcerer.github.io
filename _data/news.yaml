@@ -1,7 +1,7 @@
 news_items:  
   - items: 'LevPy!'
     subnewsitems:
-      - content: "Newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions of Mathematical Software (TOMS) journal article</a> 
+      - content: "Newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article</a> 
                   that describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> levelsetpy software package.</a>"
         highlight: true
         date: April 7, 2025
