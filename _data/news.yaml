@@ -1,18 +1,16 @@
 news_items:  
   - items: 'LevPy!'
     subnewsitems:
-      - content: "Newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article</a> 
-                  that describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> levelsetpy software package.</a>"
+      - content: "Check out this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article</a> 
+                  that describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
         highlight: true
         date: April 7, 2025
   - items: 'SoRoSPT'
     subnewsitems:
-      - content: "Could we be at the precipice of continum soft robots that mimic the behavior of functional living 
-                 organisms being versatile shoo-in for everyday robotic automation tasks? My <a href='downloads/Papers/SoRoSPT.pdf'>new paper</a> 
-                 argues for and demonstrates the efficacy of a decentralized continuum dynamical system whose whole-body strain dynamics is resolved in an 
-                 adaptive and hierarchical nonlinear control fashion. [Update Jan 2025]: Accepted at ACC in Denver." 
+      - content: "Towards fast strain regulation in continuum robots, in this  new <a href='downloads/Papers/SoRoSPT.pdf'>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum 
+                 dynamical system whose whole-body strain dynamics is resolved in an adaptive and hierarchical nonlinear control fashion." 
         highlight: true
-        date: September 30, 2024
+        date: March 30, 2025
   - items: 'McGillLayeredControl'
     subnewsitems:
       - content: "Recent <a href='downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered 
@@ -37,13 +35,13 @@ news_items:
   - items: 'Anurag_Amazon'
     subnewsitems:
       - content: 'Please join the crescendo of ecstatic congratulations to <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into an applied scientist role at Amazon NYC. Bravissimo!'
-        highlight: true
+        highlight: false
         date: Aug. 8, 2024
   - items: 'CDC_Co_Chair'
     subnewsitems:
       - content: 'Together with <a href="https://scholar.google.com/citations?user=F_vrpf0AAAAJ&hl=en"> Volker Pohl</a>, I am co-chairing the computational methods in control theory at the next <a href="https://cdc2024.ieeecss.org/">Conference on Decision and Control</a> in Milan (December 2024). Evviva!'
         highlight: true
-        date: Aug. 5, 2024
+        date: Nov. 5, 2024
   - items: 'Shaoru_LinkedIn'
     subnewsitems:
       - content: 'Raising a cheer of congratulations to <a href="https://shaoruchen.github.io/">Dr. Shaoru Chen</a>, a former postdoc in our lab and collaborator, who recently <s>sold his soul to LinkedIn</s> joined LinkedIn!'
