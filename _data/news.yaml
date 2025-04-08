@@ -3,7 +3,7 @@ news_items:
     subnewsitems:
       - content: "A <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged summary of some of my recent research efforts.</a> 
                   Presented at the <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
-                  <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a> on April 9 and 10, 2025" 
+                  <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a> on April 9 and 10, 2025, respectively." 
         highlight: true
         date: April 09, 2025
   - items: 'LevPy!'
@@ -36,7 +36,7 @@ news_items:
         date: August 24, 2024
   - items: 'CDC_Accepts'
     subnewsitems:
-      - content: 'Two papers accepted to <a href="https://cdc2024.ieeecss.org/">CDC 2024</a>, Milan!'
+      - content: 'Two papers accepted to the IEEE <a href="https://cdc2024.ieeecss.org/"> Control and Decision Conference, CDC 2024</a>, Milano, Italia! Huzzah!'
         highlight: true
         date: Aug. 27, 2024
   - items: 'Anurag_Amazon'
