@@ -1,11 +1,11 @@
 news_items:  
-  - items: 'CornellTech'
-    subnewsitems:
-      - content: "A <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged summary of some of my recent research efforts.</a> 
-                  Presented at the <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
-                  <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a> on April 9 and 10, 2025, respectively." 
-        highlight: true
-        date: April 09, 2025
+  # - items: 'CornellTech'
+  #   subnewsitems:
+  #     - content: "A <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged summary of some of my recent research efforts.</a> 
+  #                 Presented at the <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
+  #                 <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a> on April 9 and 10, 2025, respectively." 
+  #       highlight: true
+  #       date: April 09, 2025
   - items: 'LevPy!'
     subnewsitems:
       - content: "Check out this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article</a> 
