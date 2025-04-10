@@ -2,9 +2,9 @@ news_items:
   - items: 'CornellTech'
     subnewsitems:
       - content: "A <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on my recent research efforts</a> 
-                   surrounding robustness in decision-making and soft robotics modeling and control. 
-                   Presentation venues: <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
-                  <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a>, respectively." 
+                   surrounding robustness in decision-making and soft robotics modeling and control." 
+                  #  Presentation venues: <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
+                  # <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a>, respectively.
         highlight: true
         date: April 09, 2025
   - items: 'LevPy!'
