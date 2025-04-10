@@ -38,10 +38,11 @@ Previous interns, postdocs, and students include:
 <!-- + [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). MSR Postdoc, '24/25   &rarr; Princeton and UCLA &rarr; Assitant Professor, University de Montreal. -->
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT.
 + [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24; co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/).
-+ [Anurag Koul](https://koulanurag.dev/), Oregon State University, MSR Postdoc, '23-'24.  Present: Senior Research Scientist, Amazon NYC.
-+ [Shaoru Chen](https://shaoruchen.github.io). Penn ESE, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
 + [Thomas Zhang](https://thomaszh3.github.io/), MSR Intern, '23. UPenn PhD Student advised by [Nik Matni](https://nikolaimatni.github.io/).
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech MechE PhD Student (Advised by Dr. [Aaron Ames](http://ames.caltech.edu/)).
++ [Haoxiang You](https://ialab.yale.edu/members/haoxiang-you.html). Yale MAE PhD Student. Advised by Prof. [Ian Abraham](https://ialab.yale.edu/).
++ [Anurag Koul](https://koulanurag.dev/), Oregon State University, MSR Postdoc, '23-'24.  Present: Senior Research Scientist, Amazon NYC.
++ [Shaoru Chen](https://shaoruchen.github.io). Penn ESE, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
 + Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
 + [Harley Wiltzer](https://harwiltz.github.io/), MSR Intern, 2023. McGill PhD Student advised by [David Meger](https://www.cim.mcgill.ca/~dmeger/) and [Marc Bellemare](http://www.marcgbellemare.info/).
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (VP of Smart Trailer Engineering, [Drov. Tech, MN](http://drovtech.com)).
