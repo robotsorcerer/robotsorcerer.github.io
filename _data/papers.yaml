@@ -1,7 +1,7 @@
 publications:
   - items: 'LevPyPDE'
     paperitems:
-      - title: 'The Python Levelset Software Package'
+      - title: "LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations' Solubility"
         location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
           - <b>Lekan Molu</b>.
