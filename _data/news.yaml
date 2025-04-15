@@ -1,16 +1,16 @@
 news_items:  
   - items: 'CornellTech'
     subnewsitems:
-      - content: "A <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on my recent research efforts</a> 
-                   surrounding robustness in decision-making and soft robotics modeling and control." 
+      - content: "Check out this sizzling hot <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
+                   surrounding safety and robustness in decision-making by autonomous systems and soft robots modeling and control." 
                   #  Presentation venues: <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
                   # <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a>, respectively.
         highlight: true
         date: April 09, 2025
   - items: 'LevPy!'
     subnewsitems:
-      - content: "Check out this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article</a> 
-                  that describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
+      - content: "Entertain your mind reading this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article.</a> 
+                It describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
         highlight: true
         date: April 7, 2025
   - items: 'SoRoSPT'
