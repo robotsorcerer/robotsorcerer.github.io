@@ -1,7 +1,7 @@
 publications:
   - items: 'LevPyPDE'
     paperitems:
-      - title: 'The Python Levelset Software Package'
+      - title: 'LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations'
         location: 'downloads/Papers/levelsetpy.pdf'
         authors: 
           - <b>Lekan Molu</b>.
@@ -49,9 +49,9 @@ publications:
         venue: Reinforcement Learning Theory Conference, 2025
         paper_status: Submitted 
         year: March 2025
-  - items: 'LatentDiffusionACD!'
+  - items: 'CFree!'
     paperitems:
-      - title: 'A Latent Diffusion Generative Model for Approximate Convex Decompositionin in Complex Spaces'
+      - title: 'A Universal Model for Collision-free Planning: Fast Illusory  Computation and Efficient Memory Storage via Incremental Mapping'
         authors:
           - <b>Lekan Molu.</b> 
         venue_web: /downloads/Papers/GNEP_PNAS.pdf
