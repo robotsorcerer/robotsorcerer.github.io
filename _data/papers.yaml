@@ -19,6 +19,15 @@ publications:
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
         year: March 2025
+  - items: 'CFree!'
+    paperitems:
+      - title: 'A Universal Model for Collision-free Planning: Fast Illusory  Computation and Efficient Memory Storage via Incremental Mapping'
+        authors:
+          - <b>Lekan Molu.</b> 
+        venue_web: /downloads/Papers/GNEP_PNAS.pdf
+        venue: ACM Transactions on Graphics
+        paper_status: Submitted
+        year: April 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
       - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
@@ -49,23 +58,15 @@ publications:
         venue: Reinforcement Learning Theory Conference, 2025
         paper_status: Submitted 
         year: March 2025
-  - items: 'CFree!'
-    paperitems:
-      - title: 'A Universal Model for Collision-free Planning: Fast Illusory  Computation and Efficient Memory Storage via Incremental Mapping'
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/GNEP_PNAS.pdf
-        venue: ACM Transactions on Graphics
-        paper_status: Submitted
-        year: April 2025
-  - items: 'LatentDiffusionCFRee!'
+  - items: 'MasterCollide'
     paperitems:
       - title: 'Mastering Collision-free Planning via Convex Decomposition and Neural Networks'
         authors:
           - <b>Lekan Molu.</b> 
-        venue: Nature
+        location: https://www.science.org/journal/scirobotics
+        venue: Science Robotics
         paper_status: Submitted
-        year: May 2025
+        year: April 2025
   - items: 'GNEP!'
     paperitems:
       - title: 'A Generalized Nash Equilibrium Policy for Large Scale Multi-agent Systems'
