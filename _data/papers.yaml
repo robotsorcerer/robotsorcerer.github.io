@@ -9,6 +9,15 @@ publications:
         venue: ACM Transactions on Mathematical Software | Research Paper
         paper_status: Accepted
         year: March 2025
+  - items: 'CFree!'
+    paperitems:
+      - title: 'A Universal Model for Collision-free Planning: Fast Illusory  Computation and Efficient Memory Storage via Incremental Mapping'
+        authors:
+          - <b>Lekan Molu</b>, Abulikemu Abuduweili, Dean Fortier, Jun Takamatsu, Elise van der Pol, Naoki Wake, and Katsu Ikeuchi
+        location: /downloads/Papers/GNEP_PNAS.pdf
+        venue: Science Robotics
+        paper_status: Submitted
+        year: April 2025
   - items: 'SampleReach!'
     paperitems:
       - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
@@ -19,15 +28,6 @@ publications:
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
         year: March 2025
-  - items: 'CFree!'
-    paperitems:
-      - title: 'A Universal Model for Collision-free Planning: Fast Illusory  Computation and Efficient Memory Storage via Incremental Mapping'
-        authors:
-          - <b>Lekan Molu</b>, Abulikemu Abuduweili, Jun Takamatsu, Elise van der Pol, Naoki Wake, Katsu Ikeuchi
-        location: /downloads/Papers/GNEP_PNAS.pdf
-        venue: ACM Transactions on Graphics
-        paper_status: Submitted
-        year: May 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
       - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
@@ -37,7 +37,7 @@ publications:
         venue_web: Rio de Janeirio, Brazil
         venue: IEEE 64th Conference on Control and Decision
         paper_status: Submitted
-        year: March 2025
+        year: April 2025
   # - items: 'SoRoIdent!'
   #   paperitems:
   #     - title: 'On the Number Synthesis for  Parameters Identification in Deformable Robots'
