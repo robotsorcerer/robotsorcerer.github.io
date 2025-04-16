@@ -11,7 +11,7 @@ publications:
         year: March 2025
   - items: 'CFree!'
     paperitems:
-      - title: 'Universal Model for Collision-free Planning: Efficient Illusory  Representation and Memory Storage via Incremental Mapping.'
+      - title: 'A Universal Model for Collision-free Planning: Efficient Illusory  Representation and Memory Storage via Incremental Mapping.'
         authors:
           - <b>Lekan Molu</b>, Abulikemu Abuduweili, Dean Fortier, Jun Takamatsu, Elise van der Pol, Naoki Wake, and Katsu Ikeuchi
         location: /downloads/Papers/GNEP_PNAS.pdf
