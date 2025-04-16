@@ -23,11 +23,11 @@ publications:
     paperitems:
       - title: 'A Universal Model for Collision-free Planning: Fast Illusory  Computation and Efficient Memory Storage via Incremental Mapping'
         authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/GNEP_PNAS.pdf
+          - <b>Lekan Molu</b>, Abulikemu Abuduweili, Jun Takamatsu, Elise van der Pol, Naoki Wake, Katsu Ikeuchi
+        location: /downloads/Papers/GNEP_PNAS.pdf
         venue: ACM Transactions on Graphics
         paper_status: Submitted
-        year: April 2025
+        year: May 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
       - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
