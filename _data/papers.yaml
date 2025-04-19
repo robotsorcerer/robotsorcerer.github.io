@@ -23,11 +23,11 @@ publications:
       - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
         location: /downloads/Papers/ProxSampReach.pdf
         authors:
-          - <b>Lekan Molu</b>, Haoxiang You, and Ian Abraham
+          - <b>Lekan Molu</b>, <a href="https://venkatramanrenganathan.github.io/" target=blank>Venkatraman Reganathan</a>, Haoxiang You, <a href="https://www.cranfield.ac.uk/people/dr-namhoon-cho-30019838" target=blank>Namhoon Cho</a>, and Ian Abraham
         venue_web: Rio de Janeirio, Brazil
-        venue: IEEE 64th Conference on Control and Decision
+        venue: Neural Information Processing Systems (Neurips) Conference 
         paper_status: Submitted
-        year: March 2025
+        year: April 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
       - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
@@ -99,7 +99,7 @@ publications:
         year: December 2024
   - items: 'SoRoPD'
     paperitems:
-      - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
+      - title: 'Structural Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
         location: 'downloads/Papers/SoRoPD.pdf'
         authors:
           - <b>Lekan Molu</b> and Shaoru Chen. 
