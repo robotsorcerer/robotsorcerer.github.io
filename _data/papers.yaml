@@ -11,7 +11,7 @@ publications:
         year: March 2025
   - items: 'CFree!'
     paperitems:
-      - title: 'A Fast Universal Collision-free Agentic Model: Efficient Illusory  Representation and Memory Storage via Incremental Mapping..'
+      - title: 'A Fast Universal Collision-free Agentic Model: Compact Illusory  Representation and Memory-Efficient Incremental Mapping'
         authors:
           - <b>Lekan Molu</b>, Abulikemu Abuduweili, Dean Fortier, Jun Takamatsu, Elise van der Pol, Naoki Wake, and Katsu Ikeuchi
         location: /downloads/Papers/CFree.pdf
