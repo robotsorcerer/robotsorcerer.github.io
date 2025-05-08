@@ -51,7 +51,7 @@ publications:
   - items: 'PSDNets'
     paperitems:
       - title: 'Is the Bellman Equation Enough for Learning Control?'
-        location: 'https://arxiv.org/abs/2503.02171'
+        location: 'downloads/Papers/HaoxiangRLC.pdf'
         authors:
           - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
         venue_web: 'https://irl-conference.cc'
