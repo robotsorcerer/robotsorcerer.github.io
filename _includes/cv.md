@@ -1,7 +1,7 @@
 
 <!-- <h2><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i><a href="https://en.wikipedia.org/wiki/Ikigai">Ikigai</a></h2> -->
 
-Welcome to my web presence. I am a Senior Researcher in Microsoft Research Core -- New York City. My research efforts span the complete ideation gamut of conceptualization, rigorous theoretical analysis, to abundant empirical and embodied proof-of-concept. I am a part of the robotics steering committee out of the [embodied AI research efforts](https://www.microsoft.com/en-us/research/collaboration/embodied-ai/people/) between various cross-geographic teams throughout the company. Most of what I do as a researcher and the questions that keep me up at night can be found here on my [research page](/research).
+Welcome to my web presence. I am a Senior Researcher in Microsoft Research Core -- New York City. My research efforts span the complete ideation gamut of conceptualization, rigorous theoretical analysis, to abundant empirical and embodied proof-of-concept. I am a part of the robotics steering committee out of the [embodied AI research efforts](https://www.microsoft.com/en-us/research/collaboration/embodied-ai/people/) within the various cross-geographic teams throughout the company. Most of what I do as a researcher and the questions that keep me up at night can be found here on my [research page](/research).
 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
