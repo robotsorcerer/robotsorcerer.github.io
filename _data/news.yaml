@@ -1,4 +1,9 @@
 news_items:  
+  - items: 'ACCNonlinear'
+    subnewsitems:
+      - content: "I am chairing the regular session of nonlinear systems' stability at the next American Control Conference (ACC) in Denver, Co. Looking forward to hearing and learning from the leading minds in our community."
+        highlight: true
+        date: May 21, 2025
   - items: 'CornellTech'
     subnewsitems:
       - content: "Check out this sizzling hot <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
