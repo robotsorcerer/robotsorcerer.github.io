@@ -35,7 +35,7 @@ Welcome to my web presence. I am a Senior Researcher in Microsoft Research Core 
 
 Previous interns, postdocs, and students include:
 
-+ [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). MSR Postdoc, '24/25   &rarr; Princeton Neuroscience PhD; UCLA Postdoc &rarr; Assitant Professor, University de Montreal.
++ [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). MSR Postdoc, '24/25   &rarr; Princeton Neuroscience PhD; UCLA Postdoc &rarr; Assistant Professor, University de Montreal.
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT.
 + [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24; co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/).
 + Etiosa Omeike. Princeton ECE Junior &rarr;  MSR Undergrad. Intern, 2023. Current: Yale CS PhD student (advised by M. Vazquez).
