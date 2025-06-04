@@ -37,7 +37,7 @@ Previous interns, postdocs, and students include:
 
 + [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). MSR Postdoc, '24/25   &rarr; Princeton Neuroscience PhD; UCLA Postdoc &rarr; Assitant Professor, University de Montreal.
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT.
-+ [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24; co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/).
++ [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24; co-advised along with [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/).
 + [Thomas Zhang](https://thomaszh3.github.io/), MSR Intern, '23. UPenn PhD Student advised by [Nik Matni](https://nikolaimatni.github.io/).
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech MechE PhD Student (Advised by Dr. [Aaron Ames](http://ames.caltech.edu/)).
 + [Haoxiang You](https://ialab.yale.edu/members/haoxiang-you.html). Yale MAE PhD Student. Advised by Prof. [Ian Abraham](https://ialab.yale.edu/).
