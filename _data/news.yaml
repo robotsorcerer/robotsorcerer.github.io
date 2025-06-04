@@ -1,4 +1,11 @@
 news_items:  
+  - items: 'ACCNonlinear'
+    subnewsitems:
+      - content: "I am attending the next American Control Conference (ACC) in Denver, Co. Among other things, I will be (1) chairing the regular session of nonlinear systems' stability; 
+                    (2) a panelist on the ASME industry-oriented student special session for students hoping to accelerate their career into industry;  and 
+                    (3) presenting <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>this recent layered nonlinear control paper</a>. Looking forward to hearing and learning from the leading minds in our community."
+        highlight: true
+        date: May 21, 2025
   - items: 'CornellTech'
     subnewsitems:
       - content: "Check out this sizzling hot <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
