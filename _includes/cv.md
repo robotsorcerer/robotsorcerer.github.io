@@ -67,6 +67,7 @@ Previous interns, postdocs, and students include:
 - Neural Networks and Adaptive Control, Preferred Networks Tech. Talk, Chiyoda-ku, Tokyo. Japan, 2018. 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Editorial/Community Services</h4>
+- **Co-Organizer**, Microsoft Cortex Research Series, 2024 - 2025.
 - **Mentee Lead**, (Microsoft) Technology and Research (T&R) Mentoring Ring FY25, 2024 - 2025.
 - **Co-Coordinator**, Reinforcement Learning Discussion Group Series, Microsoft Research, 2023 - 2024.
 - **Member**, IEEE Robotics and Automation Technical Committee on (i) Soft Robotics; (ii) Cognitive Robotics; (iii) Algorithms for Planning and Control; (iv) Automation in Health Care Management; (v) Aerial Robotics and Unmanned Aerial Vehicles. 2023 - Present.
