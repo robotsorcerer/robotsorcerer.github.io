@@ -100,10 +100,10 @@ Previous interns, postdocs, and students include:
 <br>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Recent Readings </h4>
  Below are a list of books in my current reading list.
- <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> 2024 Readings</h5>
- -  The Federalist -- Alexander Hamilton, John Jay, and James Madison.
- -  The Startup Way -- Eric Ries.
- -  No Ordinary Time, Franklin and Eleanor Roosevelt: The Home Front in World War II -- Doris Kearns Goodwin.
+ <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> 2025 Readings</h5>
+ -  Now it can be told: The story of the Manhattan project -- (General) Leslie R. Groves.
+ -  The Idea Factory: Bell Labs and the Great Age of American Innovation -- Jon Gertner (S/o to <a href="https://www.microsoft.com/en-us/research/people/akshaykr/">Akshay</a> for the rec!).
+ -  The Demon of Unrest -- Erik Larson (S/o to <a href="https://www.linkedin.com/in/julia-kirby-73b8b44/">Julia Kirby</a> for the rec!). 
  -  Successful Negotiating: Letting the Other Person Have <i>Your</i> way -- Ginny Pearson Barnes.
  -  On Natural Selection -- Charles Darwin.
  -  Isaac Asimov's Caliban -- Rober MacBride Allen.
@@ -112,10 +112,13 @@ Previous interns, postdocs, and students include:
  -  True Compass -- Edward Kennedy. 
  <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Oldies and Goodies</h5>
  -  Knowing Mandela -- John Carlin.
+ -  The Startup Way -- Eric Ries.
  -  Democracy in America -- Alexis De Toqueville.
- -  Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.
  -  The Sun Also Rises -- Ernest Hemingway.
  -  John Adams -- David McCullough.
+ -  ~~The Federalist -- Alexander Hamilton, John Jay, and James Madison.~~
+ -  ~~Team of Rivals: The Political Genius of Abraham Lincoln --  Doris Kearns Goodwin.~~
+ -  ~~No Ordinary Time, Franklin and Eleanor Roosevelt: The Home Front in World War II -- Doris Kearns Goodwin.~~
  -  ~~The Prison Letters of Nelson Mandela -- Edited by Sham Venter.~~
  -  ~~Mandela, The Authorized Biography  -- Anthony Sampson.~~
  -  ~~1776 -- David McCullough.~~
