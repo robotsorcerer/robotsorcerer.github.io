@@ -18,6 +18,16 @@ publications:
         venue: Science Robotics
         paper_status: Submitted
         year: April 2025
+  - items: 'MultiPPOSafe!'
+    paperitems:
+      - title: 'Multi-agent Policy Optimization: Optimality, Robustness, Safety, and Generalized Nash Equilibrium.'
+        location: /downloads/Papers/MPPO.pdf
+        authors:
+          - Others and <b>Lekan Molu</b>
+        venue_web: Somewheresville
+        venue: Somewheresville, Andromeda Galaxy 
+        paper_status: Submitted
+        year: June 2025
   - items: 'SampleReach!'
     paperitems:
       - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
