@@ -103,7 +103,7 @@ Previous interns, postdocs, and students include:
  Below are the books in my current reading list.
  <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> 2025 Readings</h5>
  -  Now it can be told: The story of the Manhattan project -- (General) Leslie M. Groves.
- -  The Idea Factory: Bell Labs and the Great Age of American Innovation -- Jon Gertner (H/T: <a href="https://www.microsoft.com/en-us/research/people/akshaykr/">Akshay</a> for the rec!).
+ -  The Idea Factory: Bell Labs and the Great Age of American Innovation -- Jon Gertner (H/T: <a href="https://www.microsoft.com/en-us/research/people/akshaykr/">Akshay</a>!).
  -  The Demon of Unrest -- Erik Larson (H/T: <a href="https://www.linkedin.com/in/julia-kirby-73b8b44/">Julia Kirby</a> for the rec!). 
  -  Successful Negotiating: Letting the Other Person Have <i>Your</i> way -- Ginny Pearson Barnes.
  -  On Natural Selection -- Charles Darwin.
