@@ -10,8 +10,6 @@ news_items:
     subnewsitems:
       - content: "Check out this sizzling hot <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
                    surrounding safety and robustness in decision-making by autonomous systems and soft robots modeling and control." 
-                  #  Presentation venues: <a href='https://liquetaylor.wixstudio.com/airlab' target=blank>AirLab</a> of <a href='https://tech.cornell.edu/' target=blank>Cornell Tech</a> and <a href='https://mae.princeton.edu/'>Princeton's MAE</a> and 
-                  # <a href='https://csml.princeton.edu/' target=blank>Center for Statistics and Machine Learning</a>, respectively.
         highlight: true
         date: April 09, 2025
   - items: 'LevPy!'
@@ -40,12 +38,12 @@ news_items:
                   fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models, 
                   and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots 
                   and devices. Please see the <a href="/eisoro_icra25">workshop webpage</a> for details.'
-        highlight: false
+        highlight: true
         date: August 24, 2024
   - items: 'CDC_Accepts'
     subnewsitems:
       - content: 'Two papers accepted to the IEEE <a href="https://cdc2024.ieeecss.org/"> Control and Decision Conference, CDC 2024</a>, Milano, Italia! Huzzah!'
-        highlight: true
+        highlight: false
         date: Aug. 27, 2024
   - items: 'Anurag_Amazon'
     subnewsitems:
@@ -65,7 +63,7 @@ news_items:
   - items: 'RedmondProjGreen'
     subnewsitems:
       - content: 'Organizing an <a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
-        highlight: false
+        highlight: true
         date: Feb. 24, 2024
   - items: 'YaleMixedTalk'
     subnewsitems:
