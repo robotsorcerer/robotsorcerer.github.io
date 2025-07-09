@@ -38,9 +38,9 @@ Previous interns, postdocs, and students include:
 + [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). MSR Postdoc, '24/25   &rarr; Princeton Neuroscience PhD; UCLA Postdoc &rarr; Assistant Professor, University de Montreal.
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT &rarr; Assistant Professor, Univ. of New Mexico.
 + [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24 (co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/)) &rarr; Research Scientist, Reliant Robotics.
-+ [Anurag Koul](https://koulanurag.dev/), Oregon State University, MSR Postdoc, '23-'24.  Present: Applied Scientist II, Amazon NYC.
++ [Anurag Koul](https://koulanurag.dev/), Oregon State University, MSR Postdoc, '23-'24 &rarr; Applied Scientist II, Amazon NYC.
 + [Shaoru Chen](https://shaoruchen.github.io). Penn ESE, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
-+ Etiosa Omeike. Princeton ECE BS &rarr;  MSR Undergrad Intern, 2023. Current: Yale CS PhD student (advised by [Prof. Marynel Vazquez)](https://www.marynel.net/).
++ Etiosa Omeike. Princeton ECE BS &rarr;  MSR Undergrad Intern, 2023 &rarr; Yale CS PhD student (advised by [Prof. Marynel Vazquez)](https://www.marynel.net/).
 + [Thomas Zhang](https://thomaszh3.github.io/), MSR Intern, '23. UPenn PhD Student advised by [Prof. Nik Matni](https://nikolaimatni.github.io/).
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech MechE PhD Student (Advised by Prof. [Aaron Ames](http://ames.caltech.edu/)).
 + [Haoxiang You](https://ialab.yale.edu/members/haoxiang-you.html). Yale MAE PhD Student. Advised by Prof. [Ian Abraham](https://ialab.yale.edu/).
@@ -48,7 +48,7 @@ Previous interns, postdocs, and students include:
 + [Harley Wiltzer](https://harwiltz.github.io/), MSR Intern, 2023. McGill PhD Student advised by [David Meger](https://www.cim.mcgill.ca/~dmeger/) and [Marc Bellemare](http://www.marcgbellemare.info/).
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (VP of Smart Trailer Engineering, [Drov. Tech, MN](http://drovtech.com)).
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
-+  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson &rarr SW Tech Lead (Embedded Automotive Platforms), Wayve.
++  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson &rarr; SW Tech Lead (Embedded Automotive Platforms), Wayve.
 <!-- +  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), Undergrad Assistant. (CS PhD student, Tufts University). -->
  
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
