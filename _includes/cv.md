@@ -38,8 +38,8 @@ Previous interns, postdocs, and students include:
 + [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). MSR Postdoc, '24/25   &rarr; Princeton Neuroscience PhD; UCLA Postdoc &rarr; Assistant Professor, University de Montreal.
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT &rarr; Assistant Professor, Univ. of New Mexico.
 + [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24 (co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/)) &rarr; Research Scientist, Reliant Robotics.
-+ [Anurag Koul](https://koulanurag.dev/), Oregon State University, MSR Postdoc, '23-'24 &rarr; Applied Scientist II, Amazon NYC.
-+ [Shaoru Chen](https://shaoruchen.github.io). Penn ESE, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
++ [Anurag Koul](https://koulanurag.dev/), Oregon State PhD, MSR Postdoc, '23-'24 &rarr; Applied Scientist II, Amazon NYC.
++ [Shaoru Chen](https://shaoruchen.github.io). Penn ESE PhD, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
 + Etiosa Omeike. Princeton ECE BS &rarr;  MSR Undergrad Intern, 2023 &rarr; Yale CS PhD student (advised by [Prof. Marynel Vazquez)](https://www.marynel.net/).
 + [Thomas Zhang](https://thomaszh3.github.io/), MSR Intern, '23. UPenn PhD Student advised by [Prof. Nik Matni](https://nikolaimatni.github.io/).
 + [Gilbert Bahati](https://www.gbahati.com/home), Caltech MechE PhD Student (Advised by Prof. [Aaron Ames](http://ames.caltech.edu/)).
