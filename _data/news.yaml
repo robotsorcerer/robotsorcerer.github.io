@@ -1,4 +1,9 @@
 news_items:  
+  - items: 'ACC2025_Slides'
+    subnewsitems:
+      - content: "Slides from <a href='/downloads/Papers/ACC_Denver_2025.pdf' target=blank>my ACC 2025 Denver talk</a>." 
+        highlight: true
+        date: July 10, 2025
   - items: 'ACCNonlinear'
     subnewsitems:
       - content: "I am attending the next American Control Conference (ACC) in Denver, Co. Among other things, I will be (1) chairing the regular session of nonlinear systems' stability; 

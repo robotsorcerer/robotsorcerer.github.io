@@ -1,2 +1,0 @@
-+ **Awards and Honors**: [Please Click on this link](#awards).
-  -  &nbsp; &nbsp;&nbsp; Google AI Travel and Conference Grant (2018) -- IEEE Robotics and Automation Society (RAS) Travel Award (2018/2017/2016) -- NSF Doctoral Consortium Award (2017) -- Mary and Richard Templeton Graduate Fellowship (2017) -- Open Software for Robotics Foundation (2017) -- (University) President’s Teaching Excellence Award (Nom. 2017) -- Golden Key International Honour Society (2016) -- Ericsson Graduate Fellowship (2015) -- Jonsson Scholarship (2014) -- PTDF Overseas Fellowship (2012)
