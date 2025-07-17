@@ -37,6 +37,7 @@ Previous interns, postdocs, and students include:
 
 + [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). Princeton Neuroscience PhD; UCLA Postdoc &rarr; MSR Postdoc, '24/25   &rarr; Assistant Professor, University de Montreal.
 + [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT &rarr; Assistant Professor, Univ. of New Mexico.
++ [Hanwen Cao](https://hwcao17.github.io/). UCSD PhD Student &rarr; MSR Intern '25 (co-advised by [Jeff](https://www.microsoft.com/en-us/research/people/jedelmer/), [Akshay](https://people.cs.umass.edu/~akshay/), [Nikolay](https://natanaso.github.io/), and [Yulun](https://tianyulun.com/)). 
 + [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24 (co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/)) &rarr; Research Scientist, Reliant Robotics.
 + [Anurag Koul](https://koulanurag.dev/), Oregon State PhD, MSR Postdoc, '23-'24 &rarr; Applied Scientist II, Amazon NYC.
 + [Shaoru Chen](https://shaoruchen.github.io). Penn ESE PhD, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
