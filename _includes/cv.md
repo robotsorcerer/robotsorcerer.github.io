@@ -27,7 +27,7 @@ Welcome to my web presence. I am a Senior Researcher in Microsoft Research Core 
       {% endunless %}
     {% endfor %}
   {% endfor %}
-<h4><a href="{{ sites }}/news">Archived news</a></h4>
+<!-- <h4><a href="{{ sites }}/news">Archived news</a></h4> -->
 </table>
 
 <a name="mentor"></a>

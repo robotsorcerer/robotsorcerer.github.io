@@ -1,4 +1,12 @@
 news_items:  
+  # - items: 'MSR_Ending'
+  #   subnewsitems:
+  #     - content: "My time at MSR grinds to an official end. Never once a 
+  #                 <a href='https://www.britspeak.co/blog/10-sheffield-slang-words-you-need-to-know' 
+  #                 target=blank>Mardy, I had a reyt good time!</a> 
+  #                 Stay tuned for what comes next!" 
+  #       highlight: true
+  #       date: August 1, 2025
   - items: 'ACC2025_Slides'
     subnewsitems:
       - content: "Slides from <a href='/downloads/Papers/ACC_Denver_2025.pdf' target=blank>my ACC 2025 Denver talk</a>." 

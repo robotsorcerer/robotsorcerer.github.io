@@ -4,19 +4,25 @@ layout: post
 
 ### Mentoring 
 
-I enjoy mentoring young students/scientists in teaching and research capacities alike. Before MSFT, I was an adjunct faculty at Brandeis up in Waltham, MA.
+Previous interns, postdocs, and students include:
 
-Current or past students include:
-
-+ Leilei Cui. Tandon School of Engineering, NYU (Research Intern, 2022).
-+ Jiangxi Xu. Columbia University (Research Intern, 2023).
-+ Jason Choi. University of California, Berkeley (Research Intern 2023).
-+ Shaoru Chen. Penn ESE, University of Pennsylvania, Microsoft Research Postdoc (2021-2023).
-+ Akanksha Saran. Univeristy of Texas at Austin/Microsoft Research (2021-2023).
-+  [Rachel Thompson](https://github.com/rsthomp), 2017 Undergraduate intern (MIT undergrad -> Brown University PhD).
-+  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern, Senior Software Engineer at Johnson & Johnson.
-+  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern, (Senior Automotive Engineer, [Drov. Tech, MN](http://drovtech.com)).
-+  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), undergrad assistant. (CS PhD student, Tufts University).
++ [Taylor Webb](https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en). Princeton Neuroscience PhD; UCLA Postdoc &rarr; MSR Postdoc, '24/25   &rarr; Assistant Professor, University de Montreal.
++ [Leilei Cui](https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao). MSR Intern, '22   &rarr; NYU Engineering PhD &rarr; Posdoctoctoral Scholar, MIT &rarr; Assistant Professor, Univ. of New Mexico.
++ [Hanwen Cao](https://hwcao17.github.io/). UCSD PhD Student &rarr; MSR Intern '25 (co-advised by [Jeff](https://www.microsoft.com/en-us/research/people/jedelmer/), [Akshay](https://people.cs.umass.edu/~akshay/), [Nikolay](https://natanaso.github.io/), and [Yulun](https://tianyulun.com/)). 
++ [Abulikemu Abuduweili](https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en). CMU Robotics PhD student &rarr; MSR Intern '24 (co-advised by [Elise van der Pol](https://www.elisevanderpol.nl/), and [Naoki Wake](https://www.microsoft.com/en-us/research/people/nawake/)) &rarr; Research Scientist, Reliant Robotics.
++ [Anurag Koul](https://koulanurag.dev/), Oregon State PhD, MSR Postdoc, '23-'24 &rarr; Applied Scientist II, Amazon NYC.
++ [Shaoru Chen](https://shaoruchen.github.io). Penn ESE PhD, University of Pennsylvania &rarr; MSR Postdoc ('23-'24) &rarr; LinkedIn ML Engineer.
++ Etiosa Omeike. Princeton ECE BS &rarr;  MSR Undergrad Intern, 2023 &rarr; Yale CS PhD student (advised by [Prof. Marynel Vazquez)](https://www.marynel.net/).
++ [Thomas Zhang](https://thomaszh3.github.io/), MSR Intern, '23. UPenn PhD Student advised by [Prof. Nik Matni](https://nikolaimatni.github.io/).
++ [Gilbert Bahati](https://www.gbahati.com/home), Caltech MechE PhD Student (Advised by Prof. [Aaron Ames](http://ames.caltech.edu/)).
++ [Haoxiang You](https://ialab.yale.edu/members/haoxiang-you.html). Yale MAE PhD Student. Advised by Prof. [Ian Abraham](https://ialab.yale.edu/).
++ Harry Vuong. Brandeis University MS 2020/2021 &rarr; Robotic Systems Engineer, Universal Robots A/S. 
++ [Harley Wiltzer](https://harwiltz.github.io/), MSR Intern, 2023. McGill PhD Student advised by [David Meger](https://www.cim.mcgill.ca/~dmeger/) and [Marc Bellemare](http://www.marcgbellemare.info/).
++  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (VP of Smart Trailer Engineering, [Drov. Tech, MN](http://drovtech.com)).
++  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
++  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson &rarr; SW Tech Lead (Embedded Automotive Platforms), Wayve.
++  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), Undergrad Assistant. (CS PhD student, Tufts University).
+ 
 
 
 #### [Old-ish] Teaching Keepsakes
