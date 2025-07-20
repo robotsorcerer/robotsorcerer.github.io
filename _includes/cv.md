@@ -1,5 +1,4 @@
 
-
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 - Senior Researcher, Microsoft Research Lab (NYC), 2021 - Present.
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
