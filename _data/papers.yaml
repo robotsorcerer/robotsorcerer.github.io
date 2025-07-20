@@ -28,16 +28,16 @@ publications:
   #       venue: Somewheresville, Andromeda Galaxy 
   #       paper_status: Submitted
   #       year: June 2025
-  - items: 'SampleReach!'
-    paperitems:
-      - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
-        location: /downloads/Papers/ProxSampReach.pdf
-        authors:
-          - <b>Lekan Molu</b>, <a href="https://venkatramanrenganathan.github.io/" target=blank>Venkatraman Reganathan</a>, Haoxiang You, <a href="https://www.cranfield.ac.uk/people/dr-namhoon-cho-30019838" target=blank>Namhoon Cho</a>, and Ian Abraham
-        venue_web: Rio de Janeirio, Brazil
-        venue: Neural Information Processing Systems (Neurips) Conference 
-        paper_status: Submitted
-        year: April 2025
+  # - items: 'SampleReach!'
+  #   paperitems:
+  #     - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
+  #       location: /downloads/Papers/ProxSampReach.pdf
+  #       authors:
+  #         - <b>Lekan Molu</b>, <a href="https://venkatramanrenganathan.github.io/" target=blank>Venkatraman Reganathan</a>, Haoxiang You, <a href="https://www.cranfield.ac.uk/people/dr-namhoon-cho-30019838" target=blank>Namhoon Cho</a>, and Ian Abraham
+  #       venue_web: Rio de Janeirio, Brazil
+  #       venue: Neural Information Processing Systems (Neurips) Conference 
+  #       paper_status: Submitted
+  #       year: April 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
       - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
@@ -58,16 +58,16 @@ publications:
   #       venue: IEEE 64th Conference on Control and Decision
   #       paper_status: Submitted
   #       year: March 2025
-  - items: 'PSDNets'
-    paperitems:
-      - title: 'Is the Bellman Equation Enough for Learning Control?'
-        location: 'downloads/Papers/HaoxiangRLC.pdf'
-        authors:
-          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-        venue_web: 'https://irl-conference.cc'
-        venue: Reinforcement Learning Theory Conference, 2025
-        paper_status: Submitted 
-        year: March 2025
+  # - items: 'PSDNets'
+  #   paperitems:
+  #     - title: 'Is the Bellman Equation Enough for Learning Control?'
+  #       location: 'downloads/Papers/HaoxiangRLC.pdf'
+  #       authors:
+  #         - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+  #       venue_web: 'https://irl-conference.cc'
+  #       venue: Reinforcement Learning Theory Conference, 2025
+  #       paper_status: Submitted 
+  #       year: March 2025
   - items: 'MasterCollide'
     paperitems:
       - title: 'Mastering Collision-free Planning via Convex Decomposition and Neural Networks'
