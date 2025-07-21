@@ -1,6 +1,8 @@
+
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i><a href="https://en.wikipedia.org/wiki/Ikigai">Ikigai || TL;DR </a></h4>
+- **Emergent embodied intelligence** via morphological computation in physically adaptible and reactive robotic systems (including soft robots and deformables): finite reduced-order, fractional, and learned models, ode- and pde-based control, time-scale separation of heterogeneous dynamics, and layered control.<br>
+- **Machine learning (read: optimization) in control and planning**: Self-aware, situationally-aware systems (e.g. physical robots, augmented, and virtual reality agents) that self-organize by systemic constraints (read: not imposed objectives).
 - **Safety in decision-making**: HJ equations, and constrained numerical algorithms.
- - **Machine learning (read: optimization) in control and planning**: Self-aware, situationally-aware systems (e.g. physical robots, augmented, and virtual reality agents) that self-organize by systemic constraints (read: not imposed objectives).
- - **Emergent embodied intelligence** via morphological computation in modern and futuristic robotic systems (including soft robots and deformables): finite reduced-order, fractional, and learned models, ode- and pde-based control, time-scale separation of heterogeneous dynamics, and layered control.<br>
 
  
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i><a href="https://en.wikipedia.org/wiki/Ikigai">Ikigai || Bio Snippet</a></h4>
