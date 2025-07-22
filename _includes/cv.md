@@ -54,9 +54,9 @@ Previous interns, postdocs, and students include:
 +  [Adwait Kulkarn](https://www.linkedin.com/in/adwaitkulkarni93), 2017-2018 Masters intern &rarr; (VP of Smart Trailer Engineering, [Drov. Tech, MN](http://drovtech.com)).
 +  [Rachel Thompson](https://github.com/rsthomp), 2017 Plano High School &rarr; University of Texas as Dallas &rarr; MIT CSAIL undergrad &rarr; Brown University PhD.
 +  [Ajith Venkateswaran](https://www.linkedin.com/in/ajithvenkateswaran), 2016-2017 Masters Intern &rarr; Amazon Robotics LLC &rarr; University of Texas at Dallas &rarr; Senior Software Engineer, Johnson & Johnson &rarr; SW Tech Lead (Embedded Automotive Platforms), Wayve.
-<!-- +  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), Undergrad Assistant. (CS PhD student, Tufts University). -->
++  [Blessing Kolawole](https://www.linkedin.com/in/blessingkolawole/), Undergrad Assistant. (CS PhD student, Tufts University). 
  
-<a name="talks"></a>a>
+<a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA, Nov. 2024.
