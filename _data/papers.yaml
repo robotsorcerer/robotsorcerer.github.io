@@ -1,4 +1,14 @@
 publications:
+  - items: 'LevPyPDESupps'
+    paperitems:
+      - title: 'LevelSetPy:. Supplementary Results: Examples and Evaluations'
+        location: 'downloads/Papers/toms_supplementary.pdf'
+        authors: 
+          - <b>Lekan Molu</b>.
+        venue_web: 'https://dl.acm.org/journal/toms'
+        venue: ACM Transactions on Mathematical Software | Research Paper
+        paper_status: Accepted
+        year: July 2025       
   - items: 'LevPyPDE'
     paperitems:
       - title: 'LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations'
@@ -8,7 +18,7 @@ publications:
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software | Research Paper
         paper_status: Accepted
-        year: March 2025
+        year: March 2025 
   - items: 'CFree!'
     paperitems:
       - title: 'A Fast Universal Collision-free Agentic Model: Compact Illusory  Representation and Memory-Efficient Incremental Mapping'
