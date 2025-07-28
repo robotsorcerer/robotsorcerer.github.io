@@ -1,7 +1,7 @@
 publications:
   - items: 'LevPyPDESupps'
     paperitems:
-      - title: 'LevelSetPy:. Supplementary Results: Examples and Evaluations'
+      - title: 'LevelSetPy Supplementary Results: Examples and Evaluations'
         location: 'downloads/Papers/toms_supplementary.pdf'
         authors: 
           - <b>Lekan Molu</b>.
