@@ -60,9 +60,6 @@ Previous interns, postdocs, and students include:
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [Multimodal Sensor Fusion and Policy Optimization in Agentic-Driven Dexterous Manipulation](/downloads/Papers/DeepMind.pdf), Google DeepMind Robotics, San Franciso, CA. Summer 2025.
-- [Compact States and Policy Robustness in the Era of Large Behavior Models](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, SPOT Group, Waltham, MA. Summer 2025.
-- [See, Shrink, Plot, Move: Agentic-based Numerically Efficient Navigation:  Compact Illusory  Representation and Memory-Efficient Incremental Mapping](/downloads/Papers/Wayve.pdf), Wayve Technologies, London, UK. Summer 2025.
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA, Nov. 2024.
 - [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
 - [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](downloads/Papers/Yale.pdf), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.
