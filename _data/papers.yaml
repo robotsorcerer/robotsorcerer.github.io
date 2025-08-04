@@ -1,4 +1,15 @@
-publications:
+publications:  
+  - items: 'FairMARL'
+    paperitems:
+      - title: 'When Should Agents Share Fairly? The MARLHospital Environment
+                  and FairSkill Multiagent Reinforcement learning.'
+        location: 'downloads/Papers/FairMARL.pdf'
+        authors:
+          - Promise Ekpo, El Claver Methvin, <b>Lekan Molu</b>, and Angelique Taylor
+        venue_web: 'https://aaai.org/conference/aaai/aaai-26/'
+        venue: The 40th Annual AAAI COnference on Artificial Intelligence, 2026
+        paper_status: Submitted 
+        year: August 2025
   - items: 'LevPyPDESupps'
     paperitems:
       - title: 'LevelSetPy Supplementary Results: Examples and Evaluations'
@@ -68,16 +79,16 @@ publications:
   #       venue: IEEE 64th Conference on Control and Decision
   #       paper_status: Submitted
   #       year: March 2025
-  # - items: 'PSDNets'
-  #   paperitems:
-  #     - title: 'Is the Bellman Equation Enough for Learning Control?'
-  #       location: 'downloads/Papers/HaoxiangRLC.pdf'
-  #       authors:
-  #         - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-  #       venue_web: 'https://irl-conference.cc'
-  #       venue: Reinforcement Learning Theory Conference, 2025
-  #       paper_status: Submitted 
-  #       year: March 2025
+  - items: 'PSDNets'
+    paperitems:
+      - title: 'Is the Bellman Equation Enough for Learning Control?'
+        location: 'downloads/Papers/HaoxiangRLC.pdf'
+        authors:
+          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
+        venue_web: 'https://irl-conference.cc'
+        venue: Reinforcement Learning Theory Conference, 2025
+        paper_status: Submitted 
+        year: March 2025
   - items: 'MasterCollide'
     paperitems:
       - title: 'Mastering Collision-free Planning via Convex Decomposition and Neural Networks'
