@@ -1,7 +1,7 @@
 
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
-- Independent Researcher, August 2025 -- Present.
+- Independent Researcher. August 2025 -- Present.
 - Senior Researcher, Microsoft Research Lab (NYC), May 2021 -- August 2025.
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
 - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).

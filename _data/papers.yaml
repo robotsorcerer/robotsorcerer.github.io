@@ -2,7 +2,7 @@ publications:
   - items: 'FairMARL'
     paperitems:
       - title: 'When Should Agents Share Fairly? The MARLHospital Environment
-                  and FairSkill Multiagent Reinforcement learning.'
+                  and FairSkill Multiagent Reinforcement learning'
         location: 'downloads/Papers/FairMARL.pdf'
         authors:
           - Promise Ekpo, El Claver Methvin, <b>Lekan Molu</b>, and Angelique Taylor
@@ -39,34 +39,34 @@ publications:
         venue: Science Robotics
         paper_status: Submitted
         year: April 2025
-  # - items: 'MultiPPOSafe!'
-  #   paperitems:
-  #     - title: 'Multi-agent Policy Optimization: Optimality, Robustness, Safety, and Generalized Nash Equilibrium.'
-  #       location: /downloads/Papers/MPPO.pdf
-  #       authors:
-  #         - Others and <b>Lekan Molu</b>
-  #       venue_web: Somewheresville
-  #       venue: Somewheresville, Andromeda Galaxy 
-  #       paper_status: Submitted
-  #       year: June 2025
-  # - items: 'SampleReach!'
-  #   paperitems:
-  #     - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
-  #       location: /downloads/Papers/ProxSampReach.pdf
-  #       authors:
-  #         - <b>Lekan Molu</b>, <a href="https://venkatramanrenganathan.github.io/" target=blank>Venkatraman Reganathan</a>, Haoxiang You, <a href="https://www.cranfield.ac.uk/people/dr-namhoon-cho-30019838" target=blank>Namhoon Cho</a>, and Ian Abraham
-  #       venue_web: Rio de Janeirio, Brazil
-  #       venue: Neural Information Processing Systems (Neurips) Conference 
-  #       paper_status: Submitted
-  #       year: April 2025
+  - items: 'MultiPPOSafe!'
+    paperitems:
+      - title: 'Multi-agent Policy Optimization: Optimality, Robustness, Safety, and Generalized Nash Equilibrium.'
+        location: /downloads/Papers/MPPO.pdf
+        authors:
+          - Others and <b>Lekan Molu</b>
+        venue_web: 
+        venue: 
+        paper_status: Submitted
+        year: June 2025
+  - items: 'SampleReach!'
+    paperitems:
+      - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
+        location: /downloads/Papers/ProxSampReach.pdf
+        authors:
+          - <b>Lekan Molu</b>, <a href="https://venkatramanrenganathan.github.io/" target=blank>Venkatraman Reganathan</a>, Haoxiang You, <a href="https://www.cranfield.ac.uk/people/dr-namhoon-cho-30019838" target=blank>Namhoon Cho</a>, and Ian Abraham
+        venue_web: 
+        venue: 
+        paper_status: Submitted
+        year: April 2025
   - items: 'SampleReachHopf-Lax!'
     paperitems:
       - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
         location: /downloads/Papers/ProxSampReachNonViscous.pdf
         authors:
           - <b>Lekan Molu.</b> 
-        venue_web: Rio de Janeirio, Brazil
-        venue: IEEE 64th Conference on Control and Decision
+        venue_web: 
+        venue: 
         paper_status: Submitted
         year: April 2025
   # - items: 'SoRoIdent!'
