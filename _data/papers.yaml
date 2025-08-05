@@ -188,8 +188,8 @@ publications:
         authors:
           - Leilei Cui and <b>Lekan Molu.</b>
         venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
-        venue: Transactions in Automatic Control (Technical Notes)
-        paper_status: Manuscript
+        venue: Arxiv
+        paper_status: Accepted
         year: April 2023
 
   - items: 'LSD'
