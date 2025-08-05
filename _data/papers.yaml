@@ -5,7 +5,7 @@ publications:
                   and FairSkill Multiagent Reinforcement learning'
         location: 'downloads/Papers/FairMARL.pdf'
         authors:
-          - Promise Ekpo, El Claver Methvin, <b>Lekan Molu</b>, and Angelique Taylor
+          - Promise Ekpo, El Claver Methvin, <b>Lekan Molu</b>, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>
         venue_web: 'https://aaai.org/conference/aaai/aaai-26/'
         venue: The 40th Annual AAAI COnference on Artificial Intelligence, 2026
         paper_status: Submitted 
