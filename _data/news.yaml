@@ -1,4 +1,12 @@
 news_items:  
+  - items: 'AbuduApple'
+    subnewsitems:
+      - content: 'A very hearty congratulations to our 2024 intern and perpetual research collaborator 
+                  <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/">Abulikemu Abuduweili</a>, who successfully defended 
+                  his PhD thesis at CMU <a href="https://www.ri.cmu.edu/">Robotics Institute</a> last week and thereafter sold his soul to Apple as a Robotics Research 
+                  Scientist-Engineer. Keep shining, Abu!'
+        highlight: true
+        date: Aug. 6, 2025
   # - items: 'MSR_Ending'
   #   subnewsitems:
   #     - content: "My time at MSR grinds to an official end. Never once a 
