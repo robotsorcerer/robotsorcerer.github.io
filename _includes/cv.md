@@ -1,4 +1,7 @@
 
+> No fluff research science and engineering only. 
+
+<b>Engineer-scientist</b> hybrid across the physical and virtual automation stack --- comprising the algorithmic theory and practice of AI, RL, ML, and Control systems on automatons.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 <!-- - Principal Researcher, Molux Labs LLC, Greater New York Area, New Jersey, USA. (2025 -- Present). -->
