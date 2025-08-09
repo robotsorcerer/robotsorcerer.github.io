@@ -1,7 +1,10 @@
 
+> No fluff research science and engineering only. 
+
+<b>Engineer-scientist</b> hybrid across the physical and virtual automation stack --- comprising the algorithmic theory and practice of AI, RL, ML, and Control systems on automatons.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
-- Principal Researcher, Molux Labs LLC, Greater New York Area, New Jersey, USA. (2025 -- Present).
+<!-- - Principal Researcher, Molux Labs LLC, Greater New York Area, New Jersey, USA. (2025 -- Present). -->
 - Senior Researcher, Microsoft Research Lab (NYC), (2021 -- 2025).
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
 - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
@@ -53,6 +56,7 @@ Previous interns, postdocs, and students include:
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
+- [Compact States and Policy Robustness in the Era of Large Behavior Models](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, SPOT Group, Waltham, MA. Summer 2025.
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA, Nov. 2024.
 - [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
 - [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](downloads/Papers/Yale.pdf), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.

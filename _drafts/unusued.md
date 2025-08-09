@@ -9,5 +9,4 @@ In the quest for balance in his devotion to robots, learning, control, and other
 
 
 - [Multimodal Sensor Fusion and Policy Optimization in Agentic-Driven Dexterous Manipulation](/downloads/Papers/DeepMind.pdf), Google DeepMind Robotics, San Franciso, CA. Summer 2025.
-- [Compact States and Policy Robustness in the Era of Large Behavior Models](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, SPOT Group, Waltham, MA. Summer 2025.
 - [See, Shrink, Plot, Move: Agentic-based Numerically Efficient Navigation:  Compact Illusory  Representation and Memory-Efficient Incremental Mapping](/downloads/Papers/Wayve.pdf), Wayve Technologies, London, UK. Summer 2025.
