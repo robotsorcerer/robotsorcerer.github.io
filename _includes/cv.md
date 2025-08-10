@@ -57,7 +57,7 @@ Previous interns, postdocs, and students include:
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
 - [Embodied Intelligence in Open Embodiments: Representation, Morphological Computation, Robustness, Safety, and Resilience](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.
-- [State  representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco. August 2025.
+- [State Representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco. August 2025.
 - [Foundation models in open embodiments](#), META Reality Labs, San Francisco, July 2025.
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA, Nov. 2024.
 - [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
