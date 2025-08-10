@@ -56,19 +56,19 @@ Previous interns, postdocs, and students include:
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [Embodied Intelligence in Open Embodiments: Representation, Morphological Computation, Robustness, Safety, and Resilience](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.
-- [State Representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco. August 2025.
-- [Foundation models in open embodiments](#), META Reality Labs, San Francisco, July 2025.
-- [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA, Nov. 2024.
+- [Embodied Intelligence in Open Embodiments: State Representation, Morphological Computation, Robustness, Safety, and Resilience](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.
+- [State Representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco, CA. August 2025.
+- [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, San Francisco, CA. July 2025.
+- [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA. Nov. 2024.
 - [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
 - [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](downloads/Papers/Yale.pdf), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.
-- Learning without Rewards, [Microsoft Research Summit](https://www.microsoft.com/en-us/research/event/microsoft-research-summit-2021/), Fall 2021.
-- [A Short Treatise on the Kinematics and Kinetics of Robots -- Slides](/downloads/Papers/screw_slides.pdf), MSR NYC, 2022.
-- [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University, 2021.
-- [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University, 2020.
+- Learning without Rewards, [Microsoft Research Summit](https://www.microsoft.com/en-us/research/event/microsoft-research-summit-2021/). Fall 2021.
+- [A Short Treatise on the Kinematics and Kinetics of Robots -- Slides](/downloads/Papers/screw_slides.pdf), MSR NYC. 2022.
+- [The Mathematical Foundations of Robotics](/downloads/Papers/RBOT101.pdf), Brandeis University. 2021.
+- [Robot Manipulation, Planning and Control](/downloads/Papers/RBOT250.pdf), Brandeis University. 2020.
 - [L1 Adaptive Control -- Courtesy of Naira Hovakimyan. 10/1/2015](/downloads/Papers/L1Adaptive.pdf)
-- [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC, New York City, Winter 2021.
-- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson, San Francisco, CA, 2021.
+- [Automating Treatment Planning in Radiation Therapy](#), Microsoft Research NYC, New York City. Winter 2021.
+- [Automating Treatment Planning in Radiation Therapy](#), Auris Health, Johnson & Johnson. San Francisco, CA, 2021.
 - Soft Robots-based Position Correction Mechanisms in Intensity-Modulated Radiation Therapy. Open Robotics Foundation, Mountain View, CA, USA, 2019.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Energy Resources Engineering. Stanford University, Stanford, CA, USA, 2018.
 - Robotic Radiotherapy: Automating Position Correction in Intensity-Modulated Radiation Therapy, Department of Radiation and Cellular Oncology, The University of Chicago, Chicago, IL, USA, 2018.
