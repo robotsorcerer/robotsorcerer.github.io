@@ -56,7 +56,7 @@ Previous interns, postdocs, and students include:
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [Embodied Intelligence in Open Embodiments: State Representation, Morphological Computation, Robustness, Safety, and Resilience](/downloads/Papers/BDSPOT.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.
+- [Embodied Intelligence in Open Embodiments: State Representation, Morphological Computation, Robustness, Safety, and Resilience](/downloads/Papers/BostonDynamics.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.
 - [State Representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco, CA. August 2025.
 - [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, San Francisco, CA. July 2025.
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA. Nov. 2024.
