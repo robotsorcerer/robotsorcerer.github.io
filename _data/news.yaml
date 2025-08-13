@@ -7,18 +7,10 @@ news_items:
                   Scientist/Engineer. Keep shining those bright white lights, Abu!'
         highlight: true
         date: Aug. 6, 2025
-  # - items: 'MSR_Ending'
-  #   subnewsitems:
-  #     - content: "My time at MSR grinds to an official end. Never once a 
-  #                 <a href='https://www.britspeak.co/blog/10-sheffield-slang-words-you-need-to-know' 
-  #                 target=blank>Mardy, I had a reyt good time!</a> 
-  #                 Stay tuned for what comes next!" 
-  #       highlight: true
-  #       date: August 1, 2025
   - items: 'ACC2025_Slides'
     subnewsitems:
       - content: "Slides from <a href='/downloads/Papers/ACC_Denver_2025.pdf' target=blank>my ACC 2025 Denver talk</a>." 
-        highlight: true
+        highlight: false
         date: July 10, 2025
   - items: 'ACCNonlinear'
     subnewsitems:
@@ -37,13 +29,13 @@ news_items:
     subnewsitems:
       - content: "Entertain your mind reading this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article.</a> 
                 It describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
-        highlight: true
+        highlight: false
         date: April 7, 2025
   - items: 'SoRoSPT'
     subnewsitems:
       - content: "Towards fast strain regulation in continuum robots, in this  new <a href='downloads/Papers/SoRoSPT.pdf'>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum 
                  dynamical system whose whole-body strain dynamics is resolved in an adaptive and hierarchical nonlinear control fashion." 
-        highlight: true
+        highlight: false
         date: March 30, 2025
   - items: 'McGillLayeredControl'
     subnewsitems:
@@ -59,17 +51,17 @@ news_items:
                   fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models, 
                   and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots 
                   and devices. Please see the <a href="/eisoro_icra25">workshop webpage</a> for details.'
-        highlight: true
+        highlight: false
         date: August 24, 2024
   - items: 'CDC_Accepts'
     subnewsitems:
       - content: 'Two papers accepted to the IEEE <a href="https://cdc2024.ieeecss.org/"> Control and Decision Conference, CDC 2024</a>, Milano, Italia! Huzzah!'
-        highlight: true
+        highlight: false
         date: Aug. 27, 2024
   - items: 'Anurag_Amazon'
     subnewsitems:
       - content: 'Please join the crescendo of ecstatic congratulations to <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into an applied scientist role at Amazon NYC. Bravissimo!'
-        highlight: true
+        highlight: false
         date: Aug. 8, 2024
   - items: 'CDC_Co_Chair'
     subnewsitems:
@@ -84,28 +76,28 @@ news_items:
   - items: 'RedmondProjGreen'
     subnewsitems:
       - content: 'Organizing an <a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
-        highlight: true
+        highlight: false
         date: Feb. 24, 2024
   - items: 'YaleMixedTalk'
     subnewsitems:
       - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> at Yale University based on our <a href="downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
-        highlight: true
+        highlight: false
         date: Nov. 2, 2023
   - items: 'IFAC!'
     subnewsitems:
       - content: New <a href="/downloads/Papers/ifac.pdf" target=blank>robust policy optimization paper</a>, based on H-infinity control principles for accelerating the convergence of traditional policy optimization schemes in infinite-horizon control settings out in IFAC world congress 2023.
-        highlight: true
+        highlight: false
         date: Feb 10, 2023
   - items: 'AEICRA!'
     subnewsitems:
       - content: "Serving as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA) Workshops."
-        highlight: true
+        highlight: false
         date: September 30, 2022
 
   - items: 'AEICRA!'
     subnewsitems:
       - content: "Invited to serve as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA)."
-        highlight: true
+        highlight: false
         date: September 30, 2020
         
   - items: AAPM20
@@ -113,7 +105,7 @@ news_items:
       - content: "Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got
                 accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i>
                 Please e-attend my talk if you can at AAPM's annual meeting this year."
-        highlight: true
+        highlight: false
         date: May 16, 2020
   - items: 'PHinisheD!'
     subnewsitems:
@@ -122,44 +114,44 @@ news_items:
                         <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>,
                         and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>,
                         T. Summers, Y. Tadesse and D. Bhatia.'
-        highlight: true
+        highlight: false
         date: May 16, 2019
   - items: Brandeis
     subnewsitems:
       - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring
                 of 2020 as an Adjunct Faculty. I am keeping the lecture notes
                 <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses.'
-        highlight: true
+        highlight: false
         date: Nov 07, 2019
   - items: ATR Labs
     subnewsitems:
       - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
         date: August 29, 2018
-        highlight: true
+        highlight: false
   - items: 'Venture capitalists and robotics'
     subnewsitems:
       - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!
         date: 'August 2017'
-        highlight: true
+        highlight: false
   - items: 'Postdoc!'
     subnewsitems:
       - content: Starting in the summer of 2019, after I shall have defended my PhD thesis,
                   I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/">
                   The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/">
                   Pritzker School of Medicine.</a>
-        highlight: true
+        highlight: false
         date: January 31, 2019
   - items: 'IROS_18!'
     subnewsitems:
       - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>.
                   Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
-        highlight: true
+        highlight: false
         date: August 20, 2019
   - items: 'Thanks Google!'
     subnewsitems:
       - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials,
       workshops, and program sessions at NIPS 2018. Bonjour Montréal!'
-        highlight: true
+        highlight: false
         date: 'October 07, 2018'
   - items: 'Madrid!'
     subnewsitems:
@@ -167,54 +159,54 @@ news_items:
                  Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>,
                  <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>,
                  and video of Marc Raibert's <a href="https://www.instagram.com/p/BobgQPMhuKCrqy9OjV01K9-0cH6kmFZXcB6kgk0/">mini-spot demo</a>
-        highlight: true
+        highlight: false
         date: October 6, 2018
   - items: 'WAFR!'
     subnewsitems:
       - content: <a href="/assets/papers/wafr.pdf"> Deep BOO!</a> gets accepted to the Workshop on the Algorithm Foundations of Robotics (WAFR). WAFR has an <a href="https://parasol.tamu.edu/wafr/wafr2018/authors.php">"established reputation as one, if not the most, important venue for presenting algorithmic work related to robotics"</a>.
         date: September 06, 2018
-        highlight: true
+        highlight: false
   - items: 'Nonlinear NeuroControl Talk'
     subnewsitems:
       - content: 'I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.'
         date: 'July 05, 2018'
-        highlight: true
+        highlight: false
   - items: 'Robust control via game theory'
     subnewsitems:
       - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept.
                   Codes <a href="https://github.com/lakehanne/youbot">here</a>.
                   Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
         date: 'June 2018'
-        highlight: true
+        highlight: false
   - items: 'Minimax iterative dynamic game'
     subnewsitems:
       - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018.
                 Codes <a href="https://github.com/lakehanne/youbot">here</a>.
                 Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
         date: 'April 24, 2018'
-        highlight: true
+        highlight: false
   - items: 'NSF'
     subnewsitems:
       - content: Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=true">NSF Doctoral Consortium Award.</a>
         date: 'August 2017'
-        highlight: true
+        highlight: false
   - items: 'SNA'
     subnewsitems:
       - content: The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github.</a>
         date: 'August 2017'
-        highlight: true
+        highlight: false
   - items: 'iDGv1'
     subnewsitems:
       - content: Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a>
         date: 'July 2017'
-        highlight: true
+        highlight: false
   - items: 'OSRF'
     subnewsitems:
       - content: Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.
         date: 'July 2017'
-        highlight: true
+        highlight: false
   - items: 'ICML'
     subnewsitems:
       - content: Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.
         date: 'June 2017'
-        highlight: true
+        highlight: false
