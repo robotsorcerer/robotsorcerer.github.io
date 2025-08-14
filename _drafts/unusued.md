@@ -10,3 +10,18 @@ In the quest for balance in his devotion to robots, learning, control, and other
 
 - [Multimodal Sensor Fusion and Policy Optimization in Agentic-Driven Dexterous Manipulation](/downloads/Papers/DeepMind.pdf), Google DeepMind Robotics, San Franciso, CA. Summer 2025.
 - [See, Shrink, Plot, Move: Agentic-based Numerically Efficient Navigation:  Compact Illusory  Representation and Memory-Efficient Incremental Mapping](/downloads/Papers/Wayve.pdf), Wayve Technologies, London, UK. Summer 2025.
+
+
+
+Skilling/Strategies:
+
+- Athletic AI (Hardware Agility).
+  - State representation in RL → Towards robots that make split-second decisions based on noisy, high-dimensional sensory inputs.
+  - Provably memory-minimal model stacks for general purpose 3D processing → Giving head-mounting devices (HMDs) and real robots safe, efficient paths and navigation world models without brute-force trial-and-error.
+  - Keeping on bridging control theory and learning = exactly how to make physical movements smooth, stable, and adaptive.
+
+- Cognitive AI (Reasoning & Adaptation).
+
+  - Large behavior models → Foundation models for robot skills, allowing generalization across tasks.
+  - Multi-lab collaboration → Working on systems that combine perception, planning+control, and reasoning.
+  - Mentoring/Teaming → Working with teams and research colleagues (from academe to industry) to unify the AI/control stack in a cohesive way.

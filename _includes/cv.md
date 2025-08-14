@@ -1,7 +1,8 @@
 
-> No fluff research science and engineering only. 
+> No fluff research science and engineering [ikigai](https://en.wikipedia.org/wiki/Ikigai). 
 
-<b>Engineer-scientist</b> hybrid across the physical and virtual automation stack --- comprising the algorithmic theory and practice of AI, RL, ML, and Control systems on automatons.
+Engineer-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons with emphasis on robot mechanisms. 
+The case for reinventing robot intelligence: Control theory should be a tool; not a religion. Bring all the control formal guarantees. But don’t discard our showy-engineer traditions. Building AI models for stable+safe robot skills, allowing generalization across tasks that border on ambitious and the ledge of “impossible” prototypes that push mechanical and control limits --- from simulation to hardware that kick up dusts.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 <!-- - Principal Researcher, Molux Labs LLC, Greater New York Area, New Jersey, USA. (2025 -- Present). -->
