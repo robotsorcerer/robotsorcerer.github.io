@@ -13,15 +13,46 @@ In the quest for balance in his devotion to robots, learning, control, and other
 
 
 
-Skilling/Strategies:
+-----Life Update-----
 
-- Athletic AI (Hardware Agility).
-  - State representation in RL → Towards robots that make split-second decisions based on noisy, high-dimensional sensory inputs.
-  - Provably memory-minimal model stacks for general purpose 3D processing → Giving head-mounting devices (HMDs) and real robots safe, efficient paths and navigation world models without brute-force trial-and-error.
-  - Keeping on bridging control theory and learning = exactly how to make physical movements smooth, stable, and adaptive.
+As those close to me already know, I was affected by the last round of layoffs at Microsoft Research, writ Microsoft at large. It's been a frantic two months of trying to land on my two feet after this abrupt destabilization. Glad for this  option that came along and I am all for it. It is laden with simple things like the right team, the right fit, wonderful colleagues, and a great location. Benefits includes perks like doing things I love, engineering control into physical automatons, and innovating embodied agentic AI on real-world physical robots. Because every engineer needs a place of quiet repose to make automatons that slap harder than a kernel panic at 99% uptime! Here's to many years of productive collaboration with key partners and many moments of fantastic innovation. This already awesome team is about to get even more snazzy with robots that drip copious amounts of swagger! 
 
-- Cognitive AI (Reasoning & Adaptation).
+lekan@swaggerlicious_robots$ whoami
+building_swanky_robots#dripping
 
-  - Large behavior models → Foundation models for robot skills, allowing generalization across tasks.
-  - Multi-lab collaboration → Working on systems that combine perception, planning+control, and reasoning.
-  - Mentoring/Teaming → Working with teams and research colleagues (from academe to industry) to unify the AI/control stack in a cohesive way.
+---
+
+**🚀 Life Update**
+
+As many of you know, I was affected by the recent wave of layoffs at Microsoft Research. The past two months have been a whirlwind—navigating the unexpected, finding balance, and figuring out what's next.
+
+I'm thrilled to share that I've landed somewhere that checks all the right boxes: brilliant colleagues, the right cultural fit, a mission I believe in, and yes—robots. Lots of them.
+
+I'll be working on embodied, agentic AI systems, bringing real-world physical robots to life in ways that are useful, expressive, and just a little bit swaggerlicious. This means engineering control into automatons that (in classic Linux fashion) slap harder than a kernel panic at 99% uptime.
+
+Here’s to building something great—together.
+
+```bash
+lekan@swaggerlab$ whoami
+building_swanky_robots#dripping
+```
+
+---
+
+🔧 Life Update
+Like many others, I was affected by the recent round of layoffs at Microsoft Research. It’s been a whirlwind couple of months—navigating uncertainty, reconnecting with my network, and considering what I truly want next.
+
+I’m happy to share that I’ve found that next chapter—and it feels like the right one. A great team. A strong fit. A mission I believe in. And the chance to keep building systems I care deeply about: real-world robots powered by embodied, agentic AI.
+
+I'll be focused on engineering intelligence into physical systems—designing control algorithms, exploring representation learning, and helping push forward the frontier of AI for physical agents. Put differently: building robots that work and wow.
+
+Excited for what’s ahead—with partners I admire, problems that matter, and a chance to keep learning and building.
+
+```bash
+lekan@robots$ whoami
+building_robots_with_swag_and_soul
+```
+
+
+with emphasis on robot mechanisms. 
+The case for reinventing robot intelligence: Control theory should be a tool; not a religion. Bring all the control formal guarantees. But don’t discard our showy-engineer traditions. Building AI models for stable+safe robot skills, allowing generalization across tasks that border on ambitious and the ledge of “impossible” prototypes that push mechanical and control limits --- from simulation to hardware that kick up dusts.
