@@ -56,7 +56,7 @@ Previous interns, postdocs, and students include:
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [Navigation in Open Embodiments: Large-scale Approximate Convex Decomposition and Optimization with Neural Spatial Models](/downloads/Papers/RAIMain@!<2q3e<4r42w5.pdf), Robotics and AI Institute, Cambridge, MA. September 2025.  <br> [Main Text](/downloads/Papers/RAI@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/RaiApp@!<2q3e<4r42w5.pdf).
+- [Navigation in Open Embodiments: Large-scale Approximate Convex Decomposition and Optimization with Neural Spatial Models](/downloads/Papers/RAIMain@!<2q3e<4r42w5.pdf), [Robotics and AI Institute](https://rai-inst.com/), Cambridge, MA. September 2025.  <br> [Main Text](/downloads/Papers/RAI@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/RaiApp@!<2q3e<4r42w5.pdf).
 - [Embodied Intelligence in Open Embodiments: State Representation, Morphological Computation, and Robustness](/downloads/Papers/BostonDynamicsMain@!<2q3e<4r42w5.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.  <br> [Main Text](/downloads/Papers/BostonDynamicsMain@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/BostonDynamicsApp@!<2q3e<4r42w5.pdf).
 - [State Representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco, CA. August 2025.
 - [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, San Francisco, CA. July 2025.
