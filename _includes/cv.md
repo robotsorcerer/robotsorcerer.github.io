@@ -4,7 +4,7 @@
 Engineer-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
-- Principal Researcher, Molux Labs LLC, Greater New York Area. (2025 -- Present).
+<!-- - Principal Researcher, Molux Labs LLC, Greater New York Area. (2025 -- Present). -->
 - Senior Researcher, Microsoft Research Lab (NYC), (2021 -- 2025).
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
 - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
@@ -55,9 +55,9 @@ Previous interns, postdocs, and students include:
  
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
-<h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [Navigation in Open Embodiments: Large-scale Approximate Convex Decomposition and Optimization with Neural Spatial Models](/downloads/Papers/RAIMain@!<2q3e<4r42w5.pdf), [Robotics and AI Institute](https://rai-inst.com/), Cambridge, MA. September 2025.  <br> [Main Text](/downloads/Papers/RAI@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/RaiApp@!<2q3e<4r42w5.pdf).
-- [Embodied Intelligence in Open Embodiments: State Representation, Morphological Computation, and Robustness](/downloads/Papers/BostonDynamicsMain@!<2q3e<4r42w5.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.  <br> [Main Text](/downloads/Papers/BostonDynamicsMain@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/BostonDynamicsApp@!<2q3e<4r42w5.pdf).
+<!-- <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
+- [Navigation in Open Embodiments: Large-scale Approximate Convex Decomposition and Optimization with Neural Spatial Models](/downloads/Papers/RAIMain@!<2q3e<4r42w5.pdf), [Robotics and AI Institute](https://rai-inst.com/), Cambridge, MA. September 2025.  <br> [Main Text](/downloads/Papers/RAI@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/RaiApp@!<2q3e<4r42w5.pdf). 
+- [Embodied Intelligence in Open Embodiments: State Representation, Morphological Computation, and Robustness](/downloads/Papers/BostonDynamicsMain@!<2q3e<4r42w5.pdf), Boston Dynamics, Inc. SPOT Group, Waltham, MA. August 2025.  <br> [Main Text](/downloads/Papers/BostonDynamicsMain@!<2q3e<4r42w5.pdf) &#124; [Appendix](/downloads/Papers/BostonDynamicsApp@!<2q3e<4r42w5.pdf).-->
 - [State Representation in Reinforcement Learning](#), Google DeepMind Robotics, San Francisco, CA. August 2025.
 - [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, San Francisco, CA. July 2025.
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA. Nov. 2024.
