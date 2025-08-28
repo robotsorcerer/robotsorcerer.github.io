@@ -26,6 +26,38 @@ layout: page
 <a name="expose"></a>
 #### Research Exposé
 
+##### Part Un
+
+No fluff roboticist-scientist ikigai: At best, I am an engineer-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL/ML, and control systems on physical and virtual automatons. 
+
+I believe control is rather a tool; not a religion. I'm all for all control formal guarantees. But don’t discard our showy-engineer traditions. My core essence is creating AI reasoning systems for stable and safe automatons and robots' skills  -- for generalization that borders on ambitious on the ledge of “impossible”. I believe every researcher should cover the entire creative process: from conceptualization,  rigorous theory, to simulation, then hardware that kick up dusts.
+
+**• Skilling/Strategies:**
+
+	• State representation in RL → Towards robots that make split-second decisions based on noisy, high-dimensional sensory inputs.
+
+	• Provably memory-minimal model stacks for general purpose 3D processing → Giving head-mounting devices and real robots safe, efficient paths and navigation world models without brute-force trial-and-error.
+
+	• Keeping on bridging control theory and learning = exactly how to make physical movements smooth, stable, and adaptive.
+
+**• Cognitive AI (Reasoning & Adaptation):**
+
+	• Large behavior models for robot skills, allowing generalization across tasks.
+
+	• Multi-lab/cross-geographic collaboration meshing perception, planning, control, & reasoning.
+
+	• Mentoring/Teaming → Working with teams and research colleagues (academe/industry) to unify the AI/control stack in a cohesive way.
+
+**• Diverging personal slowly:**
+
+Before Molux Labs LLC, I spent the first four years of my research career post-PhD as a Senior Researcher at  Microsoft Research, NYC. Heavens, those were fun days: I enjoyed the creativity  --- fostered by the ethos that  genius is not predictable, researchers are encouraged to be part of the greater open scientific culture where various lines of research inquiry are explored wherever the science may lead. I collaborated locally and globally with teams through organized workshops, PhD interns mentoring, and postdocs collaboration. It is a privileged to see  previous interns and postdocs go on to become strong industry researchers and professors in academe. 
+
+These days, surrounded by the daily progress in the advancement of AI, not a day goes by at Molux Labs  that we do not strive to deepen our scientific understanding emergent AI systems and capabilities. 
+
+For leisure, I enjoy the countryside -- often crushing multiple centuries on my road bike annually. And I do shred ice in the mountains in winter.
+
+##### Part Deux 
+
 The rise in computational power together with the pervasiveness of big data has created new computing modalities which has spurred an emergent digital economy, and has spawned new business value chains. Across these spates of recent developments, questions of resilience and reliability, safety and robustness, as well as the assured predictability of behavior in the (autonomous) systems that we design and build has become timely and crucial. Emergent autonomous AI systems must make decisions under imperfect circumstances based on environment information that is available from an array of perceptual inputs and their representation, reason through self-enumerated possible actions, and safely execute the ones that provide a meaningful state transition in the environment in which they act --- all the while guaranteeing safety, stability, and resilience under external disturbances. Broadly, one can think of autonomous AI systems along two general threads: (i) situated autonomy, such as an automated airline ticket reservation system that reserves and makes decisions based on provided input by an external agent; and (ii) embodied autonomy, that is agents with perceptual sensors and proprioceptive actuators that effect a physical environmental change upon interaction; an example in this latter category are physical robots that sense the world directly through contact, and react adaptively to effect a change in representation of their environment via feedback. In both situated and embodied autonomy, we expect algorithms to deliver performance specifications without a glitch as we automate away tasks that humans have traditionally performed for over a century. My core research exists at the intersection of three intertwined fields that encapsulate important questions surrounding situatedness and embodiments: **robotics**, **control theory**, and **machine learning**. Robotics is crucial for the automation of physical embodiments. Control theory offers the necessary scientific recipé that establishes strong robustness and resilient foundations in otherwise flimsy AI models and policies (encompassing situatedness and embodiments). And machine learning provides the relaxation to devise generalist algorithmics that transcend narrow applications to broad usage. Motivated by what is possible with hitherto unexplored and large-scale engineering feats across these three disciplines, my research seeks to deconstruct the challenges that modern technology presents viz., (i) combining the elegance of mathematical rigor in imbuing resilience and robustness into the little margins that exist in safety-critical embodiments; (ii) reasoning possible automation capabilities into existence through abstract sub-task modules among a hierarchy of systems components; this is guided by clear conceptual analyses baked in the tradition of classical scientific rigor; and (iii) leveraging bio-inspiration to build emergent agent-centric situated AI and functional embodied automation systems. As I plan and act, I will continue to collaborate with  various researchers with relevant expertise around the planet; this will foster new insights on solving difficult automation problems, and broaden our understanding of the problems that are relevant to our collective future. Stimulating rapid growth in our understanding of critical components to buiding resilient complex systems, we shall bring new inventions to a stable, safe, robust, resilient, and reliable (S23R) haven that fosters a neat co-existence with human beings in everyday living.
 
 <a name="incubations"></a>
