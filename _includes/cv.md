@@ -4,7 +4,7 @@
 Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
-- Principal Researcher & CEO, Molux Labs LLC, Greater New York Area. (2025 -- Present).
+- Principal Researcher & CEO, Molux Labs LLC, Bala-Cynwyd, Pennsylvania. (2025 -- Present).
   <!-- > _Aye, it's been building a wee while. Now just trying to do a power of good before the cord of life starts shortening. Wish me luck!_ -->
 - Senior Researcher, Microsoft Research Lab (NYC), (2021 -- 2025).
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
@@ -57,13 +57,13 @@ Previous interns, postdocs, and students include:
 <a name="talks"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks, Classes, and Conferences</h4>
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [State Representation in Reinforcement Learning](#). Google DeepMind Robotics, San Francisco, CA. August 2025.
-- [System Identification for Planning in Reinforcement Learning](#). [Wayve Technologies Ltd.](https://wayve.ai/) London, United Kingdom. Aug/Sept, 2025.  
-- [Embodied Intelligence in Open Embodimentss](/downloads/Papers/BostonDynamicsMain.pdf). Boston Dynamics Robotics and AI Institute. Cambridge, MA. Sept. 2025.
-- [Embodied Intelligence in Open Embodiments](/downloads/Papers/BostonDynamicsMain.pdf). Boston Dynamics, Inc. SPOT Group, Waltham, MA. Aug. 2025. [Appendix](/downloads/Papers/BostonDynamicsApp.pdf).
-- [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, San Francisco, CA. July 2025.
-- [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA. Nov. 2024.
-- [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. Fall 2023.
+- [Towards Ubiquitous Automation with Foundation Models](/downloads/Papers/RAI-Inst.pdf). The Robotics and AI Institute. Cambridge, MA. 09/25.
+- [State Representation in Reinforcement Learning](#). Google DeepMind Robotics, SF, CA. 08/25.
+- [System Identification for Planning in Reinforcement Learning](#). [Wayve Technologies Ltd.](https://wayve.ai/) London, UK. 08/25.  
+- [Embodied Intelligence in Open Embodiments](/downloads/Papers/BostonDynamicsMain.pdf). Boston Dynamics, Inc. Waltham, MA. 08/25. [Appendix](/downloads/Papers/BostonDynamicsApp.pdf).
+- [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, SF. 07/25.
+- [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA. 11/24.
+- [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. 11/23.
 - [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](downloads/Papers/Yale.pdf), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.
 - Learning without Rewards, [Microsoft Research Summit](https://www.microsoft.com/en-us/research/event/microsoft-research-summit-2021/). Fall 2021.
 - [A Short Treatise on the Kinematics and Kinetics of Robots -- Slides](/downloads/Papers/screw_slides.pdf), MSR NYC. 2022.
