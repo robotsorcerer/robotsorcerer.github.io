@@ -4,8 +4,7 @@
 Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
-<!-- - Principal Researcher & CEO, Molux Labs LLC, Bala-Cynwyd, Pennsylvania. (2025 -- Present). -->
-  <!-- > _Aye, it's been building a wee while. Now just trying to do a power of good before the cord of life starts shortening. Wish me luck!_ -->
+- Principal Researcher & CEO, Molux Labs LLC. (2025 -- Present).
 - Senior Researcher, Microsoft Research Lab (NYC), (2021 -- 2025).
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
 - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
