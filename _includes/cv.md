@@ -34,7 +34,7 @@ Roboticist-scientist hybrid across the physical and virtual automation stack —
 <a name="talks"></a>
 <!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks/Classes</h4> -->
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
-- [Towards Ubiquitous Automation with Foundation Models](/downloads/Papers/RAI-Inst.pdf). The Robotics and AI Institute. Cambridge, MA. 09/25.
+<!-- - [Towards Ubiquitous Automation with Foundation Models](/downloads/Papers/RAI-Inst.pdf). The Robotics and AI Institute. Cambridge, MA. 09/25. -->
 - [State Representation in Reinforcement Learning](#). Google DeepMind Robotics, SF, CA. 08/25.
 - [System Identification for Planning in Reinforcement Learning](#). [Wayve Technologies Ltd.](https://wayve.ai/) London, UK. 08/25.  
 - [Embodied Intelligence in Open Embodiments](/downloads/Papers/BostonDynamicsMain.pdf). Boston Dynamics, Inc. Waltham, MA. 08/25. [Appendix](/downloads/Papers/BostonDynamicsApp.pdf).
