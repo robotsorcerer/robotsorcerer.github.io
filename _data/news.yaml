@@ -4,7 +4,7 @@ news_items:
       - content: 'A side-quest in the great commonwealth of Pennsylvania got instituted today: our Molux Labs filing as an 
                   LLC was accepted by the PA Department of State, Bureau of Corporations, and Charitable Organizations. 
                   Molux Labs is devoted to unravelling and understanding the mysteries of forward-backward stochastic learning processes.
-                  A small step for a man, a big step for <a href="https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797">science, invention, and innovation!</a>'
+                  A small step for a man, a big step for <a href="https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797" target=blank>science, invention, and innovation!</a>'
         highlight: true
         date: Sept. 8, 2025
   - items: 'AbuduApple'
