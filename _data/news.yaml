@@ -1,11 +1,11 @@
 news_items:    
-  - items: 'MoluxLabsLLC'
-    subnewsitems:
-      - content: 'In the great commonwealth of Pennsylvania, Molux Labs filing as an 
-                  LLC gets accepted by the PA Department of State, Bureau of Corporations 
-                  and Charitable Organizations. A small step for a man, a giant leap for automatons!'
-        highlight: true
-        date: Sept. 8, 2025
+  # - items: 'MoluxLabsLLC'
+  #   subnewsitems:
+  #     - content: 'In the great commonwealth of Pennsylvania, Molux Labs filing as an 
+  #                 LLC gets accepted by the PA Department of State, Bureau of Corporations, 
+  #                 and Charitable Organizations. A small step for a man, a giant leap for automatons!'
+  #       highlight: true
+  #       date: Sept. 8, 2025
   - items: 'AbuduApple'
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 
