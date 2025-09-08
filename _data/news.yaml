@@ -1,13 +1,11 @@
-news_items:  
-  # - items: 'August'
-  #   subnewsitems:
-  #     - content: "It's been a roller-coaster of a summer, circuit-riding Silicon Valley discussing my research efforts surrounding unstrucured
-  #                 open embodiment learning of models and policies -- with emphasis on their computational efficacy, robustness, stability, and 
-  #                 safety  -- that drive automatons in vogue toward embodied intelligence. I gave talks at (i) META Reality Labs, 
-  #                 (ii) Google DeepMind Robotics, (iii) Wayve Technologies Ltd, (iv) Boston Dynamics, and (v) Boston Dynamics AI Institute. 
-  #                 Kicking up dusts, forward or bust, chugging along in life. Huzzah!"
-  #       highlight: true
-  #       date: Aug. 28, 2025
+news_items:    
+  - items: 'MoluxLabsLLC'
+    subnewsitems:
+      - content: 'In the great commonwealth of Pennsylvania, Molux Labs filing as an 
+                  LLC gets accepted by the PA Department of State, Bureau of Corporations 
+                  and Charitable Organizations. A small step for a man, a giant leap for automatons!'
+        highlight: true
+        date: Aug. 6, 2025
   - items: 'AbuduApple'
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 
