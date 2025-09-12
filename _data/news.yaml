@@ -1,18 +1,12 @@
-news_items:  
-  # - items: 'August'
-  #   subnewsitems:
-  #     - content: "It's been a roller-coaster of a summer, circuit-riding Silicon Valley discussing my research efforts surrounding unstrucured
-  #                 open embodiment learning of models and policies -- with emphasis on their computational efficacy, robustness, stability, and 
-  #                 safety  -- that drive automatons in vogue toward embodied intelligence. I gave talks at (i) META Reality Labs, 
-  #                 (ii) Google DeepMind Robotics, (iii) Wayve Technologies Ltd, (iv) Boston Dynamics, and (v) Boston Dynamics AI Institute. 
-  #                 Kicking up dusts, forward or bust, chugging along in life. Huzzah!"
-  #       highlight: true
-  #       date: Aug. 28, 2025
-  - items: 'MoluxLabs'
+news_items:    
+  - items: 'MoluxLabsLLC'
     subnewsitems:
-      - content: 'Lekan founds a new research and development lab, specializing in AI and automation services, in the great commonwealth of Pennsylvania!'
-        highlight: true
-        date: Sept. 9, 2025
+      - content: 'A side-quest in the great commonwealth of Pennsylvania got instituted today: our Molux Labs filing as an 
+                  LLC was accepted by the PA Department of State, Bureau of Corporations, and Charitable Organizations. 
+                  Molux Labs is devoted to unravelling and understanding the mysteries of forward-backward stochastic learning processes.
+                  A small step for a man, a big leap for <a href="https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797" target=blank>science, invention, and innovation!</a>'
+        highlight: false
+        date: Sept. 8, 2025
   - items: 'AbuduApple'
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 
