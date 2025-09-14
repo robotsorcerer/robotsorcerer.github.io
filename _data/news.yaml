@@ -2,7 +2,7 @@ news_items:
   - items: 'MoluxLabsLLC'
     subnewsitems:
       - content: 'A side-quest in the great commonwealth of Pennsylvania got instituted today: our Molux Labs filing as an 
-                  LLC was accepted by the PA Department of State, Bureau of Corporations, and Charitable Organizations. 
+                  LLC was accepted by the PA Department of State, Bureau of Corporations, and Charitable Organizations (with a pre-seed funding of $500k). 
                   Molux Labs is devoted to unravelling and understanding the mysteries of forward-backward stochastic learning processes.
                   A small step for a man, a big leap for <a href="https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797" target=blank>science, invention, and innovation!</a>'
         highlight: false
