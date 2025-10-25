@@ -32,7 +32,6 @@ Roboticist-scientist hybrid across the physical and virtual automation stack —
 </table>
  
 <a name="talks"></a>
-<!-- <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select Talks/Classes</h4> -->
 <h5><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Talk Highlights</h5>
 - [Towards Ubiquitous Robotics Automation](/downloads/Papers/RAI-Inst*dehsahotpyrc.pdf). The Robotics and AI Institute. Cambridge, MA. 09/25.
 - [State Representation in Reinforcement Learning](#). Google DeepMind Robotics, SF, CA. 08/25.
