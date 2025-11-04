@@ -1,11 +1,20 @@
 publications:  
+  - items: 'FairGNE'
+    paperitems:
+      - title: 'Fair-GNE: Enforcing Fairness Constraints in Multi-Agent Reinforcement Learning via Generalized Nash Equilibrium'
+        location: '#'
+        authors:
+          - Promise Ekpo, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
+        venue_web: 'https://sites.google.com/usc.edu/l4dc2026/'
+        venue: Learning for Dynamics and Control Conference, 2026
+        paper_status: Submitted 
+        year: November 2025
   - items: 'FairMARL'
     paperitems:
-      - title: 'When Should Agents Share Fairly? The MARLHospital Environment
-                  and FairSkill Multiagent Reinforcement learning'
-        location: 'downloads/Papers/FairMARL.pdf'
+      - title: 'Skill-Aligned Fairness in Multi-Agent Learning for Collaboration in Healthcare'
+        location: 'https://arxiv.org/pdf/2508.18708'
         authors:
-          - Promise Ekpo, El Claver Methvin, <b>Lekan Molu</b>, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>
+          - Promise Osaine Ekpo, Brian La, Thomas Wiener, Saesha Agarwal, Arshia Agrawal, Gonzalo Gonzalez-Pumariega, <b>Lekan Molu</b>, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>
         venue_web: 'https://aaai.org/conference/aaai/aaai-26/'
         venue: The 40th Annual AAAI COnference on Artificial Intelligence, 2026
         paper_status: Submitted 
