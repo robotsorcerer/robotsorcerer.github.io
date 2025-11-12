@@ -160,7 +160,7 @@ publications:
   - items: 'PCLAST'
     paperitems:
       - title: 'PCLAST: Discovering Plannable Continuous Latent States'
-        location: 'downloads/Papers/PCLAST.pdf'
+        location: 'https://arxiv.org/abs/2311.03534'
         authors:
           - Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, <b>Lekan Molu</b>, 
             Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb
@@ -204,7 +204,7 @@ publications:
   - items: 'LSD'
     paperitems:
       - title: 'Guaranteed discovery of controllable latent states with multi-step inverse models' #: Application to Cranial Cancer Radiation Therapy
-        location: downloads/Papers/ACState.pdf
+        location: https://arxiv.org/abs/2207.08229
         authors:
           - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, Akshay Krishnamurthy, John Langford.
         venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
