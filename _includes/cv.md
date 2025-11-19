@@ -37,7 +37,7 @@ Roboticist-scientist hybrid across the physical and virtual automation stack —
 - [State Representation in Reinforcement Learning](downloads/Papers/BostonDynamics.pdf). Google DeepMind Robotics, SF, CA. 08/25.
 - [System Identification for Planning in Reinforcement Learning](#). [Wayve Technologies Ltd.](https://wayve.ai/) London, UK. 08/25.  
 - [Embodied Intelligence in Open Embodiments](downloads/Papers/BostonDynamicsMain.pdf). Boston Dynamics, Inc. Waltham, MA. 08/25. [Appendix](/BostonDynamicsApp.pdf).
-- [Robustness and Efficient State Representation in Open Embodiments' Automation](#), META Reality Labs, SF. 07/25.
+- [Robustness and Efficient State Representation in Open Embodiments' Automation](downloads/Papers/Yale.pdf), META Reality Labs, SF. 07/25.
 - [Layered, hierarchical nonlinear control of soft robotic systems](downloads/Papers/McGill.pdf), McGill University Engineering/MILA. 11/24.
 - [On the Robustness and Convergence of Policy Optimization in Continuous-Time Mixed H2/H-infinity Stochastic Control](#), Yale University Engineering/CS Faculty, New Haven, Conn. 11/23.
 - [Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms](downloads/Papers/Yale.pdf), MSR Game Intelligence Group, Cambridge, UK. Fall 2023.
