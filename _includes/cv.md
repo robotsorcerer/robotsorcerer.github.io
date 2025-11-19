@@ -1,7 +1,9 @@
 
-> No fluff research science and engineering [ikigai](https://en.wikipedia.org/wiki/Ikigai). 
+<!-- > No fluff research science and engineering [ikigai](https://en.wikipedia.org/wiki/Ikigai).  -->
 
-Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots). <b>Topical lines of inquiry across my various research thrusts</b> include: distributed generalized Nash-equilibrium seeking games for real-world autonomous healthcare decision-making, diffusion sampling in infinite-dimensional spaces, robust policy optimization, reduced-order continuum modeling and control of soft robots, representation learning in large observation spaces, autonomous c-space exploration, Hamilton-Jacobi analysis for runtime assurance in autonomous systems.
+Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots). 
+
+**Research outlook snippet:** AI is a general-purpose technology with a potential for disruptive technological breakthroughs and the creation of new economic value chains. However, our scientific understanding and fundamental algorithmic mechanisms required to transform this emerging toolkit into  (embodied) _biological systems_ and _safety-critical physical infrastructure_ are far behind its ever-increasing engineering performance. I exert my scientific inquisition on embodied AI applications and seek answers to the big questions surrounding their safety, stability, robustness, reliability, and resilience (S23R) in safety-critical settings. In this sentiment, the <b>topical angles of attack within my research stack</b> encompass: distributed generalized Nash-equilibrium seeking games, diffusion sampling in infinite-dimensional spaces, robust policy optimization, reduced-order model and control of multi-arm and collaborative robots, representation learning in large observation spaces, autonomous c-space exploration, and Hamilton-Jacobi analysis for runtime assurance in complex autonomous systems (read: cyberphysical systems).
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 - Principal Researcher and Founder, Stealth Startup (2025 -- Present).
