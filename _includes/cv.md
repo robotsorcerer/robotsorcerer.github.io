@@ -1,7 +1,7 @@
 
 > No fluff research science and engineering [ikigai](https://en.wikipedia.org/wiki/Ikigai). 
 
-Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots).
+Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots). <b>Topical lines of inquiry across my various research thrusts</b> include: distributed generalized Nash-equilibrium seeking games for real-world autonomous healthcare decision-making, diffusion sampling in infinite-dimensional spaces, robust policy optimization, reduced-order continuum modeling and control of soft robots, representation learning in large observation spaces, autonomous c-space exploration, Hamilton-Jacobi analysis for runtime assurance in autonomous systems.
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
 - Principal Researcher and Founder, Stealth Startup (2025 -- Present).
