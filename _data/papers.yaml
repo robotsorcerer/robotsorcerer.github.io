@@ -2,7 +2,7 @@ publications:
   - items: 'FairGNE'
     paperitems:
       - title: 'Fair-GNE: Generalized Nash Equilibrium-Seeking Fairness in Multiagent Healthcare Automation'
-        location: '#'
+        location: 'https://arxiv.org/pdf/2511.14135'
         authors:
           - Promise Ekpo, Saesha Agarwal, Felix Grimm, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
         venue_web: 'https://sites.google.com/usc.edu/l4dc2026/'
