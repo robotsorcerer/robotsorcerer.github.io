@@ -1,7 +1,7 @@
 publications:  
-  -items: GNEP-Socio
+  - items: GNEP-Socio
     paperitems:
-      -title: 'An Agentic Game-Theoretic Formulation for Socio-technical Trauma Resuscitation'
+      - title: 'An Agentic Game-Theoretic Formulation for Socio-technical Trauma Resuscitation'
         location: 'downloads/Papers/IFACGNEP.pdf'
         authors:
           - <b>Lekan Molu</b>, Promise Ekpo, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>.
