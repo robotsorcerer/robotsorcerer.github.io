@@ -1,4 +1,14 @@
 publications:  
+  -items: GNEP-Socio
+    paperitems:
+      -title: 'An Agentic Game-Theoretic Formulation for Socio-technical Trauma Resuscitation'
+        location: 'downloads/Papers/IFACGNEP.pdf'
+        authors:
+          - <b>Lekan Molu</b>, Promise Ekpo, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>.
+        venue_web: 'https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm'
+        venue: International Federation of Automatic Control, World Congress 2026
+        paper_status: Submitted 
+        year: November 2025
   - items: 'FairGNE'
     paperitems:
       - title: 'Fair-GNE: Generalized Nash Equilibrium-Seeking Fairness in Multiagent Healthcare Automation'
