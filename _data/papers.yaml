@@ -2,7 +2,7 @@ publications:
   - items: GNEP-Socio
     paperitems:
       - title: 'A Generalized Nash Equilibrium-Seeking Scheme for Trauma Resuscitation'
-        location: 'downloads/Papers/IFAC26.pdf'
+        location: #'downloads/Papers/IFAC26.pdf'
         authors:
           - Promise Ekpo, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
         venue_web: 'https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm'
