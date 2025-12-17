@@ -1,11 +1,10 @@
 
 <!-- > No fluff research science and engineering [ikigai](https://en.wikipedia.org/wiki/Ikigai).  -->
 
-[Ikigai](https://en.wikipedia.org/wiki/Ikigai): Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots). 
+<!--[Ikigai](https://en.wikipedia.org/wiki/Ikigai): Roboticist-scientist hybrid across the physical and virtual automation stack — algorithmic theory and practice of AI, RL, ML, and control systems on automatons(read: robots). 
+-->
 
-**Research snippet:** AI is a general-purpose technology with potential for disruptive technological breakthroughs. Not a day goes by without it unfolding new (digital & real) value chains in society. Yet, our scientific understanding of the fundamental algorithmic mechanisms needed to transform this emerging technology into  provably safe and robust (embodied) safety-critical systems and infrastructure are far behind its empirical engineering performance.  In this sentiment, I exert my scientific research inquiry on agentic embodied AI systems --- with a particular emphasis on answers to big questions surrounding their **safety, stability, robustness, reliability, and resilience (S23R)** in safety-critical infrastructure. The <b>topical angles of attack within my research stack</b> encompass: diffusion sampling in infinite-dimensional spaces, data-driven optimal control, distributed generalized Nash-equilibrium seeking games, algorithms for runtime safety-assurance in human-robot environments, and collaborative automatons. Balanced and ballasted along the trajectories of these topical lines of inquiry, I am interested in runtime assurance tooling and orchestration mechanisms that imbue S23R guarantees in emerging large-scale embodied AI  systems. If you are interested in collaborating, please <a href="mailto:{{ site.email }}" class="author-social" target="_blank">shoot me an email <i class="fa fa-fw fa-envelope-o">.</i></a>
-
-<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Research Chronology</h4>
+<h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet</h4>
 - Principal Researcher and Founder, Stealth Startup (2025 -- Present).
 - Senior Researcher, Microsoft Research Lab (NYC), (2021 -- 2025).
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
@@ -16,6 +15,9 @@
 - Student, [The University of Texas at Dallas, School of Engineering](https://ecs.utdallas.edu/~opo140030/) (2014 - 2019).
 - Visiting Student, [UT Southwestern Medical Center, Medical Physics and Engineering](https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html)  (2014 - 2019).  
 - Student, [The University of Sheffield, Automatic Control and Systems Engineering](https://www.sheffield.ac.uk/acse) (Ended 2012/2013).
+
+**Research snippet:** AI is a general-purpose technology with potential for disruptive technological breakthroughs. Not a day goes by without it unfolding new (digital & real) value chains in society. Yet, our scientific understanding of the fundamental algorithmic mechanisms needed to transform this emerging technology into  provably safe and robust (embodied) safety-critical systems and infrastructure are far behind its empirical engineering performance.  In this sentiment, I exert my scientific research inquiry on agentic embodied AI systems --- with a particular emphasis on answers to big questions surrounding their **safety, stability, robustness, reliability, and resilience (S23R)** in safety-critical infrastructure. The <b>topical angles of attack within my research stack</b> encompass: diffusion sampling in infinite-dimensional spaces, data-driven optimal control, distributed generalized Nash-equilibrium seeking games, algorithms for runtime safety-assurance in human-robot environments, and collaborative automatons. Balanced and ballasted along the trajectories of these topical lines of inquiry, I am interested in runtime assurance tooling and orchestration mechanisms that imbue S23R guarantees in emerging large-scale embodied AI  systems. If you are interested in collaborating, please <a href="mailto:{{ site.email }}" class="author-social" target="_blank">shoot me an email <i class="fa fa-fw fa-envelope-o">.</i></a>
+
 
 <a name="news"></a>
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Select News Highlights</h4>
