@@ -19,16 +19,16 @@ publications:
         venue: Learning for Dynamics and Control Conference, 2026
         paper_status: Submitted 
         year: November 2025
-  - items: 'FairMARL'
-    paperitems:
-      - title: 'Skill-Aligned Fairness in Multi-Agent Learning for Collaboration in Healthcare'
-        location: 'https://arxiv.org/pdf/2508.18708'
-        authors:
-          - Promise Osaine Ekpo, Brian La, Thomas Wiener, Saesha Agarwal, Arshia Agrawal, Gonzalo Gonzalez-Pumariega, <b>Lekan Molu</b>, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>
-        venue_web: 'https://aaai.org/conference/aaai/aaai-26/'
-        venue: The 40th Annual AAAI Conference on Artificial Intelligence, 2026
-        paper_status: Submitted 
-        year: August 2025
+  # - items: 'FairMARL'
+  #   paperitems:
+  #     - title: 'Skill-Aligned Fairness in Multi-Agent Learning for Collaboration in Healthcare'
+  #       location: 'https://arxiv.org/pdf/2508.18708'
+  #       authors:
+  #         - Promise Osaine Ekpo, Brian La, Thomas Wiener, Saesha Agarwal, Arshia Agrawal, Gonzalo Gonzalez-Pumariega, <b>Lekan Molu</b>, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>
+  #       venue_web: 'https://aaai.org/conference/aaai/aaai-26/'
+  #       venue: The 40th Annual AAAI Conference on Artificial Intelligence, 2026
+  #       paper_status: Submitted 
+  #       year: August 2025
   - items: 'LevPyPDESupps'
     paperitems:
       - title: 'LevelSetPy Supplementary Results: Examples and Evaluations'
