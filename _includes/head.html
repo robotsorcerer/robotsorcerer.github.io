@@ -1,156 +1,26 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width,  initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} posts" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS -->
     <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link href="/vendor/css/font-awesome.min.css" rel="stylesheet">
     <link href="/vendor/css/academicons.min.css" rel="stylesheet">
     <link href="/vendor/pygments/default.css" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1" >
-            <div class="navbar-header">
-                <a href="/" class="navbar-brand">
-                    <div>
-                        <img src="/downloads/me-style.jpg" class="img-circle" alt="Me" style="width:30px;height:30px;" ></img>
-                        {{ site.title }}
-                    </div>
-                </a>
-              <button class="navbar-toggle" type="button" data-toggle="collapse"
-                      data-target="#navbar-main">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar-main">
-              <ul class="nav navbar-nav">
-
-
-                <div style="float:left; margin-top:24px; margin-left:20px;">
-                  <li><a href="/pubs.html" >Publications</a></li>
-                </div>
-
-<!--             	<li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="/research">Research</a>
-		              </div>
-              </li> -->
-
-		 <!--  <li>
-                 <div style="float:left; margin-top:24px; margin-left:40px;">
-                  <a href="https://scholar.google.com/citations?hl=en&user=JeUaqqEAAAAJ&view_op=list_works&sortby=pubdate&gmla=AJsN-F6SXHwmqpdryq1XhpghKBO5nDG2gawyIZ0_zIHHfLw4wkCVbjeOtHLmMwt9W3Bidml10EcD0KceVPP_KTJ-Hibhh6ctPddnI41q3New7otI0BYJvS0&sciund=7527907083408791488&gmla=AJsN-F5UoX8xKzT1Vvf29AJc4ee2uS1GMjbuUQRva8xtIA9dkKxkcUEWMhSgRCZU66RGIsW7ppCHAkO3Ds0CTOLZ-hksXlPBymtRTM2uFy5-zOsXZzX7QVI&sciund=17539276846630124055" target="_blank" ><i class="ai ai-google-scholar" style="width:20px;height:20px;"></i>
-
-       	   </a>
-       	   <a href="https://personal.utdallas.edu/~opo140030/talks.html" target="_blank">Talks/Videos</a>
-                 </div>
-               </li> -->
-
-                <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="{{ site.url }}/news">News</a>
-                </div></li>
-
-                <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="{{ site.url }}#mentor">Mentoring</a>
-                </div></li>
-
-                <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="{{ site.url }}#talks">Talks</a>
-                </div></li>
-<!-- 
-		            <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                  <a href="/blog">Blog</a>
-                  </div>
-                </li> -->
-
-                <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="{{ site.url }}#service">Service</a>
-                </div></li>
-
-                <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="/quotes">Quotes</a>
-                  </div>
-                </li>
-		
-                <li>
-                  <div style="float:left; margin-top:24px; margin-left:20px;">
-                    <a href="{{ site.url }}#sports">Sports</a>
-                </div></li>
-
-                <!-- <li><div style="float:left; margin-top:20px; margin-left:-50px;">
-                <a href="https://www.researchgate.net/profile/Olalekan_Ogunmolu" target="_blank" ><i class="ai ai-researchgate" style="width:40px;height:40px;"></i></a>
-                </div></li>
-
-                <li><div style="float:left; margin-top:20px; margin-left:-25px;">
-                <a href="https://www.mendeley.com/profiles/olalekan-ogunmolu/" target="_blank" ><i class="ai ai-mendeley" style="width:40px;height:40px;"></i></a>
-                </div></li>  
-    -->
-              </ul>
-
-
-              <ul>
-                 <!-- <a><div style="float:right; margin-top:24px; margin-right:20px;">
-                  <a href="/downloads/resume.pdf" target='_blank' class="fa fa-download">
-                    Resume
-                  </a>
-                  </div></a> -->
-<!--                   
-
-                  <a><div style="float:right; margin-top:24px; margin-right:20px;">
-                  <a href="/downloads/acad_cv.pdf" target='_blank' class="fa fa-download">
-                    CV
-                 </a>
-                  </div></a> -->
-
-                  <a><div style="float:right; margin-top:24px; margin-right:10px;">
-                  <a href="{{ "/atom.xml" | prepend: site.baseurl }}">
-                    <img src="/downloads/rssicon.svg" width="20">
-                  </a>
-                  </div></a>
-
-<!--                   <a><div style="float:right; margin-top:24px; margin-right:10px;">
-                    <a href="/about">About</a>
-                  </div></a>
- -->
-
-                  </div></a>
-
-              </ul>
-              <nav class="site-nav">
-                <a href="#" class="menu-icon">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
-                    <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
-                      h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-                    <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
-                      h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-                    <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
-                      c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-                  </svg>
-                </a>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
     <!-- Google Analytics -->
     <script>
@@ -161,5 +31,97 @@
       ga('create', 'UA-3698471-23', 'auto');
       ga('send', 'pageview');
     </script>
-
 </head>
+
+<body>
+
+<!-- ── Quick-Nav Overlay ── -->
+<div id="nav-overlay"></div>
+
+<!-- ── Quick-Nav Drawer Panel ── -->
+<div id="quick-nav-panel" role="navigation" aria-label="Quick navigation">
+  <span class="qnav-label">Main</span>
+  <ul>
+    <li><a href="/"><i class="fa fa-home fa-fw"></i> Home</a></li>
+    <li><a href="/news"><i class="fa fa-newspaper-o fa-fw"></i> News</a></li>
+    <li><a href="/#talks"><i class="fa fa-microphone fa-fw"></i> Talks</a></li>
+    <li><a href="/#mentor"><i class="fa fa-users fa-fw"></i> Mentoring</a></li>
+    <li><a href="/#service"><i class="fa fa-university fa-fw"></i> Service</a></li>
+    <li><a href="/quotes"><i class="fa fa-quote-left fa-fw"></i> Quotes</a></li>
+    <li><a href="/pubs.html"><i class="fa fa-book fa-fw"></i> Publications</a></li>
+  </ul>
+  <span class="qnav-label">Research Profiles</span>
+  <ul>
+    <li><a href="https://scholar.google.com/citations?user=JeUaqqEAAAAJ" target="_blank"><i class="ai ai-google-scholar fa-fw"></i> Google Scholar</a></li>
+    <li><a href="https://github.com/robotsorcerer" target="_blank"><i class="fa fa-github fa-fw"></i> GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/robotsorcerer" target="_blank"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+    <li><a href="mailto:lekanmolu@scriptedonachip.com"><i class="fa fa-envelope fa-fw"></i> Email</a></li>
+  </ul>
+</div>
+
+<!-- ── Quick-Nav Toggle Button ── -->
+<button id="quick-nav-toggle" aria-label="Toggle navigation panel" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<!-- ── Main Navbar ── -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/downloads/me-style.jpg" class="img-circle" alt="Lekan Molu" style="width:28px;height:28px;vertical-align:middle;">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li><a href="/pubs.html">Publications</a></li>
+        <li><a href="{{ site.url }}/news">News</a></li>
+        <li><a href="{{ site.url }}#talks">Talks</a></li>
+        <li><a href="{{ site.url }}#mentor">Mentoring</a></li>
+        <li><a href="{{ site.url }}#service">Service</a></li>
+        <li><a href="/quotes">Quotes</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li style="margin-top:14px;">
+          <a href="{{ "/atom.xml" | prepend: site.baseurl }}" title="RSS Feed">
+            <img src="/downloads/rssicon.svg" width="18" alt="RSS">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Quick-Nav JS -->
+<script>
+(function(){
+  var btn = document.getElementById('quick-nav-toggle');
+  var panel = document.getElementById('quick-nav-panel');
+  var overlay = document.getElementById('nav-overlay');
+  function openPanel(){
+    panel.classList.add('open');
+    overlay.classList.add('open');
+    btn.classList.add('open');
+    btn.setAttribute('aria-expanded','true');
+  }
+  function closePanel(){
+    panel.classList.remove('open');
+    overlay.classList.remove('open');
+    btn.classList.remove('open');
+    btn.setAttribute('aria-expanded','false');
+  }
+  btn.addEventListener('click', function(){
+    panel.classList.contains('open') ? closePanel() : openPanel();
+  });
+  overlay.addEventListener('click', closePanel);
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape') closePanel();
+  });
+})();
+</script>

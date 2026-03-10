@@ -1,103 +1,162 @@
-publications:  
+publications:
+  - items: 'InfDiff'
+    paperitems:
+      - title: 'Visuomotor Diffusion Policies in Infinite Dimensions'
+        location:
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web:
+        venue: Transactions on Robotics
+        paper_status: Submitted
+        year: 2026
+        thumbnail: /assets/thumbs/infdiff.jpg
+        abstract: >
+          Vision-conditioned diffusion models denoise probabilistic models of
+          infinite-dimensional stochastic processes in finite-dimensional algorithmic
+          settings. We frame visuomotor policy recovery as an inverse PDE stochastic
+          diffusion optimization in continuous-time and continuous states, prescribing
+          an ideal solution within the problem's natural infinite-dimensional fabric.
+          Characterizing the underlying structure as an inverse stochastic optimal
+          control problem, we provide learning machinery for consistent controllable
+          point-to-point generative sampling that enables downstream imitation learning
+          and behavior cloning in robot behavior models, with demonstrated improvements
+          on embodied physical systems.
+
+  - items: 'ICML26-HJReach'
+    paperitems:
+      - title: 'Approximate HJ Reachability via Importance Sampling'
+        location:
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web: 'https://icml.cc/Conferences/2026'
+        venue: International Conference on Machine Learning (ICML), 2026
+        paper_status: Submitted
+        year: 2026
+        thumbnail: /assets/thumbs/icml26.jpg
+        abstract: >
+          Computing safe reachable sets in verification settings via viscous Hamilton-Jacobi
+          (HJ) PDEs requires grid discretization of phase space, incurring exponential memory
+          costs. Linearizing the HJ PDE, we extend solutions to backward reach tubes and
+          reach-avoid tubes, and cast safe-set recovery as integration of a Gaussian process
+          that approximates the HJ variational PDE. The result is a storage-free, GPU-friendly
+          method for resolving safe reachable sets without the memory burden of grid
+          discretization.
+
   - items: GNEP-Socio
     paperitems:
       - title: 'A Generalized Nash Equilibrium-Seeking Scheme for Trauma Resuscitation'
-        location: #'downloads/Papers/IFAC26.pdf'
+        location: 'downloads/Papers/IFAC26.pdf'
         authors:
           - Promise Ekpo, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
         venue_web: 'https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm'
         venue: International Federation of Automatic Control, World Congress 2026
-        paper_status: Submitted 
+        paper_status: Submitted
         year: November 2025
-  - items: 'FairGNE'
-    paperitems:
-      - title: 'Fair-GNE: Generalized Nash Equilibrium-Seeking Fairness in Multiagent Healthcare Automation'
-        location: 'https://arxiv.org/pdf/2511.14135'
-        authors:
-          - Promise Ekpo, Saesha Agarwal, Felix Grimm, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
-        venue_web: 'https://sites.google.com/usc.edu/l4dc2026/'
-        venue: Learning for Dynamics and Control Conference, 2026
-        paper_status: Submitted 
-        year: November 2025
-  # - items: 'FairMARL'
+        abstract: >
+          We formulate trauma resuscitation as a multi-agent control problem and propose a
+          generalized Nash equilibrium-seeking policy that coordinates multiple clinical agents
+          under resource constraints, improving patient outcomes while satisfying safety and
+          fairness requirements.
+
+  # - items: 'FairGNE'
   #   paperitems:
-  #     - title: 'Skill-Aligned Fairness in Multi-Agent Learning for Collaboration in Healthcare'
-  #       location: 'https://arxiv.org/pdf/2508.18708'
+  #     - title: 'Fair-GNE: Generalized Nash Equilibrium-Seeking Fairness in Multiagent Healthcare Automation'
+  #       location: 'https://arxiv.org/pdf/2511.14135'
   #       authors:
-  #         - Promise Osaine Ekpo, Brian La, Thomas Wiener, Saesha Agarwal, Arshia Agrawal, Gonzalo Gonzalez-Pumariega, <b>Lekan Molu</b>, and <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>
-  #       venue_web: 'https://aaai.org/conference/aaai/aaai-26/'
-  #       venue: The 40th Annual AAAI Conference on Artificial Intelligence, 2026
-  #       paper_status: Submitted 
-  #       year: August 2025
+  #         - Promise Ekpo, Saesha Agarwal, Felix Grimm, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
+  #       venue_web: 'https://sites.google.com/usc.edu/l4dc2026/'
+  #       venue: Learning for Dynamics and Control Conference, 2026
+  #       paper_status: Submitted
+  #       year: November 2025
+  #       abstract: >
+  #         Multi-agent automation in healthcare must balance efficiency with equity.
+  #         We introduce Fair-GNE, a generalized Nash equilibrium framework that embeds
+  #         fairness constraints into decentralized policy optimization, ensuring equitable
+  #         resource allocation across heterogeneous patient populations in automated clinical pipelines.
+
   - items: 'LevPyPDESupps'
     paperitems:
       - title: 'LevelSetPy Supplementary Results: Examples and Evaluations'
         location: 'downloads/Papers/toms_supplementary.pdf'
-        authors: 
+        authors:
           - <b>Lekan Molu</b>.
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software | Research Paper
         paper_status: Accepted
-        year: July 2025       
+        year: July 2025
+        thumbnail: /assets/thumbs/toms_supp.jpg
+        abstract: >
+          Supplementary material accompanying LevelSetPy, providing extended benchmark
+          evaluations, numerical examples, and performance comparisons against MATLAB
+          toolbox baselines on Hamilton-Jacobi reachability problems in up to six dimensions.
+
   - items: 'LevPyPDE'
     paperitems:
       - title: 'LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations'
         location: 'downloads/Papers/levelsetpy.pdf'
-        authors: 
+        authors:
           - <b>Lekan Molu</b>.
         venue_web: 'https://dl.acm.org/journal/toms'
         venue: ACM Transactions on Mathematical Software | Research Paper
         paper_status: Accepted
-        year: March 2025 
+        year: March 2025
+        thumbnail: /assets/thumbs/levelsetpy.jpg
+        abstract: >
+          LevelSetPy is a Python package for numerically solving hyperbolic Hamilton-Jacobi
+          PDEs that arise in reachability analysis and level set methods. Leveraging JAX-based
+          GPU acceleration, it achieves order-of-magnitude speedups over the standard MATLAB
+          toolbox while providing a modern, differentiable programming interface for robotics
+          and control researchers.
+
   - items: 'CFree!'
     paperitems:
-      - title: 'A Fast Universal Collision-free Agentic Model: Compact Illusory  Representation and Memory-Efficient Incremental Mapping'
+      - title: 'A Fast Universal Collision-free Agentic Model: Compact Illusory Representation and Memory-Efficient Incremental Mapping'
         authors:
           - <b>Lekan Molu</b>, Abulikemu Abuduweili, Dean Fortier, Jun Takamatsu, Elise van der Pol, Naoki Wake, and Katsu Ikeuchi
-        location: /downloads/Papers/CFree.pdf
+        location: downloads/Papers/CFree.pdf
         venue: Science Robotics
         paper_status: Submitted
         year: April 2025
+        thumbnail: /assets/thumbs/cfree.jpg
+        abstract: >
+          We present a universal collision-free planner for open-embodiment robots that
+          combines compact implicit scene representations with memory-efficient incremental
+          occupancy mapping. The method generalizes across robot morphologies without
+          retraining and achieves real-time planning in cluttered, partially observed environments.
+
   - items: 'MultiPPOSafe!'
     paperitems:
       - title: 'Multi-agent Policy Optimization: Optimality, Robustness, Safety, and Generalized Nash Equilibrium.'
         location: /downloads/Papers/MPPO.pdf
         authors:
           - Others and <b>Lekan Molu</b>
-        venue_web: 
-        venue: 
+        venue_web:
+        venue:
         paper_status: Submitted
         year: June 2025
-  - items: 'SampleReach!'
-    paperitems:
-      - title: 'Computing Reachable Sets via Nonconvex Optimization of Viscous Hamilton-Jacobi PDEs'
-        location: /downloads/Papers/ProxSampReach.pdf
-        authors:
-          - <b>Lekan Molu</b>, <a href="https://venkatramanrenganathan.github.io/" target=blank>Venkatraman Reganathan</a>, Haoxiang You, <a href="https://www.cranfield.ac.uk/people/dr-namhoon-cho-30019838" target=blank>Namhoon Cho</a>, and Ian Abraham
-        venue_web: 
-        venue: 
-        paper_status: Submitted
-        year: April 2025
-  - items: 'SampleReachHopf-Lax!'
-    paperitems:
-      - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
-        location: /downloads/Papers/ProxSampReachNonViscous.pdf
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: 
-        venue: 
-        paper_status: Submitted
-        year: April 2025
-  # - items: 'SoRoIdent!'
+        thumbnail: /assets/thumbs/mppo.jpg
+        abstract: >
+          We develop a theoretical framework for multi-agent proximal policy optimization
+          that simultaneously provides convergence guarantees, robustness certificates,
+          constraint satisfaction for safety, and convergence to generalized Nash equilibria
+          in mixed cooperative-competitive settings.
+
+  # - items: 'SampleReachHopf-Lax!'
   #   paperitems:
-  #     - title: 'On the Number Synthesis for  Parameters Identification in Deformable Robots'
-  #       location: Rio de Janeirio, Brazil
+  #     - title: 'Hopf-Lax Nonconvex Optimization of Reachable Sets on Non-viscous Hamilton-Jacobi PDEs'
+  #       location: /downloads/Papers/ProxSampReachNonViscous.pdf
   #       authors:
-  #         - <b>Lekan Molu.</b> 
-  #       venue_web: /downloads/Papers/SoRoIdent.pdf
-  #       venue: IEEE 64th Conference on Control and Decision
+  #         - <b>Lekan Molu.</b>
+  #       venue_web:
+  #       venue:
   #       paper_status: Submitted
-  #       year: March 2025
+  #       year: April 2025
+  #       abstract: >
+  #         Extending reachability computation to the non-viscous (inviscid) regime via the
+  #         Hopf-Lax formula, we derive a nonconvex optimization scheme whose solutions
+  #         correspond to exact viscosity solutions of the Hamilton-Jacobi equation,
+  #         enabling formally correct reachable set computation without numerical diffusion.
+
   - items: 'PSDNets'
     paperitems:
       - title: 'Is the Bellman Equation Enough for Learning Control?'
@@ -106,88 +165,134 @@ publications:
           - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
         venue_web: 'https://irl-conference.cc'
         venue: Reinforcement Learning Theory Conference, 2025
-        paper_status: Submitted 
+        paper_status: Submitted
         year: March 2025
-  - items: 'MasterCollide'
-    paperitems:
-      - title: 'Mastering Collision-free Planning via Convex Decomposition and Neural Networks'
-        authors:
-          - <b>Lekan Molu.</b> 
-        location: https://www.science.org/journal/scirobotics
-        venue: Science Robotics
-        paper_status: Submitted
-        year: April 2025
-  - items: 'GNEP!'
-    paperitems:
-      - title: 'A Generalized Nash Equilibrium Policy for Large Scale Multi-agent Systems'
-        location: Rio de Janeirio, Brazil
-        authors:
-          - <b>Lekan Molu.</b> 
-        venue_web: /downloads/Papers/GNEP_PNAS.pdf
-        venue: Proceedings of the National Academy of Sciences
-        paper_status: Submitted
-        year: April 2025
+        thumbnail: /assets/thumbs/haoxiang.jpg
+        abstract: >
+          We investigate whether value function approximation via Bellman residual
+          minimization is sufficient for stable and optimal control. Examining
+          failure modes in continuous-time systems, we identify conditions under which
+          the Bellman equation is necessary but not sufficient, and propose an
+          augmented PSD-constrained network architecture that recovers stability guarantees.
+
+  # - items: 'MasterCollide'
+  #   paperitems:
+  #     - title: 'Mastering Collision-free Planning via Convex Decomposition and Neural Networks'
+  #       authors:
+  #         - <b>Lekan Molu.</b>
+  #       location: https://www.science.org/journal/scirobotics
+  #       venue: Science Robotics
+  #       paper_status: Submitted
+  #       year: April 2025
+  #       abstract: >
+  #         We propose a learned collision-free planner that decomposes the free configuration
+  #         space into convex regions and trains a neural network policy to navigate between
+  #         them. The approach achieves near-optimal trajectories with hard collision-avoidance
+  #         guarantees and generalizes across novel obstacle configurations at test time.
+
+  # - items: 'GNEP!'
+  #   paperitems:
+  #     - title: 'A Generalized Nash Equilibrium Policy for Large Scale Multi-agent Systems'
+  #       location: /downloads/Papers/GNEP_PNAS.pdf
+  #       authors:
+  #         - <b>Lekan Molu.</b>
+  #       venue_web: https://www.pnas.org
+  #       venue: Proceedings of the National Academy of Sciences
+  #       paper_status: Submitted
+  #       year: April 2025
+  #       abstract: >
+  #         We derive a scalable generalized Nash equilibrium policy for multi-agent systems
+  #         with shared constraints, proving convergence to equilibrium under mild assumptions.
+  #         The policy is computed via a distributed primal-dual algorithm and is validated on
+  #         large-scale robotic coordination and resource allocation benchmarks.
+
   - items: 'SoRoSPT'
     paperitems:
       - title: 'Fast Whole-Body Strain Regulation in Continuum Robots'
         location: 'downloads/Papers/SoRoSPT.pdf'
         authors:
-          - <b>Lekan Molu</b>. 
+          - <b>Lekan Molu</b>.
         venue_web: 'https://acc2025.a2c2.org/'
         venue: American Control Conference (ACC), Denver, CO
         paper_status: Accepted
         year: June 2025
+        thumbnail: /assets/thumbs/sorospt.jpg
+        abstract: >
+          We present a singularly-perturbed backstepping controller for whole-body strain
+          regulation in multi-section continuum robots modeled by discrete Cosserat rods.
+          The composite fast-slow design decouples the bending and shear strain dynamics,
+          achieving convergence guarantees and superior transient performance compared to
+          monolithic control laws.
+
   - items: 'LevPy'
     paperitems:
       - title: 'The Python LevelSet Toolbox (LevelSetPy)'
         location: 'downloads/Papers/levelsetpy_cdc.pdf'
         authors:
-          - <b>Lekan Molu</b>. 
+          - <b>Lekan Molu</b>.
         venue_web: 'https://cdc2024.ieeecss.org/'
         venue: Conference on Decision and Control (CDC), Milano, Italia
-        paper_status: Accepted 
+        paper_status: Accepted
         year: December 2024
+        thumbnail: /assets/thumbs/levelsetpy_cdc.jpg
+        abstract: >
+          This paper introduces LevelSetPy, a Python-native reimplementation of the
+          Hamilton-Jacobi reachability toolbox with GPU support via JAX. We demonstrate
+          its correctness and efficiency on canonical pursuit-evasion games and
+          high-dimensional reachability problems relevant to autonomous systems.
+
   - items: 'SoRoPD'
     paperitems:
       - title: 'Structural Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods'
         location: 'downloads/Papers/SoRoPD.pdf'
         authors:
-          - <b>Lekan Molu</b> and Shaoru Chen. 
+          - <b>Lekan Molu</b> and <a href="https://shaoruchen.github.io">Shaoru Chen</a>.
         venue_web: 'https://cdc2024.ieeecss.org/'
         venue: Conference on Decision and Control (CDC), Milano, Italia
-        paper_status: Accepted 
+        paper_status: Accepted
         year: December 2024
+        thumbnail: /assets/thumbs/soropd.jpg
+        abstract: >
+          We analyze the structural (controllability, observability, and passivity) properties
+          of multi-section soft robots modeled by discrete Cosserat rod theory. Exploiting
+          these properties, we design an energy-based controller with provable stability
+          guarantees and validate it in simulation on a three-section planar manipulator.
+
   - items: 'VecNN'
     paperitems:
       - title: 'Verification-aided Learning Neural Network Barrier Functions with Termination Guarantees'
         location: 'https://arxiv.org/pdf/2403.07308.pdf'
         authors:
-          - Shaoru Chen, <b>Lekan Molu</b>, and Mahyar Fazlyab. 
+          - <a href="https://shaoruchen.github.io">Shaoru Chen</a>, <b>Lekan Molu</b>, and <a href="https://www.seas.upenn.edu/~mfazlyab/">Mahyar Fazlyab</a>.
         venue_web: 'https://acc2024.a2c2.org/'
         venue: American Control Conference (ACC), Toronto, ON
-        paper_status: Accepted 
+        paper_status: Accepted
         year: May 2024
+        thumbnail: /assets/thumbs/vecnn.jpg
+        abstract: >
+          We propose a counterexample-guided training procedure for neural network barrier
+          functions that incorporates a formal verifier in the training loop. The algorithm
+          terminates with a certificate of correctness and significantly reduces the barrier
+          function training time compared to purely adversarial approaches.
+
   - items: 'PCLAST'
     paperitems:
       - title: 'PCLAST: Discovering Plannable Continuous Latent States'
         location: 'https://arxiv.org/abs/2311.03534'
         authors:
-          - Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, <b>Lekan Molu</b>, 
+          - Anurag Koul, Shivakanth Sujit, <a href="https://shaoruchen.github.io">Shaoru Chen</a>, Ben Evans, Lili Wu, <b>Lekan Molu</b>,
             Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudík, John Langford, Alex Lamb
         venue_web: 'https://iclr.cc/'
         venue: International Conference on Learning Representations (ICLR)
         paper_status: Accepted
         year: September 2023
-  # - items: 'Cosserat'
-  #   paperitems:
-  #     - title: 'Boundary Control of Multisection Soft Manipulators Described by Discrete Cosserat Dynamics'
-  #       authors:
-  #         - <b>Lekan Molu</b>*, Gilbert Bahati, Audrey Sedal #, and Aaron Ames.
-  #       location: /downloads/Papers/lcss23.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters
-  #       paper_status: Manuscript
-  #       year: April 2023        
+        thumbnail: /assets/thumbs/pclast.jpg
+        abstract: >
+          PCLAST learns a continuous latent state space from high-dimensional observations
+          in which planning with simple interpolation is provably correct. By optimizing for
+          topological planability rather than reconstruction fidelity, the learned
+          representations support reliable goal-conditioned planning in complex visual
+          environments without environment-specific reward engineering.
 
   - items: 'MixedH2IFAC'
     paperitems:
@@ -199,29 +304,49 @@ publications:
         venue: 'World Congress, International Federation of Automatic Control, Yokohama, Japan'
         paper_status: Accepted
         year: July 2023
+        thumbnail: /assets/thumbs/ifac.jpg
+        abstract: >
+          We formulate and solve a continuous-time mixed H2/H-infinity reinforcement learning
+          problem for output-feedback control synthesis without a known system model.
+          The algorithm iterates policy evaluation and improvement steps on data collected
+          from the system, converging to an optimal robust policy under disturbance attenuation
+          constraints.
 
   - items: 'MixedH2'
     paperitems:
-      - title: 'Robust Policy Optimization in  Continuous-time Mixed H2/H-Infinity Stochastic Control' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Robust Policy Optimization in Continuous-time Mixed H2/H-Infinity Stochastic Control'
         location: /downloads/Papers/h2hinf.pdf
         authors:
           - Leilei Cui and <b>Lekan Molu.</b>
-        venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
+        venue_web: https://arxiv.org
         venue: Arxiv
         paper_status: Accepted
         year: April 2023
+        thumbnail: /assets/thumbs/h2hinf.jpg
+        abstract: >
+          We study robust policy optimization in continuous-time stochastic systems under
+          the mixed H2/H-infinity performance criterion. Combining stochastic differential
+          equation theory with modern policy gradient methods, we derive convergence rates
+          and demonstrate improved robustness to model uncertainty in uncertain dynamical
+          systems arising in robotics and medical automation.
 
   - items: 'LSD'
     paperitems:
-      - title: 'Guaranteed discovery of controllable latent states with multi-step inverse models' #: Application to Cranial Cancer Radiation Therapy
+      - title: 'Guaranteed discovery of controllable latent states with multi-step inverse models'
         location: https://arxiv.org/abs/2207.08229
         authors:
           - Alex Lamb, Riashat Islam, Yonathan Efroni, Aniket Didolkar, Dipendra Misra, Dylan Foster, <b>Lekan Molu</b>, Rajan Chari, Akshay Krishnamurthy, John Langford.
-        venue_web: arxiv #http://ieeecss.org/publication/transactions-automatic-control
+        venue_web: https://jmlr.org/tmlr/
         venue: Transactions in Machine Learning Research
         paper_status: Accepted
-        year: December 2022        
-        
+        year: December 2022
+        thumbnail: /assets/thumbs/lsd.jpg
+        abstract: >
+          We prove that multi-step inverse dynamics models recover controllable latent
+          state representations with provable guarantees under a rich-observation MDP
+          assumption. The theoretical analysis resolves an open question on when
+          self-supervised representation learning methods succeed for downstream control tasks.
+
   - items: 'ComplexBRAT!'
     paperitems:
       - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
@@ -232,105 +357,49 @@ publications:
         paper_status: Manuscript
         year: 2025
 
-  # - items: 'ComplexBRAT!'
-  #   paperitems:
-  #     - title: 'Planning in Non-Metric Spaces: Pointwise boundedness, Optimality, Stability, and Convergence'
-  #       authors:
-  #         -  <b>Lekan Molu*</b>.
-  #       venue_web: http://ijrr.org
-  #       venue: The International Journal of Robotics Research
-  #       paper_status: Manuscript
-  #       year: April 2023
-
-  # - items: 'DDPReach'
-  #   paperitems:
-  #     - title: 'A Second-Order Reachable Sets Computational Scheme for a Cauchy-type Variational Hamilton-Jacobi Isaacs Equation'
-  #       authors:
-  #         - <b>Lekan Molu.</b> # and Sylvia Herbert.
-  #       location: downloads/Papers/ddpreach.pdf
-  #       venue_web: https://roboticsconference.org/
-  #       venue: CDC
-  #       paper_status: Manuscript
-  #       year: 2023
-  # - items: 'TAC!'
-  #   paperitems:
-  #     - title: 'Proper Generalized Decomposition for a Class of Complex Controllability Problems' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/PGDReach.pdf
-  #       authors:
-  #         - <b>Lekan Molu.</b>
-  #       venue_web: http://ieeecss.org/publication/transactions-automatic-control
-  #       venue: Transactions in Automatic Control
-  #       paper_status: Manuscript
-  #       year: Fall 2022
-
-
   - items: IGL2
     paperitems:
       - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
         location: https://arxiv.org/abs/2206.08364
         authors:
-          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Lekan Molu</b>, 
+          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Lekan Molu</b>,
             Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
-        venue_web: https://arxiv.org/abs/2206.08364
-        venue: Neural Information Processing Systems (Neurips)
+        venue_web: https://neurips.cc/
+        venue: Neural Information Processing Systems (NeurIPS)
         paper_status: Accepted
-        year: May 2022  
+        year: May 2022
+        thumbnail: /assets/thumbs/igl.jpg
+        abstract: >
+          We extend interaction-grounded learning (IGL) to settings where actions affect
+          the feedback signal itself. By incorporating action-inclusive feedback into the IGL
+          framework, we derive provably efficient algorithms for learning reward-free
+          representations and policies in partially observable environments, with
+          applications to healthcare decision support.
 
-  # - items: 'KineCont!'
-  #   paperitems:
-  #     - title: 'Dynamics and Control of a Compliant In-Parallel-Actuated Mechanism' #: Application to Cranial Cancer Radiation Therapy
-  #       location: /downloads/Papers/kinecontrol.pdf
-  #       authors:
-  #         - <b>Lekan Molu.</b>
-  #       venue_web: https://asmedigitalcollection.asme.org/mechanismsrobotics
-  #       venue: arxiv
-  #       paper_status: Manuscript
-  #       year: September 2021
-
-  # - items: 'CompPhys!'
-  #   paperitems:
-  #     - title: 'A Constitutive Representation of the Viscosity Solutions of Dirichlet-type Hamilton-Jacobi Equations' #: Application to Cranial Cancer Radiation Therap
-  #       location: /downloads/Papers/ConsitutiveContinuum.pdf
-  #       authors:
-  #         - <b>Lekan Molu</b>. #. #Ian Abraham, and Sylvia Herbert
-  #       venue_web: https://www.journals.elsevier.com/journal-of-computational-physics
-  #       venue: Journal of Computational Physics
-  #       paper_status: Manuscript
-  #       year: Summer 2022
-
-  # - items: 'Constitutive Neural Networks, <i>Redux</i>!'
-  #   paperitems:
-  #     - title: 'Constitutive Neural Networks, <i>Redux</i>'
-  #       authors:
-  #         - <b>Lekan Molu</b>
-  #       venue_web: https://roboticsconference.org/
-  #       venue: Robotics and Automation Letters (with IROS Option)
-  #       paper_status: Manuscript
-  #       year: February 2023
-
-  - items: IGL2
+  - items: IGL2-Workshop
     paperitems:
       - title: 'Interaction-Grounded Learning with Action-inclusive Feedback'
-        location: ICML Workshop on Complex Feedback in Online Learning 2022
+        location: https://arxiv.org/abs/2206.08364
         authors:
-          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Lekan Molu</b>, 
+          - Tengyang Xie, Akanksha Saran, Dylan J Foster, <b>Lekan Molu</b>,
             Ida Momennejad, Nan Jiang, Paul Mineiro, and John Langford.
-        venue_web: Neural Information Processing Systems 
-        venue: https://arxiv.org/abs/2206.08364
+        venue_web: https://arxiv.org/abs/2206.08364
+        venue: ICML Workshop on Complex Feedback in Online Learning 2022
         paper_status: Oral
-        year: May 2022  
+        year: May 2022
 
   - items: 'AAPM21b!'
     paperitems:
       - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
-        location: 
+        location:
         authors:
           - <b>Olalekan Ogunmolu</b>, and
           - Rodney Wiersma
-        venue_web:   
+        venue_web:
         venue: Oral Presentation at <i>Medical Physics  47 (6)(AAPM)</i> E328-E328. Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
         year: May 2021
         paper_status: Oral
+
   - items: 'ICRA2019!'
     paperitems:
       - title: Mechanism and Model of a Soft Robot for Head Stabilization in Cancer Radiation Therapy
@@ -344,15 +413,23 @@ publications:
         venue: IEEE International Conference on Robotics and Automation (ICRA), Paris, France
         paper_status: Accepted
         year: May 2020
+        thumbnail: /assets/thumbs/icra20.jpg
         video: /downloads/Papers/icra20.mp4
+        abstract: >
+          We present the mechanical design, kinematic modeling, and experimental validation
+          of a soft pneumatic robot that immobilizes a patient's head during frameless
+          MRI-guided radiation therapy. The mechanism compensates for involuntary motion
+          in real time using a vision-based feedback loop, reducing positioning error
+          to sub-millimeter accuracy.
+
   - items: 'AAPM20!'
     paperitems:
       - title: 'Towards Closed-Loop Control Head Motion Correction with Soft Actuators in MRI-LINAC Systems'
-        location: 
+        location:
         authors:
           - <b>Olalekan Ogunmolu</b>, and
           - Rodney Wiersma
-        venue_web:   
+        venue_web:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6). Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
         year: May 2020
         paper_status: Oral
@@ -360,13 +437,21 @@ publications:
   - items: 'Thesis!'
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
-                Beam Orientation Selection  in Cancer Radiation Therapy
+                Beam Orientation Selection in Cancer Radiation Therapy
         location: /downloads/Papers/PhDThesis.pdf
         authors: <b>Olalekan Ogunmolu</b>
         venue_web: https://www.utsouthwestern.edu/
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
         paper_status: Accepted
-        year: May, 2019
+        year: May 2019
+        thumbnail: /assets/thumbs/phdthesis.jpg
+        abstract: >
+          This dissertation develops a multi-degree-of-freedom soft robotic system for
+          real-time patient positioning and beam orientation selection in intensity-modulated
+          radiation therapy (IMRT). Contributions include continuum robot modeling via Cosserat
+          rod theory, neuro-adaptive control for 6-DOF pose correction, deep reinforcement
+          learning for beam angle optimization, and clinical validation on a CyberKnife platform.
+
   - items: 'AIRT2019!'
     paperitems:
       - title: Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy
@@ -380,62 +465,12 @@ publications:
         venue: Artificial Intelligence in Radiation Therapy, Lecture Notes in Comp. Sci. © Springer Nature
         paper_status: Accepted
         year: Switzerland AG 2019
+        thumbnail: /assets/thumbs/airt2019.jpg
 
-  - items: 'AAPM2019'
-    paperitems:
-      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach'
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Dan Nguyen,
-          - Chenyang Shen,
-          - Xun Jia,
-          - Weiguo Lu, and
-          - Nick Gans,
-        venue_web:
-        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
-        paper_status: Accepted Abstract
-        year: July 2018
-  - items: 'ICCR19!'
-    paperitems:
-      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
-        location: '/404'
-        authors:
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen.
-        venue_web: http://iccr-mcma.org/iccr2019/
-        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
-        year:  Montreal, CA. June 2019
-        paper_status: Accepted
-  - items: 'AAPM20'
-    paperitems:
-      - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>,  and
-          - Rodney Wiersma.
-        venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
-        paper_status: Oral
-        year: June 2020
-  - items: 'AAPM20Workspace'
-    paperitems:
-      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
-        location: #/downloads/Papers/ContinuumI.pdf
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Xinmin Liu, and
-          - Rodney Wiersma.
-        venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
-        venue: ePoster at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
-        paper_status: Accepted Abstract
-        year: June 2020
   - items: 'MedPhys!'
     paperitems:
       - title: 'A Fast Deep Learning Approach for Beam Orientation Selection in Cancer Patients'
-        location: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.13986 # https://www.researchgate.net/publication/332832385_A_Fast_Deep_Learning_Approach_for_Beam_Orientation_Optimization_for_Prostate_Cancer_IMRT_Treatments
+        location: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.13986
         authors:
           - Azar Sadeghnejad Barkousaraie,
           - <b>Olalekan Ogunmolu</b>,
@@ -443,13 +478,18 @@ publications:
           - Dan Nguyen.
         venue_web: https://www.medphys.org/
         venue: The International Journal of Medical Physics Research and Practice
-        year: December, 2019
+        year: December 2019
         paper_status: Accepted
+        abstract: >
+          We present a convolutional neural network that predicts near-optimal beam
+          orientations for IMRT prostate cancer treatment plans in under one second,
+          matching the quality of column-generation-based optimization while reducing
+          planning time by two orders of magnitude.
+
   - items: 'WAFR18!'
     paperitems:
-      - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity
-                Modulated Radiation Therapy'
-        location: https://easychair.org/publications/preprint_open/b6vM #'https://easychair.org/publications/preprint/LGsv'
+      - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity Modulated Radiation Therapy'
+        location: https://easychair.org/publications/preprint_open/b6vM
         authors:
           - <b>Olalekan Ogunmolu</b>,
           - Michael Folkerts,
@@ -459,22 +499,37 @@ publications:
         venue: Workshop on Algorithm Foundations of Robotics, XIII. Published in Springer's Proceedings in Advanced Robotics (SPAR) Book
         year: 2019
         paper_status: Accepted
+        thumbnail: /assets/thumbs/wafr.jpg
+        abstract: >
+          We frame beam orientation optimization (BOO) in radiation therapy as a sequential
+          decision problem and train a deep neural network policy using imitation learning
+          from a column-generation solver. The learned policy selects coplanar and
+          non-coplanar beam configurations that rival expert-optimized plans while running
+          in real time.
+
   - items: 'IROS18!'
     paperitems:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
-        location: 'downloads/Papers/IROS18.pdf' #'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html#/'
+        location: 'downloads/Papers/IROS18.pdf'
         authors:
           - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
           - Tyler Summers.
         venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-        year: Madrid. 2018
+        year: Madrid 2018
         paper_status: Accepted
+        thumbnail: /assets/thumbs/iros18.jpg
+        abstract: >
+          We present a minimax iterative dynamic game algorithm for robust nonlinear robot
+          control under adversarial perturbations. The method frames the control problem as
+          a two-player zero-sum game and computes feedback policies via saddle-point
+          iterations on the Hamilton-Jacobi-Isaacs equation, achieving superior robustness
+          on a 6-DOF arm tracking task compared to standard optimal control baselines.
+
   - items: 'IROS17!'
     paperitems:
-      - title: 'Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose
-                Correction System For Frameless and Maskless Cancer Radiotherapy'
+      - title: 'Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose Correction System For Frameless and Maskless Cancer Radiotherapy'
         location: https://ieeexplore.ieee.org/abstract/document/8206211
         authors:
           - <b>Olalekan Ogunmolu</b>,
@@ -483,10 +538,18 @@ publications:
           - Xuejun Gu,
           - Steve Jiang, and
           - Nick Gans.
-        venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
+        venue_web: 'https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/iros'
         venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-        year: Vancouver, BC. 2017
+        year: Vancouver, BC 2017
         paper_status: Accepted
+        thumbnail: /assets/thumbs/iros17.jpg
+        abstract: >
+          Soft-NeuroAdapt is a three-degree-of-freedom soft actuator system coupled with a
+          neuro-adaptive controller that corrects patient head pose in real time for maskless
+          frameless cancer radiotherapy. The neural adaptive law compensates for actuator
+          and tissue nonlinearities, achieving sub-millimeter positioning accuracy without
+          requiring a rigid fixation mask.
+
   - items: 'SPIE18!'
     paperitems:
       - title: 'Design and Development of A Soft Robot for Head and Neck Cancer Radiotherapy'
@@ -503,16 +566,48 @@ publications:
         venue: 'SPIE: Smart Structures + Nondestructive Evaluation'
         year: Denver, CO, U.S.A. March 2018
         paper_status: Accepted
-  - items: 'Springer2019!'
+        thumbnail: /assets/thumbs/spie.jpg
+
+  - items: 'CASE16!'
     paperitems:
-      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
-        location: #/downloads/Papers/Springer19.pdf
+      - title: 'Vision-based Control of a Soft Robot for Maskless Cancer Radiotherapy'
+        location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf'
         authors:
-          - <b>Olalekan Ogunmolu</b>
-        venue_web:
-        venue: # © Springer (Invited Book Chapter)
-        paper_status: Technical Report
-        year: 2019
+          - <b>Olalekan Ogunmolu</b>,
+          - Xuejun Gu,
+          - Steve Jiang, and
+          - Nick Gans.
+        venue_web: https://ieeexplore.ieee.org/document/7743378
+        venue: IEEE Conference on Automation Science and Engineering (CASE)
+        year: Fort-Worth, Texas, August 2016
+        paper_status: Accepted
+        thumbnail: /assets/thumbs/case2016.jpg
+        abstract: >
+          We present a vision-based closed-loop control architecture for a pneumatic soft
+          robot that positions a patient's head during maskless cancer radiotherapy. A
+          model-free adaptive controller uses real-time pose feedback from a stereo camera
+          to drive positioning error below the clinical tolerance of 1 mm.
+
+  - items: 'CASE15!'
+    paperitems:
+      - title: 'A Real-Time Soft-Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy'
+        location: https://ieeexplore.ieee.org/document/7294318
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Xuejun Gu,
+          - Steve Jiang, and
+          - Nick Gans.
+        venue_web: 'http://ewh.ieee.org/soc/ras/conf/FullySponsored/CASE/2015/case2015.org/index.html'
+        venue: IEEE Conference on Automation Science and Engineering (CASE)
+        year: Gothenburg, Sweden, August 2015
+        paper_status: Accepted
+        thumbnail: /assets/thumbs/case2015.jpg
+        abstract: >
+          We describe the first real-time soft-robotic patient positioning system for
+          maskless head-and-neck cancer radiotherapy, demonstrating a proof-of-concept
+          platform that uses pneumatic actuators and image-based feedback to maintain
+          sub-millimeter positioning accuracy during treatment fractions.
+
   - items: 'ZeroSum!'
     paperitems:
       - title: 'Robust Zero-Sum Deep Reinforcement Learning'
@@ -523,8 +618,14 @@ publications:
           - Tyler Summers.
         venue_web: https://arxiv.org
         venue: arXiv
-        year:  2017
+        year: 2017
         paper_status: Technical Report
+        abstract: >
+          We develop a deep reinforcement learning algorithm for zero-sum two-player games
+          that is robust to function approximation errors and sparse rewards. The approach
+          uses adversarial training and minimax Q-learning, achieving stronger worst-case
+          guarantees than standard DRL baselines on robotic manipulation and locomotion tasks.
+
   - items: 'Ident!'
     paperitems:
       - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
@@ -536,93 +637,30 @@ publications:
           - Nick Gans.
         venue_web: https://arxiv.org
         venue: arXiv
-        year:  2016
+        year: 2016
         paper_status: Technical Report
-  - items: 'CASE16!'
+        abstract: >
+          We identify nonlinear dynamical systems using deep recurrent neural networks
+          trained end-to-end on input-output data. Applied to soft-robot dynamics
+          identification, the approach outperforms classical system identification methods
+          and provides a differentiable model suitable for model-based control.
+
+  - items: 'Springer2019!'
     paperitems:
-      - title: 'Vision-based Control of a Soft Robot for Maskless Cancer Radiotherapy'
-        location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf'
+      - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
+        location:
         authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Xuejun Gu,
-          - Steve Jiang, and
-          - Nick Gans.
-        venue_web: https://ieeexplore.ieee.org/document/7743378 #'https://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016.pdf'
-        venue: IEEE Conference on Automation Science and Engineering (CASE)
-        year:  Fort-Worth, Texas, August 2016
-        paper_status: Accepted
-  - items: 'CASE15!'
-    paperitems:
-      - title: 'A Real-Time Soft-Robotic Patient Positioning
-                System for Maskless Head-and-Neck Cancer Radiotherapy'
-        location: https://ieeexplore.ieee.org/document/7294318 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Xuejun Gu,
-          - Steve Jiang, and
-          - Nick Gans.
-        venue_web: 'http://ewh.ieee.org/soc/ras/conf/FullySponsored/CASE/2015/case2015.org/index.html'
-        venue: IEEE Conference on Automation Science and Engineering (CASE)
-        year: Gothenburg, Sweden, August 2015
-        paper_status: Accepted   
-  - items: 'AAPM19!'
-    paperitems:
-      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Using Supervised Learning with Column Generation on IMRT Prostate Cancer Patients'
-        location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
-        authors:
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Nick Gans,
-          - Steve Jiang, and
-          - Dan Nguyen
-        venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
-        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E237-E237. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
-                #Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
-        year: San Antonio, TX, July 2019.
-        paper_status: Oral
-  - items: 'AAPM19Az!'
-    paperitems:
-      - title: 'A Reinforcement Learning Application of Guided Monte Carlo Tree Search Algorithm for Beam Orientation Selection in Radiation Therapy'
-        location: 
-        authors:
-          - Azar Sadeghnejad Barkousaraie,
-          - <b>Olalekan Ogunmolu</b>,
-          - Steve Jiang, and
-          - Dan Nguyen
-        venue_web: 
-        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E236-E236. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
-        year: San Antonio, TX, July 2019.
-        paper_status: Oral
-  - items: 'AAPM19Myne!'
-    paperitems:
-      - title: 'An Approximate Policy Iteration Scheme for Beam Orientation Selection in Radiation Therapy'
-        location: #https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Azar Sadeghnejad Barkousaraie,
-          - Nick Gans,
-          - Steve Jiang, and
-          - Dan Nguyen
-        venue_web: 
-        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E386-E386. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), San Antonio, TX.
-        year: San Antonio, TX, July 2019.
-        paper_status: Oral
-  - items: 'IROS18!'
-    paperitems:
-      - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
-        location: 
-        authors:
-          - <b>Olalekan Ogunmolu</b>,
-          - Nick Gans, and
-          - Tyler Summers
-        venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
-        venue: Machine Learning for Planning and Control Workshop, Extended Abstract, IROS 2018 
-        year: Madrid, Spain. October 2018
-        paper_status: Accepted Abstract
+          - <b>Olalekan Ogunmolu</b>
+        venue_web:
+        venue: Technical Report
+        paper_status: Technical Report
+        year: 2019
+
+  # ── Presentations / Abstracts ──────────────────────────────────
   - items: 'NERCSoRoPD!'
     paperitems:
       - title: 'Lagrangian Properties and Control of Soft Robots Modeled with Discrete Cosserat Rods.'
-        location: 
+        location:
         authors:
           - <b>Lekan Molu</b>,
           - Shaoru Chen, and
@@ -631,76 +669,177 @@ publications:
         venue: Northeast Robotics Conference, Extended Abstract, November 2023
         year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
+
   - items: 'NERCSoRoSPT!'
     paperitems:
       - title: 'Composite Fast-Slow Backstepping Design for Nonlinear Singularly Perturbed Newton-Euler Dynamics: Application to Soft Robots.'
-        location: 
+        location:
         authors:
           - <b>Lekan Molu</b>
         venue_web: https://yale2023.nerc.io/
         venue: Northeast Robotics Conference, Extended Abstract, November 2023
         year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
-  - items: 'PCLAST!'
+
+  - items: 'PCLAST-NERC!'
     paperitems:
       - title: 'PcLast: Discovering Plannable Continuous Latent States.'
-        location: 
+        location:
         authors:
-          - Anurag Koul (Microsoft); Shivakanth Sujit (ETS Montreal, Mila); Shaoru Chen (Microsoft Research); Ben Evans (NYU); Lili Wu (MSR); <b>Lekan Molu</b> (Microsoft Research); Byron Xu (MSR); Rajan Chari (Microsoft); Riashat Islam (MILA, Mcgill University); Raihan Seraj (McGill); Yonathan Efroni (Meta); Miroslav Dudik (Microsoft); John Langford (Microsoft); Alex Lamb (Microsoft Research)
+          - Anurag Koul, Shivakanth Sujit, Shaoru Chen, Ben Evans, Lili Wu, <b>Lekan Molu</b>, Byron Xu, Rajan Chari, Riashat Islam, Raihan Seraj, Yonathan Efroni, Miroslav Dudik, John Langford, Alex Lamb
         venue_web: https://yale2023.nerc.io/
         venue: Northeast Robotics Conference, Extended Abstract, November 2023
         year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
+
+  - items: 'AAPM19!'
+    paperitems:
+      - title: 'A Fast Deep Learning Approach for Beam Orientation Selection Using Supervised Learning with Column Generation on IMRT Prostate Cancer Patients'
+        location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans,
+          - Steve Jiang, and
+          - Dan Nguyen
+        venue_web: 'https://www.osti.gov/biblio/22494041'
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E237-E237. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), San Antonio, TX.
+        year: San Antonio, TX, July 2019.
+        paper_status: Oral
+
+  - items: 'AAPM19Az!'
+    paperitems:
+      - title: 'A Reinforcement Learning Application of Guided Monte Carlo Tree Search Algorithm for Beam Orientation Selection in Radiation Therapy'
+        location:
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen
+        venue_web:
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E236-E236. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), San Antonio, TX.
+        year: San Antonio, TX, July 2019.
+        paper_status: Oral
+
+  - items: 'AAPM19Myne!'
+    paperitems:
+      - title: 'An Approximate Policy Iteration Scheme for Beam Orientation Selection in Radiation Therapy'
+        location:
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Azar Sadeghnejad Barkousaraie,
+          - Nick Gans,
+          - Steve Jiang, and
+          - Dan Nguyen
+        venue_web:
+        venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E386-E386. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), San Antonio, TX.
+        year: San Antonio, TX, July 2019.
+        paper_status: Oral
+
+  - items: 'AAPM2019'
+    paperitems:
+      - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach'
+        location:
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Dan Nguyen,
+          - Chenyang Shen,
+          - Xun Jia,
+          - Weiguo Lu, and
+          - Nick Gans,
+        venue_web:
+        venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
+        paper_status: Accepted Abstract
+        year: July 2018
+
+  - items: 'ICCR19!'
+    paperitems:
+      - title: 'Deep Learning Neural Network for Beam Orientation Optimization'
+        location: '/404'
+        authors:
+          - Azar Sadeghnejad Barkousaraie,
+          - <b>Olalekan Ogunmolu</b>,
+          - Steve Jiang, and
+          - Dan Nguyen.
+        venue_web: http://iccr-mcma.org/iccr2019/
+        venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
+        year: Montreal, CA. June 2019
+        paper_status: Accepted
+
+  - items: 'AAPM20-poster'
+    paperitems:
+      - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
+        location:
+        authors:
+          - <b>Olalekan Ogunmolu</b>, and
+          - Rodney Wiersma.
+        venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
+        venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
+        paper_status: Oral
+        year: June 2020
+
+  - items: 'AAPM20Workspace'
+    paperitems:
+      - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
+        location:
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Xinmin Liu, and
+          - Rodney Wiersma.
+        venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
+        venue: ePoster at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
+        paper_status: Accepted Abstract
+        year: June 2020
+
   - items: 'ICRA18!'
     paperitems:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
-        location: 
+        location:
         authors:
           - <b>Olalekan Ogunmolu</b>,
           - Nick Gans, and
           - Tyler Summers
         venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
         venue: IEEE International Conference on Robotics and Automation, Late Breaking Result Abstract
-        year:  Brisbane, Australia, May 2018
+        year: Brisbane, Australia, May 2018
         paper_status: Accepted Abstract
-  # - items: 'SPIE18!'
-  #     paperitems:
-  #       - title: 'Design and Development of Soft Robots for Head and Neck Cancer Radiotherapy: SPIE: Smart Structures + Nondestructive Evaluation'
-  #         location: 
-  #         authors:
-  #           - Yara Almubarak, 
-  #           - Joshi Aniket, 
-  #           - <b>Olalekan Ogunmolu</b>,
-  #           - Xuejun Gu, 
-  #           - Steve Jiang, 
-  #           - Nicholas Gans, and 
-  #           - Yonas Tadesse
-  #         venue_web: http://spie.org/conferences-and-exhibitions/smart-structures/nde?SSO=1
-  #         venue: #IEEE International Conference on Robotics and Automation, Late Breaking Result Abstract
-  #         year:  Denver, CO, U.S.A. March 2018.
-  #         paper_status: Accepted Abstract        
-  - items: 'IROS17!'
+
+  - items: 'IROS18-Workshop!'
+    paperitems:
+      - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
+        location:
+        authors:
+          - <b>Olalekan Ogunmolu</b>,
+          - Nick Gans, and
+          - Tyler Summers
+        venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
+        venue: Machine Learning for Planning and Control Workshop, Extended Abstract, IROS 2018
+        year: Madrid, Spain. October 2018
+        paper_status: Accepted Abstract
+
+  - items: 'IROS17-Abstract!'
     paperitems:
       - title: 'Robustness Margins and Robust Guided Policy Search for Deep Reinforcement Learning'
-        location: 
+        location:
         authors:
-          - Tyler Summers
+          - Tyler Summers,
           - <b>Olalekan Ogunmolu</b>, and
-          - Nick Gans, and
-        venue_web: #http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
+          - Nick Gans
+        venue_web:
         venue: IROS 2017 Abstract Only Track
-        year:  Vancouver, BC, Canada. September 2017
+        year: Vancouver, BC, Canada. September 2017
         paper_status: Accepted Abstract
+
   - items: 'AAPM15!'
     paperitems:
-      - title: 'An Image-Guided Soft Robotic Patient Positioning System for Maskless Head  And Neck Cancer Radiotherapy: A Proof of Concept Study'
-        location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100 #'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2015/CASE2015.pdf'
+      - title: 'An Image-Guided Soft Robotic Patient Positioning System for Maskless Head And Neck Cancer Radiotherapy: A Proof of Concept Study'
+        location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100
         authors:
           - <b>Olalekan Ogunmolu</b>,
           - Nick Gans,
           - Steve Jiang, and
           - Xuejun Gu
-        venue_web: 'https://www.osti.gov/biblio/22494041-su-image-guided-soft-robotic-patient-positioning-system-maskless-head-neck-cancer-radiotherapy-proof-concept-study'
-        venue: Oral Presentation at AAPM. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine  (AAPM), Anaheim, CA
-        year: Annaheim, CA, August 2015
+        venue_web: 'https://www.osti.gov/biblio/22494041'
+        venue: Oral Presentation at AAPM. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Anaheim, CA
+        year: Anaheim, CA, August 2015
         paper_status: Oral

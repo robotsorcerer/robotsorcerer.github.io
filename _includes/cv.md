@@ -5,7 +5,7 @@
 -->
 
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i> Bio Snippet</h4>
-- Principal Researcher and Founder, Stealth Startup (2025 -- Present).
+- Researcher and Founder, Stealth Startup (2025 -- Present).
 - Senior Researcher, Microsoft Research Lab (NYC), (2021 -- 2025).
 - Adjunct Faculty, [Brandeis University, Graduate School of Professional Studies](https://brandeis.edu/), (2019 - 2021).
 - Postdoctoral Researcher, [The University of Pennsylvania, Perelman School of Medicine](https://www.med.upenn.edu/) (2019 - 2021).
