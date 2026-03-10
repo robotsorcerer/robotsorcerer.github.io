@@ -305,7 +305,7 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
 
 <div class="cycling-wrap">
   <div class="cycling-text">
-    <p>As often as I can get away from the lab, I ride my road bike — rain or shine, hell or highwater, in the parching heats of sultry Texas or the blustering cold winds of the Eastern Seaboard.</p>
+    <p>As often as I can get away from the lab, I like to ride my road bike — rain or shine, hell or highwater. From the parching heats of sultry Texas to the blustering cold winds of the North East.</p>
     <div class="cycling-states-label">Countries bikeprint</div>
     <div class="cycling-states">
       <span>🇺🇸 US</span><span>🇬🇧 UK</span><span>🇦🇹 AT</span><span>🇯🇵 JP</span>
