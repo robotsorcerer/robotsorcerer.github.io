@@ -52,6 +52,7 @@ publications:
         venue: International Federation of Automatic Control, World Congress 2026
         paper_status: Submitted
         year: November 2025
+        thumbnail: /assets/thumbs/gnep_socio.jpg
         abstract: >
           We formulate trauma resuscitation as a multi-agent control problem and propose a
           generalized Nash equilibrium-seeking policy that coordinates multiple clinical agents
@@ -356,6 +357,7 @@ publications:
         venue: The International Journal of Robotics Research
         paper_status: Manuscript
         year: 2025
+        thumbnail: /assets/thumbs/complexbrat.jpg
 
   - items: IGL2
     paperitems:
@@ -387,6 +389,7 @@ publications:
         venue: ICML Workshop on Complex Feedback in Online Learning 2022
         paper_status: Oral
         year: May 2022
+        thumbnail: /assets/thumbs/igl2_workshop.jpg
 
   - items: 'AAPM21b!'
     paperitems:
@@ -399,6 +402,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics  47 (6)(AAPM)</i> E328-E328. Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
         year: May 2021
         paper_status: Oral
+        thumbnail: /assets/thumbs/aapm21b.jpg
 
   - items: 'ICRA2019!'
     paperitems:
@@ -433,6 +437,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6). Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
         year: May 2020
         paper_status: Oral
+        thumbnail: /assets/thumbs/aapm20.jpg
 
   - items: 'Thesis!'
     paperitems:
@@ -480,6 +485,7 @@ publications:
         venue: The International Journal of Medical Physics Research and Practice
         year: December 2019
         paper_status: Accepted
+        thumbnail: /assets/thumbs/medphys.jpg
         abstract: >
           We present a convolutional neural network that predicts near-optimal beam
           orientations for IMRT prostate cancer treatment plans in under one second,
@@ -620,6 +626,7 @@ publications:
         venue: arXiv
         year: 2017
         paper_status: Technical Report
+        thumbnail: /assets/thumbs/zerosum.jpg
         abstract: >
           We develop a deep reinforcement learning algorithm for zero-sum two-player games
           that is robust to function approximation errors and sparse rewards. The approach
@@ -639,6 +646,7 @@ publications:
         venue: arXiv
         year: 2016
         paper_status: Technical Report
+        thumbnail: /assets/thumbs/ident.jpg
         abstract: >
           We identify nonlinear dynamical systems using deep recurrent neural networks
           trained end-to-end on input-output data. Applied to soft-robot dynamics
@@ -655,6 +663,7 @@ publications:
         venue: Technical Report
         paper_status: Technical Report
         year: 2019
+        thumbnail: /assets/thumbs/springer2019.jpg
 
   # ── Presentations / Abstracts ──────────────────────────────────
   - items: 'NERCSoRoPD!'
@@ -669,6 +678,7 @@ publications:
         venue: Northeast Robotics Conference, Extended Abstract, November 2023
         year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
+        thumbnail: /assets/thumbs/nerc_soropd.jpg
 
   - items: 'NERCSoRoSPT!'
     paperitems:
@@ -680,6 +690,7 @@ publications:
         venue: Northeast Robotics Conference, Extended Abstract, November 2023
         year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
+        thumbnail: /assets/thumbs/nerc_sorospt.jpg
 
   - items: 'PCLAST-NERC!'
     paperitems:
@@ -691,6 +702,7 @@ publications:
         venue: Northeast Robotics Conference, Extended Abstract, November 2023
         year: Yale University, New Haven, Connecticut. November  2023
         paper_status: Accepted Abstract
+        thumbnail: /assets/thumbs/pclast_nerc.jpg
 
   - items: 'AAPM19!'
     paperitems:
@@ -706,6 +718,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E237-E237. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), San Antonio, TX.
         year: San Antonio, TX, July 2019.
         paper_status: Oral
+        thumbnail: /assets/thumbs/aapm19.jpg
 
   - items: 'AAPM19Az!'
     paperitems:
@@ -720,6 +733,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E236-E236. Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), San Antonio, TX.
         year: San Antonio, TX, July 2019.
         paper_status: Oral
+        thumbnail: /assets/thumbs/aapm19az.jpg
 
   - items: 'AAPM19Myne!'
     paperitems:
@@ -735,6 +749,7 @@ publications:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6), E386-E386. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), San Antonio, TX.
         year: San Antonio, TX, July 2019.
         paper_status: Oral
+        thumbnail: /assets/thumbs/aapm19myne.jpg
 
   - items: 'AAPM2019'
     paperitems:
@@ -751,6 +766,7 @@ publications:
         venue: 60th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Nashville, TN
         paper_status: Accepted Abstract
         year: July 2018
+        thumbnail: /assets/thumbs/aapm2019.jpg
 
   - items: 'ICCR19!'
     paperitems:
@@ -765,6 +781,7 @@ publications:
         venue: International Conference on the use of Computers in Radiation Therapy (ICCR) XVI
         year: Montreal, CA. June 2019
         paper_status: Accepted
+        thumbnail: /assets/thumbs/iccr19.jpg
 
   - items: 'AAPM20-poster'
     paperitems:
@@ -777,6 +794,7 @@ publications:
         venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
         paper_status: Oral
         year: June 2020
+        thumbnail: /assets/thumbs/aapm20_poster.jpg
 
   - items: 'AAPM20Workspace'
     paperitems:
@@ -790,6 +808,7 @@ publications:
         venue: ePoster at the AAPM/COMP Meeting. Online only publication in the Medical Physics Journal
         paper_status: Accepted Abstract
         year: June 2020
+        thumbnail: /assets/thumbs/aapm20_workspace.jpg
 
   - items: 'ICRA18!'
     paperitems:
@@ -803,6 +822,7 @@ publications:
         venue: IEEE International Conference on Robotics and Automation, Late Breaking Result Abstract
         year: Brisbane, Australia, May 2018
         paper_status: Accepted Abstract
+        thumbnail: /assets/thumbs/icra18.jpg
 
   - items: 'IROS18-Workshop!'
     paperitems:
@@ -816,6 +836,7 @@ publications:
         venue: Machine Learning for Planning and Control Workshop, Extended Abstract, IROS 2018
         year: Madrid, Spain. October 2018
         paper_status: Accepted Abstract
+        thumbnail: /assets/thumbs/iros18_workshop.jpg
 
   - items: 'IROS17-Abstract!'
     paperitems:
@@ -829,6 +850,7 @@ publications:
         venue: IROS 2017 Abstract Only Track
         year: Vancouver, BC, Canada. September 2017
         paper_status: Accepted Abstract
+        thumbnail: /assets/thumbs/iros17_abstract.jpg
 
   - items: 'AAPM15!'
     paperitems:
@@ -843,3 +865,4 @@ publications:
         venue: Oral Presentation at AAPM. Online only publication in the <i>Medical Physics Journal</i>, Proceedings in the 57th Annual Meeting of the American Association of Physicists in Medicine (AAPM), Anaheim, CA
         year: Anaheim, CA, August 2015
         paper_status: Oral
+        thumbnail: /assets/thumbs/aapm15.jpg
