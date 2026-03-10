@@ -310,6 +310,7 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <div class="cycling-states">
       <span>🇺🇸 US</span><span>🇬🇧 UK</span><span>🇦🇹 AT</span><span>🇯🇵 JP</span>
       <span>🇨🇦 CA</span><span>🇮🇹 IT</span><span>🇨🇭 CH</span><span>🇩🇪 DE</span>
+      <span>🇪🇸 ES</span><span>🇵🇹 PT</span><span>🇫🇮 FI</span>
     </div>
     <div class="cycling-states-label" style="margin-top:8px;">US States bikeprint</div>
     <div class="cycling-states">
@@ -359,16 +360,8 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <div class="book-author">James Verini</div>
   </div>
   <div class="book-card">
-    <div class="book-title">The Demon of Unrest</div>
-    <div class="book-author">Erik Larson</div>
-  </div>
-  <div class="book-card">
     <div class="book-title">Successful Negotiating: Letting the Other Person Have <em>Your</em> Way</div>
     <div class="book-author">Ginny Pearson Barnes</div>
-  </div>
-  <div class="book-card">
-    <div class="book-title">How to Avoid a Climate Disaster</div>
-    <div class="book-author">Bill Gates</div>
   </div>
   <div class="book-card">
     <div class="book-title">A Tale of Two Cities</div>
@@ -402,10 +395,16 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <div class="book-title">John Adams</div>
     <div class="book-author">David McCullough</div>
   </div>
+
+  
   <div class="book-card book-card--read">
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">The Federalist</div>
     <div class="book-author">Hamilton, Jay &amp; Madison</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">The Demon of Unrest</div>
+    <div class="book-author">Erik Larson</div>
   </div>
   <div class="book-card book-card--read">
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
@@ -471,5 +470,9 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">Profiles in Courage</div>
     <div class="book-author">John Fitzgerald Kennedy</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">How to Avoid a Climate Disaster</div>
+    <div class="book-author">Bill Gates</div>
   </div>
 </div>

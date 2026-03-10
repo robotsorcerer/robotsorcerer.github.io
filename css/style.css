@@ -935,6 +935,38 @@ a:visited { color: #1558a0; }
 .site-footer .column { float: none; }
 .footer-col-1, .footer-col-2, .footer-col-3 { width: auto; float: none; }
 
+/* ── Quotes Page ── */
+.quotes-container p {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 10px 0;
+  font-style: italic;
+  color: var(--text);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  line-height: 1.65;
+}
+.quotes-container h4 {
+  margin: 28px 0 8px;
+  color: var(--accent);
+  font-size: 1rem;
+}
+.quotes-container blockquote {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  padding: 8px 14px;
+  color: var(--muted);
+  font-style: normal;
+  font-size: .85rem;
+  margin: 6px 0 12px;
+}
+.quotes-container ul {
+  margin: 4px 0 10px 20px;
+}
+
 /* ── Misc ── */
 blockquote {
   border-left: 4px solid var(--border);
