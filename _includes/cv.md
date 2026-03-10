@@ -4,7 +4,7 @@
 <div class="bio-timeline">
   <div class="bio-tl-item">
     <span class="bio-tl-year">2025 – Present</span>
-    <div class="bio-tl-role">Researcher and Founder, Stealth Startup.</div>
+    <div class="bio-tl-role">Independent Researcher.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2021 – 2025</span>
@@ -89,68 +89,72 @@ document.getElementById('news-toggle').addEventListener('click', function(){
 <h5 class="cv-h"><i class="fa fa-microphone"></i> Talk Highlights</h5>
 
 <div class="talk-grid">
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">09/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Robotics &amp; AI Institute, Cambridge MA</span></div>
     <div class="talk-title"><a href="downloads/Papers/RAI-Inst.pdf">Towards Ubiquitous Robotics Automation</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">08/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Google DeepMind Robotics, SF CA</span></div>
     <div class="talk-title"><a href="downloads/Papers/BostonDynamics.pdf">State Representation in Reinforcement Learning</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">08/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Wayve Technologies, London UK</span></div>
     <div class="talk-title">System Identification for Planning in Reinforcement Learning</div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">08/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Boston Dynamics, Waltham MA</span></div>
     <div class="talk-title"><a href="downloads/Papers/BostonDynamicsMain.pdf">Embodied Intelligence in Open Embodiments</a> <a href="/BostonDynamicsApp.pdf" class="talk-appendix">Appendix</a></div>
   </div>
+</div>
 
+<div class="talk-grid" id="talks-more" style="display:none;">
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">07/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> META Reality Labs, SF CA</span></div>
     <div class="talk-title"><a href="downloads/Papers/Yale.pdf">Robustness and Efficient State Representation in Open Embodiments</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">11/24</span><span class="talk-venue"><i class="fa fa-map-marker"></i> McGill University / MILA</span></div>
     <div class="talk-title"><a href="downloads/Papers/McGill.pdf">Layered, Hierarchical Nonlinear Control of Soft Robotic Systems</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">11/23</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Yale University Engineering / CS</span></div>
     <div class="talk-title">Robustness and Convergence of Policy Optimization in Mixed H2/H-&#x221e; Stochastic Control</div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">Fall 2023</span><span class="talk-venue"><i class="fa fa-map-marker"></i> MSR Game Intelligence Group, Cambridge UK</span></div>
     <div class="talk-title"><a href="downloads/Papers/Yale.pdf">Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">2022</span><span class="talk-venue"><i class="fa fa-map-marker"></i> MSR NYC</span></div>
     <div class="talk-title"><a href="/downloads/Papers/screw_slides.pdf">A Short Treatise on the Kinematics and Kinetics of Robots</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">Fall 2021</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Microsoft Research Summit</span></div>
     <div class="talk-title">Learning without Rewards</div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">2021</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Brandeis University</span></div>
     <div class="talk-title"><a href="/downloads/Papers/RBOT101.pdf">The Mathematical Foundations of Robotics</a></div>
   </div>
-
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">2021</span><span class="talk-venue"><i class="fa fa-map-marker"></i> MSR NYC / Auris Health (J&amp;J), SF</span></div>
     <div class="talk-title">Automating Treatment Planning in Radiation Therapy</div>
   </div>
-
 </div>
+
+<button class="mentoring-toggle" id="talks-toggle">
+  <i class="fa fa-chevron-down"></i> Show all talks
+</button>
+<script>
+document.getElementById('talks-toggle').addEventListener('click', function(){
+  var m = document.getElementById('talks-more');
+  var open = m.style.display !== 'none';
+  m.style.display = open ? 'none' : 'grid';
+  this.innerHTML = open
+    ? '<i class="fa fa-chevron-down"></i> Show all talks'
+    : '<i class="fa fa-chevron-up"></i> Show fewer';
+});
+</script>
 
 
 <a name="mentor"></a>

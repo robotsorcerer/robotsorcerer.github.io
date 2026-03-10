@@ -18,7 +18,7 @@ title: Lekan Molu
     <div class="hero-text">
       <h1>Lekan Molu</h1>
       <p class="hero-subtitle">
-        Researcher &amp; Founder &nbsp;·&nbsp; AI. Control. Autonomous Systems.
+        Researcher &nbsp;·&nbsp; AI. Control. Autonomous Systems.
       </p>
       <p class="hero-tagline">
         <em>Rerum Cognoscere Causas</em> — To know the causes of things.<br>
