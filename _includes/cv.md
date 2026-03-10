@@ -4,7 +4,7 @@
 <div class="bio-timeline">
   <div class="bio-tl-item">
     <span class="bio-tl-year">2025 – Present</span>
-    <div class="bio-tl-role">Independent Researcher.</div>
+    <div class="bio-tl-role">Researcher, Stealth Research Lab.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2021 – 2025</span>
