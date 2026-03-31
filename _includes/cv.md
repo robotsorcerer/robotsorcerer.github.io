@@ -173,7 +173,7 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
   </div>
   <div class="mentee-card">
     <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en">Abulikemu Abuduweili</a>
-    <div class="mentee-trail">CMU Robotics PhD → MSR Intern '24 → Research Scientist, Reliant Robotics</div>
+    <div class="mentee-trail">CMU Robotics PhD → MSR Intern '24 → Research Scientist, Apple Robotics</div>
   </div>
 </div>
 
