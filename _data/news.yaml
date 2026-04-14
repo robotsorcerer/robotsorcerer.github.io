@@ -7,6 +7,13 @@ news_items:
   #                 A small step for a man, a big leap for <a href="https://www.amazon.com/Idea-Factory-Great-American-Innovation/dp/0143122797" target=blank>science, invention, and innovation!</a>'
   #       highlight: false
   #       date: Sept. 8, 2025
+  - items: 'IFAC_GNEP'
+    subnewsitems:
+      - content: 'Congratulations to <a href="https://www.angeliquemtaylor.com/">Promise and Angelique</a> on the acceptance of
+                  our GNE formulation of medical trauma resuscitation at Weill Cornell Medicine to 
+                  <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm">IFAC World Congress!</a>'
+        highlight: true
+        date: Aug. 6, 2025
   - items: 'AbuduApple'
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 

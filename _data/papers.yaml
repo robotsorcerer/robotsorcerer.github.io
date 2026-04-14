@@ -75,8 +75,8 @@ publications:
           - Promise Ekpo, <a href="https://www.angeliquemtaylor.com/">Angelique Taylor</a>, and <b>Lekan Molu</b>.
         venue_web: 'https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm'
         venue: International Federation of Automatic Control, World Congress 2026
-        paper_status: Submitted
-        year: November 2025
+        paper_status: Accepted
+        year: August 2026
         thumbnail: /assets/thumbs/gnep_socio.jpg
         abstract: >
           We formulate trauma resuscitation as a multi-agent control problem and propose a

@@ -40,11 +40,9 @@ permalink: pubs
           {{ paper.title }}
         {% endif %}
       </div>
-      {% if paper.authors.size > 1 %}
       <div class="pub-authors">
         {% for author in paper.authors %}{{ author }} {% endfor %}
       </div>
-      {% endif %}
       <div class="pub-venue">
         {% if paper.venue_web and paper.venue_web != "" %}
           <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
@@ -94,11 +92,9 @@ permalink: pubs
           {{ paper.title }}
         {% endif %}
       </div>
-      {% if paper.authors.size > 1 %}
       <div class="pub-authors">
         {% for author in paper.authors %}{{ author }} {% endfor %}
       </div>
-      {% endif %}
       <div class="pub-venue">
         {% if paper.venue_web and paper.venue_web != "" %}
           <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
@@ -152,11 +148,9 @@ permalink: pubs
           {{ paper.title }}
         {% endif %}
       </div>
-      {% if paper.authors.size > 1 %}
       <div class="pub-authors">
         {% for author in paper.authors %}{{ author }} {% endfor %}
       </div>
-      {% endif %}
       <div class="pub-venue">
         {% if paper.venue_web and paper.venue_web != "" %}
           <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
