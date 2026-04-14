@@ -9,16 +9,16 @@ news_items:
   #       date: Sept. 8, 2025
   - items: 'IFAC_GNEP'
     subnewsitems:
-      - content: 'Congratulations to <a href="https://www.angeliquemtaylor.com/">Promise and Angelique</a> on the acceptance of
-                  our GNE formulation of medical trauma resuscitation at Weill Cornell Medicine to 
-                  <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm">IFAC World Congress!</a>'
+      - content: 'Congratulations to <a href="https://www.angeliquemtaylor.com/" target=blank>Promise and Angelique</a> on the acceptance of
+                  our <a href="/downloads/Papers/IFAC26.pdf" target=blank>GNE formulation of medical trauma resuscitation at Weill Cornell Medicine</a> to 
+                  <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC World Congress!</a>'
         highlight: true
         date: Aug. 6, 2025
   - items: 'AbuduApple'
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 
-                  <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/">Abulikemu Abuduweili</a>. Abu successfully defended 
-                  his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/">Robotics Institute</a> last week; thereafter he sold his soul to Apple as a Robotics Research 
+                  <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/" target=blank>Abulikemu Abuduweili</a>. Abu successfully defended 
+                  his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week; thereafter he sold his soul to Apple as a Robotics Research 
                   Scientist/Engineer. Keep shining those bright white lights, Abu!'
         highlight: true
         date: Aug. 6, 2025
