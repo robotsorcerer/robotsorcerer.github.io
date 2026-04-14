@@ -9,7 +9,7 @@ news_items:
   #       date: Sept. 8, 2025
   - items: 'IFAC_GNEP'
     subnewsitems:
-      - content: 'Congratulations to <a href="https://www.angeliquemtaylor.com/" target=blank>Promise and Angelique</a> on the acceptance of
+      - content: 'Congratulations to collaborators <a href="https://www.angeliquemtaylor.com/" target=blank>Promise and Angelique</a>, on the acceptance of
                   our <a href="/downloads/Papers/IFAC26.pdf" target=blank>GNE formulation of medical trauma resuscitation at Weill Cornell Medicine</a> to 
                   <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC World Congress!</a>'
         highlight: true
