@@ -8,12 +8,8 @@ news_items:
   #       highlight: false
   #       date: Sept. 8, 2025
   - items: 'IFAC_GNEP'
-    subnewsitems: # <a href="/downloads/Papers/IFAC26.pdf" target=blank>
-      - content: '🚨 New Paper Alert! Our latest work, GNE formulation 
-                  of medical trauma resuscitation processes in sociotechnical medical situations (with Weill Cornell Medicine)</a>, is officially headed 
-                  to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC World Congress!</a> 🌍🎉
-                  What happens when Game Theory meets the ER? 🏥 + 🎮 = ❤️ We are making team coordination: ✅ Fairer (Workload balancing ⚖️)
-                  ✅ Smarter (Skill-task alignment 🧠) ✅ Faster (Rapid convergence ⚡️) 🎙️✨ #EmergencyRoom #MathInMedicine #WeillCornell 🏆'
+    subnewsitems:
+      - content: '🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate like a well-oiled machine? Healthcare teams become: ✅ Fairer (balanced workloads ⚖️) ✅ Smarter (skill-task alignment 🧠) ✅ Faster (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target=blank>latest work</a> models trauma resuscitation as a distributed generalized Nash equilibrium (GNE) system, grounded in real clinical workflows at Weill Cornell Medicine. The result? A principled framework for orchestrating high-stakes team dynamics under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀 Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC World Congress!</a> 🎉'
         highlight: true
         date: April 13, 2025
   - items: 'AbuduApple'
