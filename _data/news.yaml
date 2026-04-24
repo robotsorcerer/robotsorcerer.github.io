@@ -1,12 +1,12 @@
 news_items:    
   - items: 'AR26_InfDiff'
     subnewsitems:
-      - content: '🏭 Brawn meets brain: robotics production control just leveled up. Diffusion + HJ Safety = performance <i>with guarantees</i> 🚀  
-                  What if robot-enabled manufacturing lines could maintain high utilization despite unpredictable workflows?  
+      - content: '🏭 Robots-enabled production control systems just leveled up. Diffusion + HJ Safety = <a>High utilization, better bottleneck identification, and a more 
+                  robust, reliable dispatch optimization workflow.</a> 🚀  
                   Our latest work moves beyond point estimates to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes production systems.  
                   Results: 🎯 CONWIP with certified safety under uncertainty 💪 • 🔍 Bottleneck detection with theoretical grounding • 📈 Smooth, optimized dispatch policies  
                   We model production lines as <b>function-valued stochastic control processes</b>—unlocking a new paradigm for resilient, efficient supply chains.  
-                  👉 Check out this recent <a href="/downloads/Papers/AR.pdf" target=blank>presentation</a> to the Amazon Robotics IRG group. 🏆'
+                  👉 Check out this snippet from my recent <a href="/downloads/Papers/ar_flyer.pdf" target=blank>presentation</a> to the Amazon Robotics IRG group. 🏆'
         highlight: true
         date: 'Apr. 14-16, 2026'
   - items: 'IFAC_GNEP'
