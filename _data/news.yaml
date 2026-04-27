@@ -8,7 +8,7 @@ news_items:
   #                 We model production lines as <b>function-valued stochastic control processes</b>—unlocking a new paradigm for resilient, efficient supply chains.  
   #                 👉 Check out this snippet from my recent <a href="/downloads/Papers/ar_flyer.pdf" target=blank>presentation</a> to the Amazon Robotics IRG group. 🏆'
   #       highlight: true
-  #       date: 'Apr. 14-16, 2026'
+  #       date: 'April, 2026'
   - items: 'IFAC_GNEP'
     subnewsitems:
       - content: '🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
@@ -20,7 +20,7 @@ news_items:
                   Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC 
                   World Congress!</a> 🎉'
         highlight: true
-        date: April 13, 2025
+        date: Jan 20, 2025
   - items: 'AbuduApple'
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 
