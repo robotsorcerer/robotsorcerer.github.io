@@ -339,10 +339,6 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <div class="book-author">Stephen Ambrose</div>
   </div>
   <div class="book-card">
-    <div class="book-title">The Startup Way</div>
-    <div class="book-author">Eric Ries</div>
-  </div>
-  <div class="book-card">
     <div class="book-title">Genghis Khan and the Making of the Modern World</div>
     <div class="book-author">Jack Weatherford</div>
   </div>
@@ -369,6 +365,10 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
   <div class="book-card">
     <div class="book-title">Isaac Asimov's Caliban</div>
     <div class="book-author">Roger MacBride Allen</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">The Startup Way</div>
+    <div class="book-author">Eric Ries</div>
   </div>
   <div class="book-card">
     <div class="book-title">Now They Will Have to Die</div>
@@ -439,16 +439,6 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">No Ordinary Time</div>
     <div class="book-author">Doris Kearns Goodwin</div>
-  </div>
-  <div class="book-card book-card--read">
-    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
-    <div class="book-title">The Prison Letters of Nelson Mandela</div>
-    <div class="book-author">Ed. Sham Venter</div>
-  </div>
-  <div class="book-card book-card--read">
-    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
-    <div class="book-title">Mandela: The Authorized Biography</div>
-    <div class="book-author">Anthony Sampson</div>
   </div>
   <div class="book-card book-card--read">
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
