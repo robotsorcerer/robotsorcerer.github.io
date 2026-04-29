@@ -331,6 +331,14 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
 <div class="reading-shelf-label">2026</div>
 <div class="book-grid">
   <div class="book-card">
+    <div class="book-title">A Higher Loyalty</div>
+    <div class="book-author">James Comey</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">D-Day</div>
+    <div class="book-author">Stephen Ambrose</div>
+  </div>
+  <div class="book-card">
     <div class="book-title">The Startup Way</div>
     <div class="book-author">Eric Ries</div>
   </div>
