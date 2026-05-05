@@ -46,15 +46,24 @@ publications:
         year: 2026
         thumbnail: #/assets/thumbs/infdiff.jpg
         abstract: >
-          Finite-dimensional diffusion policies often degrade in performance over long-horizon prediction 
-          tasks due to temporal drift and spectral artifacts. We recast diffusion policy learning as a 
-          deterministic PDE regression in an infinite-dimensional space. This eliminates Monte Carlo instability 
-          while preserving dimension-independent convergence guarantees. By linking the score function to the 
-          backward Kolmogorov equation on a Cameron-Martin space, we introduce a Kolmogorov residual as a physics-grounded 
-          diagnostic. We validate the framework on contact-rich manipulation and manufacturing flow forecasting, achieving 
-          a 28.4% improvement in forecasting accuracy over LSTM baselines and near-perfect recall in bottleneck event detection 
-          on manufacturing constant work-in-processes. Integrated with Hamilton–Jacobi reachability analysis, our approach yields 
-          certified safe policies that reduce deadlocks by 96% in stochastic factory simulations.
+            Finite-dimensional (FD) diffusion policies are well-known to degrade in performance in long-horizon 
+            control prediction settings owing to temporal drift of the backward action trajectory and the spectral
+             artifacts associated with the finite grid discretization from which actions are sampled. This hinders 
+             their reliable deployment when policies must satisfy all allocated and functional baselines with certifiable 
+             robustness guarantees. To address this deficiency, we lift diffusion to an infinite-dimensional subset of a 
+             Hilbert Space and transform the Monte-Carlo action sampling generation into a deterministic PDE regression. 
+             This reparameterization (i) attenuates the instability associated with Monte Carlo rollouts in FD settings; 
+             whilst (ii) enabling reconfigurability of the action space in spectral form to support the entire data manifold;  
+             and (iii) provides dimension-independent convergence guarantees. Specifically, we lift the backward Kolmogorov 
+             score function to a Cameron-Martin space, introducing a physics-grounded Kolmogorov residual as a diagnostic during 
+             learning. Our schemes are validated on contact-rich manipulation (\texttt{PushT}) and manufacturing constant 
+             work-in-processes (\texttt{CONWIP}) flow forecasting. Across action (reverse) denoising steps on \texttt{PushT}, 
+             we notice an inter-step drift convergence accuracy of 98% on our infinite-dimensional formulation versus 
+             85% on the FD visuomotor policy tasks. In addition, we achieved a 28.4% improvement in forecasting 
+             accuracy over LSTM baselines and near-perfect recall in bottleneck event detection for manufacturing \texttt{CONWIP}. 
+             To further imbue robustness into diffusion workflows, we integrate our approach with Hamilton–Jacobi reachability 
+             safety analysis, so that our approach yields certified safe policies that reduce deadlocks by 96% in stochastic 
+             factory automation discrete event systems.
 
   - items: 'Set-GNEP'
     paperitems:
