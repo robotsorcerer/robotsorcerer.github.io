@@ -1,14 +1,88 @@
 publications:
 
   # ── SUBMITTED (descending year) ──────────────────────────────────────
-  - items: 'LCSS26'
+  - items: 'Neurips-HJReach'
+    paperitems:
+      - title: 'A Monte-Carlo HJ Reachability Sampling Scheme'
+        location:
+        authors:
+          - <b>Lekan Molu</b>, Venkatraman Renganathan, and Namhoon Cho.
+        venue_web: 'https://neurips.cc/'
+        venue: Neural Information Processing Systems (NeurIPS), Paris.
+        paper_status: Submitted
+        year: 2026
+        thumbnail: /assets/thumbs/icml26.jpg
+        abstract: >
+            "Certifying that a learned policy remains safe in continuous, moderate-to-high-dimensional 
+            state spaces is a central challenge in trustworthy machine learning. Backward reachable 
+            tubes (BRTs), computed via viscous Hamilton-Jacobi (HJ) partial differential equations, provide 
+            a principled safety certificate for learned controllers, neural policies, and planning algorithms. 
+            However, classical grid-based HJ solvers require $O(M^n)$ memory, where $M$ is the number of 
+            grid points per dimension and $n$ is the state dimension, rendering them impractical for 
+            high-dimensional systems. We address this bottleneck with a local PDE linearization via a 
+            transform that enables a frozen-coefficient sampling scheme for the viscous HJ PDE. This 
+            generalized Cole-Hopf-type transformation reduces the nonlinear HJ equation to a sequence 
+            of linear heat equations whose solutions admit Gaussian heat-kernel representations. 
+            The value function and its spatial gradient are then recovered via roll-outs of Monte Carlo 
+            expectations on Gaussian densities; this yields a storage and grid-agnostic algorithm that 
+            scales with the number of samples $N$ and the state dimension $n$ rather than $M^n$. We prove 
+            two guarantees for this scheme: a finite-sample concentration bound showing that the Monte 
+            Carlo value estimator achieves a grid-agnostic $O(N^{-1/2})$ error under explicit boundedness 
+            conditions,  and a conditional linear convergence result for the Picard fixed-point iteration 
+            under Lipschitz and nondegeneracy assumptions. We validate the approach on benchmark reachability 
+            ms for up to $n=6$ bottleneck identification and dispatch optimization in manufacturing production 
+            control lines. We demonstrate convergence with a median $L_2$ value function error of $14.03\%$ 
+            on the vehicle pursuit-evasion games relative to levelset ground truth."
+
+  - items: 'InfDiff'
+    paperitems:
+      - title: 'Beyond Sampling: Kolmogorov PDE Regression for Learning Diffusion Policies'
+        location:
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web: 'https://neurips.cc/'
+        venue: Neural Information Processing Systems (NeurIPS), Paris.
+        paper_status: Submitted
+        year: 2026
+        thumbnail: #/assets/thumbs/infdiff.jpg
+        abstract: >
+          Finite-dimensional diffusion policies often degrade in performance over long-horizon prediction tasks due to temporal drift and spectral artifacts. 
+          We recast diffusion policy learning as deterministic PDE regression in infinite-dimensional space, 
+          eliminating Monte Carlo instability while yielding dimension-independent convergence guarantees.
+          By linking the score function to the backward Kolmogorov equation on Hilbert spaces, we introduce 
+          the Kolmogorov residual as a physics-grounded diagnostic. We validate the framework on contact-rich 
+          manipulation and manufacturing flow forecasting, achieving a 28.4\% improvement in forecasting 
+          accuracy over LSTM baselines and near-perfect recall in event detection. Combined with Hamilton–Jacobi 
+          reachability, the approach yields certified safe policies that reduce deadlocks by 96\% in 
+          stochastic factory simulations.
+
+  - items: 'Set-GNEP'
+    paperitems:
+      - title: 'Set-valued Generalized Nash Equlibrium-Seeking Algorithms for Behavior Learning'
+        location:
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web: 'https://neurips.cc/'
+        venue: Neural Information Processing Systems (NeurIPS), Paris.
+        paper_status: Submitted
+        year: 2026
+        thumbnail: #/assets/thumbs/infdiff.jpg
+        abstract: >
+          This paper revisits the classic generalized Nash-equilibrium-seeking games over networks and casts the 
+          local objectives of players as a set-valued, rather than point-valued, objective to be optimized. We concretely
+          postulate the learning algorithm for real-time decision-making in environments where decisions are not 
+          clear-cut. Our formulation is backed by empirical evidence that demonstrate the feasibility of our ideas on 
+          real-world behavior systems. These algorithms may become consequential as a means for rationalizing 
+          agentic behavior in the future.
+
+  - items: 'CDC26'
     paperitems:
       - title: 'Infinite-Dimensional Visuomotor Diffusion Policies from SDE Parameterization'
         location:
         authors:
           - <b>Lekan Molu</b>.
         venue_web:
-        venue: IEEE Control Systems Letters (L-CSS) / 65th Conference on Decision and Control, Honolulu, Hawaii
+        venue: 65th Conference on Decision and Control, Honolulu, Hawaii
         paper_status: Submitted
         year: 2026
         thumbnail: /assets/thumbs/lcss26.jpg
@@ -23,49 +97,6 @@ publications:
           space turns stochastic diffusion score regression into deterministic PDE regression with a
           Cameron-Martin (CM) loss that achieves a dimension-independent total-variation bound on the underlying
           probability distribution.
-
-  - items: 'InfDiff'
-    paperitems:
-      - title: 'Visuomotor Diffusion Policies in Infinite Dimensions'
-        location:
-        authors:
-          - <b>Lekan Molu</b>.
-        venue_web:
-        venue: Transactions on Robotics
-        paper_status: Submitted
-        year: 2026
-        thumbnail: /assets/thumbs/infdiff.jpg
-        abstract: >
-          Vision-conditioned diffusion models denoise probabilistic models of
-          infinite-dimensional stochastic processes in finite-dimensional algorithmic
-          settings. We frame visuomotor policy recovery as an inverse PDE stochastic
-          diffusion optimization in continuous-time and continuous states, prescribing
-          an ideal solution within the problem's natural infinite-dimensional fabric.
-          Characterizing the underlying structure as an inverse stochastic optimal
-          control problem, we provide learning machinery for consistent controllable
-          point-to-point generative sampling that enables downstream imitation learning
-          and behavior cloning in robot behavior models, with demonstrated improvements
-          on embodied physical systems.
-
-  - items: 'ICML26-HJReach'
-    paperitems:
-      - title: 'Approximate HJ Reachability via Importance Sampling'
-        location:
-        authors:
-          - <b>Lekan Molu</b>.
-        venue_web: 'https://icml.cc/Conferences/2026'
-        venue: International Conference on Machine Learning (ICML), 2026
-        paper_status: Submitted
-        year: 2026
-        thumbnail: /assets/thumbs/icml26.jpg
-        abstract: >
-          Computing safe reachable sets in verification settings via viscous Hamilton-Jacobi
-          (HJ) PDEs requires grid discretization of phase space, incurring exponential memory
-          costs. Linearizing the HJ PDE, we extend solutions to backward reach tubes and
-          reach-avoid tubes, and cast safe-set recovery as integration of a Gaussian process
-          that approximates the HJ variational PDE. The result is a storage-free, GPU-friendly
-          method for resolving safe reachable sets without the memory burden of grid
-          discretization.
 
   - items: GNEP-Socio
     paperitems:
