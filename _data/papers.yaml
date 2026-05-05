@@ -36,7 +36,7 @@ publications:
 
   - items: 'InfDiff'
     paperitems:
-      - title: 'Beyond Sampling: Kolmogorov PDE Regression for Learning Diffusion Policies'
+      - title: 'Beyond Sampling: Kolmogorov PDE Regression for Robust Diffusion Policies'
         location:
         authors:
           - <b>Lekan Molu</b>.
@@ -46,15 +46,15 @@ publications:
         year: 2026
         thumbnail: #/assets/thumbs/infdiff.jpg
         abstract: >
-          Finite-dimensional diffusion policies often degrade in performance over long-horizon prediction tasks due to temporal drift and spectral artifacts. 
-          We recast diffusion policy learning as deterministic PDE regression in infinite-dimensional space, 
-          eliminating Monte Carlo instability while yielding dimension-independent convergence guarantees.
-          By linking the score function to the backward Kolmogorov equation on Hilbert spaces, we introduce 
-          the Kolmogorov residual as a physics-grounded diagnostic. We validate the framework on contact-rich 
-          manipulation and manufacturing flow forecasting, achieving a 28.4\% improvement in forecasting 
-          accuracy over LSTM baselines and near-perfect recall in event detection. Combined with Hamilton–Jacobi 
-          reachability, the approach yields certified safe policies that reduce deadlocks by 96\% in 
-          stochastic factory simulations.
+          Finite-dimensional diffusion policies often degrade in performance over long-horizon prediction 
+          tasks due to temporal drift and spectral artifacts. We recast diffusion policy learning as a 
+          deterministic PDE regression in an infinite-dimensional space. This eliminates Monte Carlo instability 
+          while preserving dimension-independent convergence guarantees. By linking the score function to the 
+          backward Kolmogorov equation on a Cameron-Martin space, we introduce a Kolmogorov residual as a physics-grounded 
+          diagnostic. We validate the framework on contact-rich manipulation and manufacturing flow forecasting, achieving 
+          a 28.4% improvement in forecasting accuracy over LSTM baselines and near-perfect recall in bottleneck event detection 
+          on manufacturing constant work-in-processes. Integrated with Hamilton–Jacobi reachability analysis, our approach yields 
+          certified safe policies that reduce deadlocks by 96% in stochastic factory simulations.
 
   - items: 'Set-GNEP'
     paperitems:
