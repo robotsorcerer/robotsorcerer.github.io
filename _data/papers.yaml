@@ -4,7 +4,7 @@ publications:
   - items: 'Neurips-HJReach'
     paperitems:
       - title: 'A Monte-Carlo HJ Reachability Sampling Scheme'
-        location:
+        location: downloads/Papers/hjgauss.pdf
         authors:
           - <b>Lekan Molu</b>, Venkatraman Renganathan, and Namhoon Cho.
         venue_web: 'https://neurips.cc/'
@@ -13,26 +13,20 @@ publications:
         year: 2026
         thumbnail: /assets/thumbs/icml26.jpg
         abstract: >
-            "Certifying that a learned policy remains safe in continuous, moderate-to-high-dimensional 
-            state spaces is a central challenge in trustworthy machine learning. Backward reachable 
-            tubes (BRTs), computed via viscous Hamilton-Jacobi (HJ) partial differential equations, provide 
-            a principled safety certificate for learned controllers, neural policies, and planning algorithms. 
-            However, classical grid-based HJ solvers require $O(M^n)$ memory, where $M$ is the number of 
-            grid points per dimension and $n$ is the state dimension, rendering them impractical for 
-            high-dimensional systems. We address this bottleneck with a local PDE linearization via a 
-            transform that enables a frozen-coefficient sampling scheme for the viscous HJ PDE. This 
-            generalized Cole-Hopf-type transformation reduces the nonlinear HJ equation to a sequence 
-            of linear heat equations whose solutions admit Gaussian heat-kernel representations. 
-            The value function and its spatial gradient are then recovered via roll-outs of Monte Carlo 
-            expectations on Gaussian densities; this yields a storage and grid-agnostic algorithm that 
-            scales with the number of samples $N$ and the state dimension $n$ rather than $M^n$. We prove 
-            two guarantees for this scheme: a finite-sample concentration bound showing that the Monte 
-            Carlo value estimator achieves a grid-agnostic $O(N^{-1/2})$ error under explicit boundedness 
-            conditions,  and a conditional linear convergence result for the Picard fixed-point iteration 
-            under Lipschitz and nondegeneracy assumptions. We validate the approach on benchmark reachability 
-            ms for up to $n=6$ bottleneck identification and dispatch optimization in manufacturing production 
-            control lines. We demonstrate convergence with a median $L_2$ value function error of $14.03\%$ 
-            on the vehicle pursuit-evasion games relative to levelset ground truth."
+            "Backward reachable tubes (BRTs), computed via viscous Hamilton-Jacobi (HJ) partial differential equations, 
+            provide principled safety certificates for learned controllers and planning algorithms in trustworthy 
+            machine learning. However, classical grid-based HJ solvers require $O(M^n)$ memory footprint for $M$ 
+            grid points per $n$ state dimension. This renders them impractical for high-dimensional systems. We address 
+            this bottleneck with a local PDE linearization that enables a frozen-coefficient sampling scheme for the viscous 
+            HJ PDE: a generalized Cole-Hopf-type transformation reduces the nonlinear HJ equation to a sequence of linear 
+            heat equations whose solutions admit Gaussian heat-kernel representations. The value function and its spatial 
+            gradient are then recovered via roll-outs of Monte Carlo expectations on Gaussian densities, yielding a storage 
+            and grid-free algorithm that scales as $N\cdot n$ for $N$ samples.  This decoupling of memory from dimensionality 
+            enables reachability analysis on problems where grid-based methods are simply impossible. We prove a finite-sample 
+            concentration bound $O(N^{-1/2}$ error and conditional linear convergence for the introduced Monte-Carlo Picard 
+            iterative scheme. Numerical validation on pursuit-evasion games demonstrates relative $L^2_{\text{rel}}$ errors 
+            of $0.03 - 0.20$, with $14-26$ second wall-clock times per 2D slice on a CPU. Crucially, the method scales with 
+            validation on up to (but not limited to) $n=45$-dimensional multi-agent games."
 
   - items: 'InfDiff'
     paperitems:
