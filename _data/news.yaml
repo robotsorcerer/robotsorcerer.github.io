@@ -9,6 +9,11 @@ news_items:
   #                 👉 Check out this snippet from my recent <a href="/downloads/Papers/ar_flyer.pdf" target=blank>presentation</a> to the Amazon Robotics IRG group. 🏆'
   #       highlight: true
   #       date: 'April, 2026'
+  - items: 'HJGauss_NeurIPS26'
+    subnewsitems:
+      - content: ' 🎯 Check out our <s>swaggerlicious</s><a href="/downloads/Papers/hjgauss.pdf" target=blank>paper</a>, which transforms the Hamilton–Jacobi (HJ)-Isaacs ⚡ TVD Runge-Kutta scheme into a 🌪️ Gaussian process inference, one Monte Carlo sample at a time, for safety analyses 🤯🏆. 🎯 Away with “YOLO-and-pray” safety engineering 😅🔥, our <b>kernelized Monte Carlo sampling scheme</b> scales HJ certificates using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug? ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target=blank>e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy AI safety verification --- from robotics and autonomous driving to stochastic industrial control! 🚀🌍 Huzzah!!! 💪'
+        highlight: true
+        date: May 13, 2026
   - items: 'IFAC_GNEP'
     subnewsitems:
       - content: '🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
@@ -55,14 +60,14 @@ news_items:
         date: April 7, 2025
   - items: 'SoRoSPT'
     subnewsitems:
-      - content: "Towards fast strain regulation in continuum robots, in this  new <a href='downloads/Papers/SoRoSPT.pdf'>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum 
+      - content: "Towards fast strain regulation in continuum robots, in this  new <a href='/downloads/Papers/SoRoSPT.pdf'>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum
                  dynamical system whose whole-body strain dynamics is resolved in an adaptive and hierarchical nonlinear control fashion." 
         highlight: false
         date: March 30, 2025
   - items: 'McGillLayeredControl'
     subnewsitems:
-      - content: "Recent <a href='downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered 
-                  architecture and time-scale separation control scheme in the quest towards the real-time control 
+      - content: "Recent <a href='/downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
+                  architecture and time-scale separation control scheme in the quest towards the real-time control
                   of heterogeneous soft robotics devices."
         highlight: true
         date: October 31, 2024
@@ -97,12 +102,12 @@ news_items:
         date: Aug. 3, 2024
   - items: 'RedmondProjGreen'
     subnewsitems:
-      - content: 'Organizing an <a href="downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
+      - content: 'Organizing an <a href="/downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
         highlight: false
         date: Feb. 24, 2024
   - items: 'YaleMixedTalk'
     subnewsitems:
-      - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> at Yale University based on our <a href="downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
+      - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> at Yale University based on our <a href="/downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
         highlight: false
         date: Nov. 2, 2023
   - items: 'IFAC!'
@@ -122,7 +127,7 @@ news_items:
         highlight: false
         date: September 30, 2020
         
-  - items: AAPM20
+  - items: 'AAPM20'
     subnewsitems:
       - content: "Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got
                 accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i>
