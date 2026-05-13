@@ -11,7 +11,7 @@ news_items:
   #       date: 'April, 2026'
   - items: 'HJGauss_NeurIPS26'
     subnewsitems:
-      - content: ' 🎯 Check out our swaggerlicious <a href="/downloads/Papers/hjgauss.pdf" target=blank>paper</a>, which transforms the Hamilton–Jacobi (HJ)-Isaacs ⚡ TVD Runge-Kutta HJ solver scheme into 🌪️ Gaussian-process inference, one Monte Carlo sample at a time, for safety analyses under uncertainty🤯🏆. 🎯 Away with “YOLO-and-pray” safety engineering 😅🔥. We introduce a <b>kernelized Monte Carlo sampling scheme</b> using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug?😏👉 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target=blank>e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy AI safety verification --- from robotics and autonomous driving to stochastic industrial control! 🚀🌍 Huzzah!!! 💪🎉∞'
+      - content: ' 🎯 Check out our swaggerlicious <a href="/downloads/Papers/hjgauss.pdf" target=blank>paper</a>, which transforms the ⚡ classical TVD Runge-Kutta Hamilton–Jacobi (HJ) solver scheme into 🌪️ Gaussian-process inference, one Monte Carlo sample at a time, for safety analyses under uncertainty🤯🏆. 🎯 Away with “YOLO-and-pray” safety engineering 😅🔥. We introduce a <b>kernelized Monte Carlo sampling scheme</b> using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug?😏👉 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target=blank>e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy AI safety verification --- from robotics and autonomous driving to stochastic industrial control! 🚀🌍 Huzzah!!! 💪🎉∞'
         highlight: true
         date: May 13, 2026
   - items: 'IFAC_GNEP'
@@ -32,7 +32,7 @@ news_items:
                   <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/" target=blank>Abulikemu Abuduweili</a>. Abu successfully defended 
                   his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week; thereafter he sold his soul to Apple as a Robotics Research 
                   Scientist/Engineer. Keep shining those bright white lights, Abu!'
-        highlight: true
+        highlight: false
         date: Aug. 6, 2025
   - items: 'ACC2025_Slides'
     subnewsitems:
@@ -44,13 +44,13 @@ news_items:
       - content: "I am attending the next American Control Conference (ACC) in Denver, Co. Among other things, I will be (1) chairing the regular session of nonlinear systems' stability; 
                     (2) a panelist on the ASME industry-oriented student special session for students hoping to accelerate their career into industry;  and 
                     (3) presenting <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>this recent layered nonlinear control paper</a>. Looking forward to hearing and learning from the leading minds in our community."
-        highlight: true
+        highlight: false
         date: May 21, 2025
   - items: 'CornellTech'
     subnewsitems:
       - content: "Check out this sizzling hot <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
                    surrounding safety and robustness in decision-making by autonomous systems and soft robots modeling and control." 
-        highlight: true
+        highlight: false
         date: April 09, 2025
   - items: 'LevPy!'
     subnewsitems:
@@ -69,7 +69,7 @@ news_items:
       - content: "Recent <a href='/downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
                   architecture and time-scale separation control scheme in the quest towards the real-time control
                   of heterogeneous soft robotics devices."
-        highlight: true
+        highlight: false
         date: October 31, 2024
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
@@ -93,7 +93,7 @@ news_items:
   - items: 'CDC_Co_Chair'
     subnewsitems:
       - content: 'Together with <a href="https://scholar.google.com/citations?user=F_vrpf0AAAAJ&hl=en"> Volker Pohl</a>, I am co-chairing the computational methods in control theory at the next <a href="https://cdc2024.ieeecss.org/">Conference on Decision and Control</a> in Milan (December 2024). Evviva!'
-        highlight: true
+        highlight: false
         date: Nov. 5, 2024
   - items: 'Shaoru_LinkedIn'
     subnewsitems:
