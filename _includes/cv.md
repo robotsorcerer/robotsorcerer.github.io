@@ -88,7 +88,16 @@ document.getElementById('news-toggle').addEventListener('click', function(){
 <a name="talks"></a>
 <h5 class="cv-h"><i class="fa fa-microphone"></i> Talk Highlights</h5>
 
+
 <div class="talk-grid">
+  <div class="talk-card">
+    <div class="talk-meta"><span class="talk-date">04/26</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Amazon Robotics Fulfillment Technologies, MA/WA</span></div>
+    <div class="talk-title"><a href="downloads/Papers/AR.pdf">Distributionally-Informed Production Control: Bridging Diffusion and HJ-Safety Verification.</a></div>
+  </div>
+  <div class="talk-card">
+    <div class="talk-meta"><span class="talk-date">11/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Chan-Zuckerberg Initiative, San Francisco, CA</span></div>
+    <div class="talk-title"><a href="downloads/Papers/CZI.pdf">Reinforcement and Supervised Learning in Medical Physics & Engineering</a></div>
+  </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">09/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Robotics &amp; AI Institute, Cambridge MA</span></div>
     <div class="talk-title"><a href="downloads/Papers/RAI-Inst.pdf">Towards Ubiquitous Robotics Automation</a></div>
