@@ -181,8 +181,12 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
     <div class="mentee-trail">MSR Intern '22 → NYU Engineering PhD → Postdoctoral Scholar, MIT → Asst. Professor, Univ. of New Mexico</div>
   </div>
   <div class="mentee-card">
+    <a href="https://harwiltz.github.io/">Harley Wiltzer</a>
+    <div class="mentee-trail">MSR Intern '23 · McGill PhD (advised by <a href="https://www.cim.mcgill.ca/~dmeger/">Meger</a> &amp; <a href="http://www.marcgbellemare.info/">Bellemare</a>) → MTS, Inception Labs</div>
+  </div>
+  <div class="mentee-card">
     <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en">Abulikemu Abuduweili</a>
-    <div class="mentee-trail">CMU Robotics PhD → MSR Intern '24 → Research Scientist, Apple Robotics</div>
+    <div class="mentee-trail">CMU Robotics PhD → MSR Intern '24 → Researcher, Apple Robotics</div>
   </div>
 </div>
 
@@ -214,10 +218,6 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
   <div class="mentee-card">
     Harry Vuong
     <div class="mentee-trail">Brandeis MS '20/'21 → Robotic Systems Engineer, Universal Robots A/S</div>
-  </div>
-  <div class="mentee-card">
-    <a href="https://harwiltz.github.io/">Harley Wiltzer</a>
-    <div class="mentee-trail">MSR Intern '23 · McGill PhD (advised by <a href="https://www.cim.mcgill.ca/~dmeger/">Meger</a> &amp; <a href="http://www.marcgbellemare.info/">Bellemare</a>)</div>
   </div>
   <div class="mentee-card">
     <a href="https://www.linkedin.com/in/adwaitkulkarni93">Adwait Kulkarn</a>
