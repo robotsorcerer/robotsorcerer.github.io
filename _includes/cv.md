@@ -2,8 +2,12 @@
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
 <div class="bio-timeline">
+<!--   <div class="bio-tl-item">
+    <span class="bio-tl-year">2026 – Present</span>
+    <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics.</a></div>
+  </div> -->
   <div class="bio-tl-item">
-    <span class="bio-tl-year">2025 – Present</span>
+    <span class="bio-tl-year">2025 – 2026</span>
     <div class="bio-tl-role">Researcher, Stealth Research Lab.</div>
   </div>
   <div class="bio-tl-item">
@@ -16,11 +20,7 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a>.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2019</span>
-    <div class="bio-tl-role">Postdoctoral Scholar, <a href="https://pritzker.uchicago.edu/">University of Chicago, Pritzker School of Medicine</a>.</div>
+    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine⏪Transitioned from UChicago DCAM</a>.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2018</span>
