@@ -48,7 +48,7 @@ news_items:
         date: May 21, 2025
   - items: 'CornellTech'
     subnewsitems:
-      - content: "Check out this sizzling <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
+      - content: "A <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
                    surrounding safety and robustness in decision-making by autonomous systems and soft robots modeling and control." 
         highlight: true
         date: April 09, 2025
@@ -69,7 +69,7 @@ news_items:
       - content: "Recent <a href='/downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
                   architecture and time-scale separation control scheme in the quest towards the real-time control
                   of heterogeneous soft robotics devices."
-        highlight: false
+        highlight: true
         date: October 31, 2024
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
@@ -83,7 +83,7 @@ news_items:
   - items: 'CDC_Accepts'
     subnewsitems:
       - content: 'Two papers accepted to the IEEE <a href="https://cdc2024.ieeecss.org/"> Control and Decision Conference, CDC 2024</a>, Milano, Italia! Huzzah!'
-        highlight: false
+        highlight: true
         date: Aug. 27, 2024
   - items: 'Anurag_Amazon'
     subnewsitems:
