@@ -24,7 +24,7 @@ news_items:
                   under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀 
                   Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC 
                   World Congress!</a> 🎉'
-        highlight: true
+        highlight: false
         date: Jan 20, 2025
   - items: 'AbuduApple'
     subnewsitems:
@@ -48,9 +48,9 @@ news_items:
         date: May 21, 2025
   - items: 'CornellTech'
     subnewsitems:
-      - content: "Check out this sizzling hot <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
+      - content: "Check out this sizzling <a href='/downloads/Papers/UnabridgedPresentation.pdf' target=blank>complete and unabridged commentary on</a> <b>some</b> of my recent research efforts 
                    surrounding safety and robustness in decision-making by autonomous systems and soft robots modeling and control." 
-        highlight: false
+        highlight: true
         date: April 09, 2025
   - items: 'LevPy!'
     subnewsitems:
