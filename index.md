@@ -20,20 +20,19 @@ title: Lekan Molu
       <p class="hero-subtitle">
         Researcher &nbsp;·&nbsp; AI. Control. Autonomous Systems.
       </p>
-      <p class="hero-tagline">
+  <!--     <p class="hero-tagline">
         <em>Rerum Cognoscere Causas</em> — To know the causes of things.<br>
-        Building safe, stable, robust, reliable, and resilient (S<sup>2</sup>3R) foundational AI and control systems for autonomous systems.
-      </p>
+        AI . Robots . Control Systems -- not necessarily ordered.
+      </p> -->
       <div class="research-chips">
         <span class="chip">AI</span>
-        <span class="chip">Autonomous Systems</span>
         <span class="chip">Robotics</span>
         <span class="chip">Control</span>
       </div>
       <div class="hero-links">
-        <a href="https://scholar.google.com/citations?user=JeUaqqEAAAAJ" target="_blank">
+<!--         <a href="https://scholar.google.com/citations?user=JeUaqqEAAAAJ" target="_blank">
           <i class="ai ai-google-scholar"></i> Scholar
-        </a>
+        </a> -->
         <a href="https://github.com/robotsorcerer" target="_blank">
           <i class="fa fa-github"></i> GitHub
         </a>
