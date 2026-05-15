@@ -3,7 +3,7 @@ publications:
   # ── SUBMITTED (descending year) ──────────────────────────────────────
   - items: 'Neurips-HJReach'
     paperitems:
-      - title: 'A Monte-Carlo HJ Reachability Sampling Scheme'
+      - title: 'HJ-Gauss: A Monte-Carlo HJ Reachability Scheme'
         location: downloads/Papers/hjgauss.pdf
         authors:
           - <b>Lekan Molu</b>, Venkatraman Renganathan, and Namhoon Cho.
