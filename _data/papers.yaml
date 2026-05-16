@@ -13,21 +13,7 @@ publications:
         year: 2026
         thumbnail: /assets/thumbs/icml26.jpg
         abstract: >
-            "Backward reachable tubes (BRTs), computed via viscous Hamilton-Jacobi (HJ) partial differential equations, 
-            provide principled safety certificates for learned controllers and planning algorithms in trustworthy 
-            machine learning. However, classical grid-based HJ solvers require $O(M^n)$ memory footprint for $M$ 
-            grid points per $n$ state dimension. This renders them impractical for high-dimensional systems. We address 
-            this bottleneck with a local PDE linearization that enables a frozen-coefficient sampling scheme for the viscous 
-            HJ PDE: a generalized Cole-Hopf-type transformation reduces the nonlinear HJ equation to a sequence of linear 
-            heat equations whose solutions admit Gaussian heat-kernel representations. The value function and its spatial 
-            gradient are then recovered via roll-outs of Monte Carlo expectations on Gaussian densities, yielding a storage 
-            and grid-free algorithm that scales as $N\cdot n$ for $N$ samples.  This decoupling of memory from dimensionality 
-            enables reachability analysis on problems where grid-based methods are simply impossible. We prove a finite-sample 
-            concentration bound $O(N^{-1/2}$ error and conditional linear convergence for the introduced Monte-Carlo Picard 
-            iterative scheme. Numerical validation on pursuit-evasion games demonstrates relative $L^2_{\text{rel}}$ errors 
-            of $0.03 - 0.20$, with $14-26$ second wall-clock times per 2D slice on a CPU. Crucially, the method scales with 
-            validation on up to (but not limited to) $n=45$-dimensional multi-agent games."
-
+          Resolving the safety envelope for high-dimensional automonous systems (think robot fleets, a platoon of autonomous vehicles on an highway etc) is easily amenable to the Hamilton-Jacobi-Isaacs (HJI) equation as a verification toolkit. The HJI equation is notoriously  difficult to scale on computing devices due to its quadratic memory requirements. In this work, we work with the 'viscous' version of the HJI equation and provide a local linearization of the underlying nonlinear PDE so that it admits a Gaussian kernel density representation. This trick, in quasilinearized schemes, allows us to scale the resolution of the safety envelope of many autonomous systems linearly, instead of quadratically. The benefits are real: with AI-based modeling and control of robots, and many other autonomous systems, our work allows a plug-and-play safety wrapper for co-optimizing policies whilst providing bounded rationality on the safe operations of such systems in the wild. 
   - items: 'InfDiff'
     paperitems:
       - title: 'Beyond Sampling: Kolmogorov PDE Regression for Robust Diffusion Policies'
@@ -47,8 +33,7 @@ publications:
              robustness guarantees. To address this deficiency, we lift diffusion to an infinite-dimensional subset of a 
              Hilbert Space and transform the Monte-Carlo action sampling generation into a deterministic PDE regression. 
              This reparameterization (i) attenuates the instability associated with Monte Carlo rollouts in FD settings; 
-             whilst (ii) enabling reconfigurability of the action space in spectral form to support the entire data manifold;  
-             and (iii) provides dimension-independent convergence guarantees. Specifically, we lift the backward Kolmogorov 
+             whilst (ii) enabling reconfigurability of the action space in spectral form to support the entire data manifold;            and (iii) provides dimension-independent convergence guarantees. Specifically, we lift the backward Kolmogorov 
              score function to a Cameron-Martin space, introducing a physics-grounded Kolmogorov residual as a diagnostic during 
              learning. Our schemes are validated on contact-rich manipulation (\texttt{PushT}) and manufacturing constant 
              work-in-processes (\texttt{CONWIP}) flow forecasting. Across action (reverse) denoising steps on \texttt{PushT}, 
@@ -58,25 +43,6 @@ publications:
              To further imbue robustness into diffusion workflows, we integrate our approach with Hamilton–Jacobi reachability 
              safety analysis, so that our approach yields certified safe policies that reduce deadlocks by 96% in stochastic 
              factory automation discrete event systems.
-
-  - items: 'Set-GNEP'
-    paperitems:
-      - title: 'Set-valued Generalized Nash Equlibrium-Seeking Algorithms for Behavior Learning'
-        location:
-        authors:
-          - <b>Lekan Molu</b>.
-        venue_web: 'https://neurips.cc/'
-        venue: Neural Information Processing Systems (NeurIPS), Paris.
-        paper_status: Submitted
-        year: 2026
-        thumbnail: #/assets/thumbs/infdiff.jpg
-        abstract: >
-          This paper revisits the classic generalized Nash-equilibrium-seeking games over networks and casts the 
-          local objectives of players as a set-valued, rather than point-valued, objective to be optimized. We concretely
-          postulate the learning algorithm for real-time decision-making in environments where decisions are not 
-          clear-cut. Our formulation is backed by empirical evidence that demonstrate the feasibility of our ideas on 
-          real-world behavior systems. These algorithms may become consequential as a means for rationalizing 
-          agentic behavior in the future.
 
   - items: 'CDC26'
     paperitems:
@@ -113,7 +79,7 @@ publications:
         year: August 2026
         thumbnail: /assets/thumbs/gnep_socio.jpg
         abstract: >
-          We formulate trauma resuscitation as a multi-agent control problem and propose a
+          We transform emergency room trauma resuscitation into a multi-agent control problem and propose a
           generalized Nash equilibrium-seeking policy that coordinates multiple clinical agents
           under resource constraints, improving patient outcomes while satisfying safety and
           fairness requirements.
