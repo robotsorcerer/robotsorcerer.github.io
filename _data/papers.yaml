@@ -13,7 +13,7 @@ publications:
         year: 2026
         thumbnail: /assets/thumbs/icml26.jpg
         abstract: >
-          Resolving the safety envelope for high-dimensional automonous systems (think robot fleets, a platoon of autonomous vehicles on an highway etc) is easily amenable to the Hamilton-Jacobi-Isaacs (HJI) equation as a verification toolkit. The HJI equation is notoriously  difficult to scale on computing devices due to its quadratic memory requirements. In this work, we work with the 'viscous' version of the HJI equation and provide a local linearization of the underlying nonlinear PDE so that it admits a Gaussian kernel density representation. This trick, in quasilinearized schemes, allows us to scale the memory footprint of the safety envelope of many autonomous systems linearly, instead of quadratically. The benefits are real: with AI-based modeling and control of robots, and many other autonomous systems, our work allows a plug-and-play safety wrapper for co-optimizing policies in high-dimensional problems whilst providing bounded rationality on the safe operations of such systems in the wild. 
+            Classical Hamilton–Jacobi safety verification breaks under high dimensions because grids explode combinatorially. We sidestep this by quasilinearizing viscous HJI equations through a generalized Cole–Hopf transform, reducing nonlinear safety propagation to Gaussian heat-kernel inference. The result is a scalable, plug-and-play safety wrapper for autonomous systems with provable concentration bounds and linear convergence — trading grid explosion for controllable Monte Carlo sampling.
   - items: 'InfDiff'
     paperitems:
       - title: 'Beyond Sampling: Kolmogorov PDE Regression for Robust Diffusion Policies'
