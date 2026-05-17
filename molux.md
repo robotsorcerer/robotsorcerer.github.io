@@ -1,19 +1,15 @@
-I had eight months of experimenting with various aspects of Ito's stochastic calculus, Black-Scholes models, and modern diffusion schemes with various neural network architectures to improve market odds for a family-owned hedge-fund portfolio management system (more below).
-
-
-- Built a production-grade analytics and execution stack integrating:
+- Production-grade analytics and execution stack single UI:
   - real-time market data ingestion (yfinance, NASDAQ APIs)  
   - portfolio P&L attribution and tax-lot tracking  
-  - automated options roll and dynamic risk adjustment workflows  
+  - automated options close/roll-(out/up) for dynamic risk adjustment workflows  
 
-- Designed and operated an automated quantitative trading and portfolio monitoring system, including:
-  - real-time intraday alert system driven by implied volatility and options market signals  
-  - systematic options strategy execution (covered calls, credit/debit spreads, iron condors, convex structures)  
-  - rolling risk exposure tracking (delta, theta, vega) at 5-minute resolution  (on a cron reporting pipeline)
- - trading and portfolio allocation strategies grounded in probabilistic modeling and uncertainty quantification
+- Automated quantitative trading and portfolio monitoring system, including:
+  - real-time intraday alert system driven by IV and options Greeks  
+  - systematic options strategy execution including (poor man's) covered calls, credit/debit vertical and diagonal spreads, iron condors, convex structures  
+  - rolling risk exposure tracking (delta, theta, vega) all rolled into a cron reporting pipeline
+  - trading and portfolio allocation strategies grounded in probabilistic modeling, stochastic optimal control, and uncertainty quantification
 
-- Developed probabilistic forecasting models for automated trading on high-frequency contracts in binary prediction markets (e.g., Kalshi). Achieved ~**60% directional accuracy** across structured contracts.
+- Probabilistic forecasting models for automated trading on high-frequency contracts in binary prediction markets (e.g., Kalshi). 
+  - Incorporated Hamilton–Jacobi reachability–based safety filters for risk-aware position sizing and for maintaining safe operating envelopes under dynamically changing thetas, deltas, gammas with deep ITM LEAP exposure.
 
-- Incorporated Hamilton–Jacobi reachability–based safety filters into diffusion-driven policies to enforce risk-aware position sizing and maintain safe operating envelopes under high-delta and deep ITM LEAP exposure.
-
-- Implemented cron-based reporting and decision pipelines delivering automated daily summaries across equity, options, and cash positions, enabling disciplined and reproducible trading operations.
+- Automated reporting and decision-making pipelines delivering automated daily summaries across equity, options, and cash positions --- informing disciplined and reproducible trading operations.
