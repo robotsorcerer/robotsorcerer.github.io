@@ -2,10 +2,10 @@
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
 <div class="bio-timeline">
-<!--   <div class="bio-tl-item">
+   <div class="bio-tl-item">
     <span class="bio-tl-year">2026 – Present</span>
-    <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics.</a></div>
-  </div> -->
+    <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Robotics.</a>    </div>
+  </div> 
   <div class="bio-tl-item">
     <span class="bio-tl-year">2025 – 2026</span>
     <div class="bio-tl-role">Researcher, Stealth Research Lab.</div>
