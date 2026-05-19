@@ -60,20 +60,20 @@ news_items:
         date: April 7, 2025
   - items: 'SoRoSPT'
     subnewsitems:
-      - content: "Towards fast strain regulation in continuum robots, in this  new <a href='/downloads/Papers/SoRoSPT.pdf'>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum
+      - content: "Towards fast strain regulation in continuum robots, in this  new <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum
                  dynamical system whose whole-body strain dynamics is resolved in an adaptive and hierarchical nonlinear control fashion." 
-        highlight: false
+        highlight: true
         date: March 30, 2025
   - items: 'McGillLayeredControl'
     subnewsitems:
-      - content: "Recent <a href='/downloads/Papers/McGill.pdf'> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
+      - content: "Recent <a href='/downloads/Papers/McGill.pdf' target=blank> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
                   architecture and time-scale separation control scheme in the quest towards the real-time control
                   of heterogeneous soft robotics devices."
         highlight: true
         date: October 31, 2024
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/">ICRA</a> conference? 
+      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/" target=blank>ICRA</a> conference? 
                   I am but a weave within the rich tapestry of excellent leaders in the soft robotics community, 
                   fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models, 
                   and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots 
