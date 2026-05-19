@@ -30,7 +30,7 @@ news_items:
     subnewsitems:
       - content: 'A very hearty congratulations to our 2024 intern and resourceful research collaborator 
                   <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/" target=blank>Abulikemu Abuduweili</a>. Abu successfully defended 
-                  his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week; thereafter he <s>sold his soul to</s> joined Apple as a Robotics Research 
+                  his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week. Later in the week, he would <s>sell his soul to the devil</s> join Apple as a Robotics Research 
                   Scientist/Engineer. Keep shining those bright white lights, Abu!'
         highlight: true
         date: Aug. 6, 2025
