@@ -117,24 +117,6 @@ publications:
           occupancy mapping. The method generalizes across robot morphologies without
           retraining and achieves real-time planning in cluttered, partially observed environments.
 
-  - items: 'PSDNets'
-    paperitems:
-      - title: 'Is the Bellman Equation Enough for Learning Control?'
-        location: 'downloads/Papers/HaoxiangRLC.pdf'
-        authors:
-          - Haoxiang You, <b>Lekan Molu</b>, and Ian Abraham
-        venue_web: 'https://irl-conference.cc'
-        venue: Reinforcement Learning Theory Conference, 2025
-        paper_status: Submitted
-        year: March 2025
-        thumbnail: /assets/thumbs/haoxiang.jpg
-        abstract: >
-          We investigate whether value function approximation via Bellman residual
-          minimization is sufficient for stable and optimal control. Examining
-          failure modes in continuous-time systems, we identify conditions under which
-          the Bellman equation is necessary but not sufficient, and propose an
-          augmented PSD-constrained network architecture that recovers stability guarantees.
-
   # ── ACCEPTED / PUBLISHED (descending year) ───────────────────────────
   - items: 'LevPyPDESupps'
     paperitems:
