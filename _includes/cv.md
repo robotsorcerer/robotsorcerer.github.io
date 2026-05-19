@@ -90,21 +90,21 @@ document.getElementById('news-toggle').addEventListener('click', function(){
 
 
 <div class="talk-grid">
-  <div class="talk-card">
+<!--  <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">04/26</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Amazon Robotics Fulfillment Technologies, MA/WA</span></div>
     <div class="talk-title"><a href="downloads/Papers/AR.pdf">Distributionally-Informed Production Control: Bridging Diffusion and HJ-Safety Verification.</a></div>
-  </div>
+  </div>-->
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">11/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Chan-Zuckerberg Initiative, San Francisco, CA</span></div>
-    <div class="talk-title"><a href="downloads/Papers/CZI.pdf">Reinforcement and Supervised Learning in Medical Physics & Engineering</a></div>
+    <div class="talk-title"><a href="downloads/Papers/CZI.pdf" target=blank>Reinforcement and Supervised Learning in Medical Physics & Engineering</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">09/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Robotics &amp; AI Institute, Cambridge MA</span></div>
-    <div class="talk-title"><a href="downloads/Papers/RAI-Inst.pdf">Towards Ubiquitous Robotics Automation</a></div>
+    <div class="talk-title"><a href="downloads/Papers/RAI-Inst.pdf" target=blank>Towards Ubiquitous Robotics Automation</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">08/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Google DeepMind Robotics, SF CA</span></div>
-    <div class="talk-title"><a href="downloads/Papers/BostonDynamics.pdf">State Representation in Reinforcement Learning</a></div>
+    <div class="talk-title"><a href="downloads/Papers/BostonDynamics.pdf" target=blank>State Representation in Reinforcement Learning</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">08/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Wayve Technologies, London UK</span></div>
@@ -112,18 +112,18 @@ document.getElementById('news-toggle').addEventListener('click', function(){
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">08/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Boston Dynamics, Waltham MA</span></div>
-    <div class="talk-title"><a href="downloads/Papers/BostonDynamicsMain.pdf">Embodied Intelligence in Open Embodiments</a> <a href="/BostonDynamicsApp.pdf" class="talk-appendix">Appendix</a></div>
+    <div class="talk-title"><a href="downloads/Papers/BostonDynamicsMain.pdf" target=blank>Embodied Intelligence in Open Embodiments</a> <a href="/BostonDynamicsApp.pdf" class="talk-appendix">Appendix</a></div>
   </div>
 </div>
 
 <div class="talk-grid" id="talks-more" style="display:none;">
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">07/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> META Reality Labs, SF CA</span></div>
-    <div class="talk-title"><a href="downloads/Papers/Yale.pdf">Robustness and Efficient State Representation in Open Embodiments</a></div>
+    <div class="talk-title"><a href="downloads/Papers/Yale.pdf" target=blank>Robustness and Efficient State Representation in Open Embodiments</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">11/24</span><span class="talk-venue"><i class="fa fa-map-marker"></i> McGill University / MILA</span></div>
-    <div class="talk-title"><a href="downloads/Papers/McGill.pdf">Layered, Hierarchical Nonlinear Control of Soft Robotic Systems</a></div>
+    <div class="talk-title"><a href="downloads/Papers/McGill.pdf" target=blank>Layered, Hierarchical Nonlinear Control of Soft Robotic Systems</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">11/23</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Yale University Engineering / CS</span></div>
@@ -131,11 +131,11 @@ document.getElementById('news-toggle').addEventListener('click', function(){
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">Fall 2023</span><span class="talk-venue"><i class="fa fa-map-marker"></i> MSR Game Intelligence Group, Cambridge UK</span></div>
-    <div class="talk-title"><a href="downloads/Papers/Yale.pdf">Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms</a></div>
+    <div class="talk-title"><a href="downloads/Papers/Yale.pdf" target=blank>Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">2022</span><span class="talk-venue"><i class="fa fa-map-marker"></i> MSR NYC</span></div>
-    <div class="talk-title"><a href="/downloads/Papers/screw_slides.pdf">A Short Treatise on the Kinematics and Kinetics of Robots</a></div>
+    <div class="talk-title"><a href="/downloads/Papers/screw_slides.pdf" target=blank>A Short Treatise on the Kinematics and Kinetics of Robots</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">Fall 2021</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Microsoft Research Summit</span></div>
@@ -143,7 +143,7 @@ document.getElementById('news-toggle').addEventListener('click', function(){
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">2021</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Brandeis University</span></div>
-    <div class="talk-title"><a href="/downloads/Papers/RBOT101.pdf">The Mathematical Foundations of Robotics</a></div>
+    <div class="talk-title"><a href="/downloads/Papers/RBOT101.pdf" target=blank>The Mathematical Foundations of Robotics</a></div>
   </div>
   <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">2021</span><span class="talk-venue"><i class="fa fa-map-marker"></i> MSR NYC / Auris Health (J&amp;J), SF</span></div>
@@ -173,30 +173,30 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
 
 <div class="mentoring-grid">
   <div class="mentee-card">
-    <a href="https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en">Taylor Webb</a>
+    <a href="https://scholar.google.nl/citations?user=WCmrJoQAAAAJ&hl=en" target=blank>Taylor Webb</a>
     <div class="mentee-trail">Princeton Neuroscience PhD · UCLA Postdoc → MSR Postdoc '24/25 → Asst. Professor, Université de Montréal</div>
   </div>
   <div class="mentee-card">
-    <a href="https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao">Leilei Cui</a>
+    <a href="https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao" target=blank>Leilei Cui</a>
     <div class="mentee-trail">MSR Intern '22 → NYU Engineering PhD → Postdoctoral Scholar, MIT → Asst. Professor, Univ. of New Mexico</div>
   </div>
   <div class="mentee-card">
-    <a href="https://harwiltz.github.io/">Harley Wiltzer</a>
+    <a href="https://harwiltz.github.io/" target=blank>Harley Wiltzer</a>
     <div class="mentee-trail">MSR Intern '23 · McGill PhD (advised by <a href="https://www.cim.mcgill.ca/~dmeger/">Meger</a> &amp; <a href="http://www.marcgbellemare.info/">Bellemare</a>) → MTS, Inception Labs</div>
   </div>
   <div class="mentee-card">
-    <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en">Abulikemu Abuduweili</a>
+    <a href="https://scholar.google.com/citations?user=6Oro5g8AAAAJ&hl=en" target=blank>Abulikemu Abuduweili</a>
     <div class="mentee-trail">CMU Robotics PhD → MSR Intern '24 → Researcher, Apple Robotics</div>
   </div>
 </div>
 
 <div class="mentoring-grid mentoring-overflow" id="mentoring-more" style="display:none;">
   <div class="mentee-card">
-    <a href="https://koulanurag.dev/">Anurag Koul</a>
+    <a href="https://koulanurag.dev/" target=blank>Anurag Koul</a>
     <div class="mentee-trail">Oregon State PhD · MSR Postdoc '23–'24 → Applied Scientist II, Amazon NYC</div>
   </div>
   <div class="mentee-card">
-    <a href="https://shaoruchen.github.io">Shaoru Chen</a>
+    <a href="https://shaoruchen.github.io" target=blank>Shaoru Chen</a>
     <div class="mentee-trail">Penn ESE PhD → MSR Postdoc '23–'24 → LinkedIn Senior ML Engineer</div>
   </div>
   <div class="mentee-card">
@@ -204,16 +204,8 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
     <div class="mentee-trail">Princeton ECE BS → MSR Undergrad Intern '23 → Yale CS PhD (advised by <a href="https://www.marynel.net/">Prof. Marynel Vazquez</a>)</div>
   </div>
   <div class="mentee-card">
-    <a href="https://thomaszh3.github.io/">Thomas Zhang</a>
-    <div class="mentee-trail">MSR Intern '23 · UPenn PhD (advised by <a href="https://nikolaimatni.github.io/">Prof. Nik Matni</a>)</div>
-  </div>
-  <div class="mentee-card">
     <a href="https://www.gbahati.com/home">Gilbert Bahati</a>
     <div class="mentee-trail">Caltech MechE PhD (advised by <a href="http://ames.caltech.edu/">Prof. Aaron Ames</a>)</div>
-  </div>
-  <div class="mentee-card">
-    <a href="https://ialab.yale.edu/members/haoxiang-you.html">Haoxiang You</a>
-    <div class="mentee-trail">Yale MAE PhD (advised by <a href="https://ialab.yale.edu/">Prof. Ian Abraham</a>)</div>
   </div>
   <div class="mentee-card">
     Harry Vuong
@@ -317,15 +309,36 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <p>When away from work, I am probably on my road bike. I ride rain or shine, hell or highwater. From the parching heats of sultry Texas to the blustering cold winds of the Northeast.</p>
     <div class="cycling-states-label">Countries bikeprint</div>
     <div class="cycling-states">
-      <span>🇺🇸 US</span><span>🇬🇧 UK</span><span>🇦🇹 AT</span><span>🇯🇵 JP</span>
-      <span>🇨🇦 CA</span><span>🇮🇹 IT</span><span>🇨🇭 CH</span><span>🇩🇪 DE</span>
-      <span>🇪🇸 ES</span><span>🇵🇹 PT</span><span>🇫🇮 FI</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg" alt="Austria flag" style="height:1em;"> AT</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" alt="Canada flag" style="height:1em;"> CA</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg" alt="Switzerland flag" style="height:1em;"> CH</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg" alt="Germany flag" style="height:1em;"> DE</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Spain flag" style="height:1em;"> ES</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg" alt="Finland flag" style="height:1em;"> FI</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="Italy flag" style="height:1em;"> IT</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="Japan flag" style="height:1em;"> JP</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Naija flag" style="height:1em;"> NG</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg" alt="Portugal flag" style="height:1em;"> PT</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="UK flag" style="height:1em;"> UK</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="US flag" style="height:1em;"> US</span>
     </div>
     <div class="cycling-states-label" style="margin-top:8px;">US States bikeprint</div>
     <div class="cycling-states">
-      <span>MA</span><span>NH</span><span>CT</span><span>NY</span><span>NJ</span>
-      <span>PA</span><span>DE</span><span>FL</span><span>TX</span><span>IL</span>
-      <span>WI</span><span>IN</span><span>HI</span><span>WA</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg" alt="Connecticut flag" style="height:1em;"> CT</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Delaware flag" style="height:1em;"> DE</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg" alt="Florida flag" style="height:1em;"> FL</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg" alt="Hawaii flag" style="height:1em;"> HI</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Indiana.svg" alt="Indiana flag" style="height:1em;"> IN</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Illinois flag" style="height:1em;"> IL</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Massachusetts.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Massachusetts flag" style="height:1em;"> MA</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_New_Hampshire.svg" alt="New Hampshire flag" style="height:1em;"> NH</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_New_Jersey.svg" alt="New Jersey flag" style="height:1em;"> NJ</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg" alt="New York flag" style="height:1em;"> NY</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg" alt="Pennsylvania flag" style="height:1em;"> PA</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg" alt="Puerto Rico flag" style="height:1em;"> PR</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg" alt="Texas flag" style="height:1em;"> TX</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg" alt="Wisconsin flag" style="height:1em;"> WI</span>
+      <span><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg" alt="Washington flag" style="height:1em;"> WA</span>
     </div>
   </div>
   <div class="cycling-strava">
