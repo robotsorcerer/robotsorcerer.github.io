@@ -20,7 +20,7 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine⏪Transitioned from UChicago DCAM</a>.</div>
+    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a>⏪Transferred from UChicago DCAM.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2018</span>
