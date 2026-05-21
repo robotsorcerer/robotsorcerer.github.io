@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p><i>I develop mathematically grounded frameworks for autonomy: integrating learning, safety-critical control, and infinite-dimensional representations for robust scalable decision-making under uncertainty.</i></p>
+<p><i>I develop mathematically grounded frameworks for autonomy: integrating learning, safety-critical control, and systems representations for robust scalable decision-making under uncertainty.</i></p>
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
