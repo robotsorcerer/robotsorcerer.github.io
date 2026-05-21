@@ -1,6 +1,8 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
+<p><i>I develop mathematically grounded frameworks for autonomy that integrate learning, safety-critical control, and infinite-dimensional representations to enable robust decision-making under uncertainty.</i></p>
+
 <div class="bio-timeline">
    <div class="bio-tl-item">
     <span class="bio-tl-year">2026 – Present</span>
