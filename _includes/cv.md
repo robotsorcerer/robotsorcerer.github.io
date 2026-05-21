@@ -281,8 +281,13 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     </ul>
   </div>
   <div class="service-card service-card--wide">
-    <div class="service-card-label"><i class="fa fa-sitemap"></i> IEEE Technical Committees</div>
-    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TCs on Soft Robotics · Cognitive Robotics · Algorithms for Planning &amp; Control · Automation in Health Care · Aerial Robotics &amp; UAVs. 2023 – Present.</p>
+    <div class="service-card-label"><i class="fa fa-sitemap"></i> IEEE Robotics and Automation Society Technical Committees</div>
+    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Algorithms for Planning and Control of Robot Motion. 2024 – Present.</p>
+    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Soft Robotics. 2023 – Present.</p>
+    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Cognitive Robotics. 2023 – Present.</p>
+    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Automation in Health Care. 2023 – Present.</p>
+    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Aerial Robotics. 2023 – Present.</p>
+    <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on UAVs. 2023 – Present.</p>
   </div>
 </div>
 
