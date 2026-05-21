@@ -45,7 +45,7 @@ news_items:
     subnewsitems:
       - content: 'Delivered a talk at <a href="https://www.agilityrobotics.com//" target="_blank">Agility Robotics</a> Salem, OR on <b>Nonlinear, Singularly Perturbed Control for the Humanoid Platform: DIGIT</b>.'
         highlight: true
-        date: 'Sep 2025'
+        date: 'October 2025'
 
   - items: 'AbuduApple'
     subnewsitems:
