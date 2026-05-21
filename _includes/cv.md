@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p><i>I develop mathematically grounded frameworks for autonomy: integrating learning, safety-critical control, and systems representations for robust scalable decision-making under uncertainty. And yes, I am really 6'7".</i></p>
+<p><i>I develop mathematically grounded frameworks for autonomy: integrating learning, safety-critical control, and systems representations for robust scalable decision-making under uncertainty. And yes, I am really 6'7" --- with a statistically big head.</i></p>
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
