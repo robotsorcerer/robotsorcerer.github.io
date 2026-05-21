@@ -11,7 +11,7 @@ news_items:
   #       date: 'April, 2026'
   - items: 'HJGauss_NeurIPS26'
     subnewsitems:
-      - content: ' 🎯 Check out our new <a href="/downloads/Papers/hjgauss.pdf" target=blank>paper</a>, which transforms the ⚡ classical TVD Runge-Kutta Hamilton–Jacobi (HJ) levelset solver into 🌪️ Gaussian-process inference, one Monte Carlo sample at a time, for safety analyses under uncertainty🤯🏆. 🎯 Away with “YOLO safety engineering": this introduces a <b>kernel-based Monte Carlo sampling scheme</b> using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug?😏👉 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target=blank>e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (e.g., robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy embodied AI safety verification --- applications to robotics, autonomous driving, and stochastic industrial control! 🌍🎉'
+      - content: ' 🎯 Check out this cool <a href="/downloads/Papers/hjgauss.pdf" target=blank>paper</a>, which transforms the ⚡ classical TVD Runge-Kutta Hamilton–Jacobi (HJ) levelset solver into 🌪️ Gaussian-process inference, one Monte Carlo sample at a time, for safety analyses under uncertainty🤯🏆. 🎯 Away with “YOLO safety engineering": this introduces a <b>kernel-based Monte Carlo sampling scheme</b> using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug?😏👉 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target=blank>e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (e.g., robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy embodied AI safety verification --- applications to robotics, autonomous driving, and stochastic industrial control! 🌍🎉'
         highlight: true
         date: May 13, 2026
   - items: 'IFAC_GNEP'
@@ -24,7 +24,7 @@ news_items:
                   under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀 
                   Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC 
                   World Congress!</a> 🎉'
-        highlight: false
+        highlight: true
         date: Jan 20, 2025
   - items: 'AbuduApple'
     subnewsitems:
