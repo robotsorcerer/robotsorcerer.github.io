@@ -1,18 +1,14 @@
 news_items:
   - items: 'Robodiff'
     subnewsitems:
-      - content: '🏭 Robots-enabled production control systems just leveled up. Diffusion + HJ Safety = <b>High utilization, better bottleneck identification, and a more
-                  robust, reliable dispatch optimization workflow.</b> 🚀
-                  Our latest work moves beyond point estimates to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes production systems.
-                  Results: 🎯 CONWIP with certified safety under uncertainty 💪 • 🔍 Bottleneck detection with theoretical grounding • 📈 Smooth, optimized dispatch policies. ✅
-                  We model production lines as <b>function-valued stochastic control processes</b>—unlocking a new paradigm for resilient, efficient supply chains.
-                  👉 Check out this <a href="/downloads/Papers/robodiff.pdf" target=blank>manuscript</a>. 🏆'
+      - content: '🏭 How about certifiable bottleneck predictions for reliable dispatch optimization of stock inventories, inter-arrival rates, service rates, all toward a science-driven extremization of utilization in robots-enabled manufacturing control systems? Function-space diffusion and HJ safety certification got invited by Mister PDE to the manufacturing floor: My 👉 <a href="/downloads/Papers/robodiff.pdf" target="_blank">latest work</a> moves beyond point estimates to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. 🎯 Results: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍  🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank">Bottleneck detection with theoretical grounding</a> • 📈 Smooth, optimized dispatch policies ✅ for resilient, efficient supply chains.🏆🎤⬇️'
+                  
         highlight: true
         date: 'May 22, 2026'
 
   - items: 'HJGauss_NeurIPS26'
     subnewsitems:
-      - content: ' 🎯 Check out this cool <a href="/downloads/Papers/hjgauss.pdf" target=blank>paper</a>, which transforms the ⚡ classical TVD Runge-Kutta Hamilton–Jacobi (HJ) levelset reachability scheme into a 🌪️ Gaussian Monte Carlo sampling scheme, for safety analyses on autonomous systems🤯🏆. 🎯 Away with "YOLO safety engineering": this introduces a <b>kernel-based Monte Carlo sampling scheme</b> using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug?😏👉 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target=blank>e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (e.g., robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy embodied AI safety verification --- applications to robotics, autonomous driving, and stochastic industrial control! 🌍🎉'
+      - content: ' 🎯 Check out this cool <a href="/downloads/Papers/hjgauss.pdf" target="_blank">paper</a>, which transforms the ⚡ classical TVD Runge-Kutta Hamilton–Jacobi (HJ) levelset reachability scheme into a 🌪️ Gaussian Monte Carlo sampling scheme, for safety analyses on autonomous systems🤯🏆. 🎯 Away with "YOLO safety engineering": this introduces a <b>kernel-based Monte Carlo sampling scheme</b> using a Cole-Hopf-type transformation for quasilinearized backward reachable sets/tubes. 🛡️☠️➡️✨ The plug?😏👉 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization over <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank">e.g. levelsetpy</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds • 🤖 and efficacy on benchmarks previously considered computationally intractable. 🧠⚡ TL;DR: we may now teach autonomous (e.g., robot/car) fleets not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 HJ-Gauss opens the door to scalable, certifiably trustworthy embodied AI safety verification --- applications to robotics, autonomous driving, and stochastic industrial control! 🌍🎉'
         highlight: true
         date: May 13, 2026
 
@@ -20,11 +16,11 @@ news_items:
     subnewsitems:
       - content: '🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
                   like a well-oiled machine? Perhaps, healthcare teams workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠)
-                  and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target=blank>latest work</a>
+                  and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target="_blank">latest work</a>
                   addresses these in a <b>distributed generalized Nash equilibrium (GNE)-seeking</b> mechanism, grounded in real clinical
                   workflows at <b>Weill Cornell Medicine</b>. The result? A principled framework for orchestrating high-stakes team dynamics
                   under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀
-                  Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target=blank>IFAC
+                  Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target="_blank">IFAC
                   World Congress!</a> 🎉'
         highlight: true
         date: April 16, 2026
@@ -37,13 +33,13 @@ news_items:
 
   - items: 'Agility'
     subnewsitems:
-      - content: 'Delivered a talk at <a href="https://www.agilityrobotics.com//" target="_blank">Agility Robotics</a> Salem, OR on <b>Nonlinear, Singularly Perturbed Control for the Humanoid Platform: DIGIT</b>.'
+      - content: 'Delivered a talk at <a href="https://www.agilityrobotics.com//" target=blank>Agility Robotics</a> Salem, OR on <b>Nonlinear, Singularly Perturbed Control for the Humanoid Platform: DIGIT</b>.'
         highlight: true
         date: 'October 2025'
 
   - items: 'Talk_RAI_Sep25'
     subnewsitems:
-      - content: 'Delivered a talk at the <a href="https://ralinstitute.org/" target="_blank">Robotics &amp; AI Institute</a> in Cambridge, MA on <b>Towards Ubiquitous Robotics Automation</b>. <a href="/downloads/Papers/RAI-Inst.pdf" target="_blank">Slides.</a>'
+      - content: 'Delivered a talk at the <a href="https://ralinstitute.org/" target=blank>Robotics &amp; AI Institute</a> in Cambridge, MA on <b>Towards Ubiquitous Robotics Automation</b>. <a href="/downloads/Papers/RAI-Inst.pdf" target=blank>Slides.</a>'
         highlight: true
         date: 'Sep 2025'
 
@@ -58,19 +54,19 @@ news_items:
 
   - items: 'Talk_GoogleDeepMind_Aug25'
     subnewsitems:
-      - content: 'Presented at Google DeepMind Robotics, San Francisco on <b>State Representation in Reinforcement Learning</b>. <a href="/downloads/Papers/BostonDynamics.pdf" target="_blank">Slides.</a>'
+      - content: 'Presented at Google DeepMind Robotics, San Francisco on <b>State Representation in Reinforcement Learning</b>. <a href="/downloads/Papers/BostonDynamics.pdf" target=blank>Slides.</a>'
         highlight: true
         date: 'Aug 2025'
 
   - items: 'Talk_Wayve_Aug25'
     subnewsitems:
-      - content: 'Talked at <a href="https://wayve.ai/" target="_blank">Wayve Technologies</a> in London on <b>System Identification for Planning in Reinforcement Learning</b>.'
+      - content: 'Talked at <a href="https://wayve.ai/" target=blank>Wayve Technologies</a> in London on <b>System Identification for Planning in Reinforcement Learning</b>.'
         highlight: false
         date: 'Aug 2025'
 
   - items: 'Talk_BostonDynamics_Aug25'
     subnewsitems:
-      - content: 'Spoke at Boston Dynamics in Waltham, MA on <b>Embodied Intelligence in Open Embodiments</b>. <a href="/downloads/Papers/BostonDynamicsMain.pdf" target="_blank">Slides</a> | <a href="/BostonDynamicsApp.pdf" target="_blank">Appendix.</a>'
+      - content: 'Spoke at Boston Dynamics in Waltham, MA on <b>Embodied Intelligence in Open Embodiments</b>. <a href="/downloads/Papers/BostonDynamicsMain.pdf" target=blank>Slides</a> | <a href="/BostonDynamicsApp.pdf" target=blank>Appendix.</a>'
         highlight: true
         date: 'Aug 2025'
 
@@ -82,7 +78,7 @@ news_items:
 
   - items: 'Talk_METALabs_Jul25'
     subnewsitems:
-      - content: 'Presented at <a href="https://www.meta.com/realitylabs/" target="_blank">META Reality Labs</a> in San Francisco on <b>Robustness and Efficient State Representation in Open Embodiments</b>. <a href="/downloads/Papers/Yale.pdf" target="_blank">Slides</a>'
+      - content: 'Presented at <a href="https://www.meta.com/realitylabs/" target=blank>META Reality Labs</a> in San Francisco on <b>Robustness and Efficient State Representation in Open Embodiments</b>. <a href="/downloads/Papers/Yale.pdf" target=blank>Slides</a>'
         highlight: false
         date: 'Jul 2025'
 
@@ -164,7 +160,7 @@ news_items:
 
   - items: 'Talk_MSRGameIntel_Fall23'
     subnewsitems:
-      - content: 'Spoke at Microsoft Research Game Intelligence Group in Cambridge, UK on <b>Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms</b>. <a href="/downloads/Papers/Yale.pdf" target="_blank">Slides</a>'
+      - content: 'Spoke at Microsoft Research Game Intelligence Group in Cambridge, UK on <b>Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms</b>. <a href="/downloads/Papers/Yale.pdf" target=blank>Slides</a>'
         highlight: false
         date: 'Fall 2023'
 
@@ -182,7 +178,7 @@ news_items:
 
   - items: 'Talk_MSRNYC_2022'
     subnewsitems:
-      - content: 'Delivered a talk at Microsoft Research NYC on <b>A Short Treatise on the Kinematics and Kinetics of Robots</b>. <a href="/downloads/Papers/screw_slides.pdf" target="_blank">Slides</a>'
+      - content: 'Delivered a talk at Microsoft Research NYC on <b>A Short Treatise on the Kinematics and Kinetics of Robots</b>. <a href="/downloads/Papers/screw_slides.pdf" target=blank>Slides</a>'
         highlight: false
         date: '2022'
 
