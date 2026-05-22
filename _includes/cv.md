@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p>While I may not be a single-issue researcher, a consistent throughline across my publication record cuts across mathematically grounded frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representations</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UChicago, and UPenn. And yes, I am <i>w</i>eally 6'7".</p>
+<p>While I may not be a single-issue researcher, a consistent throughline across my publication record rips through mathematically grounded frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representations</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UChicago, and UPenn. And yes, I am <i>w</i>eally 6'7".</p>
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
