@@ -1,14 +1,14 @@
 news_items:
-  # - items: 'AR26_InfDiff'
-  #   subnewsitems:
-  #     - content: '🏭 Robots-enabled production control systems just leveled up. Diffusion + HJ Safety = <b>High utilization, better bottleneck identification, and a more
-  #                 robust, reliable dispatch optimization workflow.</b> 🚀
-  #                 Our latest work moves beyond point estimates to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes production systems.
-  #                 Results: 🎯 CONWIP with certified safety under uncertainty 💪 • 🔍 Bottleneck detection with theoretical grounding • 📈 Smooth, optimized dispatch policies. ✅
-  #                 We model production lines as <b>function-valued stochastic control processes</b>—unlocking a new paradigm for resilient, efficient supply chains.
-  #                 👉 Check out this snippet from my recent <a href="/downloads/Papers/ar_flyer.pdf" target=blank>presentation</a> to the Amazon Robotics IRG group. 🏆'
-  #       highlight: true
-  #       date: 'April, 2026'
+  - items: 'Robodiff'
+    subnewsitems:
+      - content: '🏭 Robots-enabled production control systems just leveled up. Diffusion + HJ Safety = <b>High utilization, better bottleneck identification, and a more
+                  robust, reliable dispatch optimization workflow.</b> 🚀
+                  Our latest work moves beyond point estimates to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes production systems.
+                  Results: 🎯 CONWIP with certified safety under uncertainty 💪 • 🔍 Bottleneck detection with theoretical grounding • 📈 Smooth, optimized dispatch policies. ✅
+                  We model production lines as <b>function-valued stochastic control processes</b>—unlocking a new paradigm for resilient, efficient supply chains.
+                  👉 Check out this <a href="/downloads/Papers/robodiff.pdf" target=blank>manuscript</a>. 🏆'
+        highlight: true
+        date: 'May 22, 2026'
 
   - items: 'HJGauss_NeurIPS26'
     subnewsitems:
