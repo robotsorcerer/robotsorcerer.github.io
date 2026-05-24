@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p>My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UChicago, UPenn, and UTD/UTSW. And yes, I am <i>w</i>eally 6'7".</p>
+<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UChicago, UPenn, and UTD/UTSW. And yes, I am <i>w</i>eally 6'7". Rai da lafiyah!</p> 
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
