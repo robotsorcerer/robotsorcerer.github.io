@@ -360,6 +360,34 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
 <div class="reading-shelf-label">2026</div>
 <div class="book-grid">
   <div class="book-card">
+    <div class="book-title">Eye of the Hurricane</div>
+    <div class="book-author">Richard Bellman</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Endurance</div>
+    <div class="book-author">Scott Kelly</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">American Sniper</div>
+    <div class="book-author">Chris Kyle</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Hot, Flat, and Crowded</div>
+    <div class="book-author">Thomas L. Friedman</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">The Odyssey</div>
+    <div class="book-author">Homer, Translated by Robert Fitzgerald</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">The World is Flat: A Brief History of the 21st Century.</div>
+    <div class="book-author">Thomas L. Friedman</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Thomas Paine and the Clarion Call for American Independence</div>
+    <div class="book-author">Harlow Giles Unger</div>
+  </div>
+  <div class="book-card">
     <div class="book-title">A Higher Loyalty</div>
     <div class="book-author">James Comey</div>
   </div>
@@ -367,27 +395,27 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <div class="book-title">D-Day</div>
     <div class="book-author">Stephen Ambrose</div>
   </div>
-  <div class="book-card">
+  <div class="book-card book-card--read">
+    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">Genghis Khan and the Making of the Modern World</div>
     <div class="book-author">Jack Weatherford</div>
   </div>
-  <div class="book-card">
+  <div class="book-card book-card--read">
+    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">1929: Inside the Greatest Crash in Wall Street History -- And How It Shattered A Nation</div>
     <div class="book-author">Andrew Ross Sorkin</div>
-  </div>
-  <div class="book-card">
-    <div class="book-title">Thomas Paine and the Clarion Call for American Independence</div>
-    <div class="book-author">Harlow Giles Unger</div>
   </div>
 </div>
 
 <div class="reading-shelf-label">2025</div>
 <div class="book-grid">
-  <div class="book-card">
+  <div class="book-card book-card--read">
+    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">Now It Can Be Told: The Story of the Manhattan Project</div>
     <div class="book-author">(General) Leslie M. Groves</div>
   </div>
-  <div class="book-card">
+  <div class="book-card book-card--read">
+    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">The Idea Factory: Bell Labs and the Great Age of American Innovation</div>
     <div class="book-author">Jon Gertner</div>
   </div>
@@ -395,21 +423,14 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <div class="book-title">Isaac Asimov's Caliban</div>
     <div class="book-author">Roger MacBride Allen</div>
   </div>
-  <div class="book-card">
-    <div class="book-title">The Startup Way</div>
-    <div class="book-author">Eric Ries</div>
-  </div>
-  <div class="book-card">
+  <div class="book-card book-card--read">
+    <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">Now They Will Have to Die</div>
     <div class="book-author">James Verini</div>
   </div>
   <div class="book-card">
     <div class="book-title">Successful Negotiating: Letting the Other Person Have <em>Your</em> Way</div>
     <div class="book-author">Ginny Pearson Barnes</div>
-  </div>
-  <div class="book-card">
-    <div class="book-title">Managing Up</div>
-    <div class="book-author">Roseanne Badowski</div>
   </div>
   <div class="book-card">
     <div class="book-title">True Compass</div>
