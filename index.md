@@ -18,7 +18,7 @@ title: Lekan Molu
     <div class="hero-text">
       <h1>Lekan Molu</h1>
       <p class="hero-subtitle">
-        Researcher &nbsp;·&nbsp; Roboticist &nbsp;·&nbsp; Engineer &nbsp;·&nbsp; In that order.
+        Researcher. Roboticist. Engineer --- in that order.
       </p>
   <!--     <p class="hero-tagline">
         <em>Rerum Cognoscere Causas</em> — To know the causes of things.<br>
