@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UChicago, UPenn, and UTD/UTSW.</p> 
+<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW.</p> 
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
@@ -25,20 +25,24 @@
     <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a>⏪Transferred from UChicago DCAM.</div>
   </div>
   <div class="bio-tl-item">
-    <span class="bio-tl-year">2018</span>
-    <div class="bio-tl-role">Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo, Japan.</div>
+    <span class="bio-tl-year">2018 | 2016</span>
+    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), Greater Boston, MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo, Japan</div>
   </div>
-  <div class="bio-tl-item">
+<!--   <div class="bio-tl-item">
     <span class="bio-tl-year">2016</span>
     <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), Greater Boston, MA.</div>
-  </div>
+  </div> -->
   <div class="bio-tl-item">
     <span class="bio-tl-year">2014 – 2019</span>
     <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/">University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">UT Southwestern Medical Center</a>.</div>
   </div>
   <div class="bio-tl-item">
-    <span class="bio-tl-year">2012 – 2013</span>
+    <span class="bio-tl-year">2011 – 2013</span>
     <div class="bio-tl-role">Student, <a href="https://www.sheffield.ac.uk/acse">University of Sheffield, Automatic Control and Systems Engineering</a>.</div>
+  </div>
+  <div class="bio-tl-item">
+    <span class="bio-tl-year">2009 – 2011</span>
+    <div class="bio-tl-role">Production Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/">The Coca-Cola Hellenic Bottling Company, Lagos/Athens.</a></div>
   </div>
 </div>
 
