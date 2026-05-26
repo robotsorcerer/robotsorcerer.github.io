@@ -4,14 +4,14 @@
 <p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in FMCG production lines with large-scale distributed supply chain management.</p> 
 
 <div class="bio-timeline">
+  <div class="bio-tl-item">
+    <span class="bio-tl-year">2025 – Present</span>
+    <div class="bio-tl-role">Researcher & Founder, Stealth Research Lab.</div>
+  </div>
    <div class="bio-tl-item">
     <span class="bio-tl-year">2026 – Present</span>
     <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Robotics.</a>    </div>
   </div> 
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2025 – Present</span>
-    <div class="bio-tl-role">Researcher, Stealth Research Lab.</div>
-  </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2021 – 2025</span>
     <div class="bio-tl-role">Senior Researcher, Microsoft Research Lab (NYC).</div>
