@@ -9,7 +9,7 @@
     <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Robotics.</a>    </div>
   </div> 
   <div class="bio-tl-item">
-    <span class="bio-tl-year">2025 – 2026</span>
+    <span class="bio-tl-year">2025 – Present</span>
     <div class="bio-tl-role">Researcher, Stealth Research Lab.</div>
   </div>
   <div class="bio-tl-item">
