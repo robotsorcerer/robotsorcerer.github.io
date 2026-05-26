@@ -26,7 +26,7 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2018 | 2016</span>
-    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), Greater Boston, MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo, Japan</div>
+    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), Greater Boston, MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo, Japan.</div>
   </div>
 <!--   <div class="bio-tl-item">
     <span class="bio-tl-year">2016</span>
@@ -42,7 +42,7 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2009 – 2011</span>
-    <div class="bio-tl-role">Production Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/">The Coca-Cola Hellenic Bottling Company, Lagos/Athens.</a></div>
+    <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/">Coca-Cola Hellenic Bottling Company</a></div>
   </div>
 </div>
 
