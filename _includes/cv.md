@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW.</p> 
+<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in production plants/lines with supply chain mangement.</p> 
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
