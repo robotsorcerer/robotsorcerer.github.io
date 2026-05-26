@@ -1,7 +1,7 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 
-<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in production plants/lines with supply chain mangement.</p> 
+<p><a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in production plants/lines with supply chain management.</p> 
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
@@ -26,7 +26,7 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2018 | 2016</span>
-    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), Greater Boston, MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo, Japan.</div>
+    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo.</div>
   </div>
 <!--   <div class="bio-tl-item">
     <span class="bio-tl-year">2016</span>
@@ -42,7 +42,7 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2009 – 2011</span>
-    <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/">Coca-Cola Hellenic Bottling Company</a></div>
+    <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/">Coca-Cola Hellenic Bottling Company.</a></div>
   </div>
 </div>
 
