@@ -105,7 +105,7 @@ permalink: pubs
           {{ paper.venue }}
         {% endif %}
         {% if paper.doi and paper.doi != "" %}
-          | <a href="{{ paper.doi }}" target="_blank">doi</a>
+          | <a href="{{ paper.doi }}" target="_blank">DOI</a>
         {% endif %}
       </div>
       <div class="pub-meta-row">

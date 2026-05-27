@@ -101,6 +101,25 @@ publications:
           retraining and achieves real-time planning in cluttered, partially observed environments.
 
   # ── ACCEPTED / PUBLISHED (descending year) ───────────────────────────
+  - items: 'LevPyPDE'
+    paperitems:
+      - title: 'LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations'
+        location: 'downloads/Papers/levelsetpy.pdf'
+        doi: 'https://dl.acm.org/doi/epdf/10.1145/3730407'
+        authors:
+          - <b>Lekan Molu</b>.
+        venue_web: 'https://dl.acm.org/journal/toms'
+        venue: ACM Transactions on Mathematical Software
+        paper_status: Accepted
+        year: March 2025
+        thumbnail: /assets/thumbs/levelsetpy.jpg
+        abstract: >
+          LevelSetPy is a Python package for numerically solving hyperbolic Hamilton-Jacobi
+          PDEs that arise in reachability analysis and level set methods. Leveraging JAX-based
+          GPU acceleration, it achieves order-of-magnitude speedups over the standard MATLAB
+          toolbox while providing a modern, differentiable programming interface for robotics
+          and control researchers.
+          
   - items: 'LevPyPDESupps'
     paperitems:
       - title: 'LevelSetPy Supplementary Results: Examples and Evaluations'
@@ -134,25 +153,6 @@ publications:
           The composite fast-slow design decouples the bending and shear strain dynamics,
           achieving convergence guarantees and superior transient performance compared to
           monolithic control laws.
-
-  - items: 'LevPyPDE'
-    paperitems:
-      - title: 'LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations'
-        location: 'downloads/Papers/levelsetpy.pdf'
-        doi: 'https://dl.acm.org/doi/epdf/10.1145/3730407'
-        authors:
-          - <b>Lekan Molu</b>.
-        venue_web: 'https://dl.acm.org/journal/toms'
-        venue: ACM Transactions on Mathematical Software
-        paper_status: Accepted
-        year: March 2025
-        thumbnail: /assets/thumbs/levelsetpy.jpg
-        abstract: >
-          LevelSetPy is a Python package for numerically solving hyperbolic Hamilton-Jacobi
-          PDEs that arise in reachability analysis and level set methods. Leveraging JAX-based
-          GPU acceleration, it achieves order-of-magnitude speedups over the standard MATLAB
-          toolbox while providing a modern, differentiable programming interface for robotics
-          and control researchers.
 
   - items: 'LevPy'
     paperitems:
