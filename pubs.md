@@ -44,10 +44,13 @@ permalink: pubs
         {% for author in paper.authors %}{{ author }} {% endfor %}
       </div>
       <div class="pub-venue">
-        {% if paper.venue_web and paper.venue_web != "" %}
-          <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
+        {% if paper.venue_web and paper.venue_web != "" %}          
+          <a href="{{ paper.venue_web }}" target="_blank">{{ paper.venue }}</a>
         {% else %}
-          <i>{{ paper.venue }}</i>
+          {{ paper.venue }}
+        {% endif %}
+        {% if paper.doi and paper.doi != "" %}
+          | <a href="{{ paper.doi }}" target="_blank">doi</a>
         {% endif %}
       </div>
       <div class="pub-meta-row">
@@ -97,9 +100,12 @@ permalink: pubs
       </div>
       <div class="pub-venue">
         {% if paper.venue_web and paper.venue_web != "" %}
-          <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
+          <a href="{{ paper.venue_web }}" target="_blank">{{ paper.venue }}</a>
         {% else %}
-          <i>{{ paper.venue }}</i>
+          {{ paper.venue }}
+        {% endif %}
+        {% if paper.doi and paper.doi != "" %}
+          | <a href="{{ paper.doi }}" target="_blank">doi</a>
         {% endif %}
       </div>
       <div class="pub-meta-row">
@@ -153,9 +159,12 @@ permalink: pubs
       </div>
       <div class="pub-venue">
         {% if paper.venue_web and paper.venue_web != "" %}
-          <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
+          <a href="{{ paper.venue_web }}" target="_blank">{{ paper.venue }}</a>
         {% else %}
-          <i>{{ paper.venue }}</i>
+          {{ paper.venue }}
+        {% endif %}
+        {% if paper.doi and paper.doi != "" %}
+          | <a href="{{ paper.doi }}" target="_blank">doi</a>
         {% endif %}
       </div>
       <div class="pub-meta-row">
@@ -208,9 +217,12 @@ permalink: pubs
       {% endif %}
       <div class="pub-venue">
         {% if paper.venue_web and paper.venue_web != "" %}
-          <a href="{{ paper.venue_web }}" target="_blank"><i>{{ paper.venue }}</i></a>
+          <a href="{{ paper.venue_web }}" target="_blank">{{ paper.venue }}</a>
         {% else %}
-          <i>{{ paper.venue }}</i>
+          {{ paper.venue }}
+        {% endif %}
+        {% if paper.doi and paper.doi != "" %}
+          | <a href="{{ paper.doi }}" target="_blank">doi</a>
         {% endif %}
       </div>
       <div class="pub-meta-row">

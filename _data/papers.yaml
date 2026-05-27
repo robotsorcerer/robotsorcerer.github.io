@@ -84,29 +84,12 @@ publications:
           under resource constraints, improving patient outcomes while satisfying safety and
           fairness requirements.
 
-  - items: 'MultiPPOSafe!'
-    paperitems:
-      - title: 'Multi-agent Policy Optimization: Optimality, Robustness, Safety, and Generalized Nash Equilibrium.'
-        location: /downloads/Papers/MPPO.pdf
-        authors:
-          - Others and <b>Lekan Molu</b>
-        venue_web:
-        venue:
-        paper_status: Submitted
-        year: June 2025
-        thumbnail: /assets/thumbs/mppo.jpg
-        abstract: >
-          We develop a theoretical framework for multi-agent proximal policy optimization
-          that simultaneously provides convergence guarantees, robustness certificates,
-          constraint satisfaction for safety, and convergence to generalized Nash equilibria
-          in mixed cooperative-competitive settings.
-
   - items: 'CFree!'
     paperitems:
       - title: 'A Fast Universal Collision-free Agentic Model: Compact Illusory Representation and Memory-Efficient Incremental Mapping'
         authors:
           - <b>Lekan Molu</b>, Abulikemu Abuduweili, Dean Fortier, Jun Takamatsu, Elise van der Pol, Naoki Wake, and Katsu Ikeuchi
-        location: downloads/Papers/CFree.pdf
+        location: #downloads/Papers/CFree.pdf
         venue: Science Robotics
         paper_status: Submitted
         year: April 2025
@@ -156,10 +139,11 @@ publications:
     paperitems:
       - title: 'LevelSetPy: A GPU-Accelerated Package for Hyperbolic Hamilton-Jacobi Partial Differential Equations'
         location: 'downloads/Papers/levelsetpy.pdf'
+        doi: 'https://dl.acm.org/doi/epdf/10.1145/3730407'
         authors:
           - <b>Lekan Molu</b>.
         venue_web: 'https://dl.acm.org/journal/toms'
-        venue: ACM Transactions on Mathematical Software | Research Paper
+        venue: ACM Transactions on Mathematical Software
         paper_status: Accepted
         year: March 2025
         thumbnail: /assets/thumbs/levelsetpy.jpg
@@ -523,18 +507,6 @@ publications:
           maskless head-and-neck cancer radiotherapy, demonstrating a proof-of-concept
           platform that uses pneumatic actuators and image-based feedback to maintain
           sub-millimeter positioning accuracy during treatment fractions.
-
-  # ── MANUSCRIPT (not shown in any section currently) ──────────────────
-  - items: 'ComplexBRAT!'
-    paperitems:
-      - title: 'Multi-agent Policy Optimization: Optimality, Stability, Robustness, and Nash Equilibrium'
-        authors:
-          - <b>Lekan Molu</b>.
-        venue_web: http://ijrr.org
-        venue: The International Journal of Robotics Research
-        paper_status: Manuscript
-        year: 2025
-        thumbnail: /assets/thumbs/complexbrat.jpg
 
   # ── TECHNICAL REPORTS (descending year) ──────────────────────────────
   - items: 'Springer2019!'
