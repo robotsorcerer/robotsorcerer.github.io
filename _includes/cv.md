@@ -187,6 +187,10 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
     <div class="mentee-trail">MSR Intern '22 → NYU Engineering PhD → Postdoctoral Scholar, MIT → Asst. Professor, Univ. of New Mexico</div>
   </div>
   <div class="mentee-card">
+    <a href="https://www.drovtechnologies.com/team" target=blank>Adwait Kulkarni</a>
+    <div class="mentee-trail">VP of Smart Trailer Engineering, Drōv Technologies, OKC, OK</div>
+  </div>
+  <div class="mentee-card">
     <a href="https://harwiltz.github.io/" target=blank>Harley Wiltzer</a>
     <div class="mentee-trail">MSR Intern '23 · McGill PhD (advised by <a href="https://www.cim.mcgill.ca/~dmeger/">Meger</a> &amp; <a href="http://www.marcgbellemare.info/">Bellemare</a>) → MTS, Inception Labs</div>
   </div>
@@ -285,7 +289,7 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     </ul>
   </div>
   <div class="service-card service-card--wide">
-    <div class="service-card-label"><i class="fa fa-sitemap"></i> IEEE Robotics and Automation Society Technical Committees</div>
+    <div class="service-card-label"><i class="fa fa-sitemap"></i> IEEE Robotics and Automation Society (RAS) Technical Committees (TC) </div>
     <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Algorithms for Planning and Control of Robot Motion. 2024 – Present.</p>
     <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Soft Robotics. 2023 – Present.</p>
     <p style="font-size:.82rem;margin:0;">Member, IEEE RAS TC on Cognitive Robotics. 2023 – Present.</p>
