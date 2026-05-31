@@ -11,8 +11,8 @@ title: Lekan Molu
   <canvas id="robo-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;opacity:0.38;pointer-events:none;"></canvas>
   <div class="hero-inner" style="position:relative;z-index:1;">
     <div class="hero-photo">
-      <a href="/downloads/me-upenn.jpg">
-        <img src="/downloads/me-upenn.jpg" alt="Lekan Molu">
+      <a href="/downloads/me-rodlab.jpg">
+        <img src="/downloads/me-rodlab.jpg" alt="Lekan Molu">
       </a>
     </div>
     <div class="hero-text">
