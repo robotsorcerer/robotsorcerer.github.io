@@ -11,7 +11,7 @@
   </div>
    <div class="bio-tl-item">
     <span class="bio-tl-year">2026 – Present</span>
-    <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Robotics.</a>    </div>
+    <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Industrial Robotics Group (IRG).</a>    </div>
   </div> 
   <div class="bio-tl-item">
     <span class="bio-tl-year">2021 – 2025</span>
