@@ -3,7 +3,7 @@ news_items:
   #   subnewsitems:
   #     - content: '🎯 I returned to Amazon Robotics of late. Same old email handle <last_name>@amazon.com.'
   #       highlight: true
-  #       date: 'June 1, 2026'  
+  #       date: 'June 1, 2026'
   - items: 'HJGauss_NeurIPS26'
     subnewsitems:
       - content: '🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target=_blank>grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank">In a  Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b> 150 million+ European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on just 2x 80GB H100s --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. <b>Scalability über alles!</b>🎩👌🤯'
@@ -17,14 +17,15 @@ news_items:
 
   - items: 'IFAC_GNEP'
     subnewsitems:
-      - content: '🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
-                  like a well-oiled machine? Perhaps, healthcare teams workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠)
-                  and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target="_blank">latest work</a>
-                  addresses these in a <b>distributed generalized Nash equilibrium (GNE)-seeking</b> mechanism, grounded in real clinical
-                  workflows at <b>Weill Cornell Medicine</b>. The result? A principled framework for orchestrating high-stakes team dynamics
-                  under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀
-                  Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target="_blank">IFAC
-                  World Congress!</a> 🎉'
+      - content: >
+          🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
+          like a well-oiled machine? Perhaps, healthcare teams workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠)
+          and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target="_blank">latest work</a>
+          addresses these in a <b>distributed generalized Nash equilibrium (GNE)-seeking</b> mechanism, grounded in real clinical
+          workflows at <b>Weill Cornell Medicine</b>. The result? A principled framework for orchestrating high-stakes team dynamics
+          under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀
+          Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target="_blank">IFAC
+          World Congress!</a> 🎉
         highlight: true
         date: April 16, 2026
 
@@ -48,10 +49,7 @@ news_items:
 
   - items: 'AbuduApple'
     subnewsitems:
-      - content: 'Hearty congratulations to our 2024 intern and resourceful research collaborator
-                  <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/" target=blank>Abulikemu Abuduweili</a>. Abu successfully defended
-                  his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week. Later in the week, he would <s>sell his soul for a handsome amount to the ultimate devil</s> join Apple as a Robotics Research
-                  Scientist/Engineer. Keep shining those bright white lights, Abu!'
+      - content: 'Hearty congratulations to our 2024 intern and resourceful research collaborator <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/" target=blank>Abulikemu Abuduweili</a>. Abu successfully defended his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week. Later in the week, he would <s>sell his soul for a handsome amount to the ultimate devil</s> join Apple as a Robotics Research Scientist/Engineer. Keep shining those bright white lights, Abu!'
         highlight: true
         date: Aug. 6, 2025
 
@@ -87,31 +85,33 @@ news_items:
 
   - items: 'ACCNonlinear'
     subnewsitems:
-      - content: "I am attending the next American Control Conference (ACC) in Denver, Co. Among other things, I will be (1) chairing the regular session of nonlinear systems' stability;
-                    (2) a panelist on the ASME industry-oriented student special session for students hoping to accelerate their career into industry;  and
-                    (3) presenting <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>this recent layered nonlinear control paper</a>. Looking forward to hearing and learning from the leading minds in our community."
+      - content: >
+          I am attending the next American Control Conference (ACC) in Denver, Co. Among other things, I will be (1) chairing the regular session of nonlinear systems' stability;
+          (2) a panelist on the ASME industry-oriented student special session for students hoping to accelerate their career into industry;  and
+          (3) presenting <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>this recent layered nonlinear control paper</a>. Looking forward to hearing and learning from the leading minds in our community.
         highlight: true
         date: May 21, 2025
 
   - items: 'LevPy!'
     subnewsitems:
-      - content: "Entertain your mind reading this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article.</a>
-                It describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
+      - content: "Entertain your mind reading this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article.</a> It describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
         highlight: false
         date: April 7, 2025
 
   - items: 'SoRoSPT'
     subnewsitems:
-      - content: "Towards fast strain regulation in continuum robots, in this  new <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum
-                 dynamical system whose whole-body strain dynamics is resolved in an adaptive and hierarchical nonlinear control fashion."
+      - content: >
+          Towards fast strain regulation in continuum robots, in this  new <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum
+          dynamical system whose whole-body strain dynamics is resolved in an adaptive and hierarchical nonlinear control fashion.
         highlight: true
         date: March 30, 2025
 
   - items: 'McGillLayeredControl'
     subnewsitems:
-      - content: "Recent <a href='/downloads/Papers/McGill.pdf' target=blank> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
-                  architecture and time-scale separation control scheme in the quest towards the real-time control
-                  of heterogeneous soft robotics devices."
+      - content: >
+          Recent <a href='/downloads/Papers/McGill.pdf' target=blank> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
+          architecture and time-scale separation control scheme in the quest towards the real-time control
+          of heterogeneous soft robotics devices.
         highlight: true
         date: October 31, 2024
 
@@ -129,11 +129,12 @@ news_items:
 
   - items: 'ICRA25EmbodiedIntelligence'
     subnewsitems:
-      - content: 'Will you be at the next <a href="https://2025.ieee-icra.org/" target=blank>ICRA</a> conference?
-                  I am but a weave within the rich tapestry of excellent leaders in the soft robotics community,
-                  fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models,
-                  and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots
-                  and devices. Please see the <a href="/eisoro_icra25">workshop webpage</a> for details.'
+      - content: >
+          Will you be at the next <a href="https://2025.ieee-icra.org/" target=blank>ICRA</a> conference?
+          I am but a weave within the rich tapestry of excellent leaders in the soft robotics community,
+          fashioned together to disseminate the latest findings -- new hardware fabrics, mathematical/ML models,
+          and control tools -- in a workshop on biologically-inspired embodied intelligence for modern robots
+          and devices. Please see the <a href="/eisoro_icra25">workshop webpage</a> for details.
         highlight: false
         date: August 24, 2024
 
@@ -193,39 +194,34 @@ news_items:
 
   - items: 'AAPM20'
     subnewsitems:
-      - content: "Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got
-                accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i>
-                Please e-attend my talk if you can at AAPM's annual meeting this year."
+      - content: "Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i> Please e-attend my talk if you can at AAPM's annual meeting this year."
         highlight: false
         date: May 16, 2020
   - items: 'PHinisheD!'
     subnewsitems:
-      - content: 'I have successfully defended my PhD Thesis.  Thanks to the mentors I worked with during my graduate program, viz.,
-                        <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and
-                        <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>,
-                        and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>,
-                        T. Summers, Y. Tadesse and D. Bhatia.'
+      - content: 'I have successfully defended my PhD Thesis. Thanks to the mentors I worked with during my graduate program, viz., <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>, and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, T. Summers, Y. Tadesse and D. Bhatia.'
         highlight: false
         date: May 16, 2019
   - items: Brandeis
     subnewsitems:
-      - content: 'I am teaching a robot manipulation course at Brandeis in the winter and spring
-                of 2020 as an Adjunct Faculty. I am keeping the lecture notes
-                <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses.'
+      - content: >
+          I am teaching a robot manipulation course at Brandeis in the winter and spring
+          of 2020 as an Adjunct Faculty. I am keeping the lecture notes
+          <a href="/downloads/Papers/BrandeisNotes.pdf" target="blank">here</a> as I develop them and the course progreses.
         highlight: false
         date: Nov 07, 2019
   - items: 'IROS_18!'
     subnewsitems:
-      - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>.
-                  Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
+      - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>. Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
         highlight: false
         date: August 20, 2019
   - items: 'Postdoc!'
     subnewsitems:
-      - content: Starting in the summer of 2019, after I shall have defended my PhD thesis,
-                  I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/">
-                  The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/">
-                  Pritzker School of Medicine.</a>
+      - content: >
+          Starting in the summer of 2019, after I shall have defended my PhD thesis,
+          I shall be resuming as a postdoc at <a href="https://www.uchicago.edu/">
+          The University of Chicago's</a> <a href="https://pritzker.uchicago.edu/">
+          Pritzker School of Medicine.</a>
         highlight: false
         date: January 31, 2019
   - items: ATR Labs
@@ -235,16 +231,16 @@ news_items:
         highlight: false
   - items: 'Thanks Google!'
     subnewsitems:
-      - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials,
-      workshops, and program sessions at NIPS 2018. Bonjour Montréal!'
+      - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!'
         highlight: false
         date: 'October 07, 2018'
   - items: 'Madrid!'
     subnewsitems:
-      - content: I had a reyt good great time at this year's IROS and ROSCon in Madrid.
-                 Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>,
-                 <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>,
-                 and video of Marc Raibert's <a href="https://www.instagram.com/p/BobgQPMhuKCrqy9OjV01K9-0cH6kmFZXcB6kgk0/">mini-spot demo</a>
+      - content: >
+          I had a reyt good great time at this year's IROS and ROSCon in Madrid.
+          Here are links to pictures of my <a href="https://www.instagram.com/p/Bp3kqzsnLS93Y_SNJZA_xd7N2mbFgkcj6empGs0/">IROS talk</a>,
+          <a href="https://www.instagram.com/p/B0EAzGpnnWe1GGiI6XynTeAriZOLvLETy17wlM0/">ROSCon meeting</a>,
+          and video of Marc Raibert's <a href="https://www.instagram.com/p/BobgQPMhuKCrqy9OjV01K9-0cH6kmFZXcB6kgk0/">mini-spot demo</a>
         highlight: false
         date: October 6, 2018
   - items: 'WAFR!'
@@ -259,16 +255,12 @@ news_items:
         highlight: false
   - items: 'Robust control via game theory'
     subnewsitems:
-      - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept.
-                  Codes <a href="https://github.com/lakehanne/youbot">here</a>.
-                  Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
+      - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept. Codes <a href="https://github.com/lakehanne/youbot">here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
         date: 'June 2018'
         highlight: false
   - items: 'Minimax iterative dynamic game'
     subnewsitems:
-      - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018.
-                Codes <a href="https://github.com/lakehanne/youbot">here</a>.
-                Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
+      - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018. Codes <a href="https://github.com/lakehanne/youbot">here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
         date: 'April 24, 2018'
         highlight: false
   - items: 'NSF'

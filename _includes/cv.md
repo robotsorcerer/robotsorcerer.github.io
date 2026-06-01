@@ -5,14 +5,14 @@
 <p><b>Optimizer, not a Satisficer.</b></p>
 
 <div class="bio-timeline">
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2025 – Present</span>
-    <div class="bio-tl-role">Researcher & Founder, Stealth Research Lab.</div>
-  </div>
    <div class="bio-tl-item">
     <span class="bio-tl-year">2026 – Present</span>
     <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Industrial Robotics Group (IRG).</a>    </div>
   </div> 
+  <div class="bio-tl-item">
+    <span class="bio-tl-year">2025 – 2026</span>
+    <div class="bio-tl-role">Researcher & Founder, Stealth Research Lab.</div>
+  </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2021 – 2025</span>
     <div class="bio-tl-role">Senior Researcher, Microsoft Research Lab (NYC).</div>
@@ -23,16 +23,12 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a>⏪Transferred from UChicago DCAM.</div>
+    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2018 | 2016</span>
     <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo.</div>
   </div>
-<!--   <div class="bio-tl-item">
-    <span class="bio-tl-year">2016</span>
-    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), Greater Boston, MA.</div>
-  </div> -->
   <div class="bio-tl-item">
     <span class="bio-tl-year">2014 – 2019</span>
     <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/">University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">UT Southwestern Medical Center</a>.</div>
