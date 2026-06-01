@@ -1,7 +1,7 @@
 news_items:
   - items: 'Amazon'
     subnewsitems:
-      - content: '🎯 Ten years after I left the Boston office, I am back in Amazon Robotics --- real robots, real factories, and real production lines. Funny how life  comes full circle 🔄✨ A boy can dream… and then go build it 😏🔥'
+      - content: '🎯 I am back in Amazon Robotics. Same old email handle <last_name>@amazon.com.'
         highlight: true
         date: June 1, 2026  
   - items: 'HJGauss_NeurIPS26'
