@@ -1,7 +1,7 @@
 news_items:
   - items: 'Amazon'
     subnewsitems:
-      - content: '🎯 I am back in Amazon Robotics. Same old email handle <last_name>@amazon.com.'
+      - content: '🎯 I returned to Amazon Robotics of late. Same old email handle <last_name>@amazon.com.'
         highlight: true
         date: June 1, 2026  
   - items: 'HJGauss_NeurIPS26'
