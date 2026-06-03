@@ -1,9 +1,18 @@
 news_items:
+
+  - items: 'AMZN_IRG'
+    subnewsitems:
+      - content: 'Full circle of life moment 🔄✨ I’m  back in Amazon Robotics -- a decade later! 🤯🧠⚙️ "<i>Life is not void or stuff for scorners:
+                    We have laughed loud and kept our love, we have heard singers in tavern corners and not forgotten the birds above:
+                    We have known smiters and sons of thunder, and not unworthily walked with them. We have grown wiser and lost not wonder;
+                    And we have seen Jerusalem.</i>" ~G.K. Chesterton, ''To F.C. In Memoriam Palestine, 1919.'' A boy can dream!💤 #RobotsRockAndRoll.'
+        highlight: true
+        date: Jun 03, 2026   
   - items: 'HJGauss_NeurIPS26'
     subnewsitems:
       - content: '🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target=_blank>grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank">In a  Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b> 150 million+ European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on just 2x 80GB H100s --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. <b>Scalability über alles!</b>🎩👌🤯'
         highlight: true
-        date: May 13, 2026        
+        date: May 29, 2026                 
   - items: 'Robodiff'
     subnewsitems:
       - content: 'For long-horizon planning tasks, finite-dimensional diffusion policies can be <i>wacky</i>. Well, this <a href="/downloads/Papers/robodiff.pdf" target="_blank">infinite-dimensional policy</a> royally <i>smacks</i>! 🏭 My 👉 <a href="/downloads/Papers/robodiff.pdf" target="_blank">recent work</a> moves beyond point-based sampling/estimates in diffusion to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. Results? 🎯 Improved convergence in robot manipulation tasks. There''s more: in  supply chain manufacturing, certifiable bottleneck predictions and the reliable dispatch optimization of utilization efficacy also leveled up: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍  🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank">Bottleneck detection with theoretical grounding</a> • 📈 Smooth dispatch policies ✅ for resilient, efficient supply chains.🏆🎤⬇️'
