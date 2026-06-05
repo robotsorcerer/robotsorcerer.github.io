@@ -20,7 +20,7 @@ news_items:
     subnewsitems:
       - content: >
           🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
-          like a well-oiled machine? Perhaps, healthcare teams workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠)
+          like a well-oiled machine? Perhaps, healthcare workers' workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠)
           and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target="_blank">latest work</a>
           addresses these in a <b>distributed generalized Nash equilibrium (GNE)-seeking</b> mechanism, grounded in real clinical
           workflows at <b>Weill Cornell Medicine</b>. The result? A principled framework for orchestrating high-stakes team dynamics
