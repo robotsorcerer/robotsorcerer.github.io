@@ -18,12 +18,8 @@ title: Lekan Molu
     <div class="hero-text">
       <h1>Lekan Molu</h1>
       <p class="hero-subtitle">
-        Researcher. Roboticist. Engineer --- in that order.
+        Researcher, roboticist, engineer --- in that order.
       </p>
-  <!--     <p class="hero-tagline">
-        <em>Rerum Cognoscere Causas</em> — To know the causes of things.<br>
-        AI . Robots . Control Systems -- not necessarily ordered.
-      </p> -->
       <div class="research-chips">
         <span class="chip">AI</span>
         <span class="chip">Robotics</span>

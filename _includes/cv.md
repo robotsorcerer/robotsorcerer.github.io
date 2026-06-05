@@ -26,8 +26,8 @@
     <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
   </div>
   <div class="bio-tl-item">
-    <span class="bio-tl-year">2018 | 2016</span>
-    <div class="bio-tl-role">Mechatronics Intern, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo.</div>
+    <span class="bio-tl-year">2016 | 2018</span>
+    <div class="bio-tl-role">Hardware Engineer IV, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2014 – 2019</span>
