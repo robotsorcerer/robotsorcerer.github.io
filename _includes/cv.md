@@ -5,7 +5,7 @@
   <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.55) 100%);"></div>
   
   <!-- First Paragraph: TL;DR with Dawn SVG -->
-  <p style="position: relative; z-index: 10; display: flex; gap: 1rem; align-items: flex-start; padding: 1.5rem 1.75rem 0.75rem 1.75rem; margin: 0; color: #ffffff;">
+  <p style="position: relative; z-index: 5; display: flex; gap: 1rem; align-items: flex-start; padding: 1.5rem 1.75rem 0.75rem 1.75rem; margin: 0; color: #ffffff;">
     <svg width="60" height="50" viewBox="0 0 140 120" style="flex-shrink: 0; margin-top: 2px;">
       <defs>
         <linearGradient id="dawn-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -19,11 +19,11 @@
       <path d="M 0 70 L 40 45 L 70 60 L 100 40 L 140 65 L 140 120 L 0 120 Z" fill="#124e78" opacity="0.6"/>
       <g transform="translate(50, 75)"><ellipse cx="0" cy="-8" rx="3" ry="4" fill="#1a2a40"/><circle cx="-8" cy="12" r="4" fill="none" stroke="#1a2a40" stroke-width="1"/><circle cx="8" cy="12" r="4" fill="none" stroke="#1a2a40" stroke-width="1"/></g>
     </svg>
-    <span style="flex: 1; margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.5; text-shadow: 0 2px 8px rgba(0,0,0,0.5);"><b>TL;DR</b>: Six days a week, all the way through sunday, I ride at dawn for <b>scalable control systems</b>.<a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank style="color: #FFB84D;"> Optimizer, not a Satisficer.</a></span>
+    <span style="flex: 1; margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.5; text-shadow: 0 2px 8px rgba(0,0,0,0.5);"><b>TL;DR</b>: Six days a week, all the way through sunday, I ride at dawn for <b>scalable control systems until dusk. Encores to the end of time. Yes. Yes. Yes.</b>.<a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank style="color: #FFB84D;"> Optimizer, not a Satisficer.</a></span>
   </p>
   
   <!-- Second Paragraph: Research Portfolio -->
-  <p style="position: relative; z-index: 10; padding: 0.75rem 1.75rem 1.5rem 1.75rem; margin: 0; font-size: 0.9rem; line-height: 1.65; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+  <p style="position: relative; z-index: 5; padding: 0.75rem 1.75rem 1.5rem 1.75rem; margin: 0; font-size: 0.9rem; line-height: 1.65; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
     My research portfolio has a consistent <b>throughline</b> grounded in <b>principled frameworks</b> for autonomy: integrating <b>learning-enabled</b> and <b>safety-critical control</b> with <b>systems representation</b> for <b>robust scalable decision-making under uncertainty</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in FMCG production lines with large-scale distributed supply chain management.
   </p>
 </div> 
