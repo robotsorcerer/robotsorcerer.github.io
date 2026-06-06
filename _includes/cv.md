@@ -28,45 +28,137 @@
   </p>
 </div> 
 
-<div class="bio-timeline">
-   <div class="bio-tl-item">
-    <span class="bio-tl-year">2026 – Present</span>
-    <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Industrial Robotics Group (IRG).</a>    </div>
-  </div> 
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2025 – 2026</span>
-    <div class="bio-tl-role">Researcher & Founder, Stealth Research Lab.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2021 – 2025</span>
-    <div class="bio-tl-role">Senior Researcher, Microsoft Research Lab (NYC).</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Adjunct Faculty, <a href="https://brandeis.edu/" target=_blank>Brandeis University, Graduate School of Professional Studies</a>.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/" target=_blank>University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2016 | 2018</span>
-    <div class="bio-tl-role">Hardware Engineer, <a href="https://www.amazonrobotics.com/#/" target=_blank>Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/" target=_blank>Preferred Networks</a>, Tokyo.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2014 – 2019</span>
-    <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/" target=_blank>University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html" target=_blank>UT Southwestern Medical Center</a>.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2011 – 2013</span>
-    <div class="bio-tl-role">Student, <a href="https://www.sheffield.ac.uk/acse" target=_blank>University of Sheffield, Automatic Control and Systems Engineering</a>.</div>
-  </div>
-  <div class="bio-tl-item">
-    <span class="bio-tl-year">2009 – 2011</span>
-    <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/" target=_blank>Coca-Cola Hellenic Bottling Company.</a></div>
+<style>
+  @keyframes bioScroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .bio-timeline-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .bio-timeline-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+  .bio-timeline-scroll::-webkit-scrollbar-track {
+    background: var(--accent-soft);
+    border-radius: 3px;
+  }
+  .bio-timeline-scroll::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 3px;
+  }
+  .bio-timeline-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-dark);
+  }
+  .bio-timeline-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    animation: bioScroll 20s linear infinite;
+  }
+  .bio-timeline-scroll:hover .bio-timeline-wrapper {
+    animation-play-state: paused;
+  }
+  .bio-tl-item {
+    flex: 0 0 320px;
+    padding: 1.25rem;
+    background: var(--card-bg);
+    border-left: 3px solid var(--accent);
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+</style>
+
+<div class="bio-timeline-scroll">
+  <div class="bio-timeline-wrapper">
+    <!-- First set -->
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2026 – Present</span>
+      <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Industrial Robotics Group (IRG).</a></div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2025 – Present</span>
+      <div class="bio-tl-role">Researcher & Founder, Stealth Research Lab.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2021 – 2025</span>
+      <div class="bio-tl-role">Senior Researcher, Microsoft Research Lab (NYC).</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2019 – 2021</span>
+      <div class="bio-tl-role">Adjunct Faculty, <a href="https://brandeis.edu/" target=_blank>Brandeis University, Graduate School of Professional Studies</a>.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2019 – 2021</span>
+      <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/" target=_blank>University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2018</span>
+      <div class="bio-tl-role">Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/" target=_blank>Preferred Networks</a>, Tokyo.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2016</span>
+      <div class="bio-tl-role">Hardware Engineer IV (Intern), <a href="https://www.amazonrobotics.com/#/" target=_blank>Amazon Robotics</a> (Advanced Robotics Lab), MA.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2014 – 2019</span>
+      <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/" target=_blank>University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html" target=_blank>UT Southwestern Medical Center</a>.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2011 – 2013</span>
+      <div class="bio-tl-role">Student, <a href="https://www.sheffield.ac.uk/acse" target=_blank>University of Sheffield, Automatic Control and Systems Engineering</a>.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2009 – 2011</span>
+      <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/" target=_blank>Coca-Cola Hellenic Bottling Company.</a></div>
+    </div>
+    
+    <!-- Duplicate set for infinite loop -->
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2026 – Present</span>
+      <div class="bio-tl-role">Senior Research Scientist, <a href="https://www.amazonrobotics.com">Amazon Industrial Robotics Group (IRG).</a></div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2025 – 2026</span>
+      <div class="bio-tl-role">Researcher & Founder, Stealth Research Lab.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2021 – 2025</span>
+      <div class="bio-tl-role">Senior Researcher, Microsoft Research Lab (NYC).</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2019 – 2021</span>
+      <div class="bio-tl-role">Adjunct Faculty, <a href="https://brandeis.edu/" target=_blank>Brandeis University, Graduate School of Professional Studies</a>.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2019 – 2021</span>
+      <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/" target=_blank>University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2018</span>
+      <div class="bio-tl-role">Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/" target=_blank>Preferred Networks</a>, Tokyo.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2016</span>
+      <div class="bio-tl-role">Hardware Engineer, <a href="https://www.amazonrobotics.com/#/" target=_blank>Amazon Robotics</a> (Advanced Robotics Lab), MA.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2014 – 2019</span>
+      <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/" target=_blank>University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html" target=_blank>UT Southwestern Medical Center</a>.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2011 – 2013</span>
+      <div class="bio-tl-role">Student, <a href="https://www.sheffield.ac.uk/acse" target=_blank>University of Sheffield, Automatic Control and Systems Engineering</a>.</div>
+    </div>
+    <div class="bio-tl-item">
+      <span class="bio-tl-year">2009 – 2011</span>
+      <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/" target=_blank>Coca-Cola Hellenic Bottling Company.</a></div>
+    </div>
   </div>
 </div>
-
 
 <a name="news"></a>
 <h4 class="cv-h"><i class="fa fa-newspaper-o"></i> Select News Highlights</h4>
