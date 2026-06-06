@@ -5,42 +5,54 @@ title: Lekan Molu
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 <!-- ═══════════════════════════════════════════════
-     HERO BANNER
+     HERO BANNER WITH RESEARCH DOMAINS
 ═══════════════════════════════════════════════ -->
-<div class="hero-section" style="margin: -28px -20px 28px; padding: 52px 0 40px; position: relative; overflow: hidden;">
-  <canvas id="robo-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;opacity:0.38;pointer-events:none;"></canvas>
-  <div class="hero-inner" style="position:relative;z-index:1;">
-    <div class="hero-photo">
-      <a href="/downloads/me-upenn.jpg">
-        <img src="/downloads/me-upenn.jpg" alt="Lekan Molu">
-      </a>
-    </div>
-    <div class="hero-text">
-      <h1>Lekan Molu</h1>
-      <p class="hero-subtitle">
-        Researcher, roboticist, engineer --- in that order.</p>
-      <div class="research-chips">
-        <span class="chip">AI</span>
-        <span class="chip">Robotics</span>
-        <span class="chip">Control</span>
-        <!-- <span class="chip"><a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank>Optimizer, not a Satisficer.</a></span> -->
+<div style="position: relative; margin: -28px auto 28px; overflow: hidden; max-width: 900px;">
+  <!-- 4-Column Image Background -->
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; height: 300px;">
+    <div style="background-image: url(/assets/wcm_radiation.jpg); background-size: cover; background-position: center;"></div>
+    <div style="background-image: url(/assets/lab_setup.jpg); background-size: cover; background-position: center;"></div>
+    <div style="background-image: url(/assets/amazon_warehouse.jpg); background-size: cover; background-position: center;"></div>
+    <div style="background-image: url(/assets/surgical_robotics.jpg); background-size: cover; background-position: center;"></div>
+  </div>
+  
+  <!-- Dark overlay for text readability -->
+  <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.6) 100%); z-index: 1;"></div>
+  
+  <!-- Canvas animation -->
+  <canvas id="robo-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;opacity:0.25;pointer-events:none;"></canvas>
+  
+  <!-- Hero content overlay -->
+  <div style="position: absolute; inset: 0; z-index: 2; display: flex; align-items: center; justify-content: center; padding: 52px 20px 40px;">
+    <div class="hero-inner" style="position:relative;z-index:1;text-align:center;">
+      <div class="hero-photo" style="margin-bottom: 1.5rem;">
+        <a href="/downloads/me-upenn.jpg">
+          <img src="/downloads/me-upenn.jpg" alt="Lekan Molu" style="width: 140px; height: 140px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.9); box-shadow: 0 4px 16px rgba(0,0,0,0.4);">
+        </a>
       </div>
-      <div class="hero-links">
-<!--         <a href="https://scholar.google.com/citations?user=JeUaqqEAAAAJ" target="_blank">
-          <i class="ai ai-google-scholar"></i> Scholar
-        </a> -->
-        <a href="https://github.com/robotsorcerer" target="_blank">
-          <i class="fa fa-github"></i> GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/robotsorcerer" target="_blank">
-          <i class="fa fa-linkedin"></i> LinkedIn
-        </a>
-        <a href="/pubs.html">
-          <i class="fa fa-book"></i> Publications
-        </a>
-        <a href="mailto:lekanmolu@scriptedonachip.com">
-          <i class="fa fa-envelope"></i> Email
-        </a>
+      <div class="hero-text">
+        <h3 style="color: #FFB84D; font-size: 2rem; font-weight: 700; margin: 0 0 0.75rem 0; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">Lekan Molu</h3>
+        <p class="hero-subtitle" style="color: #ffffff; font-size: 1rem; font-weight: 600; margin: 0 0 1.25rem 0; text-shadow: 0 2px 6px rgba(0,0,0,0.8); line-height: 1.5;">
+          Researcher · AI · Control · Autonomous Systems</p>
+        <div class="research-chips" style="margin-bottom: 1.25rem;">
+          <span class="chip" style="background: rgba(255,255,255,0.9); color: #1a6fa8; font-weight: 700; padding: 0.35rem 0.7rem; margin: 0 0.4rem; border-radius: 0.3rem; font-size: 0.75rem;">AI</span>
+          <span class="chip" style="background: rgba(255,255,255,0.9); color: #1a6fa8; font-weight: 700; padding: 0.35rem 0.7rem; margin: 0 0.4rem; border-radius: 0.3rem; font-size: 0.75rem;">Robotics</span>
+          <span class="chip" style="background: rgba(255,255,255,0.9); color: #1a6fa8; font-weight: 700; padding: 0.35rem 0.7rem; margin: 0 0.4rem; border-radius: 0.3rem; font-size: 0.75rem;">Control</span>
+        </div>
+        <div class="hero-links" style="display: flex; justify-content: center; gap: 1.25rem;">
+          <a href="https://github.com/robotsorcerer" target="_blank" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+            <i class="fa fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/robotsorcerer" target="_blank" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+            <i class="fa fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="/pubs.html" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+            <i class="fa fa-book"></i> Publications
+          </a>
+          <a href="mailto:lekanmolu@scriptedonachip.com" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+            <i class="fa fa-envelope"></i> Email
+          </a>
+        </div>
       </div>
     </div>
   </div>

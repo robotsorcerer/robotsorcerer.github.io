@@ -1,9 +1,32 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
-<!-- <a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> -->
-<p><b>TL;DR</b>: Six days a week, all the way through sunday, I ride at dawn for scalable control systems.<a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank> Optimizer, not a Satisficer.</a> ☁️🙌✨ </p>
 
-<p>My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in FMCG production lines with large-scale distributed supply chain management. </p> 
+<div style="position: relative; margin-bottom: 1.5rem; background: url(/assets/research-bg.jpg) center/cover no-repeat; min-height: 280px; border-radius: 0.5rem; overflow: hidden;">
+  <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.55) 100%);"></div>
+  
+  <!-- First Paragraph: TL;DR with Dawn SVG -->
+  <p style="position: relative; z-index: 10; display: flex; gap: 1rem; align-items: flex-start; padding: 1.5rem 1.75rem 0.75rem 1.75rem; margin: 0; color: #ffffff;">
+    <svg width="60" height="50" viewBox="0 0 140 120" style="flex-shrink: 0; margin-top: 2px;">
+      <defs>
+        <linearGradient id="dawn-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+          <stop offset="30%" style="stop-color:#f7931e;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#e8f3fb;stop-opacity:0.3" />
+        </linearGradient>
+      </defs>
+      <rect width="140" height="120" fill="url(#dawn-gradient)"/>
+      <circle cx="70" cy="25" r="12" fill="#ffeb3b" opacity="0.9"/>
+      <path d="M 0 70 L 40 45 L 70 60 L 100 40 L 140 65 L 140 120 L 0 120 Z" fill="#124e78" opacity="0.6"/>
+      <g transform="translate(50, 75)"><ellipse cx="0" cy="-8" rx="3" ry="4" fill="#1a2a40"/><circle cx="-8" cy="12" r="4" fill="none" stroke="#1a2a40" stroke-width="1"/><circle cx="8" cy="12" r="4" fill="none" stroke="#1a2a40" stroke-width="1"/></g>
+    </svg>
+    <span style="flex: 1; margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.5; text-shadow: 0 2px 8px rgba(0,0,0,0.5);"><b>TL;DR</b>: Six days a week, all the way through sunday, I ride at dawn for <b>scalable control systems</b>.<a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank style="color: #FFB84D;"> Optimizer, not a Satisficer.</a></span>
+  </p>
+  
+  <!-- Second Paragraph: Research Portfolio -->
+  <p style="position: relative; z-index: 10; padding: 0.75rem 1.75rem 1.5rem 1.75rem; margin: 0; font-size: 0.9rem; line-height: 1.65; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
+    My research portfolio has a consistent <b>throughline</b> grounded in <b>principled frameworks</b> for autonomy: integrating <b>learning-enabled</b> and <b>safety-critical control</b> with <b>systems representation</b> for <b>robust scalable decision-making under uncertainty</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in FMCG production lines with large-scale distributed supply chain management.
+  </p>
+</div> 
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
@@ -48,8 +71,144 @@
 <a name="news"></a>
 <h4 class="cv-h"><i class="fa fa-newspaper-o"></i> Select News Highlights</h4>
 
+<!-- Featured Amazon Robotics Item (Jun 03, 2026) -->
+<div class="cv-news-item is-highlighted" style="margin-bottom: 1.5rem;">
+  <span class="cv-news-badge">Jun 03, 2026</span>
+  <span class="cv-news-text">Full circle of life moment 🔄✨ I'm  back in Amazon Robotics! 🤯🧠⚙️ #RobotsRockAndRoll.</span>
+</div>
+
+<!-- Featured Starling Murmurations Item -->
+<div style="position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
+  <!-- Funnel/Cordon Formation -->
+  <div style="position: relative; background-image: url(/assets/starlings_funnel.jpg); background-size: cover; background-position: center; border-radius: 0.5rem;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
+  </div>
+  
+  <!-- Split Formation -->
+  <div style="position: relative; background-image: url(/assets/starlings_split.jpg); background-size: cover; background-position: center; border-radius: 0.5rem;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
+  </div>
+  
+  <!-- Overlaid News Content -->
+  <style>
+    @keyframes autoScroll {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-50%); }
+      50.1% { transform: translateY(0); }
+      100% { transform: translateY(0); }
+    }
+    .starling-news-scroll {
+      animation: autoScroll 20s linear infinite;
+    }
+  </style>
+  <div style="position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; padding: 2rem; background: linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.35) 100%); border-radius: 0.5rem;">
+    <div style="color: #ffffff; text-align: left; max-height: 100%; overflow: hidden; width: 100%;">
+      <div class="starling-news-scroll">
+        <div>
+          <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">May 29, 2026</span>
+          <p style="margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target=_blank style="color: #4FC3F7; font-weight: 600;">grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">In a Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b>150 million+ European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on just 2x 80GB H100s --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. <b>Scalability über alles!</b>🎩👌🤯</p>
+        </div>
+        <div>
+          <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">May 29, 2026</span>
+          <p style="margin: 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target=_blank style="color: #4FC3F7; font-weight: 600;">grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">In a Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b>150 million+ European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on just 2x 80GB H100s --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. <b>Scalability über alles!</b>🎩👌🤯</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured Robodiff Item (May 24, 2026) -->
+<div style="position: relative; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
+  <!-- GIF Background -->
+  <div style="position: relative; background-image: url(/assets/robodiff.gif); background-size: cover; background-position: center; border-radius: 0.5rem; min-height: 300px;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
+    
+    <!-- Overlaid News Content -->
+    <style>
+      @keyframes autoScrollRobodiff {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-50%); }
+        50.1% { transform: translateY(0); }
+        100% { transform: translateY(0); }
+      }
+      .robodiff-news-scroll {
+        animation: autoScrollRobodiff 18s linear infinite;
+      }
+    </style>
+    <div style="position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; padding: 2rem; background: linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.35) 100%); border-radius: 0.5rem;">
+      <div style="color: #ffffff; text-align: left; max-height: 100%; overflow: hidden; width: 100%;">
+        <div class="robodiff-news-scroll">
+          <div>
+            <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">May 24, 2026</span>
+            <p style="margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">For long-horizon planning tasks, finite-dimensional diffusion policies can be <i>wacky</i>. Well, this <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">infinite-dimensional policy</a> royally <i>smacks</i>! 🏭 My <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">recent work</a> moves beyond point-based sampling/estimates in diffusion to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. Results? 🎯 Improved convergence in robot manipulation tasks. There's more: in supply chain manufacturing, certifiable bottleneck predictions and the reliable dispatch optimization of utilization efficacy also leveled up: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank" style="color: #4FC3F7; font-weight: 600;">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍 🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank" style="color: #4FC3F7; font-weight: 600;">Bottleneck detection with theoretical grounding</a> • 📈 Smooth dispatch policies ✅ for resilient, efficient supply chains.🏆🎤⬇️</p>
+          </div>
+          <div>
+            <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">May 24, 2026</span>
+            <p style="margin: 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">For long-horizon planning tasks, finite-dimensional diffusion policies can be <i>wacky</i>. Well, this <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">infinite-dimensional policy</a> royally <i>smacks</i>! 🏭 My <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">recent work</a> moves beyond point-based sampling/estimates in diffusion to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. Results? 🎯 Improved convergence in robot manipulation tasks. There's more: in supply chain manufacturing, certifiable bottleneck predictions and the reliable dispatch optimization of utilization efficacy also leveled up: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank" style="color: #4FC3F7; font-weight: 600;">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍 🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank" style="color: #4FC3F7; font-weight: 600;">Bottleneck detection with theoretical grounding</a> • 📈 Smooth dispatch policies ✅ for resilient, efficient supply chains.🏆🎤⬇️</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured IFAC/WCM Item (April 16, 2026) -->
+<div style="position: relative; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
+  <!-- GIF Background -->
+  <div style="position: relative; background-image: url(/assets/wcm_trauma.gif); background-size: cover; background-position: center; border-radius: 0.5rem; min-height: 300px;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
+    
+    <!-- Weill Cornell Medicine Logo (Top Right - Foreground) -->
+    <div style="position: absolute; top: 1rem; right: 1rem; z-index: 20;">
+      <svg width="180" height="80" viewBox="0 0 180 80" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));">
+        <defs>
+          <linearGradient id="wcm-red" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#d32f2f;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#b71c1c;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <!-- Shield shape -->
+        <path d="M 15 10 L 15 35 Q 15 50 30 60 Q 45 50 45 35 L 45 10 Z" fill="url(#wcm-red)"/>
+        <!-- W letter -->
+        <text x="21" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">W</text>
+        <!-- Text -->
+        <text x="60" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Weill Cornell</text>
+        <text x="60" y="52" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Medicine</text>
+      </svg>
+    </div>
+    
+    <!-- Overlaid News Content -->
+    <style>
+      @keyframes autoScrollWCM {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-50%); }
+        50.1% { transform: translateY(0); }
+        100% { transform: translateY(0); }
+      }
+      .wcm-news-scroll {
+        animation: autoScrollWCM 16s linear infinite;
+      }
+    </style>
+    <div style="position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; padding: 2rem; background: linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.35) 100%); border-radius: 0.5rem;">
+      <div style="color: #ffffff; text-align: left; max-height: 100%; overflow: hidden; width: 100%;">
+        <div class="wcm-news-scroll">
+          <div>
+            <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">April 16, 2026</span>
+            <p style="margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better like a well-oiled machine? Perhaps, healthcare workers' workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠) and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">latest work</a> addresses these in a <b>distributed generalized Nash equilibrium (GNE)-seeking</b> mechanism, grounded in real clinical workflows at <b>Weill Cornell Medicine</b>. The result? A principled framework for orchestrating high-stakes team dynamics under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀 Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target="_blank" style="color: #4FC3F7; font-weight: 600;">IFAC World Congress!</a> 🎉</p>
+          </div>
+          <div>
+            <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">April 16, 2026</span>
+            <p style="margin: 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better like a well-oiled machine? Perhaps, healthcare workers' workflows may become: ✅ fairer (balanced workloads ⚖️) ✅ smarter (skill-task alignment 🧠) and ✅ efficient with (rapid, stable decisions ⚡) 🎯 Our <a href="/downloads/Papers/IFAC26.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">latest work</a> addresses these in a <b>distributed generalized Nash equilibrium (GNE)-seeking</b> mechanism, grounded in real clinical workflows at <b>Weill Cornell Medicine</b>. The result? A principled framework for orchestrating high-stakes team dynamics under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀 Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target="_blank" style="color: #4FC3F7; font-weight: 600;">IFAC World Congress!</a> 🎉</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="cv-news-feed">
   {% for item in site.data.news.news_items %}
+  {% unless item.items == 'HJGauss_NeurIPS26' or item.items == 'AMZN_IRG' or item.items == 'Robodiff' or item.items == 'IFAC_GNEP' %}
   {% for subitem in item.subnewsitems %}
   {% unless subitem.highlight == false %}
   <div class="cv-news-item is-highlighted">
@@ -58,6 +217,7 @@
   </div>
   {% endunless %}
   {% endfor %}
+  {% endunless %}
   {% endfor %}
 </div>
 

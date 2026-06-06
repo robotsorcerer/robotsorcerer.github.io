@@ -1,3 +1,3 @@
 #! /bin/sh
 
-bundle exec jekyll build && bundle exec jekyll serve --no-watch 
+bundle exec jekyll serve --force_polling 
