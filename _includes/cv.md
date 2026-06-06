@@ -1,8 +1,9 @@
 
 <h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
 <!-- <a href="https://en.wikipedia.org/wiki/Ikigai" target=_blank>Ikigai:</a> -->
+<p><b>TL;DR</b>: Six days a week, all the way through sunday, I ride at dawn for scalable control systems.<a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank> Optimizer, not a Satisficer.</a> ☁️🙌✨ </p>
+
 <p>My research portfolio has a consistent throughline that is grounded in principled frameworks for autonomy viz., integrating <b>learning-enabled safety-critical control</b> and <b>systems representation</b> for <b>robust scalable decision-making (usually under uncertainty)</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in FMCG production lines with large-scale distributed supply chain management. </p> 
-<p><b>^^^Optimizer, not a Satisficer.</b></p>
 
 <div class="bio-timeline">
    <div class="bio-tl-item">
@@ -19,27 +20,27 @@
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Adjunct Faculty, <a href="https://brandeis.edu/">Brandeis University, Graduate School of Professional Studies</a>.</div>
+    <div class="bio-tl-role">Adjunct Faculty, <a href="https://brandeis.edu/" target=_blank>Brandeis University, Graduate School of Professional Studies</a>.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2019 – 2021</span>
-    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/">University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
+    <div class="bio-tl-role">Postdoctoral Researcher, <a href="https://www.med.upenn.edu/" target=_blank>University of Pennsylvania, Perelman School of Medicine</a> ⏪ Transferred from UChicago DCAM.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2016 | 2018</span>
-    <div class="bio-tl-role">Hardware Engineer, <a href="https://www.amazonrobotics.com/#/">Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/">Preferred Networks</a>, Tokyo.</div>
+    <div class="bio-tl-role">Hardware Engineer, <a href="https://www.amazonrobotics.com/#/" target=_blank>Amazon Robotics</a> (Advanced Robotics Lab), MA | Research Intern (Robot Learning), <a href="https://www.preferred-networks.jp/en/" target=_blank>Preferred Networks</a>, Tokyo.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2014 – 2019</span>
-    <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/">University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html">UT Southwestern Medical Center</a>.</div>
+    <div class="bio-tl-role">PhD Student, <a href="https://ecs.utdallas.edu/~opo140030/" target=_blank>University of Texas at Dallas</a> &amp; Visiting Student, <a href="https://www.utsouthwestern.edu/labs/maia/about/meet-our-team.html" target=_blank>UT Southwestern Medical Center</a>.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2011 – 2013</span>
-    <div class="bio-tl-role">Student, <a href="https://www.sheffield.ac.uk/acse">University of Sheffield, Automatic Control and Systems Engineering</a>.</div>
+    <div class="bio-tl-role">Student, <a href="https://www.sheffield.ac.uk/acse" target=_blank>University of Sheffield, Automatic Control and Systems Engineering</a>.</div>
   </div>
   <div class="bio-tl-item">
     <span class="bio-tl-year">2009 – 2011</span>
-    <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/">Coca-Cola Hellenic Bottling Company.</a></div>
+    <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/" target=_blank>Coca-Cola Hellenic Bottling Company.</a></div>
   </div>
 </div>
 

@@ -18,12 +18,12 @@ title: Lekan Molu
     <div class="hero-text">
       <h1>Lekan Molu</h1>
       <p class="hero-subtitle">
-        Researcher, roboticist, engineer --- in that order.
-      </p>
+        Researcher, roboticist, engineer --- in that order.</p>
       <div class="research-chips">
         <span class="chip">AI</span>
         <span class="chip">Robotics</span>
         <span class="chip">Control</span>
+        <!-- <span class="chip"><a href="https://uk.sagepub.com/sites/default/files/upm-binaries/25239_Chater~Vol_1~Ch_03.pdf" target=_blank>Optimizer, not a Satisficer.</a></span> -->
       </div>
       <div class="hero-links">
 <!--         <a href="https://scholar.google.com/citations?user=JeUaqqEAAAAJ" target="_blank">
