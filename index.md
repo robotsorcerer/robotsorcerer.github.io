@@ -33,7 +33,7 @@ title: Lekan Molu
       <div class="hero-text">
         <h3 style="color: #FFB84D; font-size: 2rem; font-weight: 700; margin: 0 0 0.75rem 0; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">Lekan Molu</h3>
         <p class="hero-subtitle" style="color: #ffffff; font-size: 1rem; font-weight: 600; margin: 0 0 1.25rem 0; text-shadow: 0 2px 6px rgba(0,0,0,0.8); line-height: 1.5;">
-          Researcher · AI · Control · Autonomous Systems</p>
+          Researcher, roboticist, engineer --- in that order.</p>
         <div class="research-chips" style="margin-bottom: 1.25rem;">
           <span class="chip" style="background: rgba(255,255,255,0.9); color: #1a6fa8; font-weight: 700; padding: 0.35rem 0.7rem; margin: 0 0.4rem; border-radius: 0.3rem; font-size: 0.75rem;">AI</span>
           <span class="chip" style="background: rgba(255,255,255,0.9); color: #1a6fa8; font-weight: 700; padding: 0.35rem 0.7rem; margin: 0 0.4rem; border-radius: 0.3rem; font-size: 0.75rem;">Robotics</span>
