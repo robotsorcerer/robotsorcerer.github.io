@@ -104,7 +104,7 @@
     </div>
     <div class="bio-tl-item">
       <span class="bio-tl-year">2016</span>
-      <div class="bio-tl-role">Hardware Engineer IV (Intern), <a href="https://www.amazonrobotics.com/#/" target=_blank>Amazon Robotics</a> (Advanced Robotics Lab), MA.</div>
+      <div class="bio-tl-role">Hardware Engineer I (L4 Intern), <a href="https://www.amazonrobotics.com/#/" target=_blank>Amazon Robotics</a> (Advanced Robotics Lab), MA.</div>
     </div>
     <div class="bio-tl-item">
       <span class="bio-tl-year">2014 – 2019</span>
