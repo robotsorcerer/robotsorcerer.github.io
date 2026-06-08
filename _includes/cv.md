@@ -30,17 +30,18 @@
 
 <style>
   @keyframes bioScroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
   }
   .bio-timeline-scroll {
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin-bottom: 2rem;
-    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    max-height: 280px;
   }
   .bio-timeline-scroll::-webkit-scrollbar {
-    height: 6px;
+    width: 6px;
   }
   .bio-timeline-scroll::-webkit-scrollbar-track {
     background: var(--accent-soft);
@@ -55,20 +56,22 @@
   }
   .bio-timeline-wrapper {
     display: flex;
+    flex-direction: column;
     gap: 1.5rem;
     padding: 0;
-    animation: bioScroll 20s linear infinite;
+    animation: bioScroll 25s linear infinite;
   }
   .bio-timeline-scroll:hover .bio-timeline-wrapper {
     animation-play-state: paused;
   }
   .bio-tl-item {
-    flex: 0 0 320px;
+    flex: 0 0 auto;
     padding: 1.25rem;
     background: var(--card-bg);
     border-left: 3px solid var(--accent);
     border-radius: 0.3rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    min-width: 100%;
   }
 </style>
 
