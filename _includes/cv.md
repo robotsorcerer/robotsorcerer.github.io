@@ -116,7 +116,7 @@
     </div>
     <div class="bio-tl-item">
       <span class="bio-tl-year">2009 – 2011</span>
-      <div class="bio-tl-role">(Manufacturing/Production) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/" target=_blank>Coca-Cola Hellenic Bottling Company.</a></div>
+      <div class="bio-tl-role">(Manufacturing/Production Side) Supply Chain Manager, Apapa Plant, <a href="https://www.coca-colahellenic.com/" target=_blank>Coca-Cola Hellenic Bottling Company.</a></div>
     </div>
     
     <!-- Duplicate set for infinite loop -->
