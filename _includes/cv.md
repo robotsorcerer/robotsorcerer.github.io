@@ -24,7 +24,7 @@
   
   <!-- Second Paragraph: Research Portfolio -->
   <p style="position: relative; z-index: 5; padding: 0.75rem 1.75rem 1.5rem 1.75rem; margin: 0; font-size: 0.9rem; line-height: 1.65; color: #ffffff; text-shadow: 0 2px 8px rgba(0,0,0,0.5);">
-    My research portfolio has a consistent <b>throughline</b> grounded in <b>principled frameworks</b> for autonomy: integrating <b>learning-enabled</b> and <b>safety-critical control</b> with <b>systems representation</b> for <b>robust scalable decision-making under uncertainty</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector, integrating modern manufacturing processes in FMCG production lines with large-scale distributed supply chain management.
+    My research portfolio has a consistent <b>throughline</b> grounded in <b>principled frameworks</b> for autonomy: integrating <b>learning-enabled</b> and <b>safety-critical control</b> with <b>systems representation</b> for <b>robust scalable decision-making under uncertainty</b>. My research arc spans MSR NYC, Amazon Robotics, UPenn, and UTD/UTSW. Prior to my academic career, I was in the manufacturing sector where I managed a team that integrated modern manufacturing processes into Coca-Cola PETs, cans, and bottle production lines. My responsibilities consisted in the entire manufacturing stack: raw materials inventory control system modernization,  the service of the production control system/team, and the controlled dispatch of FGI to our distributed supply chain network.
   </p>
 </div> 
 
