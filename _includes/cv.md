@@ -621,20 +621,16 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
 <div class="reading-shelf-label">2026</div>
 <div class="book-grid">
   <div class="book-card">
+    <div class="book-title">The Art of Doing Science and Engineering: Learning to Learn</div>
+    <div class="book-author">Richard W. Hamming</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Einstein</div>
+    <div class="book-author">Walter Isaacson</div>
+  </div>
+  <div class="book-card">
     <div class="book-title">Eye of the Hurricane</div>
     <div class="book-author">Richard Bellman</div>
-  </div>
-  <div class="book-card">
-    <div class="book-title">Endurance</div>
-    <div class="book-author">Scott Kelly</div>
-  </div>
-  <div class="book-card">
-    <div class="book-title">American Sniper</div>
-    <div class="book-author">Chris Kyle</div>
-  </div>
-  <div class="book-card">
-    <div class="book-title">Hot, Flat, and Crowded</div>
-    <div class="book-author">Thomas L. Friedman</div>
   </div>
   <div class="book-card">
     <div class="book-title">The Odyssey</div>
@@ -660,6 +656,22 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
     <div class="book-title">Genghis Khan and the Making of the Modern World</div>
     <div class="book-author">Jack Weatherford</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Endurance</div>
+    <div class="book-author">Scott Kelly</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">American Sniper</div>
+    <div class="book-author">Chris Kyle</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Known and Unknown: A Memoir</div>
+    <div class="book-author">Donald Rumsfeld</div>
+  </div>
+  <div class="book-card">
+    <div class="book-title">Hot, Flat, and Crowded</div>
+    <div class="book-author">Thomas L. Friedman</div>
   </div>
   <div class="book-card book-card--read">
     <span class="book-read-badge"><i class="fa fa-check"></i> Read</span>
