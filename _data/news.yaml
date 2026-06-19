@@ -1,10 +1,10 @@
 news_items:
 
-  - items: 'RobodiffGist'
-    subnewsitems:
-      - content: 'Looks like <a href="https://luchendriks.com/">someone in the Netherlands</a> made an AI agent that <a href="https://gist.science/paper/2606.18186">summarized</a> my recent <a href="/downloads/Papers/robodiff.pdf">Kolmogorov regression for robust diffusion policies.</a> I think the <a href="https://gist.science/paper/2606.18186">abridgement</a> is pretty good!'
-        highlight: true
-        date: Jun 18, 2026  
+  # - items: 'RobodiffGist'
+  #   subnewsitems:
+  #     - content: 'Looks like <a href="https://luchendriks.com/">someone in the Netherlands</a> made an AI agent that <a href="https://gist.science/paper/2606.18186">summarized</a> my recent <a href="/downloads/Papers/robodiff.pdf">Kolmogorov regression for robust diffusion policies.</a> I think the <a href="https://gist.science/paper/2606.18186">abridgement</a> is pretty good!'
+  #       highlight: true
+  #       date: Jun 18, 2026  
   - items: 'AMZN_IRG'
     subnewsitems:
       - content: 'Full circle of life moment 🔄✨ I’m  back in Amazon Robotics! 🤯🧠⚙️ #RobotsRockAndRoll.'
