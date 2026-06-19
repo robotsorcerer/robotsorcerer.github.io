@@ -1,72 +1,51 @@
 <h4><i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i>Bio Snippet</h4> 
 > No fluff research science and engineering only. 
 
-<b>Engineer-scientist</b> hybrid across the physical and virtual automation stack --- comprising the algorithmic theory and practice of AI, RL, ML, and Control systems on automatons with emphasis on robot mechanisms ---  [kinematic/kinetic](/downloads/Papers/screw_slides.pdf)/[(constrained)configuration](/downloads/Papers/RBOT250.pdf) analyses. Lekan's research efforts span the complete ideation gamut from [conceptualization](downloads/Papers/kinecontrol.pdf), [rigorous theoretical analysis](downloads/Papers/h2hinf.pdf), to abundant [empirical](downloads/Papers/levelsetpy.pdf) and embodied proof-of-concept on [real-world physical systems](downloads/Papers/PCLAST.pdf). **Robotics:** Lekan has made fundamental contributions to (i) [configuration design, modeling, control, and trajectory optimization on _parallel and soft_ robot mechanisms](https://www.med.upenn.edu/wiersmalab/) with applications to head-and-neck cancer [patient treatment planning](http://scriptedonachip.com/downloads/Papers/kinecontrol.pdf); (ii) [understanding the fundmental mathematical modeling](/downloads/Papers/SoRoPD.pdf) blocks of soft robotic systems; and (iii) devised fast control principles for the [whole-body strain and twist regulation of soft, deformable robots](/downloads/Papers/SoRoSPT.pdf) --- inspired by [his previous efforts in their applications to head and neck coplanar cancer radiation therapy](/downloads/Papers/ContinuumI.pdf). **Reinforcement learning (RL):** He has contributed to (iv) [RL state representation theory](https://arxiv.org/pdf/2207.08229.pdf); and has made (v) [novel RL translational research impact in the fractionated cancer radiation patient treatment planning scheme](https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100). **Machine Learning:** Not too long ago, hemmed in by the delayed rewards associated with RL, along with his colleagues they explored (vi) [the theory behind agentic systems that learn instanteneously via interaction](https://arxiv.org/abs/2206.08364). **Contemporary Computational Control:** Lately, understanding full-well the fragility of continuous-time, Bellman-optimized deep policies, he has made fundamental contributions to robust (vii) [policy optimization](downloads/Papers/h2hinf.pdf) in complete (viii) [data-driven settings](downloads/Papers/ifac.pdf) and recently released a (ix) [scalable GPU-accelerated library for the numerical computation of safety certificates](/downloads/Papers/levelsetpy.pdf) when (x) [controlling large-scale dynamical systems](https://arxiv.org/pdf/2403.07308.pdf). **Old-school ML/Control:** Before multimodal learning was cool, at Amazon Fulfillment Technlogies in North Reading, MA, he was part of the team that (xi) orchestrated a full-stack navigation system on the Pioneer Clearpath P3-DX mobile robot based on [Alexa's Echo](https://www.amazon.com/b/?node=9818047011&ref_=mars_byline_aucc_branded) voice commands and pixel-based navigation. A while ago, in Tokyo, he explored (xii) [learned nonlinear controllers via human imitation](https://github.com/robotsorcerer/LyapunovLearner) on the [Torobo anthropomorphic robot arm](https://robotics.tokyo/products/torobo/).
-
-Among other [service activities](#service) within and without MSFT, Lekan is a part of the robotics steering committee out of the [embodied AI research efforts](https://www.microsoft.com/en-us/research/collaboration/embodied-ai/people/) within the various cross-geographic teams throughout MSFT; he strongly believes in giving back to the [research community, often mentoring junior researchers](#mentor); he helped seed the current MSFT-wide Cortex seminar series out of a narrow RL research niche within the real-world RL team at MSR to a company-wide appeal within MSFT. Lekan is active in the machine learning, IEEE Control Systems, and IEEE Robotics and Automation Societies. 
-
-In the quest for balance in his devotion to robots, learning, control, and other life pursuits, work-life balance has become an interesting paradox: to have one, one cannot discard the other. He has not always found a balance every time, but he has learned to enjoy the chaotic dynamics that work-life balance presents.
-
-
-- [Multimodal Sensor Fusion and Policy Optimization in Agentic-Driven Dexterous Manipulation](/downloads/Papers/DeepMind.pdf), Google DeepMind Robotics, San Franciso, CA. Summer 2025.
-- [See, Shrink, Plot, Move: Agentic-based Numerically Efficient Navigation:  Compact Illusory  Representation and Memory-Efficient Incremental Mapping](/downloads/Papers/Wayve.pdf), Wayve Technologies, London, UK. Summer 2025.
-
-
-
------Life Update-----
-
-As those close to me already know, I was affected by the last round of layoffs at Microsoft Research, writ Microsoft at large. It's been a frantic two months of trying to land on my two feet after this abrupt destabilization. Glad for this  option that came along and I am all for it. It is laden with simple things like the right team, the right fit, wonderful colleagues, and a great location. Benefits includes perks like doing things I love, engineering control into physical automatons, and innovating embodied agentic AI on real-world physical robots. Because every engineer needs a place of quiet repose to make automatons that slap harder than a kernel panic at 99% uptime! Here's to many years of productive collaboration with key partners and many moments of fantastic innovation. This already awesome team is about to get even more snazzy with robots that drip copious amounts of swagger! 
-
-lekan@swaggerlicious_robots$ whoami
-building_swanky_robots#dripping
-
----
-
-**🚀 Life Update**
-
-As many of you know, I was affected by the recent wave of layoffs at Microsoft Research. The past two months have been a whirlwind—navigating the unexpected, finding balance, and figuring out what's next.
-
-I'm thrilled to share that I've landed somewhere that checks all the right boxes: brilliant colleagues, the right cultural fit, a mission I believe in, and yes—robots. Lots of them.
-
-I'll be working on embodied, agentic AI systems, bringing real-world physical robots to life in ways that are useful, expressive, and just a little bit swaggerlicious. This means engineering control into automatons that (in classic Linux fashion) slap harder than a kernel panic at 99% uptime.
-
-Here’s to building something great—together.
-
-```bash
-lekan@swaggerlab$ whoami
-building_swanky_robots#dripping
-```
-
----
-
-🔧 Life Update
-Like many others, I was affected by the recent round of layoffs at Microsoft Research. It’s been a whirlwind couple of months—navigating uncertainty, reconnecting with my network, and considering what I truly want next.
-
-I’m happy to share that I’ve found that next chapter—and it feels like the right one. A great team. A strong fit. A mission I believe in. And the chance to keep building systems I care deeply about: real-world robots powered by embodied, agentic AI.
-
-I'll be focused on engineering intelligence into physical systems—designing control algorithms, exploring representation learning, and helping push forward the frontier of AI for physical agents. Put differently: building robots that work and wow.
-
-Excited for what’s ahead—with partners I admire, problems that matter, and a chance to keep learning and building.
-
-```bash
-lekan@robots$ whoami
-building_robots_with_swag_and_soul
-```
-
-
-with emphasis on robot mechanisms. 
-The case for reinventing robot intelligence: Control theory should be a tool; not a religion. Bring all the control formal guarantees. But don’t discard our showy-engineer traditions. Building AI models for stable+safe robot skills, allowing generalization across tasks that border on ambitious and the ledge of “impossible” prototypes that push mechanical and control limits --- from simulation to hardware that kick up dusts.
 
 
 
 
-  - items: 'HJGauss_NeurIPS26'
-    subnewsitems:
-      - content: '🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target=_blank>grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank">In a  Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b> 150 million+ European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on just 2x 80GB H100s --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. <b>Scalability über alles!</b>🎩👌🤯'
-        highlight: true
-        date: May 13, 2026  
-        
-"<i>Life is not void or stuff for scorners:
-                    We have laughed loud and kept our love, we have heard singers in tavern corners and not forgotten the birds above:
-                    We have known smiters and sons of thunder, and not unworthily walked with them. We have grown wiser and lost not wonder;
-                    And we have seen Jerusalem.</i>" ~G.K. Chesterton, ''To F.C. In Memoriam Palestine, 1919.''
+A few recent research updates: Over the past few months, I've been exploring a common theme across robotics, autonomous systems, and large-scale decision making:
+
+**How do we make intelligent systems both scalable and certifiably safe?**
+
+🔹 **HJ-Gauss**
+
+Classical Hamilton–Jacobi (HJ) safety verification is one of the most powerful tools we have for computing safety envelopes and backward reachable sets. Unfortunately, traditional grid-based solvers suffer badly from the curse of dimensionality.
+
+In our latest work, we show that a viscous form of the HJ equation admits a generalized Cole–Hopf-type transformation that converts nonlinear safety verification into Gaussian heat-kernel inference. The result is a scalable Monte Carlo framework with provable convergence and concentration guarantees.
+
+In short: we trade combinatorial grid explosion for controllable sampling.
+
+This opens the door to safety verification in settings that were previously computationally out of reach, including large-scale multi-agent systems and autonomous robot fleets.
+
+---  (Collaboration with colleagues at Cranfield and Seoul National Univerity)
+
+🔹 **RoboDiff: A Regression Scheme for Robust Diffusion Policies**
+
+Diffusion policies have transformed robot policy learning, but most current approaches remain fundamentally finite-dimensional.
+
+RoboDiff extends diffusion-based decision making into function space, combining infinite-dimensional diffusion models with formal control verification. The framework provides principled uncertainty quantification, improved long-horizon planning behavior, and certified decision-making for production-control and supply-chain applications.
+
+The broader goal is to move beyond policies that merely perform well empirically toward policies that can also provide verifiable guarantees.
+
+🔹 **Distributed Optimization over Games --- Applications to ER Workflows.**
+
+I'm also excited that our work on distributed generalized Nash equilibrium seeking for trauma-resuscitation teams has been accepted to the IFAC World Congress.
+
+Developed in collaboration with researchers and clinicians at Weill Cornell Medicine, the framework studies how multidisciplinary medical teams can coordinate decisions under uncertainty, resource constraints, and extreme time pressure.
+
+It's rewarding to see ideas from game theory, optimization, and distributed control finding applications far beyond traditional robotics.
+
+The thread connecting all of these projects is simple:
+
+---  (Collaboration with Cornell Tech colleagues, inspired by Weill Cornell Medicine ER Clinical Workflows)
+
+**Building principled foundations for autonomy by unifying learning, control, optimization, and safety into scalable frameworks for real-world decision-making.**
+
+Papers and preprints:
+📄 HJ-Gauss: https://scriptedonachip.com/downloads/Papers/hjgauss.pdf
+📄 RoboDiff: https://scriptedonachip.com/downloads/Papers/robodiff.pdf
+📄 IFAC 2026: https://scriptedonachip.com/downloads/Papers/IFAC26.pdf
+
+#Robotics #AI #MachineLearning #ControlTheory #AutonomousSystems #SafetyCriticalAI #DiffusionModels #OperationsResearch #IndustrialAI

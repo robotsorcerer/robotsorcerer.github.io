@@ -26,8 +26,8 @@ title: Lekan Molu
   <div style="position: absolute; inset: 0; z-index: 2; display: flex; align-items: center; justify-content: center; padding: 52px 20px 40px;">
     <div class="hero-inner" style="position:relative;z-index:1;text-align:center;">
       <div class="hero-photo" style="margin-bottom: 1.5rem;">
-        <a href="/downloads/me-upenn.jpg">
-          <img src="/downloads/me-upenn.jpg" alt="Lekan Molu" style="width: 140px; height: 140px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.9); box-shadow: 0 4px 16px rgba(0,0,0,0.4);">
+        <a href="/downloads/me-ucl.jpg">
+          <img src="/downloads/me-ucl.jpg" alt="Lekan Molu" style="width: 140px; height: 140px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.9); box-shadow: 0 4px 16px rgba(0,0,0,0.4);">
         </a>
       </div>
       <div class="hero-text">
