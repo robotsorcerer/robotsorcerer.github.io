@@ -208,12 +208,10 @@
 
 
 <!-- Featured Robodiff Item (May 24, 2026) -->
-<div style="position: relative; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
-  <!-- GIF Background -->
+<!-- <div style="position: relative; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
   <div style="position: relative; background-image: url(/assets/robodiff.gif); background-size: cover; background-position: center; border-radius: 0.5rem; min-height: 300px;">
     <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
     
-    <!-- Overlaid News Content -->
     <style>
       @keyframes autoScrollRobodiff {
         0% { transform: translateY(0); }
@@ -230,7 +228,7 @@
         <div class="robodiff-news-scroll">
           <div>
             <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">May 24, 2026</span>
-            <p style="margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">For long-horizon planning tasks, finite-dimensional diffusion policies wack. Well, this <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">infinite-dimensional policy</a>smacks! 🏭 My <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">recent work</a> moves beyond point-based sampling/estimates in diffusion to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. Results? 🎯 Improved convergence in robot manipulation tasks. There's more: in supply chain manufacturing, certifiable bottleneck predictions and the reliable dispatch optimization of utilization efficacy also leveled up: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank" style="color: #4FC3F7; font-weight: 600;">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍 🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank" style="color: #4FC3F7; font-weight: 600;">Bottleneck detection with theoretical grounding</a> • 📈 Smooth dispatch policies ✅ for resilient, efficient supply chains.🏆 Someone's AI agent made a  neat summary <a href="https://gist.science/paper/2606.18186" target="_blank">here.</a> 🎤⬇️</p> 
+            <p style="margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">For long-horizon planning tasks, finite-dimensional diffusion policies wack. Well, this <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">infinite-dimensional policy</a>smacks! 🏭 My <a href="/downloads/Papers/robodiff.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">recent work</a> moves beyond point-based sampling/estimates in diffusion to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. Results? 🎯 Improved convergence in robot manipulation tasks. There's more: in supply chain manufacturing, certifiable bottleneck predictions and the reliable dispatch optimization of utilization efficacy also leveled up: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank" style="color: #4FC3F7; font-weight: 600;">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍 🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank" style="color: #4FC3F7; font-weight: 600;">Bottleneck detection with theoretical grounding</a> • 📈 Smooth dispatch policies ✅ for resilient, efficient supply chains.🏆 Some good Samaritan's AI agent made a  neat summary <a href="https://gist.science/paper/2606.18186" target="_blank">here.</a> 🎤⬇️</p> 
           </div>
           <div>
             <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">May 24, 2026</span>
@@ -240,22 +238,18 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
-<!-- Featured Amazon Robotics Item (Jun 03, 2026) -->
-<div class="cv-news-item is-highlighted" style="margin-bottom: 1.5rem;">
+<!-- <div class="cv-news-item is-highlighted" style="margin-bottom: 1.5rem;">
   <span class="cv-news-badge">Jun 03, 2026</span>
   <span class="cv-news-text">Full circle of life moment 🔄✨ I'm  back in Amazon Robotics! 🤯🧠⚙️ #RobotsRockAndRoll.</span>
 </div>
 
-<!-- Featured IFAC/WCM Item (April 16, 2026) -->
 <div style="position: relative; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
-  <!-- GIF Background -->
   <div style="position: relative; background-image: url(/assets/wcm_trauma.gif); background-size: cover; background-position: center; border-radius: 0.5rem; min-height: 300px;">
     <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
     
-    <!-- Weill Cornell Medicine Logo (Top Right - Foreground) -->
     <div style="position: absolute; top: 1rem; right: 1rem; z-index: 20;">
       <svg width="180" height="80" viewBox="0 0 180 80" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));">
         <defs>
@@ -264,17 +258,13 @@
             <stop offset="100%" style="stop-color:#b71c1c;stop-opacity:1" />
           </linearGradient>
         </defs>
-        <!-- Shield shape -->
         <path d="M 15 10 L 15 35 Q 15 50 30 60 Q 45 50 45 35 L 45 10 Z" fill="url(#wcm-red)"/>
-        <!-- W letter -->
         <text x="21" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">W</text>
-        <!-- Text -->
         <text x="60" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Weill Cornell</text>
         <text x="60" y="52" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Medicine</text>
       </svg>
     </div>
     
-    <!-- Overlaid News Content -->
     <style>
       @keyframes autoScrollWCM {
         0% { transform: translateY(0); }
@@ -301,11 +291,12 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="cv-news-feed">
   {% for item in site.data.news.news_items %}
-  {% unless item.items == 'HJGauss_NeurIPS26' or item.items == 'AMZN_IRG' or item.items == 'Robodiff' or item.items == 'IFAC_GNEP' %}
+  <!-- or item.items == 'Robodiff'  or item.items == 'IFAC_GNEP' or item.items == 'AMZN_IRG' -->
+  {% unless item.items == 'HJGauss_NeurIPS26' %}
   {% for subitem in item.subnewsitems %}
   {% unless subitem.highlight == false %}
   <div class="cv-news-item is-highlighted">
