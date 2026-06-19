@@ -166,12 +166,6 @@
 <a name="news"></a>
 <h4 class="cv-h"><i class="fa fa-newspaper-o"></i> Select News Highlights</h4>
 
-<!-- Featured Amazon Robotics Item (Jun 03, 2026) -->
-<div class="cv-news-item is-highlighted" style="margin-bottom: 1.5rem;">
-  <span class="cv-news-badge">Jun 03, 2026</span>
-  <span class="cv-news-text">Full circle of life moment 🔄✨ I'm  back in Amazon Robotics! 🤯🧠⚙️ #RobotsRockAndRoll.</span>
-</div>
-
 <!-- Featured Starling Murmurations Item -->
 <div style="position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
   <!-- Funnel/Cordon Formation -->
@@ -212,6 +206,7 @@
   </div>
 </div>
 
+
 <!-- Featured Robodiff Item (May 24, 2026) -->
 <div style="position: relative; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
   <!-- GIF Background -->
@@ -245,6 +240,13 @@
       </div>
     </div>
   </div>
+</div>
+
+
+<!-- Featured Amazon Robotics Item (Jun 03, 2026) -->
+<div class="cv-news-item is-highlighted" style="margin-bottom: 1.5rem;">
+  <span class="cv-news-badge">Jun 03, 2026</span>
+  <span class="cv-news-text">Full circle of life moment 🔄✨ I'm  back in Amazon Robotics! 🤯🧠⚙️ #RobotsRockAndRoll.</span>
 </div>
 
 <!-- Featured IFAC/WCM Item (April 16, 2026) -->
