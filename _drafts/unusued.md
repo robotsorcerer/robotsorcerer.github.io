@@ -11,17 +11,15 @@ Over the past few months I've been chasing one theme across robotics, autonomous
 
 🔹 **HJ-Gauss**
 
-Classical Hamilton–Jacobi (HJ) safety verification is one of the most powerful tools for computing safety envelopes and backward reachable sets. Unfortunately, traditional grid-based solvers suffer from the curse of dimensionality.
+Classical Hamilton–Jacobi (HJ) safety verification is a powerful tool for computing safety envelopes from backward reachable sets/tubes. Unfortunately, traditional grid-based levelset solvers suffer from the curse of dimensionality.
 
-In our latest work, we show that a viscous form of the HJ equation admits a generalized Cole–Hopf-type transformation that converts nonlinear HJ PDEs into a quasilinear Gaussian heat-kernel. The heat kernel informs a sampling-based algorithm for safe sets computation. The result is a scalable Monte Carlo framework with provable convergence and concentration guarantees, and a memory footprint that grows linearly — O(N·n) in samples and state dimension — instead of exploding as O(Mⁿ) on a grid.
+In our latest work, we show that a viscous form of the HJ equation admits a generalized Cole–Hopf-type transformation that converts nonlinear HJ PDEs into a quasilinear Gaussian heat-kernel. The heat kernel informs a sampling-based algorithm for safe sets computation. The result is a scalable Monte Carlo framework with provable convergence and contraction guarantees, alongside a memory footprint that grows linearly — O(N·n), for n state dimensions and N samples — instead of exploding as O(Mⁿ) for M grid points.
 
-In short: we trade combinatorial grid explosion in TVD-Runge-Kutta levelset schemes for controllable sampling in a Picard iterative scheme. The price we pay is accuracy — BRT resolution is now bounded by sample count rather than grid size.
+Put differently: we trade combinatorial grid explosion in TVD-Runge-Kutta levelset schemes for controllable sampling in a Picard iterative scheme. The *price* we pay is the sampling count for a good BRT resolution. The *payoff* is verification at a scale that was previously out of reach. As a stress test, we certify the safety of aerial **starling murmurations** of up to **100,000 birds** (*sturnus vulgaris*) under multi-predator (peregrine falcon) pursuit games — a 4-D, massively multi-agent problem no grid solver can hold in memory — and we do it on **commodity CPUs**. Adding birds is essentially free: the value function is computed once, then each agent is certified by a single forward evaluation. Even better, the certificate is not just a number: its reachable-set topology reads out *how* safety is won or lost — defensive **cordon formation and its collapse**, **flock fragmentation**, and **flash expansion** — straight from the geometry of the value function.
 
-The payoff is verification at a scale that was previously out of reach. As a stress test, we certify the safety of aerial **starling murmurations** of up to **100,000 birds** (*sturnus vulgaris*) under multi-predator (peregrine falcon) pursuit games — a 4-D, massively multi-agent problem no grid solver can hold in memory — and we do it on **commodity CPUs**. Adding birds is essentially free: the value function is computed once, then each agent is certified by a single forward evaluation. Better still, the certificate is not just a number: its reachable-set topology reads out *how* safety is won or lost — defensive **cordon formation and its collapse**, **flock fragmentation**, and **flash expansion** — straight from the geometry of the value function.
+📄 Paper: https://arxiv.org/abs/2605.18566  💻 Code: https://github.com/robotsorcerer/levelsetpy/tree/main/monte_carlo
 
-📄 Paper: https://arxiv.org/abs/2605.18566  💻 Code: https://github.com/robotsorcerer/levelsetpy/tree/monte_carlo
-
-🤝 Collaborations: 🏛️ Cranfield & Seoul National University 🌐
+✍️ Collaborations 🤝: 🏛️ Cranfield & Seoul National University 🌐
 
 🔹 **RoboDiff: A Regression Scheme for Robust Diffusion Policies**
 
@@ -34,7 +32,7 @@ This framework provides principled uncertainty quantification and improved long-
 
 ✍️ Solo Contribution
 
-📄 Paper: https://arxiv.org/abs/2606.18186
+📄 Paper: https://arxiv.org/abs/2606.18186 💻 Code: TBA
 
 🔹 **Distributed Optimization over Games — Applications to Trauma Resuscitation in ER Workflows.**
 
@@ -44,7 +42,7 @@ Developed in collaboration with colleagues at Cornell Tech 🏛️ and grounded 
 
 This takes recent ideas from games over networks, optimization, and distributed control for applications far beyond physical autonomy.
 
-🤝 Collaboration: 🏛️ Cornell Tech.
+✍️ Collaborations 🤝: 🏛️ AirLab @ Cornell Tech.
 
 🧵 The thread connecting all of these projects is simple:
 
