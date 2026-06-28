@@ -5,46 +5,53 @@
 
 
 
-A few recent research updates: Over the past few months, I've been exploring a common theme across robotics, autonomous systems, and large-scale decision making:
+Over the past few months I've been chasing one theme across robotics, autonomous systems, and large-scale decision-making:
 
-**How do we make intelligent systems both scalable and certifiably safe?**
+🔐 **How do we make intelligent systems both scalable and certifiably safe?**
 
 🔹 **HJ-Gauss**
 
-Classical Hamilton–Jacobi (HJ) safety verification is one of the most powerful tools we have for computing safety envelopes and backward reachable sets. Unfortunately, traditional grid-based solvers suffer badly from the curse of dimensionality.
+Classical Hamilton–Jacobi (HJ) safety verification is one of the most powerful tools for computing safety envelopes and backward reachable sets. Unfortunately, traditional grid-based solvers suffer from the curse of dimensionality.
 
-In our latest work, we show that a viscous form of the HJ equation admits a generalized Cole–Hopf-type transformation that converts nonlinear safety verification into Gaussian heat-kernel inference. The result is a scalable Monte Carlo framework with provable convergence and concentration guarantees.
+In our latest work, we show that a viscous form of the HJ equation admits a generalized Cole–Hopf-type transformation that converts nonlinear HJ PDEs into a quasilinear Gaussian heat-kernel. The heat kernel informs a sampling-based algorithm for safe sets computation. The result is a scalable Monte Carlo framework with provable convergence and concentration guarantees.
 
-In short: we trade combinatorial grid explosion for controllable sampling.
+In short: we trade combinatorial grid explosion in TVD-Runge-Kutta levelset schemes for controllable sampling in a Picard iterative scheme. The price we pay is accuracy — BRT resolution is now bounded by sample count rather than grid size.
 
 This opens the door to safety verification in settings that were previously computationally out of reach, including large-scale multi-agent systems and autonomous robot fleets.
 
----  (Collaboration with colleagues at Cranfield and Seoul National Univerity)
+📄 Paper: https://arxiv.org/abs/2605.18566  💻 Code: https://github.com/robotsorcerer/levelsetpy/tree/monte_carlo
+
+🤝 Collaborations: 🏛️ Cranfield & Seoul National University 🌐
 
 🔹 **RoboDiff: A Regression Scheme for Robust Diffusion Policies**
 
-Diffusion policies have transformed robot policy learning, but most current approaches remain fundamentally finite-dimensional.
+Diffusion policies have transformed robot policy learning, but most current approaches remain fundamentally finite-dimensional (FD). FD diffusion discretizes the data before applying the diffusion algorithm. 
+FD diffusion is essentially trained on grid artifacts; grid resolution seeds interpolation errors; errors compound across sampling rollouts. Hence, long-horizon planning breaks down. Seeing that the underlying diffusion process is infinite-dimensional, is it any wonder that this _discretize-data-before-diffusion_ scheme misaligns policies from the physical phenomena they seek to control?
 
-RoboDiff extends diffusion-based decision making into function space, combining infinite-dimensional diffusion models with formal control verification. The framework provides principled uncertainty quantification, improved long-horizon planning behavior, and certified decision-making for production-control and supply-chain applications.
+This work extends diffusion-based decision making into the Cameron-Martin (function) space, leveraging the backward Kolmogorov PDE to replace stochastic score-matching with a deterministic BVP. Standard DDPM in this infinite-dimensional framework admits three minimal changes to the deployment scheme: (i) colored noise in place of white corrupting noise in the forward Ornstein-Uhlenbeck (OU) process; (ii) score-matching replacement with a precision-weighted Cameron-Martin loss; and (iii) the introduction of a robustness Kolmogorov residual metric for inference-time sampling.
 
-The broader goal is to move beyond policies that merely perform well empirically toward policies that can also provide verifiable guarantees.
+This framework provides principled uncertainty quantification and improved long-horizon planning. We validate our hypothesis on certified decision-making for robot manipulation/control and lean manufacturing resource planning applications.
 
-🔹 **Distributed Optimization over Games --- Applications to ER Workflows.**
+✍️ Solo Contribution
+
+📄 Paper: https://arxiv.org/abs/2606.18186
+
+🔹 **Distributed Optimization over Games — Applications to Trauma Resuscitation in ER Workflows.**
 
 I'm also excited that our work on distributed generalized Nash equilibrium seeking for trauma-resuscitation teams has been accepted to the IFAC World Congress.
 
-Developed in collaboration with researchers and clinicians at Weill Cornell Medicine, the framework studies how multidisciplinary medical teams can coordinate decisions under uncertainty, resource constraints, and extreme time pressure.
+Developed in collaboration with colleagues at Cornell Tech 🏛️ and grounded in clinical workflows at Weill Cornell Medicine 🏛️, the framework studies decision-coordination among multidisciplinary medical/healthcare worker teams under uncertainty, resource constraints, and extreme time pressure.
 
-It's rewarding to see ideas from game theory, optimization, and distributed control finding applications far beyond traditional robotics.
+This takes recent ideas from games over networks, optimization, and distributed control for applications far beyond physical autonomy.
 
-The thread connecting all of these projects is simple:
+🤝 Collaboration: 🏛️ Cornell Tech.
 
----  (Collaboration with Cornell Tech colleagues, inspired by Weill Cornell Medicine ER Clinical Workflows)
+🧵 The thread connecting all of these projects is simple:
 
-**Building principled foundations for autonomy by unifying learning, control, optimization, and safety into scalable frameworks for real-world decision-making.**
+🧭 **Building principled foundations for autonomy by unifying learning, control, optimization, and safety into scalable frameworks for real-world deployment systems.**
 
 Papers and preprints:
-📄 HJ-Gauss: https://scriptedonachip.com/downloads/Papers/hjgauss.pdf
+📄 HJ-Gauss: https://arxiv.org/abs/2605.18566
 📄 RoboDiff: https://scriptedonachip.com/downloads/Papers/robodiff.pdf
 📄 IFAC 2026: https://scriptedonachip.com/downloads/Papers/IFAC26.pdf
 
