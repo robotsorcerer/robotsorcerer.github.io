@@ -1,27 +1,28 @@
 news_items:
 
-  # - items: 'RobodiffGist'
-  #   subnewsitems:
-  #     - content: 'Looks like <a href="https://luchendriks.com/">someone in the Netherlands</a> made an AI agent that <a href="https://gist.science/paper/2606.18186">summarized</a> my recent <a href="/downloads/Papers/robodiff.pdf">Kolmogorov regression for robust diffusion policies.</a> I think the <a href="https://gist.science/paper/2606.18186">abridgement</a> is pretty good!'
-  #       highlight: true
-  #       date: Jun 18, 2026  
   - items: 'AMZN_IRG'
+    sortdate: 2026-06-03
+    bg: /assets/amazon_warehouse.jpg
     subnewsitems:
       - content: 'Full circle of life moment 🔄✨ I’m  back in Amazon Robotics! 🤯🧠⚙️ #RobotsRockAndRoll.'
-        highlight: true
+        highlight: false
         date: Jun 03, 2026   
-  - items: 'HJGauss_NeurIPS26'
-    subnewsitems:
-      - content: '🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">In a Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b>100,000 European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on commodity multicore CPUs --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. 🧑‍💻 The full codebase is live and open-source at <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">github.com/robotsorcerer/levelsetpy</a> --- clone it and certify your own swarms! <b>Scalability über alles!</b>🎩👌🤯'
-        highlight: true
-        date: May 29, 2026
   - items: 'Robodiff'
+    sortdate: 2026-05-24
     subnewsitems:
       - content: 'For long-horizon planning tasks, finite-dimensional diffusion policies wack. Well, this <a href="/downloads/Papers/robodiff.pdf" target="_blank">infinite-dimensional policy</a> smacks! 🏭 My 👉 <a href="/downloads/Papers/robodiff.pdf" target="_blank">recent work</a> moves beyond point-based sampling/estimates in diffusion to <b>function-space diffusion + formal control verification</b>, delivering a principled framework for high-stakes robots-enabled production control systems. Results? 🎯 Improved convergence in robot manipulation tasks. There''s more: in  supply chain manufacturing, certifiable bottleneck predictions and the reliable dispatch optimization of utilization efficacy also leveled up: <a href="https://doi.org/10.1080/00207543.2021.1954713" target="_blank">CONWIP</a> with certified safety under prediction uncertainty 💪 • 🔍  🚀<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119453765" target="_blank">Bottleneck detection with theoretical grounding</a> • 📈 Smooth dispatch policies ✅ for resilient, efficient supply chains.🏆 Some good Samaritan''s AI agent made a  neat summary <a href="https://gist.science/paper/2606.18186" target="_blank">here.</a>🎤⬇️'
+        summary: 'Today’s diffusion-based robot policies tend to drift on long tasks. My new approach keeps them mathematically grounded — for more reliable long-horizon planning. <a href="/downloads/Papers/robodiff.pdf" target="_blank">Read the paper.</a>'
         highlight: true
-        date: 'May 24, 2026' 
-
+        date: 'May 24, 2026'
+  - items: 'HJGauss_NeurIPS26'
+    sortdate: 2026-05-29
+    subnewsitems:
+      - content: '🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">In a Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b>100,000 European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on commodity multicore CPUs --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. 🧑‍💻 The full codebase is live and open-source at <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">github.com/robotsorcerer/levelsetpy</a> --- clone it and certify your own swarms! <b>Scalability über alles!</b>🎩👌🤯'
+        summary: 'A faster, provably-safe way to verify autonomous systems — light enough to run on an ordinary computer. We put it to the test on 100,000 starlings dodging predator falcons. <a href="/downloads/Papers/hjgauss.pdf" target="_blank">Read the paper</a> · <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank">code</a>.'
+        highlight: true
+        date: May 29, 2026
   - items: 'IFAC_GNEP'
+    sortdate: 2026-04-16
     subnewsitems:
       - content: >
           🚨 Game theory has officially met ER practice 🏥 + 🎮 = ❤️🚀 What if trauma resuscitation teams could coordinate efforts better
@@ -32,64 +33,78 @@ news_items:
           under time pressure, resource constraints, and diverse expertise — delivering the best possible outcomes in real time. 🏆🌍🚀
           Now headed to <a href="https://www.ifac-control.org/conferences/ifac-world-congress-23rd-wc-2026tm" target="_blank">IFAC
           World Congress!</a> 🎉
+        summary: 'A framework to help ER trauma teams make fast, fair decisions under pressure — built with Weill Cornell Medicine. Accepted to the IFAC World Congress 2026. <a href="/downloads/Papers/IFAC26.pdf" target="_blank">Read the paper.</a>'
         highlight: true
         date: April 16, 2026
 
   - items: 'Talk_CZI_Nov25'
+    sortdate: 2025-11-01
+    bg: /assets/wcm_radiation.jpg
     subnewsitems:
       - content: 'Spoke at the <a href="https://chanzuckerberg.com/" target="_blank">Chan-Zuckerberg Initiative</a> in San Francisco on <b>Reinforcement and Supervised Learning in Medical Physics &amp; Engineering</b>. <a href="/downloads/Papers/CZI.pdf" target="_blank">Slides.</a>'
         highlight: true
         date: 'Nov 2025'
 
   - items: 'Agility'
+    sortdate: 2025-10-01
+    bg: /assets/robotics_lab.jpg
     subnewsitems:
       - content: 'Delivered a talk at <a href="https://www.agilityrobotics.com//" target=blank>Agility Robotics</a> Salem, OR on <b>Nonlinear, Singularly Perturbed Control for the Humanoid Platform: DIGIT</b>.'
         highlight: true
         date: 'Oct 2025'
 
   - items: 'Talk_RAI_Sep25'
+    sortdate: 2025-09-01
+    bg: /assets/Robai.jpg
     subnewsitems:
       - content: 'Delivered a talk at the <a href="https://ralinstitute.org/" target=blank>Robotics &amp; AI Institute</a> in Cambridge, MA on <b>Towards Ubiquitous Robotics Automation</b>. <a href="/downloads/Papers/RAI-Inst.pdf" target=blank>Slides.</a>'
         highlight: true
         date: 'Sep 2025'
 
   - items: 'AbuduApple'
+    sortdate: 2025-08-06
     subnewsitems:
       - content: 'Hearty congratulations to our 2024 intern and resourceful research collaborator <a href="https://www.ri.cmu.edu/ri-people/abulikemu-abuduweili-2/" target=blank>Abulikemu Abuduweili</a>. Abu successfully defended his PhD thesis at the CMU <a href="https://www.ri.cmu.edu/" target=blank>Robotics Institute</a> last week. Later in the week, he would <s>sell his soul for a handsome amount to the ultimate devil</s> join Apple as a Robotics Research Scientist/Engineer. Keep shining those bright white lights, Abu!'
         highlight: true
         date: Aug. 6, 2025
 
   - items: 'Talk_GoogleDeepMind_Aug25'
+    sortdate: 2025-08-01
     subnewsitems:
       - content: 'Presented at Google DeepMind Robotics, San Francisco on <b>State Representation in Reinforcement Learning</b>. <a href="/downloads/Papers/BostonDynamics.pdf" target=blank>Slides.</a>'
         highlight: true
         date: 'Aug 2025'
 
   - items: 'Talk_Wayve_Aug25'
+    sortdate: 2025-08-01
     subnewsitems:
       - content: 'Talked at <a href="https://wayve.ai/" target=blank>Wayve Technologies</a> in London on <b>System Identification for Planning in Reinforcement Learning</b>.'
         highlight: false
         date: 'Aug 2025'
 
   - items: 'Talk_BostonDynamics_Aug25'
+    sortdate: 2025-08-01
     subnewsitems:
       - content: 'Spoke at Boston Dynamics in Waltham, MA on <b>Embodied Intelligence in Open Embodiments</b>. <a href="/downloads/Papers/BostonDynamicsMain.pdf" target=blank>Slides</a> | <a href="/BostonDynamicsApp.pdf" target=blank>Appendix.</a>'
         highlight: true
         date: 'Aug 2025'
 
   - items: 'ACC2025_Slides'
+    sortdate: 2025-07-10
     subnewsitems:
       - content: "Slides from <a href='/downloads/Papers/ACC_Denver_2025.pdf' target=blank>my ACC 2025 Denver talk</a>."
         highlight: true
         date: Jul 10, 2025
 
   - items: 'Talk_METALabs_Jul25'
+    sortdate: 2025-07-01
     subnewsitems:
       - content: 'Presented at <a href="https://www.meta.com/realitylabs/" target=blank>META Reality Labs</a> in San Francisco on <b>Robustness and Efficient State Representation in Open Embodiments</b>. <a href="/downloads/Papers/Yale.pdf" target=blank>Slides</a>'
         highlight: false
         date: 'Jul 2025'
 
   - items: 'ACCNonlinear'
+    sortdate: 2025-05-21
     subnewsitems:
       - content: >
           I am attending the next American Control Conference (ACC) in Denver, Co. Among other things, I will be (1) chairing the regular session of nonlinear systems' stability;
@@ -99,12 +114,16 @@ news_items:
         date: May 21, 2025
 
   - items: 'LevPy!'
+    sortdate: 2025-04-07
+    bg: /assets/thumbs/levelsetpy.jpg
     subnewsitems:
       - content: "Entertain your mind reading this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article.</a> It describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
         highlight: false
         date: Apr 7, 2025
 
   - items: 'SoRoSPT'
+    sortdate: 2025-03-30
+    bg: /assets/surgical_robotics.jpg
     subnewsitems:
       - content: >
           Towards fast strain regulation in continuum robots, in this  new <a href='/downloads/Papers/SoRoSPT.pdf' target=blank>ACC 2025 paper</a> we argue for and demonstrate the efficacy of a decentralized continuum
@@ -113,6 +132,7 @@ news_items:
         date: Mar. 30, 2025
 
   - items: 'McGillLayeredControl'
+    sortdate: 2024-10-31
     subnewsitems:
       - content: >
           Recent <a href='/downloads/Papers/McGill.pdf' target=blank> talk at McGill's Mechanical Engineering and MILA</a>, on a layered
@@ -122,18 +142,21 @@ news_items:
         date: October 31, 2024
 
   - items: 'CDC_Co_Chair'
+    sortdate: 2024-11-05
     subnewsitems:
       - content: 'Together with <a href="https://scholar.google.com/citations?user=F_vrpf0AAAAJ&hl=en"> Volker Pohl</a>, I am co-chairing the computational methods in control theory at the next <a href="https://cdc2024.ieeecss.org/">Conference on Decision and Control</a> in Milan (December 2024). Evviva!'
         highlight: false
         date: Nov. 5, 2024
 
   - items: 'CDC_Accepts'
+    sortdate: 2024-08-27
     subnewsitems:
       - content: 'Two papers accepted to the IEEE <a href="https://cdc2024.ieeecss.org/"> Control and Decision Conference, CDC 2024</a>, Milano, Italia! Evviva!'
         highlight: true
         date: Aug. 27, 2024
 
   - items: 'ICRA25EmbodiedIntelligence'
+    sortdate: 2024-08-24
     subnewsitems:
       - content: >
           Will you be at the next <a href="https://2025.ieee-icra.org/" target=blank>ICRA</a> conference?
@@ -145,70 +168,83 @@ news_items:
         date: Aug. 24, 2024
 
   - items: 'Anurag_Amazon'
+    sortdate: 2024-08-08
     subnewsitems:
       - content: 'Please join the crescendo of ecstatic congratulations to <a href="https://koulanurag.dev/">Dr. Anurag Koul</a>, a former postdoc in our lab and a close collaborator, who is transitioning his academic career into an applied scientist role at Amazon NYC. Bravissimo!'
         highlight: false
         date: Aug. 8, 2024
 
   - items: 'Shaoru_LinkedIn'
+    sortdate: 2024-08-03
     subnewsitems:
       - content: 'Raising a cheer of congratulations to <a href="https://shaoruchen.github.io/">Dr. Shaoru Chen</a>, a former postdoc in our lab and collaborator, who recently <s>sold his soul to LinkedIn</s> joined LinkedIn!'
         highlight: false
         date: Aug. 3, 2024
 
   - items: 'RedmondProjGreen'
+    sortdate: 2024-02-24
     subnewsitems:
       - content: 'Organizing an <a href="/downloads/Papers/projgreen24_snippet.pdf">MSR-wide workshop in Redmond, WA</a> for folks working on group theory applications for model and policy and representation in modern learning algorithms.'
         highlight: false
         date: Feb. 24, 2024
 
   - items: 'YaleMixedTalk'
+    sortdate: 2023-11-02
     subnewsitems:
       - content: 'Recent <a href="/downloads/Papers/Yale.pdf" target=blank>presentation</a> at Yale University based on our <a href="/downloads/Papers/h2hinf.pdf">mixed H2/H-infinity stochastic RL policy optimization analysis</a>.'
         highlight: false
         date: Nov. 2, 2023
 
   - items: 'Talk_MSRGameIntel_Fall23'
+    sortdate: 2023-09-01
     subnewsitems:
       - content: 'Spoke at Microsoft Research Game Intelligence Group in Cambridge, UK on <b>Dynamics from Pixels as Time Integrations of Neural Lie Group Homomorphisms</b>. <a href="/downloads/Papers/Yale.pdf" target=blank>Slides</a>'
         highlight: false
         date: 'Fall 2023'
 
   - items: 'IFAC!'
+    sortdate: 2023-02-10
     subnewsitems:
       - content: New <a href="/downloads/Papers/ifac.pdf" target=blank>robust policy optimization paper</a>, based on H-infinity control principles for accelerating the convergence of traditional policy optimization schemes in infinite-horizon control settings out in IFAC world congress 2023.
         highlight: false
         date: Feb 10, 2023
 
   - items: 'AEICRA!'
+    sortdate: 2022-09-30
     subnewsitems:
       - content: "Serving as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA) Workshops."
         highlight: false
         date: Sep. 30, 2022
 
   - items: 'Talk_MSRNYC_2022'
+    sortdate: 2022-01-01
     subnewsitems:
       - content: 'Delivered a talk at Microsoft Research NYC on <b>A Short Treatise on the Kinematics and Kinetics of Robots</b>. <a href="/downloads/Papers/screw_slides.pdf" target=blank>Slides</a>'
         highlight: false
         date: '2022'
 
   - items: 'AEICRA!'
+    sortdate: 2020-09-30
     subnewsitems:
       - content: "Invited to serve as Associate Editor for IEEE's International Conference on Robotics and Automation (ICRA)."
         highlight: false
         date: Sep. 30, 2020
 
   - items: 'AAPM20'
+    sortdate: 2020-05-16
+    bg: /assets/cyberknife.jpg
     subnewsitems:
       - content: "Our new soft robot mechanism for motion correction in emerging MRI-LINAC RT systems got accepted for a presentation at the joint <i>John R. Cameron-J.R. Cunningham Young Investigators' Symposium!</i> Please e-attend my talk if you can at AAPM's annual meeting this year."
         highlight: false
         date: May 16, 2020
   - items: 'PHinisheD!'
+    sortdate: 2019-05-16
     subnewsitems:
       - content: 'I have successfully defended my PhD Thesis. Thanks to the mentors I worked with during my graduate program, viz., <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve B. Jiang</a>, and <a href="https://personal.utdallas.edu/~ngans/">Nick Gans</a>, and my dissertation committee members: <a href="https://ece.illinois.edu/directory/profile/mspong">Mark Spong</a>, T. Summers, Y. Tadesse and D. Bhatia.'
         highlight: false
         date: May 16, 2019
   - items: Brandeis
+    sortdate: 2019-11-07
     subnewsitems:
       - content: >
           I am teaching a robot manipulation course at Brandeis in the winter and spring
@@ -217,11 +253,13 @@ news_items:
         highlight: false
         date: Nov. 07, 2019
   - items: 'IROS_18!'
+    sortdate: 2019-08-20
     subnewsitems:
       - content: 'The docker repo for my IROS 2018 Minimax iDG Submission has moved to the following repo: <a href="https://cloud.docker.com/repository/docker/lakehanne/ros/">lakehanne/ros</a>. Look for the <i>idg_iros18</i> tag. I will continue hosting the youbotbuntu14 repo on my hub for the next six months before I finally delete it.'
         highlight: false
         date: August 20, 2019
   - items: 'Postdoc!'
+    sortdate: 2019-01-31
     subnewsitems:
       - content: >
           Starting in the summer of 2019, after I shall have defended my PhD thesis,
@@ -231,16 +269,19 @@ news_items:
         highlight: false
         date: January 31, 2019
   - items: ATR Labs
+    sortdate: 2018-08-29
     subnewsitems:
       - content: At the <a href="http://www.cns.atr.jp/bri/en/">Department of Brain Robot Interface (BRI) of Japan's ATR Computational Neuroscience (CNS) Labs.</a>, I presented our minimax iterative dynamic game work.
         date: August 29, 2018
         highlight: true
   - items: 'Thanks Google!'
+    sortdate: 2018-10-07
     subnewsitems:
       - content: 'Thanks to the generous support of Google AI, I will be attending the full tutorials, workshops, and program sessions at NIPS 2018. Bonjour Montréal!'
         highlight: false
         date: 'Oct. 07, 2018'
   - items: 'Madrid!'
+    sortdate: 2018-10-06
     subnewsitems:
       - content: >
           I had a reyt good great time at this year's IROS and ROSCon in Madrid.
@@ -250,51 +291,62 @@ news_items:
         highlight: false
         date: October 6, 2018
   - items: 'WAFR!'
+    sortdate: 2018-09-06
     subnewsitems:
       - content: <a href="/assets/papers/wafr.pdf"> Deep BOO!</a> gets accepted to the Workshop on the Algorithm Foundations of Robotics (WAFR). WAFR has an <a href="https://parasol.tamu.edu/wafr/wafr2018/authors.php">"established reputation as one, if not the most, important venue for presenting algorithmic work related to robotics"</a>.
         date: September 06, 2018
         highlight: false
   - items: 'Nonlinear NeuroControl Talk'
+    sortdate: 2018-07-05
     subnewsitems:
       - content: 'I had the pleasure of presenting my research outlook on stably learning the dynamics of nonlinear robot trajectories to the management team of Preferred Networks, Tokyo earlier this afternoon.'
         date: 'July 05, 2018'
         highlight: false
   - items: 'Robust control via game theory'
+    sortdate: 2018-06-01
     subnewsitems:
       - content: 'Our <a href="/assets/papers/IROS18_Final.pdf">IROS2018 submission</a> is a definite accept. Codes <a href="https://github.com/lakehanne/youbot">here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
         date: 'June 2018'
         highlight: false
   - items: 'Minimax iterative dynamic game'
+    sortdate: 2018-04-24
     subnewsitems:
       - content: 'Our <a href="/assets/papers/Minimax_ICRAMLPC.pdf">Minimax iDG paper</a> gets accepted to the <a href="http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html">Machine Learning for Planning and Control Workshop</a> at ICRA 2018. Codes <a href="https://github.com/lakehanne/youbot">here</a>. Videos on my <a href="http://ecs.utdallas.edu/~opo140030/iros18/iros2018.html">home page</a>. Hallo Brisbane!'
         date: 'April 24, 2018'
         highlight: false
   - items: 'NSF'
+    sortdate: 2017-08-01
     subnewsitems:
       - content: Awarded the  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1748482&HistoricalAwards=true">NSF Doctoral Consortium Award.</a>
         date: 'August 2017'
         highlight: false
   - items: 'SNA'
+    sortdate: 2017-08-01
+    bg: /assets/head-rigid.jpg
     subnewsitems:
       - content: The camera-ready version of <a href="https://arxiv.org/abs/1703.03821v3">Soft-NeuroAdapt</a> is now on arxiv. Codes are on <a href="https://github.com/lakehanne/soft-neuro-adapt">github.</a>
         date: 'August 2017'
         highlight: false
   - items: 'iDGv1'
+    sortdate: 2017-07-01
     subnewsitems:
       - content: Our <a href="http://ecs.utdallas.edu/~opo140030/media/Papers/IROS2017/Abstract/IROS_Abstract.pdf"> submission</a> got accepted to IROS abstract only track. Video <a href="https://www.youtube.com/watch?v=mNpU2oNcPtU&t=14s"> here.</a>
         date: 'July 2017'
         highlight: false
   - items: 'OSRF'
+    sortdate: 2017-07-01
     subnewsitems:
       - content: Awarded the  <a href="https://roscon.ros.org/2017/">Open Software for Robotics Foundation (OSRF)</a> scholarship.
         date: 'July 2017'
         highlight: false
   - items: 'ICML'
+    sortdate: 2017-06-01
     subnewsitems:
       - content: Brandon Amos' <a href="https://arxiv.org/pdf/1703.00443.pdf">OptNet paper</a> was accepted to ICML. I am mentioned in the acknowledgement section alongside <a href="https://en.wikipedia.org/wiki/Ian_Goodfellow">Ian Goodfellow</a>.
         date: 'June 2017'
         highlight: false
   - items: 'Venture capitalists and robotics'
+    sortdate: 2017-08-01
     subnewsitems:
       - content: I will be pitching my <a href="http://iros2017.org/program/forums/efsc">start-up idea</a> to VCs in Vancouver in October. Yeah, sure. Come in and argue!
         date: 'August 2017'

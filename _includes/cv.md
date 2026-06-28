@@ -166,50 +166,7 @@
 <a name="news"></a>
 <h4 class="cv-h"><i class="fa fa-newspaper-o"></i> Select News Highlights</h4>
 
-<!-- Featured Starling Murmurations Item -->
-<div style="position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
-  <!-- Funnel/Cordon Formation -->
-  <div style="position: relative; background-image: url(/assets/starlings_funnel.jpg); background-size: cover; background-position: center; border-radius: 0.5rem;">
-    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
-  </div>
-  
-  <!-- Split Formation -->
-  <div style="position: relative; background-image: url(/assets/starlings_split.jpg); background-size: cover; background-position: center; border-radius: 0.5rem;">
-    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 100%);"></div>
-  </div>
-  
-  <!-- Overlaid News Content -->
-  <style>
-    @keyframes autoScroll {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(-50%); }
-      50.1% { transform: translateY(0); }
-      100% { transform: translateY(0); }
-    }
-    .starling-news-scroll {
-      animation: autoScroll 20s linear infinite;
-    }
-  </style>
-  <div style="position: absolute; inset: 0; z-index: 10; display: flex; align-items: center; justify-content: center; padding: 2rem; background: linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.35) 100%); border-radius: 0.5rem;">
-    <div style="color: #ffffff; text-align: left; max-height: 100%; overflow: hidden; width: 100%;">
-      <div class="starling-news-scroll">
-        {%- assign hjg = site.data.news.news_items | where: "items", "HJGauss_NeurIPS26" | first -%}
-        {%- assign hjg_item = hjg.subnewsitems[0] -%}
-        <!-- Single source of truth: HJ-Gauss news content lives in _data/news.yaml.
-             The two blocks below are the seamless-scroll duplicate; both render the
-             same YAML content so the text can never drift. -->
-        <div>
-          <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">{{ hjg_item.date }}</span>
-          <p style="margin: 0 0 2rem 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">{{ hjg_item.content }}</p>
-        </div>
-        <div>
-          <span style="display: block; font-size: 0.9rem; color: #FFB84D; font-weight: 700; margin-bottom: 0.75rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">{{ hjg_item.date }}</span>
-          <p style="margin: 0; font-size: 0.88rem; font-weight: 500; line-height: 1.6; text-shadow: 0 2px 5px rgba(0,0,0,0.8);">{{ hjg_item.content }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Featured Starling Murmurations Item now lives on the full news page (news.md). -->
 
 
 <!-- Featured Robodiff Item (May 24, 2026) -->
@@ -298,31 +255,27 @@
   </div>
 </div> -->
 
+{% assign sorted_news = site.data.news.news_items | sort: 'sortdate' | reverse %}
 <div class="cv-news-feed">
-  {% for item in site.data.news.news_items %}
-  <!-- or item.items == 'Robodiff'  or item.items == 'IFAC_GNEP' or item.items == 'AMZN_IRG' -->
-  {% unless item.items == 'HJGauss_NeurIPS26' %}
+  {% for item in sorted_news %}
   {% for subitem in item.subnewsitems %}
   {% unless subitem.highlight == false %}
   <div class="cv-news-item is-highlighted">
     <span class="cv-news-badge">{{ subitem.date }}</span>
-    <span class="cv-news-text">{{ subitem.content }}</span>
+    <span class="cv-news-text">{{ subitem.summary | default: subitem.content }}</span>
   </div>
   {% endunless %}
   {% endfor %}
-  {% endunless %}
   {% endfor %}
 </div>
 
 <div class="cv-news-feed" id="news-more" style="display:none;">
-  {% for item in site.data.news.news_items %}
+  {% for item in sorted_news %}
   {% for subitem in item.subnewsitems %}
-  {% if subitem.highlight == false %}
   <div class="cv-news-item">
     <span class="cv-news-badge">{{ subitem.date }}</span>
-    <span class="cv-news-text">{{ subitem.content }}</span>
+    <span class="cv-news-text">{{ subitem.summary | default: subitem.content }}</span>
   </div>
-  {% endif %}
   {% endfor %}
   {% endfor %}
 </div>
