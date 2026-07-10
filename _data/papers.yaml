@@ -757,6 +757,50 @@ publications:
         paper_status: Accepted Abstract
         thumbnail: /assets/thumbs/icra18.jpg
 
+  # ── READING LIST (external papers of interest) ───────────────────────
+  - items: 'MathRL2026'
+    paperitems:
+      - title: 'Mathematical methods of reinforcement learning'
+        location: 'https://arxiv.org/abs/2607.06935'
+        authors:
+          - Denis Belomestny,
+          - Alexander Gasnikov,
+          - Egor Gladin,
+          - Alexey Naumov,
+          - Artemy Rubtsov,
+          - Yuri Sapronov,
+          - Daniil Tiapkin, and
+          - Nikita Yudin.
+        venue_web: 'https://arxiv.org/abs/2607.06935'
+        venue: arXiv preprint (math.OC, cs.LG)
+        paper_status: Reading List
+        year: 2026
+        abstract: >
+          A 65-page treatment of the mathematical foundations underpinning modern
+          reinforcement learning, covering optimization and control perspectives
+          (math.OC) and machine learning theory (cs.LG). Provides rigorous
+          mathematical tools for the analysis and design of RL algorithms.
+
+  - items: 'VisInfoTheory2022'
+    paperitems:
+      - title: 'A visual introduction to information theory'
+        location: 'https://arxiv.org/abs/2206.07867'
+        authors:
+          - Henry Pinkard and
+          - Laura Waller.
+        venue_web: 'https://arxiv.org/abs/2206.07867'
+        venue: arXiv preprint (cs.IT)
+        paper_status: Reading List
+        year: 2022
+        abstract: >
+          Information theory, though originally developed for communications engineering,
+          provides mathematical tools with broad applications across science. These tools
+          characterize the fundamental limits of data compression and transmission in the
+          presence of noise. A visual, intuition-driven guide to entropy, mutual
+          information, and channel capacity showing how they follow from basic probability
+          and determine shortest encodings and maximum reliable communication rates.
+          Assumes only familiarity with basic probability theory.
+
   - items: 'IROS17-Abstract!'
     paperitems:
       - title: 'Robustness Margins and Robust Guided Policy Search for Deep Reinforcement Learning'
