@@ -49,6 +49,9 @@ title: Lekan Molu
           <a href="/pubs.html" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
             <i class="fa fa-book"></i> Publications
           </a>
+          <a href="/blog.html" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
+            <i class="fa fa-pencil-square-o"></i> Blog
+          </a>
           <a href="mailto:lekanmolu@scriptedonachip.com" style="color: #ffffff; font-weight: 600; text-decoration: none; font-size: 0.85rem; text-shadow: 0 2px 6px rgba(0,0,0,0.8);">
             <i class="fa fa-envelope"></i> Email
           </a>
