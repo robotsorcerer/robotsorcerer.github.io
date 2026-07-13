@@ -21,18 +21,16 @@ Put differently: we trade combinatorial grid explosion in TVD-Runge-Kutta levels
 
 ✍️ Collaborations 🤝: 🏛️ Cranfield & Seoul National University 🌐
 
-🔹 **RoboDiff: A Regression Scheme for Robust Diffusion Policies**
+🔹 **A Regression Scheme for Robust Diffusion Policies**
 
-Diffusion policies have transformed robot policy learning, but most current approaches remain fundamentally finite-dimensional (FD). FD diffusion discretizes the data before applying the diffusion algorithm. 
-FD diffusion is essentially trained on grid artifacts; grid resolution seeds interpolation errors; errors compound across sampling rollouts. Hence, long-horizon planning breaks down. Seeing that the underlying diffusion process is infinite-dimensional, is it any wonder that this _discretize-data-before-diffusion_ scheme misaligns policies from the physical phenomena they seek to control?
+**Why do diffusion policies become unreliable over long planning horizons?** One reason is that they discretize continuous physical phenomena before learning even begins. The resulting interpolation errors accumulate across rollouts, degrading long-horizon planning and control.
 
-This work extends diffusion-based decision making into the Cameron-Martin (function) space, leveraging the backward Kolmogorov PDE to replace stochastic score-matching with a deterministic BVP. Standard DDPM in this infinite-dimensional framework admits three minimal changes to the deployment scheme: (i) colored noise in place of white corrupting noise in the forward Ornstein-Uhlenbeck (OU) process; (ii) score-matching replacement with a precision-weighted Cameron-Martin loss; and (iii) the introduction of a robustness Kolmogorov residual metric for inference-time sampling.
+Rather than approximate diffusion over discretized state representations, we formulate diffusion directly in the Cameron–Martin function space. Using the backward Kolmogorov PDE, stochastic score matching is replaced with the solution of a deterministic boundary value problem (BVP). Standard DDPM in this infinite-dimensional framework requires only three minimal changes: (i) replacing white Gaussian noise in the forward Ornstein–Uhlenbeck (OU) process with colored noise; (ii) replacing score matching with a precision-weighted Cameron–Martin loss; and (iii) introducing a robustness Kolmogorov residual metric for inference-time sampling.
 
-This framework provides principled uncertainty quantification and improved long-horizon planning. We validate our hypothesis on certified decision-making for robot manipulation/control and lean manufacturing resource planning applications.
+The resulting framework facilitates policy failure prognosis while improving long-horizon planning. We validate the framework on certified decision-making tasks in robot manipulation and control and lean manufacturing resource planning. Broadly, this work demonstrates that moving diffusion from finite-dimensional grids to function space yields a mathematically grounded framework for robust long-horizon planning and control.
 
-✍️ Solo Contribution
 
-📄 Paper: https://arxiv.org/abs/2606.18186 💻 Code: TBA
+📄 Paper: https://arxiv.org/abs/2606.18186 
 
 🔹 **Distributed Optimization over Games — Applications to Trauma Resuscitation in ER Workflows.**
 
