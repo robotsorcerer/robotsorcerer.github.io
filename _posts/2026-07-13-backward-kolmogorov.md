@@ -9,15 +9,16 @@ mathjax: true
 category: [diffusion, control, robotics, optimal-control]
 ---
 
-{% include mathjax.md %}
 
 # Mr. Kolmogorov Reinforces Diffusion
 
-> These notes are a compendium to my recent work, [*Kolmogorov Reggression for Robust Diffusion Policies*](/downloads/Papers/robodiff.pdf).
-
-These notes develop the backward Kolmogorov equation (BKE) for diffusion processes
+This exposition develops the backward Kolmogorov equation (BKE) for diffusion processes
 on an infinite-dimensional Hilbert space $\mathcal{H}$, with particular attention to
 the Ornstein-Uhlenbeck (OU) process that underlies modern diffusion generative models.
+
+
+> This note is a theoretical compendium to the results presented in the paper: [**Kolmogorov Reggression for Robust Diffusion Policies**](/downloads/Papers/robodiff.pdf).
+
 The exposition is built from first principles: the spectral structure of the covariance
 operator (Mercer) determines the trace-class condition, which characterises the
 Cameron-Martin space, which in turn fixes the class of admissible Wiener processes —
