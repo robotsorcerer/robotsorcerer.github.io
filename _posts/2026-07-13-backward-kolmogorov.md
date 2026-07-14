@@ -96,7 +96,7 @@ effective rank $$r_\mathrm{eff}(\mathcal{C}_\mu) = (\sum_k\lambda_k)^2/(\sum_k\l
 
 ---
 
-## 2. Trace-Class Operators and Their Measure-Theoretic Interpretation
+## 2. Trace-Class Operators
 
 The Mercer trace identity $$\sum_k \lambda_k < \infty$$ is a spectral fact.  This section
 gives it an intrinsic, basis-free meaning and connects it to Gaussian measure theory.
