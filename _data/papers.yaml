@@ -44,29 +44,6 @@ publications:
              safety analysis, so that our approach yields certified safe policies that reduce deadlocks by 96% in stochastic 
              factory automation discrete event systems.
 
-  - items: 'CDC26'
-    paperitems:
-      - title: 'Infinite-Dimensional Visuomotor Diffusion Policies from SDE Parameterization'
-        location:
-        authors:
-          - <b>Lekan Molu</b>.
-        venue_web:
-        venue: 65th Conference on Decision and Control, Honolulu, Hawaii
-        paper_status: Submitted
-        year: 2026
-        thumbnail: /assets/thumbs/lcss26.jpg
-        abstract: >
-          Diffusion policies are very consequential in learning the visuomotor policies of many autonomous
-          systems. Despite the underlying diffusion process' existence in an infinite-dimensional (ID) function
-          space, practical autonomous systems implementations discretize diffused control trajectories within
-          finite-dimensional (FD) vector spaces. We set diffusion visuomotor policies in the natural ID fabric
-          of the problems they attempt to solve, approximating controls ideally with all potential solutions
-          within the function space, including their relative probabilities, while precisely deferring
-          discretization as long as possible. We show that the Backward Kolmogorov Equation (BKE) in a Hilbert
-          space turns stochastic diffusion score regression into deterministic PDE regression with a
-          Cameron-Martin (CM) loss that achieves a dimension-independent total-variation bound on the underlying
-          probability distribution.
-
   - items: GNEP-Socio
     paperitems:
       - title: 'A Generalized Nash Equilibrium-Seeking Scheme for Trauma Resuscitation'
