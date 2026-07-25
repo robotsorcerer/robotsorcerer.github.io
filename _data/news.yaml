@@ -3,8 +3,8 @@ news_items:
   - items: 'NxtGenAIBos'
     sortdate: 2026-07-21
     subnewsitems:
-      - content: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
-        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
+      - content: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
+        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
         highlight: true
         date: 'Jul 21, 2026'
   - items: 'RobodiffBlog'
