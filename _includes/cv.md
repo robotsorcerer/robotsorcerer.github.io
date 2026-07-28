@@ -466,6 +466,7 @@ document.getElementById('mentoring-toggle').addEventListener('click', function()
   <div class="service-card">
     <div class="service-card-label"><i class="fa fa-users"></i> Leadership &amp; Organization</div>
     <ul>
+      <li><strong>Program Committee Member</strong>strong><a href="https://genai-ecommerce.github.io/GenAIECommerce2026/call-for-papers">Agentic and Generative AI for E-Commerce 2026.</a></li>
       <li><strong>Co-Organizer</strong>, Microsoft Cortex Research Series, FY25, 2024–2025.</li>
       <li><strong>Mentee Lead</strong>, (Microsoft) T&amp;R Mentoring Ring FY25, 2024–2025.</li>
       <li><strong>Co-Coordinator</strong>, RL Discussion Group Series, Microsoft Research, 2023–2024.</li>
