@@ -11,7 +11,7 @@ news_items:
     sortdate: 2026-08-18
     subnewsitems:
       - content: 'Check out this presentation of <a href="downloads/Papers/hjgauss.pdf" target=_blank>HJ Gauss</a> as a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>Continuous Multi-Agent Path-Finding (MAPF)</a> Algorithm. 🧮🤖'
-        summary: '<a href="downloads/Papers/hjgauss.pdf" target=_blank>HJ Gauss</a> as a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>Continuous Multi-Agent Path-Finding (MAPF)</a> Algorithm Talk Slides.'
+        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>Continuous multi-agent path-finding (MAPF)</a> algorithm.'
         highlight: true
         date: 'Aug 18, 2026'
   - items: 'RobodiffBlog'
