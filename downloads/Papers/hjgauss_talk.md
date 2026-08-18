@@ -940,6 +940,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 
 ---
 
+<style scoped>section { font-size: 23px; }</style>
+
 ## 🐦 The Repertoire Is Field-Documented
 
 ![bg right:46% fit](assets/murmur/starlings_split.jpg)
@@ -1309,6 +1311,8 @@ Mirrors the WIP-forecast harness; numpy-only:
 
 ---
 
+<style scoped>section { font-size: 23px; }</style>
+
 ## 📊 Headline: ~32% Fewer Realized Collisions
 
 ![w:600](assets/collisions_bar.png)
@@ -1316,6 +1320,8 @@ Mirrors the WIP-forecast harness; numpy-only:
 > 30 CRN-paired seeds, bootstrap 95% CI. Geometric 97.7 → HJ-shield 66.1; paired diff **−31.6 [−38.0, −25.4]**, Holm p≈0.
 
 ---
+
+<style scoped>section { font-size: 23px; }</style>
 
 ## 📊 Per-Tick Collisions & MSER-5 Warm-Up
 
@@ -1474,6 +1480,8 @@ $$ Dv\ \propto\ \nabla\log\phi\ =\ \nabla\log p. $$
 ## 🏁 Conclusions, Future Work, References
 
 ---
+
+<style scoped>section { font-size: 23px; }</style>
 
 ## 🏁 Conclusions
 
@@ -1754,6 +1762,8 @@ $$ \mathcal L([-T,0],\mathcal L_0)=\{x\in\mathbb{R}^n:\ \exists\,\beta\in\mathca
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🎓 How to *Represent* the Set/Tube?
 
 ![bg right:32% fit](assets/toms/sphere.jpeg)
@@ -1814,6 +1824,8 @@ Classical collision avoidance:
 <span style="font-size:0.58em; color:#55608c;">(Mitchell 2004, Reach Sets and the HJ Equation)</span>
 
 ---
+
+<style scoped>section { font-size: 23px; }</style>
 
 ## 🎓 Canonical Example: Two Identical Vehicles
 
@@ -1987,6 +1999,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 > These conventions matter for signs during implementation and for *which* set (reach vs avoid) a negative value certifies. We adopt the backward-reachability viscosity-solution convention throughout.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🛡️ Why This Is the Right Safety Object
 

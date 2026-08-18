@@ -519,6 +519,8 @@ Mirrors the WIP-forecast harness; numpy-only:
 
 ---
 
+<style scoped>section { font-size: 23px; }</style>
+
 ## 📊 Headline: ~32% Fewer Realized Collisions
 
 ![w:520](assets/collisions_bar.png)
@@ -526,6 +528,8 @@ Mirrors the WIP-forecast harness; numpy-only:
 > 30 CRN-paired seeds, bootstrap 95% CI. Geometric 97.7 → HJ-shield 66.1; paired diff **−31.6 [−38.0, −25.4]**, Holm p≈0.
 
 ---
+
+<style scoped>section { font-size: 23px; }</style>
 
 ## 📊 Per-Tick Collisions & MSER-5 Warm-Up
 
@@ -1478,6 +1482,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 > These conventions matter for signs during implementation and for *which* set (reach vs avoid) a negative value certifies. We adopt the backward-reachability viscosity-solution convention throughout.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🛡️ Why This Is the Right Safety Object
 
