@@ -33,7 +33,10 @@ exclude:
   - update-vendor-deps.sh
   - vendor/bundle
   - vendor/bower.json
-  
+  - downloads/Papers/hjgauss_talk.md
+  - downloads/Papers/hjgauss_full_expo.md
+  - downloads/Papers/hjgauss_mapf_talk.md
+
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: '%d-%b-%y'
