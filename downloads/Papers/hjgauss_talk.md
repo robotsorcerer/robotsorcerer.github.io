@@ -60,7 +60,7 @@ img { background: #fff; border-radius: 6px; }
 
 ---
 
-## 🎯 BLUF (Bottom Line Up Front) - (1/2)
+## 🎯 BLUF (Bottom Line Up Front) — 1/2
 
 > **Grid-resolved Hamilton-Jacobi (HJ) BRTs yield certified safety sets at a $O(M^n)$ memory cost.**
 
@@ -68,13 +68,13 @@ img { background: #fff; border-radius: 6px; }
 
 - 🌊 **Idea:** a Cole-Hopf transformation turns the *viscous* HJ PDE into a **linear heat equation**; Feynman-Kac evaluates it as a **Gaussian expectation**. No grid.
 
-> **HJ-Gauss replaces the grid with Gaussian Monte-Carlo, dropping the footprint to $O(N\cdot n)$.** 
+> **HJ-Gauss replaces the grid with Gaussian Monte-Carlo, dropping the footprint to $O(N\cdot n)$.**
 
 ---
 
-## 🎯 BLUF (Bottom Line Up Front) - (2/2)
+## 🎯 BLUF (Bottom Line Up Front) — 2/2
 
-> **HJ-Gauss replaces the grid with Gaussian Monte-Carlo, dropping the footprint to $O(N\cdot n)$.** 
+> **HJ-Gauss replaces the grid with Gaussian Monte-Carlo, dropping the footprint to $O(N\cdot n)$.**
 
 - 🔁 **Generality:** a frozen-coefficient **Picard iteration** handles the nonconvex, state-dependent Hamiltonians of reachability.
 
@@ -109,7 +109,32 @@ img { background: #fff; border-radius: 6px; }
 | 9 | Conclusions, future work, references |
 | 📚 A–C | Appendix: HJ/viscosity theory (A) · reachability foundations (B) · LevelSetPy grid pipeline (C) |
 
-> Background — notation plus **HJ PDE & viscosity theory (Part A)**, **reachability foundations (Part B)**, and the **LevelSetPy grid pipeline (Part C)** — is collected in the **Appendix** after the closing slide.
+> The background — **HJ PDE and viscosity theory (A)**, **Reachability Foundations (B)**, and the **LevelSetPy grid pipeline (C)** — is collected in the **Appendix**.
+
+---
+
+## 📏 Notations
+
+| Symbol | Meaning |
+|---|---|
+| $x\in\Omega\subseteq\mathbb{R}^n$ | $x$: State; $\Omega$: Open set; $n$ = State dimension. |
+| $v(t,x)$ | Value function; $v_t$ time derivative; $Dv=\nabla_x v$ spatial gradient (co-state). |
+| $H(t;x,p)$ | Hamiltonian; $p$ = co-state. |
+| $g(x)$ | Terminal/target datum (signed distance $\ell(x)$); BUC. |
+| $\delta>0$ | Viscosity parameter. |
+
+---
+
+## 📏 Notations
+
+| Symbol | Meaning |
+|---|---|
+| $\omega^\delta=e^{-c v^\delta}$ | Cole-Hopf transformed variable. |
+| $c(t;x)$ | Frozen coefficient $=\frac{2}{\delta}H^\delta/\lvert Dv^\delta\rvert^2$. |
+| $M,\ N$ | Grid points per dimension ($M$); Monte-Carlo samples per query state ($N$). |
+| $\mathcal L_0,\ \mathcal L$ | Target set, backward reachable tube (BRT). |
+
+> **Two independent counts:** $M$ evaluation states (arbitrary, grid-free) vs $N$ Gaussian samples drawn *per state*. Total randomness per iteration $=M\times N$.
 
 ---
 
@@ -127,12 +152,12 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 | State dim $n$ | $M=100$ cells | Feasibility (double array) |
 |---:|---:|:---|
-| 2 | $10^{4}$ | ✅ trivial |
-| 3 | $10^{6}$ | ✅ easy |
-| 4 | $10^{8}$ | ⚠️ ~0.8 GB, heavy |
-| 5 | $10^{10}$ | ❌ ~80 GB |
-| 6 | $10^{12}$ | ❌ ~8 TB |
-| 45 (our multi-agent game) | $10^{90}$ | ❌ exceeds atoms in the observable universe |
+| 2 | $10^{4}$ | ✅ trivial. |
+| 3 | $10^{6}$ | ✅ easy. |
+| 4 | $10^{8}$ | ⚠️ ~0.8 GB, heavy. |
+| 5 | $10^{10}$ | ❌ ~80 GB. |
+| 6 | $10^{12}$ | ❌ ~8 TB. |
+| 45 (our multi-agent game) | $10^{90}$ | ❌ exceeds atoms in the observable universe. |
 
 - GPU acceleration lowers wall-clock, **not** the exponent.
 
@@ -144,12 +169,12 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 - **DeepReach** trains a neural network to minimize the HJ PDE residual directly (physics-informed loss), no reference grid.
 
-- **Pro:**Trades grid storage for network weights; sidesteps $O(M^n)$ memory.
+- **Pros:** Trades grid storage for network weights; sidesteps $O(M^n)$ memory.
 
 - **Con:** Scales only to moderate dimensiond (reported ~9-10D);
   - And **accuracy degrades** as $n$ grows; training is a nonconvex optimization with no viscosity-solution guarantee.
 
-> **Catch-22:** Learning-based solvers help, but do not deliver a certified, dimension-robust representation. 
+> **Catch-22:** Learning-based solvers help, but do not deliver a certified, dimension-robust representation.
 > **HJ-Gauss** keeps the viscosity-solution semantics.
 
 ---
@@ -174,9 +199,9 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 | Family | Idea | Boundary |
 |---|---|---|
-| **System decomposition**<sup>1</sup> | Remove dimension by splitting self-contained subsystems | Only when coupling structure permits; HJ-Gauss is indifferent to coupling and *complements* it |
-| **Stochastic PDE / path integral**<sup>2</sup> | Log-substitution linearizes the **stochastic** HJB under noise-control duality | Diffusion comes from *process noise*; ours is a **deterministic worst-case game**, $\delta$ an analysis parameter |
-| **Sample-based stochastic reachability**<sup>3</sup> | Certify **probabilistic** reach-avoid | We certify **adversarial worst-case** reachability — a different, stronger guarantee |
+| **System decomposition**<sup>1</sup> | Remove dimension by splitting self-contained subsystems | Only when coupling structure permits; HJ-Gauss is indifferent to coupling and *complements* it. |
+| **Stochastic PDE / path integral**<sup>2</sup> | Log-substitution linearizes the **stochastic** HJB under noise-control duality | Diffusion comes from *process noise*; ours is a **deterministic worst-case game**, $\delta$ an analysis parameter. |
+| **Sample-based stochastic reachability**<sup>3</sup> | Certify **probabilistic** reach-avoid | We certify **adversarial worst-case** reachability — a different, stronger guarantee. |
 
 > **The open gap:** a grid-free, storage-light scheme for **nonconvex, state-dependent, adversarial** Hamiltonians. That is HJ-Gauss.
 
@@ -234,7 +259,7 @@ and set $\omega^\delta:=\exp(-c\,v^\delta)$.
 
 - **Quadratic case** $H=\tfrac12|p|^2$: $c=1/\delta$ constant, $\omega^\delta$ solves the **homogeneous heat equation** with **zero residual** — a genuine Cole-Hopf identity.
 
-- **General $H$:** the transform induces a residual $R=R_{\mathrm{alg}}+R_{\mathrm{der}}$; 
+- **General $H$:** the transform induces a residual $R=R_{\mathrm{alg}}+R_{\mathrm{der}}$;
 
   - $c$'s choice eliminates the **algebraic** part $R_{\mathrm{alg}}$, leaving the **derivative** part $R_{\mathrm{der}}$.
 
@@ -663,21 +688,21 @@ Let $E$ be the total error budget. Declare state $x$:
 
 ---
 
-## 🧪 Experimental Setup & Statistics BLUF - (1/2)
+## 🧪 Experimental Setup and Statistics — 1/2
 
-- **Hardware:** single CPU (Intel i7-14700K, 20 cores, 31 GiB RAM, Ubuntu 22.04); JAX on CPU backend 
+- **Hardware:** single CPU (Intel i7-14700K, 20 cores, 31 GiB RAM, Ubuntu 22.04); JAX on CPU backend.
 
   — Consistent with the memory-frugality claim.
 
-- **Replication:** Each experiment re-solved with **30 independent Monte-Carlo seeds**; 
-  - Evaluation points and the LevelSetPy reference held fixed - only sampler randomness varies. Tables report mean ± 1 s.d.
+- **Replication:** Each experiment re-solved with **30 independent Monte-Carlo seeds**;
+  - Evaluation points and the LevelSetPy reference held fixed — only sampler randomness varies. Tables report mean ± 1 s.d.
 
 
 > Figures show one representative seed for clarity; tables report full 30-seed statistics. Multiplicity-controlled reporting throughout.
 
 ---
 
-## 🧪 Experimental Setup & Statistics BLUF - (2/2)
+## 🧪 Experimental Setup and Statistics — 2/2
 
 - **Significance:** Three families of **Holm-Bonferroni-corrected** tests at $\alpha=0.05$:
   - (a) paired Wilcoxon of 30-seed-averaged MC field vs grid reference;
@@ -712,6 +737,26 @@ Let $E$ be the total error budget. Declare state $x$:
 
 <span style="font-size:0.5em; color:#55608c;">Relative geometry: evader $E$ fixed at the origin (accel. $a_e$, control $u_e$, gravity $g$); pursuer $P$ at relative orientation $\theta=u_p-u_e$ on the $(x,z)$ plane. — HJ-Gauss (Molu et al., 2026).</span>
 
+
+---
+
+<style scoped>section { font-size: 22px; }</style>
+
+## 🧪 Two-Rockets: Dynamics and Value Function
+
+Relative state $x=(x,z,\theta)$ — evader with respect to pursuer, with $\theta=u_p-u_e$:
+
+$$\dot x = a_p\cos\theta + u_e\,x,\qquad \dot z = a_p\sin\theta + a_e + u_e\,x - g,\qquad \dot\theta = u_p-u_e.$$
+
+Writing $a\triangleq a_p=a_e$ and thrust bound $\bar u=\max(\lvert u_p\rvert,\lvert u_e\rvert)$, the Isaacs Hamiltonian is closed-form:
+
+$$H(x,p) = -a\,p_1\cos\theta \;-\; p_2\big(g-a-a\sin\theta\big) \;-\; \bar u\,\lvert p_1x+p_3\rvert \;+\; \bar u\,\lvert p_2x+p_3\rvert.$$
+
+The capture tube is the viscosity solution of the variational HJ-Isaacs equation:
+
+$$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
+
+- The two $\lvert\cdot\rvert$ terms **are** the optimal bang-bang thrusts, so no inner optimization is needed at run time.
 ---
 
 ## 🧪 The Dubins Air3D Problem (Schematic)
@@ -720,6 +765,26 @@ Let $E$ be the total error budget. Declare state $x$:
 
 <span style="font-size:0.5em; color:#55608c;">Air3D relative coordinates with the evader fixed at the origin: relative position $(x_1,x_2)$ and relative heading $\psi$; turn-rate-bounded pursuer vs evader. — LevelSetPy (Molu, ACM TOMS 2025 / IEEE CDC 2024).</span>
 
+
+---
+
+<style scoped>section { font-size: 22px; }</style>
+
+## 🧪 Dubins Air3D: Dynamics and Value Function
+
+Relative state $x=(x_1,x_2,x_3)$ — evader with respect to pursuer, $x_3$ the relative heading:
+
+$$\dot x_1 = -v_e + v_p\cos x_3 + \omega_e x_2,\qquad \dot x_2 = -v_p\sin x_3 - \omega_e x_1,\qquad \dot x_3 = -\omega_p-\omega_e.$$
+
+With a shared turn-rate bound $\omega$ (pursuer minimizing, evader maximizing), the Hamiltonian is again closed-form:
+
+$$H(x,p) = p_1\big(v_e - v_p\cos x_3\big) \;-\; p_2\,v_p\sin x_3 \;-\; \omega\,\lvert p_1x_2 - p_2x_1 - p_3\rvert \;+\; \omega\,\lvert p_3\rvert.$$
+
+The conflict tube solves the same variational equation, with the capture cylinder as datum:
+
+$$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.$$
+
+- The $\min\{0,\cdot\}$ freeze is what makes the zero sublevel set a **tube** rather than a set: once captured, always captured.
 ---
 
 ## 🧪 Rockets Pursuit-Evasion BRT
@@ -728,6 +793,18 @@ Let $E$ be the total error budget. Declare state $x$:
 
 <span style="font-size:0.5em; color:#55608c;">$(x,z)$ slices at $\theta\in\{-90^\circ,0,90^\circ\}$: LevelSetPy grid (top) · HJ-Gauss MC (middle) · pointwise error (bottom). — HJ-Gauss (Molu et al., 2026).</span>
 
+
+---
+
+## 🧪 Reading the Rockets Figure
+
+- **Layout:** the three columns are heading slices $\theta\in\{-90^\circ,0,90^\circ\}$ of one 3D tube; the rows are **LevelSetPy grid** (top), **HJ-Gauss Monte-Carlo** (middle), and **pointwise error** (bottom).
+
+- **What to look for:** the middle row recovers the top row's zero level set — the certified capture boundary — at every slice, with no grid ever stored.
+
+- **Where the error lives:** the bottom row is near-zero across the interior and concentrates in a thin band **on the barrier**, exactly where the quasi-linearization residual bound says it should.
+
+- **Physical read:** the $\theta=-90^\circ$ and $\theta=+90^\circ$ slices are **not** mirror images, because the gravity term $(g-a-a\sin\theta)$ leaves a $g-2a$ drift at $+90^\circ$ against $g$ at $-90^\circ$.
 ---
 
 ## 🧪 Dubins Two-Car BRT
@@ -736,6 +813,18 @@ Let $E$ be the total error budget. Declare state $x$:
 
 <span style="font-size:0.5em; color:#55608c;">LevelSetPy grid (top) · HJ-Gauss MC (middle) · error (bottom). — HJ-Gauss (Molu et al., 2026); LevelSetPy (Molu, TOMS 2025 / CDC 2024).</span>
 
+
+---
+
+## 🧪 Reading the Dubins Figure
+
+- **Layout:** the same three-row comparison — grid, Monte-Carlo, error — for the Air3D game at the same three relative headings.
+
+- **The signature shape:** the classic Merz notch appears where the turn-radius bound denies escape; a swept-disc test cannot produce that shape at all.
+
+- **Agreement:** $L^2_{\mathrm{rel}}$ runs $0.024$ at $\theta=0$ (smooth interior) to $\approx0.13$ at $\theta=\pm\pi/2$, while $L^\infty\approx0.7$-$1.4$ is set by the boundary where $\lvert Dv^\delta\rvert$ peaks.
+
+- **Why it matters here:** this tube **is** the pairwise conflict predicate the MAPF shield queries, so the collision reduction rests on this agreement.
 ---
 
 ## 🧪 Benchmark 1: Quantitative Results
@@ -767,7 +856,7 @@ Let $E$ be the total error budget. Declare state $x$:
 
 - $L^\infty\sim0.7$-$1.4$ driven by the zero-level-set boundary where $|Dv^\delta|$ is maximal — where the residual $L_c$ term predicts.
 
-> The  report is **Corollary (conservative certificate)**: sign-correctness outside an abstention band; $L^2$ flatters the interior, $L^\infty$ is dominated by the declared-undetermined band.
+> What we report is the **Corollary (conservative certificate)**: sign-correctness outside an abstention band; $L^2$ flatters the interior, $L^\infty$ is dominated by the declared-undetermined band.
 
 ---
 
@@ -809,7 +898,7 @@ Let $E$ be the total error budget. Declare state $x$:
 
 - Pairwise Holm-Bonferroni Mann-Whitney: **no significant residual difference** between speed regimes ($p_{\mathrm{holm}}\ge0.93$) → floor set by $(N,\delta)$, not game parameters.
 
-> At $n=45$ there is **no grid reference**; the  report is *measurable* quantities — iteration stability, memory, wall-clock — i.e. **scalability, not certified accuracy**.
+> At $n=45$ there is **no grid reference**; we report *measurable* quantities — iteration stability, memory, wall-clock — i.e. **scalability, not certified accuracy**.
 
 ---
 
@@ -1051,7 +1140,6 @@ Naming: **HJ** = Hamilton-Jacobi (the method); **HB-n** = hypothesis $n$.
 | HB-5 | Fast enough (precompute + $O(1)$ lookup) | Too slow for the loop | Wall-clock / latency |
 | HB-6 (stretch) | $Dv$-guidance reduces collisions in a diffusion planner | No reduction | Guided vs unguided |
 
-
 ---
 
 ## 🤖 The AMFS Pipeline: World and Planner
@@ -1077,6 +1165,7 @@ Naming: **HJ** = Hamilton-Jacobi (the method); **HB-n** = hypothesis $n$.
 - **BRT precompute:** the JAX HJ sampler (Algorithm B) on the Dubins-relative Hamiltonian, cached once; the online loop is numpy-only $O(1)$ lookups.
 
 > One clean contrast: the only difference between the two arms is whether the certificate is actuated.
+
 ---
 
 ## 🤖 The Simulated Floor
@@ -1415,32 +1504,7 @@ $$ Dv\ \propto\ \nabla\log\phi\ =\ \nabla\log p. $$
 
 # Appendix
 ## 📚 Background & Foundations (Parts A–C)
-**Notation, Hamilton-Jacobi / viscosity theory (A), reachability foundations (B), and the LevelSetPy grid pipeline (C) — reference material for the main talk.**
-
----
-
-## 📏 Notations
-
-| Symbol | Meaning |
-|---|---|
-| $x\in\Omega\subseteq\mathbb{R}^n$ | $x$: State; $\Omega$: Open set; $n$ = State dimension |
-| $v(t,x)$ | Value function; $v_t$ time derivative; $Dv=\nabla_x v$ spatial gradient (co-state) |
-| $H(t;x,p)$ | Hamiltonian; $p$ = co-state |
-| $g(x)$ | Terminal/target datum (signed distance $\ell(x)$); BUC |
-| $\delta>0$ | Viscosity parameter |
-
----
-
-## 📏 Notations
-
-| Symbol | Meaning |
-|---|---|
-| $\omega^\delta=e^{-c v^\delta}$ | Cole-Hopf transformed variable |
-| $c(t;x)$ | Frozen coefficient $=\frac{2}{\delta}H^\delta/\lvert Dv^\delta\rvert^2$ |
-| $M,\ N$ | Grid points per dimension ($M$); Monte-Carlo samples per query state ($N$) |
-| $\mathcal L_0,\ \mathcal L$ | Target set, backward reachable tube (BRT) |
-
-> **Two independent counts:** $M$ evaluation states (arbitrary, grid-free) vs $N$ Gaussian samples drawn *per state*. Total randomness per iteration $=M\times N$.
+**Hamilton-Jacobi and viscosity theory (A), reachability foundations (B), and the LevelSetPy grid pipeline (C) — reference material for the main talk.**
 
 ---
 
@@ -1656,7 +1720,7 @@ For continuous systems $\dot x=f(x)$, two families:
 
 - **Lagrangian** (forward sets; restricted dynamics/shapes; overapproximation): HyTech, Checkmate, $d/dt$, ellipsoidal<sup>1</sup>.
 
-- **Eulerian** (backward sets; general dynamics incl. competitive inputs; **implicit** set representation). 
+- **Eulerian** (backward sets; general dynamics incl. competitive inputs; **implicit** set representation).
   - **HJ-Gauss** belongs here.
 
 <span style="font-size:0.6em; color:#55608c; display:block; border-top:1px solid #b3badf; margin-top:0.6em; padding-top:0.3em;"><sup>1</sup> Kurzhanski</span>
@@ -1671,7 +1735,7 @@ Classical collision avoidance:
 
 - Collision if the vehicles come within **5 units** of each other.
 
-- **Evader** picks turn rate $|a|\le 1$ to *avoid*; 
+- **Evader** picks turn rate $|a|\le 1$ to *avoid*;
 
 - **Pursuer** picks $|b|\le 1$ to *cause* collision; fixed equal speeds $v_e=v_p=5$.
 
@@ -1685,7 +1749,7 @@ Classical collision avoidance:
 
 Classical collision avoidance:
 
-- Work in **relative coordinates** with the evader fixed at the origin
+- Work in **relative coordinates** with the evader fixed at the origin.
 
 - State is relative position $(x,y)$ and relative heading $\psi$.
 
@@ -1715,11 +1779,11 @@ The set evolves by a (modified) Hamilton-Jacobi PDE:
 
 The set evolves by a (modified) Hamilton-Jacobi PDE:
 
-- **Level-set methods** produce convergent numerical schemes<sup>1</sup>: 
+- **Level-set methods** produce convergent numerical schemes<sup>1</sup>:
 
   - Non-oscillatory high-accuracy spatial derivatives;
 
-  - A stable/consistent numerical Hamiltonian; and 
+  - A stable/consistent numerical Hamiltonian; and
 
   - Total variation-diminishing (TVD) high-order explicit time integration.
 
@@ -1731,11 +1795,11 @@ The set evolves by a (modified) Hamilton-Jacobi PDE:
 
 ## 🎓 The Game Value and the Optimal-Stopping Fix
 
-- The **terminal-cost differential game** 
+- The **terminal-cost differential game**:
 
   - Trajectories $\xi(\cdot;x,t,a,b)$;
-  
-  - **Value function** $\phi(x,t)$ is the viscosity solution of the  HJ equation<sup>1</sup>.
+
+  - **Value function** $\phi(x,t)$ is the viscosity solution of the HJ equation<sup>1</sup>.
 
 
 > This modified/augmented Hamiltonian is the $\min\{0,\cdot\}$ freeze term on our HJI-RCBRT slide.
@@ -1746,12 +1810,12 @@ The set evolves by a (modified) Hamilton-Jacobi PDE:
 
 ## 🎓 The Game Value and the Optimal-Stopping Fix
 
-- To stop trajectories from passing *through* the target $G(0)$ (so the set is a **tube**, not just a set), 
-  
-  - **Augment the disturbance input**; 
-  
+- To stop trajectories from passing *through* the target $G(0)$ (so the set is a **tube**, not just a set),
+
+  - **Augment the disturbance input**;
+
   - The augmented HJ equation solves for the reachable set;
-  
+
   - The augmented Hamiltonian is the modified $\min\{0,H\}$ Hamiltonian.
 
 > This modified/augmented Hamiltonian is the $\min\{0,\cdot\}$ freeze term on our HJI-RCBRT slide.
@@ -1782,7 +1846,7 @@ Reachable sets already drive real-world safety systems:
 
 - **Softwalls for aircraft safety:** Filter evader's input so the pursuer never enters the reachable (unsafe) set — a certified safety filter (with E. Lee & A. Cataldo).
 
-- **Collision alert for ATC:** Flag aircraft pairs whose flight plans intersect and whose relative state enters the collision region. 
+- **Collision alert for ATC:** Flag aircraft pairs whose flight plans intersect and whose relative state enters the collision region.
 
   - A one-hour Oakland-airspace sample: **1590 pairs, 25 detected conflicts, 2 false alerts**.
 
@@ -1800,7 +1864,7 @@ Reachable sets already drive real-world safety systems:
 
 - That analytic solution is used to **validate the numerical algorithm**<sup>2</sup> — the same discipline behind our LevelSetPy-vs-Monte-Carlo comparison in Part 5.
 
-> Takeaway of the primer: reachability = represent implicitly, evolve in a HJ PDE game, solve for the viscosity solution. 
+> Takeaway of the primer: reachability = represent implicitly, evolve in a HJ PDE game, solve for the viscosity solution.
 
 > HJ-Gauss keeps this exactly and changes only *how* the PDE is solved.
 
@@ -1884,10 +1948,10 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 
 - Evolve the interface by integrating the HJ PDE on the grid:
 
-  - Discretize space (upwinding), 
-  
-  - Stabilize the Hamiltonian (Lax-Friedrichs), 
-  
+  - Discretize space (upwinding),
+
+  - Stabilize the Hamiltonian (Lax-Friedrichs),
+
   - March in time (TVD-RK).
 
 <span style="font-size:0.6em; color:#55608c; display:block; border-top:1px solid #b3badf; margin-top:0.6em; padding-top:0.3em;"><sup>1</sup> Osher-Sethian</span>
