@@ -737,7 +737,6 @@ Let $E$ be the total error budget. Declare state $x$:
 
 <span style="font-size:0.5em; color:#55608c;">Relative geometry: evader $E$ fixed at the origin (accel. $a_e$, control $u_e$, gravity $g$); pursuer $P$ at relative orientation $\theta=u_p-u_e$ on the $(x,z)$ plane. — HJ-Gauss (Molu et al., 2026).</span>
 
-
 ---
 
 <style scoped>section { font-size: 22px; }</style>
@@ -757,6 +756,7 @@ The capture tube is the viscosity solution of the variational HJ-Isaacs equation
 $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
 
 - The two $\lvert\cdot\rvert$ terms **are** the optimal bang-bang thrusts, so no inner optimization is needed at run time.
+
 ---
 
 ## 🧪 The Dubins Air3D Problem (Schematic)
@@ -764,7 +764,6 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
 ![w:640](assets/paperfigs/air3d_schematic.png)
 
 <span style="font-size:0.5em; color:#55608c;">Air3D relative coordinates with the evader fixed at the origin: relative position $(x_1,x_2)$ and relative heading $\psi$; turn-rate-bounded pursuer vs evader. — LevelSetPy (Molu, ACM TOMS 2025 / IEEE CDC 2024).</span>
-
 
 ---
 
@@ -785,6 +784,7 @@ The conflict tube solves the same variational equation, with the capture cylinde
 $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.$$
 
 - The $\min\{0,\cdot\}$ freeze is what makes the zero sublevel set a **tube** rather than a set: once captured, always captured.
+
 ---
 
 ## 🧪 Rockets Pursuit-Evasion BRT
@@ -792,7 +792,6 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 ![h:500](assets/paperfigs/rockets_3d_slices.jpg)
 
 <span style="font-size:0.5em; color:#55608c;">$(x,z)$ slices at $\theta\in\{-90^\circ,0,90^\circ\}$: LevelSetPy grid (top) · HJ-Gauss MC (middle) · pointwise error (bottom). — HJ-Gauss (Molu et al., 2026).</span>
-
 
 ---
 
@@ -805,6 +804,7 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 - **Where the error lives:** the bottom row is near-zero across the interior and concentrates in a thin band **on the barrier**, exactly where the quasi-linearization residual bound says it should.
 
 - **Physical read:** the $\theta=-90^\circ$ and $\theta=+90^\circ$ slices are **not** mirror images, because the gravity term $(g-a-a\sin\theta)$ leaves a $g-2a$ drift at $+90^\circ$ against $g$ at $-90^\circ$.
+
 ---
 
 ## 🧪 Dubins Two-Car BRT
@@ -812,7 +812,6 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 ![h:500](assets/paperfigs/dubins_3d_comparison.jpg)
 
 <span style="font-size:0.5em; color:#55608c;">LevelSetPy grid (top) · HJ-Gauss MC (middle) · error (bottom). — HJ-Gauss (Molu et al., 2026); LevelSetPy (Molu, TOMS 2025 / CDC 2024).</span>
-
 
 ---
 
@@ -825,6 +824,7 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 - **Agreement:** $L^2_{\mathrm{rel}}$ runs $0.024$ at $\theta=0$ (smooth interior) to $\approx0.13$ at $\theta=\pm\pi/2$, while $L^\infty\approx0.7$-$1.4$ is set by the boundary where $\lvert Dv^\delta\rvert$ peaks.
 
 - **Why it matters here:** this tube **is** the pairwise conflict predicate the MAPF shield queries, so the collision reduction rests on this agreement.
+
 ---
 
 ## 🧪 Benchmark 1: Quantitative Results
@@ -940,11 +940,95 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 
 ---
 
+## 🐦 The Bird Model: 4D Aerial Dubins
+
+Each bird carries state $(x_1,x_2,x_3,\theta)\in\mathbb R^2\times\mathbb R\times\mathbb S^1$ — planar position, altitude, heading:
+
+$$\dot x_1 = v\cos\theta,\qquad \dot x_2 = v\sin\theta,\qquad \dot x_3 = u_z,\qquad \dot\theta = \langle\omega\rangle_r.$$
+
+- The **coupling lives in the heading**: each bird turns at the neighbour-averaged rate
+
+$$\langle\omega\rangle_r = \frac{1}{1+n_i}\Big(\omega_i + \sum_{j\in\mathcal N_i}\omega_j\Big),\qquad n_i = \lvert\mathcal N_i\rvert.$$
+
+- Alignment is therefore a property of the **dynamics**, not a penalty added to a cost.
+
+- Bounded controls: $\lvert u_z\rvert\le\gamma_{\max}$ for climb rate, $\lvert\omega\rvert\le\bar\omega$ for turn rate.
+
+---
+
+<style scoped>section { font-size: 23px; }</style>
+
+## 🐦 The Attacked-Flock Game
+
+Relative state of an attacked bird with respect to its predator:
+
+$$\dot x_1 = -v_p + v_e\cos\theta + \langle\omega_e\rangle_r x_2,\qquad \dot x_2 = v_p\sin\theta - \langle\omega_e\rangle_r x_1,$$
+
+$$\dot x_3 = u_z^e - u_z^p,\qquad \dot\theta = \omega_p - \langle\omega_e\rangle_r.$$
+
+Datum is the capture cylinder $g(x)=\sqrt{x_1^2+x_2^2}-r_c$, and each flock solves its **own** variational equation:
+
+$$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u_p}\max_{u_e}\ Dv^\top f(x,u_p,u_e).$$
+
+- Run shown here: **7 predators** on a ring of radius $1.15$, $r_c=0.6$, $\delta=0.18$, $N=1600$ samples, ≤7 Picard iterations, 24 backward-time steps.
+
+- Wall-clock for the whole sweep: **63 s on one CPU**.
+
+---
+
 ## 🐦 The Certified Population Snapshot
 
 ![w:520](assets/murmur/phase_space_snapshot.jpg)
 
 <span style="font-size:0.5em; color:#55608c;">2,000 of 100,000 birds (colored by heading) with 7 flock centers (stars) and their capture discs (dashed). Black contour is the certified safe-set boundary at $\tau=0$: an <b>annular cordon</b> around a protected core. — HJ-Gauss (Molu et al., 2026).</span>
+
+---
+
+## 🐦 Reading the Population Snapshot
+
+- **Coloured dots:** 2,000 of the 100,000 birds, subsampled for legibility and coloured by heading $\theta$. The spread of colour is the point — the population is a **heading distribution**, not a rigid formation.
+
+- **Stars and dashed circles:** the seven predators and their capture radii $r_c=0.6$.
+
+- **Black curve:** the $v=0$ boundary at $\tau=0$. The shaded zero-sublevel set $\{v\le0\}$ is the flock's **certified safe set**.
+
+- **The hole is the message:** an annular safe set ($\beta_1=1$) is a **defensive cordon** — a protected core the predators cannot certify entry into.
+
+---
+
+## 🐦 What the Snapshot Certifies
+
+- Each bird's status is one **membership query** against the cached value field: sign of $v$ at its own 4D state.
+
+- So $10^5$ birds cost $10^5$ **independent** $O(1)$ lookups, trivially parallel — while the solve itself never represented $10^5$ agents.
+
+- That is the operational meaning of $O(N\cdot n)$: the certificate's cost scales with the **sample budget and state dimension**, not with fleet size.
+
+> The warehouse analogue: certify a thousand drive units against a per-zone value field, with no joint state space anywhere in the loop.
+
+---
+
+## 🐦 The Repertoire Is Field-Documented
+
+![bg right:46% fit](assets/murmur/starlings_split.jpg)
+
+- Real starling responses to predation: **cordon**, **tube**, **funnel**, and **split**.
+
+- Each one appears in our certificates as a **topological signature** of the safe set, and none of them is a hand-coded rule.
+
+- The certificate reproduces a documented repertoire from **dynamics and the game alone** — which is the reason to trust it on a floor, where the repertoire is congestion, yielding, and deadlock instead.
+
+<span style="font-size:0.5em; color:#55608c;">Fragmentation event, $n_c:1\to2$. Field murmuration imagery as reproduced in HJ-Gauss (Molu et al., 2026).</span>
+
+---
+
+## 🐦 The Behaviours We Are Trying to Certify
+
+![h:215](assets/murmur/starlings_fly.jpg) ![h:215](assets/murmur/starlings_tube.jpg) ![h:215](assets/murmur/starlings_funnel.jpg)
+
+- Dense ascent, a concentric tube, and a funnel — three of the field-documented responses that our topological markers are meant to detect.
+
+<span style="font-size:0.46em; color:#55608c;">Photo credits: Reuters/Amir Cohen · AP Photo/Oded Balilty · Menahem Kahana/AFP/Getty Images · Courtesy of The Gathering Site — as reproduced in LevelSetPy (Molu, ACM TOMS 2025) and HJ-Gauss (Molu et al., 2026).</span>
 
 ---
 
@@ -995,20 +1079,6 @@ The certificates recover the field-documented collective repertoire as **topolog
 - **Vacuole nucleation** is the reverse event: a predator penetration attaches a 1-handle and drops $\chi$ by one.
 
 > Three integers per tick say whether safety is being lost, and **how**.
-
----
-
-## 🐦 The Repertoire Is Field-Documented
-
-![bg right:46% fit](assets/murmur/starlings_split.jpg)
-
-- Real starling responses to predation: **cordon**, **tube**, **funnel**, and **split**.
-
-- Each one appears in our certificates as a **topological signature** of the safe set, and none of them is a hand-coded rule.
-
-- The certificate reproduces a documented repertoire from **dynamics and the game alone** — which is the reason to trust it on a floor, where the repertoire is congestion, yielding, and deadlock instead.
-
-<span style="font-size:0.5em; color:#55608c;">Fragmentation event, $n_c:1\to2$. Field murmuration imagery as reproduced in HJ-Gauss (Molu et al., 2026).</span>
 
 ---
 
@@ -2097,4 +2167,3 @@ $$ \Delta t\ \le\ \frac{\text{CFL}}{\ \sum_i \max|\partial H/\partial p_i|/\Delt
 $$ n=6,\ M=100\ \Rightarrow\ 10^{12}\ \text{cells}\ \approx\ 8\ \text{TB per double array}. $$
 
 > This is the wall. Part 1 quantifies it and surveys who has tried to climb it.
-
