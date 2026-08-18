@@ -10,8 +10,8 @@ news_items:
   - items: 'HJGauss_MAPF'
     sortdate: 2026-08-18
     subnewsitems:
-      - content: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>continuous multi-agent path-finding (MAPF)</a> algorithm. 🧮🤖 Read it however you like: as an <a href="downloads/Papers/hjgauss_talk.html" target=_blank>interactive HTML slide deck</a>, the <a href="downloads/Papers/hjgauss_full_expo.pdf" target=_blank>full theory-and-experiments exposition (PDF)</a>, or straight from the <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>MAPF paper</a> itself.'
-        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>continuous multi-agent path-finding (MAPF)</a> algorithm. Take your pick: <a href="downloads/Papers/hjgauss_talk.html" target=_blank>HTML slides</a>, <a href="downloads/Papers/hjgauss_full_expo.pdf" target=_blank>full exposition</a>, or the <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>MAPF paper</a>.'
+      - content: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm.'
+        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm.'
         highlight: true
         date: 'Aug 18, 2026'
   - items: 'RobodiffBlog'
