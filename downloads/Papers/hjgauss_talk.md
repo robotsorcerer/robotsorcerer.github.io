@@ -146,6 +146,8 @@ img { background: #fff; border-radius: 6px; }
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧱 The Curse of Dimensionality, Quantified
 
 Grid memory is $O(M^n)$ with $M$ points per dimension:
@@ -194,6 +196,8 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 <span style="font-size:0.6em; color:#55608c; display:block; border-top:1px solid #b3badf; margin-top:0.6em; padding-top:0.3em;"><sup>1</sup> Darbon-Osher 2016; Chow-Darbon-Osher-Yin 2017; Kirchner 2018</span>
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧱 Attempts 3-4: Decomposition, Path Integral, Sampling
 
@@ -251,6 +255,8 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🌊 The Transformation, and the Closed-Form/Approximate Split
 
 For a general $H$, define the spatially-varying coefficient
@@ -292,6 +298,8 @@ $$ \omega_t^\delta-\tfrac{\delta}{2}\Delta\omega^\delta=0\ \text{ in }\mathbb{R}
 > A nonlinear, nonconvex, state-dependent HJ PDE has become **the heat equation** — the most classical linear parabolic PDE, with an explicit Gaussian solution.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🌊 The Gaussian Heat Kernel & Feynman-Kac
 
@@ -415,6 +423,8 @@ $$
 > The **solve is grid-free**; the grids that appear in results are *evaluation windows* for visualization and error measurement, not sampling constraints.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🌊 Memory: $O(N\cdot n)$ vs $O(M^n)$
 
@@ -733,6 +743,8 @@ Let $E$ be the total error budget. Declare state $x$:
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧪 The Two-Rockets Problem (Schematic)
 
 ![w:620](assets/paperfigs/rocket_relative.jpg)
@@ -789,6 +801,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧪 Rockets Pursuit-Evasion BRT
 
 ![h:500](assets/paperfigs/rockets_3d_slices.jpg)
@@ -808,6 +822,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 - **Physical read:** the $\theta=-90^\circ$ and $\theta=+90^\circ$ slices are **not** mirror images, because the gravity term $(g-a-a\sin\theta)$ leaves a $g-2a$ drift at $+90^\circ$ against $g$ at $-90^\circ$.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧪 Dubins Two-Car BRT
 
@@ -829,6 +845,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧪 Benchmark 1: Quantitative Results
 
 | System | $\theta$ (rad) | $L^\infty$ | $L^2_{\mathrm{rel}}$ | MC time (s) | Iters |
@@ -847,6 +865,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 > Sampling-plus-iteration error is statistically well inside the viscosity budget — not merely numerically.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧪 Interpreting the Errors: Different Currencies
 
@@ -885,6 +905,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \sqrt{x_1^2+x_2^2} - r_c.
 > This is the flagship: a reachability computation **grid solvers cannot even represent**, done on a single CPU in seconds.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧪 Benchmark 2: 45D Results
 
@@ -1036,6 +1058,8 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🐦 The Certified Population Snapshot
 
 ![w:520](assets/murmur/phase_space_snapshot.jpg)
@@ -1082,6 +1106,8 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🐦 Cordon, Then Collapse
 
 ![w:720](assets/anim/murmuration_brt_strip.png)
@@ -1125,6 +1151,8 @@ The certificates recover the field-documented collective repertoire as **topolog
 **The reason this talk is for the autonomous mobility team.**
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🤖 The Floor, as MAPF Sees It
 
@@ -1199,6 +1227,8 @@ The certificates recover the field-documented collective repertoire as **topolog
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🤖 The Dynamics-Aware Conflict Set (Pairwise Dubins BRT)
 
 ![w:1080](assets/brt_slices.png)
@@ -1232,6 +1262,8 @@ The certificates recover the field-documented collective repertoire as **topolog
 - Where the tube exceeds the disc, a geometric planner is blind; where it falls inside, the disc is needlessly cautious.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🤖 Falsifiable Hypotheses (Stated to Be Proven Wrong)
 
@@ -1274,6 +1306,8 @@ Naming: **HJ** = Hamilton-Jacobi (the method); **HB-n** = hypothesis $n$.
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🤖 The Simulated Floor
 
 ![w:560](assets/warehouse_layout.png)
@@ -1289,6 +1323,8 @@ Naming: **HJ** = Hamilton-Jacobi (the method); **HB-n** = hypothesis $n$.
 <span style="font-size:0.5em; color:#55608c;">Left: geometric conflict check. Right: the HJ-Gauss windowed-BRT shield. Amber ring = shield firing (agent fleeing), red = realized contact, stars = current goals. Seed 1028 of the 30-seed harness: <b>98 → 66</b> collisions at identical throughput (0.825). Animated in the HTML deck; the PDF shows the opening frame.</span>
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## ▶️ The Same Episode, as a Filmstrip
 
@@ -1326,6 +1362,8 @@ Mirrors the WIP-forecast harness; numpy-only:
 > Single-seed results were noisy and even inverted; the harness is what turns a direction into a **defensible** claim.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🤖 Results: 30 CRN-Paired Seeds (14 Agents)
 
@@ -1532,6 +1570,8 @@ $$ Dv\ \propto\ \nabla\log\phi\ =\ \nabla\log p. $$
 > **Certified safety is the sign of a value function. HJ-Gauss computes that sign where grids cannot — and hands the same object to your learned planners.**
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🏁 Future Work
 
@@ -1748,6 +1788,8 @@ $$ 0< e^{-c g(y)}\le e^{-c g_{\min}},\qquad e^{-c g(y)}\to 0\ \text{as }|y|\to\i
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🛡️ What Is Reachability?
 
 - **Reachability** concerns the *decidability* of a dynamical system's trajectory evolution across a phase space.
@@ -1955,6 +1997,8 @@ The method sits among Eulerian formulations:
 <span style="font-size:0.58em; color:#55608c; display:block; border-top:1px solid #b3badf; margin-top:0.6em; padding-top:0.3em;">(Mitchell 2004, Reach Sets and the HJ Equation); Falcone/Sethian; Aubin/Saint-Pierre · <sup>1</sup> Falcone; Sethian · <sup>2</sup> Aubin; Saint-Pierre</span>
 
 ---
+
+<style scoped>section { font-size: 21px; }</style>
 
 ## 🎓 Why It Matters: Two Applications
 
@@ -2193,6 +2237,8 @@ $$ \Delta t\ \le\ \frac{\text{CFL}}{\ \sum_i \max|\partial H/\partial p_i|/\Delt
 > CFL couples spatial and temporal resolution: refining space to sharpen the barrier makes *both* the memory and the step count worse.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧱 Package Anatomy & a Worked Example
 

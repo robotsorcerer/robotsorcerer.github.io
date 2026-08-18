@@ -193,6 +193,8 @@ img { background: #fff; border-radius: 6px; }
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🤖 The Dynamics-Aware Conflict Set (Pairwise Dubins BRT)
 
 ![w:1080](assets/brt_slices.png)
@@ -360,6 +362,8 @@ $$
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## ⚙️ Validation: The Dubins Tube Against Grid Truth
 
 ![h:500](assets/paperfigs/dubins_3d_comparison.jpg)
@@ -379,6 +383,8 @@ $$
 - **Why it matters here:** this tube **is** the pairwise conflict predicate the MAPF shield queries, so the collision reduction rests on this agreement.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## ⚙️ Is the Tube Right? Accuracy Against LevelSetPy
 
@@ -433,6 +439,8 @@ $$
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🤖 The Simulated Floor
 
 ![w:560](assets/warehouse_layout.png)
@@ -456,6 +464,8 @@ $$
 <span style="font-size:0.5em; color:#55608c;">Four instants from the run above: top row geometric, bottom row HJ-shield. Counters under each panel accumulate realized collisions and shield activations. Identical spawn, task, and disturbance streams throughout (CRN).</span>
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🤖 Falsifiable Hypotheses (Stated to Be Proven Wrong)
 
@@ -500,6 +510,8 @@ Mirrors the WIP-forecast harness; numpy-only:
 > Single-seed results were noisy and even inverted; the harness is what turns a direction into a **defensible** claim.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🤖 Results: 30 CRN-Paired Seeds (14 Agents)
 
@@ -784,6 +796,8 @@ The certificates recover the field-documented collective repertoire as **topolog
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧪 Benchmark 2: 45D Results
 
 | Case | $a_{\mathrm{evader}}$ | $a_{\mathrm{pursuers}}$ | Iters | Residual $\varepsilon(k)$ | Wall-clock (s) |
@@ -899,6 +913,8 @@ $$\omega(t,x)=\mathbb E_{y\sim\mathcal N(x,\delta t I_n)}\!\big[e^{-c\,g(y)}\big
 > No stencil, no CFL condition, no stored field. Sample Gaussians, take a log, read the sign.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🌊 Memory: $O(N\cdot n)$ vs $O(M^n)$
 
@@ -1019,6 +1035,8 @@ Let $E$ be the total error budget. Declare state $x$:
 <span style="font-size:0.62em;">Code: <code>github.com/robotsorcerer/levelsetpy</code> (<code>monte_carlo</code>, <code>monte_carlo/AMFS</code>)</span>
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🏁 Future Work
 
@@ -1233,6 +1251,8 @@ $$ 0< e^{-c g(y)}\le e^{-c g_{\min}},\qquad e^{-c g(y)}\to 0\ \text{as }|y|\to\i
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🛡️ What Is Reachability?
 
 - **Reachability** concerns the *decidability* of a dynamical system's trajectory evolution across a phase space.
@@ -1436,6 +1456,8 @@ The method sits among Eulerian formulations:
 <span style="font-size:0.58em; color:#55608c; display:block; border-top:1px solid #b3badf; margin-top:0.6em; padding-top:0.3em;">(Mitchell 2004, Reach Sets and the HJ Equation); Falcone/Sethian; Aubin/Saint-Pierre · <sup>1</sup> Falcone; Sethian · <sup>2</sup> Aubin; Saint-Pierre</span>
 
 ---
+
+<style scoped>section { font-size: 21px; }</style>
 
 ## 🎓 Why It Matters: Two Applications
 
@@ -1671,6 +1693,8 @@ $$ \Delta t\ \le\ \frac{\text{CFL}}{\ \sum_i \max|\partial H/\partial p_i|/\Delt
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧱 Package Anatomy & a Worked Example
 
 | Module | Role |
@@ -1710,6 +1734,8 @@ $$ n=6,\ M=100\ \Rightarrow\ 10^{12}\ \text{cells}\ \approx\ 8\ \text{TB per dou
 **Concentration · Contraction · Residual · Total Error · Certificate · Robustness.**
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧱 The Curse of Dimensionality, Quantified
 
@@ -1759,6 +1785,8 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 <span style="font-size:0.6em; color:#55608c; display:block; border-top:1px solid #b3badf; margin-top:0.6em; padding-top:0.3em;"><sup>1</sup> Darbon-Osher 2016; Chow-Darbon-Osher-Yin 2017; Kirchner 2018</span>
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧱 Attempts 3-4: Decomposition, Path Integral, Sampling
 
@@ -1811,6 +1839,8 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🌊 The Transformation, and the Closed-Form/Approximate Split
 
 For a general $H$, define the spatially-varying coefficient
@@ -1852,6 +1882,8 @@ $$ \omega_t^\delta-\tfrac{\delta}{2}\Delta\omega^\delta=0\ \text{ in }\mathbb{R}
 > A nonlinear, nonconvex, state-dependent HJ PDE has become **the heat equation** — the most classical linear parabolic PDE, with an explicit Gaussian solution.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🌊 The Gaussian Heat Kernel & Feynman-Kac
 
@@ -2234,6 +2266,8 @@ slower than plain MC $O(N^{-1/2})$ but **dimension-robust and scalable**.
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧪 The Two-Rockets Problem (Schematic)
 
 ![w:620](assets/paperfigs/rocket_relative.jpg)
@@ -2262,6 +2296,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🧪 Rockets Pursuit-Evasion BRT
 
 ![h:500](assets/paperfigs/rockets_3d_slices.jpg)
@@ -2281,6 +2317,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
 - **Physical read:** the $\theta=-90^\circ$ and $\theta=+90^\circ$ slices are **not** mirror images, because the gravity term $(g-a-a\sin\theta)$ leaves a $g-2a$ drift at $+90^\circ$ against $g$ at $-90^\circ$.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧪 Interpreting the Errors: Different Currencies
 
