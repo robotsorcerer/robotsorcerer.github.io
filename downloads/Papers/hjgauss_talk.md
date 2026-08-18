@@ -51,25 +51,27 @@ img { background: #fff; border-radius: 6px; }
 
 #### Monte-Carlo Hamilton-Jacobi Reachability
 
+**Full Exposition:** From TVD-RK Levelsets to Monte Carlo Sampling for BRTs.
+
 <br><br>
 <span style="font-size:0.85em;"><center><b>Lekan Molu</b> · Amazon IRG</center></span>
 <span style="font-size:0.5em;"><center>Amazon Robotics · August 18, 2026</center></span>
-<span style="font-size:0.5em;"><center>with V. Renganathan (Cranfield) · N. Cho (Seoul National University)</center></span>
+<span style="font-size:0.5em;"><center>with V. Renganathan (Cranfield) and N. Cho (Seoul National University)</center></span>
 
 ---
 
-## 🎯 BLUF (Bottom Line Up Front)
+## 🎯 BLUF (Bottom Line Up Front) - (1/2)
 
-> **Grid Hamilton-Jacobi (HJ) reachability gives certified safety sets at $O(M^n)$ memory.**
+> **Grid-resolved Hamilton-Jacobi (HJ) BRTs yield certified safety sets at a $O(M^n)$ memory cost.**
 
-- 🧱 **Background:** LevelSetPy resolves reachable sets by discretizing the HJ PDE (upwinding + Lax-Friedrichs + TVD-RK) on a grid — certified, but exponential in state dimension $n$.
+- 🧱 **Background:** LevelSetPy resolves backward reachable sets/tubes by discretizing the HJ PDE (upwinding + Lax-Friedrichs + TVD-RK) on a grid — certified, but exponential in state dimension $n$.
 
 - 🌊 **Idea:** a Cole-Hopf transformation turns the *viscous* HJ PDE into a **linear heat equation**; Feynman-Kac evaluates it as a **Gaussian expectation**. No grid.
 
 > **HJ-Gauss replaces the grid with Gaussian Monte-Carlo, dropping the footprint to $O(N\cdot n)$.** 
 ---
 
-## 🎯 BLUF (Bottom Line Up Front)
+## 🎯 BLUF (Bottom Line Up Front) - (2/2)
 
 > **HJ-Gauss replaces the grid with Gaussian Monte-Carlo, dropping the footprint to $O(N\cdot n)$.** 
 
