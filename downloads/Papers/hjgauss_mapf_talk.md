@@ -1507,6 +1507,8 @@ $$ x(t)\in\mathcal L(\cdot) \iff v(t,x)\le 0. $$
 
 ---
 
+<style scoped>section { font-size: 21px; }</style>
+
 ## 🛡️ The Hamilton-Jacobi-Isaacs Value Function
 
 The value function of the RCBRT is the **viscosity solution** of the variational HJ-Isaacs equation
@@ -1914,6 +1916,8 @@ $$ v^\delta(t,x)=-\frac{1}{c^{(k)}}\log\,\mathbb{E}_{y\sim\mathcal N(x,\delta t 
 > The value at a query point is a scalar reduction over $N$ samples. Embarrassingly parallel across both $M$ states and $N$ samples.
 
 ---
+
+<style scoped>section { font-size: 21px; }</style>
 
 ## 🌊 Recovering the Gradient (Corollary)
 

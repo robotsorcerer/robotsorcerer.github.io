@@ -331,6 +331,8 @@ $$ v^\delta(t,x)=-\frac{1}{c^{(k)}}\log\,\mathbb{E}_{y\sim\mathcal N(x,\delta t 
 
 ---
 
+<style scoped>section { font-size: 21px; }</style>
+
 ## 🌊 Recovering the Gradient (Corollary)
 
 The spatial gradient (co-state) has a closed Gaussian-expectation form:
@@ -2048,6 +2050,8 @@ $$ x(t)\in\mathcal L(\cdot) \iff v(t,x)\le 0. $$
 
 ---
 
+<style scoped>section { font-size: 21px; }</style>
+
 ## 🛡️ The Hamilton-Jacobi-Isaacs Value Function
 
 The value function of the RCBRT is the **viscosity solution** of the variational HJ-Isaacs equation
@@ -2107,6 +2111,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 <span style="font-size:0.5em; color:#cfe0ea;">TOMS: ACM Transactions on Mathematical Software · CDC: Conference on Decision and Control.</span>
 
 ---
+
+<style scoped>section { font-size: 21px; }</style>
 
 ## 🧱 The Level-Set Idea<sup>1</sup>
 
