@@ -610,13 +610,45 @@ Mirrors the WIP-forecast harness; numpy-only:
 
 ---
 
-## 🐦 The Behaviours We Are Trying to Certify
+## 🐦 Behaviour 1: Dense Ascent From a Roost
 
-![h:215](assets/murmur/starlings_fly.jpg) ![h:215](assets/murmur/starlings_tube.jpg) ![h:215](assets/murmur/starlings_funnel.jpg)
+![bg right:44% fit](assets/murmur/starlings_fly.jpg)
 
-- Dense ascent, a concentric tube, and a funnel — three of the field-documented responses that our topological markers are meant to detect.
+- Thousands of birds leave a roost at once, and the flock's **local density spikes** while every bird is still turn-rate and climb-rate limited.
 
-<span style="font-size:0.46em; color:#55608c;">Photo credits: Reuters/Amir Cohen · AP Photo/Oded Balilty · Menahem Kahana/AFP/Getty Images · Courtesy of The Gathering Site — as reproduced in LevelSetPy (Molu, ACM TOMS 2025) and HJ-Gauss (Molu et al., 2026).</span>
+- **The biological question:** can a bird in the interior still retain an escape maneuver when its near-neighbour spacing collapses?
+
+- **What we certify:** whether the interior states stay outside the capture set for the whole window — the dense-packing analogue of a congested aisle.
+
+<span style="font-size:0.42em; color:#55608c;">Series photo credits: Reuters/Amir Cohen · AP Photo/Oded Balilty · Menahem Kahana/AFP/Getty Images · Courtesy of The Gathering Site — reproduced in LevelSetPy (Molu, ACM TOMS 2025) and HJ-Gauss (Molu et al., 2026).</span>
+
+---
+
+## 🐦 Behaviour 2: The Concentric Cordon
+
+![bg right:44% fit](assets/murmur/starlings_tube.jpg)
+
+- Under sustained pressure the flock arranges itself into a **concentric, tube-like shell** around an interior core.
+
+- **The biological question:** is the core genuinely protected, or does it merely look protected from outside?
+
+- **What we certify:** an **annular** safe set, first Betti number $\beta_1=1$ — a hole the predator cannot certify entry into. This is the cordon marker.
+
+<span style="font-size:0.42em; color:#55608c;">Series photo credits as on the previous slide.</span>
+
+---
+
+## 🐦 Behaviour 3: Funnel and Split
+
+![bg right:44% fit](assets/murmur/starlings_funnel.jpg)
+
+- A pressed flock **necks into a funnel** and can divide, leaving a subgroup separated from the main body.
+
+- **The biological question:** which birds end up isolated, and when does isolation become unavoidable?
+
+- **What we certify:** a rise in the connected-component count $n_{\mathrm{comp}}$ — fragmentation, the marker that says a subgroup has been cut off rather than merely crowded.
+
+<span style="font-size:0.42em; color:#55608c;">Series photo credits as on the first slide of this series.</span>
 
 ---
 
