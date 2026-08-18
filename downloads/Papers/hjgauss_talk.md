@@ -1220,10 +1220,10 @@ The certificates recover the field-documented collective repertoire as **topolog
 
 | HJ-Gauss construct | MAPF role |
 |---|---|
-| **Windowed BRT** over $(0,T]$, set $T=w$ | Continuous, disturbance-robust replacement for the **RHCR rolling window** (innovation #1) |
-| **Pairwise Dubins BRT membership** | Dynamics-aware **conflict predicate** replacing the geometric/disc check in CBS/CCBS (innovation #2) |
-| Relative-frame tube, computed once | Reused across all pairs & timesteps ⇒ certificate cost **$O(1)$ in agents** |
-| **Value gradient $Dv\propto\nabla\log p$** | A **score**: certified guidance term for diffusion planners (innovation #3) |
+| **Windowed BRT** over $(0,T]$, set $T=w$ | Continuous, disturbance-robust replacement for the **RHCR rolling window** (innovation #1). |
+| **Pairwise Dubins BRT membership** | Dynamics-aware **conflict predicate** replacing the geometric/disc check in CBS/CCBS (innovation #2). |
+| Relative-frame tube, computed once | Reused across all pairs & timesteps ⇒ certificate cost **$O(1)$ in agents**. |
+| **Value gradient $Dv\propto\nabla\log p$** | A **score**: certified guidance term for diffusion planners (innovation #3). |
 
 > The Dubins pursuit-evasion BRT from Part 5 **is** the canonical pairwise MAPF conflict, computed rigorously.
 
