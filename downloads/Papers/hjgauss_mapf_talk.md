@@ -1471,6 +1471,8 @@ Reachable sets already drive real-world safety systems:
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🛡️ Target Set and Zero Level Set
 
 - The **target set** at horizon $T$ is the invariant set
@@ -1586,6 +1588,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 > The implicit representation is elegant and closed under set algebra — but it stores the value at **every** grid node.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧱 Spatial Derivatives via Upwinding
 
@@ -1903,6 +1907,8 @@ $$ Dv^\delta=\frac{1}{t\,\delta\,c^{(k)}}\left(x-\frac{\mathbb{E}_{y\sim\mathcal
 > The estimator drawing $y\sim\mathcal N(x,\delta t I_n)$ over all of $\mathbb{R}^n$ is **unbiased for the quantity inside the logarithm** — the foundation for the concentration bound of Appendix D.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🌊 Sign and the Removable Zero of the Coefficient
 

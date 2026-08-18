@@ -348,6 +348,8 @@ $$ Dv^\delta=\frac{1}{t\,\delta\,c^{(k)}}\left(x-\frac{\mathbb{E}_{y\sim\mathcal
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🌊 Sign and the Removable Zero of the Coefficient
 
 - $c\sim C_H/(\delta|Dv^\delta|)$: it **grows without bound** in flat regions and **vanishes and flips sign** where optimal dynamics run tangent to the level set (the barrier).
@@ -1988,6 +1990,8 @@ Reachable sets already drive real-world safety systems:
 
 ---
 
+<style scoped>section { font-size: 22px; }</style>
+
 ## 🛡️ Target Set and Zero Level Set
 
 - The **target set** at horizon $T$ is the invariant set
@@ -2107,6 +2111,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 > The implicit representation is elegant and closed under set algebra — but it stores the value at **every** grid node.
 
 ---
+
+<style scoped>section { font-size: 22px; }</style>
 
 ## 🧱 Spatial Derivatives via Upwinding
 
