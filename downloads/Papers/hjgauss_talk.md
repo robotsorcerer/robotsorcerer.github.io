@@ -1580,9 +1580,9 @@ $$ Dv\ \propto\ \nabla\log\phi\ =\ \nabla\log p. $$
 
 ## 👥 Who Should Care, and Why
 
-- **Autonomous mobility / MAPF:** a certified, dynamics-aware, disturbance-robust conflict predicate that slots into rolling-horizon planners at fleet scale.
+- **Autonomous mobility / MAPF:** a certified, dynamics-aware conflict predicate that drops into rolling-horizon planners at fleet scale.
 
-- **Safe RL / policy verification:** computing backward reachable tubes for a closed-loop learned policy is memory-bound on grids; $O(N\cdot n)$ lifts that bound.
+- **Safe RL / policy verification:** backward tubes for a closed-loop learned policy are memory-bound on grids; $O(N\cdot n)$ lifts that bound.
 
 - **Differential games / pursuit-evasion:** the adversarial worst-case reachable set is what HJ-Isaacs computes.
 
