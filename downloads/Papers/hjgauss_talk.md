@@ -2097,3 +2097,4 @@ $$ \Delta t\ \le\ \frac{\text{CFL}}{\ \sum_i \max|\partial H/\partial p_i|/\Delt
 $$ n=6,\ M=100\ \Rightarrow\ 10^{12}\ \text{cells}\ \approx\ 8\ \text{TB per double array}. $$
 
 > This is the wall. Part 1 quantifies it and surveys who has tried to climb it.
+

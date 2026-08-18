@@ -1023,8 +1023,8 @@ Let $E$ be the total error budget. Declare state $x$:
 <!-- _class: part -->
 
 # Appendix A
-## 🧮 Hamilton-Jacobi PDE Theory Recap
-**Viscosity solutions, vanishing viscosity, and why we need them.**
+## 🧱 The Wall
+**Curse of dimensionality, and who has tried to climb it.**
 
 ---
 
@@ -1096,7 +1096,7 @@ $$ \sup_{t\in(0,T]}\ \sup_{x\in\mathbb{R}^n}\ \big|v(t,x)-v^\delta(t,x)\big|\ \l
 
 - But (preview) smaller $\delta$ → more concentrated exponential weights → higher Monte-Carlo variance.
 
-- This is the **bias-variance knob** we will formalize in Appendix G ($\delta\sim N^{-1/3}$).
+- This is the **bias-variance knob** we will formalize in Appendix D ($\delta\sim N^{-1/3}$).
 
 > One scalar $\delta$ trades geometric accuracy against sampling variance. Choosing it well is the practical art of the method.
 
@@ -1117,8 +1117,13 @@ $$ 0< e^{-c g(y)}\le e^{-c g_{\min}},\qquad e^{-c g(y)}\to 0\ \text{as }|y|\to\i
 <!-- _class: part -->
 
 # Appendix B
-## 🛡️ Reachability & Safety Foundations
-**What a certified safety set *is*, before we compute one.**
+## 🌊 HJ-Gauss Core Theory
+
+**Cole-Hopf Transformation → Linear Heat Equation**
+
+**↓**
+
+**→ Feynman-Kac Formula → Picard Iteration.**
 
 ---
 
@@ -1412,7 +1417,7 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 
 - **Composable:** the zero level set can be intersected, unioned, and propagated; it plugs into supervisory control and shielding.
 
-- **Certificate-grade:** a signed value with an error bound yields a decision — SAFE / UNSAFE / UNDETERMINED (Appendix G).
+- **Certificate-grade:** a signed value with an error bound yields a decision — SAFE / UNSAFE / UNDETERMINED (Appendix D).
 
 > The cost of this rigor is computational: solving the HJ(I) PDE. The rest of the talk is about paying that cost at scale.
 
@@ -1421,12 +1426,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 <!-- _class: part -->
 
 # Appendix C
-## 🧱 The Grid Pipeline: LevelSetPy
-**How Reachable Sets Are Computed Today — and Why It Is $O(M^n)$.**
-
-**Molu. ACM TOMS 2025 · IEEE CDC 2024**
-
-<span style="font-size:0.5em; color:#cfe0ea;">TOMS: ACM Transactions on Mathematical Software · CDC: Conference on Decision and Control.</span>
+## 🎯 Importance Sampling & Variance Control
+**Making the Gaussian estimator work in high dimensions.**
 
 ---
 
@@ -1584,15 +1585,15 @@ $$ \Delta t\ \le\ \frac{\text{CFL}}{\ \sum_i \max|\partial H/\partial p_i|/\Delt
 
 $$ n=6,\ M=100\ \Rightarrow\ 10^{12}\ \text{cells}\ \approx\ 8\ \text{TB per double array}. $$
 
-> This is the wall. Appendix D quantifies it and surveys who has tried to climb it.
+> This is the wall. Appendix A quantifies it and surveys who has tried to climb it.
 
 ---
 
 <!-- _class: part -->
 
 # Appendix D
-## 🧱 The Wall
-**Curse of dimensionality, and who has tried to climb it.**
+## 📐 Guarantees
+**Concentration · Contraction · Residual · Total Error · Certificate · Robustness.**
 
 ---
 
@@ -1602,12 +1603,12 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 | State dim $n$ | $M=100$ cells | Feasibility (double array) |
 |---:|---:|:---|
-| 2 | $10^{4}$ | ✅ trivial |
-| 3 | $10^{6}$ | ✅ easy |
-| 4 | $10^{8}$ | ⚠️ ~0.8 GB, heavy |
-| 5 | $10^{10}$ | ❌ ~80 GB |
-| 6 | $10^{12}$ | ❌ ~8 TB |
-| 45 (our multi-agent game) | $10^{90}$ | ❌ exceeds atoms in the observable universe |
+| 2 | $10^{4}$ | ✅ trivial. |
+| 3 | $10^{6}$ | ✅ easy. |
+| 4 | $10^{8}$ | ⚠️ ~0.8 GB, heavy. |
+| 5 | $10^{10}$ | ❌ ~80 GB. |
+| 6 | $10^{12}$ | ❌ ~8 TB. |
+| 45 (our multi-agent game) | $10^{90}$ | ❌ exceeds atoms in the observable universe. |
 
 - GPU acceleration lowers wall-clock, **not** the exponent.
 
@@ -1619,7 +1620,7 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 - **DeepReach** trains a neural network to minimize the HJ PDE residual directly (physics-informed loss), no reference grid.
 
-- **Pro:**Trades grid storage for network weights; sidesteps $O(M^n)$ memory.
+- **Pros:** Trades grid storage for network weights; sidesteps $O(M^n)$ memory.
 
 - **Con:** Scales only to moderate dimensiond (reported ~9-10D);
   - And **accuracy degrades** as $n$ grows; training is a nonconvex optimization with no viscosity-solution guarantee.
@@ -1631,7 +1632,7 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 ## 🧱 Attempt 2: Convex-Duality Formulas (Hopf / Lax-Oleinik)
 
-> HJ-Gauss trades their exactness for generality, at the quantified price of a linearization residual bound (Appendix G).
+> HJ-Gauss trades their exactness for generality, at the quantified price of a linearization residual bound (Appendix D).
 
 - **Hopf** and **Lax-Oleinik** formulas<sup>1</sup> evaluate the value **pointwise** via convex optimization — grid-free at a point.
 
@@ -1649,9 +1650,9 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 
 | Family | Idea | Boundary |
 |---|---|---|
-| **System decomposition**<sup>1</sup> | Remove dimension by splitting self-contained subsystems | Only when coupling structure permits; HJ-Gauss is indifferent to coupling and *complements* it |
-| **Stochastic PDE / path integral**<sup>2</sup> | Log-substitution linearizes the **stochastic** HJB under noise-control duality | Diffusion comes from *process noise*; ours is a **deterministic worst-case game**, $\delta$ an analysis parameter |
-| **Sample-based stochastic reachability**<sup>3</sup> | Certify **probabilistic** reach-avoid | We certify **adversarial worst-case** reachability — a different, stronger guarantee |
+| **System decomposition**<sup>1</sup> | Remove dimension by splitting self-contained subsystems | Only when coupling structure permits; HJ-Gauss is indifferent to coupling and *complements* it. |
+| **Stochastic PDE / path integral**<sup>2</sup> | Log-substitution linearizes the **stochastic** HJB under noise-control duality | Diffusion comes from *process noise*; ours is a **deterministic worst-case game**, $\delta$ an analysis parameter. |
+| **Sample-based stochastic reachability**<sup>3</sup> | Certify **probabilistic** reach-avoid | We certify **adversarial worst-case** reachability — a different, stronger guarantee. |
 
 > **The open gap:** a grid-free, storage-light scheme for **nonconvex, state-dependent, adversarial** Hamiltonians. That is HJ-Gauss.
 
@@ -1678,19 +1679,14 @@ Grid memory is $O(M^n)$ with $M$ points per dimension:
 <!-- _class: part -->
 
 # Appendix E
-## 🌊 HJ-Gauss Core Theory
-
-**Cole-Hopf Transformation → Linear Heat Equation**
-
-**↓**
-
-**→ Feynman-Kac Formula → Picard Iteration.**
+## 🧪 Experiments (from the Paper)
+**Rockets, Dubins, a 45D game, and $10^5$ birds.**
 
 ---
 
 ## 🌊 The Theoretical Roadmap of the Method
 
-1. Start from the **viscous** HJ PDE (Appendix A).
+1. Start from the **viscous** HJ PDE (Part A).
 2. Apply a generalized **Cole-Hopf** transform $\omega=e^{-cv}$ → a **Linear heat equation**.
 3. Solve the heat equation by its **Gaussian heat kernel** → a **Feynman-Kac expectation**.
 4. Recover value (log-sum-exp) and gradient from that expectation.
@@ -1782,7 +1778,7 @@ $$ Dv^\delta=\frac{1}{t\,\delta\,c^{(k)}}\left(x-\frac{\mathbb{E}_{y\sim\mathcal
 
 - No finite differencing, no stored field — the co-state is a byproduct of the same samples.
 
-> This gradient is (up to constants) a **score function** $\nabla\log\omega$. Hold that: it is the entire bridge to diffusion in Act 5.
+> This gradient is (up to constants) a **score function** $\nabla\log\omega$. Hold that: it is the entire bridge to diffusion in Appendix G.
 
 ---
 
@@ -1794,7 +1790,7 @@ $$ Dv^\delta=\frac{1}{t\,\delta\,c^{(k)}}\left(x-\frac{\mathbb{E}_{y\sim\mathcal
 
 - Only $g\ge g_{\min}$ is required (bounded target); no upper bound on $g$.
 
-> The estimator drawing $y\sim\mathcal N(x,\delta t I_n)$ over all of $\mathbb{R}^n$ is **unbiased for the quantity inside the logarithm** — the foundation for the concentration bound of Appendix G.
+> The estimator drawing $y\sim\mathcal N(x,\delta t I_n)$ over all of $\mathbb{R}^n$ is **unbiased for the quantity inside the logarithm** — the foundation for the concentration bound of Appendix D.
 
 ---
 
@@ -1842,8 +1838,8 @@ so the induced value-function perturbation is at most $T C_H\sqrt\eta/2$.
 <!-- _class: part -->
 
 # Appendix F
-## 🎯 Importance Sampling & Variance Control
-**Making the Gaussian estimator work in high dimensions.**
+## 🤖 Application: Multi-Agent Path Finding
+**The reason this talk is for the autonomous mobility team.**
 
 ---
 
@@ -1898,8 +1894,8 @@ $$ \mathrm{ESS}=\frac{(\sum_i \tilde w_i)^2}{\sum_i \tilde w_i^2}\in[1,N]. $$
 <!-- _class: part -->
 
 # Appendix G
-## 📐 Guarantees
-**Concentration · Contraction · Residual · Total Error · Certificate · Robustness.**
+## 🌊 The Diffusion Connection
+**The Cole-Hopf kernel *is* the diffusion kernel.**
 
 ---
 
@@ -1949,7 +1945,7 @@ to guarantee error $\ge\varepsilon$ with probability $\le\alpha$.
 
 - **Jensen:** the loose lower bound $\mu\ge\alpha=e^{-c g_{\max}}$ can be replaced by $\mu\ge e^{-c\,\mathbb E[g(\zeta)]}$, substantially reducing the required $N$.
 
-- **Importance sampling** (Appendix F) attacks the same variance directly.
+- **Importance sampling** (Appendix C) attacks the same variance directly.
 
 > The pessimistic $e^{1/\delta}$ is a worst-case artifact of Hoeffding + crude $\mu$ bound. In practice $N\in[14\text{k},20\text{k}]$ suffices at $\delta\in[0.08,0.1]$.
 
@@ -2074,8 +2070,8 @@ slower than plain MC $O(N^{-1/2})$ but **dimension-robust and scalable**.
 <!-- _class: part -->
 
 # Appendix H
-## 🧪 Experiments (from the Paper)
-**Rockets, Dubins, a 45D game, and $10^5$ birds.**
+## 🧺 Dirty Laundry
+**Limits, caveats, and boundaries.**
 
 ---
 
@@ -2174,7 +2170,7 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
 
 - The **Crandall-Lions** $O(\sqrt\delta)\approx0.283$ bounds the *inviscid-vs-viscous* sup-distance; the table measures *MC-vs-grid* in $L^2/L^\infty$ — **different currencies**, compared with care.
 
-- **Averaging does not equal agreement:** a paired Wilcoxon of the 30-seed-averaged MC field vs the grid rejects equality at $p_{\mathrm{holm}}<10^{-8}$ everywhere — a systematic **quasi-linearization residual** remains (Theorem, Appendix G).
+- **Averaging does not equal agreement:** a paired Wilcoxon of the 30-seed-averaged MC field vs the grid rejects equality at $p_{\mathrm{holm}}<10^{-8}$ everywhere — a systematic **quasi-linearization residual** remains (Theorem, Appendix D).
 
 - $\theta=0$ Dubins reaches $L^2_{\mathrm{rel}}=0.024$ (smooth interior); $\theta=\pm\pi/2$ and rockets sit ~$0.09$-$0.13$ (share of grid near the coefficient-turnover boundary).
 
