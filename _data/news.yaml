@@ -7,6 +7,13 @@ news_items:
 #        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
 #        highlight: true
 #        date: 'Jul 21, 2026'
+  - items: 'HJGauss_MAPF'
+    sortdate: 2026-08-18
+    subnewsitems:
+      - content: 'Check out this presentation of <a href="downloads/Papers/hjgauss.pdf" target=_blank>HJ Gauss</a> as a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>Continuous Multi-Agent Path-Finding (MAPF)</a> Algorithm. 🧮🤖'
+        summary: '<a href="downloads/Papers/hjgauss.pdf" target=_blank>HJ Gauss</a> as a <a href="downloads/Papers/hjgauss_mapf.pdf" target=_blank>Continuous Multi-Agent Path-Finding (MAPF)</a> Algorithm Talk Slides.'
+        highlight: true
+        date: 'Aug 18, 2026'
   - items: 'RobodiffBlog'
     sortdate: 2026-07-11
     subnewsitems:

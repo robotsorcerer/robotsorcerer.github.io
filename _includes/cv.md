@@ -306,6 +306,10 @@ document.getElementById('news-toggle').addEventListener('click', function(){
     <div class="talk-title"><a href="downloads/Papers/AR.pdf">Distributionally-Informed Production Control: Bridging Diffusion and HJ-Safety Verification.</a></div>
   </div>-->
   <div class="talk-card">
+    <div class="talk-meta"><span class="talk-date">08/26</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Autonomous Mobility, Amazon Robotics, Boston, MA</span></div>
+    <div class="talk-title"><a href="downloads/Papers/hjgauss_mapf.pdf" target=blank>HJ-Gauss as a Multi-Agent Path-Finding Algorithm</a></div>
+  </div>
+  <div class="talk-card">
     <div class="talk-meta"><span class="talk-date">11/25</span><span class="talk-venue"><i class="fa fa-map-marker"></i> Chan-Zuckerberg Initiative, San Francisco, CA</span></div>
     <div class="talk-title"><a href="downloads/Papers/CZI.pdf" target=blank>Reinforcement and Supervised Learning in Medical Physics & Engineering</a></div>
   </div>
