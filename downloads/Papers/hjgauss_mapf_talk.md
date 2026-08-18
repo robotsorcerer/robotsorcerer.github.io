@@ -592,6 +592,30 @@ Mirrors the WIP-forecast harness; numpy-only:
 
 ---
 
+## 🐦 The Repertoire Is Field-Documented
+
+![bg right:46% fit](assets/murmur/starlings_split.jpg)
+
+- Real starling responses to predation: **cordon**, **tube**, **funnel**, and **split**.
+
+- Each one appears in our certificates as a **topological signature** of the safe set, and none of them is a hand-coded rule.
+
+- The certificate reproduces a documented repertoire from **dynamics and the game alone** — which is the reason to trust it on a floor, where the repertoire is congestion, yielding, and deadlock instead.
+
+<span style="font-size:0.5em; color:#55608c;">Fragmentation event, $n_c:1\to2$. Field murmuration imagery as reproduced in HJ-Gauss (Molu et al., 2026).</span>
+
+---
+
+## 🐦 The Behaviours We Are Trying to Certify
+
+![h:215](assets/murmur/starlings_fly.jpg) ![h:215](assets/murmur/starlings_tube.jpg) ![h:215](assets/murmur/starlings_funnel.jpg)
+
+- Dense ascent, a concentric tube, and a funnel — three of the field-documented responses that our topological markers are meant to detect.
+
+<span style="font-size:0.46em; color:#55608c;">Photo credits: Reuters/Amir Cohen · AP Photo/Oded Balilty · Menahem Kahana/AFP/Getty Images · Courtesy of The Gathering Site — as reproduced in LevelSetPy (Molu, ACM TOMS 2025) and HJ-Gauss (Molu et al., 2026).</span>
+
+---
+
 ## 🐦 The Bird Model: 4D Aerial Dubins
 
 Each bird carries state $(x_1,x_2,x_3,\theta)\in\mathbb R^2\times\mathbb R\times\mathbb S^1$ — planar position, altitude, heading:
@@ -657,30 +681,6 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 - That is the operational meaning of $O(N\cdot n)$: the certificate's cost scales with the **sample budget and state dimension**, not with fleet size.
 
 > The warehouse analogue: certify a thousand drive units against a per-zone value field, with no joint state space anywhere in the loop.
-
----
-
-## 🐦 The Repertoire Is Field-Documented
-
-![bg right:46% fit](assets/murmur/starlings_split.jpg)
-
-- Real starling responses to predation: **cordon**, **tube**, **funnel**, and **split**.
-
-- Each one appears in our certificates as a **topological signature** of the safe set, and none of them is a hand-coded rule.
-
-- The certificate reproduces a documented repertoire from **dynamics and the game alone** — which is the reason to trust it on a floor, where the repertoire is congestion, yielding, and deadlock instead.
-
-<span style="font-size:0.5em; color:#55608c;">Fragmentation event, $n_c:1\to2$. Field murmuration imagery as reproduced in HJ-Gauss (Molu et al., 2026).</span>
-
----
-
-## 🐦 The Behaviours We Are Trying to Certify
-
-![h:215](assets/murmur/starlings_fly.jpg) ![h:215](assets/murmur/starlings_tube.jpg) ![h:215](assets/murmur/starlings_funnel.jpg)
-
-- Dense ascent, a concentric tube, and a funnel — three of the field-documented responses that our topological markers are meant to detect.
-
-<span style="font-size:0.46em; color:#55608c;">Photo credits: Reuters/Amir Cohen · AP Photo/Oded Balilty · Menahem Kahana/AFP/Getty Images · Courtesy of The Gathering Site — as reproduced in LevelSetPy (Molu, ACM TOMS 2025) and HJ-Gauss (Molu et al., 2026).</span>
 
 ---
 
@@ -1533,6 +1533,8 @@ $$ \min\Big\{v_t^\delta+H^\delta-\tfrac{\delta}{2}\Delta v^\delta,\ \ g(t,x)-\el
 
 ---
 
+<style scoped>section { font-size: 23px; }</style>
+
 ## 🧱 Implicit Surfaces & Signed-Distance Initialization
 
 - The target set is initialized as a **signed-distance function** $\ell(x)$: negative inside, positive outside, $|\nabla\ell|=1$.
@@ -2321,6 +2323,8 @@ $$v_t(t,x) + \min\{0,\ H(t;x,Dv)\} = 0,\qquad v(0,x) = \lVert(x,z)\rVert - r.$$
 > Complementary, decoupled, single-CPU, structural — four boundaries stated plainly so no claim is overread.
 
 ---
+
+<style scoped>section { font-size: 23px; }</style>
 
 ## 📖 References — 1/3
 
