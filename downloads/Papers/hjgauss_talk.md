@@ -1112,7 +1112,7 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 
 ## 🐦 Cordon, Then Collapse
 
-![w:720](assets/anim/murmuration_brt_strip.jpg)
+![w:640](assets/anim/murmuration_brt_strip.jpg)
 
 <span style="font-size:0.5em; color:#55608c;">Same solve, six instants. A hole persists in the safe set ($\chi=0,\ \beta_1=1$, <b>cordon</b>) through $\tau=1.18$; by $\tau=1.29$ it has closed ($\chi=1,\ \beta_1=0$, <b>cohesion</b>). — HJ-Gauss (Molu et al., 2026).</span>
 
