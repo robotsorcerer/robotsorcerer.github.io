@@ -1054,9 +1054,9 @@ Datum is the capture cylinder $g(x)=\sqrt{x_1^2+x_2^2}-r_c$, and each flock solv
 
 $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u_p}\max_{u_e}\ Dv^\top f(x,u_p,u_e).$$
 
-- Run shown here: **7 predators** on a ring of radius $1.15$, $r_c=0.6$, $\delta=0.18$, $N=1600$ samples, ≤7 Picard iterations, 24 backward-time steps.
+- Run shown here: **99,996 starlings** in six flocks, **7 predators** on a ring of radius $1.15$, $r_c=0.6$, $\delta=0.18$, $N=1600$ samples, ≤7 Picard iterations, $128\times128$ window, 18 backward-time steps.
 
-- Wall-clock for the whole sweep: **63 s on one CPU**.
+- Whole study, value solves plus certifying every bird: **429 s on eight CPU cores**, no GPU. **87.7%** of birds end certified outside the capture set.
 
 ---
 
@@ -1066,13 +1066,13 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 
 ![w:520](assets/murmur/phase_space_snapshot.jpg)
 
-<span style="font-size:0.5em; color:#55608c;">2,000 of 100,000 birds (colored by heading) with 7 flock centers (stars) and their capture discs (dashed). Black contour is the certified safe-set boundary at $\tau=0$: an <b>annular cordon</b> around a protected core. — HJ-Gauss (Molu et al., 2026).</span>
+<span style="font-size:0.5em; color:#55608c;">2,000 of 99,996 birds (colored by heading) with 7 flock centers (stars) and their capture discs (dashed). Black contour is the certified safe-set boundary at $\tau=0$: an <b>annular cordon</b> around a protected core. — HJ-Gauss (Molu et al., 2026).</span>
 
 ---
 
 ## 🐦 Reading the Population Snapshot
 
-- **Coloured dots:** 2,000 of the 100,000 birds, subsampled for legibility and coloured by heading $\theta$. The spread of colour is the point — the population is a **heading distribution**, not a rigid formation.
+- **Coloured dots:** 2,000 of the 99,996 birds, subsampled for legibility and coloured by heading $\theta$. The spread of colour is the point — the population is a **heading distribution**, not a rigid formation.
 
 - **Stars and dashed circles:** the seven predators and their capture radii $r_c=0.6$.
 
@@ -1086,7 +1086,7 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 
 - Each bird's status is one **membership query** against the cached value field: sign of $v$ at its own 4D state.
 
-- So $10^5$ birds cost $10^5$ **independent** $O(1)$ lookups, trivially parallel — while the solve itself never represented $10^5$ agents.
+- So the 99,996 birds cost 99,996 **independent** $O(1)$ lookups, trivially parallel — while the solve itself never represented $10^5$ agents.
 
 - That is the operational meaning of $O(N\cdot n)$: the certificate's cost scales with the **sample budget and state dimension**, not with fleet size.
 
@@ -1112,9 +1112,9 @@ $$v_t + \min\{0,\ H_{\mathrm{att}}(x,Dv)\} = 0,\qquad H_{\mathrm{att}} = \min_{u
 
 ## 🐦 Cordon, Then Collapse
 
-![w:720](assets/anim/murmuration_brt_strip.png)
+![w:720](assets/anim/murmuration_brt_strip.jpg)
 
-<span style="font-size:0.5em; color:#55608c;">Same solve, six instants. A hole persists in the safe set ($\chi=0,\ \beta_1=1$, <b>cordon</b>) through $\tau=1.30$; by $\tau=1.39$ it has closed ($\chi=1,\ \beta_1=0$, <b>cohesion</b>). — HJ-Gauss (Molu et al., 2026).</span>
+<span style="font-size:0.5em; color:#55608c;">Same solve, six instants. A hole persists in the safe set ($\chi=0,\ \beta_1=1$, <b>cordon</b>) through $\tau=1.18$; by $\tau=1.29$ it has closed ($\chi=1,\ \beta_1=0$, <b>cohesion</b>). — HJ-Gauss (Molu et al., 2026).</span>
 
 ---
 
@@ -1136,7 +1136,7 @@ The certificates recover the field-documented collective repertoire as **topolog
 
 ![bg right:44% fit](assets/anim/topology_evolution.jpg)
 
-- $\chi$ steps $0\to1$ while $\beta_1$ drops $1\to0$ at the **same** $\tau=1.39$: one event, two independent witnesses.
+- $\chi$ steps $0\to1$ while $\beta_1$ drops $1\to0$ at the **same** $\tau=1.29$: one event, two independent witnesses.
 
 - $n_c$ holds at $1$ throughout, so this flock never fragments.
 
