@@ -1,12 +1,19 @@
 news_items:
 
-  - items: 'NxtGenAIBos'
-    sortdate: 2026-07-21
+#  - items: 'NxtGenAIBos'
+#    sortdate: 2026-07-21
+#    subnewsitems:
+#      - content: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
+#        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
+#        highlight: true
+#        date: 'Jul 21, 2026'
+  - items: 'HJGauss_MAPF'
+    sortdate: 2026-08-18
     subnewsitems:
-      - content: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
-        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
+      - content: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm.'
+        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm.'
         highlight: true
-        date: 'Jul 21, 2026'
+        date: 'Aug 18, 2026'
   - items: 'RobodiffBlog'
     sortdate: 2026-07-11
     subnewsitems:
