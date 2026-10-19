@@ -17,8 +17,8 @@ news_items:
   - items: 'BehaviorEquilibrium'
     sortdate: 2026-10-05
     subnewsitems:
-      - content: 'An <a href="downloads/Papers/iclr27.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in convex games.'
-        summary: 'New preprint:  <a href="downloads/Papers/iclr27.pdf" target=_blank>Amortized Exploitability Certificates for Learned Response Equilibria.</a>'
+      - content: 'An <a href="downloads/Papers/iclr27.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in games with compact convex products of action sets and costs convex in each player's action.'
+        summary: 'An <a href="downloads/Papers/iclr27.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in games with compact convex products of action sets and costs convex in each player's action.'
         highlight: true
         date: 'Oct 05, 2026'
   - items: 'HJGauss_MAPF'
