@@ -7,6 +7,20 @@ news_items:
 #        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
 #        highlight: true
 #        date: 'Jul 21, 2026'
+  - items: 'ReachFilterICRA'
+    sortdate: 2026-10-19
+    subnewsitems:
+      - content: 'Recent preprint: a <a href="downloads/Papers/icra27.pdf" target=_blank>continuous-time multi-robot pairwise reachability scheme for collision-free lifelong multi-agent path finding.</a>'
+        summary: 'Recent preprint: a <a href="downloads/Papers/icra27.pdf" target=_blank>continuous-time multi-robot pairwise reachability scheme for collision-free lifelong multi-agent path finding.</a>'
+        highlight: true
+        date: 'Oct 19, 2026'
+  - items: 'BehaviorEquilibrium'
+    sortdate: 2026-10-05
+    subnewsitems:
+      - content: 'An <a href="downloads/Papers/iclr27.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in convex games.'
+        summary: 'New preprint:  <a href="downloads/Papers/iclr27.pdf" target=_blank>Amortized Exploitability Certificates for Learned Response Equilibria.</a>'
+        highlight: true
+        date: 'Oct 19, 2026'
   - items: 'HJGauss_MAPF'
     sortdate: 2026-08-18
     subnewsitems:
