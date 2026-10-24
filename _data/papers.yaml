@@ -12,6 +12,19 @@ publications:
         paper_status: Submitted
         year: 2026
         thumbnail: /assets/thumbs/icra27.svg
+        animations:
+          - label: BRT headings
+            url: /downloads/Papers/assets/anim/brt_heading.gif
+            poster: /downloads/Papers/assets/anim/brt_heading_poster.png
+          - label: Heading geometry
+            url: /downloads/Papers/assets/anim/heading_geometry.gif
+            poster: /downloads/Papers/assets/anim/heading_geometry_poster.png
+          - label: Common steering
+            url: /downloads/Papers/assets/anim/common_steering.gif
+            poster: /downloads/Papers/assets/anim/common_steering_poster.png
+          - label: Infeasible steering
+            url: /downloads/Papers/assets/anim/infeasible_steering.gif
+            poster: /downloads/Papers/assets/anim/infeasible_steering_poster.png
         abstract: >
             Graph-based collision-free multi-robot path-finding plans are not immune
             to contacts/collisions when deployed on vehicles with continuous dynamics and disturbance. We study a steering filter for continuous execution
@@ -71,6 +84,10 @@ publications:
         paper_status: Submitted
         year: 2026
         thumbnail: /assets/thumbs/icml26.svg
+        animations:
+          - label: Murmuration BRT
+            url: /downloads/Papers/assets/anim/murmuration_brt.gif
+            poster: /downloads/Papers/assets/anim/murmuration_brt_poster.png
         abstract: >
             Classical Hamilton–Jacobi safety verification breaks under high dimensions because grids explode combinatorially. We sidestep this by quasilinearizing viscous HJI equations through a generalized Cole–Hopf transform, reducing nonlinear safety propagation to Gaussian heat-kernel inference. The result is a scalable, plug-and-play safety wrapper for autonomous systems with provable concentration bounds and linear convergence — trading grid explosion for controllable Monte Carlo sampling.
   - items: 'InfDiff'
