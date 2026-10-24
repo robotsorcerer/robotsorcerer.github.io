@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Amortized exploitability certificates</title>
+  <desc id="desc">A schematic of a covered strategy region feeding multiple profiles through a learned response map and a reusable exploitability certificate. No numerical results or convergence guarantee are depicted.</desc>
+  <style>
+    .profile { animation: query 6s ease-in-out infinite; }
+    .second { animation-delay: -2s; }
+    .third { animation-delay: -4s; }
+    .check { animation: check 2s ease-in-out infinite; }
+    @keyframes query {
+      0%, 10% { transform: translate(64px, 76px); opacity: 0; }
+      18% { opacity: 1; }
+      36% { transform: translate(100px, 111px); opacity: 1; }
+      58% { transform: translate(100px, 144px); opacity: 1; }
+      80% { transform: translate(100px, 187px); opacity: 1; }
+      92%, 100% { transform: translate(100px, 187px); opacity: 0; }
+    }
+    @keyframes check { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .profile, .check { animation: none; }
+      .first { transform: translate(64px, 76px); }
+      .second { transform: translate(100px, 111px); }
+      .third { transform: translate(100px, 187px); }
+    }
+  </style>
+  <defs>
+    <pattern id="cover" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="8" fill="none" stroke="#8179be" stroke-width=".7" stroke-opacity=".4"/>
+      <circle cx="9" cy="9" r="1.5" fill="#b0a4ee"/>
+    </pattern>
+  </defs>
+  <path fill="#101e30" d="M0 0h200v240H0z"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="100" y="27" fill="#c1d3e5" font-size="11" letter-spacing="2">LEARN + CERTIFY</text>
+    <text x="100" y="222" fill="#8aa4bc" font-size="10" letter-spacing="1">PROBE ONCE · REUSE</text>
+  </g>
+  <rect x="44" y="44" width="112" height="57" rx="8" fill="#252942" stroke="#8179be"/>
+  <rect x="49" y="49" width="102" height="47" rx="5" fill="url(#cover)"/>
+  <path d="M100 102v24m0 36v28" stroke="#65839d" stroke-width="2" stroke-dasharray="3 4"/>
+  <rect x="56" y="126" width="88" height="36" rx="9" fill="#1c344d" stroke="#78b9ff"/>
+  <g fill="#78b9ff" stroke="#78b9ff" stroke-width="1" stroke-opacity=".5">
+    <path d="M72 136l20 8-20 8m0-16 20 16m-20 0 20-16m0 0 19 8-19 8m0-16v16" fill="none"/>
+    <circle cx="72" cy="136" r="2.5"/><circle cx="72" cy="152" r="2.5"/>
+    <circle cx="92" cy="136" r="2.5"/><circle cx="92" cy="152" r="2.5"/>
+    <circle cx="111" cy="144" r="3"/>
+  </g>
+  <path d="M126 139l5 5-5 5" fill="none" stroke="#a6ccef" stroke-width="1.5"/>
+  <rect x="56" y="181" width="88" height="20" rx="10" fill="#173d3a" stroke="#62dfc3"/>
+  <path class="check" d="M118 190l4 4 8-8" fill="none" stroke="#62dfc3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f7c977" stroke="#101e30" stroke-width="1.5">
+    <circle class="profile first" r="4.5"/>
+    <circle class="profile second" r="4.5"/>
+    <circle class="profile third" r="4.5"/>
+  </g>
+</svg>

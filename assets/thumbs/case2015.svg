@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
+  <title id="title">A Real-Time Soft-Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy</title>
+  <desc id="desc">Animated conceptual illustration: patient positioning. Schematic only; not experimental data.</desc>
+  <style>
+    .flow { stroke-dasharray: 4 7; animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .late { animation-delay: -2s; }
+    .ring { transform-origin: 100px 120px; animation: ring 6s ease-in-out infinite; }
+    .turn { transform-origin: 100px 120px; animation: turn 16s linear infinite; }
+    .bend { transform-origin: 100px 183px; animation: bend 7s ease-in-out infinite; }
+    .correct { transform-origin: 100px 112px; animation: correct 6s ease-in-out infinite; }
+    .travel { animation: travel 8s linear infinite; }
+    .interpolate { animation: interpolate 7s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -44; } }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes ring { 0%, 100% { transform: scale(.85); } 50% { transform: scale(1.08); } }
+    @keyframes turn { to { transform: rotate(360deg); } }
+    @keyframes bend { 0%, 100% { transform: rotate(-9deg); } 50% { transform: rotate(9deg); } }
+    @keyframes correct { 0%, 100% { transform: translate(5px, -3px) rotate(4deg); } 40%, 70% { transform: none; } }
+    @keyframes travel {
+      0%, 100% { transform: translate(38px, 176px); }
+      25% { transform: translate(38px, 74px); }
+      50% { transform: translate(108px, 74px); }
+      75% { transform: translate(162px, 176px); }
+    }
+    @keyframes interpolate {
+      0%, 100% { transform: translate(50px, 165px); }
+      33% { transform: translate(85px, 127px); }
+      66% { transform: translate(140px, 90px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .travel { transform: translate(38px, 125px); }
+      .interpolate { transform: translate(85px, 127px); }
+    }
+  </style>
+  <path fill="#101e30" d="M0 0h200v240H0z"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="100" y="27" fill="#c1d3e5" font-size="10" letter-spacing="1">PATIENT POSITIONING</text>
+    <text x="100" y="222" fill="#8aa4bc" font-size="9" letter-spacing=".8">SENSE · REGULATE</text>
+  </g>
+  <path d="M42 169V87a58 47 0 0 1 116 0v82" fill="none" stroke="#39516a" stroke-width="12"/><g class="correct"><ellipse cx="100" cy="110" rx="24" ry="30" fill="#1c3046" stroke="#78b9ff" stroke-width="2"/><path d="M93 115q7 6 14 0" fill="none" stroke="#78b9ff" stroke-width="1.5" class="" stroke-linecap="round" stroke-linejoin="round" /><circle cx="92" cy="104" r="2" fill="#78b9ff" class="" /><circle cx="108" cy="104" r="2" fill="#78b9ff" class="" /></g><path d="M60 151H140M48 180H152" fill="none" stroke="#8aa4bc" stroke-width="4" class="" stroke-linecap="round" stroke-linejoin="round" /><path d="M70 176v-20m30 20v-20m30 20v-20" fill="none" stroke="#62dfc3" stroke-width="8" class="pulse" stroke-linecap="round" stroke-linejoin="round" /><path d="M100 68v12m0 61v11m-38-42h12m52 0h12" fill="none" stroke="#f7c977" stroke-width="1.5" class="" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

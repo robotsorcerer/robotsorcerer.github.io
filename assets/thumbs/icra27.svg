@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Simultaneous pairwise reachability filtering</title>
+  <desc id="desc">Illustrative warehouse routes with three moving robots and surrounding pairwise safety buffers. This schematic is not an experimental rollout.</desc>
+  <style>
+    .robot { animation: route 10s linear infinite; }
+    .second { animation-delay: -3.333s; }
+    .third { animation-delay: -6.667s; }
+    .flow { stroke-dasharray: 3 7; animation: flow 2s linear infinite; }
+    @keyframes route {
+      0%, 100% { transform: translate(44px, 64px); }
+      25% { transform: translate(156px, 64px); }
+      50% { transform: translate(156px, 176px); }
+      75% { transform: translate(44px, 176px); }
+    }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @media (prefers-reduced-motion: reduce) {
+      .robot, .flow { animation: none; }
+      .first { transform: translate(44px, 64px); }
+      .second { transform: translate(156px, 101px); }
+      .third { transform: translate(81px, 176px); }
+    }
+  </style>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#26364a" stroke-width=".6"/>
+    </pattern>
+    <g id="robot">
+      <circle r="18" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-opacity=".45" stroke-width="1.4"/>
+      <circle r="10" fill="currentColor" fill-opacity=".13"/>
+      <rect x="-6" y="-6" width="12" height="12" rx="4" fill="currentColor"/>
+      <circle cy="-1" r="2" fill="#101e30"/>
+    </g>
+  </defs>
+  <path fill="#101e30" d="M0 0h200v240H0z"/>
+  <path fill="url(#grid)" d="M20 42h160v156H20z"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="100" y="27" fill="#c1d3e5" font-size="11" letter-spacing="2">PAIRWISE HJ</text>
+    <text x="100" y="222" fill="#8aa4bc" font-size="10" letter-spacing="1">PLAN · FILTER · MOVE</text>
+  </g>
+  <g fill="#23364c" stroke="#39516a" stroke-width="1">
+    <rect x="74" y="92" width="20" height="56" rx="3"/>
+    <rect x="106" y="92" width="20" height="56" rx="3"/>
+    <path d="M77 106h14m-14 14h14m-14 14h14m18-28h14m-14 14h14m-14 14h14"/>
+  </g>
+  <path d="M44 64H156V176H44Z" fill="none" stroke="#48627c" stroke-width="2"/>
+  <path class="flow" d="M44 64H156V176H44Z" fill="none" stroke="#8aa4bc" stroke-width="2"/>
+  <g class="robot first" color="#62dfc3"><use href="#robot"/></g>
+  <g class="robot second" color="#78b9ff"><use href="#robot"/></g>
+  <g class="robot third" color="#f7c977"><use href="#robot"/></g>
+</svg>

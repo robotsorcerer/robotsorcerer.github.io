@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Fast Whole-Body Strain Regulation in Continuum Robots</title>
+  <desc id="desc">Animated conceptual illustration: strain control. Schematic only; not experimental data.</desc>
+  <style>
+    .flow { stroke-dasharray: 4 7; animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .late { animation-delay: -2s; }
+    .ring { transform-origin: 100px 120px; animation: ring 6s ease-in-out infinite; }
+    .turn { transform-origin: 100px 120px; animation: turn 16s linear infinite; }
+    .bend { transform-origin: 100px 183px; animation: bend 7s ease-in-out infinite; }
+    .correct { transform-origin: 100px 112px; animation: correct 6s ease-in-out infinite; }
+    .travel { animation: travel 8s linear infinite; }
+    .interpolate { animation: interpolate 7s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -44; } }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes ring { 0%, 100% { transform: scale(.85); } 50% { transform: scale(1.08); } }
+    @keyframes turn { to { transform: rotate(360deg); } }
+    @keyframes bend { 0%, 100% { transform: rotate(-9deg); } 50% { transform: rotate(9deg); } }
+    @keyframes correct { 0%, 100% { transform: translate(5px, -3px) rotate(4deg); } 40%, 70% { transform: none; } }
+    @keyframes travel {
+      0%, 100% { transform: translate(38px, 176px); }
+      25% { transform: translate(38px, 74px); }
+      50% { transform: translate(108px, 74px); }
+      75% { transform: translate(162px, 176px); }
+    }
+    @keyframes interpolate {
+      0%, 100% { transform: translate(50px, 165px); }
+      33% { transform: translate(85px, 127px); }
+      66% { transform: translate(140px, 90px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .travel { transform: translate(38px, 125px); }
+      .interpolate { transform: translate(85px, 127px); }
+    }
+  </style>
+  <path fill="#101e30" d="M0 0h200v240H0z"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="100" y="27" fill="#c1d3e5" font-size="10" letter-spacing="1">STRAIN CONTROL</text>
+    <text x="100" y="222" fill="#8aa4bc" font-size="9" letter-spacing=".8">FAST + SLOW DYNAMICS</text>
+  </g>
+  <path d="M70 187h60" fill="none" stroke="#8aa4bc" stroke-width="5" class="" stroke-linecap="round" stroke-linejoin="round" /><path d="M100 183C69 153 130 129 109 105S79 76 106 56" fill="none" stroke="#39516a" stroke-width="15" class="" stroke-linecap="round" stroke-linejoin="round" /><g class="bend"><path d="M100 183C69 153 130 129 109 105S79 76 106 56" fill="none" stroke="#62dfc3" stroke-width="13" class="" stroke-linecap="round" stroke-linejoin="round" /><path d="M100 183C69 153 130 129 109 105S79 76 106 56" fill="none" stroke="#101e30" stroke-width="3" class="flow" stroke-linecap="round" stroke-linejoin="round" /><circle cx="106" cy="56" r="7" fill="#f7c977" class="" /></g><path d="M145 80v75m-4-6 4 6 4-6" fill="none" stroke="#78b9ff" stroke-width="1.5" class="" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

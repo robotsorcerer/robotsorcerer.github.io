@@ -27,7 +27,7 @@ permalink: pubs
   <div class="pub-card-inner">
     <div class="pub-thumb">
       {% if paper.thumbnail %}
-        <img src="{{ paper.thumbnail }}" alt="thumbnail">
+        <img src="{{ paper.thumbnail }}" alt="Animated illustration for {{ paper.title | escape }}">
       {% else %}
         <div class="pub-no-thumb"><i class="fa fa-file-text-o"></i></div>
       {% endif %}
@@ -82,7 +82,7 @@ permalink: pubs
   <div class="pub-card-inner">
     <div class="pub-thumb">
       {% if paper.thumbnail %}
-        <img src="{{ paper.thumbnail }}" alt="thumbnail">
+        <img src="{{ paper.thumbnail }}" alt="Animated illustration for {{ paper.title | escape }}">
       {% else %}
         <div class="pub-no-thumb"><i class="fa fa-file-text-o"></i></div>
       {% endif %}
@@ -141,7 +141,7 @@ permalink: pubs
   <div class="pub-card-inner">
     <div class="pub-thumb">
       {% if paper.thumbnail %}
-        <img src="{{ paper.thumbnail }}" alt="thumbnail">
+        <img src="{{ paper.thumbnail }}" alt="Animated illustration for {{ paper.title | escape }}">
       {% else %}
         <div class="pub-no-thumb"><i class="fa fa-file-text-o"></i></div>
       {% endif %}
@@ -197,7 +197,7 @@ permalink: pubs
   <div class="pub-card-inner">
     <div class="pub-thumb">
       {% if paper.thumbnail %}
-        <img src="{{ paper.thumbnail }}" alt="thumbnail">
+        <img src="{{ paper.thumbnail }}" alt="Animated illustration for {{ paper.title | escape }}">
       {% else %}
         <div class="pub-no-thumb"><i class="fa fa-microphone"></i></div>
       {% endif %}
@@ -210,7 +210,7 @@ permalink: pubs
           {{ paper.title }}
         {% endif %}
       </div>
-      {% if paper.authors.size > 1 %}
+      {% if paper.authors %}
       <div class="pub-authors">
         {% for author in paper.authors %}{{ author }} {% endfor %}
       </div>

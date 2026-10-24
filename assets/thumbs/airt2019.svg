@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Supervised Learning and Guided Monte Carlo Tree Search for Beam Orientation Optimization in Radiation Therapy</title>
+  <desc id="desc">Animated conceptual illustration: guided tree search. Schematic only; not experimental data.</desc>
+  <style>
+    .flow { stroke-dasharray: 4 7; animation: flow 3s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .late { animation-delay: -2s; }
+    .ring { transform-origin: 100px 120px; animation: ring 6s ease-in-out infinite; }
+    .turn { transform-origin: 100px 120px; animation: turn 16s linear infinite; }
+    .bend { transform-origin: 100px 183px; animation: bend 7s ease-in-out infinite; }
+    .correct { transform-origin: 100px 112px; animation: correct 6s ease-in-out infinite; }
+    .travel { animation: travel 8s linear infinite; }
+    .interpolate { animation: interpolate 7s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -44; } }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes ring { 0%, 100% { transform: scale(.85); } 50% { transform: scale(1.08); } }
+    @keyframes turn { to { transform: rotate(360deg); } }
+    @keyframes bend { 0%, 100% { transform: rotate(-9deg); } 50% { transform: rotate(9deg); } }
+    @keyframes correct { 0%, 100% { transform: translate(5px, -3px) rotate(4deg); } 40%, 70% { transform: none; } }
+    @keyframes travel {
+      0%, 100% { transform: translate(38px, 176px); }
+      25% { transform: translate(38px, 74px); }
+      50% { transform: translate(108px, 74px); }
+      75% { transform: translate(162px, 176px); }
+    }
+    @keyframes interpolate {
+      0%, 100% { transform: translate(50px, 165px); }
+      33% { transform: translate(85px, 127px); }
+      66% { transform: translate(140px, 90px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .travel { transform: translate(38px, 125px); }
+      .interpolate { transform: translate(85px, 127px); }
+    }
+  </style>
+  <path fill="#101e30" d="M0 0h200v240H0z"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="100" y="27" fill="#c1d3e5" font-size="10" letter-spacing="1">GUIDED TREE SEARCH</text>
+    <text x="100" y="222" fill="#8aa4bc" font-size="9" letter-spacing=".8">SEARCH · SELECT</text>
+  </g>
+  <path d="M100 60L65 105 40 155m25-50 25 50m10-95 35 45-25 50m25-50 25 50" fill="none" stroke="#48627c" stroke-width="2" class="" stroke-linecap="round" stroke-linejoin="round" /><path d="M100 60L135 105 110 155" fill="none" stroke="#62dfc3" stroke-width="3" class="flow" stroke-linecap="round" stroke-linejoin="round" /><circle cx="100" cy="60" r="6" fill="#78b9ff" class="" /><circle cx="65" cy="105" r="6" fill="#78b9ff" class="" /><circle cx="135" cy="105" r="6" fill="#78b9ff" class="" /><circle cx="40" cy="155" r="6" fill="#78b9ff" class="" /><circle cx="90" cy="155" r="6" fill="#78b9ff" class="" /><circle cx="110" cy="155" r="6" fill="#f7c977" class="pulse" /><circle cx="160" cy="155" r="6" fill="#78b9ff" class="" /><path d="M45 185H155" fill="none" stroke="#39516a" stroke-width="2" class="" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

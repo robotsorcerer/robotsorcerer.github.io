@@ -314,6 +314,10 @@ a:visited { color: #1558a0; }
   object-fit: cover;
   display: block;
 }
+.pub-thumb img[src$=".svg"] {
+  object-fit: contain;
+  background: #101e30;
+}
 .pub-no-thumb {
   width: 110px;
   min-height: 100px;

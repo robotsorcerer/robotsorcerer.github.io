@@ -150,7 +150,7 @@ news_items:
 
   - items: 'LevPy!'
     sortdate: 2025-04-07
-    bg: /assets/thumbs/levelsetpy.jpg
+    bg: /assets/thumbs/levelsetpy.svg
     subnewsitems:
       - content: "Entertain your mind reading this newly accepted <a href='/downloads/Papers/levelsetpy.pdf' target=blank>ACM Transactions on Mathematical Software (TOMS) journal article.</a> It describes our GPU-accelerated <a href='https://github.com/robotsorcerer/levelsetpy' target=blank> Levelsetpy safety analyses software package.</a>"
         highlight: false
