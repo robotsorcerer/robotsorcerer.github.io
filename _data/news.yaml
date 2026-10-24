@@ -24,8 +24,8 @@ news_items:
   - items: 'HJGauss_MAPF'
     sortdate: 2026-08-18
     subnewsitems:
-      - content: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm. Animations: <a href="/downloads/Papers/assets/anim/murmuration_brt.gif" target="_blank" rel="noopener">Murmuration BRT</a>.'
-        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm. Animations: <a href="/downloads/Papers/assets/anim/murmuration_brt.gif" target="_blank" rel="noopener">Murmuration BRT</a>.'
+      - content: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm. Animations: <a href="/downloads/Papers/assets/anim/amfs_rollout.gif" target="_blank" rel="noopener">MAPF rollout</a> · <a href="/downloads/Papers/assets/anim/brt_heading.gif" target="_blank" rel="noopener">BRT headings</a>.'
+        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm. Animations: <a href="/downloads/Papers/assets/anim/amfs_rollout.gif" target="_blank" rel="noopener">MAPF rollout</a> · <a href="/downloads/Papers/assets/anim/brt_heading.gif" target="_blank" rel="noopener">BRT headings</a>.'
         highlight: true
         date: 'Aug 18, 2026'
   - items: 'RobodiffBlog'
