@@ -392,6 +392,10 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
     <div class="mentee-trail">Princeton Neuroscience PhD · UCLA Postdoc → MSR Postdoc '24/25 → Asst. Professor, Université de Montréal</div>
   </div>
   <div class="mentee-card">
+    <a href="https://koulanurag.dev/" target=blank>Anurag Koul</a>
+    <div class="mentee-trail">Oregon State PhD · MSR Postdoc '23–'24 → Applied Scientist II, Amazon NYC → Lead Research Scientist, Salesforce.</div>
+  </div>
+  <div class="mentee-card">
     <a href="https://scholar.google.com/citations?user=RbczS_gAAAAJ&hl=en&oi=ao" target=blank>Leilei Cui</a>
     <div class="mentee-trail">MSR Intern '22 → NYU Engineering PhD → Postdoctoral Scholar, MIT → Asst. Professor, Univ. of New Mexico</div>
   </div>
@@ -411,12 +415,8 @@ document.getElementById('talks-toggle').addEventListener('click', function(){
 
 <div class="mentoring-grid mentoring-overflow" id="mentoring-more" style="display:none;">
   <div class="mentee-card">
-    <a href="https://koulanurag.dev/" target=blank>Anurag Koul</a>
-    <div class="mentee-trail">Oregon State PhD · MSR Postdoc '23–'24 → Applied Scientist II, Amazon NYC</div>
-  </div>
-  <div class="mentee-card">
     <a href="https://shaoruchen.github.io" target=blank>Shaoru Chen</a>
-    <div class="mentee-trail">Penn ESE PhD → MSR Postdoc '23–'24 → LinkedIn Senior ML Engineer</div>
+    <div class="mentee-trail">Penn ESE PhD → MSR Postdoc '23–'24 → LinkedIn Senior ML Engineer.</div>
   </div>
   <div class="mentee-card">
     Etiosa Omeike
