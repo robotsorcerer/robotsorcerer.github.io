@@ -110,8 +110,7 @@ publications:
         location: downloads/Papers/hjgauss.pdf
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, <a href="https://venkatramanrenganathan.github.io/">Venkatraman Renganathan</a>, and <a href="https://aail.snu.ac.kr/professor/">Namhoon Cho</a>.
-        venue_web: 'https://neurips.cc/'
-        venue: Neural Information Processing Systems (NeurIPS), Paris.
+        venue: Royal Society Proceedings A
         paper_status: Submitted
         year: 2026
         thumbnail: /assets/thumbs/icml26.svg
@@ -127,8 +126,6 @@ publications:
         location:
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
-        venue_web: 'https://neurips.cc/'
-        venue: Neural Information Processing Systems (NeurIPS), Paris.
         paper_status: Submitted
         year: 2026
         thumbnail: /assets/thumbs/infdiff.svg
@@ -385,7 +382,7 @@ publications:
       - title: Mechanism and Model of a Soft Robot for Head Stabilization in Cancer Radiation Therapy
         location: /downloads/Papers/ContinuumI.pdf
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.researchgate.net/profile/Xinmin-Liu-6">Xinmin Liu</a>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>, and
           - <a href="https://www.uclahealth.org/departments/radonc/our-expert-team/rodney-d-wiersma-phd-dabr">Rodney Wiersma</a>.
@@ -408,7 +405,7 @@ publications:
         location: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.13986
         authors:
           - <a href="https://independent.academia.edu/AzarBarkousaraie">Azar Sadeghnejad Barkousaraie</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>.
         venue_web: https://www.medphys.org/
@@ -428,7 +425,7 @@ publications:
         location: '/404'
         authors:
           - <a href="https://independent.academia.edu/AzarBarkousaraie">Azar Sadeghnejad Barkousaraie</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>.
         venue_web: http://iccr-mcma.org/iccr2019/
@@ -441,9 +438,8 @@ publications:
     paperitems:
       - title: A Multi-DOF Soft Robot Mechanism for Patient Motion Correction and
                 Beam Orientation Selection in Cancer Radiation Therapy
-        location: /downloads/Papers/PhDThesis.pdf
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>
         venue_web: https://www.utsouthwestern.edu/
         venue: 'PhD Thesis. The University of Texas at Dallas; UT Southwestern Medical Center'
         paper_status: Accepted
@@ -462,7 +458,7 @@ publications:
         location: https://link.springer.com/chapter/10.1007/978-3-030-32486-5_1
         authors:
           - <a href="https://independent.academia.edu/AzarBarkousaraie">Azar Sadeghnejad Barkousaraie</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>.
         venue_web: https://link.springer.com/book/10.1007/978-3-030-32486-5
@@ -476,7 +472,7 @@ publications:
       - title: 'Deep BOO! Automating Beam Orientation Selection in Intensity Modulated Radiation Therapy'
         location: https://easychair.org/publications/preprint_open/b6vM
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.linkedin.com/in/fizxmike">Michael Folkerts</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>, and
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>.
@@ -497,7 +493,7 @@ publications:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
         location: 'downloads/Papers/IROS18.pdf'
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>, and
           - <a href="https://me.utdallas.edu/people/faculty/tyler-summers/">Tyler Summers</a>.
         venue_web: 'https://ecs.utdallas.edu/~opo140030/iros18/iros2018.html'
@@ -519,7 +515,7 @@ publications:
         authors:
           - <a href="https://directory.umflint.edu/cit/yaraalmu">Yara Almubarak</a>,
           - <a href="https://www.researchgate.net/profile/Aniket-Joshi-3">Joshi Aniket</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.stanford.edu/xuejun-gu">Xuejun Gu</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nicholas Gans</a>, and
@@ -535,7 +531,7 @@ publications:
       - title: 'Soft-NeuroAdapt: A 3-DOF Neuro-Adaptive Pose Correction System For Frameless and Maskless Cancer Radiotherapy'
         location: https://ieeexplore.ieee.org/abstract/document/8206211
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.linkedin.com/in/adwaitkulkarni93">Adwait Kulkarn</a>,
           - <a href="https://profiles.utdallas.edu/yonas.tadesse">Yonas Tadesse</a>,
           - <a href="https://profiles.stanford.edu/xuejun-gu">Xuejun Gu</a>,
@@ -558,7 +554,7 @@ publications:
       - title: 'Vision-based Control of a Soft Robot for Maskless Cancer Radiotherapy'
         location: 'http://ecs.utdallas.edu/~opo140030/media/Papers/CASE2016/CASE2016.pdf'
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.stanford.edu/xuejun-gu">Xuejun Gu</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>.
@@ -578,7 +574,7 @@ publications:
       - title: 'A Real-Time Soft-Robotic Patient Positioning System for Maskless Head-and-Neck Cancer Radiotherapy'
         location: https://ieeexplore.ieee.org/document/7294318
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.stanford.edu/xuejun-gu">Xuejun Gu</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>.
@@ -599,7 +595,7 @@ publications:
       - title: Towards Real-Time Motion Compensation in Radio-Transparent Robotic Radiation Therapy
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>
         venue_web:
         venue: Technical Report
         paper_status: Technical Report
@@ -611,7 +607,7 @@ publications:
       - title: 'Robust Zero-Sum Deep Reinforcement Learning'
         location: 'https://arxiv.org/abs/1710.00491v5'
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>, and
           - <a href="https://me.utdallas.edu/people/faculty/tyler-summers/">Tyler Summers</a>.
         venue_web: https://arxiv.org
@@ -630,7 +626,7 @@ publications:
       - title: 'Nonlinear Systems Identification Using Deep Dynamic Neural Networks'
         location: 'https://arxiv.org/abs/1610.01439'
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.stanford.edu/xuejun-gu">Xuejun Gu</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>.
@@ -702,7 +698,7 @@ publications:
       - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>, and
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, and
           - <a href="https://www.uclahealth.org/departments/radonc/our-expert-team/rodney-d-wiersma-phd-dabr">Rodney Wiersma</a>
         venue_web:
         venue: Oral Presentation at <i>Medical Physics  47 (6)(AAPM)</i> E328-E328. Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
@@ -715,7 +711,7 @@ publications:
       - title: 'A Real-Time Patient Head Motion Correction Mechanism for MRI-Linac Systems'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>, and
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, and
           - <a href="https://www.uclahealth.org/departments/radonc/our-expert-team/rodney-d-wiersma-phd-dabr">Rodney Wiersma</a>.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
         venue: Oral Presentation, AAPM. Online only publication in the Medical Physics Journal
@@ -728,7 +724,7 @@ publications:
       - title: 'A Motion-Planner for Robot Head Motion Correction in Stereotactic Radiosurgery'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.researchgate.net/profile/Xinmin-Liu-6">Xinmin Liu</a>, and
           - <a href="https://www.uclahealth.org/departments/radonc/our-expert-team/rodney-d-wiersma-phd-dabr">Rodney Wiersma</a>.
         venue_web: https://www.aapm.org/announcements/2020AMRFP.asp
@@ -742,7 +738,7 @@ publications:
       - title: 'Towards Closed-Loop Control Head Motion Correction with Soft Actuators in MRI-LINAC Systems'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>, and
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, and
           - <a href="https://www.uclahealth.org/departments/radonc/our-expert-team/rodney-d-wiersma-phd-dabr">Rodney Wiersma</a>
         venue_web:
         venue: Oral Presentation at <i>Medical Physics (AAPM)</i> 46 (6). Online only publication in the <i>Medical Physics Journal</i>, Annual Meeting of the American Association of Physicists in Medicine (AAPM)
@@ -756,7 +752,7 @@ publications:
         location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100
         authors:
           - <a href="https://independent.academia.edu/AzarBarkousaraie">Azar Sadeghnejad Barkousaraie</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>
@@ -772,7 +768,7 @@ publications:
         location:
         authors:
           - <a href="https://independent.academia.edu/AzarBarkousaraie">Azar Sadeghnejad Barkousaraie</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>
         venue_web:
@@ -786,7 +782,7 @@ publications:
       - title: 'An Approximate Policy Iteration Scheme for Beam Orientation Selection in Radiation Therapy'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://independent.academia.edu/AzarBarkousaraie">Azar Sadeghnejad Barkousaraie</a>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
@@ -802,7 +798,7 @@ publications:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>, and
           - <a href="https://me.utdallas.edu/people/faculty/tyler-summers/">Tyler Summers</a>
         venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
@@ -816,7 +812,7 @@ publications:
       - title: 'Automating Beam Orientation Optimization for IMRT Treatment Planning: A Deep Reinforcement Learning Approach'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://profiles.utsouthwestern.edu/profile/177087/dan-nguyen.html">Dan Nguyen</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/160956/chenyang-shen.html">Chenyang Shen</a>,
           - <a href="https://profiles.hopkinsmedicine.org/provider/xun-jia/2777405">Xun Jia</a>,
@@ -833,7 +829,7 @@ publications:
       - title: 'Minimax Iterative Dynamic Game: Application to Nonlinear Robot Control Tasks'
         location:
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>, and
           - <a href="https://me.utdallas.edu/people/faculty/tyler-summers/">Tyler Summers</a>
         venue_web: http://www.cs.unm.edu/amprg/Workshops/MLPC18/index.html
@@ -892,7 +888,7 @@ publications:
         location:
         authors:
           - <a href="https://me.utdallas.edu/people/faculty/tyler-summers/">Tyler Summers</a>,
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>, and
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, and
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>
         venue_web:
         venue: IROS 2017 Abstract Only Track
@@ -905,7 +901,7 @@ publications:
       - title: 'An Image-Guided Soft Robotic Patient Positioning System for Maskless Head And Neck Cancer Radiotherapy: A Proof of Concept Study'
         location: https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4924100
         authors:
-          - <b><a href="https://scriptedonachip.com/">Olalekan Ogunmolu</a></b>,
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>,
           - <a href="https://www.uta.edu/academics/faculty/profile?user=nick.gans">Nick Gans</a>,
           - <a href="https://profiles.utsouthwestern.edu/profile/150563/steve-jiang.html">Steve Jiang</a>, and
           - <a href="https://profiles.stanford.edu/xuejun-gu">Xuejun Gu</a>
