@@ -1,6 +1,37 @@
 publications:
 
   # ── SUBMITTED (descending year) ──────────────────────────────────────
+  - items: 'Royal Society'
+    paperitems:
+      - title: 'Sampling-based HJ Reachability'
+        location: downloads/Papers/roysoc.pdf
+        authors:
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
+        venue_web: 'https://royalsocietypublishing.org/rspa'
+        venue: Proceedings of the Royal Society --- Mathematical, physical and engineering sciences
+        paper_status: Submitted
+        year: 2026
+        thumbnail: /assets/thumbs/roysoc.svg
+        animations:
+          - label: Starling model values
+            url: /downloads/Papers/assets/anim/roysoc_murmuration.gif
+            poster: /downloads/Papers/assets/anim/roysoc_murmuration_poster.png
+          - label: Double integrator values
+            url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
+            poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
+        abstract: >
+            Backward reachability for differential games are computed from Hamilton--Jacobi equations
+            whose numerical solution in the form of backward reachable tubes (BRTs) becomes costly as
+            state dimension increases. We study a generalized
+            Cole--Hopf transformation of the variational HJ equation employed in computing BRTs while
+            retaining its residual. The transformed problem is a semilinear heat equation whose mild
+            representation couples Gaussian initial-condition and nonlinear source integrals. We derive
+            its spatial gradient, establish conditional finite-time convergence of source iteration on a
+            positive invariant set, and obtain a residual certificate by comparison. Multidimensional
+            verification combines exact solutions, direct integration of the full transformed equation,
+            and independent viscosity references for control and pursuit--evasion problems. A starling-inspired
+            four-component model supports evaluation at $100{,}000$ 4D states, with computations that
+            assess discretization and population-query accuracy.
   - items: 'ICRA-SimPairwise'
     paperitems:
       - title: 'Simultaneous Pairwise Reachability Filtering for Lifelong MAPF'

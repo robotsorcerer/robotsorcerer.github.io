@@ -1,0 +1,87 @@
+{
+  "selection_sha256": "b6a67691bf68515aa886ea3ddc3f0be2c0723a7400ec2d01d7acfdf0f6428f2e",
+  "animations": [
+    {
+      "case": "murmuration",
+      "run": "murmuration_full_192_800_L6_c0.2_fd",
+      "archive_sha256": "693cad183ac011cef5bcbbf34dadb79bc3df54531a5bae0fa099431027e22e67",
+      "source_digests": {
+        "full_residual_nd.py": "561dd5b37d6270e3fb3d3d341285816fa6acb0b224f16c5e45a617d9d06f42ed",
+        "multidimensional_validation.py": "dbd3223f7088a933dcdb51e71836c8ce0abfa81f6159fdc786b496a8d3d5d0e2",
+        "full_residual_fd.py": "6ccb28031e59df7d9f64eb7c2d4c3bab23cf08949bd450d1216a2c5684cc54f5",
+        "fd_validation.py": "f123dfe6f8295d5970dcedbc0e5e5e24e26d4daac1a79cb77e687e3b4487731b"
+      },
+      "saved_times": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0
+      ],
+      "slice_heading": 0,
+      "window": [
+        [
+          -3,
+          3
+        ],
+        [
+          -3,
+          3
+        ]
+      ],
+      "slice_grid": [
+        161,
+        161
+      ],
+      "gif_sha256": "ed40d2d0ce2709f8af9dd0bba6e0bfdfb60c42d6d1a18b7c42d5055628db5332",
+      "interpretation": "Terminal-horizon viscous Cauchy equation; all analytic residual terms retained"
+    },
+    {
+      "case": "double_integrator",
+      "run": "double_integrator_full_128_800_L6_c0.2",
+      "archive_sha256": "4bff914a838371f858ccfdcaa4b4607b483ea47ab283d86a18ca66f61f817e7b",
+      "source_digests": {
+        "full_residual_nd.py": "561dd5b37d6270e3fb3d3d341285816fa6acb0b224f16c5e45a617d9d06f42ed",
+        "multidimensional_validation.py": "dbd3223f7088a933dcdb51e71836c8ce0abfa81f6159fdc786b496a8d3d5d0e2"
+      },
+      "saved_times": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "slice_heading": null,
+      "window": [
+        [
+          -2,
+          2
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "slice_grid": [
+        161,
+        161
+      ],
+      "gif_sha256": "46a950d3418a6b10aa8fec17ff89a21add667a2d7e24145e79c22e8ad9d8cfb7",
+      "interpretation": "terminal-horizon reachable set; no stopping/obstacle"
+    }
+  ],
+  "temporal_interpolation": false,
+  "note": "Finite-grid fixed-horizon values; no trajectory or safety certificate."
+}

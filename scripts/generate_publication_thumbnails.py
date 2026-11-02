@@ -15,6 +15,7 @@ OUT = ROOT / 'assets/thumbs'
 
 # Related papers share a visual vocabulary, with paper-specific captions.
 DESIGNS = {
+    'roysoc': ('full_residual', 'FULL RESIDUAL HJ', 'GAUSSIAN + SOURCE'),
     'icml26': ('reach', 'HJ–GAUSS', 'SAMPLE · PROPAGATE'),
     'infdiff': ('diffusion', 'DIFFUSION POLICY', 'DENOISE · CONTROL'),
     'gnep_socio': ('game', 'TEAM EQUILIBRIA', 'COORDINATE · RESPOND'),
@@ -117,6 +118,17 @@ def network(y=120):
 
 
 def diagram(kind):
+    if kind == 'full_residual':
+        s = box(25, 59, 65, 53) + box(110, 59, 65, 53, '#f7c977')
+        s += path('M33 101C47 101 46 70 57 70S70 101 82 101', '#78b9ff', width=2.5)
+        s += ''.join(circle(x, y, 3, '#f7c977', 'pulse' if i % 2 else 'pulse late')
+                     for i, (x, y) in enumerate([(124, 77), (147, 93), (160, 72), (130, 99)]))
+        s += path('M57 115V135H100V151M143 115V135H100', '#62dfc3', 'flow')
+        s += path('M93 143l7 8 7-8', '#62dfc3')
+        s += '<g class="pulse">'
+        for rx, ry, color in [(60, 19, '#48627c'), (44, 13, '#78b9ff'), (25, 7, '#62dfc3')]:
+            s += f'<ellipse cx="100" cy="179" rx="{rx}" ry="{ry}" fill="none" stroke="{color}" stroke-width="1.7"/>'
+        return s + '</g>' + circle(100, 179, 3)
     if kind == 'reach':
         grid = ''.join(path(f'M{x} 52V190M30 {x+25}H170','#26364a',width=.7) for x in range(30,171,20))
         contours = ''.join(f'<ellipse cx="100" cy="120" rx="{r}" ry="{r*.72}" fill="none" stroke="{c}" stroke-width="1.7"/>' for r,c in [(65,'#48627c'),(48,'#78b9ff'),(30,'#62dfc3')])
