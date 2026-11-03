@@ -13,12 +13,18 @@ publications:
         year: 2026
         thumbnail: /assets/thumbs/roysoc.svg
         animations:
-          - label: Starling model values
+          - label: Starlings validation
             url: /downloads/Papers/assets/anim/roysoc_murmuration.gif
             poster: /downloads/Papers/assets/anim/roysoc_murmuration_poster.png
-          - label: Double integrator values
+          - label: Double Integrator
             url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
             poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
+          - label: Dubins
+            url: /downloads/Papers/assets/anim/roysoc_dubins.gif
+            poster: /downloads/Papers/assets/anim/roysoc_dubins_poster.png
+          - label: Rockets
+            url: /downloads/Papers/assets/anim/roysoc_rockets.gif
+            poster: /downloads/Papers/assets/anim/roysoc_rockets_poster.png
         abstract: >
             Backward reachability for differential games are computed from Hamilton--Jacobi equations
             whose numerical solution in the form of backward reachable tubes (BRTs) becomes costly as

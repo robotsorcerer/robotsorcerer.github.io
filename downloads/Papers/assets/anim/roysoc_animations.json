@@ -1,17 +1,13 @@
 {
-  "selection_sha256": "b6a67691bf68515aa886ea3ddc3f0be2c0723a7400ec2d01d7acfdf0f6428f2e",
   "animations": [
     {
+      "label": "Starlings validation",
       "case": "murmuration",
-      "run": "murmuration_full_192_800_L6_c0.2_fd",
-      "archive_sha256": "693cad183ac011cef5bcbbf34dadb79bc3df54531a5bae0fa099431027e22e67",
-      "source_digests": {
-        "full_residual_nd.py": "561dd5b37d6270e3fb3d3d341285816fa6acb0b224f16c5e45a617d9d06f42ed",
-        "multidimensional_validation.py": "dbd3223f7088a933dcdb51e71836c8ce0abfa81f6159fdc786b496a8d3d5d0e2",
-        "full_residual_fd.py": "6ccb28031e59df7d9f64eb7c2d4c3bab23cf08949bd450d1216a2c5684cc54f5",
-        "fd_validation.py": "f123dfe6f8295d5970dcedbc0e5e5e24e26d4daac1a79cb77e687e3b4487731b"
-      },
-      "saved_times": [
+      "approximation_run": "murmuration_full_192_800_L6_c0.2_fd",
+      "reference_run": "murmuration_reference_192_800_L6_c0.2_fd",
+      "approximation_sha256": "693cad183ac011cef5bcbbf34dadb79bc3df54531a5bae0fa099431027e22e67",
+      "reference_sha256": "fa9d1db7c3974cb6ec2253c212fc85043c02a52ec0c6bf39e4e3b81ace385b32",
+      "times": [
         0.0,
         0.2,
         0.4,
@@ -24,33 +20,17 @@
         1.8,
         2.0
       ],
-      "slice_heading": 0,
-      "window": [
-        [
-          -3,
-          3
-        ],
-        [
-          -3,
-          3
-        ]
-      ],
-      "slice_grid": [
-        161,
-        161
-      ],
-      "gif_sha256": "ed40d2d0ce2709f8af9dd0bba6e0bfdfb60c42d6d1a18b7c42d5055628db5332",
-      "interpretation": "Terminal-horizon viscous Cauchy equation; all analytic residual terms retained"
+      "max_absolute_difference": 0.0006010372471305647,
+      "gif_sha256": "9e878579705f56cd75e17e2e7907a4da8fe8ad06f7d2300418b67c8fd83fc80d"
     },
     {
+      "label": "Double Integrator",
       "case": "double_integrator",
-      "run": "double_integrator_full_128_800_L6_c0.2",
-      "archive_sha256": "4bff914a838371f858ccfdcaa4b4607b483ea47ab283d86a18ca66f61f817e7b",
-      "source_digests": {
-        "full_residual_nd.py": "561dd5b37d6270e3fb3d3d341285816fa6acb0b224f16c5e45a617d9d06f42ed",
-        "multidimensional_validation.py": "dbd3223f7088a933dcdb51e71836c8ce0abfa81f6159fdc786b496a8d3d5d0e2"
-      },
-      "saved_times": [
+      "approximation_run": "double_integrator_full_128_800_L6_c0.2",
+      "reference_run": "double_integrator_reference_128_800_L6_c0.2",
+      "approximation_sha256": "4bff914a838371f858ccfdcaa4b4607b483ea47ab283d86a18ca66f61f817e7b",
+      "reference_sha256": "ff8a05b719f6f21d121c4bd989bb7b9fdce00221beab2ba164b915e6507b2ed3",
+      "times": [
         0.0,
         0.1,
         0.2,
@@ -63,25 +43,60 @@
         0.9,
         1.0
       ],
-      "slice_heading": null,
-      "window": [
-        [
-          -2,
-          2
-        ],
-        [
-          -2,
-          2
-        ]
+      "max_absolute_difference": 0.0020651423229171018,
+      "gif_sha256": "2918353cf5f6dbc9eea74392667d23407ecd92f3c6ed02e9480c17aa2613c0ba"
+    },
+    {
+      "label": "Dubins",
+      "case": "dubins_relative",
+      "approximation_run": "dubins_relative_full_224_400_L6_c0.2",
+      "reference_run": "dubins_relative_reference_224_400_L6_c0.2",
+      "approximation_sha256": "67285c4d4a4d8dd425e2b5619f37e03a7f6116b06627e093650c992df5eb44bb",
+      "reference_sha256": "3391efc5604b96be53c5d24916cd8693768172c3e979c43ee9249540e91f8e6d",
+      "times": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
       ],
-      "slice_grid": [
-        161,
-        161
+      "max_absolute_difference": 0.000882543560419502,
+      "gif_sha256": "03fc24237e6871086d2f9ad1f42dc26e49d340b4fc62c8b3670a0bf05d53263c"
+    },
+    {
+      "label": "Rockets",
+      "case": "rockets",
+      "approximation_run": "rockets_full_160_400_L6_c0.35",
+      "reference_run": "rockets_reference_160_400_L6_c0.2",
+      "approximation_sha256": "ca14a28da49571b4eea4d1db10eff65b9d1dd38becc9ad1782647d11c7891aa9",
+      "reference_sha256": "1891a796c16b251c35c63e54038f25422b67ecca470dc5a5cd86d7d0ffc8a544",
+      "times": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
       ],
-      "gif_sha256": "46a950d3418a6b10aa8fec17ff89a21add667a2d7e24145e79c22e8ad9d8cfb7",
-      "interpretation": "terminal-horizon reachable set; no stopping/obstacle"
+      "max_absolute_difference": 0.0028249982358005132,
+      "gif_sha256": "637ec14466764733afa1447b32ad36ce7d59d89f104efcbdfd1d967566a0fc8b"
     }
   ],
-  "temporal_interpolation": false,
-  "note": "Finite-grid fixed-horizon values; no trajectory or safety certificate."
+  "columns": [
+    "LevelsetPy reference",
+    "Full residual approximation",
+    "Absolute value error"
+  ],
+  "temporal_interpolation": false
 }
