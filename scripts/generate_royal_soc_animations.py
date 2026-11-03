@@ -13,7 +13,7 @@ CASES = [
     ('murmuration', 'murmuration_full_192_800_L6_c0.2_fd', 'murmuration_reference_192_800_L6_c0.2_fd', 'roysoc_murmuration', 'Starlings validation', 3, ('Relative position x₁', 'Relative position x₂'), 0),
     ('double_integrator', 'double_integrator_full_128_800_L6_c0.2', 'double_integrator_reference_128_800_L6_c0.2', 'roysoc_double_integrator', 'Double Integrator', 2, ('Position', 'Velocity'), None),
     ('dubins_relative', 'dubins_relative_full_224_400_L6_c0.2', 'dubins_relative_reference_224_400_L6_c0.2', 'roysoc_dubins', 'Dubins', 2, ('Relative position x₁', 'Relative position x₂'), 0),
-    ('rockets', 'rockets_full_160_400_L6_c0.35', 'rockets_reference_160_400_L6_c0.2', 'roysoc_rockets', 'Rockets', 3, ('Relative position x₁', 'Relative position x₂'), 0),
+    ('rockets', 'rockets_full_160_400_L6_c0.2', 'rockets_reference_160_400_L6_c0.2', 'roysoc_rockets', 'Rockets', 3, ('Relative position x₁', 'Relative position x₂'), 0),
 ]
 
 def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -36,30 +36,33 @@ def interpolate(data, field, x, y):
 def render(root,out,case):
     name,fr,rr,stem,title,extent,labels,heading=case
     frec,fd,fh=load(root,fr); rrec,rd,rh=load(root,rr)
-    for key in ('case','delta','horizon','bounds','shape'):
+    for key in ('case','delta','horizon','bounds','shape','coefficient_base'):
         if frec.get(key)!=rrec.get(key): raise ValueError(f'{name}: unmatched {key}')
     times=sorted((float(k[2:]),k) for k in fd if k.startswith('t_'))
     rt={float(k[2:]):k for k in rd if k.startswith('t_')}
     if [t for t,k in times] != sorted(rt): raise ValueError(f'{name}: reference times differ')
     axis=np.linspace(-extent,extent,129);X,Y=np.meshgrid(axis,axis,indexing='xy');frames=[];maxerr=0
+    fields=[]
     for t,k in times:
-        a=interpolate(rd,rd[rt[t]],X,Y); b=interpolate(fd,fd[k],X,Y); E=np.abs(a-b);maxerr=max(maxerr,float(E.max()))
+        a=interpolate(rd,rd[rt[t]],X,Y); b=interpolate(fd,fd[k],X,Y); E=np.abs(a-b);maxerr=max(maxerr,float(E.max()));fields.append((t,a,b,E))
+    for t,a,b,E in fields:
         fig,axs=plt.subplots(1,3,figsize=(12,4.5),dpi=90,layout='constrained')
         vmax=max(1.,float(np.max(np.abs(np.r_[a.ravel(),b.ravel()]))));im=None
-        for ax,z,ttl in zip(axs,[a,b,E],['LevelsetPy reference','Full residual approximation','Absolute value error']):
-            im=ax.contourf(X,Y,z,levels=np.linspace(0 if ttl.startswith('Absolute') else -vmax,vmax,25),cmap='magma' if ttl.startswith('Absolute') else 'RdBu_r',extend='both')
+        for ax,z,ttl in zip(axs,[a,b,E],['LevelsetPy reference','Full residual approximation',f'Absolute error (0–{maxerr:.2g})']):
+            error=ttl.startswith('Absolute')
+            im=ax.contourf(X,Y,z,levels=np.linspace(0,maxerr,25) if error else np.linspace(-vmax,vmax,25),cmap='magma' if error else 'RdBu_r',extend='max' if error else 'both')
             if not ttl.startswith('Absolute') and z.min()<0<z.max(): ax.contour(X,Y,z,[0],colors='black',linewidths=1)
             ax.set(xlim=(-extent,extent),ylim=(-extent,extent),aspect='equal',xlabel=labels[0],title=ttl)
             ax.set_ylabel(labels[1] if ax is axs[0] else '')
         fig.suptitle(f'{title} validation · elapsed horizon {t:g}',fontsize=14)
-        fig.colorbar(im,ax=axs.ravel().tolist(),shrink=.78,label='Value (error column: absolute value difference)')
+        fig.colorbar(im,ax=axs.ravel().tolist(),shrink=.78,label='Absolute value error' if error else 'Value')
         if heading is not None: fig.text(.5,.005,f'Heading = {heading} rad · matched saved snapshots',ha='center',fontsize=8)
         with io.BytesIO() as bfr:
             fig.savefig(bfr,format='png');bfr.seek(0);frames.append(Image.open(bfr).convert('P',palette=Image.Palette.ADAPTIVE,colors=192).copy())
         plt.close(fig)
     gif=out/(stem+'.gif');frames[0].save(gif,save_all=True,append_images=frames[1:],duration=[400]*(len(frames)-1)+[1200],loop=0,optimize=False,disposal=2)
     frames[-1].convert('RGB').save(out/(stem+'_poster.png'))
-    return dict(label=title,case=name,approximation_run=fr,reference_run=rr,approximation_sha256=fh,reference_sha256=rh,times=[t for t,k in times],max_absolute_difference=maxerr,gif_sha256=digest(gif))
+    return dict(label=title,case=name,approximation_run=fr,reference_run=rr,approximation_sha256=fh,reference_sha256=rh,times=[t for t,k in times],max_absolute_difference=maxerr,error_scale_max=maxerr,gif_sha256=digest(gif))
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'downloads/Papers/assets/anim');a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True)

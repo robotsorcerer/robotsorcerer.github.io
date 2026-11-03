@@ -21,7 +21,8 @@
         2.0
       ],
       "max_absolute_difference": 0.0006010372471305647,
-      "gif_sha256": "9e878579705f56cd75e17e2e7907a4da8fe8ad06f7d2300418b67c8fd83fc80d"
+      "error_scale_max": 0.0006010372471305647,
+      "gif_sha256": "bc9c9fc5c82f60fc281f812bba7e62415f1166a1e7eacd63820c889b6f5f5e23"
     },
     {
       "label": "Double Integrator",
@@ -44,7 +45,8 @@
         1.0
       ],
       "max_absolute_difference": 0.0020651423229171018,
-      "gif_sha256": "2918353cf5f6dbc9eea74392667d23407ecd92f3c6ed02e9480c17aa2613c0ba"
+      "error_scale_max": 0.0020651423229171018,
+      "gif_sha256": "b398bd5734ce865133cdaf44062b44b5a76472c3f0c958a5137c397cf2d48831"
     },
     {
       "label": "Dubins",
@@ -67,14 +69,15 @@
         1.0
       ],
       "max_absolute_difference": 0.000882543560419502,
-      "gif_sha256": "03fc24237e6871086d2f9ad1f42dc26e49d340b4fc62c8b3670a0bf05d53263c"
+      "error_scale_max": 0.000882543560419502,
+      "gif_sha256": "e0bd6e08fd45e73ac079c64f6f830817a6413a1c59cab4b00d12676bd2ee0e60"
     },
     {
       "label": "Rockets",
       "case": "rockets",
-      "approximation_run": "rockets_full_160_400_L6_c0.35",
+      "approximation_run": "rockets_full_160_400_L6_c0.2",
       "reference_run": "rockets_reference_160_400_L6_c0.2",
-      "approximation_sha256": "ca14a28da49571b4eea4d1db10eff65b9d1dd38becc9ad1782647d11c7891aa9",
+      "approximation_sha256": "bee9fdcdf07bff196bb1f7d8b8ac2c84ff51bf2bd533341a3757b75f9e1391db",
       "reference_sha256": "1891a796c16b251c35c63e54038f25422b67ecca470dc5a5cd86d7d0ffc8a544",
       "times": [
         0.0,
@@ -89,8 +92,9 @@
         0.45,
         0.5
       ],
-      "max_absolute_difference": 0.0028249982358005132,
-      "gif_sha256": "637ec14466764733afa1447b32ad36ce7d59d89f104efcbdfd1d967566a0fc8b"
+      "max_absolute_difference": 0.0028243426975780583,
+      "error_scale_max": 0.0028243426975780583,
+      "gif_sha256": "8f357333af775a719d5f2013dc05c2548b47cbcbe03042decfc943d016ec7cbb"
     }
   ],
   "columns": [
