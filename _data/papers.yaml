@@ -13,31 +13,30 @@ publications:
         year: 2026
         thumbnail: /assets/thumbs/roysoc.svg
         animations:
-          - label: Starlings validation
+          - label: Starling model
             url: /downloads/Papers/assets/anim/roysoc_murmuration.gif
             poster: /downloads/Papers/assets/anim/roysoc_murmuration_poster.png
-          - label: Double Integrator
+          - label: Double integrator
             url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
             poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
-          - label: Dubins
+          - label: Relative Dubins
             url: /downloads/Papers/assets/anim/roysoc_dubins.gif
             poster: /downloads/Papers/assets/anim/roysoc_dubins_poster.png
           - label: Rockets
             url: /downloads/Papers/assets/anim/roysoc_rockets.gif
             poster: /downloads/Papers/assets/anim/roysoc_rockets_poster.png
         abstract: >
-            Backward reachability for differential games are computed from Hamilton--Jacobi equations
-            whose numerical solution in the form of backward reachable tubes (BRTs) becomes costly as
-            state dimension increases. We study a generalized
-            Cole--Hopf transformation of the variational HJ equation employed in computing BRTs while
-            retaining its residual. The transformed problem is a semilinear heat equation whose mild
-            representation couples Gaussian initial-condition and nonlinear source integrals. We derive
-            its spatial gradient, establish conditional finite-time convergence of source iteration on a
-            positive invariant set, and obtain a residual certificate by comparison. Multidimensional
-            verification combines exact solutions, direct integration of the full transformed equation,
-            and independent viscosity references for control and pursuit--evasion problems. A starling-inspired
-            four-component model supports evaluation at $100{,}000$ 4D states, with computations that
-            assess discretization and population-query accuracy.
+            Backward reachable sets and tubes for differential games are characterized by Hamilton--Jacobi
+            equations whose numerical solution becomes costly as state dimension increases. We study a
+            generalized Cole--Hopf transformation of the viscous HJ Cauchy equation associated with
+            reachability while retaining its residual. The transformed problem is a semilinear heat equation
+            whose mild representation couples Gaussian initial-condition and nonlinear source integrals. We
+            derive its spatial gradient, establish conditional finite-time convergence of source iteration on
+            a positive invariant set, and obtain a residual certificate by comparison. Multidimensional
+            verification combines exact solutions, direct integration of the full transformed equation, and
+            independent discretizations of the same viscous equation for control and pursuit--evasion
+            problems. A starling-inspired 4D murmurations model supports evaluation at $100{,}000$ states,
+            with computations that assess discretization and population-query accuracy.
   - items: 'ICRA-SimPairwise'
     paperitems:
       - title: 'Simultaneous Pairwise Reachability Filtering for Lifelong MAPF'
@@ -110,22 +109,6 @@ publications:
             necessary nor sufficient for low exploitability in the models tested; and on a non-
             convex game the natural residual vanishes analytically at a quarter-exploitability
             profile, so that playerwise convexity becomes a strict requirement.
-  - items: 'Neurips-HJReach'
-    paperitems:
-      - title: 'HJ-Gauss: A Monte-Carlo HJ Reachability Scheme'
-        location: downloads/Papers/hjgauss.pdf
-        authors:
-          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, <a href="https://venkatramanrenganathan.github.io/">Venkatraman Renganathan</a>, and <a href="https://aail.snu.ac.kr/professor/">Namhoon Cho</a>.
-        venue: Royal Society Proceedings A
-        paper_status: Submitted
-        year: 2026
-        thumbnail: /assets/thumbs/icml26.svg
-        animations:
-          - label: Murmuration BRT
-            url: /downloads/Papers/assets/anim/murmuration_brt.gif
-            poster: /downloads/Papers/assets/anim/murmuration_brt_poster.png
-        abstract: >
-            Classical Hamilton–Jacobi safety verification breaks under high dimensions because grids explode combinatorially. We sidestep this by quasilinearizing viscous HJI equations through a generalized Cole–Hopf transform, reducing nonlinear safety propagation to Gaussian heat-kernel inference. The result is a scalable, plug-and-play safety wrapper for autonomous systems with provable concentration bounds and linear convergence — trading grid explosion for controllable Monte Carlo sampling.
   - items: 'InfDiff'
     paperitems:
       - title: 'Beyond Sampling: Kolmogorov PDE Regression for Robust Diffusion Policies'

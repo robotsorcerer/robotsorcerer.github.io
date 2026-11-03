@@ -1,12 +1,14 @@
 news_items:
 
-#  - items: 'NxtGenAIBos'
-#    sortdate: 2026-07-21
-#    subnewsitems:
-#      - content: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
-#        summary: 'Up next: Excited to be a part of the speaker line-up at the Boston, MA <a href="https://nxtai-conference.com/" target="_blank">Next-Generation AI & Machine Learning Conference in Nov. 2026.</a>'
-#        highlight: true
-#        date: 'Jul 21, 2026'
+  - items: 'HJGauss_NeurIPS26'
+    sortdate: 2026-11-02
+    subnewsitems:
+      - content: >-
+          ✨ A new (Hamilton-Jacobi-based) overapproximation algorithm for runtime safety assurance in deployed autonomous systems: <a href="/downloads/Papers/hjgauss.pdf" target="_blank" rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Sampling-based HJ Reachability</b></a>. The analysis retains the complete transformation residual, yielding a semilinear heat equation with coupled Gaussian initial-condition and nonlinear source integrals. It establishes finite-time source-iteration convergence under explicit hypotheses, finite-query sampling bounds, and a conditional residual sign certificate. Independent same-viscosity computations cover Rockets, Relative Dubins, a double integrator, and a four-component starling-inspired model evaluated at <b>100,000 states</b>. Watch the paired reference → full-residual → difference animations: <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener">Rockets</a> · <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener">Relative Dubins</a> · <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener">Double integrator</a> · <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener">Starling model</a>. The <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/monte_carlo" target="_blank" rel="noopener">validation code</a> is open source.
+        summary: >-
+          Check out this revamped <a href="/downloads/Papers/hjgauss.pdf" target="_blank" rel="noopener">sampling-based HJ Reachability</a> overapproximation algorithm for runtime safety assurance in autonomous systems: full quasilinearization theory, generalized viscosity solutions validation, and 100,000 starling-inspired 4D model queries. Check out the validated animations on <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener">2D rocket launch problems in relative coordinates</a> · <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener">2D Dubins vehicles in relative coordinates</a> · <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener">Double integrator time-to-reach-the-origin problem</a> · <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener">Starlings murmuration reduction reconstruction</a>.
+        highlight: true
+        date: Nov 2, 2026
   - items: 'ReachFilterICRA'
     sortdate: 2026-10-19
     subnewsitems:
@@ -21,13 +23,6 @@ news_items:
         summary: 'An <a href="downloads/Papers/iclr27.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in games with compact convex products of action sets and costs convex in actions.'
         highlight: true
         date: 'Oct 05, 2026'
-  - items: 'HJGauss_MAPF'
-    sortdate: 2026-08-18
-    subnewsitems:
-      - content: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm. Animations: <a href="/downloads/Papers/assets/anim/amfs_rollout.gif" target="_blank" rel="noopener">MAPF rollout</a> · <a href="/downloads/Papers/assets/anim/brt_heading.gif" target="_blank" rel="noopener">BRT headings</a>.'
-        summary: 'Check this out: Turns out <a href="downloads/Papers/hjgauss.pdf" target=_blank>that HJ Gauss</a> is a <a href="downloads/Papers/hjgauss_talk.html" target=_blank>continuous conflict-based search multi-agent path-finding (MAPF)</a> algorithm. Animations: <a href="/downloads/Papers/assets/anim/amfs_rollout.gif" target="_blank" rel="noopener">MAPF rollout</a> · <a href="/downloads/Papers/assets/anim/brt_heading.gif" target="_blank" rel="noopener">BRT headings</a>.'
-        highlight: true
-        date: 'Aug 18, 2026'
   - items: 'RobodiffBlog'
     sortdate: 2026-07-11
     subnewsitems:
@@ -49,13 +44,6 @@ news_items:
         summary: 'Today’s robot-based diffusion policies tend to drift on long tasks. My new approach keeps them mathematically grounded — for more reliable long-horizon planning. <a href="/downloads/Papers/robodiff.pdf" target="_blank">Read the paper</a> or the <a href="/kolmogorov-regress" target="_blank">blog deep-dive.</a>'
         highlight: true
         date: 'May 24, 2026'
-  - items: 'HJGauss_NeurIPS26'
-    sortdate: 2026-05-29
-    subnewsitems:
-      - content: '🎯 Move over <a href="/downloads/Papers/levelsetpy.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">grid-resolved Hamilton–Jacobi (HJ) backward reachable sets/tubes (BRS/BRTs)</a>: With a Cole-Hopf-type transformation of the viscous HJ IVP, turns out Feynman-Kac''s formula may recover BRTs as a quasilinearized Gaussian-kernel density representation. <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">In a Picard iterative scheme</a>, we find that 🛡️☠️➡️✨ combinatorial grid explosion reduces to linear Monte-Carlo sampling. Results?😏 ✅ 📊 dimension-independent convergence • 💾 worry-free, memoryless optimization compared to <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">levelsets</a> classical compute baselines • 🔓 tight L²/Hausdorff error bounds from levelset methods• 🤖 and efficacy on benchmarks previously considered computationally intractable 👉➡️ up to <b>100,000 European starlings</b> <i>(sturnus vulgaris)</i> in multi-predator (peregrine falcon) games --- on commodity multicore CPUs --- inspired by recorded murmurations over Rome, Italy. Solves for phase transitions under <b>vacuole nucleation, cordon formation detection, and flocks splitting</b>🌍. 🧠⚡ TL;DR: we may now teach fleets of autonomous robots/cars not just <i>what to do</i>, but <i>where danger geometrically lives</i>. 🌌🏭 <a href="/downloads/Papers/hjgauss.pdf" target="_blank" style="color: #4FC3F7; font-weight: 600;">HJ-Gauss</a> opens the door to scalable, certifiably trustworthy embodied AI safety verification. 🧑‍💻 The full codebase is live and open-source at <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank" style="color: #4FC3F7; font-weight: 600;">github.com/robotsorcerer/levelsetpy</a> --- clone it and certify your own swarms! <b>Scalability über alles!</b>🎩👌🤯 Animations: <a href="/downloads/Papers/assets/anim/murmuration_brt.gif" target="_blank" rel="noopener">Murmuration BRT</a>.'
-        summary: 'Check this out: a faster, large-scale HJ verification system that runs on multi-core CPUs and multi-node, multi-GPU clusters. Benchmarked against classical levelset methods and validated on 100,000 Starlings'' murmuration in vacuole, nucleation, and cordon formations. <a href="/downloads/Papers/hjgauss.pdf" target="_blank">Link to the paper</a> and <a href="https://github.com/robotsorcerer/levelsetpy" target="_blank">code</a>. Animations: <a href="/downloads/Papers/assets/anim/murmuration_brt.gif" target="_blank" rel="noopener">Murmuration BRT</a>.'
-        highlight: true
-        date: May 29, 2026
   - items: 'IFAC_GNEP'
     sortdate: 2026-04-16
     subnewsitems:

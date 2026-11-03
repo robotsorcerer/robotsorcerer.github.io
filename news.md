@@ -4,7 +4,7 @@ permalink: news
 ---
 
 
-<!-- Featured Starling Murmurations Item — content sourced from _data/news.yaml (HJGauss_NeurIPS26) -->
+<!-- Featured full-residual HJ reachability item — content sourced from _data/news.yaml (HJGauss_NeurIPS26) -->
 <div style="position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; border-radius: 0.5rem; overflow: hidden; min-height: 300px;">
   <!-- Funnel/Cordon Formation -->
   <div style="position: relative; background-image: url(/assets/starlings_funnel.jpg); background-size: cover; background-position: center; border-radius: 0.5rem;">
