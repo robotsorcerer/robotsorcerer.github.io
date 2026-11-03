@@ -22,7 +22,7 @@
       ],
       "max_absolute_difference": 0.0006010372471305647,
       "error_scale_max": 0.0006010372471305647,
-      "gif_sha256": "0bd2d0293f06efff2281c0b73b0dd8d28641b6223f069a66a5933b2c173663bc"
+      "gif_sha256": "8883deea26ef4054871a4121f8cfc7a755253f7a571ad6294514991c0bcdcbb9"
     },
     {
       "label": "Double Integrator",
@@ -46,7 +46,7 @@
       ],
       "max_absolute_difference": 0.0020651423229171018,
       "error_scale_max": 0.0020651423229171018,
-      "gif_sha256": "b398bd5734ce865133cdaf44062b44b5a76472c3f0c958a5137c397cf2d48831"
+      "gif_sha256": "30973a6b63ed5c5719e54e8bd2e43035f090afa683fd0e6e9e59c8952de52fcc"
     },
     {
       "label": "Dubins",
@@ -70,7 +70,7 @@
       ],
       "max_absolute_difference": 0.000882543560419502,
       "error_scale_max": 0.000882543560419502,
-      "gif_sha256": "e0bd6e08fd45e73ac079c64f6f830817a6413a1c59cab4b00d12676bd2ee0e60"
+      "gif_sha256": "3e52a652ab00bf94e4268f70d1ade714aaea40980fc352a24a525963e1253388"
     },
     {
       "label": "Rockets",
@@ -94,7 +94,7 @@
       ],
       "max_absolute_difference": 0.0028243426975780583,
       "error_scale_max": 0.0028243426975780583,
-      "gif_sha256": "8f357333af775a719d5f2013dc05c2548b47cbcbe03042decfc943d016ec7cbb"
+      "gif_sha256": "e5cc737f14e614cee54bd0bd50c79e856dc12ed96517777488eb46a3574bbc1d"
     }
   ],
   "columns": [
