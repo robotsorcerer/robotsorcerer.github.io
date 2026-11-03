@@ -54,7 +54,8 @@ def render(root,out,case):
             if not ttl.startswith('Absolute') and z.min()<0<z.max(): ax.contour(X,Y,z,[0],colors='black',linewidths=1)
             ax.set(xlim=(-extent,extent),ylim=(-extent,extent),aspect='equal',xlabel=labels[0],title=ttl)
             ax.set_ylabel(labels[1] if ax is axs[0] else '')
-        fig.suptitle(f'{title} validation · elapsed horizon {t:g}',fontsize=14)
+        heading_text = title if 'validation' in title.lower() else f'{title} validation'
+        fig.suptitle(f'{heading_text} · elapsed horizon {t:g}',fontsize=14)
         fig.colorbar(im,ax=axs.ravel().tolist(),shrink=.78,label='Absolute value error' if error else 'Value')
         if heading is not None: fig.text(.5,.005,f'Heading = {heading} rad · matched saved snapshots',ha='center',fontsize=8)
         with io.BytesIO() as bfr:

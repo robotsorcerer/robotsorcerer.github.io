@@ -22,7 +22,7 @@
       ],
       "max_absolute_difference": 0.0006010372471305647,
       "error_scale_max": 0.0006010372471305647,
-      "gif_sha256": "bc9c9fc5c82f60fc281f812bba7e62415f1166a1e7eacd63820c889b6f5f5e23"
+      "gif_sha256": "0bd2d0293f06efff2281c0b73b0dd8d28641b6223f069a66a5933b2c173663bc"
     },
     {
       "label": "Double Integrator",
