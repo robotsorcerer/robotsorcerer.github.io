@@ -22,10 +22,10 @@
       ],
       "max_absolute_difference": 0.0006010372471305647,
       "error_scale_max": 0.0006010372471305647,
-      "gif_sha256": "47d0b5c5d2db37b36e36fbabdd8ac4cf663ea684e1b61ed7fbcaed95458874b3"
+      "gif_sha256": "c8e267dd35c02b5f112a1d2565ad412a2d9fde0d587eb75a3ac5710d009178b8"
     },
     {
-      "label": "Double Integrator",
+      "label": "Double integrator",
       "case": "double_integrator",
       "approximation_run": "double_integrator_full_128_800_L6_c0.2",
       "reference_run": "double_integrator_reference_128_800_L6_c0.2",
@@ -46,10 +46,10 @@
       ],
       "max_absolute_difference": 0.0020651423229171018,
       "error_scale_max": 0.0020651423229171018,
-      "gif_sha256": "319e2427142e632854e189e17e60d813344e9bbcc6571f3b7bd67dc8bc37e858"
+      "gif_sha256": "fed5681a1ec1f3c811ffd5016b399acaff4fbd90c6c463eab57f0f074ed238f9"
     },
     {
-      "label": "Dubins",
+      "label": "Dubins vehicles",
       "case": "dubins_relative",
       "approximation_run": "dubins_relative_full_224_400_L6_c0.2",
       "reference_run": "dubins_relative_reference_224_400_L6_c0.2",
@@ -70,7 +70,7 @@
       ],
       "max_absolute_difference": 0.000882543560419502,
       "error_scale_max": 0.000882543560419502,
-      "gif_sha256": "3393fb546eb58c3e37216db4ef7c308fcd8c30e382d02e02e2b4e2b62465f538"
+      "gif_sha256": "16590da686183ad39a88f4495f52ed806cd4d6455a527412239a89a27173779d"
     },
     {
       "label": "Rockets",
@@ -94,13 +94,13 @@
       ],
       "max_absolute_difference": 0.0028243426975780583,
       "error_scale_max": 0.0028243426975780583,
-      "gif_sha256": "be8ca7872a6fa09a946e10fe629f89b16678373cd8a2e8a827ede2f54d3bcd9e"
+      "gif_sha256": "e4b1451e67bfb73cc504dcd326a4d7c4f4b2fcb592e4ec953889b14088febb11"
     }
   ],
   "columns": [
-    "LevelsetPy reference",
-    "Full residual approximation",
-    "Absolute value error"
+    "Ground truth",
+    "HJ-Gauss",
+    "Absolute error"
   ],
   "temporal_interpolation": false
 }

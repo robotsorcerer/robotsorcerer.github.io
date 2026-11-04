@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
   <title id="title">Sampling-based HJ Reachability</title>
-  <desc id="desc">Animated conceptual illustration: full residual hj. Schematic only; not experimental data.</desc>
+  <desc id="desc">Animated conceptual illustration: hj-gauss. Schematic only; not experimental data.</desc>
   <style>
     .flow { stroke-dasharray: 4 7; animation: flow 3s linear infinite; }
     .pulse { animation: pulse 4s ease-in-out infinite; }
@@ -36,7 +36,7 @@
   </style>
   <path fill="#101e30" d="M0 0h200v240H0z"/>
   <g font-family="Arial, sans-serif" text-anchor="middle">
-    <text x="100" y="27" fill="#c1d3e5" font-size="10" letter-spacing="1">FULL RESIDUAL HJ</text>
+    <text x="100" y="27" fill="#c1d3e5" font-size="10" letter-spacing="1">HJ-GAUSS</text>
     <text x="100" y="222" fill="#8aa4bc" font-size="9" letter-spacing=".8">GAUSSIAN + SOURCE</text>
   </g>
   <rect x="25" y="59" width="65" height="53" rx="7" fill="#1c3046" stroke="#78b9ff"/><rect x="110" y="59" width="65" height="53" rx="7" fill="#1c3046" stroke="#f7c977"/><path d="M33 101C47 101 46 70 57 70S70 101 82 101" fill="none" stroke="#78b9ff" stroke-width="2.5" class="" stroke-linecap="round" stroke-linejoin="round" /><circle cx="124" cy="77" r="3" fill="#f7c977" class="pulse late" /><circle cx="147" cy="93" r="3" fill="#f7c977" class="pulse" /><circle cx="160" cy="72" r="3" fill="#f7c977" class="pulse late" /><circle cx="130" cy="99" r="3" fill="#f7c977" class="pulse" /><path d="M57 115V135H100V151M143 115V135H100" fill="none" stroke="#62dfc3" stroke-width="2" class="flow" stroke-linecap="round" stroke-linejoin="round" /><path d="M93 143l7 8 7-8" fill="none" stroke="#62dfc3" stroke-width="2" class="" stroke-linecap="round" stroke-linejoin="round" /><g class="pulse"><ellipse cx="100" cy="179" rx="60" ry="19" fill="none" stroke="#48627c" stroke-width="1.7"/><ellipse cx="100" cy="179" rx="44" ry="13" fill="none" stroke="#78b9ff" stroke-width="1.7"/><ellipse cx="100" cy="179" rx="25" ry="7" fill="none" stroke="#62dfc3" stroke-width="1.7"/></g><circle cx="100" cy="179" r="3" fill="#62dfc3" class="" />

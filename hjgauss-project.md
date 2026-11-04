@@ -24,9 +24,9 @@ long-form exposition.
 <a name="paper"></a>
 ### Paper: Sampling-based HJ Reachability
 
-**Lekan Molu.** Full-residual transformation theory, finite-time source-iteration convergence under
+**Lekan Molu.** HJ-Gauss transformation theory, finite-time source-iteration convergence under
 stated hypotheses, finite-query concentration, conditional residual certification, and
-same-viscosity validation. The experiments include Rockets, Relative Dubins, a double integrator,
+same-viscosity validation. The experiments include Rockets, Dubins vehicles, a double integrator,
 and 100,000 queries of a four-component starling-inspired model.
 
 <a class="btn" href="{{ site.baseurl }}/downloads/Papers/hjgauss.pdf" target="_blank" rel="noopener noreferrer">Open the 28-page PDF</a>
@@ -37,24 +37,24 @@ and 100,000 queries of a four-component starling-inspired model.
 
 #### Animated numerical comparisons
 
-Each animation advances through the saved horizons as **reference → full residual → absolute
+Each animation advances through the saved horizons as **ground truth → HJ-Gauss → absolute
 difference**. Select a card to open the original GIF.
 
 <div class="hjg-animation-grid">
   <a href="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_rockets_poster.png" alt="Rockets reference, full-residual, and absolute-difference animation poster">
+    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_rockets_poster.png" alt="Rockets ground truth, HJ-Gauss, and absolute-difference animation poster">
     <span>Rockets</span>
   </a>
   <a href="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_dubins_poster.png" alt="Relative Dubins reference, full-residual, and absolute-difference animation poster">
-    <span>Relative Dubins</span>
+    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_dubins_poster.png" alt="Dubins-vehicle ground truth, HJ-Gauss, and absolute-difference animation poster">
+    <span>Dubins vehicles</span>
   </a>
   <a href="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_double_integrator_poster.png" alt="Double-integrator reference, full-residual, and absolute-difference animation poster">
+    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_double_integrator_poster.png" alt="Double-integrator ground truth, HJ-Gauss, and absolute-difference animation poster">
     <span>Double integrator</span>
   </a>
   <a href="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_murmuration_poster.png" alt="Starling-model reference, full-residual, and absolute-difference animation poster">
+    <img src="{{ site.baseurl }}/downloads/Papers/assets/anim/roysoc_murmuration_poster.png" alt="Starling-model ground truth, HJ-Gauss, and absolute-difference animation poster">
     <span>Starling model</span>
   </a>
 </div>

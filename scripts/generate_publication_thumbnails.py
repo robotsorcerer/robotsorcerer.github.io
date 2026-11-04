@@ -15,7 +15,7 @@ OUT = ROOT / 'assets/thumbs'
 
 # Related papers share a visual vocabulary, with paper-specific captions.
 DESIGNS = {
-    'roysoc': ('full_residual', 'FULL RESIDUAL HJ', 'GAUSSIAN + SOURCE'),
+    'roysoc': ('hjgauss', 'HJ-GAUSS', 'GAUSSIAN + SOURCE'),
     'icml26': ('reach', 'HJ–GAUSS', 'SAMPLE · PROPAGATE'),
     'infdiff': ('diffusion', 'DIFFUSION POLICY', 'DENOISE · CONTROL'),
     'gnep_socio': ('game', 'TEAM EQUILIBRIA', 'COORDINATE · RESPOND'),
@@ -118,7 +118,7 @@ def network(y=120):
 
 
 def diagram(kind):
-    if kind == 'full_residual':
+    if kind == 'hjgauss':
         s = box(25, 59, 65, 53) + box(110, 59, 65, 53, '#f7c977')
         s += path('M33 101C47 101 46 70 57 70S70 101 82 101', '#78b9ff', width=2.5)
         s += ''.join(circle(x, y, 3, '#f7c977', 'pulse' if i % 2 else 'pulse late')
@@ -207,8 +207,11 @@ def main():
     papers = yaml.safe_load((ROOT / '_data/papers.yaml').read_text())
     titles = {Path(p['thumbnail']).stem: p['title'] for group in papers['publications']
               for p in group['paperitems'] if p.get('thumbnail')}
+    generated = 0
     for stem, (kind, heading, footer) in DESIGNS.items():
-        title = titles[stem]
+        title = titles.get(stem)
+        if title is None:
+            continue
         svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
   <title id="title">{escape(title)}</title>
   <desc id="desc">Animated conceptual illustration: {escape(heading.lower())}. Schematic only; not experimental data.</desc>
@@ -222,7 +225,8 @@ def main():
 </svg>
 '''
         (OUT / f'{stem}.svg').write_text(svg)
-    print(f'Generated {len(DESIGNS)} publication thumbnails.')
+        generated += 1
+    print(f'Generated {generated} publication thumbnails.')
 
 
 if __name__ == '__main__':

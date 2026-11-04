@@ -8,7 +8,7 @@ publications:
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
         venue_web: 'https://royalsocietypublishing.org/rspa'
-        venue: Proceedings of the Royal Society --- Mathematical, physical and engineering sciences.
+        venue: Proceedings of the Royal Society A - Mathematical, Physical, and Engineering Sciences.
         paper_status: Submitted
         year: 2026
         thumbnail: /assets/thumbs/roysoc.svg
@@ -19,7 +19,7 @@ publications:
           - label: Double integrator
             url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
             poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
-          - label: Relative Dubins
+          - label: Dubins vehicles
             url: /downloads/Papers/assets/anim/roysoc_dubins.gif
             poster: /downloads/Papers/assets/anim/roysoc_dubins_poster.png
           - label: Rockets
@@ -28,15 +28,16 @@ publications:
         abstract: >
             Backward reachable sets and tubes for differential games are characterized by Hamilton--Jacobi
             equations whose numerical solution becomes costly as state dimension increases. We study a
-            generalized Cole--Hopf transformation of the viscous HJ Cauchy equation associated with
-            reachability while retaining its residual. The transformed problem is a semilinear heat equation
-            whose mild representation couples Gaussian initial-condition and nonlinear source integrals. We
-            derive its spatial gradient, establish conditional finite-time convergence of source iteration on
-            a positive invariant set, and obtain a residual certificate by comparison. Multidimensional
-            verification combines exact solutions, direct integration of the full transformed equation, and
-            independent discretizations of the same viscous equation for control and pursuit--evasion
-            problems. A starling-inspired 4D murmurations model supports evaluation at $100{,}000$ states,
-            with computations that assess discretization and population-query accuracy.
+            generalized Cole--Hopf transformation of the Cauchy-type viscous HJ equation associated with
+            reachability while retaining both residual components. We term the resulting algorithm HJ-Gauss.
+            The transformed problem is a semilinear heat equation whose mild representation couples Gaussian
+            initial-condition and nonlinear source integrals. We derive its spatial gradient, establish
+            conditional finite-time convergence of source iteration on a positive invariant set, and obtain
+            a residual certificate by comparison. Multidimensional verification combines exact solutions,
+            direct HJ-Gauss integration, and independent discretizations of the same viscous equation for
+            control and pursuit--evasion problems. A starling-inspired 4D murmurations model supports
+            evaluation at $100{,}000$ states, with computations that assess discretization and population-query
+            accuracy.
   - items: 'ICRA-SimPairwise'
     paperitems:
       - title: 'Simultaneous Pairwise Reachability Filtering for Lifelong MAPF'
