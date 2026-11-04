@@ -633,6 +633,45 @@ a:visited { color: #1558a0; }
 }
 .cv-news-text { flex: 1; color: var(--text); }
 .cv-news-text a { color: var(--accent); }
+.cv-news-item--hjgauss {
+  align-items: stretch;
+  gap: 14px;
+}
+.cv-news-gifs {
+  flex: 0 0 34%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  align-content: start;
+}
+.cv-news-gifs a {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+  line-height: 0;
+  background: #dceaf3;
+}
+.cv-news-gifs img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+.cv-news-item--hjgauss-copy {
+  flex: 1;
+  min-width: 0;
+}
+.cv-news-item--hjgauss-copy .cv-news-badge {
+  display: inline-block;
+}
+@media (max-width: 640px) {
+  .cv-news-item--hjgauss {
+    display: block;
+  }
+  .cv-news-gifs {
+    margin-bottom: 10px;
+  }
+}
 
 /* ============================================================
    TALK CARDS

@@ -261,10 +261,33 @@
   {% for item in sorted_news %}
   {% for subitem in item.subnewsitems %}
   {% unless subitem.highlight == false %}
+  {% if item.items == 'HJGauss_NeurIPS26' %}
+  <div class="cv-news-item cv-news-item--hjgauss is-highlighted">
+    <div class="cv-news-gifs" aria-label="HJ-Gauss animations">
+      <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener">
+        <img src="/downloads/Papers/assets/anim/roysoc_rockets.gif" alt="HJ-Gauss rockets animation">
+      </a>
+      <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener">
+        <img src="/downloads/Papers/assets/anim/roysoc_dubins.gif" alt="HJ-Gauss Dubins vehicles animation">
+      </a>
+      <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener">
+        <img src="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" alt="HJ-Gauss double-integrator animation">
+      </a>
+      <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener">
+        <img src="/downloads/Papers/assets/anim/roysoc_murmuration.gif" alt="HJ-Gauss starling murmuration animation">
+      </a>
+    </div>
+    <div class="cv-news-item--hjgauss-copy">
+      <span class="cv-news-badge">{{ subitem.date }}</span>
+      <span class="cv-news-text">{{ subitem.summary | default: subitem.content }}</span>
+    </div>
+  </div>
+  {% else %}
   <div class="cv-news-item is-highlighted">
     <span class="cv-news-badge">{{ subitem.date }}</span>
     <span class="cv-news-text">{{ subitem.summary | default: subitem.content }}</span>
   </div>
+  {% endif %}
   {% endunless %}
   {% endfor %}
   {% endfor %}
