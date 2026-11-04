@@ -6,15 +6,16 @@ news_items:
       - content: >-
           ✨ A new (Hamilton-Jacobi-based) overapproximation algorithm for runtime safety assurance in deployed autonomous systems: <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Sampling-based HJ Reachability</b></a>. HJ-Gauss uses an exact variable-coefficient exponential transformation followed by a quasilinearized fixed-point iteration. The analysis retains both transformation-residual components, yielding a semilinear heat equation with coupled Gaussian initial-condition and nonlinear source integrals. It establishes finite-time source-iteration convergence under explicit hypotheses, finite-query sampling bounds, and a conditional residual sign certificate. Independent same-viscosity computations cover Rockets, Dubins vehicles, a double integrator, and a four-component starling-inspired model evaluated at <b>100,000 states</b>. Watch the paired ground truth → HJ-Gauss → difference animations: <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener">Rockets</a> · <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener">Dubins vehicles</a> · <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener">Double integrator</a> · <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener">Starling model</a>. The <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/monte_carlo" target="_blank" rel="noopener">validation code</a> is open source.
         summary: >-
-          #FeelThis: <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a>, 
+          #FeelThis <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
           overapproximation algorithm for runtime safety assurance in autonomous systems. Comes with quasilinearization of the nonlinear, 
-          time-dependent variational Gamilton-Jacobi equation, convergence and robustness analyses, and safety certification. Also,
-          generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, and 100,000 Starlings murmuration'
-          emergent behavior analyzed as a union of the value function of the respective Starlings. Check out the validated animations for 
+          time-dependent variational Hamilton-Jacobi-Isaacs equation, its convergence and robustness analyses, and safety certification. Also,
+          generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, 
+          and 100,000 <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.0711437105">Starlings murmuration emergent behavior</a> analyzed as a union of all murmuration flocks' value functions. 
+          Check out the value function benchmarks against levelset methods on 
           <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener">homicidal chauffeur pursuit-evasion 
           rockets </a> · and <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener"> Dubins vehicles</a> territorial defense problems ·
-          <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener">Double-integrator time-to-reach-the-origin problems</a> · 
-          Also, the behavioral evolution of European <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener">Starlings' (Sturnur virigis) murmuration</a> 
+          <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif" target="_blank" rel="noopener">Double-integrator time-to-reach-the-origin problem</a> · 
+          And the behavioral evolution of European <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif" target="_blank" rel="noopener">Starlings' (Sturnur virigis) murmuration</a> 
           over a shared phase space by studying their collective value function, modeled via topological nearest neighbor rules.
         highlight: true
         date: Nov 2, 2026
