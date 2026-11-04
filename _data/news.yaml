@@ -8,7 +8,7 @@ news_items:
         summary: >-
           #FeelThis: <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">HJ-Gauss for sampling-based HJ Reachability</a>, 
           an overapproximation algorithm for runtime safety assurance in autonomous systems with quasilinearization theory, 
-          generalized-viscosity solutions validation on homicidal chauffeur pursuit-evasion games, and 100,000 Starlings murmuration 
+          generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur pursuit-evasion games</a>, and 100,000 Starlings murmuration 
           emergent and collective behavior value function evolution. Check out the validated animations for 
           <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank" rel="noopener">homicidal chauffeur pursuit-evasion 
           rockets </a> · and <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank" rel="noopener"> Dubins vehicles</a> territorial defense problems ·
