@@ -8,7 +8,7 @@ news_items:
         summary: >-
           #FeelThis <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
           overapproximation algorithm for runtime safety assurance in autonomous systems. Comes with quasilinearization of the nonlinear, 
-          time-dependent variational Hamilton-Jacobi-Isaacs equation, its convergence and robustness analyses, and safety certification. Also,
+          time-dependent variational Hamilton-Jacobi-Isaacs equation, convergence and robustness analyses, and safety certification. Also,
           generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, 
           and 100,000 <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.0711437105">Starlings murmuration emergent behavior</a> analyzed as a union of all murmuration flocks' value functions. 
           Check out the value function benchmarks against levelset methods on 
