@@ -13,18 +13,24 @@ publications:
         year: 2026
         thumbnail: /assets/thumbs/roysoc.svg
         animations:
-          - label: Starling model
-            url: /downloads/Papers/assets/anim/roysoc_murmuration.gif
-            poster: /downloads/Papers/assets/anim/roysoc_murmuration_poster.png
-          - label: Double integrator
-            url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
-            poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
+          - label: Rocket launch pursuit-evasion
+            url: /downloads/Papers/assets/anim/roysoc_rockets.gif
+            poster: /downloads/Papers/assets/anim/roysoc_rockets_poster.png
           - label: Dubins vehicles
             url: /downloads/Papers/assets/anim/roysoc_dubins.gif
             poster: /downloads/Papers/assets/anim/roysoc_dubins_poster.png
-          - label: Rockets
-            url: /downloads/Papers/assets/anim/roysoc_rockets.gif
-            poster: /downloads/Papers/assets/anim/roysoc_rockets_poster.png
+          - label: Double integrator
+            url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
+            poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
+          - label: Cordon formation
+            url: /downloads/Papers/assets/anim/roysoc_murmuration_cordon.gif
+            poster: /downloads/Papers/assets/anim/roysoc_murmuration_cordon_poster.png
+          - label: Flock splitting
+            url: /downloads/Papers/assets/anim/roysoc_murmuration_splitting.gif
+            poster: /downloads/Papers/assets/anim/roysoc_murmuration_splitting_poster.png
+          - label: Flash expansion
+            url: /downloads/Papers/assets/anim/roysoc_murmuration_flash.gif
+            poster: /downloads/Papers/assets/anim/roysoc_murmuration_flash_poster.png
         abstract: >
             Backward reachable sets and tubes for differential games are characterized by Hamilton--Jacobi
             equations whose numerical solution becomes costly as state dimension increases. We study a
