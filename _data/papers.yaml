@@ -31,6 +31,9 @@ publications:
           - label: Flash expansion
             url: /downloads/Papers/assets/anim/roysoc_murmuration_flash.gif
             poster: /downloads/Papers/assets/anim/roysoc_murmuration_flash_poster.png
+          - label: Vacuole nucleation
+            url: /downloads/Papers/assets/anim/roysoc_murmuration_vacuole.gif
+            poster: /downloads/Papers/assets/anim/roysoc_murmuration_vacuole_poster.png
         abstract: >
             Backward reachable sets and tubes for differential games are characterized by Hamilton--Jacobi
             equations whose numerical solution becomes costly as state dimension increases. We study a
