@@ -3,7 +3,7 @@ publications:
   # ── SUBMITTED (descending year) ──────────────────────────────────────
   - items: 'Royal Society'
     paperitems:
-      - title: 'Sampling-based HJ Reachability'
+      - title: 'Cole–Hopf Solvers for Hamilton–Jacobi Reachability'
         location: downloads/Papers/roysoc.pdf
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
@@ -22,31 +22,21 @@ publications:
           - label: Double integrator
             url: /downloads/Papers/assets/anim/roysoc_double_integrator.gif
             poster: /downloads/Papers/assets/anim/roysoc_double_integrator_poster.png
-          - label: Cordon formation
-            url: /downloads/Papers/assets/anim/roysoc_murmuration_cordon.gif
-            poster: /downloads/Papers/assets/anim/roysoc_murmuration_cordon_poster.png
-          - label: Flock splitting
-            url: /downloads/Papers/assets/anim/roysoc_murmuration_splitting.gif
-            poster: /downloads/Papers/assets/anim/roysoc_murmuration_splitting_poster.png
-          - label: Flash expansion
-            url: /downloads/Papers/assets/anim/roysoc_murmuration_flash.gif
-            poster: /downloads/Papers/assets/anim/roysoc_murmuration_flash_poster.png
-          - label: Vacuole nucleation
-            url: /downloads/Papers/assets/anim/roysoc_murmuration_vacuole.gif
-            poster: /downloads/Papers/assets/anim/roysoc_murmuration_vacuole_poster.png
+          - label: Starling-inspired relative state
+            url: /downloads/Papers/assets/anim/roysoc_murmuration.gif
+            poster: /downloads/Papers/assets/anim/roysoc_murmuration_poster.png
+          - label: Nonlinear Monte Carlo Picard scaling
+            url: /downloads/Papers/assets/anim/roysoc_colehopf_scaling.gif
+            poster: /downloads/Papers/assets/anim/roysoc_colehopf_scaling_poster.png
         abstract: >
-            Backward reachable sets and tubes for differential games are characterized by Hamilton--Jacobi
-            equations whose numerical solution becomes costly as state dimension increases. We study a
-            generalized Cole--Hopf transformation of the Cauchy-type viscous HJ equation associated with
-            reachability while retaining both residual components. We term the resulting algorithm HJ-Gauss.
-            The transformed problem is a semilinear heat equation whose mild representation couples Gaussian
-            initial-condition and nonlinear source integrals. We derive its spatial gradient, establish
-            conditional finite-time convergence of source iteration on a positive invariant set, and obtain
-            a residual certificate by comparison. Multidimensional verification combines exact solutions,
-            direct HJ-Gauss integration, and independent discretizations of the same viscous equation for
-            control and pursuit--evasion problems. A starling-inspired 4D murmurations model supports
-            evaluation at $100{,}000$ states, with computations that assess discretization and population-query
-            accuracy.
+            A variable-coefficient Cole--Hopf transformation maps a viscous Hamilton--Jacobi equation to a
+            semilinear heat equation with a complete nonlinear source. Deterministic Fourier and finite-difference
+            solvers integrate the transformed field, while a depth-first nonlinear Monte Carlo Picard solver
+            evaluates individual states through nested Gaussian value-and-gradient updates. Measured dimensions
+            8--2,048 support grid-free point-query storage, but runtime grows rapidly with samples and Picard depth.
+            Same-viscosity comparisons cover rockets, Dubins vehicles, a double integrator, and a starling-inspired
+            relative-state model. The 100,000-state experiment queries one precomputed reduced field; it is not a
+            coupled population solve or a population-wide safety certificate.
   - items: 'ICRA-SimPairwise'
     paperitems:
       - title: 'Simultaneous Pairwise Reachability Filtering for Lifelong MAPF'
