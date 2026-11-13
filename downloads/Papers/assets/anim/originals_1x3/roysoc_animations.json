@@ -1,0 +1,106 @@
+{
+  "animations": [
+    {
+      "label": "Starlings validation",
+      "case": "murmuration",
+      "approximation_run": "murmuration_full_192_800_L6_c0.2_fd",
+      "reference_run": "murmuration_reference_192_800_L6_c0.2_fd",
+      "approximation_sha256": "693cad183ac011cef5bcbbf34dadb79bc3df54531a5bae0fa099431027e22e67",
+      "reference_sha256": "fa9d1db7c3974cb6ec2253c212fc85043c02a52ec0c6bf39e4e3b81ace385b32",
+      "times": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0
+      ],
+      "max_absolute_difference": 0.0006010372471305647,
+      "error_scale_max": 0.0006010372471305647,
+      "gif_sha256": "c8e267dd35c02b5f112a1d2565ad412a2d9fde0d587eb75a3ac5710d009178b8"
+    },
+    {
+      "label": "Double integrator",
+      "case": "double_integrator",
+      "approximation_run": "double_integrator_full_128_800_L6_c0.2",
+      "reference_run": "double_integrator_reference_128_800_L6_c0.2",
+      "approximation_sha256": "4bff914a838371f858ccfdcaa4b4607b483ea47ab283d86a18ca66f61f817e7b",
+      "reference_sha256": "ff8a05b719f6f21d121c4bd989bb7b9fdce00221beab2ba164b915e6507b2ed3",
+      "times": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "max_absolute_difference": 0.0020651423229171018,
+      "error_scale_max": 0.0020651423229171018,
+      "gif_sha256": "fed5681a1ec1f3c811ffd5016b399acaff4fbd90c6c463eab57f0f074ed238f9"
+    },
+    {
+      "label": "Dubins vehicles",
+      "case": "dubins_relative",
+      "approximation_run": "dubins_relative_full_224_400_L6_c0.2",
+      "reference_run": "dubins_relative_reference_224_400_L6_c0.2",
+      "approximation_sha256": "67285c4d4a4d8dd425e2b5619f37e03a7f6116b06627e093650c992df5eb44bb",
+      "reference_sha256": "3391efc5604b96be53c5d24916cd8693768172c3e979c43ee9249540e91f8e6d",
+      "times": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "max_absolute_difference": 0.000882543560419502,
+      "error_scale_max": 0.000882543560419502,
+      "gif_sha256": "16590da686183ad39a88f4495f52ed806cd4d6455a527412239a89a27173779d"
+    },
+    {
+      "label": "Rockets",
+      "case": "rockets",
+      "approximation_run": "rockets_full_160_400_L6_c0.2",
+      "reference_run": "rockets_reference_160_400_L6_c0.2",
+      "approximation_sha256": "bee9fdcdf07bff196bb1f7d8b8ac2c84ff51bf2bd533341a3757b75f9e1391db",
+      "reference_sha256": "1891a796c16b251c35c63e54038f25422b67ecca470dc5a5cd86d7d0ffc8a544",
+      "times": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "max_absolute_difference": 0.0028243426975780583,
+      "error_scale_max": 0.0028243426975780583,
+      "gif_sha256": "e4b1451e67bfb73cc504dcd326a4d7c4f4b2fcb592e4ec953889b14088febb11"
+    }
+  ],
+  "columns": [
+    "Ground truth",
+    "HJ-Gauss",
+    "Absolute error"
+  ],
+  "temporal_interpolation": false
+}
