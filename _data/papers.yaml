@@ -6,7 +6,7 @@ publications:
       - title: 'Sampling-based HJ Reachability'
         location: downloads/Papers/roysoc.pdf
         authors:
-          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, Venkatraman Renganathan, and Namhoon Cho.
         venue_web: 'https://royalsocietypublishing.org/rspa'
         venue: Proceedings of the Royal Society A - Mathematical, Physical, and Engineering Sciences.
         paper_status: Submitted
