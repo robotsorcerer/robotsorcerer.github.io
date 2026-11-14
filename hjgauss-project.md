@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "HJ-Gauss: Cole–Hopf Hamilton–Jacobi Reachability"
+title: "HJ-Gauss: Sampling-based HJ Reachability"
 permalink: hjgauss-project
 comments: false
 ---
@@ -23,7 +23,7 @@ long-form exposition.
 ---
 
 <a name="paper"></a>
-### Paper: Cole–Hopf Hamilton–Jacobi Reachability
+### Paper: Sampling-based HJ Reachability
 
 **Lekan Molu.** HJ-Gauss transformation theory, deterministic transformed-PDE validation, and
 measured nonlinear Monte Carlo Picard point-query scaling. The 100,000-state experiment evaluates
