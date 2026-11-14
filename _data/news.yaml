@@ -108,8 +108,7 @@ news_items:
           New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
           rel="noopener">Cole–Hopf-transformed HJ equation for reachability analysis with
           deterministic and nonlinear Monte Carlo Picard solvers</a>.
-          ✅ Scalable runtime safety assurance with grid-free solutions. Runtime grows with
-          the number of samples and Picard depth.
+          ✅ Scalable runtime safety assurance with grid-free solutions.
           ✅ Validation on modified
           <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
           chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, and 100,000
@@ -117,7 +116,7 @@ news_items:
           murmuration emergent behavior</a> analyzed as a union of all murmuration flocks'
           value functions.
         highlight: true
-        date: Nov 2, 2026
+        date: Oct 2, 2026
   - items: 'ReachFilterICRA'
     sortdate: 2026-10-19
     subnewsitems:
