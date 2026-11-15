@@ -128,11 +128,11 @@ news_items:
     sortdate: 2026-10-05
     subnewsitems:
       - content: 'An <a href="downloads/Papers/learned_nash.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in some convex games. 
-                  TL;DR: A game's learned response map possesses the exploitability for amortizing its mismatch from the original game from which it is learned over a certified 
-                  region -- the subset of the joint action space of all players. We numerically verify the limits of this exploitability.'
+                  TL;DR: A game's learned response map possesses the exploitability for amortizing its mismatch from the original game from which it is learned. This exploitability can 
+                  amortized over a certified region such as the subset of the joint action space of all players. We numerically verify the limits of this exploitability.'
         summary: 'An <a href="downloads/Papers/learned_nash.pdf" target=_blank>amortized exploitability certificate</a> for fixed points of learned response maps in some convex games. 
-                  TL;DR: A game's learned response map possesses the exploitability for amortizing its mismatch from the original game from which it is learned over a certified 
-                  region -- the subset of the joint action space of all players. We numerically verify the limits of this exploitability.'
+                  TL;DR: A game's learned response map possesses the exploitability for amortizing its mismatch from the original game from which it is learned. This exploitability can 
+                  amortized over a certified region such as the subset of the joint action space of all players. We numerically verify the limits of this exploitability.'
         highlight: true
         date: 'Oct 05, 2026'
   - items: 'RobodiffBlog'
