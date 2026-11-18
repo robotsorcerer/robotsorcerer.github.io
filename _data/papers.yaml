@@ -1,6 +1,43 @@
 publications:
-
   # ── SUBMITTED (descending year) ──────────────────────────────────────
+  - items: 'PNASColeHopfSolvers'
+    paperitems:
+      - title: 'Cole–Hopf Transformed Solvers for Viscous Hamilton–Jacobi Reachability'
+        location: downloads/Papers/colehopf.pdf
+        authors:
+          - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
+        venue_web: 'https://www.pnas.org/'
+        venue: Proceedings of the National Academy of Sciences (PNAS).
+        paper_status: Submitted
+        year: 2026
+        thumbnail: /assets/thumbs/pnas-colehopf.svg
+        animations:
+          - label: Rocket launch pursuit-evasion
+            url: /downloads/Papers/assets/anim/colehopf_rockets.gif
+            poster: /downloads/Papers/assets/anim/colehopf_rockets_poster.png
+          - label: Dubins vehicles
+            url: /downloads/Papers/assets/anim/colehopf_dubins.gif
+            poster: /downloads/Papers/assets/anim/colehopf_dubins_poster.png
+          - label: Double integrator
+            url: /downloads/Papers/assets/anim/colehopf_double_integrator.gif
+            poster: /downloads/Papers/assets/anim/colehopf_double_integrator_poster.png
+          - label: Starling-inspired relative state
+            url: /downloads/Papers/assets/anim/colehopf_murmuration.gif
+            poster: /downloads/Papers/assets/anim/colehopf_murmuration_poster.png
+        abstract: >
+            Viscous Hamilton--Jacobi (HJ) equations provide regularized value fields for
+            backward reachability; however, their nonlinear gradient terms complicate numerical
+            integration. We apply a variable-coefficient Cole--Hopf transformation that maps
+            the viscous HJ equation to a semilinear heat equation.  We integrate the complete
+            transformed equation with periodic Fourier collocation and exponential Runge--Kutta
+            time stepping, and with an independent fourth-order finite-difference scheme.
+            Analytic solutions, grid and time refinement, coefficient variation, domain extension,
+            and sampled equation residuals assess the numerical implementation. Rockets,
+            relative-Dubins vehicles, a double integrator, and a starling-inspired relative-state
+            model yield maximum sampled discrepancies between $5.60\times10^{-4}$ and $3.223\times10^{-3}$
+            against the corresponding reference fields. The resulting zero-sublevel geometries provide
+            numerical topology diagnostics rather than continuum safety certificates. These experiments
+            validate the transformed deterministic solvers on the stated grids.
   - items: 'Royal Society'
     paperitems:
       - title: 'Sampling-based HJ Reachability'

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Cole–Hopf transformed solvers</title>
+  <desc id="desc">PNAS-branded conceptual thumbnail showing a Cole–Hopf transformation and comparisons between reference and transformed Hamilton–Jacobi value fields.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082b4b"/>
+      <stop offset="1" stop-color="#0e1826"/>
+    </linearGradient>
+    <radialGradient id="fieldA" cx="42%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#f4c95d"/>
+      <stop offset=".42" stop-color="#ef7d51"/>
+      <stop offset=".72" stop-color="#8150a2"/>
+      <stop offset="1" stop-color="#183a69"/>
+    </radialGradient>
+    <radialGradient id="fieldB" cx="44%" cy="46%" r="70%">
+      <stop offset="0" stop-color="#f7d36e"/>
+      <stop offset=".43" stop-color="#ed8056"/>
+      <stop offset=".73" stop-color="#8053a4"/>
+      <stop offset="1" stop-color="#183a69"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .contour { fill: none; stroke: #f8fbff; stroke-width: 1.15; opacity: .9; }
+    .arrow { stroke-dasharray: 3 4; }
+  </style>
+
+  <rect width="200" height="240" fill="url(#bg)"/>
+
+  <!-- PNAS masthead used as a quiet background mark. -->
+  <g fill="#294763" font-family="Arial, Helvetica, sans-serif">
+    <text x="100" y="48" text-anchor="middle" font-size="40" font-weight="800" letter-spacing="2">PNAS</text>
+    <path d="M24 54H176" stroke="#294763" stroke-width="2"/>
+    <text x="100" y="64" text-anchor="middle" font-size="4.8" font-weight="700" letter-spacing=".45">PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="100" y="78" fill="#dcecff" font-size="9" font-weight="700" letter-spacing="1.05">COLE–HOPF SOLVERS</text>
+    <rect x="25" y="84" width="150" height="25" rx="12.5" fill="#112f4b" stroke="#62dfc3" stroke-width="1"/>
+    <text x="100" y="101" fill="#f5fbff" font-family="Georgia, serif" font-size="12" font-style="italic">v  ↦  ω = exp(−v/δ)</text>
+
+    <text x="53" y="119" fill="#a9bdd0" font-size="6.7" font-weight="700" letter-spacing=".7">REFERENCE</text>
+    <text x="147" y="119" fill="#a9bdd0" font-size="6.7" font-weight="700" letter-spacing=".7">TRANSFORMED</text>
+  </g>
+
+  <rect x="18" y="123" width="70" height="51" rx="5" fill="url(#fieldA)" stroke="#7fa8c8"/>
+  <g class="reference">
+    <ellipse class="contour" cx="52" cy="148" rx="30" ry="19"/>
+    <ellipse class="contour" cx="52" cy="148" rx="21" ry="13"/>
+    <ellipse class="contour" cx="52" cy="148" rx="11" ry="7"/>
+  </g>
+
+  <path class="arrow" d="M92 149H106" fill="none" stroke="#62dfc3" stroke-width="1.6"/>
+  <path d="M102 145l5 4-5 4" fill="none" stroke="#62dfc3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="112" y="123" width="70" height="51" rx="5" fill="url(#fieldB)" stroke="#7fa8c8"/>
+  <g class="transformed">
+    <ellipse class="contour" cx="146" cy="148" rx="30" ry="19"/>
+    <ellipse class="contour" cx="146" cy="148" rx="21" ry="13"/>
+    <ellipse class="contour" cx="146" cy="148" rx="11" ry="7"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="100" y="193" fill="#62dfc3" font-size="7.5" font-weight="700" letter-spacing=".55">FOURIER • FINITE DIFFERENCE</text>
+    <g class="error">
+      <rect x="42" y="201" width="116" height="22" rx="11" fill="#1b3852" stroke="#f4c95d" stroke-width=".9"/>
+      <text x="100" y="215.5" fill="#fff4cd" font-size="8.5" font-weight="700">max error ≤ 3.3 × 10⁻³</text>
+    </g>
+    <text x="100" y="234" fill="#829ab0" font-size="5.5" letter-spacing=".65">VISCOUS HAMILTON–JACOBI REACHABILITY</text>
+  </g>
+</svg>
