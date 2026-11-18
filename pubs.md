@@ -3,6 +3,7 @@ layout: post
 permalink: pubs
 ---
 
+<br>
 <div class="pubs-copyright">
 © {{ "now" | date: "%Y" }} IEEE. Personal use of the IEEE materials here is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of these works in other works.
 </div>
