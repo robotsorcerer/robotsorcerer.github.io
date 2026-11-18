@@ -84,7 +84,7 @@ publications:
   - items: 'ICLR-NashLearn'
     paperitems:
       - title: 'Amortized Exploitability Certificates for Learned Response Equilibria'
-        location: downloads/Papers/iclr27.pdf
+        location: downloads/Papers/learned_nash.pdf
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
         venue_web: 'https://iclr.cc/'
