@@ -1,8 +1,5 @@
 
-<h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet</h4>
-
-_(“Though this be madness, yet there is method in’t.” ~ Hamlet.)_
-<br>
+<h4 class="cv-h"><i class="fa fa-user"></i> Bio Snippet (“Though this be madness, yet there is method in’t.” ~ Hamlet).</h4>
 <div style="position: relative; margin-bottom: 1.5rem; background: url(/assets/research-bg.jpg) center/cover no-repeat; min-height: 280px; border-radius: 0.5rem; overflow: hidden;">
   <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.55) 100%);"></div>
   
