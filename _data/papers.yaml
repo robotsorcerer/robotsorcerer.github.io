@@ -27,16 +27,18 @@ publications:
         abstract: >
             Viscous Hamilton--Jacobi (HJ) equations provide regularized value functions for
             backward reachability, but their nonlinear gradient terms complicate numerical
-            integration. We apply a variable-coefficient Cole--Hopf transformation that maps
-            the viscous HJ equation to a semilinear heat equation and integrate the transformed
-            equation with periodic Fourier collocation and exponential Runge--Kutta time stepping.
+            integration. We derive a variable-coefficient Cole--Hopf transformation that maps
+            the viscous HJ equation to a semilinear heat equation with a complete nonlinear source.
+            We integrate that equation by periodic Fourier collocation and exponential Runge--Kutta time stepping.
             A Fourier update costs $O(dM\log M)$ operations, compared with $O(dM)$ for a local
-            level-set stencil, but exponential integration removes the explicit diffusion limit
+            level-set stencil, but exponential integration removes the explicit diffusion restriction
             $\Delta t=O(h^2/\delta)$. Both methods retain the tensor-grid cost
-            $M=\prod_{i=1}^{d}N_i$. Analytic solutions, refinement studies, coefficient variation,
-            domain extension, and sampled residuals assess the implementation. The maximum sampled
-            reference discrepancies across the reported benchmarks range from
-            $5.60\times10^{-4}$ to $3.223\times10^{-3}$.
+            $M=\prod_{i=1}^{d}N_i$. Analytical solutions, grid and time refinement, coefficient variation,
+            domain extension, and sampled equation residuals test the implementation. At the terminal
+            horizons, maximum sampled discrepancies from separately evolved original-equation references
+            range from $5.60\times10^{-4}$ to $3.223\times10^{-3}$. These experiments validate the stated
+            deterministic discretizations on finite periodic grids; they do not establish
+            dimension-independent complexity or inviscid reachability certificates.
   - items: 'Royal Society'
     paperitems:
       - title: 'Sampling-based HJ Reachability'
