@@ -86,7 +86,7 @@ news_items:
           rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
           Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
           maps the viscous HJ equation to a semilinear heat equation, which is integrated with
-          deterministic Fourier and finite-difference solvers. Same-viscosity comparisons give
+          deterministic Fourier and finite-difference solvers. Reference comparisons using the same viscosity parameter give
           maximum sampled reference discrepancies below <b>3.3×10⁻³</b> across the reported benchmarks.
           The Fourier solver removes the explicit diffusion time-step restriction, while retaining
           the tensor-grid representation. Animations:
@@ -105,7 +105,7 @@ news_items:
           New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
           rel="noopener">Cole–Hopf-transformed deterministic solvers for viscous HJ reachability</a>.
           ✅ Fourier and finite-difference integration of the complete transformed equation.
-          ✅ Same-viscosity validation on modified
+          ✅ Reference validation using the same viscosity parameter on modified
           <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
           chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, a double integrator,
           and starling-inspired relative-state geometry.
