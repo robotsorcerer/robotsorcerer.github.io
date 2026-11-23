@@ -82,15 +82,14 @@ news_items:
       # phase space by studying their collective value function.
       #
       - content: >-
-          ✨ New preprint: Towards scalability of guaranteed runtime safety assurance on dynamical systems,
-          check out this new <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-          rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf-based transformation of the
-          Hamilton–Jacobi Reachability</b></a> comnputational scheme. Numerically validated with deterministic PDE solvers,
-          it shows little discrepancy from  classical levelset methods --- up to
-          within <b>3.3×10⁻³</b> pointwise precision on the value function field across tested benchmarks.
-          This scheme works with a depth-first nonlinear
-          Monte Carlo Picard implementation which evaluates states without a tensor grid.
-          This supports grid-free point-query storage. Animations on modified homicidal chauffeur differential games:
+          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
+          Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
+          maps the viscous HJ equation to a semilinear heat equation, which is integrated with
+          deterministic Fourier and finite-difference solvers. Same-viscosity comparisons give
+          maximum sampled reference discrepancies below <b>3.3×10⁻³</b> across the reported benchmarks.
+          The Fourier solver removes the explicit diffusion time-step restriction, while retaining
+          the tensor-grid representation. Animations:
           <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank"
           rel="noopener">Rockets Launch on a plane</a> ·
           <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank"
@@ -98,23 +97,18 @@ news_items:
           <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif"
           target="_blank" rel="noopener">Double integrator</a> time-to-reach-the-origin terminal OC problem·
           <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif"
-          target="_blank" rel="noopener">Starling-inspired multi-agent murmuration geometry</a> ·
-          <a href="/downloads/Papers/assets/anim/roysoc_colehopf_scaling.gif"
-          target="_blank" rel="noopener">Monte Carlo scaling</a>. The
+          target="_blank" rel="noopener">Starling-inspired geometry</a>. The
           <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/cole-hopf"
           target="_blank" rel="noopener">implementation and benchmark records</a> are
           open source.
         summary: >-
           New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-          rel="noopener">Cole–Hopf-transformed HJ equation for reachability analysis with
-          deterministic and nonlinear Monte Carlo Picard solvers</a>.
-          ✅ Scalable runtime safety assurance with grid-free solutions.
-          ✅ Validation on modified
+          rel="noopener">Cole–Hopf-transformed deterministic solvers for viscous HJ reachability</a>.
+          ✅ Fourier and finite-difference integration of the complete transformed equation.
+          ✅ Same-viscosity validation on modified
           <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
-          chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, and 100,000
-          <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.0711437105">Starlings
-          murmuration emergent behavior</a> analyzed as a union of all murmuration flocks'
-          value functions.
+          chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, a double integrator,
+          and starling-inspired relative-state geometry.
         highlight: true
         date: Oct 2, 2026
   - items: 'ReachFilterICRA'
