@@ -59,7 +59,7 @@ permalink: pubs
         <span class="pub-badge badge-submitted">Under Review</span>
         {% if paper.code %}
           <a href="{{ paper.code }}" target="_blank" rel="noopener" class="pub-badge badge-report">
-            <i class="fa fa-code" aria-hidden="true"></i> Code
+            <i class="fa fa-github fa-fw" aria-hidden="true"></i> Code
           </a>
         {% endif %}
       </div>
