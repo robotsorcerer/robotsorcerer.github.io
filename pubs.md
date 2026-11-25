@@ -57,6 +57,14 @@ permalink: pubs
       <div class="pub-meta-row">
         <span class="pub-year">{{ paper.year }}</span>
         <span class="pub-badge badge-submitted">Under Review</span>
+        {% if paper.code %}
+          <a href="{{ paper.code }}" target="_blank" rel="noopener" class="pub-badge badge-report">
+            <i class="fa fa-code" aria-hidden="true"></i> Code
+          </a>
+        {% endif %}
+      </div>
+      {% if paper.animations %}
+      <div class="pub-animation-row" aria-label="Animations for {{ paper.title | escape }}">
         {% for animation in paper.animations %}
           <a class="pub-animation-link" href="{{ animation.url | relative_url }}" target="_blank" rel="noopener" aria-label="View {{ animation.label | escape }} animation (opens in a new tab)">
             <picture>
@@ -67,6 +75,7 @@ permalink: pubs
           </a>
         {% endfor %}
       </div>
+      {% endif %}
       {% if paper.abstract %}
         <div class="pub-abstract-btn" onclick="this.classList.toggle('is-open'); this.nextElementSibling.classList.toggle('is-open');">
           <i class="fa fa-chevron-down"></i> Abstract

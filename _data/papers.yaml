@@ -4,6 +4,7 @@ publications:
     paperitems:
       - title: 'Cole–Hopf Transformed Solvers for Viscous Hamilton–Jacobi Reachability'
         location: downloads/Papers/colehopf.pdf
+        code: 'https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/cole-hopf'
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>.
         venue_web: 'https://www.pnas.org/'
@@ -43,6 +44,7 @@ publications:
     paperitems:
       - title: 'Sampling-based HJ Reachability'
         location: downloads/Papers/roysoc.pdf
+        code: 'https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/hjgauss'
         authors:
           - <b><a href="https://scriptedonachip.com/">Lekan Molu</a></b>, Venkatraman Renganathan, and Namhoon Cho.
         venue_web: 'https://royalsocietypublishing.org/rspa'

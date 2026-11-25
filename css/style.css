@@ -377,6 +377,16 @@ a:visited { color: #1558a0; }
 .badge-oral { background: #ede9fe; color: #4c1d95; border: 1px solid #c4b5fd; }
 .badge-report { background: #f0f9ff; color: #0c4a6e; border: 1px solid #bae6fd; }
 
+.pub-animation-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
 .pub-animation-link {
   display: inline-flex;
   flex-direction: column;

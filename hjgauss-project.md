@@ -29,7 +29,7 @@ long-form exposition.
 measured nonlinear Monte Carlo Picard point-query scaling. The 100,000-state experiment evaluates
 one precomputed reduced field and is not a coupled population solve.
 
-<a class="btn" href="{{ site.baseurl }}/downloads/Papers/hjgauss.pdf" target="_blank" rel="noopener noreferrer">Open the 28-page PDF</a>
+<a class="btn" href="{{ site.baseurl }}/downloads/Papers/hjgauss.pdf" target="_blank" rel="noopener noreferrer">Open the paper</a>
 
 <div class="pdf-embed-wrap">
   <embed src="{{ site.baseurl }}/downloads/Papers/hjgauss.pdf" type="application/pdf" width="100%" height="700px" />
@@ -117,7 +117,9 @@ concentration proof in the appendices), the actual solver code, and the validate
 
 ---
 
-**Code:** <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/cole-hopf" target="_blank" rel="noopener noreferrer">github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/cole-hopf</a>
+**Code:** <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/hjgauss" target="_blank" rel="noopener noreferrer">HJ-Gauss Monte Carlo evaluator</a>
+&middot;
+<a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/cole-hopf" target="_blank" rel="noopener noreferrer">Cole–Hopf deterministic solvers</a>
 
 <style>
 .pdf-embed-wrap { margin: 1em 0 2em 0; border: 1px solid #ddd; }

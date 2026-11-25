@@ -29,7 +29,7 @@ news_items:
           time-to-reach-the-origin problem</a> · and the European starlings'
           <a href="/downloads/Papers/assets/anim/roysoc_murmuration_cordon.gif"
           target="_blank" rel="noopener">murmuration cordon formation</a>. The
-          <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/monte_carlo"
+          <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/hjgauss"
           target="_blank" rel="noopener">sampling implementation and validation
           code</a> are open source.
         summary: >-
@@ -99,7 +99,7 @@ news_items:
           target="_blank" rel="noopener">Double integrator</a> time-to-reach-the-origin terminal OC problem·
           <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif"
           target="_blank" rel="noopener">Starling-inspired geometry</a>. The
-          <a href="https://github.com/robotsorcerer/levelsetpy/tree/colehopf-fig5-reconciliation/levelsetpy/monte_carlo"
+          <a href="https://github.com/robotsorcerer/levelsetpy/tree/main/levelsetpy/cole-hopf"
           target="_blank" rel="noopener">implementation and benchmark records</a> are
           open source.
         summary: >-
