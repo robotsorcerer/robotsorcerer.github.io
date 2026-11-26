@@ -104,7 +104,7 @@ news_items:
           target="_blank" rel="noopener">sampling implementation and validation
           code</a> are open source.
         summary: >-
-          ✨ New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
+          New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
           overapproximation algorithm for runtime safety assurance in autonomous systems. Comes with quasilinearization of the nonlinear, 
           time-dependent variational Hamilton-Jacobi-Isaacs equation, convergence and robustness analyses, and safety certification. Also,
           generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, 
