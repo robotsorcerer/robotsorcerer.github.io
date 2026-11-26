@@ -65,9 +65,9 @@ publications:
           - label: Starling-inspired relative state
             url: /downloads/Papers/assets/anim/roysoc_murmuration.gif
             poster: /downloads/Papers/assets/anim/roysoc_murmuration_poster.png
-          - label: Nonlinear Monte Carlo Picard scaling
-            url: /downloads/Papers/assets/anim/roysoc_colehopf_scaling.gif
-            poster: /downloads/Papers/assets/anim/roysoc_colehopf_scaling_poster.png
+          # - label: Nonlinear Monte Carlo Picard scaling
+          #   url: /downloads/Papers/assets/anim/roysoc_colehopf_scaling.gif
+          #   poster: /downloads/Papers/assets/anim/roysoc_colehopf_scaling_poster.png
         abstract: >
             A variable-coefficient Cole--Hopf transformation maps a viscous Hamilton--Jacobi equation to a
             semilinear heat equation with a complete nonlinear source. Deterministic Fourier and finite-difference
