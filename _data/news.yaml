@@ -1,5 +1,76 @@
 news_items:
+  - items: 'HJGauss_NeurIPS26'
+    sortdate: 2026-11-25
+    subnewsitems:
+      # Former summary, retained here for manual editing:
+      # - content: >-
+      #     ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+      #     rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
+      #     Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
+      #     maps the viscous HJ equation to a semilinear heat equation, which is integrated with
+      #     deterministic Fourier and finite-difference solvers. At the terminal horizons, reference
+      #     comparisons using the same viscosity parameter give maximum sampled discrepancies below
+      #     <b>3.3×10⁻³</b> across the reported benchmarks.
+      #     The Fourier solver removes the explicit diffusion time-step restriction, while retaining
+      #     the tensor-grid representation. Animations:
+      #     <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank"
+      #     rel="noopener">Rockets Launch on a plane</a> ·
+      #     <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank"
+      #     rel="noopener">Dubins vehicles pursuit-evasion game</a> ·
+      #     <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif"
+      #     target="_blank" rel="noopener">Double integrator</a> time-to-reach-the-origin terminal OC problem·
+      #     <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif"
+      #     target="_blank" rel="noopener">Starling-inspired geometry</a>. The
+      #     <a href="https://github.com/robotsorcerer/levelsetpy/tree/colehopf-fig5-reconciliation/levelsetpy/monte_carlo"
+      #     target="_blank" rel="noopener">implementation and benchmark records</a> are
+      #     open source.
 
+      - content: >-
+          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
+          Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
+          maps the viscous HJ equation to a semilinear heat equation, which is integrated with
+          deterministic Fourier and finite-difference solvers. Ours is a generalized transform in the 
+          form of a variable-coefficient Cole–Hopf transformation for the viscous Hamilton–Jacobi (HJ) 
+          equation arising in backward reachability analysis. Classical Cole–Hopf transforms are restricted 
+          to constant-coefficient Burgers-type equations; extending it to a variable-coefficient, fully 
+          nonlinear-source setting is a non-trivial generalization with implications beyond the reachability 
+          application. It reduces a genuinely nonlinear PDE (gradient-nonlinear HJ) to a semilinear heat equation, 
+          dramatically easier to discretize and integrate numerically. Our article removes a structural numerical 
+          bottleneck in resolving these types of PDEs. By transforming away the nonlinear gradient term, it enables 
+          Fourier collocation and exponential Runge–Kutta time-stepping, removing the restrictive diffusive timestep 
+          constraint (Δt = O(h²/δ)) that plagues explicit level-set solvers. This is a concrete, quantifiable 
+          complexity benefit (O(dM log M) vs. O(dM) per step, but without the step-size restriction) — a cross-disciplinary 
+          numerical-PDE contribution. Although framed in terms of 
+          safety reachability (relevant to autonomy/robotics/aerospace), the underlying transform-and-solve technique 
+          is a general tool for any HJ-type PDE with nonlinear gradient terms — a problem class spanning optimal control, 
+          mean-field games, and stochastic control.
+        # summary: >-
+        #   New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+        #   rel="noopener">Cole–Hopf-transformed deterministic solvers for viscous HJ reachability</a>.
+        #   ✅ Fourier and finite-difference integration of the complete transformed equation.
+        #   ✅ Reference validation using the same viscosity parameter on modified
+        #   <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
+        #   chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, a double integrator,
+        #   and starling-inspired relative-state geometry.
+        summary: >-
+          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          rel="noopener" style="color: #4FC3F7; font-weight: 400;">Cole–Hopf Transformed Solvers for
+          Viscous Hamilton–Jacobi Reachability</a>. A variable-coefficient Cole–Hopf transformation
+          maps a viscous HJ equation to a semilinear heat equation arising in backward reachability analysis. 
+          While classical Cole–Hopf transforms are restricted to constant-coefficient Burgers-type equations; I 
+          extended it to a variable-coefficient in a non-trivial nonlinear-source generalization with implications 
+          beyond reachability analysis. It is dramatically easier to discretize and integrate numerically. 
+          This removes a structural numerical bottleneck in resolving these types of PDEs as it enables 
+          Fourier collocation and exponential Runge–Kutta time-stepping, removing the restrictive diffusive timestep 
+          constraint (Δt = O(h²/δ)) that plagues explicit level-set solvers. With a quantifiable 
+          complexity benefit of O(dM log M) vs. O(dM) per step, and without the step-size restriction, this is a cross-disciplinary 
+          numerical-PDE contribution. While framed in terms of  safety reachability (relevant to autonomy/robotics/aerospace), 
+          the underlying transform-and-solve technique is a general tool for any HJ-type PDE with nonlinear gradient terms 
+          — a problem class spanning optimal control, 
+          mean-field games, and stochastic control.
+        highlight: true
+        date: Nov 25, 2026
   - items: 'Picard_RoySoc'
     sortdate: 2026-11-02
     subnewsitems:
@@ -33,7 +104,7 @@ news_items:
           target="_blank" rel="noopener">sampling implementation and validation
           code</a> are open source.
         summary: >-
-          New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
+          ✨ New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
           overapproximation algorithm for runtime safety assurance in autonomous systems. Comes with quasilinearization of the nonlinear, 
           time-dependent variational Hamilton-Jacobi-Isaacs equation, convergence and robustness analyses, and safety certification. Also,
           generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, 
@@ -46,72 +117,6 @@ news_items:
           over a shared phase space by studying their collective value function, modeled via topological nearest neighbor rules.
         highlight: true
         date: Nov 13, 2026
-  - items: 'HJGauss_NeurIPS26'
-    sortdate: 2026-11-02
-    subnewsitems:
-      # Former summary, retained here for manual editing:
-      #
-      # New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank"
-      # rel="noopener">sampling-based reachability</a> overapproximation algorithm for
-      # runtime safety assurance in autonomous systems. Comes with quasilinearization of
-      # the nonlinear, time-dependent variational Hamilton-Jacobi-Isaacs equation,
-      # convergence and robustness analyses, and safety certification. See also:
-      # generalized-viscosity solutions validation on modified
-      # <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
-      # chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, and 100,000
-      # <a href="https://www.pnas.org/doi/pdf/10.1073/pnas.0711437105"
-      # target=_blank>European Starlings' murmuration emergent behavior</a> analyzed as a
-      # union of all murmuration flocks' value functions. Check out the value-function
-      # benchmarks against levelset methods on
-      # <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank"
-      # rel="noopener">homicidal chauffeur pursuit-evasion rockets</a>,
-      # <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank"
-      # rel="noopener">Dubins vehicles territorial-defense problems</a>, and the
-      # <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif"
-      # target="_blank" rel="noopener">double-integrator time-to-reach-the-origin
-      # problem</a>. For collective behavior observed in the murmuration of Starlings,
-      # we translate the topological rules governing
-      # <a href="/downloads/Papers/assets/anim/roysoc_murmuration_cordon.gif"
-      # target="_blank" rel="noopener">cordon formation</a>,
-      # <a href="/downloads/Papers/assets/anim/roysoc_murmuration_splitting.gif"
-      # target="_blank" rel="noopener">flock splitting</a>,
-      # <a href="/downloads/Papers/assets/anim/roysoc_murmuration_flash.gif"
-      # target="_blank" rel="noopener">flash expansion</a>, and
-      # <a href="/downloads/Papers/assets/anim/roysoc_murmuration_vacuole.gif"
-      # target="_blank" rel="noopener">vacuole nucleation</a> events over a shared
-      # phase space by studying their collective value function.
-      #
-      - content: >-
-          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-          rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
-          Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
-          maps the viscous HJ equation to a semilinear heat equation, which is integrated with
-          deterministic Fourier and finite-difference solvers. At the terminal horizons, reference
-          comparisons using the same viscosity parameter give maximum sampled discrepancies below
-          <b>3.3×10⁻³</b> across the reported benchmarks.
-          The Fourier solver removes the explicit diffusion time-step restriction, while retaining
-          the tensor-grid representation. Animations:
-          <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank"
-          rel="noopener">Rockets Launch on a plane</a> ·
-          <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank"
-          rel="noopener">Dubins vehicles pursuit-evasion game</a> ·
-          <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif"
-          target="_blank" rel="noopener">Double integrator</a> time-to-reach-the-origin terminal OC problem·
-          <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif"
-          target="_blank" rel="noopener">Starling-inspired geometry</a>. The
-          <a href="https://github.com/robotsorcerer/levelsetpy/tree/colehopf-fig5-reconciliation/levelsetpy/monte_carlo"
-          target="_blank" rel="noopener">implementation and benchmark records</a> are
-          open source.
-        summary: >-
-          New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-          rel="noopener">Cole–Hopf-transformed deterministic solvers for viscous HJ reachability</a>.
-          ✅ Fourier and finite-difference integration of the complete transformed equation.
-          ✅ Reference validation using the same viscosity parameter on modified
-          <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
-          chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, a double integrator,
-          and starling-inspired relative-state geometry.
-        highlight: true
-        date: Oct 2, 2026
   - items: 'ReachFilterICRA'
     sortdate: 2026-10-19
     subnewsitems:
