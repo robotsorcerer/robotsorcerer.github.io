@@ -8,67 +8,55 @@ news_items:
       #     rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
       #     Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
       #     maps the viscous HJ equation to a semilinear heat equation, which is integrated with
-      #     deterministic Fourier and finite-difference solvers. At the terminal horizons, reference
-      #     comparisons using the same viscosity parameter give maximum sampled discrepancies below
-      #     <b>3.3×10⁻³</b> across the reported benchmarks.
-      #     The Fourier solver removes the explicit diffusion time-step restriction, while retaining
-      #     the tensor-grid representation. Animations:
-      #     <a href="/downloads/Papers/assets/anim/roysoc_rockets.gif" target="_blank"
-      #     rel="noopener">Rockets Launch on a plane</a> ·
-      #     <a href="/downloads/Papers/assets/anim/roysoc_dubins.gif" target="_blank"
-      #     rel="noopener">Dubins vehicles pursuit-evasion game</a> ·
-      #     <a href="/downloads/Papers/assets/anim/roysoc_double_integrator.gif"
-      #     target="_blank" rel="noopener">Double integrator</a> time-to-reach-the-origin terminal OC problem·
-      #     <a href="/downloads/Papers/assets/anim/roysoc_murmuration.gif"
-      #     target="_blank" rel="noopener">Starling-inspired geometry</a>. The
-      #     <a href="https://github.com/robotsorcerer/levelsetpy/tree/colehopf-fig5-reconciliation/levelsetpy/monte_carlo"
-      #     target="_blank" rel="noopener">implementation and benchmark records</a> are
-      #     open source.
-
+      #     deterministic Fourier and finite-difference solvers. Ours is a generalized transform in the 
+      #     form of a variable-coefficient Cole–Hopf transformation for the viscous Hamilton–Jacobi (HJ) 
+      #     equation arising in backward reachability analysis. Classical Cole–Hopf transforms are restricted 
+      #     to constant-coefficient Burgers-type equations; extending it to a variable-coefficient, fully 
+      #     nonlinear-source setting is a non-trivial generalization with implications beyond the reachability 
+      #     application. It reduces a genuinely nonlinear PDE (gradient-nonlinear HJ) to a semilinear heat equation, 
+      #     dramatically easier to discretize and integrate numerically. Our article removes a structural numerical 
+      #     bottleneck in resolving these types of PDEs. By transforming away the nonlinear gradient term, it enables 
+      #     Fourier collocation and exponential Runge–Kutta time-stepping, removing the restrictive diffusive timestep 
+      #     constraint (Δt = O(h²/δ)) that plagues explicit level-set solvers. This is a concrete, quantifiable 
+      #     complexity benefit (O(dM log M) vs. O(dM) per step, but without the step-size restriction) — a cross-disciplinary 
+      #     numerical-PDE contribution. Although framed in terms of 
+      #     safety reachability (relevant to autonomy/robotics/aerospace), the underlying transform-and-solve technique 
+      #     is a general tool for any HJ-type PDE with nonlinear gradient terms — a problem class spanning optimal control, 
+      #     mean-field games, and stochastic control.
       - content: >-
-          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-          rel="noopener" style="color: #4FC3F7; font-weight: 600;"><b>Cole–Hopf Transformed Solvers for
-          Viscous Hamilton–Jacobi Reachability</b></a>. A variable-coefficient Cole–Hopf transformation
-          maps the viscous HJ equation to a semilinear heat equation, which is integrated with
-          deterministic Fourier and finite-difference solvers. Ours is a generalized transform in the 
-          form of a variable-coefficient Cole–Hopf transformation for the viscous Hamilton–Jacobi (HJ) 
-          equation arising in backward reachability analysis. Classical Cole–Hopf transforms are restricted 
-          to constant-coefficient Burgers-type equations; extending it to a variable-coefficient, fully 
-          nonlinear-source setting is a non-trivial generalization with implications beyond the reachability 
-          application. It reduces a genuinely nonlinear PDE (gradient-nonlinear HJ) to a semilinear heat equation, 
-          dramatically easier to discretize and integrate numerically. Our article removes a structural numerical 
-          bottleneck in resolving these types of PDEs. By transforming away the nonlinear gradient term, it enables 
-          Fourier collocation and exponential Runge–Kutta time-stepping, removing the restrictive diffusive timestep 
-          constraint (Δt = O(h²/δ)) that plagues explicit level-set solvers. This is a concrete, quantifiable 
-          complexity benefit (O(dM log M) vs. O(dM) per step, but without the step-size restriction) — a cross-disciplinary 
-          numerical-PDE contribution. Although framed in terms of 
-          safety reachability (relevant to autonomy/robotics/aerospace), the underlying transform-and-solve technique 
-          is a general tool for any HJ-type PDE with nonlinear gradient terms — a problem class spanning optimal control, 
-          mean-field games, and stochastic control.
-        # summary: >-
-        #   New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-        #   rel="noopener">Cole–Hopf-transformed deterministic solvers for viscous HJ reachability</a>.
-        #   ✅ Fourier and finite-difference integration of the complete transformed equation.
-        #   ✅ Reference validation using the same viscosity parameter on modified
-        #   <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
-        #   chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, a double integrator,
-        #   and starling-inspired relative-state geometry.
+          New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          rel="noopener">Cole–Hopf-transformed solvers for viscous HJ PDEs</a> with applications to (and beyond) reachability analysis.
+          ✅ Fourier and finite-difference integration of the transformed PDE.
+          ✅ Reference validation on modified
+          <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
+          chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, <a href="https://liberzon.csl.illinois.edu/teaching/cvoc/node85.html">
+          a double integrator time-to-reach-the-origin problem</a>,
+          and starling-inspired geometic formations: cordon, flash expansion, vacuole nucleation, and flock splitting.
         summary: >-
-          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
-          rel="noopener" style="color: #4FC3F7; font-weight: 400;">Cole–Hopf Transformed Solvers for
-          Viscous Hamilton–Jacobi Reachability</a>. A variable-coefficient Cole–Hopf transformation
-          maps a viscous HJ equation to a semilinear heat equation arising in backward reachability analysis. 
-          While classical Cole–Hopf transforms are restricted to constant-coefficient Burgers-type equations; I 
-          extended it to a variable-coefficient in a non-trivial nonlinear-source generalization with implications 
-          beyond reachability analysis. It is dramatically easier to discretize and integrate numerically. 
-          This removes a structural numerical bottleneck in resolving these types of PDEs as it enables 
-          Fourier collocation and exponential Runge–Kutta time-stepping, removing the restrictive diffusive timestep 
-          constraint (Δt = O(h²/δ)) that plagues explicit level-set solvers. With a quantifiable 
-          complexity benefit of O(dM log M) vs. O(dM) per step, and without the step-size restriction, this is a cross-disciplinary 
-          numerical-PDE contribution. While framed in terms of  safety reachability (relevant to autonomy/robotics/aerospace), 
-          the underlying transform-and-solve technique is a general tool for any HJ-type PDE with nonlinear gradient terms 
-          — a problem class spanning optimal control, 
-          mean-field games, and stochastic control.
+          New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          rel="noopener">Cole–Hopf-transformed solvers for viscous HJ PDEs</a> with applications to (and beyond) reachability analysis.
+          ✅ Fourier and finite-difference integration of the transformed PDE.
+          ✅ Reference validation on modified
+          <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal
+          chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, <a href="https://liberzon.csl.illinois.edu/teaching/cvoc/node85.html">
+          a double integrator time-to-reach-the-origin problem</a>,
+          and starling-inspired geometic formations: cordon, flash expansion, vacuole nucleation, and flock splitting.
+        # summary: >-
+        #   ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+        #   rel="noopener" style="color: #4FC3F7; font-weight: 400;">Cole–Hopf Transformed Solvers for
+        #   Viscous Hamilton–Jacobi Reachability</a>. A variable-coefficient Cole–Hopf transformation
+        #   maps a viscous HJ equation to a semilinear heat equation arising in backward reachability analysis. 
+        #   While classical Cole–Hopf transforms are restricted to constant-coefficient Burgers-type equations; I 
+        #   extended it to a variable-coefficient in a non-trivial nonlinear-source generalization with implications 
+        #   beyond reachability analysis. It is dramatically easier to discretize and integrate numerically. 
+        #   This removes a structural numerical bottleneck in resolving these types of PDEs as it enables 
+        #   Fourier collocation and exponential Runge–Kutta time-stepping, removing the restrictive diffusive timestep 
+        #   constraint (Δt = O(h²/δ)) that plagues explicit level-set solvers. With a quantifiable 
+        #   complexity benefit of O(dM log M) vs. O(dM) per step, and without the step-size restriction, this is a cross-disciplinary 
+        #   numerical-PDE contribution. While framed in terms of  safety reachability (relevant to autonomy/robotics/aerospace), 
+        #   the underlying transform-and-solve technique is a general tool for any HJ-type PDE with nonlinear gradient terms 
+        #   — a problem class spanning optimal control, 
+        #   mean-field games, and stochastic control.
         highlight: true
         date: Nov 25, 2026
   - items: 'Picard_RoySoc'
