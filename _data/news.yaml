@@ -24,7 +24,7 @@ news_items:
       #     is a general tool for any HJ-type PDE with nonlinear gradient terms — a problem class spanning optimal control, 
       #     mean-field games, and stochastic control.
       - content: >-
-          New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
           rel="noopener">Cole–Hopf-transformed solvers for viscous HJ PDEs</a> with applications to (and beyond) reachability analysis.
           ✅ Fourier and finite-difference integration of the transformed PDE.
           ✅ Reference validation on modified
@@ -33,7 +33,7 @@ news_items:
           a double integrator time-to-reach-the-origin problem</a>,
           and starling-inspired geometic formations: cordon, flash expansion, vacuole nucleation, and flock splitting.
         summary: >-
-          New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
+          ✨ New preprint: <a href="/downloads/Papers/colehopf.pdf" target="_blank"
           rel="noopener">Cole–Hopf-transformed solvers for viscous HJ PDEs</a> with applications to (and beyond) reachability analysis.
           ✅ Fourier and finite-difference integration of the transformed PDE.
           ✅ Reference validation on modified
@@ -92,7 +92,7 @@ news_items:
           target="_blank" rel="noopener">sampling implementation and validation
           code</a> are open source.
         summary: >-
-          New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
+          ✨ New preprint: a <a href="/downloads/Papers/roysoc.pdf" target="_blank" rel="noopener">sampling-based reachability</a> 
           overapproximation algorithm for runtime safety assurance in autonomous systems. Comes with quasilinearization of the nonlinear, 
           time-dependent variational Hamilton-Jacobi-Isaacs equation, convergence and robustness analyses, and safety certification. Also,
           generalized-viscosity solutions validation on modified <a href="https://sector3.imm.uran.ru/HHCP/nice4.pdf" target=_blank>homicidal chauffeur rockets and Dubins vehicles pursuit-evasion games</a>, 
